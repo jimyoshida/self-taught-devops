@@ -138,33 +138,32 @@ Legends:
 ### IP network
 
 * The OSI Model <https://en.wikipedia.org/wiki/OSI_model>
-* TCP <https://datatracker.ietf.org/doc/html/rfc793>
-* UDP <https://datatracker.ietf.org/doc/html/rfc768>
-* ICMP <https://datatracker.ietf.org/doc/html/rfc792>
-* IPv4 <https://datatracker.ietf.org/doc/html/rfc791>
-* IPv6 <https://datatracker.ietf.org/doc/html/rfc8200>
-* ARP <https://datatracker.ietf.org/doc/html/rfc826>
-* NTP <https://datatracker.ietf.org/doc/html/rfc5905>
-* FTP <https://datatracker.ietf.org/doc/html/rfc959>
-* DHCP <https://datatracker.ietf.org/doc/html/rfc2131>
+* TCP <https://www.rfc-editor.org/rfc/rfc793>
+* UDP <https://www.rfc-editor.org/rfc/rfc768>
+* ICMP <https://www.rfc-editor.org/rfc/rfc792>
+* IPv4 <https://www.rfc-editor.org/rfc/rfc791>
+* IPv6 <https://www.rfc-editor.org/rfc/rfc8200>
+* ARP <https://www.rfc-editor.org/rfc/rfc826>
+* FTP <https://www.rfc-editor.org/rfc/rfc959>
+* DHCP <https://www.rfc-editor.org/rfc/rfc2131>
 * iproute2 <https://github.com/shemminger/iproute2> for `ip`, `ss`
 * net-tools <https://sourceforge.net/projects/net-tools/> for `ifconfig`, `netstat`
 * netfilter <https://www.netfilter.org/index.html> for `iptables`
 * chrony <https://chrony.tuxfamily.org/>
 * NetPlan <https://netplan.io/> in Ubuntu
+* NTP <https://www.rfc-editor.org/rfc/rfc5905>
+* pool.ntp.org <https://www.ntppool.org/en/>
 
 ### Domain name system
 
-* DNS <https://datatracker.ietf.org/doc/html/rfc1035> <https://en.wikipedia.org/wiki/Domain_Name_System>
+* DNS <https://www.rfc-editor.org/rfc/rfc1035> <https://en.wikipedia.org/wiki/Domain_Name_System>
 * IANA WHOIS Service <https://www.iana.org/whois>
 * 🆔Amazon Route53 <https://aws.amazon.com/route53/>
 
 ### Email
 
-* The Internet Message Format <https://tools.ietf.org/html/rfc5322>
-  * DKIM (DomainKeys Identified Mail) <https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail> <http://dkim.org/>
-  * SPF (Sender Policy Framework) <https://datatracker.ietf.org/doc/html/rfc7208>
-* SMTP <https://datatracker.ietf.org/doc/html/rfc5321>
+* The Internet Message Format <https://www.rfc-editor.org/rfc/rfc5322>
+* SMTP <https://www.rfc-editor.org/rfc/rfc5321>
 * Postfix <http://www.postfix.org/>
 * 🆔Twilio SendGrid <https://www.twilio.com/sendgrid/email-api>
 * 🆔Amazon SES <https://aws.amazon.com/ses/>
@@ -188,17 +187,18 @@ Legends:
   * 🆔Azure Disk Storage <https://azure.microsoft.com/en-us/services/storage/disks/>
 * 🆔Azure Virtual Network <https://azure.microsoft.com/en-us/services/virtual-network/>
 
+### Load balancers
+
+* 🆔Amazon ELB <https://aws.amazon.com/elasticloadbalancing/>
+* 🆔Azure Load Balancer <https://azure.microsoft.com/en-us/products/load-balancer>
+* 🆔NGINX Plus <https://www.nginx.com/products/nginx/>
+
 ### Blob storage services
 
 * 🆔Amazon S3 <https://aws.amazon.com/s3/>
 * 🆔Azure Blob Storage <https://azure.microsoft.com/en-us/services/storage/blobs/>
 * Ceph <https://ceph.io/>
 * Minio <https://min.io/>
-
-### CDN services
-
-* 🆔Azure Content Delivery Network <https://azure.microsoft.com/en-us/services/cdn/>
-* 🆔Amazon CloudFront <https://aws.amazon.com/cloudfront/>
 
 ### Database and cache
 
@@ -239,6 +239,7 @@ Legends:
 * Hashicorp Consul <https://www.consul.io/>
 * Istio <https://istio.io/>
   * Kiali <https://kiali.io/>
+* Linkerd <https://linkerd.io/>
 * traefik mesh <https://traefik.io/traefik-mesh/>
 * dapr <https://dapr.io/>
 * etcd <https://etcd.io/>
@@ -248,8 +249,8 @@ Legends:
 
 ### 🌏Web basics
 
-* URI / URL <https://tools.ietf.org/html/rfc3986>
-* HTTP / cookie <https://tools.ietf.org/html/rfc6265>
+* URI / URL <https://www.rfc-editor.org/rfc/rfc3986>
+* HTTP / cookie <https://www.rfc-editor.org/rfc/rfc6265>
 * HTML <https://html.spec.whatwg.org/multipage/>
 * CSS <https://www.w3.org/Style/CSS/>
 * DOM <https://www.w3.org/DOM/DOMTR>
@@ -260,6 +261,8 @@ Legends:
 * WebKit <https://developer.apple.com/documentation/webkit>
 * Gecko <https://developer.mozilla.org/en-US/docs/Glossary/Gecko>
 * Blink <https://www.chromium.org/blink/>
+* WebAssembly <https://webassembly.org/>
+* WASI <https://github.com/WebAssembly/WASI>
 
 ### 🌏Web tools
 
@@ -269,6 +272,12 @@ Legends:
 * Links <http://links.twibright.com/>
 * curlie <https://curlie.io/>
 * httpie <https://httpie.io/>
+
+### 🌏CDN services
+
+* 🆔Azure Content Delivery Network <https://azure.microsoft.com/en-us/services/cdn/>
+* 🆔Amazon CloudFront <https://aws.amazon.com/cloudfront/>
+* 🆔Cloudflare <https://www.cloudflare.com/>
 
 ### 🌏Application server
 
@@ -280,35 +289,12 @@ Legends:
 * Kong API gateway <https://github.com/Kong/kong>
 * 🆔Azure API Management <https://azure.microsoft.com/en-us/services/api-management/>
 * 🆔Amazon API Gateway <https://aws.amazon.com/api-gateway/>
+* 🆔NGINX Plus <https://www.nginx.com/products/nginx/>
 
 ### 🌏Data exchange formats
 
 * JSON <https://www.json.org/json-en.html>
 * XML <https://www.w3.org/XML/>
-
-### 🌏🔒Web security
-
-* TLS (Transport Layer Security) <https://tools.ietf.org/html/rfc8446>
-* SNI (Server Name Indication) <https://tools.ietf.org/html/rfc6066>
-* OpenSSL <https://www.openssl.org/>
-* cfssl <https://github.com/cloudflare/cfssl#readme>
-* Fetch Standard <https://fetch.spec.whatwg.org/>
-  * Cross-Origin Resource Sharing (CORS) <https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS>
-* CSP (Content Security Policy) <https://content-security-policy.com/>
-* HTTP Strict Transport Security (HSTS) <https://datatracker.ietf.org/doc/html/rfc6797>
-* 🆔Let's Encrypt <https://letsencrypt.org/>
-* OAuth 2.0 Authorization Framework <https://oauth.net/2/>
-* OpenID Connect <https://openid.net/connect/>
-* JOSE framework <https://datatracker.ietf.org/wg/jose/charter/>
-  * JWT, JWS, JWE, JWK, and JWA
-* 🆔Auth0 <https://auth0.com/>
-* SAML <http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html>
-* WS-Federation <http://docs.oasis-open.org/wsfed/federation/v1.2/ws-federation.html>
-
-### 🌏🔒Web application firewall
-
-* 🆔AWS WAF <https://aws.amazon.com/waf/>
-* 🆔Azure WAF <https://azure.microsoft.com/en-us/services/web-application-firewall/>
 
 ### 🔒Cryptography
 
@@ -321,7 +307,7 @@ Legends:
     * AES <https://en.wikipedia.org/wiki/Advanced_Encryption_Standard>
     * Salsa20 ChaCha <https://en.wikipedia.org/wiki/Salsa20#ChaCha_variant>
   * MAC (Message Authentication Code)
-    * HMAC <https://en.wikipedia.org/wiki/HMAC> <https://tools.ietf.org/html/rfc2104>
+    * HMAC <https://en.wikipedia.org/wiki/HMAC> <https://www.rfc-editor.org/rfc/rfc2104>
   * Modes of Operation
     * CBC (Cipher block chaining) <https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#CBC>
       * IV (Initialization Vector)
@@ -329,7 +315,7 @@ Legends:
     * CCM <https://en.wikipedia.org/wiki/CCM_mode>
 * Public Key / Asymmetric Key
   * Public Key Criptgraphy
-    * RSA <https://en.wikipedia.org/wiki/RSA_(cryptosystem)> <https://tools.ietf.org/html/rfc8017>
+    * RSA <https://en.wikipedia.org/wiki/RSA_(cryptosystem)> <https://www.rfc-editor.org/rfc/rfc8017>
     * EdDSA <https://en.wikipedia.org/wiki/EdDSA>
   * Key Agreement
     * Diffie–Hellman key exchange <https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange>
@@ -339,37 +325,57 @@ Legends:
   * Signature Scheme
     * RSASSA-PKCS1-v1_5, RSASSA-PSS, DSA, ECDSA
   * Key format
-    * PKCS #1: RSA Cryptography Specifications <https://tools.ietf.org/html/rfc8017>
-    * PKCS #12: Personal Information Exchange Syntax <https://tools.ietf.org/html/rfc7292>
+    * PKCS #1: RSA Cryptography Specifications <https://www.rfc-editor.org/rfc/rfc8017>
+    * PKCS #12: Personal Information Exchange Syntax <https://www.rfc-editor.org/rfc/rfc7292>
+* FIPS 140-2 (Security Requirements for Cryptographic Modules) <https://en.wikipedia.org/wiki/FIPS_140-2>
 
-### 🔒Security protocols and tools
+### 🔒Basic security protocols and tools
 
-* X.509 Public Key Infrastructure (PKI) <https://tools.ietf.org/html/rfc5280>
-* Secure Shell (SSH) Transport Layer Protocol <https://tools.ietf.org/html/rfc4253>
+* X.509 Public Key Infrastructure (PKI) <https://www.rfc-editor.org/rfc/rfc5280>
+* Secure Shell (SSH) Transport Layer Protocol <https://www.rfc-editor.org/rfc/rfc4253>
 * OpenSSH <https://www.openssh.com/> / SSH Tunnelling
-  * ssh-agent / keychain / ssh-copy-id
+* keychain <https://www.funtoo.org/Funtoo:Keychain>
 * OpenPGP/GPG <https://gnupg.org/>
-* PPP Challenge Handshake Authentication Protocol (CHAP) <https://tools.ietf.org/html/rfc1994>
-* 🆔AWS Certificate Manager <https://aws.amazon.com/certificate-manager/>
+* PPP Challenge Handshake Authentication Protocol (CHAP) <https://www.rfc-editor.org/rfc/rfc1994>
+* mosh <https://mosh.org/>
+
+### 🔒Email security
+
+* DKIM (DomainKeys Identified Mail) <https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail> <http://dkim.org/>
+* SPF (Sender Policy Framework) <https://www.rfc-editor.org/rfc/rfc7208>
+* DMARC (Domain-based Message Authentication, Reporting & Conformance) <https://dmarc.org/>
 
 ### 🔒Identity and access management
 
+* SELinux <https://selinuxproject.org/page/Main_Page>
+* AppArmor <https://apparmor.net/>
 * 🆔AWS IAM <https://aws.amazon.com/iam/>
-* Kerberos <https://web.mit.edu/kerberos/> <https://tools.ietf.org/html/rfc4120>
+* 🆔AWS Directory Service <https://aws.amazon.com/directoryservice/>
 * 🆔Azure Active Directory <https://azure.microsoft.com/en-us/services/active-directory/>
-* LDAP <https://datatracker.ietf.org/doc/html/rfc4511>
 * 🆔Azure RBAC <https://docs.microsoft.com/en-us/azure/role-based-access-control/overview>
+* LDAP <https://www.rfc-editor.org/rfc/rfc4511>
+* Kerberos <https://web.mit.edu/kerberos/> <https://www.rfc-editor.org/rfc/rfc4120>
 * Athenz <https://www.athenz.io/>
 * SPIFFE <https://spiffe.io/>
 * SPIRE <https://spiffe.io/docs/latest/spire-about/>
+* FIDO2 <https://fidoalliance.org/specifications/>
 
-### 🔒Cloud security posture management (CSPM) / CWPP
+### 🔒Cloud security posture management (CSPM)
 
 * 🆔Microsoft Defender for Cloud <https://azure.microsoft.com/en-us/services/defender-for-cloud/>
+* 🆔AWS Security Hub <https://aws.amazon.com/security-hub/>
+
+### 🔒Runtime threat detection
+
 * 🆔Amazon Inspector <https://aws.amazon.com/inspector/>
-* 🆔Amazon Config <https://aws.amazon.com/config/>
-* 🆔AWS Systems Manager <https://aws.amazon.com/systems-manager/>
+* 🆔Amazon GuardDuty <https://aws.amazon.com/guardduty/>
 * Falco <https://falco.org/>
+* 🆔AWS Systems Manager <https://aws.amazon.com/systems-manager/>
+
+### 🔒Auditing
+
+* 🆔AWS CloudTrail <https://aws.amazon.com/cloudtrail/>
+* 🆔Amazon Config <https://aws.amazon.com/config/>
 
 ### 🔒Policy as code
 
@@ -388,6 +394,37 @@ Legends:
 * ATT&CK <https://attack.mitre.org/>
 * Security Technical Implementation Guides (STIGs) <https://public.cyber.mil/stigs/>
 
+### 🔒🌏Web security
+
+* TLS (Transport Layer Security) <https://www.rfc-editor.org/rfc/rfc8446>
+* SNI (Server Name Indication) <https://www.rfc-editor.org/rfc/rfc6066>
+* OpenSSL <https://www.openssl.org/>
+* cfssl <https://github.com/cloudflare/cfssl#readme>
+* Fetch Standard <https://fetch.spec.whatwg.org/>
+  * Cross-Origin Resource Sharing (CORS) <https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS>
+* CSP (Content Security Policy) <https://content-security-policy.com/>
+* HTTP Strict Transport Security (HSTS) <https://www.rfc-editor.org/rfc/rfc6797>
+* Time-Based One-Time Password Algorithm (TOTP) <https://www.rfc-editor.org/rfc/rfc6238>
+* 🆔Let's Encrypt <https://letsencrypt.org/>
+  * ACME protocol <https://www.rfc-editor.org/rfc/rfc8555.html>
+* certbot <https://certbot.eff.org/>
+* 🆔AWS Certificate Manager <https://aws.amazon.com/certificate-manager/>
+* OAuth 2.0 Authorization Framework <https://oauth.net/2/>
+* OpenID Connect <https://openid.net/connect/>
+* JOSE framework <https://datatracker.ietf.org/wg/jose/charter/>
+  * JWT, JWS, JWE, JWK, and JWA
+* 🆔Auth0 <https://auth0.com/>
+* SAML <http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html>
+* WS-Federation <http://docs.oasis-open.org/wsfed/federation/v1.2/ws-federation.html>
+
+### 🔒🌏Web application firewall / DoS protection
+
+* 🆔AWS WAF <https://aws.amazon.com/waf/>
+* 🆔Azure WAF <https://azure.microsoft.com/en-us/services/web-application-firewall/>
+* 🆔F5 NGINX App Protect <https://www.nginx.com/products/nginx-app-protect/>
+* 🆔AWS Shield <https://aws.amazon.com/shield/>
+* 🆔Azure DDoS Protection <https://azure.microsoft.com/en-us/products/ddos-protection>
+
 --------------------------------------------------------------------------------
 
 ## 2. SwEng/SysEng
@@ -404,13 +441,14 @@ Legends:
 ### Source code management
 
 * Git <https://git-scm.com/>
-  * Git LFS <https://git-lfs.github.com/>
+* Git LFS <https://git-lfs.github.com/>
 * Git for Windows <https://gitforwindows.org/> (MINGW)
 * TortoiseGit <https://tortoisegit.org/>
 * GitLab SCM <https://about.gitlab.com/>
 * BFG Repo-Cleaner <https://rtyley.github.io/bfg-repo-cleaner/>
 * 🆔Azure Repos <https://azure.microsoft.com/en-us/services/devops/repos/>
 * 🆔GitHub <https://github.com/>
+* degit <https://github.com/Rich-Harris/degit>
 
 ### IDE and editors
 
@@ -426,6 +464,7 @@ Legends:
 * Notepad++ <https://notepad-plus-plus.org/>
 * EditorConfig <https://editorconfig.org/>
 * Prettier <https://prettier.io/>
+* Neovim <https://neovim.io/>
 
 ### Local K8s
 
@@ -502,7 +541,7 @@ Legends:
 
 ### Documentation as code
 
-* Markdown <https://datatracker.ietf.org/doc/html/rfc7763>
+* Markdown <https://www.rfc-editor.org/rfc/rfc7763>
 * GFM (GitHub Flavored Markdown) <https://github.github.com/gfm/>
 * Markdownlint <https://github.com/DavidAnson/markdownlint#readme>
 * Groff <https://www.gnu.org/software/groff/>
@@ -569,6 +608,11 @@ Legends:
 * Concourse CI <https://concourse-ci.org/>
 * Argo CD <https://argo-cd.readthedocs.io/>
 * 🆔Azure Pipelines <https://azure.microsoft.com/en-us/services/devops/pipelines/>
+* Flux <https://fluxcd.io/>
+
+### Progressive delivery
+
+* Flagger <https://flagger.app/>
 
 ### Configuration management / IaC
 
@@ -579,10 +623,13 @@ Legends:
   * Atrantis (reference) <https://www.runatlantis.io/>
 * 🆔AWS CloudFormation <https://aws.amazon.com/cloudformation/>
 * 🆔Azure Resource Manager <https://docs.microsoft.com/en-us/azure/azure-resource-manager/>
+  * Bicep language <https://github.com/Azure/bicep>
 * Hashicorp Packer <https://packer.io/>
 * cloud-init <https://cloud-init.io/>
 * Pulumi <https://www.pulumi.com/>
 * KubeVela <https://kubevela.io/>
+* Kustomize <https://kustomize.io/>
+* Helm <https://helm.sh/>
 
 ### Searchers
 
@@ -645,7 +692,6 @@ Legends:
   * 🆔App Insights <https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview>
   * Kusto Query Language <https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/>
 * 🆔AWS CloudWatch <https://aws.amazon.com/cloudwatch/>
-* 🆔AWS CloudTrail <https://aws.amazon.com/cloudtrail/>
 * 🆔Datadog <https://www.datadoghq.com/>
 
 ### Metrics tools
@@ -663,10 +709,14 @@ Legends:
 
 * Grafana Loki <https://grafana.com/oss/loki/>
   * LogQL <https://grafana.com/docs/loki/latest/logql/>
+  * promtail <https://grafana.com/docs/loki/latest/clients/promtail/>
 * Logstash <https://www.elastic.co/logstash>
 * Fluentd <https://www.fluentd.org/>
 * Fluent Bit <https://fluentbit.io/>
-* Syslog <https://tools.ietf.org/html/rfc5424>
+* The Syslog Protocol <https://www.rfc-editor.org/rfc/rfc5424>
+* syslog-ng <https://www.syslog-ng.com/>
+* rsyslog <https://www.rsyslog.com/>
+* systemd-journald / journalctl
 
 ### Tracing tools
 
@@ -688,6 +738,14 @@ Legends:
 * cowsay <http://cowsay.diamonds/>
 * cfonts <https://github.com/dominikwilkowski/cfonts>
 
+### Language tools (advanced)
+
+* LSP <https://microsoft.github.io/language-server-protocol/>
+* DAP <https://microsoft.github.io/debug-adapter-protocol/>
+* Bison <https://www.gnu.org/software/bison/>
+* Flex <https://github.com/westes/flex>
+* LLVM <https://llvm.org/>
+
 ### 🌏Web test and debug tools
 
 * Chrome DevTools <https://developers.google.com/web/tools/chrome-devtools/>
@@ -698,10 +756,6 @@ Legends:
 * Puppeteer <https://developers.google.com/web/tools/puppeteer>
 * Postman/Newman <https://www.getpostman.com/>
 * 🆔Fiddler - Web Debugging Proxy <https://www.telerik.com/fiddler>
-
-### 🌏🔒DAST
-
-* OWASP ZAP <https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project>
 
 ### 🔒SAST and linters
 
@@ -735,15 +789,21 @@ Legends:
 * git-secret <https://git-secret.io/>
 * 🆔Azure Key Vault <https://azure.microsoft.com/en-us/services/key-vault/>
 * 🆔AWS KMS <https://aws.amazon.com/kms/>
+* 🆔AWS Secrets Manager <https://aws.amazon.com/secrets-manager/>
 
 ### 🔒Secure development references
 
+* Zero trust architecture (ZTA) <https://en.wikipedia.org/wiki/Zero_trust_security_model>
 * SLSA framework <https://slsa.dev/>
 * Secure Software Development Framework <https://csrc.nist.gov/Projects/ssdf>
 * ISO/IEC 27001 (Information security standard) / ISMS
 * Threat modeling <https://en.wikipedia.org/wiki/Threat_model>
   * STRIDE model <https://en.wikipedia.org/wiki/STRIDE_%28security%29>
   * OWASP Threat Dragon <https://owasp.org/www-project-threat-dragon/>
+
+### 🔒🌏DAST
+
+* OWASP ZAP <https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project>
 
 ### Agile/Lean references
 
@@ -794,6 +854,7 @@ Legends:
 * Technical Writing <https://developers.google.com/tech-writing>
 * OSS licenses <https://opensource.org/>
 * Creative Commons <https://creativecommons.org/>
+* Distributed ledger technology <https://en.wikipedia.org/wiki/Distributed_ledger>
 
 ### Books
 
@@ -905,7 +966,6 @@ Legends:
 
 * Javascript/Typescript
   * Express.js <https://expressjs.com/>
-  * Bootstrap <https://getbootstrap.com/>
   * React <https://reactjs.org/>
   * Next.js <https://nextjs.org/>
   * Vue.js <https://vuejs.org/>
@@ -921,15 +981,22 @@ Legends:
   * Django <https://www.djangoproject.com/>
   * Flask <https://palletsprojects.com/p/flask/>
 * ASP.NET <https://dotnet.microsoft.com/en-us/apps/aspnet>
+  * Blazor <https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor>
 * Ruby on Rails <https://rubyonrails.org/>
 * Spring Framework <https://spring.io/projects/spring-framework/>
+* Bootstrap <https://getbootstrap.com/>
+* Tailwind CSS <https://tailwindcss.com/>
+* highlight.js <https://highlightjs.org/>
+* Prism <https://prismjs.com>
 
 ### 🌏Document web site generators
 
-* Hugo <https://gohugo.io/> - Docsy <https://www.docsy.dev/>
+* Hugo <https://gohugo.io/>
+  * Docsy <https://www.docsy.dev/>
 * MkDocs <https://www.mkdocs.org/>
   * Material for MkDocs <https://squidfunk.github.io/mkdocs-material/>
 * Sphinx <http://www.sphinx-doc.org/en/master/>
+  * DocUtils <https://docutils.sourceforge.io/>
 * Docusaurus <https://docusaurus.io/>
 * VuePress <https://vuepress.vuejs.org/>
 
@@ -964,19 +1031,15 @@ Legends:
 * The C4 model <https://c4model.com/>
 * ISO/IEC/IEEE 42010 (Architecture description)
 
-### Language development (advanced)
+--------------------------------------------------------------------------------
 
-* LSP <https://microsoft.github.io/language-server-protocol/>
-* DAP <https://microsoft.github.io/debug-adapter-protocol/>
-* Bison <https://www.gnu.org/software/bison/>
-* Flex <https://github.com/westes/flex>
+## 4. AI/ML for DevOps
 
-### AI/ML (advanced)
-
+* 🆔ChatGPT <https://openai.com/blog/chatgpt/>
+* 🆔GitHub Copilot <https://github.com/features/copilot/>
 * TensorFlow <https://www.tensorflow.org/>
 * PyTorch <https://pytorch.org/>
 * Keras <https://keras.io/>
-* OpenAI Codex <https://en.wikipedia.org/wiki/OpenAI_Codex>
 * ARIMA model <https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average>
 
 --------------------------------------------------------------------------------

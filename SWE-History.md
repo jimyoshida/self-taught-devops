@@ -251,6 +251,9 @@ systemd Initial release: 30 March 2010
 🌏SPDY is an obsolete open-specification communication protocol developed for transporting web content.
 Google announced SPDY in late 2009 and deployed in 2010.
 
+🌏Google Native Client (NaCl) was a sandboxing technology for running either a subset of Intel x86, ARM, or MIPS native code, or a portable executable, in a sandbox. It allows safely running native code from a web browser, independent of the user operating system, allowing web apps to run at near-native speeds, which aligns with Google's plans for ChromeOS.
+Initial release: 16 September 2011
+
 🌏QUIC is a general-purpose transport layer network protocol initially designed by Jim Roskind at Google, implemented, and deployed in 2012.
 QUIC Introduction: October 12, 2012
 
@@ -296,6 +299,11 @@ The Cloud Native Computing Foundation (CNCF) is a Linux Foundation project that 
 
 On November 15, 2016, Microsoft announced the general availability of Azure Functions.
 
+🌏WebAssembly (sometimes abbreviated Wasm) defines a portable binary-code format and a corresponding text format for executable programs.
+Announced in 2015 and first released in March 2017.
+
+🌏WebAssembly System Interface (WASI) is a simple interface (ABI and API) designed by Mozilla intended to be portable to any platform. It provides POSIX-like features like file I/O constrained by capability-based security.
+
 At the end of October 2017 Microsoft announced a preview of AKS (Azure Container Service), a managed Kubernetes service in Azure.
 
 On November 6, 2017, Amazon announced the new C5 family of instances that were based on a custom architecture around the KVM hypervisor, called Nitro.
@@ -309,6 +317,8 @@ On June 13, 2018, Microsoft announced the general availability of the Azure Kube
 🌏🔒TLS 1.3 was defined in RFC 8446 in August 2018.
 
 🌏cURL 7.66, released 11 September 2019, supports HTTP/3 (and thus QUIC).
+
+🌏WebAssembly became a World Wide Web Consortium recommendation on 5 December 2019.
 
 The Rust for Linux project was announced in 2020 in the Linux kernel mailing list with goals of leveraging Rust's memory safety to reduce bugs when writing kernel drivers.
 
@@ -506,6 +516,9 @@ On 11 October, 2011, the initial version (version 1.0.0) of Hubot, a chatbot dev
 
 Ansible was written by Michael DeHaan and acquired by Red Hat in 2015.
 Ansible Initial release: February 20, 2012
+
+🌏Emscripten is an LLVM/Clang-based compiler that compiles C and C++ source code to WebAssembly (or to a subset of JavaScript known as asm.js, its original compilation target before the advent of WebAssembly in 2017), primarily for execution in web browsers.
+First release: 11/11/2012
 
 Prometheus is a free software application used for event monitoring and alerting. It records real-time metrics in a time series database built using a HTTP pull model.
 Prometheus was developed at SoundCloud starting in 2012, when the company discovered that its existing metrics and monitoring solutions (using StatsD and Graphite) were not sufficient for their needs.
@@ -815,6 +828,9 @@ Microsoft released a version of C# with async/await for the first time in the As
 
 Ruby 2.0 was intended to be fully backward compatible with Ruby 1.9.3. As of the official 2.0.0 release on February 24, 2013.
 
+🌏asm.js is a subset of JavaScript designed to allow computer software written in languages such as C to be run as web applications while maintaining performance characteristics considerably better than standard JavaScript, which is the typical language used for such applications.
+First appeared: 21 March 2013
+
 🌏React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.
 React Initial release: May 29, 2013
 
@@ -868,11 +884,6 @@ Next.js Initial release: October 25, 2016
 🌏Nuxt.js is a free and open source JavaScript library based on Vue.js, Node.js, Webpack and Babel.js. Nuxt is inspired by Next.js, which is a framework of similar purpose, based on React.js.
 Nuxt.js Initial release: October 26, 2016
 
-🌏WebAssembly (sometimes abbreviated Wasm) defines a portable binary-code format and a corresponding text format for executable programs.
-Announced in 2015 and first released in March 2017.
-
-🌏WebAssembly System Interface (WASI) is a simple interface (ABI and API) designed by Mozilla intended to be portable to any platform. It provides POSIX-like features like file I/O constrained by capability-based security.
-
 Javascript added support for async/await in 2017 as part of ECMAScript 2017 JavaScript edition.
 
 🌏Nest (NestJS) is a framework for building efficient, scalable Node.js server-side applications.
@@ -886,8 +897,6 @@ Blazor Initial release: 2018
 
 On 7 May 2019, Google announced that the Kotlin programming language is now its preferred language for Android app developers.
 
-🌏WebAssembly became a World Wide Web Consortium recommendation on 5 December 2019.
-
 Rust added support for async/await with version 1.39.0 in 2019.
 
 In 2019, the JS Foundation and Node.js Foundation merged to form the OpenJS Foundation.
@@ -895,3 +904,40 @@ In 2019, the JS Foundation and Node.js Foundation merged to form the OpenJS Foun
 In November 2020, Microsoft released .NET 5.0. The "Core" branding was removed and version 4.0 was skipped to avoid conflation with .NET Framework, which remains the Windows-specific product. It addresses the patent concerns related to the .NET Framework.
 
 On February 8, 2021, the formation of the Rust Foundation was announced by its five founding companies (AWS, Huawei, Google, Microsoft, and Mozilla).
+
+## 4. AI/ML for DevOps
+
+The Turing test, originally called the imitation game by Alan Turing in 1950, is a test of a machine's ability to exhibit intelligent behaviour equivalent to, or indistinguishable from, that of a human.
+
+The term machine learning was coined in 1959 by Arthur Samuel, an IBM employee and pioneer in the field of computer gaming and artificial intelligence. The synonym self-teaching computers was also used in this time period.
+
+The term Deep Learning was introduced to the machine learning community by Rina Dechter in 1986.
+
+Torch is an open-source machine learning library, a scientific computing framework, and a script language based on the Lua programming language.
+Initial release: October 2002
+
+In 2004, it was shown by K. S. Oh and K. Jung that standard neural networks can be greatly accelerated on GPUs. Their implementation was 20 times faster than an equivalent implementation on CPU.
+In 2005, another paper also emphasised the value of GPGPU for machine learning.
+
+Keras is an open-source software library that provides a Python interface for artificial neural networks. Keras acts as an interface for the TensorFlow library.
+Initial release: 27 March 2015
+
+TensorFlow is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks.
+Initial release: November 9, 2015
+
+PyTorch is a machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing, originally developed by Meta AI and now part of the Linux Foundation umbrella.
+Initial release: September 2016
+
+Generative Pre-trained Transformer 2 (GPT-2) is an open-source artificial intelligence created by OpenAI in February 2019.
+GPT-2 translates text, answers questions, summarizes passages, and generates text output on a level that, while sometimes indistinguishable from that of humans, can become repetitive or nonsensical when generating long passages.
+
+Generative Pre-trained Transformer 3 (GPT-3) is an autoregressive language model released in 2020 that uses deep learning to produce human-like text. Given an initial text as prompt, it will produce text that continues the prompt.
+
+GitHub Copilot is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments (IDEs) by autocompleting code.
+On June 29, 2021, GitHub announced GitHub Copilot for technical preview in the Visual Studio Code development environment.
+
+OpenAI Codex is an artificial intelligence model developed by OpenAI. It parses natural language and generates code in response. It is used to power GitHub Copilot, a programming autocompletion tool developed for Visual Studio Code.
+Codex is a descendant of OpenAI's GPT-3 model, fine-tuned for use in programming applications.
+Released: Aug 10, 2021
+
+Chat Generative Pre-Trained Transformer, commonly called ChatGPT, is a chatbot launched by OpenAI on November 30, 2022. It is built on top of OpenAI's GPT-3 family of large language models.
