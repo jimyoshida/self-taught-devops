@@ -136,6 +136,7 @@ Agile software engineering is sociotechnical, and it is about joint optimization
 * Kroki <https://kroki.io/>
 * Graphviz <https://graphviz.org/>
   * DOT language <https://graphviz.org/doc/info/lang.html>
+  * haphviz <https://hackage.haskell.org/package/haphviz>
 
 ## Development conventions
 
@@ -205,9 +206,15 @@ Agile software engineering is sociotechnical, and it is about joint optimization
 
 ## Domain name system
 
-* DNS <https://www.rfc-editor.org/rfc/rfc1035> <https://en.wikipedia.org/wiki/Domain_Name_System>
+* DNS <https://datatracker.ietf.org/doc/html/rfc1035> <https://en.wikipedia.org/wiki/Domain_Name_System>
+* mDNS <https://datatracker.ietf.org/doc/html/rfc6763> <https://en.wikipedia.org/wiki/Multicast_DNS>
 * IANA WHOIS Service <https://www.iana.org/whois>
 * Amazon Route53 <https://aws.amazon.com/route53/>
+* BIND dnsutils <https://www.isc.org/bind/> for `dig`, `nslookup`
+* dog <https://github.com/ogham/dog>
+* systemd-resolve <https://manpages.ubuntu.com/manpages/xenial/en/man1/systemd-resolve.1.html>
+* Avahi <https://www.avahi.org/>
+* Bonjour <https://developer.apple.com/bonjour/>
 
 ## Email
 
@@ -221,6 +228,10 @@ Agile software engineering is sociotechnical, and it is about joint optimization
 
 * JSON <https://www.json.org/json-en.html>
 * XML <https://www.w3.org/XML/>
+* ISO 8601: Date and time — Representations for information interchange
+* Unix time <https://en.wikipedia.org/wiki/Unix_time>
+* IEEE 754: Floating-Point Arithmetic
+* ISO 639: Language codes
 
 ## Text processing
 
@@ -257,6 +268,7 @@ Agile software engineering is sociotechnical, and it is about joint optimization
 * Jinja <https://www.palletsprojects.com/p/jinja/>
 * Jsonnet <https://jsonnet.org/>
 * ERB <https://github.com/ruby/erb>
+* Perl template <https://metacpan.org/pod/Text::Template>
 
 ## Console file managers
 

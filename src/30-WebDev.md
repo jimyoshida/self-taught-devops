@@ -130,7 +130,7 @@ This section lists programming languages, frameworks mainly for web application 
 * Elm <https://elm-lang.org/>
 * Test and coverage tools
   * JUnit <https://junit.org/junit5/>
-  * NUnit <https://nunit.org/>
+  * xUnit.net <https://xunit.net/>
   * RSpec <https://rspec.info/>
   * Cucumber <https://cucumber.io/>
   * cobertura <https://cobertura.github.io/cobertura/>
@@ -211,15 +211,22 @@ This section lists programming languages, frameworks mainly for web application 
 
 * Electron <https://www.electronjs.org/>
 
-## UI libraries and frameworks
+## Frontend libraries and frameworks
 
 * React <https://reactjs.org/>
   * MUI <https://mui.com/>
 * Vue.js <https://vuejs.org/>
 * Bootstrap <https://getbootstrap.com/>
 * Tailwind CSS <https://tailwindcss.com/>
+  * daisyUI <https://daisyui.com/>
 * Material Web <https://m3.material.io/develop/web/>
-* Semantic UI <https://semantic-ui.com/>
+* jQuery <https://jquery.com/>
+
+## Frontend tooling
+
+* Vite <https://vitejs.dev/>
+* Parcel <https://parceljs.org/>
+* webpack <https://webpack.js.org/>
 
 ## Document web site generators
 
@@ -231,11 +238,6 @@ This section lists programming languages, frameworks mainly for web application 
   * DocUtils <https://docutils.sourceforge.io/>
 * Docusaurus <https://docusaurus.io/>
 * VuePress <https://vuepress.vuejs.org/>
-
-## Data visualization
-
-* Vega <https://vega.github.io/vega/>
-* Vega-Lite <https://vega.github.io/vega-lite/>
 
 ## Development guidelines
 
@@ -299,7 +301,12 @@ This section lists programming languages, frameworks mainly for web application 
   * DB Browser for SQLite <https://sqlitebrowser.org/>
 * Amazon RDS <https://aws.amazon.com/rds/>
 * Amazon DynamoDB <https://aws.amazon.com/dynamodb/>
-* Azure Cosmos DB <https://azure.microsoft.com/en-us/services/cosmos-db/>
+* Azure Cosmos DB <https://azure.microsoft.com/en-us/products/cosmos-db/>
+* Azure SQL Database <https://azure.microsoft.com/en-us/products/azure-sql/database/>
+  * sqlcmd utility <https://learn.microsoft.com/en-us/sql/tools/sqlcmd/sqlcmd-utility>
+  * sqlpackage <https://learn.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage>
+  * SSMS <https://learn.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms>
+  * DAC <https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications>
 * Beekeeper Studio <https://www.beekeeperstudio.io/>
 * Neo4j <https://neo4j.com/>
 * Amazon Neptune <https://aws.amazon.com/neptune/>
