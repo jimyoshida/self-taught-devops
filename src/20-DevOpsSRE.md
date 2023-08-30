@@ -79,12 +79,13 @@ This section lists DevOps and SRE related technologies with cloud IaaS, CaaS, un
 * ARP <https://www.rfc-editor.org/rfc/rfc826>
 * FTP <https://www.rfc-editor.org/rfc/rfc959>
 * DHCP <https://www.rfc-editor.org/rfc/rfc2131>
+* NTP <https://www.rfc-editor.org/rfc/rfc5905>
+* NetworkManager <https://networkmanager.dev/> with `nmcli`
+* NetPlan <https://netplan.io/> in Ubuntu
 * iproute2 <https://github.com/shemminger/iproute2> for `ip`, `ss`
 * net-tools <https://sourceforge.net/projects/net-tools/> for `ifconfig`, `netstat`
 * netfilter <https://www.netfilter.org/index.html> for `iptables`
 * chrony <https://chrony.tuxfamily.org/>
-* NetPlan <https://netplan.io/> in Ubuntu
-* NTP <https://www.rfc-editor.org/rfc/rfc5905>
 * pool.ntp.org <https://www.ntppool.org/en/>
 
 ## Network diagnostic tools
@@ -94,8 +95,6 @@ This section lists DevOps and SRE related technologies with cloud IaaS, CaaS, un
 * nmon <https://nmon.sourceforge.net/pmwiki.php>
 * netcat <https://nc110.sourceforge.io/>
 * nmap <https://github.com/nmap/nmap#nmap---->
-* BIND dnsutils <https://www.isc.org/bind/> for `dig`, `nslookup`
-* dog <https://github.com/ogham/dog>
 
 ## Container
 
