@@ -253,6 +253,7 @@ Agile software engineering is sociotechnical, and it is about joint optimization
 
 ## Searchers
 
+* glob pattern <https://en.wikipedia.org/wiki/Glob_(programming)>
 * findutils <https://www.gnu.org/software/findutils/>
 * fzf <https://github.com/junegunn/fzf>
 * fd <https://github.com/sharkdp/fd>
@@ -290,3 +291,5 @@ Agile software engineering is sociotechnical, and it is about joint optimization
 * aha - Ansi HTML Adapter <https://github.com/theZiz/aha>
   * NO_COLOR <https://no-color.org/>
 * xlsx2csv <https://github.com/dilshod/xlsx2csv>
+* pdftk <https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/>
+* pdftk-java <https://gitlab.com/pdftk-java/pdftk>

@@ -12,50 +12,54 @@ This section lists DevOps and SRE related technologies with cloud IaaS, CaaS, un
 * Feature Toggles <https://www.martinfowler.com/articles/feature-toggles.html>
 * Canary Releasing <https://martinfowler.com/bliki/CanaryRelease.html>
 
-## Linux Kernel
+## Linux core
 
-* The Linux Kernel <https://www.kernel.org/> <https://tldp.org/index.html>
+* The Linux Kernel <https://www.kernel.org/>
   * signal <https://man7.org/linux/man-pages/man7/signal.7.html>
   * pipe <https://man7.org/linux/man-pages/man7/pipe.7.html>
   * named pipe <https://man7.org/linux/man-pages/man7/fifo.7.html>
   * unix domain socket <https://man7.org/linux/man-pages/man7/unix.7.html>
   * cgroups <https://man7.org/linux/man-pages/man7/cgroups.7.html>
   * namespaces <https://man7.org/linux/man-pages/man7/namespaces.7.html>
-* Virtual memory
-  * VIRT is the size of the virtual memory of the process
-  * RES is the size of resident memory
-  * SHR is the size of shared memory
-  * Buffer is a temporary storage for raw disk blocks
-  * Cache is a page cache for reading files from disk
-* VFS (virtual file system)
-  * proc pseudo-filesystem <https://man7.org/linux/man-pages/man5/proc.5.html>
-  * sysfs pseudo-filesystem <https://man7.org/linux/man-pages/man5/sysfs.5.html>
   * lxc/rootfs <https://man7.org/linux/man-pages/man7/lxc.7.html>
   * overlayfs <https://www.kernel.org/doc/html/latest/filesystems/overlayfs.html>
-* Systemd <https://www.freedesktop.org/wiki/Software/systemd/>
+  * proc pseudo-filesystem <https://man7.org/linux/man-pages/man5/proc.5.html>
+  * sysfs pseudo-filesystem <https://man7.org/linux/man-pages/man5/sysfs.5.html>
 * kvm <https://www.linux-kvm.org/page/Main_Page>
 * eBPF (Extended Berkeley Packet Filter) <https://ebpf.io/>
-* Users and groups
-  * linux-pam <https://github.com/linux-pam/linux-pam>
-  * shadow-utils <https://github.com/shadow-maint/shadow> for `useradd` etc.
-  * sudo <https://www.sudo.ws/>
-* Core utilities
-  * util-linux <https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git/> for `lsblk`, `findmnt`, `lsns` etc.
-  * coreutils <https://www.gnu.org/software/coreutils/> - <https://en.wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands>
-  * Vixie Cron <https://github.com/vixie/cron>
-  * logrotate <https://github.com/logrotate/logrotate>
-  * lsd <https://github.com/Peltoche/lsd>
-  * exa <https://the.exa.website/>
-  * broot <https://dystroy.org/broot/>
-  * bat <https://github.com/sharkdp/bat>
-  * dust <https://github.com/bootandy/dust>
-  * duf <https://github.com/muesli/duf>
-  * tdlr-pages <https://tldr.sh/>
+
+## Basic administration
+
+* Systemd <https://www.freedesktop.org/wiki/Software/systemd/>
+* util-linux <https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git/>
+  * lsblk <https://man7.org/linux/man-pages/man8/lsblk.8.html>
+  * findmnt <https://man7.org/linux/man-pages/man8/findmnt.8.html>
+  * lsns <https://man7.org/linux/man-pages/man8/lsns.8.html>
+  * swapon <https://man7.org/linux/man-pages/man8/swapon.8.html>
+* coreutils <https://www.gnu.org/software/coreutils/>
+  * see also <https://en.wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands>
+* linux-pam <https://github.com/linux-pam/linux-pam>
+* shadow-utils <https://github.com/shadow-maint/shadow>
+  * useradd <https://man7.org/linux/man-pages/man8/useradd.8.html>
+* sudo <https://www.sudo.ws/>
+* Vixie Cron <https://github.com/vixie/cron>
+* logrotate <https://github.com/logrotate/logrotate>
+* lsd <https://github.com/Peltoche/lsd>
+* exa <https://the.exa.website/>
+* broot <https://dystroy.org/broot/>
+* bat <https://github.com/sharkdp/bat>
+* dust <https://github.com/bootandy/dust>
+* duf <https://github.com/muesli/duf>
 
 ## System diagnostic tools
 
-* procps <https://gitlab.com/procps-ng/procps> for `vmstat`, `free`, `top` etc.
-* psmisc <https://gitlab.com/psmisc/psmisc> for `pstree`, `killall` etc.
+* procps <https://gitlab.com/procps-ng/procps>
+  * top <https://www.man7.org/linux/man-pages/man1/top.1.html>
+  * free <https://www.man7.org/linux/man-pages/man1/free.1.html>
+  * vmstat <https://www.man7.org/linux/man-pages/man8/vmstat.8.html>
+* psmisc <https://gitlab.com/psmisc/psmisc>
+  * pstree <https://man7.org/linux/man-pages/man1/pstree.1.html>
+  * killall <https://man7.org/linux/man-pages/man1/killall.1.html>
 * lsof <https://github.com/lsof-org/lsof>
 * strace <https://strace.io/>
 * dtrace <http://dtrace.org/blogs/about/>
@@ -68,23 +72,41 @@ This section lists DevOps and SRE related technologies with cloud IaaS, CaaS, un
 * atop <https://github.com/Atoptool/atop#atop>
 * procs <https://github.com/dalance/procs>
 
-## IP network
+## Network administration
 
 * The OSI Model <https://en.wikipedia.org/wiki/OSI_model>
 * TCP <https://www.rfc-editor.org/rfc/rfc793>
+  * tcp <https://man7.org/linux/man-pages/man7/tcp.7.html>
 * UDP <https://www.rfc-editor.org/rfc/rfc768>
+  * udp <https://man7.org/linux/man-pages/man7/udp.7.html>
 * ICMP <https://www.rfc-editor.org/rfc/rfc792>
 * IPv4 <https://www.rfc-editor.org/rfc/rfc791>
+  * ip <https://man7.org/linux/man-pages/man7/ip.7.html>
 * IPv6 <https://www.rfc-editor.org/rfc/rfc8200>
+  * ipv6 <https://man7.org/linux/man-pages/man7/ipv6.7.html>
 * ARP <https://www.rfc-editor.org/rfc/rfc826>
 * FTP <https://www.rfc-editor.org/rfc/rfc959>
 * DHCP <https://www.rfc-editor.org/rfc/rfc2131>
-* NTP <https://www.rfc-editor.org/rfc/rfc5905>
-* NetworkManager <https://networkmanager.dev/> with `nmcli`
+* iproute2 <https://github.com/shemminger/iproute2>
+  * ip <https://man7.org/linux/man-pages/man8/ip.8.html>
+  * ss <https://man7.org/linux/man-pages/man8/ss.8.html>
+* net-tools <https://sourceforge.net/projects/net-tools/>
+  * ifconfig <https://man7.org/linux/man-pages/man8/ifconfig.8.html>
+  * netstat <https://man7.org/linux/man-pages/man8/netstat.8.html>
+* NetworkManager <https://networkmanager.dev/>
 * NetPlan <https://netplan.io/> in Ubuntu
-* iproute2 <https://github.com/shemminger/iproute2> for `ip`, `ss`
-* net-tools <https://sourceforge.net/projects/net-tools/> for `ifconfig`, `netstat`
-* netfilter <https://www.netfilter.org/index.html> for `iptables`
+
+## Packet processing
+
+* netfilter <https://www.netfilter.org/index.html>
+  * iptables <https://man7.org/linux/man-pages/man8/iptables.8.html>
+* Open vSwitch <https://www.openvswitch.org/>
+* DPDK <https://www.dpdk.org/>
+* FD.io <https://fd.io/>
+
+## Time-syncing
+
+* NTP <https://www.rfc-editor.org/rfc/rfc5905>
 * chrony <https://chrony.tuxfamily.org/>
 * pool.ntp.org <https://www.ntppool.org/en/>
 
@@ -95,6 +117,10 @@ This section lists DevOps and SRE related technologies with cloud IaaS, CaaS, un
 * nmon <https://nmon.sourceforge.net/pmwiki.php>
 * netcat <https://nc110.sourceforge.io/>
 * nmap <https://github.com/nmap/nmap#nmap---->
+
+## Ingress service
+
+* ngrok <https://ngrok.com/>
 
 ## Container
 
