@@ -28,9 +28,11 @@ This section lists DevOps and SRE related technologies with cloud IaaS, CaaS, un
 * kvm <https://www.linux-kvm.org/page/Main_Page>
 * eBPF (Extended Berkeley Packet Filter) <https://ebpf.io/>
 
-## Basic administration
+## Linux basic software
 
 * Systemd <https://www.freedesktop.org/wiki/Software/systemd/>
+* glibc <https://www.gnu.org/software/libc/>
+* gcc <https://www.gnu.org/software/gcc/>
 * util-linux <https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git/>
   * lsblk <https://man7.org/linux/man-pages/man8/lsblk.8.html>
   * findmnt <https://man7.org/linux/man-pages/man8/findmnt.8.html>
@@ -196,11 +198,13 @@ This section lists DevOps and SRE related technologies with cloud IaaS, CaaS, un
 
 * npm <https://www.npmjs.com/>
 * yarn <https://yarnpkg.com/>
-* pip <https://pip.pypa.io/> and PyPI <https://pypi.org/>
+* pip <https://pip.pypa.io/>
+  * PyPI <https://pypi.org/>
 * Go Modules <https://go.dev/ref/mod>
 * RubyGems <https://rubygems.org/>
 * nuget <https://www.nuget.org/>
-* crates.io <https://crates.io/>
+* cargo <https://doc.rust-lang.org/stable/cargo/>
+  * crates.io <https://crates.io/>
 * Hackage <https://hackage.haskell.org/>
 * Gradle <https://gradle.org/>
 * Maven <https://maven.apache.org/>
@@ -208,12 +212,12 @@ This section lists DevOps and SRE related technologies with cloud IaaS, CaaS, un
 ## Package management (System)
 
 * dpkg <https://wiki.debian.org/Teams/Dpkg>
-* APT <https://salsa.debian.org/apt-team/apt>
+  * APT <https://salsa.debian.org/apt-team/apt>
 * Pacman <https://archlinux.org/pacman/>
-* Yay <https://github.com/Jguer/yay>
-* Portage <https://wiki.gentoo.org/wiki/Portage>
+  * Yay <https://github.com/Jguer/yay>
 * homebrew <https://brew.sh/>
-* Flatpak <https://flatpak.org/> and Flathub <https://flathub.org/home>
+* Flatpak <https://flatpak.org/>
+  * Flathub <https://flathub.org/home>
 * snapcraft <https://snapcraft.io/>
 * Chocolatey <https://chocolatey.org>
 
@@ -330,13 +334,6 @@ This section lists DevOps and SRE related technologies with cloud IaaS, CaaS, un
 * lolcat <https://github.com/busyloop/lolcat>
 * cowsay <http://cowsay.diamonds/>
 * cfonts <https://github.com/dominikwilkowski/cfonts>
-
-## Configuration formats
-
-* Hjson <https://hjson.org/>
-* jsonc <https://komkom.github.io/>
-* YAML <https://yaml.org/>
-* TOML <https://github.com/toml-lang/toml>
 
 ## Infrastructure services
 

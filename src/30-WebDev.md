@@ -207,10 +207,6 @@ This section lists programming languages, frameworks mainly for web application 
   * ROA <https://en.wikipedia.org/wiki/Resource-oriented_architecture>
 * GraphQL <https://graphql.org/>
 
-## Desktop application frameworks
-
-* Electron <https://www.electronjs.org/>
-
 ## Frontend libraries and frameworks
 
 * React <https://reactjs.org/>
@@ -263,11 +259,17 @@ This section lists programming languages, frameworks mainly for web application 
 * OpenAPI (Swagger) <https://swagger.io/docs/specification/about/>
 * Sass <https://sass-lang.com/>
 
+## Desktop application frameworks
+
+* Electron <https://www.electronjs.org/>
+* Tauri <https://tauri.app/>
+
 ## Rendering engines
 
 * WebKit <https://developer.apple.com/documentation/webkit>
 * Gecko <https://developer.mozilla.org/en-US/docs/Glossary/Gecko>
 * Blink <https://www.chromium.org/blink/>
+* Servo <https://servo.org/>
 
 ## JavaScript runtimes and engines
 

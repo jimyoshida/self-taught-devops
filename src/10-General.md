@@ -97,13 +97,13 @@ Agile software engineering is sociotechnical, and it is about joint optimization
 
 * Git <https://git-scm.com/>
 * Git LFS <https://git-lfs.github.com/>
-* Git for Windows <https://gitforwindows.org/> (MINGW)
-* TortoiseGit <https://tortoisegit.org/>
 * GitLab SCM <https://about.gitlab.com/>
-* BFG Repo-Cleaner <https://rtyley.github.io/bfg-repo-cleaner/>
-* Azure Repos <https://azure.microsoft.com/en-us/services/devops/repos/>
 * GitHub <https://github.com/>
+* Azure Repos <https://azure.microsoft.com/en-us/services/devops/repos/>
+* TortoiseGit <https://tortoisegit.org/>
+* BFG Repo-Cleaner <https://rtyley.github.io/bfg-repo-cleaner/>
 * degit <https://github.com/Rich-Harris/degit>
+* lazygit <https://github.com/jesseduffield/lazygit>
 
 ## IDE and editors
 
@@ -156,24 +156,37 @@ Agile software engineering is sociotechnical, and it is about joint optimization
 * Mural <https://www.mural.co/>
 * Miro <https://miro.com/>
 
-## Linux desktop
+## Unix-like environment on Windows
+
+* Git for Windows (MINGW) <https://gitforwindows.org/>
+* Cygwin <https://www.cygwin.com/>
+* WSL <https://learn.microsoft.com/en-us/windows/wsl/>
+
+## Type-2 hypervisor
 
 * VirtualBox <https://www.virtualbox.org/>
+* QEMU <https://www.qemu.org/>
+
+## Linux desktop environment
+
 * Debian <https://www.debian.org/>
   * Ubuntu <https://ubuntu.com/>
 * Arch Linux <https://archlinux.org/>
   * Manjaro Linux <https://manjaro.org/>
     * Mabox Linux <https://maboxlinux.org/>
-* Gentoo Linux <https://www.gentoo.org/>
+* GNOME <https://www.gnome.org/>
 * openbox <https://github.com/danakj/openbox>
 * X Window System <https://www.x.org/wiki/>
 * Wayland <https://wayland.freedesktop.org/>
-* Samba <https://www.samba.org/>
 * x11vnc <https://github.com/LibVNC/x11vnc>
 * xrdp <https://github.com/neutrinolabs/xrdp>
 * tightvncserver <https://www.tightvnc.com/>
 * UltraVNC <https://www.uvnc.com/>
 * Remmina <https://remmina.org/>
+
+## File server
+
+* Samba <https://www.samba.org/>
 
 ## Shell
 
@@ -227,11 +240,25 @@ Agile software engineering is sociotechnical, and it is about joint optimization
 ## Data exchange formats
 
 * JSON <https://www.json.org/json-en.html>
+  * jq <https://stedolan.github.io/jq/>
 * XML <https://www.w3.org/XML/>
 * ISO 8601: Date and time — Representations for information interchange
 * Unix time <https://en.wikipedia.org/wiki/Unix_time>
 * IEEE 754: Floating-Point Arithmetic
 * ISO 639: Language codes
+
+## Configuration formats
+
+* YAML <https://yaml.org/>
+  * yq (python) <https://github.com/kislyuk/yq>
+  * yq (go) <https://github.com/mikefarah/yq>
+* TOML <https://github.com/toml-lang/toml>
+
+## Json extentions
+
+* Hjson <https://hjson.org/>
+* jsonc <https://komkom.github.io/>
+* Jsonnet <https://jsonnet.org/>
 
 ## Text processing
 
@@ -239,13 +266,14 @@ Agile software engineering is sociotechnical, and it is about joint optimization
 * Gawk <https://www.gnu.org/software/gawk/>
 * sed <https://www.gnu.org/software/sed/>
 * envsubst in gettext <https://www.gnu.org/software/gettext/>
-* jq <https://stedolan.github.io/jq/>
-* yq <https://mikefarah.gitbook.io/yq/>
-* xsv <https://github.com/BurntSushi/xsv>
-* qsv <https://github.com/jqnatividad/qsv>
 * diffutils <https://www.gnu.org/software/diffutils/>
 * colordiff <https://www.colordiff.org/>
+
+## CSV processing
+
 * csvkit <https://csvkit.readthedocs.io/en/latest/>
+* xsv <https://github.com/BurntSushi/xsv>
+* qsv <https://github.com/jqnatividad/qsv>
 
 ## Unix json adaptor
 
@@ -269,7 +297,7 @@ Agile software engineering is sociotechnical, and it is about joint optimization
 * Jinja <https://www.palletsprojects.com/p/jinja/>
 * Jsonnet <https://jsonnet.org/>
 * ERB <https://github.com/ruby/erb>
-* Perl template <https://metacpan.org/pod/Text::Template>
+* Template Toolkit <http://www.tt2.org/>
 
 ## Console file managers
 
