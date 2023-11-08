@@ -10,14 +10,16 @@ Incorporating security in automation and monitoring is essential for protecting 
 * CWE/SANS TOP 25 <https://www.sans.org/top25-software-errors/>
 * OWASP Top 10 <https://owasp.org/www-project-top-ten/>
 * OWASP ASVS <https://owasp.org/www-project-application-security-verification-standard/>
+* Cloud Application Security Assessment (CASA) <https://appdefensealliance.dev/casa>
 
 ## SAST and linters
 
 * SonarQube <https://www.sonarqube.org/>
   * SQALE method <http://sqale.org/>
+* fluid attacks <https://docs.fluidattacks.com/tech/scanner/plans/foss/>
 * ESLint <https://eslint.org/>
 * JSHint <https://jshint.com/about/>
-* Pylint <https://www.pylint.org/>
+* Ruff <https://docs.astral.sh/ruff/>
 * Haskell Dockerfile Linter <https://github.com/hadolint/hadolint#readme>
 * PSScriptAnalyzer <https://www.powershellgallery.com/packages/PSScriptAnalyzer/1.20.0>
 * ShellCheck <https://www.shellcheck.net/>
