@@ -1,24 +1,56 @@
-# Class B: DevOps and SRE
+# Step 2: System engineering
 
 This section lists DevOps and SRE related technologies with cloud IaaS, CaaS, unix operating systems and the internet protocol suite.
 
-## Concepts
+## Operating system basic concepts
 
-* Site Reliability Engineering <https://landing.google.com/sre/>
-  * Service Level Indicators (SLIs) and Service Level Objectives (SLOs)
-  * Dickerson’s Hierarchy of Service Reliability <https://sre.google/sre-book/part-III-practices/>
-  * The Four Golden Signals <https://sre.google/sre-book/monitoring-distributed-systems/>
-  * The Four Keys of DORA <https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance>
-* Feature Toggles <https://www.martinfowler.com/articles/feature-toggles.html>
-* Canary Releasing <https://martinfowler.com/bliki/CanaryRelease.html>
+* POSIX <https://en.wikipedia.org/wiki/POSIX>
+* process <https://en.wikipedia.org/wiki/Process_(computing)>
+  * pthreads <https://en.wikipedia.org/wiki/Pthreads>
+* environment variable <https://en.wikipedia.org/wiki/Environment_variable>
+* pipeline <https://en.wikipedia.org/wiki/Pipeline_(Unix)>
+* file system <https://en.wikipedia.org/wiki/File_system>
+  * path <https://en.wikipedia.org/wiki/Path_(computing)>
+  * glob pattern <https://en.wikipedia.org/wiki/Glob_(programming)>
+  * file handle/descriptor <https://en.wikipedia.org/wiki/File_descriptor>
+  * symbolic link <https://en.wikipedia.org/wiki/Symbolic_link>
+  * permission <https://en.wikipedia.org/wiki/File-system_permissions>
+* disk partitioning <https://en.wikipedia.org/wiki/Disk_partitioning>
+* loop device <https://en.wikipedia.org/wiki/Loop_device>
+* virtual memory <https://en.wikipedia.org/wiki/Virtual_memory>
+  * memory paging <https://en.wikipedia.org/wiki/Memory_paging>
+* shared memory <https://en.wikipedia.org/wiki/Shared_memory>
 
-## Linux core
+## Network basic concepts
+
+* OSI model <https://en.wikipedia.org/wiki/OSI_model>
+* IP network concetps
+  * IPv4 <https://datatracker.ietf.org/doc/html/rfc791>
+  * IPv6 <https://datatracker.ietf.org/doc/html/rfc8200>
+  * ICMP <https://datatracker.ietf.org/doc/html/rfc792>
+  * ICMPv6 <https://datatracker.ietf.org/doc/html/rfc4443>
+  * DHCP <https://datatracker.ietf.org/doc/html/rfc2131>
+  * DHCPv6 <https://datatracker.ietf.org/doc/html/rfc8415>
+  * Routing table <https://en.wikipedia.org/wiki/Routing_table>
+    * CIDR <https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing>
+  * Global unicast address | Loopback address
+  * Unique local address <https://en.wikipedia.org/wiki/Unique_local_address>
+  * Link-local address <https://en.wikipedia.org/wiki/Link-local_address>
+  * IP-multicast <https://en.wikipedia.org/wiki/IP_multicast>
+* ARP <https://datatracker.ietf.org/doc/html/rfc826>
+  * MAC address <https://en.wikipedia.org/wiki/MAC_address>
+* TCP <https://datatracker.ietf.org/doc/html/rfc793>
+* UDP <https://datatracker.ietf.org/doc/html/rfc768>
+* FTP <https://datatracker.ietf.org/doc/html/rfc959>
+
+## Linux kernel
 
 * The Linux Kernel <https://www.kernel.org/>
   * signal <https://man7.org/linux/man-pages/man7/signal.7.html>
   * pipe <https://man7.org/linux/man-pages/man7/pipe.7.html>
   * named pipe <https://man7.org/linux/man-pages/man7/fifo.7.html>
   * unix domain socket <https://man7.org/linux/man-pages/man7/unix.7.html>
+  * socket <https://man7.org/linux/man-pages/man7/socket.7.html>
   * cgroups <https://man7.org/linux/man-pages/man7/cgroups.7.html>
   * namespaces <https://man7.org/linux/man-pages/man7/namespaces.7.html>
   * lxc/rootfs <https://man7.org/linux/man-pages/man7/lxc.7.html>
@@ -28,7 +60,7 @@ This section lists DevOps and SRE related technologies with cloud IaaS, CaaS, un
 * kvm <https://www.linux-kvm.org/page/Main_Page>
 * eBPF (Extended Berkeley Packet Filter) <https://ebpf.io/>
 
-## Linux basic software
+## Unix utilities
 
 * Systemd <https://www.freedesktop.org/wiki/Software/systemd/>
 * glibc <https://www.gnu.org/software/libc/>
@@ -74,21 +106,8 @@ This section lists DevOps and SRE related technologies with cloud IaaS, CaaS, un
 * atop <https://github.com/Atoptool/atop#atop>
 * procs <https://github.com/dalance/procs>
 
-## Network administration
+## Network administration tools
 
-* The OSI Model <https://en.wikipedia.org/wiki/OSI_model>
-* TCP <https://www.rfc-editor.org/rfc/rfc793>
-  * tcp <https://man7.org/linux/man-pages/man7/tcp.7.html>
-* UDP <https://www.rfc-editor.org/rfc/rfc768>
-  * udp <https://man7.org/linux/man-pages/man7/udp.7.html>
-* ICMP <https://www.rfc-editor.org/rfc/rfc792>
-* IPv4 <https://www.rfc-editor.org/rfc/rfc791>
-  * ip <https://man7.org/linux/man-pages/man7/ip.7.html>
-* IPv6 <https://www.rfc-editor.org/rfc/rfc8200>
-  * ipv6 <https://man7.org/linux/man-pages/man7/ipv6.7.html>
-* ARP <https://www.rfc-editor.org/rfc/rfc826>
-* FTP <https://www.rfc-editor.org/rfc/rfc959>
-* DHCP <https://www.rfc-editor.org/rfc/rfc2131>
 * iproute2 <https://github.com/shemminger/iproute2>
   * ip <https://man7.org/linux/man-pages/man8/ip.8.html>
   * ss <https://man7.org/linux/man-pages/man8/ss.8.html>
@@ -100,6 +119,7 @@ This section lists DevOps and SRE related technologies with cloud IaaS, CaaS, un
 
 ## Packet processing
 
+* NAT <https://en.wikipedia.org/wiki/Network_address_translation>
 * netfilter <https://www.netfilter.org/index.html>
   * iptables <https://man7.org/linux/man-pages/man8/iptables.8.html>
 * Open vSwitch <https://www.openvswitch.org/>
@@ -108,7 +128,7 @@ This section lists DevOps and SRE related technologies with cloud IaaS, CaaS, un
 
 ## Time-syncing
 
-* NTP <https://www.rfc-editor.org/rfc/rfc5905>
+* NTP <https://datatracker.ietf.org/doc/html/rfc5905>
 * chrony <https://chrony.tuxfamily.org/>
 * pool.ntp.org <https://www.ntppool.org/en/>
 
@@ -175,6 +195,24 @@ This section lists DevOps and SRE related technologies with cloud IaaS, CaaS, un
 * OpenFaaS <https://www.openfaas.com/>
 * Knative <https://knative.dev/>
 
+## DevOps and SRE related concepts
+
+* Site Reliability Engineering <https://landing.google.com/sre/>
+  * Service Level Indicators (SLIs) and Service Level Objectives (SLOs)
+  * Dickerson’s Hierarchy of Service Reliability <https://sre.google/sre-book/part-III-practices/>
+  * The Four Golden Signals <https://sre.google/sre-book/monitoring-distributed-systems/>
+  * The Four Keys of DORA <https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance>
+* Feature Toggles <https://www.martinfowler.com/articles/feature-toggles.html>
+* Canary Releasing <https://martinfowler.com/bliki/CanaryRelease.html>
+* The twelve-factor app <https://12factor.net/>
+* The Reactive Manifesto <https://www.reactivemanifesto.org/>
+* Microservices <https://martinfowler.com/articles/microservices.html>
+* Systems theory <https://en.wikipedia.org/wiki/Systems_theory>
+* Game theory <https://en.wikipedia.org/wiki/Game_theory>
+* Toyota Production System <https://global.toyota/en/company/vision-and-philosophy/production-system/>
+* Theory of Constraints <https://www.tocico.org/page/WhatisTOCoverview>
+* DIKW Pyramid <https://en.wikipedia.org/wiki/DIKW_pyramid>
+
 ## K8s as a service
 
 * GKE <https://cloud.google.com/kubernetes-engine/>
@@ -182,32 +220,12 @@ This section lists DevOps and SRE related technologies with cloud IaaS, CaaS, un
 * AWS EKS <https://aws.amazon.com/eks/>
   * eksctl <https://eksctl.io/>
 
-## Web assembly
-
-* WebAssembly <https://webassembly.org/>
-* WASI <https://github.com/WebAssembly/WASI>
-
 ## Java VM
 
 * Java Platform <https://docs.oracle.com/en/java/index.html>
   * Diagnostic commands like `jps`, `jcmd`, `jstat`
   * VisualVM <https://visualvm.github.io/>
   * JMX <https://docs.oracle.com/en/java/javase/17/jmx/index.html>
-
-## Package management (Lang-specific)
-
-* npm <https://www.npmjs.com/>
-* yarn <https://yarnpkg.com/>
-* pip <https://pip.pypa.io/>
-  * PyPI <https://pypi.org/>
-* Go Modules <https://go.dev/ref/mod>
-* RubyGems <https://rubygems.org/>
-* nuget <https://www.nuget.org/>
-* cargo <https://doc.rust-lang.org/stable/cargo/>
-  * crates.io <https://crates.io/>
-* Hackage <https://hackage.haskell.org/>
-* Gradle <https://gradle.org/>
-* Maven <https://maven.apache.org/>
 
 ## Package management (System)
 
@@ -260,27 +278,6 @@ This section lists DevOps and SRE related technologies with cloud IaaS, CaaS, un
 * Helm <https://helm.sh/>
   * Artifact Hub <https://artifacthub.io/>
 
-## Code counters
-
-* scc <https://github.com/boyter/scc/>
-* cloc <https://github.com/AlDanial/cloc>
-
-## Build tools and transpilers
-
-* Make <https://www.gnu.org/software/make/>
-* Gradle <https://gradle.org/>
-* Maven <https://maven.apache.org/>
-* percel <https://parceljs.org/>
-* webpack <https://webpack.js.org/>
-* gulp <https://gulpjs.com/>
-* babel <https://babeljs.io/>
-
-## Tool version managers
-
-* asdf <https://asdf-vm.com/>
-* nodeenv <https://ekalinin.github.io/nodeenv/>
-* virtualenv <https://virtualenv.pypa.io/>
-
 ## Generic observability tools
 
 * Grafana <https://grafana.com/>
@@ -316,7 +313,7 @@ This section lists DevOps and SRE related technologies with cloud IaaS, CaaS, un
 * Logstash <https://www.elastic.co/logstash>
 * Fluentd <https://www.fluentd.org/>
 * Fluent Bit <https://fluentbit.io/>
-* The Syslog Protocol <https://www.rfc-editor.org/rfc/rfc5424>
+* The Syslog Protocol <https://datatracker.ietf.org/doc/html/rfc5424>
 * syslog-ng <https://www.syslog-ng.com/>
 * rsyslog <https://www.rsyslog.com/>
 * systemd-journald / journalctl
@@ -325,6 +322,13 @@ This section lists DevOps and SRE related technologies with cloud IaaS, CaaS, un
 
 * Grafana Tempo <https://grafana.com/oss/tempo/>
 * OpenTelemetry <https://opentelemetry.io/>
+
+## System stress test tools
+
+* stress-ng <https://github.com/ColinIanKing/stress-ng>
+* sysbench <https://github.com/akopytov/sysbench>
+* fio <https://github.com/axboe/fio>
+* iperf <https://iperf.fr/>
 
 ## Enjoyment in logs
 
@@ -345,3 +349,85 @@ This section lists DevOps and SRE related technologies with cloud IaaS, CaaS, un
 * Azure Virtual Network <https://azure.microsoft.com/en-us/services/virtual-network/>
 * Amazon ELB <https://aws.amazon.com/elasticloadbalancing/>
 * Azure Load Balancer <https://azure.microsoft.com/en-us/products/load-balancer>
+
+## Software development life cycle (SDLC)
+
+* ISO/IEC/IEEE 12207: Systems and software engineering — Software life cycle processes
+* ISO/IEC/IEEE 15288: Systems and software engineering — System life cycle processes
+* ISO/IEC 15504: Information technology — Process assessment / CMMI <https://cmmiinstitute.com/>
+* ISO/IEC 20000: Information technology — Service management / ITIL
+* ISO/IEC 25010: Systems and software Quality Requirements and Evaluation (SQuaRE)
+* RACI matrix <https://en.wikipedia.org/wiki/Responsibility_assignment_matrix>
+
+## Type-2 hypervisor
+
+* VirtualBox <https://www.virtualbox.org/>
+* QEMU <https://www.qemu.org/>
+
+## Linux desktop environment
+
+* Debian <https://www.debian.org/>
+  * Ubuntu <https://ubuntu.com/>
+* Arch Linux <https://archlinux.org/>
+  * Manjaro Linux <https://manjaro.org/>
+    * Mabox Linux <https://maboxlinux.org/>
+* GNOME <https://www.gnome.org/>
+* openbox <https://github.com/danakj/openbox>
+* X Window System <https://www.x.org/wiki/>
+* Wayland <https://wayland.freedesktop.org/>
+* x11vnc <https://github.com/LibVNC/x11vnc>
+* xrdp <https://github.com/neutrinolabs/xrdp>
+* tightvncserver <https://www.tightvnc.com/>
+* UltraVNC <https://www.uvnc.com/>
+* Remmina <https://remmina.org/>
+
+## File sharing
+
+* Samba <https://www.samba.org/>
+
+## Domain name system
+
+* DNS <https://datatracker.ietf.org/doc/html/rfc1035> <https://en.wikipedia.org/wiki/Domain_Name_System>
+* mDNS <https://datatracker.ietf.org/doc/html/rfc6763> <https://en.wikipedia.org/wiki/Multicast_DNS>
+* IANA WHOIS Service <https://www.iana.org/whois>
+* Amazon Route53 <https://aws.amazon.com/route53/>
+* BIND dnsutils <https://www.isc.org/bind/> for `dig`, `nslookup`
+* dog <https://github.com/ogham/dog>
+* systemd-resolve <https://manpages.ubuntu.com/manpages/xenial/en/man1/systemd-resolve.1.html>
+* Avahi <https://www.avahi.org/>
+* Bonjour <https://developer.apple.com/bonjour/>
+
+## Email
+
+* The Internet Message Format <https://datatracker.ietf.org/doc/html/rfc5322>
+* SMTP <https://datatracker.ietf.org/doc/html/rfc5321>
+* Postfix <https://www.postfix.org/>
+* Twilio SendGrid <https://www.twilio.com/sendgrid/email-api>
+* Amazon SES <https://aws.amazon.com/ses/>
+
+## Unix json adaptor
+
+* jc <https://kellyjonbrazil.github.io/jc/docs/>
+
+## Console file managers
+
+* midnight commander <https://midnight-commander.org/>
+* ranger <https://github.com/ranger/ranger>
+
+## Archivers
+
+* Gzip <https://www.gnu.org/software/gzip/>
+* tar <https://www.gnu.org/software/tar/>
+* Info-Zip <https://sourceforge.net/projects/infozip/>
+* 7-Zip <https://www.7-zip.org/>
+
+## File transfers and converters
+
+* rsync <https://rsync.samba.org/>
+* s5cmd <https://github.com/peak/s5cmd>
+* pandoc <https://pandoc.org/>
+* aha - Ansi HTML Adapter <https://github.com/theZiz/aha>
+  * NO_COLOR <https://no-color.org/>
+* xlsx2csv <https://github.com/dilshod/xlsx2csv>
+* pdftk <https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/>
+* pdftk-java <https://gitlab.com/pdftk-java/pdftk>

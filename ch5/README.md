@@ -1,4 +1,4 @@
-# Class E: Data and AI
+# Step 5: Data and AI
 
 This section lists AI/ML and LLM technologies related to text/numeric data processing.
 They can help teams to work more efficiently, improve the software quolity, and respond to issues more quickly and effectively.

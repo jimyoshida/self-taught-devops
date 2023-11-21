@@ -1,4 +1,4 @@
-# Class D: Security and privacy
+# Step 4: Security and privacy
 
 This section lists security technologies and standards.
 Incorporating security in automation and monitoring is essential for protecting against cyber threats, complying with regulations, building customer trust, and detecting vulnerabilities early on.
@@ -12,17 +12,11 @@ Incorporating security in automation and monitoring is essential for protecting 
 * OWASP ASVS <https://owasp.org/www-project-application-security-verification-standard/>
 * Cloud Application Security Assessment (CASA) <https://appdefensealliance.dev/casa>
 
-## SAST and linters
+## SAST
 
 * SonarQube <https://www.sonarqube.org/>
   * SQALE method <http://sqale.org/>
 * fluid attacks <https://docs.fluidattacks.com/tech/scanner/plans/foss/>
-* ESLint <https://eslint.org/>
-* JSHint <https://jshint.com/about/>
-* Ruff <https://docs.astral.sh/ruff/>
-* Haskell Dockerfile Linter <https://github.com/hadolint/hadolint#readme>
-* PSScriptAnalyzer <https://www.powershellgallery.com/packages/PSScriptAnalyzer/1.20.0>
-* ShellCheck <https://www.shellcheck.net/>
 * tfsec <https://aquasecurity.github.io/tfsec/>
 * trivy <https://aquasecurity.github.io/trivy/>
 * kube-score <https://kube-score.com/>

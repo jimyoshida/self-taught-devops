@@ -1,6 +1,6 @@
 TITLE := $(shell bash get-title.sh)
 TARGET := out/document.pdf
-SRC := $(shell ls src/*.md)
+SRC := $(shell ls ch*/README.md)
 
 $(TARGET): $(SRC) Makefile README.md
 	mkdir -p out
