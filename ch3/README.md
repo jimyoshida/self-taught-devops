@@ -1,11 +1,24 @@
 # Step 3: Web application development
 
-## Web basics
+## Web standards
 
 * URI / URL <https://www.rfc-editor.org/rfc/rfc3986>
 * HTTP / cookie <https://www.rfc-editor.org/rfc/rfc6265>
+* HTML <https://html.spec.whatwg.org/>
+* XMLHttpRequest (XHR) <https://xhr.spec.whatwg.org/>
+* DOM <https://www.w3.org/DOM/DOMTR>
+* CSS <https://www.w3.org/Style/CSS/>
+* Sass <https://sass-lang.com/>
+* OpenAPI (Swagger) <https://swagger.io/docs/specification/about/>
+* WebAssembly <https://webassembly.org/>
+* WASI <https://github.com/WebAssembly/WASI>
+* WebSockets <https://websockets.spec.whatwg.org/>
+
+## Web tools
+
 * cURL <https://curl.haxx.se/>
 * Wget <https://www.gnu.org/software/wget/>
+* w3m <https://w3m.sourceforge.net/>
 * Lynx <https://lynx.invisible-island.net/>
 * curlie <https://curlie.io/>
 * httpie <https://httpie.io/>
@@ -80,16 +93,6 @@
 * Docusaurus <https://docusaurus.io/>
 * VuePress <https://vuepress.vuejs.org/>
 
-## Web standards
-
-* HTML <https://html.spec.whatwg.org/>
-* XMLHttpRequest (XHR) <https://xhr.spec.whatwg.org/>
-* WebSockets <https://websockets.spec.whatwg.org/>
-* CSS <https://www.w3.org/Style/CSS/>
-* DOM <https://www.w3.org/DOM/DOMTR>
-* OpenAPI (Swagger) <https://swagger.io/docs/specification/about/>
-* Sass <https://sass-lang.com/>
-
 ## Web-based desktop application frameworks
 
 * Electron <https://www.electronjs.org/>
@@ -159,11 +162,6 @@
 * k6 <https://k6.io/>
 * Gatling <https://gatling.io/>
 * Apache Jmeter <https://jmeter.apache.org/>
-
-## Web assembly
-
-* WebAssembly <https://webassembly.org/>
-* WASI <https://github.com/WebAssembly/WASI>
 
 ----
 

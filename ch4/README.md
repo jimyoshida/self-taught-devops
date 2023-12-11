@@ -1,5 +1,77 @@
 # Step 4: Security and privacy
 
+## Security fundamentals
+
+* InfoSec/CIA <https://en.wikipedia.org/wiki/Information_security>
+* Vulnerability <https://en.wikipedia.org/wiki/Vulnerability_(computing)>
+* Identity management <https://en.wikipedia.org/wiki/Identity_management>
+* Directory service <https://en.wikipedia.org/wiki/Directory_service>
+* Zero trust architecture (ZTA) <https://en.wikipedia.org/wiki/Zero_trust_security_model>
+
+## Cryptography
+
+* Unkeyed
+  * Hash Function
+    * MD5 <https://en.wikipedia.org/wiki/MD5>
+    * SHA-2 (SHA-224, SHA-256, SHA-384, SHA-512) <https://en.wikipedia.org/wiki/SHA-2>
+* Common Key / Shard Key / Symmetric Key <https://en.wikipedia.org/wiki/Symmetric-key_algorithm>
+  * Block Cipher
+    * AES <https://en.wikipedia.org/wiki/Advanced_Encryption_Standard>
+    * Salsa20 ChaCha <https://en.wikipedia.org/wiki/Salsa20#ChaCha_variant>
+  * MAC (Message Authentication Code)
+    * HMAC <https://en.wikipedia.org/wiki/HMAC> <https://www.rfc-editor.org/rfc/rfc2104>
+  * Modes of Operation
+    * CBC (Cipher block chaining) <https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#CBC>
+      * IV (Initialization Vector)
+    * GCM (Galois/Counter Mode) <https://en.wikipedia.org/wiki/Galois/Counter_Mode>
+    * CCM <https://en.wikipedia.org/wiki/CCM_mode>
+* Public Key / Asymmetric Key <https://en.wikipedia.org/wiki/Public-key_cryptography>
+  * Public Key Criptgraphy
+    * RSA <https://en.wikipedia.org/wiki/RSA_(cryptosystem)> <https://www.rfc-editor.org/rfc/rfc8017>
+    * EdDSA <https://en.wikipedia.org/wiki/EdDSA>
+  * Key Agreement
+    * Diffie–Hellman key exchange <https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange>
+    * Elliptic-curve Diffie–Hellman <https://en.wikipedia.org/wiki/Elliptic-curve_Diffie%E2%80%93Hellman>
+  * Encryption Scheme
+    * RSAES-PKCS1-v1_5, RSAES-OAEP
+  * Signature Scheme
+    * RSASSA-PKCS1-v1_5, RSASSA-PSS, DSA, ECDSA
+  * Key format
+    * PKCS #1: RSA Cryptography Specifications <https://www.rfc-editor.org/rfc/rfc8017>
+    * PKCS #12: Personal Information Exchange Syntax <https://www.rfc-editor.org/rfc/rfc7292>
+* FIPS 140-2 (Security Requirements for Cryptographic Modules) <https://en.wikipedia.org/wiki/FIPS_140-2>
+
+## Security protocols and tools
+
+* X.509 Public Key Infrastructure (PKI) <https://www.rfc-editor.org/rfc/rfc5280>
+* TLS (Transport Layer Security) <https://www.rfc-editor.org/rfc/rfc8446>
+* OpenSSL <https://www.openssl.org/>
+* Secure Shell (SSH) Transport Layer Protocol <https://www.rfc-editor.org/rfc/rfc4253>
+* OpenSSH <https://www.openssh.com/> / SSH Tunnelling
+* mosh <https://mosh.org/>
+* keychain <https://www.funtoo.org/Funtoo:Keychain>
+* OpenPGP/GPG <https://gnupg.org/>
+* PPP Challenge Handshake Authentication Protocol (CHAP) <https://www.rfc-editor.org/rfc/rfc1994>
+* TOTP (Time-Based One-Time Password Algorithm) <https://www.rfc-editor.org/rfc/rfc6238>
+* stunnnel <https://www.stunnel.org/>
+
+## Web security
+
+* SNI (Server Name Indication) <https://www.rfc-editor.org/rfc/rfc6066>
+* Fetch Standard <https://fetch.spec.whatwg.org/>
+  * CORS (Cross-Origin Resource Sharing) <https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS>
+* CSP (Content Security Policy) <https://content-security-policy.com/>
+* Same-Site Cookies <https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-cookie-same-site-00>
+* HSTS (HTTP Strict Transport Security) <https://www.rfc-editor.org/rfc/rfc6797>
+
+## Certificate tools
+
+* cfssl <https://github.com/cloudflare/cfssl#readme>
+* Let's Encrypt <https://letsencrypt.org/>
+  * ACME protocol <https://www.rfc-editor.org/rfc/rfc8555.html>
+  * certbot <https://certbot.eff.org/>
+* AWS Certificate Manager <https://aws.amazon.com/certificate-manager/>
+
 ## Secure coding
 
 * SEI CERT Coding Standards <https://wiki.sei.cmu.edu/confluence/display/seccode/SEI+CERT+Coding+Standards>
@@ -8,6 +80,26 @@
 * OWASP Top 10 <https://owasp.org/www-project-top-ten/>
 * OWASP ASVS <https://owasp.org/www-project-application-security-verification-standard/>
 * Cloud Application Security Assessment (CASA) <https://appdefensealliance.dev/casa>
+
+## Threat modeling tool
+
+* Threat modeling <https://en.wikipedia.org/wiki/Threat_model>
+  * STRIDE model <https://en.wikipedia.org/wiki/STRIDE_%28security%29>
+* OWASP Threat Dragon <https://owasp.org/www-project-threat-dragon/>
+
+## Security policy definition
+
+* security.txt <https://securitytxt.org/>
+
+## Security guidelines
+
+* SLSA framework <https://slsa.dev/>
+* Secure Software Development Framework <https://csrc.nist.gov/Projects/ssdf>
+* ISO/IEC 27001: Information security management systems (ISMS)
+* ISO/IEC 27017: Security techniques — Code of practice for information security controls
+* ISO/IEC 27018: Security techniques — Code of practice for protection of personally identifiable information (PII) in public clouds
+* PCI DSS <https://www.pcisecuritystandards.org/document_library/>
+* SOC (System and Organization Controls) 2 <https://drata.com/product/soc-2>
 
 ## SAST
 
@@ -39,66 +131,9 @@
 * AWS KMS <https://aws.amazon.com/kms/>
 * AWS Secrets Manager <https://aws.amazon.com/secrets-manager/>
 
-## Security management references
-
-* Zero trust architecture (ZTA) <https://en.wikipedia.org/wiki/Zero_trust_security_model>
-* SLSA framework <https://slsa.dev/>
-* Secure Software Development Framework <https://csrc.nist.gov/Projects/ssdf>
-* Threat modeling <https://en.wikipedia.org/wiki/Threat_model>
-  * STRIDE model <https://en.wikipedia.org/wiki/STRIDE_%28security%29>
-  * OWASP Threat Dragon <https://owasp.org/www-project-threat-dragon/>
-* ISO/IEC 27001: Information security management systems (ISMS)
-* ISO/IEC 27017: Security techniques — Code of practice for information security controls
-* ISO/IEC 27018: Security techniques — Code of practice for protection of personally identifiable information (PII) in public clouds
-* PCI DSS <https://www.pcisecuritystandards.org/document_library/>
-* SOC (System and Organization Controls) 2 <https://drata.com/product/soc-2>
-
 ## DAST
 
 * OWASP ZAP <https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project>
-
-## Cryptography
-
-* Unkeyed
-  * Hash Function
-    * MD5 <https://en.wikipedia.org/wiki/MD5>
-    * SHA-2 (SHA-224, SHA-256, SHA-384, SHA-512) <https://en.wikipedia.org/wiki/SHA-2>
-* Common Key / Shard Key / Symmetric Key
-  * Block Cipher
-    * AES <https://en.wikipedia.org/wiki/Advanced_Encryption_Standard>
-    * Salsa20 ChaCha <https://en.wikipedia.org/wiki/Salsa20#ChaCha_variant>
-  * MAC (Message Authentication Code)
-    * HMAC <https://en.wikipedia.org/wiki/HMAC> <https://www.rfc-editor.org/rfc/rfc2104>
-  * Modes of Operation
-    * CBC (Cipher block chaining) <https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#CBC>
-      * IV (Initialization Vector)
-    * GCM (Galois/Counter Mode) <https://en.wikipedia.org/wiki/Galois/Counter_Mode>
-    * CCM <https://en.wikipedia.org/wiki/CCM_mode>
-* Public Key / Asymmetric Key
-  * Public Key Criptgraphy
-    * RSA <https://en.wikipedia.org/wiki/RSA_(cryptosystem)> <https://www.rfc-editor.org/rfc/rfc8017>
-    * EdDSA <https://en.wikipedia.org/wiki/EdDSA>
-  * Key Agreement
-    * Diffie–Hellman key exchange <https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange>
-    * Elliptic-curve Diffie–Hellman <https://en.wikipedia.org/wiki/Elliptic-curve_Diffie%E2%80%93Hellman>
-  * Encryption Scheme
-    * RSAES-PKCS1-v1_5, RSAES-OAEP
-  * Signature Scheme
-    * RSASSA-PKCS1-v1_5, RSASSA-PSS, DSA, ECDSA
-  * Key format
-    * PKCS #1: RSA Cryptography Specifications <https://www.rfc-editor.org/rfc/rfc8017>
-    * PKCS #12: Personal Information Exchange Syntax <https://www.rfc-editor.org/rfc/rfc7292>
-* FIPS 140-2 (Security Requirements for Cryptographic Modules) <https://en.wikipedia.org/wiki/FIPS_140-2>
-
-## Basic security protocols and tools
-
-* X.509 Public Key Infrastructure (PKI) <https://www.rfc-editor.org/rfc/rfc5280>
-* Secure Shell (SSH) Transport Layer Protocol <https://www.rfc-editor.org/rfc/rfc4253>
-* OpenSSH <https://www.openssh.com/> / SSH Tunnelling
-* keychain <https://www.funtoo.org/Funtoo:Keychain>
-* OpenPGP/GPG <https://gnupg.org/>
-* PPP Challenge Handshake Authentication Protocol (CHAP) <https://www.rfc-editor.org/rfc/rfc1994>
-* mosh <https://mosh.org/>
 
 ## Email security
 
@@ -170,32 +205,19 @@
 * NVD (U.S. National Vulnerability Database) <https://nvd.nist.gov/>
   * CVSS (Common Vulnerability Scoring System) <https://nvd.nist.gov/vuln-metrics/cvss>
 * CVE (Common Vulnerabilities and Exposures) <https://cve.mitre.org/cve/>
-* WASC Threat Classification <http://projects.webappsec.org/w/page/13246978/Threat%20Classification>
+* OSV <https://osv.dev/>
+* SSVC (Stakeholder-Specific Vulnerability Categorization) https://www.cisa.gov/stakeholder-specific-vulnerability-categorization-ssvc
+* KEV (Known Exploited Vulnerabilities) <https://www.cisa.gov/known-exploited-vulnerabilities-catalog>* WASC Threat Classification <http://projects.webappsec.org/w/page/13246978/Threat%20Classification>
 * ATT&CK <https://attack.mitre.org/>
 * Security Technical Implementation Guides (STIGs) <https://public.cyber.mil/stigs/>
-
-## Web security
-
-* TLS (Transport Layer Security) <https://www.rfc-editor.org/rfc/rfc8446>
-* SNI (Server Name Indication) <https://www.rfc-editor.org/rfc/rfc6066>
-* OpenSSL <https://www.openssl.org/>
-* cfssl <https://github.com/cloudflare/cfssl#readme>
-* Fetch Standard <https://fetch.spec.whatwg.org/>
-  * CORS (Cross-Origin Resource Sharing) <https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS>
-* CSP (Content Security Policy) <https://content-security-policy.com/>
-* Same-Site Cookies <https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-cookie-same-site-00>
-* HSTS (HTTP Strict Transport Security) <https://www.rfc-editor.org/rfc/rfc6797>
-* TOTP (Time-Based One-Time Password Algorithm) <https://www.rfc-editor.org/rfc/rfc6238>
-* Let's Encrypt <https://letsencrypt.org/>
-  * ACME protocol <https://www.rfc-editor.org/rfc/rfc8555.html>
-* certbot <https://certbot.eff.org/>
-* AWS Certificate Manager <https://aws.amazon.com/certificate-manager/>
+* NIST SP <https://csrc.nist.gov/publications/sp>
 
 ## Major malicious technique
 
 * XSS (Cross-site scripting) <https://en.wikipedia.org/wiki/Cross-site_scripting>
 * CSRF (Cross-site request forgery) <https://en.wikipedia.org/wiki/Cross-site_request_forgery>
 * Clickjacking <https://en.wikipedia.org/wiki/Clickjacking>
+* DNS hijacking <https://en.wikipedia.org/wiki/DNS_hijacking>
 
 ## Web application firewall / DoS protection
 
