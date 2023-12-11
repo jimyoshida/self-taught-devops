@@ -1,6 +1,6 @@
 # Step 1: Software development
 
-## Programming basic concepts
+## Programming fundamentals
 
 * code <https://en.wikipedia.org/wiki/Source_code>
 * statement <https://en.wikipedia.org/wiki/Statement_(computer_science)>
@@ -341,12 +341,14 @@
 * scc <https://github.com/boyter/scc/>
 * cloc <https://github.com/AlDanial/cloc>
 
-## Build tools
+## Build tools / systems
 
-* Make <https://www.gnu.org/software/make/>
+* GNU Make <https://www.gnu.org/software/make/>
 * Gradle <https://gradle.org/>
 * Maven <https://maven.apache.org/>
-* gulp <https://gulpjs.com/>
+* Task <https://taskfile.dev/>
+* CMake <https://cmake.org/>
+* Meson <https://mesonbuild.com/>
 
 ## Language tools (advanced)
 
@@ -463,7 +465,6 @@
 * XML <https://www.w3.org/XML/>
 * ISO 8601: Date and time — Representations for information interchange
 * Unix time <https://en.wikipedia.org/wiki/Unix_time>
-* IEEE 754: Floating-Point Arithmetic
 * ISO 639: Language codes
 
 ## Configuration formats
@@ -473,7 +474,7 @@
   * yq (go) <https://github.com/mikefarah/yq>
 * TOML <https://github.com/toml-lang/toml>
 
-## Json extentions
+## JSON extentions
 
 * Hjson <https://hjson.org/>
 * jsonc <https://komkom.github.io/>
@@ -486,7 +487,9 @@
 
 ## CSV processing
 
-* csv, tsv, delimiter
+* CSV <https://en.wikipedia.org/wiki/Comma-separated_values>
+  * delimiter <https://en.wikipedia.org/wiki/Delimiter>
+* TSV <https://en.wikipedia.org/wiki/Tab-separated_values>
 * csvkit <https://csvkit.readthedocs.io/en/latest/>
 * xsv <https://github.com/BurntSushi/xsv>
 * qsv <https://github.com/jqnatividad/qsv>
@@ -510,6 +513,10 @@
 * ERB <https://github.com/ruby/erb>
 * Template Toolkit <http://www.tt2.org/>
 * envsubst in gettext <https://www.gnu.org/software/gettext/>
+
+## Binary file processing
+
+* fq <https://github.com/wader/fq>
 
 ## Event streaming
 
@@ -663,8 +670,6 @@ The essay was first presented by the author at the Linux Kongress on May 27, 199
 
 📜 The first edition of ECMA-262 (ECMAScript) was adopted by the Ecma General Assembly in June 1997.
 
-📜 Advanced package tool, or APT, is a free-software user interface that works with core libraries to handle the installation and removal of software on Debian, and Debian-based Linux distributions. APT Initial release: 31 March 1998
-
 📜 In 1998, the Ruby Application Archive was launched by Matsumoto, along with a simple English-language homepage for Ruby.
 
 📜 Perl 5 gained widespread popularity in the late 1990s as a CGI scripting language, in part due to its powerful regular expression and string parsing abilities.
@@ -700,6 +705,9 @@ Initial release: 20 October 2000
 📜 C# (pronounced see sharp) is a general-purpose, multi-paradigm programming language.
 The C# programming language was designed by Anders Hejlsberg from Microsoft in 2000 and was later approved as an international standard by Ecma (ECMA-334) in 2002 and ISO/IEC (ISO/IEC 23270) in 2003.
 First appeared: 2000
+
+📜 CMake development began in 1999, in response to the need for a cross-platform build environment for the Insight Segmentation and Registration Toolkit (ITK).
+CMake was first implemented in 2000 and further developed in 2001.
 
 📜 On February 11-13, 2001, seventeen people met to talk, ski, relax, and try to find common ground—and of course, to eat.
 Together they published the Manifesto for Agile Software Development.
@@ -809,6 +817,9 @@ First appeared: July 22, 2011
 TOML Initial release: 23 February 2013
 
 📜 Ruby 2.0 was intended to be fully backward compatible with Ruby 1.9.3. As of the official 2.0.0 release on February 24, 2013.
+
+📜 Meson is a software tool for automating the building (compiling) of software. The overall goal for Meson is to promote programmer productivity. Meson is free and open-source software written in Python, under the Apache License 2.0.
+Initial release: 2 March 2013
 
 📜 Slack is an instant messaging program designed by Slack Technologies and owned by Salesforce.
 Slack Initial release: August 2013

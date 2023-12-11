@@ -1,6 +1,6 @@
 # Step 2: System administration
 
-## Operating system basic concepts
+## Operating system fundamentals
 
 * POSIX <https://en.wikipedia.org/wiki/POSIX>
 * process <https://en.wikipedia.org/wiki/Process_(computing)>
@@ -19,7 +19,7 @@
   * memory paging <https://en.wikipedia.org/wiki/Memory_paging>
 * shared memory <https://en.wikipedia.org/wiki/Shared_memory>
 
-## Network basic concepts
+## Network fundamentals
 
 * OSI model <https://en.wikipedia.org/wiki/OSI_model>
 * IP network concetps
@@ -209,7 +209,6 @@
 * Game theory <https://en.wikipedia.org/wiki/Game_theory>
 * Toyota Production System <https://global.toyota/en/company/vision-and-philosophy/production-system/>
 * Theory of Constraints <https://www.tocico.org/page/WhatisTOCoverview>
-* DIKW Pyramid <https://en.wikipedia.org/wiki/DIKW_pyramid>
 
 ## K8s as a service
 
@@ -237,8 +236,9 @@
 * snapcraft <https://snapcraft.io/>
 * Chocolatey <https://chocolatey.org>
 
-## Package management (Common)
+## Package builder and hosting
 
+* CMake/CPack <https://cmake.org/>
 * fpm <https://fpm.readthedocs.io/>
 * Repository Manager 3 <https://help.sonatype.com/repomanager3>
 * Azure Artifacts <https://azure.microsoft.com/en-us/services/devops/artifacts/>
@@ -299,9 +299,13 @@
 * Grafana Mimir <https://grafana.com/oss/mimir/>
 * InfluxDB <https://www.influxdata.com/products/influxdb-overview/>
 * Telegraf <https://www.influxdata.com/time-series-platform/telegraf/>
-* OpenCost <https://www.opencost.io/>
 * sysstat <http://sebastien.godard.pagesperso-orange.fr/>
 * smem <https://www.selenic.com/smem/>
+
+## Cloud cost optimization
+
+* OpenCost <https://www.opencost.io/>
+* Karpenter <https://karpenter.sh/>
 
 ## Logging tools
 
@@ -494,6 +498,8 @@ Initial release: 1993
 📈 Debian first stable version (1.1) was released on June 17, 1996.
 
 📈 The Open Group is a global consortium that seeks to "enable the achievement of business objectives" by developing "open, vendor-neutral technology standards and certifications." It was established in 1996 when X/Open merged with the Open Software Foundation.
+
+📈 Advanced package tool, or APT, is a free-software user interface that works with core libraries to handle the installation and removal of software on Debian, and Debian-based Linux distributions. APT Initial release: 31 March 1998
 
 📈 VMware Workstation Pro (known as VMware Workstation until release of VMware Workstation 12 in 2015) is a hosted hypervisor that runs on x64 versions of Windows and Linux operating systems.
 VMware Workstation Initial release: 15 May 1999

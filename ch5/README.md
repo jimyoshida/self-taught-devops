@@ -1,6 +1,6 @@
 # Step 5: Data and AI
 
-## Statistics backgrounds
+## Statistics fundamentals
 
 * Probability theory <https://en.wikipedia.org/wiki/Probability_theory>
 * Pearson correlation coefficient <https://en.wikipedia.org/wiki/Pearson_correlation_coefficient>
@@ -22,7 +22,20 @@
 * RStudio <https://posit.co/download/rstudio-desktop/>
 * JASP <https://jasp-stats.org/>
 
-## DBMS
+## Database fundamentals
+
+* Relational model <https://en.wikipedia.org/wiki/Relational_model>
+* First order logic <https://en.wikipedia.org/wiki/First-order_logic>
+* ER model <https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model>
+* Ontology <https://en.wikipedia.org/wiki/Ontology_(information_science)>
+* DIKW pyramid <https://en.wikipedia.org/wiki/DIKW_pyramid>
+* ORM <https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping>
+* Concurrency control <https://en.wikipedia.org/wiki/Concurrency_control>
+  * ACID <https://en.wikipedia.org/wiki/ACID>
+* ODBC <https://en.wikipedia.org/wiki/Open_Database_Connectivity>
+* JDBC <https://en.wikipedia.org/wiki/Java_Database_Connectivity>
+
+## DBMS and libraries
 
 * PostgreSQL <https://www.postgresql.org/>
   * pgAdmin <https://www.pgadmin.org/>
@@ -167,12 +180,27 @@ The first implementation was a machine built in 1958 at the Cornell Aeronautical
 
 🧠 The term machine learning was coined in 1959 by Arthur Samuel, an IBM employee and pioneer in the field of computer gaming and artificial intelligence. The synonym self-teaching computers was also used in this time period.
 
+### 1970s
+
+🛢️ The term "relational database" was first defined by E. F. Codd at IBM in 1970. Codd introduced the term in his research paper "A Relational Model of Data for Large Shared Data Banks".
+
+🛢️ Structured Query Language (SQL) is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS).
+First appeared: 1974
+
+🛢️ Oracle Database (commonly referred to as Oracle DBMS, Oracle Autonomous Database, or simply as Oracle) is a proprietary multi-model database management system produced and marketed by Oracle Corporation.
+Initial release: 1979
+
 ### 1980s
 
 🧠 In machine learning, backpropagation is a widely used algorithm for training feedforward artificial neural networks or other parameterized networks with differentiable nodes.
 In 1986, David E. Rumelhart et al. published an experimental analysis of the technique. This contributed to the popularization of backpropagation and helped to initiate an active period of research in multilayer perceptrons.
 
 🧠 The term Deep Learning was introduced to the machine learning community by Rina Dechter in 1986.
+
+🛢️ SQL was adopted as a standard by the ANSI in 1986 as SQL-86 and the ISO in 1987.
+
+🛢️ Microsoft SQL Server is a proprietary relational database management system developed by Microsoft. As a database server, it is a software product with the primary function of storing and retrieving data as requested by other software applications.
+Initial release: April 24, 1989
 
 ### 1990s
 
@@ -181,10 +209,21 @@ In 1986, David E. Rumelhart et al. published an experimental analysis of the tec
 🧠 R was started by professors Ross Ihaka and Robert Gentleman as a programming language to teach introductory statistics at the University of Auckland.
 First appeared: August 1993
 
+🛢️ MySQL is an open-source relational database management system (RDBMS).
+MySQL is free and open-source software under the terms of the GNU General Public License, and is also available under a variety of proprietary licenses.
+Initial release: 23 May 1995
+
+🛢️ PostgreSQL also known as Postgres, is a free and open-source relational database management system (RDBMS) emphasizing extensibility and SQL compliance.
+In 1996, the project was renamed to PostgreSQL to reflect its support for SQL.
+Initial release: 8 July 1996
+
 🧠 A recurrent neural network (RNN) is a class of artificial neural networks where connections between nodes can create a cycle, allowing output from some nodes to affect subsequent input to the same nodes. This allows it to exhibit temporal dynamic behavior.
 Long short-term memory (LSTM) networks were invented by Hochreiter and Schmidhuber in 1997 and set accuracy records in multiple applications domains.
 
 ### 2000s
+
+🛢️ SQLite is a database engine written in the C programming language. It is not a standalone app; rather, it is a library that software developers embed in their apps. As such, it belongs to the family of embedded databases.
+Initial release: 17 August 2000
 
 🧠 Torch is an open-source machine learning library, a scientific computing framework, and a script language based on the Lua programming language.
 Initial release: October 2002
