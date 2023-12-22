@@ -8,7 +8,7 @@
 * XMLHttpRequest (XHR) <https://xhr.spec.whatwg.org/>
 * DOM <https://www.w3.org/DOM/DOMTR>
 * CSS <https://www.w3.org/Style/CSS/>
-* Sass <https://sass-lang.com/>
+* Block, Element, Modifier methodology (BEM) <https://en.bem.info>
 * OpenAPI (Swagger) <https://swagger.io/docs/specification/about/>
 * WebAssembly <https://webassembly.org/>
 * WASI <https://github.com/WebAssembly/WASI>
@@ -23,6 +23,10 @@
 * curlie <https://curlie.io/>
 * httpie <https://httpie.io/>
 
+## CSS preprocessor
+
+* Sass <https://sass-lang.com/>
+
 ## Browser automation and debug tools
 
 * Chrome DevTools <https://developer.chrome.com/docs/devtools/>
@@ -31,12 +35,8 @@
 * Selenium WebDriver <https://selenium.dev/documentation/en/webdriver/>
 * Puppeteer <https://developer.chrome.com/docs/puppeteer/>
 * Playwright <https://playwright.dev/>
+* Cypress <https://www.cypress.io>
 * Crawlee <https://crawlee.dev/>
-
-## API test and debug tools
-
-* Postman/Newman <https://www.getpostman.com/>
-* Fiddler - Web Debugging Proxy <https://www.telerik.com/fiddler>
 
 ## Web application frameworks
 
@@ -57,12 +57,6 @@
   * Blazor <https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor>
 * Ruby on Rails <https://rubyonrails.org/>
 * Spring Framework <https://spring.io/projects/spring-framework/>
-
-## Web API query styles
-
-* REST <https://en.wikipedia.org/wiki/Representational_state_transfer>
-  * ROA <https://en.wikipedia.org/wiki/Resource-oriented_architecture>
-* GraphQL <https://graphql.org/>
 
 ## Frontend libraries and frameworks
 
@@ -93,10 +87,23 @@
 * Docusaurus <https://docusaurus.io/>
 * VuePress <https://vuepress.vuejs.org/>
 
-## Web-based desktop application frameworks
+## Web-based desktop/mobile application frameworks
 
 * Electron <https://www.electronjs.org/>
 * Tauri <https://tauri.app/>
+* React Native <https://reactnative.dev>
+* Flutter <https://flutter.dev>
+
+## API test and debug tools
+
+* Postman/Newman <https://www.getpostman.com/>
+* Fiddler - Web Debugging Proxy <https://www.telerik.com/fiddler>
+
+## Web API query styles
+
+* REST <https://en.wikipedia.org/wiki/Representational_state_transfer>
+  * ROA <https://en.wikipedia.org/wiki/Resource-oriented_architecture>
+* GraphQL <https://graphql.org/>
 
 ## Rendering engines
 

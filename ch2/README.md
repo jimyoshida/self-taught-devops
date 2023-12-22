@@ -142,17 +142,27 @@
 
 * ngrok <https://ngrok.com/>
 
-## Container
+## Container runtimes and tools
 
-* containerd <https://containerd.io/>
-* nerdctl <https://github.com/containerd/nerdctl>
 * The Open Container Initiative (OCI) <https://opencontainers.org/>
 * Docker Engine <https://docs.docker.com/engine/>
+  * docker-compose <https://docs.docker.com/compose/>
+* containerd <https://containerd.io/>
+  * nerdctl <https://github.com/containerd/nerdctl>
+* Docker Build <https://docs.docker.com/build/>
+* podman <https://podman.io/>
+* buildah <https://buildah.io/>
+* kaniko <https://github.com/GoogleContainerTools/kaniko>
 * lazydocker <https://github.com/jesseduffield/lazydocker>
 * dive <https://github.com/wagoodman/dive>
-* Docker Registry <https://docs.docker.com/registry/>
+
+## Container registry
+
+* Docker Hub <https://docs.docker.com/docker-hub/>
 * Amazon ECR <https://aws.amazon.com/ecr/>
 * Azure Container Registry <https://azure.microsoft.com/en-us/services/container-registry/>
+* Nexus Repository Manager 3 <https://help.sonatype.com/repomanager3>
+* Jfrog Artifactory <https://jfrog.com/artifactory/>
 
 ## Kubernetes
 
@@ -170,28 +180,64 @@
   * CNI (Container Networking Interface)
   * CSI (Container Storage Interface)
   * CRI (Container Runtime Interface)
-* K8s Tools
-  * Prometheus Operator <https://prometheus-operator.dev/>
-    * kube-prometheus <https://github.com/prometheus-operator/kube-prometheus>
-  * Kubernetes Lens IDE <https://k8slens.dev/>
-  * k9s <https://k9scli.io/>
-  * KDash <https://kdash.cli.rs/>
-  * k1s <https://github.com/weibeld/k1s>
-  * Krew <https://krew.sigs.k8s.io/>
-    * kubectl-node-shell <https://github.com/kvaps/kubectl-node-shell>
-    * kubectl-tree <https://github.com/ahmetb/kubectl-tree#readme>
-    * kubectl-pod-inspect <https://github.com/jpriebe/kubectl-pod-inspect#readme>
-    * kubepug <https://github.com/rikatz/kubepug>
-    * rakkess <https://github.com/corneliusweig/rakkess>
-    * ketall <https://github.com/corneliusweig/ketall>
-* K8s networking
-  * Calico <https://www.tigera.io/projectCalico>
-  * Cilium <https://cilium.io/>
-* Local K8s
-  * Minikube <https://minikube.sigs.k8s.io/docs/>
-  * Kind <https://kind.sigs.k8s.io/>
+    * cri-o <https://cri-o.io/>
+    * cri-tools <https://github.com/kubernetes-sigs/cri-tools>
+* Configuration <https://kubernetes.io/docs/concepts/configuration/>
+  * Secret, ConfigMap
+* Workloads <https://kubernetes.io/docs/concepts/workloads/>
+  * Pod
+    * assignment <https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/>
+    * taint and toleration <https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/>
+    * lifecycle <https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/>
+    * liveness probe <https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/>
+    * requests and limits
+    * security context <https://kubernetes.io/docs/tasks/configure-pod-container/security-context/>
+  * Deployment, ReplicaSet, StatefulSet, DaemonSet
+* Storage <https://kubernetes.io/docs/concepts/storage/>
+  * PersistentVolume, PVC, StorageClass
+* Kubernetes RBAC <https://kubernetes.io/docs/reference/access-authn-authz/rbac/>
+* Kubernetes network model <https://kubernetes.io/docs/concepts/services-networking/>
+  * Service, Ingress, Ingress Controllers
+* PodDisruptionBudget <https://kubernetes.io/docs/tasks/run-application/configure-pdb/>
+* HPA <https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/>
+* Autoscalers <https://github.com/kubernetes/autoscaler/tree/master>
+* kube-fencing <https://github.com/kvaps/kube-fencing>
+
+## K8s tools
+
+* Kubernetes Lens IDE <https://k8slens.dev/>
+* k9s <https://k9scli.io/>
+* KDash <https://kdash.cli.rs/>
+* k1s <https://github.com/weibeld/k1s>
+* Krew <https://krew.sigs.k8s.io/>
+  * kubectl-node-shell <https://github.com/kvaps/kubectl-node-shell>
+  * kubectl-tree <https://github.com/ahmetb/kubectl-tree#readme>
+  * kubectl-pod-inspect <https://github.com/jpriebe/kubectl-pod-inspect#readme>
+  * kubepug <https://github.com/rikatz/kubepug>
+  * rakkess <https://github.com/corneliusweig/rakkess>
+  * ketall <https://github.com/corneliusweig/ketall>
+
+## K8s networking
+
+* Calico <https://www.tigera.io/projectCalico>
+* Cilium <https://cilium.io/>
+
+## Local K8s
+
+* Minikube <https://minikube.sigs.k8s.io/docs/>
+* Kind <https://kind.sigs.k8s.io/>
+
+## FaaS on K8s
+
 * OpenFaaS <https://www.openfaas.com/>
 * Knative <https://knative.dev/>
+
+## K8s operators
+
+* Prometheus Operator <https://prometheus-operator.dev/>
+  * kube-prometheus <https://github.com/prometheus-operator/kube-prometheus>
+* OpenTelemetry Operator <https://opentelemetry.io/docs/kubernetes/operator/>
+* Elastic Cloud on Kubernetes (ECK) <https://www.elastic.co/elastic-cloud-kubernetes>
 
 ## DevOps and SRE related concepts
 
@@ -236,11 +282,12 @@
 * snapcraft <https://snapcraft.io/>
 * Chocolatey <https://chocolatey.org>
 
-## Package builder and hosting
+## Package builder and repository
 
 * CMake/CPack <https://cmake.org/>
 * fpm <https://fpm.readthedocs.io/>
-* Repository Manager 3 <https://help.sonatype.com/repomanager3>
+* Nexus Repository Manager 3 <https://help.sonatype.com/repomanager3>
+* Jfrog Artifactory <https://jfrog.com/artifactory/>
 * Azure Artifacts <https://azure.microsoft.com/en-us/services/devops/artifacts/>
 
 ## CI/CD pipeline
@@ -278,6 +325,7 @@
 
 ## Generic observability tools
 
+* OpenTelemetry <https://opentelemetry.io/>
 * Grafana <https://grafana.com/>
   * Grafonnet <https://grafana.github.io/grafonnet-lib/>
 * Kibana <https://www.elastic.co/kibana>
@@ -290,6 +338,7 @@
   * Kusto Query Language <https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/>
 * AWS CloudWatch <https://aws.amazon.com/cloudwatch/>
 * Datadog <https://www.datadoghq.com/>
+* New Relic <https://newrelic.com>
 * Micrometer <https://micrometer.io/>
 
 ## Metrics tools
@@ -323,7 +372,7 @@
 ## Tracing tools
 
 * Grafana Tempo <https://grafana.com/oss/tempo/>
-* OpenTelemetry <https://opentelemetry.io/>
+* Jaeger <https://www.jaegertracing.io/>
 
 ## System stress test tools
 

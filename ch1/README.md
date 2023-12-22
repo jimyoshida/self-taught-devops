@@ -8,29 +8,33 @@
   * operator, operand
 * literal <https://en.wikipedia.org/wiki/Literal_(computer_programming)>
   * template string/literal
-* keyword
-* data type
-  * object, array, string, character, integer, float, boolean, none, null, nil
+* control flow <https://en.wikipedia.org/wiki/Control_flow>
+* constant <https://en.wikipedia.org/wiki/Constant_(computer_programming)>
+* variable <https://en.wikipedia.org/wiki/Variable_(computer_science)>
+* data type <https://en.wikipedia.org/wiki/Data_type>
+  * primitives <https://en.wikipedia.org/wiki/Primitive_data_type>
+  * array <https://en.wikipedia.org/wiki/Array_(data_type)>
+    * slicing <https://en.wikipedia.org/wiki/Array_slicing>
+  * associative array <https://en.wikipedia.org/wiki/Associative_array>
+  * list <https://en.wikipedia.org/wiki/List_(abstract_data_type)>
+  * stack <https://en.wikipedia.org/wiki/Stack_(abstract_data_type)>
+  * queue <https://en.wikipedia.org/wiki/Queue_(abstract_data_type)>
+  * string <https://en.wikipedia.org/wiki/String_(computer_science)>
 * duck typing <https://en.wikipedia.org/wiki/Duck_typing>
-* constant
-* variable
+* reference <https://en.wikipedia.org/wiki/Reference_(computer_science)>
 * scope <https://en.wikipedia.org/wiki/Scope_(computer_science)>
-* exception
-  * throw, catch
-* function, argument, parameter
+* function <https://en.wikipedia.org/wiki/Function_(computer_programming)>
+  * parameter <https://en.wikipedia.org/wiki/Parameter_(computer_programming)>
+  * anonymous function <https://en.wikipedia.org/wiki/Anonymous_function>
+  * recursion <https://en.wikipedia.org/wiki/Recursion_(computer_science)>
 * built-in fuctions, special variables
 * state <https://en.wikipedia.org/wiki/State_(computer_science)>
-* stack, queue
-* container, iterable, mutable
-  * list, tuple, dictionary
-* slicing <https://en.wikipedia.org/wiki/Array_slicing>
-* recursion <https://en.wikipedia.org/wiki/Recursion_(computer_science)>
 * heredoc <https://en.wikipedia.org/wiki/Here_document>
 * null pointer <https://en.wikipedia.org/wiki/Null_pointer>
 * generic programming <https://en.wikipedia.org/wiki/Generic_programming>
-* anonymous function <https://en.wikipedia.org/wiki/Anonymous_function>
-* closure <https://en.wikipedia.org/wiki/Closure_(computer_programming)>
-* garbage collection
+* exception handling <https://en.wikipedia.org/wiki/Exception_handling_(programming)>
+* this keyword <https://en.wikipedia.org/wiki/This_(computer_programming)>
+* garbage collection <https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)>
 
 ## Object-oriented programming
 
@@ -86,6 +90,7 @@
 
 * npm <https://www.npmjs.com/>
 * yarn <https://yarnpkg.com/>
+* pnpm <https://pnpm.io>
 * pip <https://pip.pypa.io/>
   * PyPI <https://pypi.org/>
 * Go Modules <https://go.dev/ref/mod>
@@ -99,7 +104,7 @@
 
 ## Virtual environment (programming)
 
-* Python venv
+* Python venv <https://docs.python.org/3/library/venv.html>
 * nodeenv <https://ekalinin.github.io/nodeenv/>
 * asdf <https://asdf-vm.com/>
 
@@ -156,13 +161,15 @@
 * functional programming <https://en.wikipedia.org/wiki/Functional_programming>
 * lambda calculus <https://en.wikipedia.org/wiki/Lambda_calculus>
 * first-class function <https://en.wikipedia.org/wiki/First-class_function>
+* closure <https://en.wikipedia.org/wiki/Closure_(computer_programming)>
 * side-effect <https://en.wikipedia.org/wiki/Side_effect_(computer_science)>
 * monad <https://en.wikipedia.org/wiki/Monad_(functional_programming)>
 * currying <https://en.wikipedia.org/wiki/Currying>
+* Referential transparency <https://en.wikipedia.org/wiki/Referential_transparency>
+* Curry-Howard correspondence <https://en.wikipedia.org/wiki/Curry–Howard_correspondence>
 
 ## WIP: Other computer science topics
 
-* Referential transparency <https://en.wikipedia.org/wiki/Referential_transparency>
 * Homoiconicity <https://en.wikipedia.org/wiki/Homoiconicity>
 * Cyclomatic complexity <https://en.wikipedia.org/wiki/Cyclomatic_complexity>
 * Idempotence <https://en.wikipedia.org/wiki/Idempotence>
@@ -279,9 +286,10 @@
 ## Test and coverage tools
 
 * Javascript/Typescript
+  * Vitest <https://vitest.dev>
+  * Jest <https://jestjs.io/>
   * Mocha <https://mochajs.org/>
   * Chai <https://www.chaijs.com/>
-  * Jest <https://jestjs.io/>
   * Jasmine <https://jasmine.github.io/>
   * Istanbul <https://istanbul.js.org/>
 * Go
@@ -405,6 +413,7 @@
 * Mozilla Community Participation Guidelines <https://www.mozilla.org/en-US/about/governance/policies/participation/>
 * Philosophy of the GNU Project <https://www.gnu.org/philosophy/philosophy.html>
 * The GNU Manifesto <https://www.gnu.org/gnu/manifesto.html>
+* Contributor Covenant <https://www.contributor-covenant.org/>
 
 ## Licenses
 
@@ -465,7 +474,7 @@
 * XML <https://www.w3.org/XML/>
 * ISO 8601: Date and time — Representations for information interchange
 * Unix time <https://en.wikipedia.org/wiki/Unix_time>
-* ISO 639: Language codes
+* iCalendar <https://en.wikipedia.org/wiki/ICalendar>
 
 ## Configuration formats
 
@@ -528,6 +537,16 @@
 
 ## History
 
+### 1930s
+
+📜 Lambda calculus is a formal system in mathematical logic for expressing computation based on function abstraction and application using variable binding and substitution.
+The original system was shown to be logically inconsistent in 1935.
+The lambda calculus was introduced by mathematician Alonzo Church in the 1930s as part of an investigation into the foundations of mathematics.
+
+📜 A Turing machine is a mathematical model of computation describing an abstract machine that manipulates symbols on a strip of tape according to a table of rules.
+Alan Turing invented the "a-machine" (automatic machine) in 1936.
+It was Turing's doctoral advisor, Alonzo Church, who later coined the term "Turing machine" in a review.
+
 ### 1940s
 
 📜 In computer programming, assembly language is any low-level programming language with a very strong correspondence between the instructions in the language and the architecture's machine code instructions.
@@ -551,6 +570,8 @@ First appeared: 1962
 
 📜 ed is a line editor for Unix and Unix-like operating systems.
 The ed text editor was one of the first three key elements of the Unix operating system — assembler, editor, and shell — developed by Ken Thompson in August 1969 on a PDP-7 at AT&T Bell Labs.
+
+📜 Hoare logic is a formal system with a set of logical rules for reasoning rigorously about the correctness of computer programs. It was proposed in 1969 by the British computer scientist and logician Tony Hoare, and subsequently refined by Hoare and other researchers.
 
 ### 1970s
 
