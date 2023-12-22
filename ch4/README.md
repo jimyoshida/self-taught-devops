@@ -127,6 +127,7 @@
 * Hashicorp Vault <https://www.vaultproject.io/>
 * SOPS <https://github.com/mozilla/sops#readme>
 * git-secret <https://git-secret.io/>
+* Sealed Secrets <https://sealed-secrets.netlify.app>
 * Azure Key Vault <https://azure.microsoft.com/en-us/services/key-vault/>
 * AWS KMS <https://aws.amazon.com/kms/>
 * AWS Secrets Manager <https://aws.amazon.com/secrets-manager/>
@@ -154,6 +155,7 @@
 
 ## Identity and access management
 
+* Basic auth <https://www.rfc-editor.org/rfc/rfc7617.html>
 * OAuth 2.0 Authorization Framework <https://oauth.net/2/>
 * OpenID Connect <https://openid.net/connect/>
 * JOSE framework <https://datatracker.ietf.org/wg/jose/charter/>
