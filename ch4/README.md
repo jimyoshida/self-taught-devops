@@ -1,4 +1,4 @@
-# Step 4: Security and privacy
+# Step 4: Security and Privacy
 
 ## Security fundamentals
 
@@ -231,7 +231,7 @@
 
 ----
 
-## History
+## Timeline
 
 ### 1970s
 

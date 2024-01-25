@@ -1,2 +1,2 @@
 #!/bin/bash
-grep '^## ' $1 | sed 's/^## /- /'
+sed -n 's/^## /- /p' $1

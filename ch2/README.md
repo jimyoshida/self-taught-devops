@@ -1,4 +1,4 @@
-# Step 2: System administration
+# Step 2: Linux and Network
 
 ## Operating system fundamentals
 
@@ -294,6 +294,7 @@
 
 * Jenkins <https://www.jenkins.io/>
   * Blue Ocean for Jenkins Pipelines <https://www.jenkins.io/projects/blueocean/>
+  * Python Jenkins <https://opendev.org/jjb/python-jenkins>
 * Gitlab CI/CD <https://docs.gitlab.com/ee/ci/>
 * Concourse CI <https://concourse-ci.org/>
 * Argo CD <https://argo-cd.readthedocs.io/>
@@ -476,16 +477,26 @@
 
 * rsync <https://rsync.samba.org/>
 * s5cmd <https://github.com/peak/s5cmd>
-* pandoc <https://pandoc.org/>
 * aha - Ansi HTML Adapter <https://github.com/theZiz/aha>
   * NO_COLOR <https://no-color.org/>
-* xlsx2csv <https://github.com/dilshod/xlsx2csv>
+
+## Office document processing
+
+* Office Open XML <https://en.wikipedia.org/wiki/Office_Open_XML>
+* OpenDocument <https://en.wikipedia.org/wiki/OpenDocument>
+* LibreOffice <https://www.libreoffice.org/>
+* PDF <https://en.wikipedia.org/wiki/PDF>
+* qpdf <https://qpdf.sourceforge.io/>
 * pdftk <https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/>
 * pdftk-java <https://gitlab.com/pdftk-java/pdftk>
+* pandoc <https://pandoc.org/>
+* xlsx2csv <https://github.com/dilshod/xlsx2csv>
+* docx2txt <https://github.com/ankushshah89/python-docx2txt>
+* Ghostscript <https://www.ghostscript.com/>
 
 ----
 
-## History
+## Timeline
 
 ### 1960s
 

@@ -1,11 +1,25 @@
 # Self-taught DevOps
 
-This repository contains opinionated lists of present important concepts, technologies and techniques for devops engineers to learn.
+Welcome to this site, a comprehensive collection of essential concepts, useful technologies, and techniques curated specifically for DevOps engineers.
+
+While the continuous delivery becomes a focal point within the DevOps practice, designing a truly efficient system to drive continuous improvement requires a broader range of knowledge.
+So, this collection contains all such relevant items for learning.
+
+Also, to understand the background of the technologies etc., each section contains the timeline of them. The descriptions are mainly quoted from the [Wikipedia English version](https://en.wikipedia.org/wiki/Main_Page) unless other references are noted.
 
 ## Contents
 
-1. [Step 1: Software development](ch1/README.md)
-1. [Step 2: System administration](ch2/README.md)
-1. [Step 3: Web application development](ch3/README.md)
-1. [Step 4: Security and privacy](ch4/README.md)
-1. [Step 5: Data and AI](ch5/README.md)
+The contents consist of the following 5 sections.
+
+1. [Programming](ch1/README.md)
+1. [Linux and Network](ch2/README.md)
+1. [Web systems](ch3/README.md)
+1. [Security and Privacy](ch4/README.md)
+1. [Data and AI](ch5/README.md)
+1. [Appendix: References](ch9/README.md)
+
+## License
+
+This documentation is licensed under the GNU Free Documentation License (GFDL).
+
+The GFDL is a copyleft license that allows anyone to use, modify, and distribute the documents in this repository. It ensures that derivative works also remain freely licensed by requiring that any modifications or adaptations to the documents be licensed under the GFDL as well.
