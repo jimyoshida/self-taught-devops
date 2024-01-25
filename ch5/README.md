@@ -169,7 +169,7 @@
 
 ----
 
-## History
+## Timeline
 
 ### 1950s
 

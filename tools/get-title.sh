@@ -1,2 +1,2 @@
 #!/bin/bash
-read -r H1 < README.md && echo "${H1:2}"
+sed -n '1{s/^# //p;q}' $1

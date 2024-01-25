@@ -1,4 +1,4 @@
-# Step 3: Web application development
+# Step 3: Web systems
 
 ## Web standards
 
@@ -19,9 +19,23 @@
 * cURL <https://curl.haxx.se/>
 * Wget <https://www.gnu.org/software/wget/>
 * w3m <https://w3m.sourceforge.net/>
-* Lynx <https://lynx.invisible-island.net/>
 * curlie <https://curlie.io/>
 * httpie <https://httpie.io/>
+
+## Web server and reverse proxy
+
+* NGINX <https://www.nginx.com/>
+
+## Classic CGI app server
+
+* Apache HTTP Server <https://httpd.apache.org/>
+  * mod_cgi <https://httpd.apache.org/docs/current/mod/mod_cgi.html>
+* CGI.pm <https://metacpan.org/pod/CGI>
+
+## Classic servlet container
+
+* Jakarta EE <https://jakarta.ee/>
+* Apache Tomcat <https://tomcat.apache.org/>
 
 ## CSS preprocessor
 
@@ -30,16 +44,20 @@
 ## Browser automation and debug tools
 
 * Chrome DevTools <https://developer.chrome.com/docs/devtools/>
+* Chrome for Testing <https://googlechromelabs.github.io/chrome-for-testing/>
 * Karma <https://karma-runner.github.io>
 * Selenium IDE <https://www.selenium.dev/selenium-ide/>
 * Selenium WebDriver <https://selenium.dev/documentation/en/webdriver/>
+* Watir <http://watir.com/>
 * Puppeteer <https://developer.chrome.com/docs/puppeteer/>
 * Playwright <https://playwright.dev/>
 * Cypress <https://www.cypress.io>
 * Crawlee <https://crawlee.dev/>
+* BeautyfulSoup <https://www.crummy.com/software/BeautifulSoup/>
 
 ## Web application frameworks
 
+* Ruby on Rails <https://rubyonrails.org/>
 * Javascript/Typescript
   * Express.js <https://expressjs.com/>
   * Next.js <https://nextjs.org/>
@@ -53,9 +71,9 @@
 * Python
   * Django <https://www.djangoproject.com/>
   * Flask <https://palletsprojects.com/p/flask/>
+  * FastAPI <https://fastapi.tiangolo.com/>
 * ASP.NET <https://dotnet.microsoft.com/en-us/apps/aspnet>
   * Blazor <https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor>
-* Ruby on Rails <https://rubyonrails.org/>
 * Spring Framework <https://spring.io/projects/spring-framework/>
 
 ## Frontend libraries and frameworks
@@ -129,7 +147,6 @@
 
 ## Service proxy
 
-* NGINX <https://www.nginx.com/>
 * envoy <https://www.envoyproxy.io/>
 * traefik proxy <https://traefik.io/traefik/>
 
@@ -157,7 +174,6 @@
 * Kong API gateway <https://github.com/Kong/kong>
 * Azure API Management <https://azure.microsoft.com/en-us/services/api-management/>
 * Amazon API Gateway <https://aws.amazon.com/api-gateway/>
-* NGINX Plus <https://www.nginx.com/products/nginx/>
 
 ## Function as a service
 
@@ -172,7 +188,7 @@
 
 ----
 
-## History
+## Timeline
 
 ### 1980s
 

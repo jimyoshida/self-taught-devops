@@ -1,4 +1,4 @@
-# Step 1: Software development
+# Step 1: Programming
 
 ## Programming fundamentals
 
@@ -170,6 +170,7 @@
 
 ## WIP: Other computer science topics
 
+* Hoare logic <https://en.wikipedia.org/wiki/Hoare_logic>
 * Homoiconicity <https://en.wikipedia.org/wiki/Homoiconicity>
 * Cyclomatic complexity <https://en.wikipedia.org/wiki/Cyclomatic_complexity>
 * Idempotence <https://en.wikipedia.org/wiki/Idempotence>
@@ -241,42 +242,30 @@
 * Haskell <https://www.haskell.org/>
 * Elm <https://elm-lang.org/>
 
-## Javascript/Typescript libraries
+## Javascript/Typescript libraries for command development
 
 * Axios <https://axios-http.com/>
 * Lodash <https://lodash.com/>
 * Moment.js <https://momentjs.com/>
 * Luson <https://moment.github.io/luxon/>
+* yargs <https://yargs.js.org/>
 * Chalk <https://github.com/chalk/chalk>
 * FIGLet.js <https://github.com/patorjk/figlet.js>
 * cli-progress <https://www.npmjs.com/package/cli-progress>
 * gradient-string <https://github.com/bokub/gradient-string>
-* highlight.js <https://highlightjs.org/>
-* Prism <https://prismjs.com>
 
-## JavaScript runtimes
+## Python libraries for command development
 
-* Node.js <https://nodejs.org/>
-  * PM2 <https://pm2.keymetrics.io/>
-* Deno <https://deno.land/>
-* Bun <https://bun.sh/>
-
-## Python libraries
-
+* argparse <https://docs.python.org/3/library/argparse.html>
 * Requests <https://requests.readthedocs.io/en/latest/>
-* BeautyfulSoup <https://www.crummy.com/software/BeautifulSoup/>
 * PyYAML <https://github.com/yaml/pyyaml>
+* tabulate <https://github.com/astanin/python-tabulate>
 * Click <https://palletsprojects.com/p/click/>
 * Typer <https://typer.tiangolo.com/>
-* FastAPI <https://fastapi.tiangolo.com/>
 * Asciimatics <https://github.com/peterbrittain/asciimatics>
-* Python Jira <https://jira.readthedocs.io/>
 * Python Prompt Toolkit <https://python-prompt-toolkit.readthedocs.io/en/master/>
-* Pygments <https://pygments.org/>
-* GUI toolkit
-  * tkinter <https://docs.python.org/3/library/tkinter.html>
 
-## Golang libraries
+## Golang libraries for command development
 
 * cli <https://cli.urfave.org/>
 * cobra <https://cobra.dev/>
@@ -315,11 +304,17 @@
   * Docstring <https://www.python.org/dev/peps/pep-0257/>
 * godoc <https://pkg.go.dev/golang.org/x/tools/cmd/godoc>
 
-## Generic application framework
+## JavaScript runtimes
+
+* Node.js <https://nodejs.org/>
+  * PM2 <https://pm2.keymetrics.io/>
+* Deno <https://deno.land/>
+* Bun <https://bun.sh/>
+
+## .NET and Java SDK
 
 * .NET <https://dotnet.microsoft.com/en-us/>
-* Jakarta EE <https://jakarta.ee/>
-  * Apache Tomcat <https://tomcat.apache.org/>
+* OpenJDK <https://openjdk.org/>
 
 ## Coding guide
 
@@ -367,7 +362,9 @@
 * Flex <https://github.com/westes/flex>
 * LLVM <https://llvm.org/>
 * BNF syntax <https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form>
-* Hoare logic <https://en.wikipedia.org/wiki/Hoare_logic>
+* highlight.js <https://highlightjs.org/>
+* Prism <https://prismjs.com>
+* Pygments <https://pygments.org/>
 
 ## Architecture description
 
@@ -460,6 +457,7 @@
 
 * GitLab Issue Board <https://docs.gitlab.com/ee/user/project/issue_board.html>
 * JIRA <https://www.atlassian.com/software/jira>
+  * Python Jira <https://jira.readthedocs.io/>
 * Confluence <https://www.atlassian.com/software/confluence>
 * Azure Boards <https://azure.microsoft.com/en-us/services/devops/boards/>
 * Slack <https://slack.com/>
@@ -471,6 +469,7 @@
 
 * JSON <https://www.json.org/json-en.html>
   * jq <https://stedolan.github.io/jq/>
+  * json_pp <https://metacpan.org/dist/JSON-PP/view/bin/json_pp>
 * XML <https://www.w3.org/XML/>
 * ISO 8601: Date and time — Representations for information interchange
 * Unix time <https://en.wikipedia.org/wiki/Unix_time>
@@ -535,7 +534,7 @@
 
 ----
 
-## History
+## Timeline
 
 ### 1930s
 
