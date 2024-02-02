@@ -19,7 +19,7 @@
     * AES <https://en.wikipedia.org/wiki/Advanced_Encryption_Standard>
     * Salsa20 ChaCha <https://en.wikipedia.org/wiki/Salsa20#ChaCha_variant>
   * MAC (Message Authentication Code)
-    * HMAC <https://en.wikipedia.org/wiki/HMAC> <https://www.rfc-editor.org/rfc/rfc2104>
+    * HMAC <https://en.wikipedia.org/wiki/HMAC> <https://datatracker.ietf.org/doc/html/rfc2104>
   * Modes of Operation
     * CBC (Cipher block chaining) <https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#CBC>
       * IV (Initialization Vector)
@@ -27,7 +27,7 @@
     * CCM <https://en.wikipedia.org/wiki/CCM_mode>
 * Public Key / Asymmetric Key <https://en.wikipedia.org/wiki/Public-key_cryptography>
   * Public Key Criptgraphy
-    * RSA <https://en.wikipedia.org/wiki/RSA_(cryptosystem)> <https://www.rfc-editor.org/rfc/rfc8017>
+    * RSA <https://en.wikipedia.org/wiki/RSA_(cryptosystem)> <https://datatracker.ietf.org/doc/html/rfc8017>
     * EdDSA <https://en.wikipedia.org/wiki/EdDSA>
   * Key Agreement
     * Diffie–Hellman key exchange <https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange>
@@ -37,38 +37,38 @@
   * Signature Scheme
     * RSASSA-PKCS1-v1_5, RSASSA-PSS, DSA, ECDSA
   * Key format
-    * PKCS #1: RSA Cryptography Specifications <https://www.rfc-editor.org/rfc/rfc8017>
-    * PKCS #12: Personal Information Exchange Syntax <https://www.rfc-editor.org/rfc/rfc7292>
+    * PKCS #1: RSA Cryptography Specifications <https://datatracker.ietf.org/doc/html/rfc8017>
+    * PKCS #12: Personal Information Exchange Syntax <https://datatracker.ietf.org/doc/html/rfc7292>
 * FIPS 140-2 (Security Requirements for Cryptographic Modules) <https://en.wikipedia.org/wiki/FIPS_140-2>
 
 ## Security protocols and tools
 
-* X.509 Public Key Infrastructure (PKI) <https://www.rfc-editor.org/rfc/rfc5280>
-* TLS (Transport Layer Security) <https://www.rfc-editor.org/rfc/rfc8446>
+* X.509 Public Key Infrastructure (PKI) <https://datatracker.ietf.org/doc/html/rfc5280>
+* TLS (Transport Layer Security) <https://datatracker.ietf.org/doc/html/rfc8446>
 * OpenSSL <https://www.openssl.org/>
-* Secure Shell (SSH) Transport Layer Protocol <https://www.rfc-editor.org/rfc/rfc4253>
+* Secure Shell (SSH) Transport Layer Protocol <https://datatracker.ietf.org/doc/html/rfc4253>
 * OpenSSH <https://www.openssh.com/> / SSH Tunnelling
 * mosh <https://mosh.org/>
 * keychain <https://www.funtoo.org/Funtoo:Keychain>
 * OpenPGP/GPG <https://gnupg.org/>
-* PPP Challenge Handshake Authentication Protocol (CHAP) <https://www.rfc-editor.org/rfc/rfc1994>
-* TOTP (Time-Based One-Time Password Algorithm) <https://www.rfc-editor.org/rfc/rfc6238>
+* PPP Challenge Handshake Authentication Protocol (CHAP) <https://datatracker.ietf.org/doc/html/rfc1994>
+* TOTP (Time-Based One-Time Password Algorithm) <https://datatracker.ietf.org/doc/html/rfc6238>
 * stunnnel <https://www.stunnel.org/>
 
 ## Web security
 
-* SNI (Server Name Indication) <https://www.rfc-editor.org/rfc/rfc6066>
+* SNI (Server Name Indication) <https://datatracker.ietf.org/doc/html/rfc6066>
 * Fetch Standard <https://fetch.spec.whatwg.org/>
   * CORS (Cross-Origin Resource Sharing) <https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS>
 * CSP (Content Security Policy) <https://content-security-policy.com/>
 * Same-Site Cookies <https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-cookie-same-site-00>
-* HSTS (HTTP Strict Transport Security) <https://www.rfc-editor.org/rfc/rfc6797>
+* HSTS (HTTP Strict Transport Security) <https://datatracker.ietf.org/doc/html/rfc6797>
 
 ## Certificate tools
 
 * cfssl <https://github.com/cloudflare/cfssl#readme>
 * Let's Encrypt <https://letsencrypt.org/>
-  * ACME protocol <https://www.rfc-editor.org/rfc/rfc8555.html>
+  * ACME protocol <https://datatracker.ietf.org/doc/html/rfc8555.html>
   * certbot <https://certbot.eff.org/>
 * AWS Certificate Manager <https://aws.amazon.com/certificate-manager/>
 
@@ -138,8 +138,9 @@
 
 ## Email security
 
+* SASL (Simple Authentication and Security Layer) <https://datatracker.ietf.org/doc/html/rfc4422>
+* SPF (Sender Policy Framework) <https://datatracker.ietf.org/doc/html/rfc7208>
 * DKIM (DomainKeys Identified Mail) <https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail> <http://dkim.org/>
-* SPF (Sender Policy Framework) <https://www.rfc-editor.org/rfc/rfc7208>
 * DMARC (Domain-based Message Authentication, Reporting & Conformance) <https://dmarc.org/>
 
 ## Process security policy
@@ -149,13 +150,13 @@
 
 ## Directory service
 
-* LDAP <https://www.rfc-editor.org/rfc/rfc4511>
+* LDAP <https://datatracker.ietf.org/doc/html/rfc4511>
 * OpenLDAP <https://www.openldap.org/>
 * 389 Directory Server <https://directory.fedoraproject.org/>
 
 ## Identity and access management
 
-* Basic auth <https://www.rfc-editor.org/rfc/rfc7617.html>
+* Basic auth <https://datatracker.ietf.org/doc/html/rfc7617.html>
 * OAuth 2.0 Authorization Framework <https://oauth.net/2/>
 * OpenID Connect <https://openid.net/connect/>
 * JOSE framework <https://datatracker.ietf.org/wg/jose/charter/>
@@ -174,7 +175,7 @@
 * SPIRE <https://spiffe.io/docs/latest/spire-about/>
 * FIDO2 <https://fidoalliance.org/specifications/>
 * FreeIPA <https://www.freeipa.org/>
-* Kerberos <https://web.mit.edu/kerberos/> <https://www.rfc-editor.org/rfc/rfc4120>
+* Kerberos <https://web.mit.edu/kerberos/> <https://datatracker.ietf.org/doc/html/rfc4120>
 
 ## Cloud security posture management (CSPM)
 

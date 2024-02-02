@@ -27,7 +27,6 @@
   * parameter <https://en.wikipedia.org/wiki/Parameter_(computer_programming)>
   * anonymous function <https://en.wikipedia.org/wiki/Anonymous_function>
   * recursion <https://en.wikipedia.org/wiki/Recursion_(computer_science)>
-* built-in fuctions, special variables
 * state <https://en.wikipedia.org/wiki/State_(computer_science)>
 * heredoc <https://en.wikipedia.org/wiki/Here_document>
 * null pointer <https://en.wikipedia.org/wiki/Null_pointer>
@@ -38,17 +37,12 @@
 
 ## Object-oriented programming
 
-* class, instance
-  * class variable, instance variable
-* interface
-* prototype
-* method, property
-  * override
-* encapsulation
-* inheritance
-* polymorphism
 * abstraction <https://en.wikipedia.org/wiki/Abstraction_(computer_science)>
-* composition
+* class <https://en.wikipedia.org/wiki/Class_(computer_programming)>
+* interface <https://en.wikipedia.org/wiki/Interface_(object-oriented_programming)>
+* method <https://en.wikipedia.org/wiki/Method_(computer_programming)>
+* encapsulation <https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)>
+* polymorphism <https://en.wikipedia.org/wiki/Polymorphism_(computer_science)>
 * covariance and contravariance <https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)>
 
 ## Unix-like environment on Windows
@@ -57,7 +51,7 @@
 * Cygwin <https://www.cygwin.com/>
 * WSL <https://learn.microsoft.com/en-us/windows/wsl/>
 
-## Shell
+## Shell and shell utility
 
 * bash <https://www.gnu.org/software/bash/>
 * zsh <https://www.zsh.org/>
@@ -66,6 +60,7 @@
 * PowerShell <https://docs.microsoft.com/en-us/powershell/>
 * nushell <https://www.nushell.sh/>
 * starship <https://starship.rs/>
+* charm_gum <https://github.com/charmbracelet/gum>
 
 ## Terminal
 
@@ -76,15 +71,20 @@
 * Noto Fonts <https://fonts.google.com/noto>
 * Nerd Fonts <https://www.nerdfonts.com/>
 
-## Text processing
+## Text file processing
 
-* regex <https://en.wikipedia.org/wiki/Regular_expression>
-  * greedy matching
-  * quantifier
-  * subexpression
-  * assertion
-* sed <https://www.gnu.org/software/sed/>
-* Gawk <https://www.gnu.org/software/gawk/>
+* ASCII <https://en.wikipedia.org/wiki/ASCII>
+* Unicode <https://home.unicode.org/>
+* Regex <https://en.wikipedia.org/wiki/Regular_expression>
+* PCRE <https://en.wikipedia.org/wiki/Perl_Compatible_Regular_Expressions>
+* GNU sed <https://www.gnu.org/software/sed/> <https://sed.sourceforge.io/>
+* GNU awk <https://www.gnu.org/software/gawk/>
+* TSV <https://en.wikipedia.org/wiki/Tab-separated_values>
+* CSV <https://en.wikipedia.org/wiki/Comma-separated_values>
+  * delimiter <https://en.wikipedia.org/wiki/Delimiter>
+* csvkit <https://csvkit.readthedocs.io/en/latest/>
+* xsv <https://github.com/BurntSushi/xsv>
+* qsv <https://github.com/jqnatividad/qsv>
 
 ## Package management (programming)
 
@@ -192,7 +192,7 @@
     * backtick operator
   * autovivification
 * Javascript/ECMAScript <https://www.ecma-international.org/publications/standards/Ecma-262.htm>
-  * prototypal inheritance
+  * prototypal inheritance <https://en.wikipedia.org/wiki/Prototype-based_programming>
   * event-driven
   * spread and rest operators
   * generator
@@ -493,15 +493,6 @@
 * diffutils <https://www.gnu.org/software/diffutils/>
 * colordiff <https://www.colordiff.org/>
 
-## CSV processing
-
-* CSV <https://en.wikipedia.org/wiki/Comma-separated_values>
-  * delimiter <https://en.wikipedia.org/wiki/Delimiter>
-* TSV <https://en.wikipedia.org/wiki/Tab-separated_values>
-* csvkit <https://csvkit.readthedocs.io/en/latest/>
-* xsv <https://github.com/BurntSushi/xsv>
-* qsv <https://github.com/jqnatividad/qsv>
-
 ## Search tools
 
 * findutils <https://www.gnu.org/software/findutils/>
@@ -522,15 +513,13 @@
 * Template Toolkit <http://www.tt2.org/>
 * envsubst in gettext <https://www.gnu.org/software/gettext/>
 
-## Binary file processing
-
-* fq <https://github.com/wader/fq>
-
-## Event streaming
+## Application messaging
 
 * Kafka <https://kafka.apache.org/>
 * Amazon Managed Streaming for Apache Kafka (MSK) <https://aws.amazon.com/msk/>
 * Azure Event Hubs <https://azure.microsoft.com/en-us/products/event-hubs/>
+* Amazon Simple Queue Service <https://aws.amazon.com/sqs/>
+* Amazon Simple Notification Service <https://aws.amazon.com/sns/>
 
 ----
 

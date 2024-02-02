@@ -58,7 +58,7 @@
 * kvm <https://www.linux-kvm.org/page/Main_Page>
 * eBPF (Extended Berkeley Packet Filter) <https://ebpf.io/>
 
-## Unix utilities
+## Basic utilities
 
 * Systemd <https://www.freedesktop.org/wiki/Software/systemd/>
 * glibc <https://www.gnu.org/software/libc/>
@@ -82,6 +82,7 @@
 * bat <https://github.com/sharkdp/bat>
 * dust <https://github.com/bootandy/dust>
 * duf <https://github.com/muesli/duf>
+* gsudo - a sudo for Windows <https://github.com/gerardog/gsudo>
 
 ## System diagnostic tools
 
@@ -103,6 +104,7 @@
 * iotop <http://guichaz.free.fr/iotop/>
 * atop <https://github.com/Atoptool/atop#atop>
 * procs <https://github.com/dalance/procs>
+* Sysinternals <https://learn.microsoft.com/en-us/sysinternals/>
 
 ## Network administration tools
 
@@ -263,12 +265,12 @@
 * AWS EKS <https://aws.amazon.com/eks/>
   * eksctl <https://eksctl.io/>
 
-## Java VM
+## Java VM operation
 
-* Java Platform <https://docs.oracle.com/en/java/index.html>
-  * Diagnostic commands like `jps`, `jcmd`, `jstat`
-  * VisualVM <https://visualvm.github.io/>
-  * JMX <https://docs.oracle.com/en/java/javase/17/jmx/index.html>
+* Java HotSpot VM <https://docs.oracle.com/en/java/javase/21/vm/java-virtual-machine-technology-overview.html>
+* JDK tools <https://docs.oracle.com/en/java/javase/21/docs/specs/man/index.html>
+* VisualVM <https://visualvm.github.io/>
+* JMX API <https://docs.oracle.com/en/java/javase/21/jmx/introduction-jmx-technology.html>
 
 ## Package management (System)
 
@@ -416,7 +418,7 @@
 * VirtualBox <https://www.virtualbox.org/>
 * QEMU <https://www.qemu.org/>
 
-## Linux desktop environment
+## Linux desktop for development
 
 * Debian <https://www.debian.org/>
   * Ubuntu <https://ubuntu.com/>
@@ -429,9 +431,9 @@
 * Wayland <https://wayland.freedesktop.org/>
 * x11vnc <https://github.com/LibVNC/x11vnc>
 * xrdp <https://github.com/neutrinolabs/xrdp>
-* tightvncserver <https://www.tightvnc.com/>
-* UltraVNC <https://www.uvnc.com/>
 * Remmina <https://remmina.org/>
+* TightVNC <https://www.tightvnc.com/>
+* UltraVNC <https://www.uvnc.com/>
 
 ## File sharing
 
@@ -456,6 +458,10 @@
 * Postfix <https://www.postfix.org/>
 * Twilio SendGrid <https://www.twilio.com/sendgrid/email-api>
 * Amazon SES <https://aws.amazon.com/ses/>
+* IMAP4 <https://datatracker.ietf.org/doc/html/rfc9051>
+* POP3 <https://datatracker.ietf.org/doc/html/rfc1939>
+* Cyrus IMAP <https://www.cyrusimap.org/>
+* Dovecot <https://www.dovecot.org/>
 
 ## Unix json adaptor
 
@@ -465,6 +471,12 @@
 
 * midnight commander <https://midnight-commander.org/>
 * ranger <https://github.com/ranger/ranger>
+
+## Binary file processing
+
+* Base64 <https://en.wikipedia.org/wiki/Base64>
+* hexdump <https://man7.org/linux/man-pages/man1/hexdump.1.html>
+* fq <https://github.com/wader/fq>
 
 ## Archivers
 
@@ -493,6 +505,11 @@
 * xlsx2csv <https://github.com/dilshod/xlsx2csv>
 * docx2txt <https://github.com/ankushshah89/python-docx2txt>
 * Ghostscript <https://www.ghostscript.com/>
+
+## Chaos engineering
+
+* Litmus <https://litmuschaos.io/>
+* Chaos Mesh <https://chaos-mesh.org/>
 
 ----
 
