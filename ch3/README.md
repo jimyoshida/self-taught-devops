@@ -12,7 +12,6 @@
 * OpenAPI (Swagger) <https://swagger.io/docs/specification/about/>
 * WebAssembly <https://webassembly.org/>
 * WASI <https://github.com/WebAssembly/WASI>
-* WebSockets <https://websockets.spec.whatwg.org/>
 
 ## Web tools
 
@@ -25,6 +24,10 @@
 ## Web server and reverse proxy
 
 * NGINX <https://www.nginx.com/>
+
+## Web caching proxy
+
+* Squid <http://www.squid-cache.org/>
 
 ## Classic CGI app server
 
@@ -117,11 +120,18 @@
 * Postman/Newman <https://www.getpostman.com/>
 * Fiddler - Web Debugging Proxy <https://www.telerik.com/fiddler>
 
-## Web API query styles
+## API architecture styles
 
 * REST <https://en.wikipedia.org/wiki/Representational_state_transfer>
   * ROA <https://en.wikipedia.org/wiki/Resource-oriented_architecture>
+* SOAP <https://en.wikipedia.org/wiki/SOAP>
 * GraphQL <https://graphql.org/>
+* gRPC <https://grpc.io/>
+* WebSockets <https://websockets.spec.whatwg.org/>
+* Webhook <https://en.wikipedia.org/wiki/Webhook>
+* json-rpc <https://www.jsonrpc.org/>
+* MQTT <https://mqtt.org/>
+* AMQP <https://www.amqp.org/>
 
 ## Rendering engines
 
@@ -150,18 +160,13 @@
 * envoy <https://www.envoyproxy.io/>
 * traefik proxy <https://traefik.io/traefik/>
 
-## Service mesh, discovery and RPC
+## Service mesh, discovery
 
 * Hashicorp Consul <https://www.consul.io/>
 * Istio <https://istio.io/>
   * Kiali <https://kiali.io/>
 * Linkerd <https://linkerd.io/>
 * traefik mesh <https://traefik.io/traefik-mesh/>
-* dapr <https://dapr.io/>
-* etcd <https://etcd.io/>
-* gRPC <https://grpc.io/>
-* json-rpc <https://www.jsonrpc.org/>
-* go rpc <https://pkg.go.dev/net/rpc>
 
 ## CDN services
 

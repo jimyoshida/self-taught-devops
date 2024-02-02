@@ -1,27 +1,5 @@
 # Step 5: Data and AI
 
-## Statistics fundamentals
-
-* Probability theory <https://en.wikipedia.org/wiki/Probability_theory>
-* Pearson correlation coefficient <https://en.wikipedia.org/wiki/Pearson_correlation_coefficient>
-* Bayes' theorem <https://en.wikipedia.org/wiki/Bayes%27_theorem>
-* Regression analysis <https://en.wikipedia.org/wiki/Regression_analysis>
-* Confusion matrix <https://en.wikipedia.org/wiki/Confusion_matrix>
-  * ROC curve <https://en.wikipedia.org/wiki/Receiver_operating_characteristic>
-* Statistical hypothesis testing <https://en.wikipedia.org/wiki/Statistical_hypothesis_testing>
-* Confounding <https://en.wikipedia.org/wiki/Confounding>
-* Experimental design <https://en.wikipedia.org/wiki/Design_of_experiments>
-* Cross-validation <https://en.wikipedia.org/wiki/Cross-validation_(statistics)>
-
-## Statistics tools
-
-* Pandas <https://pandas.pydata.org/>
-* NumPy <https://numpy.org/>
-* SciPy <https://scipy.org/>
-* R project <https://www.r-project.org/>
-* RStudio <https://posit.co/download/rstudio-desktop/>
-* JASP <https://jasp-stats.org/>
-
 ## Database fundamentals
 
 * Relational model <https://en.wikipedia.org/wiki/Relational_model>
@@ -51,12 +29,13 @@
 * SQLite <https://www.sqlite.org/index.html>
   * DB Browser for SQLite <https://sqlitebrowser.org/>
 
-## NoSQL and cache
+## NoSQL data store
 
 * ElasticSearch <https://www.elastic.co/products/elasticsearch>
   * Painless language <https://www.elastic.co/guide/en/elasticsearch/painless/current/index.html>
 * MongoDB <https://www.mongodb.com/>
 * Redis <https://redis.io/>
+* etcd <https://etcd.io/>
 * Amazon DynamoDB <https://aws.amazon.com/dynamodb/>
 * Azure Cosmos DB <https://azure.microsoft.com/en-us/products/cosmos-db/>
 * Neo4j <https://neo4j.com/>
@@ -69,6 +48,28 @@
 * Vega <https://vega.github.io/vega/>
 * Vega-Lite <https://vega.github.io/vega-lite/>
 * D3 <https://d3js.org/>
+
+## Statistics fundamentals
+
+* Probability theory <https://en.wikipedia.org/wiki/Probability_theory>
+* Pearson correlation coefficient <https://en.wikipedia.org/wiki/Pearson_correlation_coefficient>
+* Bayes' theorem <https://en.wikipedia.org/wiki/Bayes%27_theorem>
+* Regression analysis <https://en.wikipedia.org/wiki/Regression_analysis>
+* Confusion matrix <https://en.wikipedia.org/wiki/Confusion_matrix>
+  * ROC curve <https://en.wikipedia.org/wiki/Receiver_operating_characteristic>
+* Statistical hypothesis testing <https://en.wikipedia.org/wiki/Statistical_hypothesis_testing>
+* Confounding <https://en.wikipedia.org/wiki/Confounding>
+* Experimental design <https://en.wikipedia.org/wiki/Design_of_experiments>
+* Cross-validation <https://en.wikipedia.org/wiki/Cross-validation_(statistics)>
+
+## Statistics tools
+
+* Pandas <https://pandas.pydata.org/>
+* NumPy <https://numpy.org/>
+* SciPy <https://scipy.org/>
+* R project <https://www.r-project.org/>
+* RStudio <https://posit.co/download/rstudio-desktop/>
+* JASP <https://jasp-stats.org/>
 
 ## ML licecycle management
 
