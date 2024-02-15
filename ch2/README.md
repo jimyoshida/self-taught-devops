@@ -22,24 +22,20 @@
 ## Network fundamentals
 
 * OSI model <https://en.wikipedia.org/wiki/OSI_model>
-* IP network concetps
-  * IPv4 <https://datatracker.ietf.org/doc/html/rfc791>
-  * IPv6 <https://datatracker.ietf.org/doc/html/rfc8200>
-  * ICMP <https://datatracker.ietf.org/doc/html/rfc792>
-  * ICMPv6 <https://datatracker.ietf.org/doc/html/rfc4443>
-  * DHCP <https://datatracker.ietf.org/doc/html/rfc2131>
-  * DHCPv6 <https://datatracker.ietf.org/doc/html/rfc8415>
-  * Routing table <https://en.wikipedia.org/wiki/Routing_table>
-    * CIDR <https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing>
+* ARP <https://datatracker.ietf.org/doc/html/rfc826>
+  * MAC address <https://en.wikipedia.org/wiki/MAC_address>
+* IP <https://datatracker.ietf.org/doc/html/rfc791> / v6 <https://datatracker.ietf.org/doc/html/rfc8200>
   * Global unicast address | Loopback address
   * Unique local address <https://en.wikipedia.org/wiki/Unique_local_address>
   * Link-local address <https://en.wikipedia.org/wiki/Link-local_address>
   * IP-multicast <https://en.wikipedia.org/wiki/IP_multicast>
-* ARP <https://datatracker.ietf.org/doc/html/rfc826>
-  * MAC address <https://en.wikipedia.org/wiki/MAC_address>
+* Routing table <https://en.wikipedia.org/wiki/Routing_table>
+  * CIDR <https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing>
 * TCP <https://datatracker.ietf.org/doc/html/rfc793>
 * UDP <https://datatracker.ietf.org/doc/html/rfc768>
-* FTP <https://datatracker.ietf.org/doc/html/rfc959>
+* ICMP <https://datatracker.ietf.org/doc/html/rfc792> / v6 <https://datatracker.ietf.org/doc/html/rfc4443>
+* DHCP <https://datatracker.ietf.org/doc/html/rfc2131> / v6 <https://datatracker.ietf.org/doc/html/rfc8415>
+* SNMP <https://datatracker.ietf.org/doc/html/rfc6353>
 
 ## Linux kernel
 
@@ -61,8 +57,6 @@
 ## Basic utilities
 
 * Systemd <https://www.freedesktop.org/wiki/Software/systemd/>
-* glibc <https://www.gnu.org/software/libc/>
-* gcc <https://www.gnu.org/software/gcc/>
 * util-linux <https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git/>
   * lsblk <https://man7.org/linux/man-pages/man8/lsblk.8.html>
   * findmnt <https://man7.org/linux/man-pages/man8/findmnt.8.html>
@@ -299,32 +293,48 @@
   * Python Jenkins <https://opendev.org/jjb/python-jenkins>
 * Gitlab CI/CD <https://docs.gitlab.com/ee/ci/>
 * Concourse CI <https://concourse-ci.org/>
-* Argo CD <https://argo-cd.readthedocs.io/>
 * Azure Pipelines <https://azure.microsoft.com/en-us/services/devops/pipelines/>
-* Flux <https://fluxcd.io/>
 
-## Progressive delivery
+## GitOps
+
+* ArgoCD <https://argo-cd.readthedocs.io/>
+* FluxCD <https://fluxcd.io/>
+
+## K8s Configulation
+
+* Kustomize <https://kustomize.io/>
+* Helm <https://helm.sh/>
+  * Artifact Hub <https://artifacthub.io/>
+
+## Software delivery and management
+
+* Open Application Model <https://oam.dev/>
+* KubeVela <https://kubevela.io/>
+  * CUE language <https://cuelang.org/>
+
+## Production release automation
 
 * Flagger <https://flagger.app/>
 
-## Configuration management / IaC
+## Host configuration management
 
+* idempotency <https://en.wikipedia.org/wiki/Idempotence>
 * Ansible <https://www.ansible.com/>
-* Serverless Framework <https://serverless.com/>
+* Hashicorp Packer <https://packer.io/>
+* cloud-init <https://cloud-init.io/>
+
+## Infrastructure as Code
+
 * Hashicorp Terraform <https://www.terraform.io/>
   * tf.libsonnet <https://docs.tflibsonnet.com/>
   * Terraformer <https://github.com/GoogleCloudPlatform/terraformer>
   * Atrantis (reference) <https://www.runatlantis.io/>
+* Serverless Framework <https://serverless.com/>
 * AWS CloudFormation <https://aws.amazon.com/cloudformation/>
+* AWS Cloud Development Kit <https://aws.amazon.com/cdk/>
 * Azure Resource Manager <https://docs.microsoft.com/en-us/azure/azure-resource-manager/>
   * Bicep language <https://github.com/Azure/bicep>
-* Hashicorp Packer <https://packer.io/>
-* cloud-init <https://cloud-init.io/>
 * Pulumi <https://www.pulumi.com/>
-* KubeVela <https://kubevela.io/>
-* Kustomize <https://kustomize.io/>
-* Helm <https://helm.sh/>
-  * Artifact Hub <https://artifacthub.io/>
 
 ## Generic observability tools
 
@@ -437,7 +447,11 @@
 
 ## File sharing
 
-* Samba <https://www.samba.org/>
+* SMB <https://en.wikipedia.org/wiki/Server_Message_Block>
+  * Samba <https://www.samba.org/>
+* FTP <https://datatracker.ietf.org/doc/html/rfc959>
+  * vsftpd <https://security.appspot.com/vsftpd.html>
+* SFTP <https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol>
 
 ## Domain name system
 

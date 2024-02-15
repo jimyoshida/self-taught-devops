@@ -29,7 +29,13 @@
 
 * Squid <http://www.squid-cache.org/>
 
-## Classic CGI app server
+## Web server/application interface and toolkit
+
+* WSGI/uWSGI <https://uwsgi-docs.readthedocs.io/en/latest/>
+* rack <https://rack.github.io/>
+* PSGI/plack <https://plackperl.org/>
+
+## Classic CGI toolkit
 
 * Apache HTTP Server <https://httpd.apache.org/>
   * mod_cgi <https://httpd.apache.org/docs/current/mod/mod_cgi.html>
@@ -47,20 +53,27 @@
 ## Browser automation and debug tools
 
 * Chrome DevTools <https://developer.chrome.com/docs/devtools/>
+* Puppeteer <https://developer.chrome.com/docs/puppeteer/>
 * Chrome for Testing <https://googlechromelabs.github.io/chrome-for-testing/>
-* Karma <https://karma-runner.github.io>
 * Selenium IDE <https://www.selenium.dev/selenium-ide/>
 * Selenium WebDriver <https://selenium.dev/documentation/en/webdriver/>
-* Watir <http://watir.com/>
-* Puppeteer <https://developer.chrome.com/docs/puppeteer/>
 * Playwright <https://playwright.dev/>
-* Cypress <https://www.cypress.io>
 * Crawlee <https://crawlee.dev/>
-* BeautyfulSoup <https://www.crummy.com/software/BeautifulSoup/>
+* Karma <https://karma-runner.github.io>
+* BeautifulSoup <https://www.crummy.com/software/BeautifulSoup/>
+* Watir <http://watir.com/>
 
 ## Web application frameworks
 
-* Ruby on Rails <https://rubyonrails.org/>
+* Perl
+  * Dancer2 <https://metacpan.org/pod/Dancer2>
+* Python
+  * FastAPI <https://fastapi.tiangolo.com/>
+  * Flask <https://palletsprojects.com/p/flask/>
+  * Django <https://www.djangoproject.com/>
+* Ruby
+  * Sinatra <https://sinatrarb.com/>
+  * Ruby on Rails <https://rubyonrails.org/>
 * Javascript/Typescript
   * Express.js <https://expressjs.com/>
   * Next.js <https://nextjs.org/>
@@ -71,13 +84,10 @@
   * Gorilla web toolkit <https://www.gorillatoolkit.org/>
   * Gin Web Framework <https://gin-gonic.com/>
   * Echo <https://echo.labstack.com/>
-* Python
-  * Django <https://www.djangoproject.com/>
-  * Flask <https://palletsprojects.com/p/flask/>
-  * FastAPI <https://fastapi.tiangolo.com/>
+* Java
+  * Spring Framework <https://spring.io/projects/spring-framework/>
 * ASP.NET <https://dotnet.microsoft.com/en-us/apps/aspnet>
   * Blazor <https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor>
-* Spring Framework <https://spring.io/projects/spring-framework/>
 
 ## Frontend libraries and frameworks
 
@@ -149,11 +159,6 @@
 
 * Azure App Service <https://azure.microsoft.com/en-us/services/app-service/>
 * AWS Elastic Beanstalk <https://aws.amazon.com/elasticbeanstalk/>
-
-## Blob storage services
-
-* Amazon S3 <https://aws.amazon.com/s3/>
-* Azure Blob Storage <https://azure.microsoft.com/en-us/services/storage/blobs/>
 
 ## Service proxy
 

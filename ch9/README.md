@@ -17,3 +17,9 @@
   * [Awesome Guidelines](https://github.com/Kristories/awesome-guidelines)
   * [Awesome LLM](https://github.com/Hannibal046/Awesome-LLM)
   * [Modern Unix](https://github.com/ibraheemdev/modern-unix)
+* Books
+  * _The Pragmatic Programmer_ <https://en.wikipedia.org/wiki/The_Pragmatic_Programmer>
+  * _Peopleware_ <https://en.wikipedia.org/wiki/Peopleware:_Productive_Projects_and_Teams>
+  * _The Mythical Man-Month_ <https://en.wikipedia.org/wiki/The_Mythical_Man-Month>
+  * _The Cathedral and the Bazaar_ <https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar>
+  * QWAN in _The Timeless Way of Building_ <https://en.wikipedia.org/wiki/The_Timeless_Way_of_Building>

@@ -1,5 +1,21 @@
 # Step 5: Data and AI
 
+## Blob storage
+
+* Object storage <https://en.wikipedia.org/wiki/Object_storage>
+* Amazon S3 <https://aws.amazon.com/s3/>
+* Azure Blob Storage <https://azure.microsoft.com/en-us/services/storage/blobs/>
+
+## Data streaming and hubs
+
+* Kafka <https://kafka.apache.org/>
+* Amazon Managed Streaming for Apache Kafka (MSK) <https://aws.amazon.com/msk/>
+* Azure Event Hubs <https://azure.microsoft.com/en-us/products/event-hubs/>
+* Azure Service Bus <https://azure.microsoft.com/en-us/products/service-bus/>
+* Azure Queue Storage <https://azure.microsoft.com/en-us/products/storage/queues/>
+* Amazon Simple Queue Service <https://aws.amazon.com/sqs/>
+* Amazon Simple Notification Service <https://aws.amazon.com/sns/>
+
 ## Database fundamentals
 
 * Relational model <https://en.wikipedia.org/wiki/Relational_model>
