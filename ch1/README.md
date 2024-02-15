@@ -4,13 +4,14 @@
 
 * code <https://en.wikipedia.org/wiki/Source_code>
 * statement <https://en.wikipedia.org/wiki/Statement_(computer_science)>
+  * control flow <https://en.wikipedia.org/wiki/Control_flow>
 * expression <https://en.wikipedia.org/wiki/Expression_(computer_science)>
   * operator, operand
 * literal <https://en.wikipedia.org/wiki/Literal_(computer_programming)>
   * template string/literal
-* control flow <https://en.wikipedia.org/wiki/Control_flow>
 * constant <https://en.wikipedia.org/wiki/Constant_(computer_programming)>
 * variable <https://en.wikipedia.org/wiki/Variable_(computer_science)>
+* scope <https://en.wikipedia.org/wiki/Scope_(computer_science)>
 * data type <https://en.wikipedia.org/wiki/Data_type>
   * primitives <https://en.wikipedia.org/wiki/Primitive_data_type>
   * array <https://en.wikipedia.org/wiki/Array_(data_type)>
@@ -20,17 +21,15 @@
   * stack <https://en.wikipedia.org/wiki/Stack_(abstract_data_type)>
   * queue <https://en.wikipedia.org/wiki/Queue_(abstract_data_type)>
   * string <https://en.wikipedia.org/wiki/String_(computer_science)>
-* duck typing <https://en.wikipedia.org/wiki/Duck_typing>
+* generic programming <https://en.wikipedia.org/wiki/Generic_programming>
 * reference <https://en.wikipedia.org/wiki/Reference_(computer_science)>
-* scope <https://en.wikipedia.org/wiki/Scope_(computer_science)>
+  * null pointer <https://en.wikipedia.org/wiki/Null_pointer>
 * function <https://en.wikipedia.org/wiki/Function_(computer_programming)>
   * parameter <https://en.wikipedia.org/wiki/Parameter_(computer_programming)>
   * anonymous function <https://en.wikipedia.org/wiki/Anonymous_function>
   * recursion <https://en.wikipedia.org/wiki/Recursion_(computer_science)>
 * state <https://en.wikipedia.org/wiki/State_(computer_science)>
 * heredoc <https://en.wikipedia.org/wiki/Here_document>
-* null pointer <https://en.wikipedia.org/wiki/Null_pointer>
-* generic programming <https://en.wikipedia.org/wiki/Generic_programming>
 * exception handling <https://en.wikipedia.org/wiki/Exception_handling_(programming)>
 * this keyword <https://en.wikipedia.org/wiki/This_(computer_programming)>
 * garbage collection <https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)>
@@ -38,38 +37,38 @@
 ## Object-oriented programming
 
 * abstraction <https://en.wikipedia.org/wiki/Abstraction_(computer_science)>
+* encapsulation <https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)>
+* polymorphism <https://en.wikipedia.org/wiki/Polymorphism_(computer_science)>
 * class <https://en.wikipedia.org/wiki/Class_(computer_programming)>
 * interface <https://en.wikipedia.org/wiki/Interface_(object-oriented_programming)>
 * method <https://en.wikipedia.org/wiki/Method_(computer_programming)>
-* encapsulation <https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)>
-* polymorphism <https://en.wikipedia.org/wiki/Polymorphism_(computer_science)>
+* duck typing <https://en.wikipedia.org/wiki/Duck_typing>
 * covariance and contravariance <https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)>
 
-## Unix-like environment on Windows
+## Shell and terminal
 
-* Git for Windows (MINGW) <https://gitforwindows.org/>
-* Cygwin <https://www.cygwin.com/>
-* WSL <https://learn.microsoft.com/en-us/windows/wsl/>
-
-## Shell and shell utility
-
-* bash <https://www.gnu.org/software/bash/>
-* zsh <https://www.zsh.org/>
-* oh-my-zsh <https://ohmyz.sh/>
-* fish-shell <https://fishshell.com/>
-* PowerShell <https://docs.microsoft.com/en-us/powershell/>
-* nushell <https://www.nushell.sh/>
-* starship <https://starship.rs/>
-* charm_gum <https://github.com/charmbracelet/gum>
-
-## Terminal
-
-* tmux <https://github.com/tmux/tmux/wiki>
-* screen <https://www.gnu.org/software/screen/>
-* byobu <https://www.byobu.org/>
-* zellij <https://zellij.dev/>
-* Noto Fonts <https://fonts.google.com/noto>
-* Nerd Fonts <https://www.nerdfonts.com/>
+* Shells
+  * bash <https://www.gnu.org/software/bash/>
+  * zsh <https://www.zsh.org/>
+  * oh-my-zsh <https://ohmyz.sh/>
+  * fish-shell <https://fishshell.com/>
+  * PowerShell <https://docs.microsoft.com/en-us/powershell/>
+  * nushell <https://www.nushell.sh/>
+* Shell utilities
+  * starship <https://starship.rs/>
+  * charm_gum <https://github.com/charmbracelet/gum>
+* Terminal tools
+  * tmux <https://github.com/tmux/tmux/wiki>
+  * screen <https://www.gnu.org/software/screen/>
+  * byobu <https://www.byobu.org/>
+  * zellij <https://zellij.dev/>
+* Fonts
+  * Noto Fonts <https://fonts.google.com/noto>
+  * Nerd Fonts <https://www.nerdfonts.com/>
+* Unix-like environments on Windows
+  * Git for Windows (MINGW) <https://gitforwindows.org/>
+  * Cygwin <https://www.cygwin.com/>
+  * WSL <https://learn.microsoft.com/en-us/windows/wsl/>
 
 ## Text file processing
 
@@ -78,13 +77,23 @@
 * Regex <https://en.wikipedia.org/wiki/Regular_expression>
 * PCRE <https://en.wikipedia.org/wiki/Perl_Compatible_Regular_Expressions>
 * GNU sed <https://www.gnu.org/software/sed/> <https://sed.sourceforge.io/>
-* GNU awk <https://www.gnu.org/software/gawk/>
-* TSV <https://en.wikipedia.org/wiki/Tab-separated_values>
-* CSV <https://en.wikipedia.org/wiki/Comma-separated_values>
-  * delimiter <https://en.wikipedia.org/wiki/Delimiter>
-* csvkit <https://csvkit.readthedocs.io/en/latest/>
-* xsv <https://github.com/BurntSushi/xsv>
-* qsv <https://github.com/jqnatividad/qsv>
+* Table data
+  * TSV <https://en.wikipedia.org/wiki/Tab-separated_values>
+  * CSV <https://en.wikipedia.org/wiki/Comma-separated_values>
+  * GNU awk <https://www.gnu.org/software/gawk/>
+  * csvkit <https://csvkit.readthedocs.io/en/latest/>
+  * xsv <https://github.com/BurntSushi/xsv>
+  * qsv <https://github.com/jqnatividad/qsv>
+* Diff tools
+  * diffutils <https://www.gnu.org/software/diffutils/>
+  * colordiff <https://www.colordiff.org/>
+* Search tools
+  * findutils <https://www.gnu.org/software/findutils/>
+  * fzf <https://github.com/junegunn/fzf>
+  * fd <https://github.com/sharkdp/fd>
+  * grep <https://www.gnu.org/software/grep/>
+  * ripgrep <https://github.com/BurntSushi/ripgrep>
+  * silversearcher-ag <https://geoff.greer.fm/ag/>
 
 ## Package management (programming)
 
@@ -101,6 +110,7 @@
 * Hackage <https://hackage.haskell.org/>
 * Gradle <https://gradle.org/>
 * Maven <https://maven.apache.org/>
+* opensource licenses <https://opensource.org/licenses/>
 
 ## Virtual environment (programming)
 
@@ -108,24 +118,26 @@
 * nodeenv <https://ekalinin.github.io/nodeenv/>
 * asdf <https://asdf-vm.com/>
 
-## Version management
+## Version control (programming)
 
+* Distributed version control <https://en.wikipedia.org/wiki/Distributed_version_control>
+* Markle tree <https://en.wikipedia.org/wiki/Merkle_tree>
 * Git <https://git-scm.com/>
   * local repository, remote repository
   * branch, tag, worktree
   * push, pull, fetch, rebase, reset, stash
   * staging, commit
 * Git LFS <https://git-lfs.github.com/>
-* GitHub <https://github.com/>
-  * pull request
-* GitLab SCM <https://about.gitlab.com/>
-* Azure Repos <https://azure.microsoft.com/en-us/services/devops/repos/>
 * TortoiseGit <https://tortoisegit.org/>
 * BFG Repo-Cleaner <https://rtyley.github.io/bfg-repo-cleaner/>
 * degit <https://github.com/Rich-Harris/degit>
 * lazygit <https://github.com/jesseduffield/lazygit>
+* Hosted-services
+  * GitHub <https://github.com/>
+  * GitLab SCM <https://about.gitlab.com/>
+  * Azure Repos <https://azure.microsoft.com/en-us/services/devops/repos/>
 
-## Design principle
+## Design principles
 
 * Orthogonality and DRY principle <https://www.artima.com/intv/dry.html>
 * SOLID - The principle of OOD <http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod>
@@ -133,19 +145,67 @@
 * The Zen of Python <https://www.python.org/dev/peps/pep-0020/>
 * Design by Contract <https://en.wikipedia.org/wiki/Design_by_contract>
 * SSOT <https://en.wikipedia.org/wiki/Single_source_of_truth>
+* RAII <https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization>
 
-## IDE and editors
+## Coding style guides and linters
 
-* VS Code <https://code.visualstudio.com/>
-  * GitLens <https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens>
-  * Git Graph <https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph>
-  * Rainbow Brackets, indent-rainbow, Rainbow CSV
-* Vim <https://www.vim.org/>
-* MarkText <https://github.com/marktext/marktext>
-* Notepad++ <https://notepad-plus-plus.org/>
-* EditorConfig <https://editorconfig.org/>
-* Prettier <https://prettier.io/>
-* Neovim <https://neovim.io/>
+* Guides
+  * Google Style Guides <https://google.github.io/styleguide/>
+  * JS Project Guidelines <https://github.com/elsewhencode/project-guidelines>
+  * Node.js Best Practices <https://github.com/goldbergyoni/nodebestpractices>
+  * JS Testing Best Practices <https://github.com/goldbergyoni/javascript-testing-best-practices>
+  * 33 JS Concepts <https://github.com/leonardomso/33-js-concepts>
+  * Callback Hell <http://callbackhell.com/>
+  * Effective Go <https://golang.org/doc/effective_go.html>
+* Linters
+  * ESLint <https://eslint.org/>
+  * JSHint <https://jshint.com/about/>
+  * Ruff <https://docs.astral.sh/ruff/>
+  * Haskell Dockerfile Linter <https://github.com/hadolint/hadolint#readme>
+  * PSScriptAnalyzer <https://www.powershellgallery.com/packages/PSScriptAnalyzer/1.20.0>
+  * ShellCheck <https://www.shellcheck.net/>
+* Code counters
+  * Cyclomatic complexity <https://en.wikipedia.org/wiki/Cyclomatic_complexity>
+  * scc <https://github.com/boyter/scc/>
+  * cloc <https://github.com/AlDanial/cloc>
+
+## IDEs and editors
+
+* IDEs
+  * VS Code <https://code.visualstudio.com/>
+    * GitLens <https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens>
+    * Git Graph <https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph>
+  * Vim <https://www.vim.org/>
+  * Neovim <https://neovim.io/>
+  * GNU Emacs <https://www.gnu.org/software/emacs/>
+  * Eclipse IDE <https://eclipseide.org/>
+* Editors
+  * MarkText <https://github.com/marktext/marktext>
+  * Notepad++ <https://notepad-plus-plus.org/>
+* Formatters
+  * EditorConfig <https://editorconfig.org/>
+  * Prettier <https://prettier.io/>
+
+## Data description languages and tools
+
+* Data exchange formats
+  * JSON <https://www.json.org/json-en.html>
+    * jq <https://stedolan.github.io/jq/>
+    * json_pp <https://metacpan.org/dist/JSON-PP/view/bin/json_pp>
+  * XML <https://www.w3.org/XML/>
+  * ISO 8601: Date and time — Representations for information interchange
+  * Unix time <https://en.wikipedia.org/wiki/Unix_time>
+  * iCalendar <https://en.wikipedia.org/wiki/ICalendar>
+* Configuration formats
+  * YAML <https://yaml.org/>
+    * yq (python) <https://github.com/kislyuk/yq>
+    * yq (go) <https://github.com/mikefarah/yq>
+  * TOML <https://github.com/toml-lang/toml>
+* JSON extentions
+  * Hjson <https://hjson.org/>
+  * jsonc <https://komkom.github.io/>
+  * Jsonnet <https://jsonnet.org/>
+  * CUE <https://cuelang.org/>
 
 ## Concurrent programming
 
@@ -159,30 +219,20 @@
 ## Functional programming
 
 * functional programming <https://en.wikipedia.org/wiki/Functional_programming>
+* referential transparency <https://en.wikipedia.org/wiki/Referential_transparency>
 * lambda calculus <https://en.wikipedia.org/wiki/Lambda_calculus>
 * first-class function <https://en.wikipedia.org/wiki/First-class_function>
 * closure <https://en.wikipedia.org/wiki/Closure_(computer_programming)>
 * side-effect <https://en.wikipedia.org/wiki/Side_effect_(computer_science)>
 * monad <https://en.wikipedia.org/wiki/Monad_(functional_programming)>
 * currying <https://en.wikipedia.org/wiki/Currying>
-* Referential transparency <https://en.wikipedia.org/wiki/Referential_transparency>
-* Curry-Howard correspondence <https://en.wikipedia.org/wiki/Curry–Howard_correspondence>
 
-## WIP: Other computer science topics
-
-* Hoare logic <https://en.wikipedia.org/wiki/Hoare_logic>
-* Homoiconicity <https://en.wikipedia.org/wiki/Homoiconicity>
-* Cyclomatic complexity <https://en.wikipedia.org/wiki/Cyclomatic_complexity>
-* Idempotence <https://en.wikipedia.org/wiki/Idempotence>
-* Markle tree <https://en.wikipedia.org/wiki/Merkle_tree>
-* Object storage <https://en.wikipedia.org/wiki/Object_storage>
-* Finite-state machine <https://en.wikipedia.org/wiki/Finite-state_machine>
-* RAII <https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization>
-
-## Language specific unique concepts
+## Primary programming languages (for devops)
 
 * Python <https://www.python.org/>
   * indentation
+  * f-string
+  * generator
 * Perl <https://www.perl.org/>
   * context
   * scalar type
@@ -219,6 +269,9 @@
   * macro
   * trait-based generics
   * unsafe operation
+
+## Other programming languages
+
 * C# <https://learn.microsoft.com/en-us/dotnet/csharp/>
   * query expression (LINQ)
   * delegate and event
@@ -230,9 +283,6 @@
   * discriminated union
   * active pattern
   * computation expression
-
-## WIP: Other languages
-
 * Java <https://docs.oracle.com/en/java/index.html>
 * Ruby <https://www.ruby-lang.org/en/>
 * Kotlin <https://kotlinlang.org/>
@@ -241,40 +291,40 @@
 * Lua (for NGINX) <https://www.lua.org/>
 * Haskell <https://www.haskell.org/>
 * Elm <https://elm-lang.org/>
+* C <https://www.open-std.org/jtc1/sc22/wg14/>
 
-## Javascript/Typescript libraries for command development
+## Program execution and toolkits
 
-* Axios <https://axios-http.com/>
-* Lodash <https://lodash.com/>
-* Moment.js <https://momentjs.com/>
-* Luson <https://moment.github.io/luxon/>
-* yargs <https://yargs.js.org/>
-* Chalk <https://github.com/chalk/chalk>
-* FIGLet.js <https://github.com/patorjk/figlet.js>
-* cli-progress <https://www.npmjs.com/package/cli-progress>
-* gradient-string <https://github.com/bokub/gradient-string>
+* Runtime system <https://en.wikipedia.org/wiki/Runtime_system>
+* Compiler <https://en.wikipedia.org/wiki/Compiler>
+* Javascript
+  * Node.js <https://nodejs.org/>
+    * PM2 <https://pm2.keymetrics.io/>
+  * Deno <https://deno.land/>
+  * Bun <https://bun.sh/>
+* Python
+  * CPython
+  * pypy <https://en.wikipedia.org/wiki/PyPy>
+* .NET <https://dotnet.microsoft.com/en-us/>
+* OpenJDK <https://openjdk.org/>
+  * Eclipse Temurin <https://adoptium.net/temurin/>
+* C
+  * glibc <https://www.gnu.org/software/libc/>
+  * gcc <https://www.gnu.org/software/gcc/>
+* The LLVM Compiler Infrastructure <https://llvm.org/>
 
-## Python libraries for command development
+## Build tools and systems
 
-* argparse <https://docs.python.org/3/library/argparse.html>
-* Requests <https://requests.readthedocs.io/en/latest/>
-* PyYAML <https://github.com/yaml/pyyaml>
-* tabulate <https://github.com/astanin/python-tabulate>
-* Click <https://palletsprojects.com/p/click/>
-* Typer <https://typer.tiangolo.com/>
-* Asciimatics <https://github.com/peterbrittain/asciimatics>
-* Python Prompt Toolkit <https://python-prompt-toolkit.readthedocs.io/en/master/>
-
-## Golang libraries for command development
-
-* cli <https://cli.urfave.org/>
-* cobra <https://cobra.dev/>
-* viper <https://github.com/spf13/viper#readme>
-* color <https://github.com/fatih/color#readme>
+* GNU Make <https://www.gnu.org/software/make/>
+* Gradle <https://gradle.org/>
+* Maven <https://maven.apache.org/>
+* Task <https://taskfile.dev/>
+* CMake <https://cmake.org/>
+* Meson <https://mesonbuild.com/>
 
 ## Test and coverage tools
 
-* Javascript/Typescript
+* Javascript
   * Vitest <https://vitest.dev>
   * Jest <https://jestjs.io/>
   * Mocha <https://mochajs.org/>
@@ -295,87 +345,99 @@
   * cobertura <https://cobertura.github.io/cobertura/>
   * LCOV <https://github.com/linux-test-project/lcov>
 
-## Document page generators
+## Template tools
 
-* apiDoc <http://apidocjs.com/>
-* JSDoc <https://jsdoc.app/>
-* Javadoc <https://www.oracle.com/java/technologies/javase/javadoc-tool.html>
-* pydoc <https://docs.python.org/3/library/pydoc.html>
-  * Docstring <https://www.python.org/dev/peps/pep-0257/>
-* godoc <https://pkg.go.dev/golang.org/x/tools/cmd/godoc>
+* gomplate <https://gomplate.ca/>
+  * Go template <https://pkg.go.dev/text/template>
+* mustache <https://mustache.github.io/> / mustache.js
+* Jinja <https://www.palletsprojects.com/p/jinja/>
+* Jsonnet <https://jsonnet.org/>
+* ERB <https://github.com/ruby/erb>
+* Template Toolkit <http://www.tt2.org/>
+* envsubst in gettext <https://www.gnu.org/software/gettext/>
 
-## JavaScript runtimes
+## Documentaion
 
-* Node.js <https://nodejs.org/>
-  * PM2 <https://pm2.keymetrics.io/>
-* Deno <https://deno.land/>
-* Bun <https://bun.sh/>
+* Documentation formats
+  * Markdown <https://www.rfc-editor.org/rfc/rfc7763>
+    * GFM (GitHub Flavored Markdown) <https://github.github.com/gfm/>
+    * MDX <https://mdxjs.com/>
+  * Groff <https://www.gnu.org/software/groff/>
+  * Asciidoc <https://asciidoc.org/> and Asciidoctor <https://asciidoctor.org/>
+  * reStructuredText <https://docutils.sourceforge.io/rst.html>
+* Document generators
+  * apiDoc <http://apidocjs.com/>
+  * JSDoc <https://jsdoc.app/>
+  * Javadoc <https://www.oracle.com/java/technologies/javase/javadoc-tool.html>
+  * pydoc <https://docs.python.org/3/library/pydoc.html>
+    * Docstring <https://www.python.org/dev/peps/pep-0257/>
+  * godoc <https://pkg.go.dev/golang.org/x/tools/cmd/godoc>
+* Document checkers
+  * lychee <https://github.com/lycheeverse/lychee>
+  * vale <https://vale.sh/>
+  * markdownlint <https://github.com/DavidAnson/markdownlint>
+* Technical Writing <https://developers.google.com/tech-writing>
+* Creative Commons <https://creativecommons.org/>
 
-## .NET and Java SDK
+## Architecture documentation
 
-* .NET <https://dotnet.microsoft.com/en-us/>
-* OpenJDK <https://openjdk.org/>
-
-## Coding guide
-
-* JS Project Guidelines <https://github.com/elsewhencode/project-guidelines>
-* Node.js Best Practices <https://github.com/goldbergyoni/nodebestpractices>
-* JS Testing Best Practices <https://github.com/goldbergyoni/javascript-testing-best-practices>
-* 33 JS Concepts <https://github.com/leonardomso/33-js-concepts>
-* Callback Hell <http://callbackhell.com/>
-* Effective Go <https://golang.org/doc/effective_go.html>
-* Google Go Style Guide <https://google.github.io/styleguide/go/>
-* Google Javascript Style Guide <https://google.github.io/styleguide/jsguide.html>
-* Google Typescript Style Guide <https://google.github.io/styleguide/tsguide.html>
-* Google Python Style Guide <https://google.github.io/styleguide/pyguide.html>
-* Google Java Style Guide <https://google.github.io/styleguide/javaguide.html>
-
-## Linters
-
-* ESLint <https://eslint.org/>
-* JSHint <https://jshint.com/about/>
-* Ruff <https://docs.astral.sh/ruff/>
-* Haskell Dockerfile Linter <https://github.com/hadolint/hadolint#readme>
-* PSScriptAnalyzer <https://www.powershellgallery.com/packages/PSScriptAnalyzer/1.20.0>
-* ShellCheck <https://www.shellcheck.net/>
-
-## Code counters
-
-* scc <https://github.com/boyter/scc/>
-* cloc <https://github.com/AlDanial/cloc>
-
-## Build tools / systems
-
-* GNU Make <https://www.gnu.org/software/make/>
-* Gradle <https://gradle.org/>
-* Maven <https://maven.apache.org/>
-* Task <https://taskfile.dev/>
-* CMake <https://cmake.org/>
-* Meson <https://mesonbuild.com/>
-
-## Language tools (advanced)
-
-* LSP <https://microsoft.github.io/language-server-protocol/>
-* DAP <https://microsoft.github.io/debug-adapter-protocol/>
-* ANTLR <https://www.antlr.org/>
-* Bison <https://www.gnu.org/software/bison/>
-* Flex <https://github.com/westes/flex>
-* LLVM <https://llvm.org/>
-* BNF syntax <https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form>
-* highlight.js <https://highlightjs.org/>
-* Prism <https://prismjs.com>
-* Pygments <https://pygments.org/>
-
-## Architecture description
-
+* Diagramming as code
+  * Diagrams <https://diagrams.mingrammer.com/>
+  * PlantUML <https://plantuml.com/>
+  * Mermaid <https://mermaidjs.github.io/>
+  * Kroki <https://kroki.io/>
+  * Graphviz <https://graphviz.org/>
+    * DOT language <https://graphviz.org/doc/info/lang.html>
+    * haphviz <https://hackage.haskell.org/package/haphviz>
 * Architectural Decision Records <https://adr.github.io/>
 * UML <https://www.omg.org/spec/UML/About-UML/>
 * 4+1 architectural view model <https://en.wikipedia.org/wiki/4%2B1_architectural_view_model>
 * The C4 model <https://c4model.com/>
 * ISO/IEC/IEEE 42010: Systems and software engineering — Architecture description
-* Technical Writing <https://developers.google.com/tech-writing>
 
-## Agile and lean development concepts
+## CLI development
+
+* Javascript
+  * Axios <https://axios-http.com/>
+  * Lodash <https://lodash.com/>
+  * Moment.js <https://momentjs.com/>
+  * Luson <https://moment.github.io/luxon/>
+  * yargs <https://yargs.js.org/>
+  * Chalk <https://github.com/chalk/chalk>
+  * FIGLet.js <https://github.com/patorjk/figlet.js>
+  * cli-progress <https://www.npmjs.com/package/cli-progress>
+  * gradient-string <https://github.com/bokub/gradient-string>
+* Python
+  * argparse <https://docs.python.org/3/library/argparse.html>
+  * Requests <https://requests.readthedocs.io/en/latest/>
+  * PyYAML <https://github.com/yaml/pyyaml>
+  * tabulate <https://github.com/astanin/python-tabulate>
+  * Click <https://palletsprojects.com/p/click/>
+  * Typer <https://typer.tiangolo.com/>
+  * Asciimatics <https://github.com/peterbrittain/asciimatics>
+  * Python Prompt Toolkit <https://python-prompt-toolkit.readthedocs.io/en/master/>
+* Go
+  * cli <https://cli.urfave.org/>
+  * cobra <https://cobra.dev/>
+  * viper <https://github.com/spf13/viper#readme>
+  * color <https://github.com/fatih/color#readme>
+
+## Team-development tools
+
+* Slack <https://slack.com/>
+  * Python Slack SDK <https://slack.dev/python-slack-sdk/>
+* Issue tracking systems
+  * GitLab Issue Board <https://docs.gitlab.com/ee/user/project/issue_board.html>
+  * JIRA <https://www.atlassian.com/software/jira>
+    * Python Jira <https://jira.readthedocs.io/>
+  * Azure Boards <https://azure.microsoft.com/en-us/services/devops/boards/>
+* Conventions
+  * Semantic Versioning <https://semver.org/>
+    * semver <https://github.com/npm/node-semver#readme>
+  * keep a changelog <https://keepachangelog.com/>
+  * Conventional Commits <https://www.conventionalcommits.org/>
+
+## Agile and lean development
 
 * Agile Manifesto <https://agilemanifesto.org/>
 * Extreme Programming <http://www.extremeprogramming.org/>
@@ -393,133 +455,47 @@
 * NPS (Net Promoter Score) <https://en.wikipedia.org/wiki/Net_promoter_score>
 * Flow metrics <https://www.logilica.com/blog/key-flow-metrics-for-agile-delivery-teams>
 
-## Psychological and cognitive concerns
-
-* Psychological safety <https://en.wikipedia.org/wiki/Psychological_safety>
-* Cognitive distortion <https://en.wikipedia.org/wiki/Cognitive_distortion>
-* Broken windows theory <https://en.wikipedia.org/wiki/Broken_windows_theory>
-* Maslow’s Hierarchy of Needs <https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs>
-* Seven stages of action <https://en.wikipedia.org/wiki/Seven_stages_of_action>
-
 ## Code of conducts
 
-* Amazon's Leadership Principles <https://www.amazon.jobs/en/principles>
-* GitLab Values <https://about.gitlab.com/handbook/values/>
-* Debian Constitution <https://www.debian.org/devel/constitution>
-* Ubuntu Code of Conduct <https://ubuntu.com/community/code-of-conduct>
-* Mozilla Community Participation Guidelines <https://www.mozilla.org/en-US/about/governance/policies/participation/>
-* Philosophy of the GNU Project <https://www.gnu.org/philosophy/philosophy.html>
-* The GNU Manifesto <https://www.gnu.org/gnu/manifesto.html>
-* Contributor Covenant <https://www.contributor-covenant.org/>
+* References
+  * Amazon's Leadership Principles <https://www.amazon.jobs/en/principles>
+  * GitLab Values <https://about.gitlab.com/handbook/values/>
+  * Debian Constitution <https://www.debian.org/devel/constitution>
+  * Ubuntu Code of Conduct <https://ubuntu.com/community/code-of-conduct>
+  * Mozilla Community Participation Guidelines <https://www.mozilla.org/en-US/about/governance/policies/participation/>
+  * Philosophy of the GNU Project <https://www.gnu.org/philosophy/philosophy.html>
+  * The GNU Manifesto <https://www.gnu.org/gnu/manifesto.html>
+  * Contributor Covenant <https://www.contributor-covenant.org/>
+* Concerns
+  * Psychological safety <https://en.wikipedia.org/wiki/Psychological_safety>
+  * Cognitive distortion <https://en.wikipedia.org/wiki/Cognitive_distortion>
+  * Broken windows theory <https://en.wikipedia.org/wiki/Broken_windows_theory>
+  * Maslow’s Hierarchy of Needs <https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs>
+  * Seven stages of action <https://en.wikipedia.org/wiki/Seven_stages_of_action>
 
-## Licenses
+## Programming language tools (advanced)
 
-* OSS licenses <https://opensource.org/>
-* Creative Commons <https://creativecommons.org/>
+* Chomsky hierarchy <https://en.wikipedia.org/wiki/Chomsky_hierarchy>
+* Finite-state machine <https://en.wikipedia.org/wiki/Finite-state_machine>
+* Homoiconicity <https://en.wikipedia.org/wiki/Homoiconicity>
+* BNF syntax <https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form>
+* AST <https://en.wikipedia.org/wiki/Abstract_syntax_tree>
+* ANTLR <https://www.antlr.org/>
+* Ragel <https://www.colm.net/open-source/ragel/>
+* Bison <https://www.gnu.org/software/bison/>
+* Flex <https://github.com/westes/flex>
+* LSP <https://microsoft.github.io/language-server-protocol/>
+* DAP <https://microsoft.github.io/debug-adapter-protocol/>
+* highlight.js <https://highlightjs.org/>
+* Prism <https://prismjs.com>
+* Pygments <https://pygments.org/>
 
-## Books
+## Program analysys (advanced)
 
-* _The Pragmatic Programmer_ <https://en.wikipedia.org/wiki/The_Pragmatic_Programmer>
-* _Peopleware_ <https://en.wikipedia.org/wiki/Peopleware:_Productive_Projects_and_Teams>
-* _The Mythical Man-Month_ <https://en.wikipedia.org/wiki/The_Mythical_Man-Month>
-* _The Cathedral and the Bazaar_ <https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar>
-* _The Art of Computer Programming_ <https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming>
-* QWAN in _The Timeless Way of Building_ <https://en.wikipedia.org/wiki/The_Timeless_Way_of_Building>
+* Hoare logic <https://en.wikipedia.org/wiki/Hoare_logic>
+* Curry-Howard correspondence <https://en.wikipedia.org/wiki/Curry–Howard_correspondence>
 
-## Documentation formats
 
-* Markdown <https://www.rfc-editor.org/rfc/rfc7763>
-  * GFM (GitHub Flavored Markdown) <https://github.github.com/gfm/>
-  * MDX <https://mdxjs.com/>
-* Markdownlint <https://github.com/DavidAnson/markdownlint#readme>
-* Groff <https://www.gnu.org/software/groff/>
-* Asciidoc <https://asciidoc.org/> and Asciidoctor <https://asciidoctor.org/>
-* reStructuredText <https://docutils.sourceforge.io/rst.html>
-
-## Diagraming as code
-
-* Diagrams <https://diagrams.mingrammer.com/>
-* PlantUML <https://plantuml.com/>
-* Mermaid <https://mermaidjs.github.io/>
-* Kroki <https://kroki.io/>
-* Graphviz <https://graphviz.org/>
-  * DOT language <https://graphviz.org/doc/info/lang.html>
-  * haphviz <https://hackage.haskell.org/package/haphviz>
-
-## Development conventions
-
-* Semantic Versioning <https://semver.org/>
-  * semver <https://github.com/npm/node-semver#readme>
-* keep a changelog <https://keepachangelog.com/>
-* Conventional Commits <https://www.conventionalcommits.org/>
-
-## Team-development tools
-
-* GitLab Issue Board <https://docs.gitlab.com/ee/user/project/issue_board.html>
-* JIRA <https://www.atlassian.com/software/jira>
-  * Python Jira <https://jira.readthedocs.io/>
-* Confluence <https://www.atlassian.com/software/confluence>
-* Azure Boards <https://azure.microsoft.com/en-us/services/devops/boards/>
-* Slack <https://slack.com/>
-* VS Code Remote Development <https://code.visualstudio.com/docs/remote/remote-overview>
-* Mural <https://www.mural.co/>
-* Miro <https://miro.com/>
-
-## Data exchange formats
-
-* JSON <https://www.json.org/json-en.html>
-  * jq <https://stedolan.github.io/jq/>
-  * json_pp <https://metacpan.org/dist/JSON-PP/view/bin/json_pp>
-* XML <https://www.w3.org/XML/>
-* ISO 8601: Date and time — Representations for information interchange
-* Unix time <https://en.wikipedia.org/wiki/Unix_time>
-* iCalendar <https://en.wikipedia.org/wiki/ICalendar>
-
-## Configuration formats
-
-* YAML <https://yaml.org/>
-  * yq (python) <https://github.com/kislyuk/yq>
-  * yq (go) <https://github.com/mikefarah/yq>
-* TOML <https://github.com/toml-lang/toml>
-
-## JSON extentions
-
-* Hjson <https://hjson.org/>
-* jsonc <https://komkom.github.io/>
-* Jsonnet <https://jsonnet.org/>
-
-## Diff tools
-
-* diffutils <https://www.gnu.org/software/diffutils/>
-* colordiff <https://www.colordiff.org/>
-
-## Search tools
-
-* findutils <https://www.gnu.org/software/findutils/>
-* fzf <https://github.com/junegunn/fzf>
-* fd <https://github.com/sharkdp/fd>
-* grep <https://www.gnu.org/software/grep/>
-* ripgrep <https://github.com/BurntSushi/ripgrep>
-* silversearcher-ag <https://geoff.greer.fm/ag/>
-
-## Template tools
-
-* gomplate <https://gomplate.ca/>
-  * Go template <https://pkg.go.dev/text/template>
-* mustache <https://mustache.github.io/> / mustache.js
-* Jinja <https://www.palletsprojects.com/p/jinja/>
-* Jsonnet <https://jsonnet.org/>
-* ERB <https://github.com/ruby/erb>
-* Template Toolkit <http://www.tt2.org/>
-* envsubst in gettext <https://www.gnu.org/software/gettext/>
-
-## Application messaging
-
-* Kafka <https://kafka.apache.org/>
-* Amazon Managed Streaming for Apache Kafka (MSK) <https://aws.amazon.com/msk/>
-* Azure Event Hubs <https://azure.microsoft.com/en-us/products/event-hubs/>
-* Amazon Simple Queue Service <https://aws.amazon.com/sqs/>
-* Amazon Simple Notification Service <https://aws.amazon.com/sns/>
 
 ----
 
