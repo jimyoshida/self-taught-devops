@@ -9,14 +9,16 @@ Also, to understand the background of the technologies etc., each section contai
 
 ## Contents
 
-The contents consist of the following 5 sections.
+The contents consist of the following 6 sections.
 
 1. [Programming](ch1/README.md)
-1. [Linux and Network](ch2/README.md)
-1. [Web systems](ch3/README.md)
+1. [OS and Network](ch2/README.md)
+1. [Web and Cloud Native](ch3/README.md)
 1. [Security and Privacy](ch4/README.md)
 1. [Data and AI](ch5/README.md)
-1. [Appendix: References](ch9/README.md)
+1. [Agile and DevOps](ch6/README.md)
+
+[Appendix: References](ch9/README.md)
 
 ## License
 
