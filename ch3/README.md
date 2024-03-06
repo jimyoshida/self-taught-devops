@@ -23,6 +23,9 @@
   * w3m <https://w3m.sourceforge.net/>
   * curlie <https://curlie.io/>
   * httpie <https://httpie.io/>
+* Perl LWP <https://metacpan.org/pod/LWP>
+* Python Requests <https://docs.python-requests.org/en/latest/>
+* JS Axios <https://axios-http.com/>
 * Web caching
   * Web cache <https://en.wikipedia.org/wiki/Web_cache>
   * CDN <https://en.wikipedia.org/wiki/Content_delivery_network>
@@ -32,7 +35,7 @@
 
 * CGI server
   * mod_cgi <https://httpd.apache.org/docs/current/mod/mod_cgi.html>
-  * CGI.pm <https://metacpan.org/pod/CGI>
+  * Perl CGI <https://metacpan.org/pod/CGI>
 * Java servlet container
   * Jakarta EE <https://jakarta.ee/>
   * Apache Tomcat <https://tomcat.apache.org/>
@@ -84,7 +87,6 @@
 * ASP.NET <https://dotnet.microsoft.com/en-us/apps/aspnet>
   * Blazor <https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor>
 
-
 ## API architecture styles
 
 * REST <https://en.wikipedia.org/wiki/Representational_state_transfer>
@@ -109,6 +111,7 @@
 * Playwright <https://playwright.dev/>
 * Crawlee <https://crawlee.dev/>
 * Karma <https://karma-runner.github.io>
+* Mechanize <https://metacpan.org/pod/WWW::Mechanize>
 * BeautifulSoup <https://www.crummy.com/software/BeautifulSoup/>
 * Watir <http://watir.com/>
 

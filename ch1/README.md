@@ -59,6 +59,7 @@
 * Shell utilities
   * starship <https://starship.rs/>
   * charm_gum <https://github.com/charmbracelet/gum>
+  * rlwrap <https://github.com/hanslub42/rlwrap>
 * Terminal tools
   * tmux <https://github.com/tmux/tmux/wiki>
   * screen <https://www.gnu.org/software/screen/>
@@ -86,6 +87,7 @@
   * csvkit <https://csvkit.readthedocs.io/en/latest/>
   * xsv <https://github.com/BurntSushi/xsv>
   * qsv <https://github.com/jqnatividad/qsv>
+  * Python tabulate <https://github.com/astanin/python-tabulate>
 * Diff tools
   * diffutils <https://www.gnu.org/software/diffutils/>
   * colordiff <https://www.colordiff.org/>
@@ -105,7 +107,7 @@
   * pnpm <https://pnpm.io>
   * pip <https://pip.pypa.io/>
     * PyPI <https://pypi.org/>
-  * Go Modules <https://go.dev/ref/mod>
+  * Go Modules <https://go.dev/wiki/Modules>
   * RubyGems <https://rubygems.org/>
   * nuget <https://www.nuget.org/>
   * cargo <https://doc.rust-lang.org/stable/cargo/>
@@ -182,6 +184,7 @@
   * VS Code <https://code.visualstudio.com/>
     * GitLens <https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens>
     * Git Graph <https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph>
+  * Cursor <https://cursor.sh/>
   * Vim <https://www.vim.org/>
   * Neovim <https://neovim.io/>
   * GNU Emacs <https://www.gnu.org/software/emacs/>
@@ -199,6 +202,7 @@
   * JSON <https://www.json.org/json-en.html>
     * jq <https://stedolan.github.io/jq/>
     * json_pp <https://metacpan.org/dist/JSON-PP/view/bin/json_pp>
+    * Gopkg json <https://pkg.go.dev/encoding/json>
   * XML <https://www.w3.org/XML/>
   * ISO 8601: Date and time — Representations for information interchange
   * Unix time <https://en.wikipedia.org/wiki/Unix_time>
@@ -207,6 +211,8 @@
   * YAML <https://yaml.org/>
     * yq (python) <https://github.com/kislyuk/yq>
     * yq (go) <https://github.com/mikefarah/yq>
+    * PyYAML <https://github.com/yaml/pyyaml>
+    * Gopkg yaml <https://pkg.go.dev/gopkg.in/yaml.v3>
   * TOML <https://github.com/toml-lang/toml>
 * JSON extentions
   * Hjson <https://hjson.org/>
@@ -240,6 +246,7 @@
   * indentation
   * f-string
   * generator
+  * GIL <https://en.wikipedia.org/wiki/Global_interpreter_lock>
 * Perl <https://www.perl.org/>
   * context
   * scalar type
@@ -366,7 +373,6 @@
 ## CLI development
 
 * Javascript
-  * Axios <https://axios-http.com/>
   * Lodash <https://lodash.com/>
   * Moment.js <https://momentjs.com/>
   * Luson <https://moment.github.io/luxon/>
@@ -377,9 +383,6 @@
   * gradient-string <https://github.com/bokub/gradient-string>
 * Python
   * argparse <https://docs.python.org/3/library/argparse.html>
-  * Requests <https://requests.readthedocs.io/en/latest/>
-  * PyYAML <https://github.com/yaml/pyyaml>
-  * tabulate <https://github.com/astanin/python-tabulate>
   * Click <https://palletsprojects.com/p/click/>
   * Typer <https://typer.tiangolo.com/>
   * Asciimatics <https://github.com/peterbrittain/asciimatics>
@@ -387,8 +390,8 @@
 * Go
   * cli <https://cli.urfave.org/>
   * cobra <https://cobra.dev/>
-  * viper <https://github.com/spf13/viper#readme>
-  * color <https://github.com/fatih/color#readme>
+  * viper <https://github.com/spf13/viper>
+  * color <https://github.com/fatih/color>
 
 ## Programming language tools (advanced)
 
