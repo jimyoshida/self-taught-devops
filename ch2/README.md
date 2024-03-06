@@ -15,6 +15,8 @@
   * file handle/descriptor <https://en.wikipedia.org/wiki/File_descriptor>
   * symbolic link <https://en.wikipedia.org/wiki/Symbolic_link>
   * permission <https://en.wikipedia.org/wiki/File-system_permissions>
+  * setuid <https://en.wikipedia.org/wiki/Setuid>
+    * sticky bit <https://en.wikipedia.org/wiki/Sticky_bit>
 * disk partitioning <https://en.wikipedia.org/wiki/Disk_partitioning>
 * loop device <https://en.wikipedia.org/wiki/Loop_device>
 * virtual memory <https://en.wikipedia.org/wiki/Virtual_memory>
@@ -118,8 +120,6 @@
 
 ## Network administration tools
 
-* netfilter <https://www.netfilter.org/index.html>
-  * iptables <https://man7.org/linux/man-pages/man8/iptables.8.html>
 * iproute2 <https://github.com/shemminger/iproute2>
   * ip <https://man7.org/linux/man-pages/man8/ip.8.html>
   * ss <https://man7.org/linux/man-pages/man8/ss.8.html>
@@ -165,6 +165,7 @@
   * Docker Build <https://docs.docker.com/build/>
   * podman <https://podman.io/>
   * buildah <https://buildah.io/>
+  * skopeo <https://github.com/containers/skopeo>
   * kaniko <https://github.com/GoogleContainerTools/kaniko>
   * lazydocker <https://github.com/jesseduffield/lazydocker>
   * dive <https://github.com/wagoodman/dive>
@@ -181,11 +182,27 @@
 * mDNS <https://en.wikipedia.org/wiki/Multicast_DNS>
 * IANA WHOIS Service <https://www.iana.org/whois>
 * Amazon Route53 <https://aws.amazon.com/route53/>
-* BIND dnsutils <https://www.isc.org/bind/> for `dig`, `nslookup`
-* dog <https://github.com/ogham/dog>
+* BIND (dnsutils) <https://www.isc.org/bind/>
+  * dig <https://linux.die.net/man/1/dig>
+  * nslookup <https://linux.die.net/man/1/nslookup>
+* dog <https://dns.lookup.dog/>
 * systemd-resolved <https://man7.org/linux/man-pages/man8/systemd-resolved.service.8.html>
 * Avahi <https://www.avahi.org/>
 * Bonjour <https://developer.apple.com/bonjour/>
+
+## Email systems
+
+* Email <https://en.wikipedia.org/wiki/Email>
+* Quoted-printable <https://en.wikipedia.org/wiki/Quoted-printable>
+* SMTP <https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol>
+* Postfix <https://www.postfix.org/>
+  * mail <https://linux.die.net/man/1/mail>
+* Twilio SendGrid <https://www.twilio.com/sendgrid/email-api>
+* Amazon SES <https://aws.amazon.com/ses/>
+* IMAP <https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol>
+* POP <https://en.wikipedia.org/wiki/Post_Office_Protocol>
+* Cyrus IMAP <https://www.cyrusimap.org/> (ref)
+* Dovecot <https://www.dovecot.org/> (ref)
 
 ## Kubernetes
 
@@ -310,7 +327,7 @@
 * New Relic <https://newrelic.com>
 * Micrometer <https://micrometer.io/>
 
-## Configuration and infrastructure as code
+## Configuration management and IaC
 
 * idempotency <https://en.wikipedia.org/wiki/Idempotence>
 * Ansible <https://www.ansible.com/>
@@ -326,6 +343,8 @@
 * Azure Resource Manager <https://docs.microsoft.com/en-us/azure/azure-resource-manager/>
   * Bicep language <https://github.com/Azure/bicep>
 * Pulumi <https://www.pulumi.com/>
+* AWS Systems Manager <https://aws.amazon.com/systems-manager/>
+* Azure Update Manager <https://learn.microsoft.com/en-us/azure/update-manager/>
 
 ## Stress test and chaos engineering
 
@@ -343,18 +362,6 @@
 * JDK tools <https://docs.oracle.com/en/java/javase/21/docs/specs/man/index.html>
 * VisualVM <https://visualvm.github.io/>
 * JMX API <https://docs.oracle.com/en/java/javase/21/jmx/introduction-jmx-technology.html>
-
-## Email systems
-
-* Email <https://en.wikipedia.org/wiki/Email>
-* SMTP <https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol>
-* Postfix <https://www.postfix.org/>
-* Twilio SendGrid <https://www.twilio.com/sendgrid/email-api>
-* Amazon SES <https://aws.amazon.com/ses/>
-* IMAP <https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol>
-* POP <https://en.wikipedia.org/wiki/Post_Office_Protocol>
-* Cyrus IMAP <https://www.cyrusimap.org/>
-* Dovecot <https://www.dovecot.org/>
 
 ## Linux desktop for operation
 
@@ -386,7 +393,9 @@
 * Binary file processing
   * Base64 <https://en.wikipedia.org/wiki/Base64>
   * hexdump <https://man7.org/linux/man-pages/man1/hexdump.1.html>
+  * xxd <https://github.com/ckormanyos/xxd>
   * fq <https://github.com/wader/fq>
+  * bbe <https://bbe-.sourceforge.net/>
 * Archivers
   * Gzip <https://www.gnu.org/software/gzip/>
   * tar <https://www.gnu.org/software/tar/>
@@ -402,13 +411,14 @@
   * Office Open XML <https://en.wikipedia.org/wiki/Office_Open_XML>
   * OpenDocument <https://en.wikipedia.org/wiki/OpenDocument>
   * LibreOffice <https://www.libreoffice.org/>
+  * xlsx2csv <https://github.com/dilshod/xlsx2csv>
+  * docx2txt <https://github.com/ankushshah89/python-docx2txt>
   * PDF <https://en.wikipedia.org/wiki/PDF>
+  * Ghostscript <https://www.ghostscript.com/>
   * qpdf <https://qpdf.sourceforge.io/>
   * pdftk <https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/>
   * pdftk-java <https://gitlab.com/pdftk-java/pdftk>
-  * xlsx2csv <https://github.com/dilshod/xlsx2csv>
-  * docx2txt <https://github.com/ankushshah89/python-docx2txt>
-  * Ghostscript <https://www.ghostscript.com/>
+  * pdfcpu <https://pdfcpu.io/>
 
 ## Infrastructure cloud services
 

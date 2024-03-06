@@ -56,6 +56,10 @@
 * PPP Challenge Handshake Authentication Protocol (CHAP) <https://datatracker.ietf.org/doc/html/rfc1994>
 * TOTP (Time-Based One-Time Password Algorithm) <https://datatracker.ietf.org/doc/html/rfc6238>
 * stunnnel <https://www.stunnel.org/>
+* Firewall
+  * netfilter <https://www.netfilter.org/index.html>
+    * iptables <https://man7.org/linux/man-pages/man8/iptables.8.html>
+  * ubuntu ufw <https://help.ubuntu.com/community/UFW>
 
 ## Web security
 
@@ -65,6 +69,7 @@
 * CSP (Content Security Policy) <https://content-security-policy.com/>
 * Same-Site Cookies <https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-cookie-same-site-00>
 * HSTS (HTTP Strict Transport Security) <https://datatracker.ietf.org/doc/html/rfc6797>
+* fail2ban <https://github.com/fail2ban/fail2ban>
 
 ## Certificate tools
 
@@ -184,17 +189,19 @@
 * Microsoft Defender for Cloud <https://azure.microsoft.com/en-us/services/defender-for-cloud/>
 * AWS Security Hub <https://aws.amazon.com/security-hub/>
 
-## Runtime threat detection
+## Runtime threat detection / CWP
 
+* Microsoft Defender for Cloud <https://azure.microsoft.com/en-us/services/defender-for-cloud/>
 * Amazon Inspector <https://aws.amazon.com/inspector/>
 * Amazon GuardDuty <https://aws.amazon.com/guardduty/>
 * Falco <https://falco.org/>
-* AWS Systems Manager <https://aws.amazon.com/systems-manager/>
-
-## Auditing
-
 * AWS CloudTrail <https://aws.amazon.com/cloudtrail/>
-* Amazon Config <https://aws.amazon.com/config/>
+* AWS Config <https://aws.amazon.com/config/>
+* AWS WAF <https://aws.amazon.com/waf/>
+* Azure WAF <https://azure.microsoft.com/en-us/services/web-application-firewall/>
+* F5 NGINX App Protect <https://www.nginx.com/products/nginx-app-protect/>
+* AWS Shield <https://aws.amazon.com/shield/>
+* Azure DDoS Protection <https://azure.microsoft.com/en-us/products/ddos-protection>
 
 ## Policy as code
 
@@ -223,11 +230,3 @@
 * CSRF (Cross-site request forgery) <https://en.wikipedia.org/wiki/Cross-site_request_forgery>
 * Clickjacking <https://en.wikipedia.org/wiki/Clickjacking>
 * DNS hijacking <https://en.wikipedia.org/wiki/DNS_hijacking>
-
-## Web application firewall / DoS protection
-
-* AWS WAF <https://aws.amazon.com/waf/>
-* Azure WAF <https://azure.microsoft.com/en-us/services/web-application-firewall/>
-* F5 NGINX App Protect <https://www.nginx.com/products/nginx-app-protect/>
-* AWS Shield <https://aws.amazon.com/shield/>
-* Azure DDoS Protection <https://azure.microsoft.com/en-us/products/ddos-protection>
