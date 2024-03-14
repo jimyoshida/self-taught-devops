@@ -76,25 +76,17 @@ _work in progress._
   * keep a changelog <https://keepachangelog.com/>
   * Conventional Commits <https://www.conventionalcommits.org/>
 
-
 ## Agile documentaion
 
 * Markup languages
   * Markdown <https://en.wikipedia.org/wiki/Markdown>
     * GFM (GitHub Flavored Markdown) <https://github.github.com/gfm/>
-    * MDX <https://mdxjs.com/>
+    * markdownlint <https://github.com/DavidAnson/markdownlint>
+    * remark <https://remark.js.org/>
   * Groff <https://www.gnu.org/software/groff/>
   * Asciidoc <https://asciidoc.org/> and Asciidoctor <https://asciidoctor.org/>
   * reStructuredText <https://docutils.sourceforge.io/rst.html>
-* Document checkers
-  * lychee <https://github.com/lycheeverse/lychee>
-  * vale <https://vale.sh/>
-  * markdownlint <https://github.com/DavidAnson/markdownlint>
-* Technical Writing <https://developers.google.com/tech-writing>
-* Creative Commons <https://creativecommons.org/>
-
-## Architectural description
-
+* OpenAPI spec <https://www.openapis.org/>
 * Diagramming as code
   * Diagrams <https://diagrams.mingrammer.com/>
   * PlantUML <https://plantuml.com/>
@@ -103,20 +95,12 @@ _work in progress._
   * Graphviz <https://graphviz.org/>
     * DOT language <https://graphviz.org/doc/info/lang.html>
     * haphviz <https://hackage.haskell.org/package/haphviz>
-* Architectural Decision Records <https://adr.github.io/>
-* UML <https://www.omg.org/spec/UML/About-UML/>
-* 4+1 architectural view model <https://en.wikipedia.org/wiki/4%2B1_architectural_view_model>
-* The C4 model <https://c4model.com/>
-* ISO/IEC/IEEE 42010: Systems and software engineering — Architecture description
-
-## Document page generators
-
-* apiDoc <http://apidocjs.com/>
-* JSDoc <https://jsdoc.app/>
-* Javadoc <https://www.oracle.com/java/technologies/javase/javadoc-tool.html>
-* pydoc <https://docs.python.org/3/library/pydoc.html>
-  * Docstring <https://www.python.org/dev/peps/pep-0257/>
-* godoc <https://pkg.go.dev/golang.org/x/tools/cmd/godoc>
+* Architectural description
+  * Architectural Decision Records (ADRs) <https://adr.github.io/>
+  * UML <https://www.omg.org/spec/UML/About-UML/>
+  * 4+1 architectural view model <https://en.wikipedia.org/wiki/4%2B1_architectural_view_model>
+  * The C4 model <https://c4model.com/>
+  * ISO/IEC/IEEE 42010: Systems and software engineering — Architecture description
 
 ## Document site generators
 
@@ -127,7 +111,22 @@ _work in progress._
 * Sphinx <http://www.sphinx-doc.org/en/master/>
   * DocUtils <https://docutils.sourceforge.io/>
 * Docusaurus <https://docusaurus.io/>
-* VuePress <https://vuepress.vuejs.org/>
+  * MDX <https://mdxjs.com/>
+* VuePress <https://v2.vuepress.vuejs.org/>
+
+## Writing
+
+* Microsoft Writing Style Guide <https://learn.microsoft.com/en-us/style-guide/welcome/>
+* Google Technical Writing Courses <https://developers.google.com/tech-writing>
+* Document checkers
+  * vale <https://vale.sh/>
+  * textlint <https://textlint.github.io/>
+  * lychee <https://lychee.cli.rs/>
+
+## Licences
+
+* Creative Commons <https://creativecommons.org/>
+* Opensource licenses <https://opensource.org/licenses/>
 
 ## Code of conducts
 
@@ -147,19 +146,8 @@ _work in progress._
   * Maslow’s Hierarchy of Needs <https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs>
   * Seven stages of action <https://en.wikipedia.org/wiki/Seven_stages_of_action>
 
-## __Cloud cost optimization
+## FinOps
 
 * OpenCost <https://www.opencost.io/>
 * Karpenter <https://karpenter.sh/>
-
-## __Remote port connection
-
-* ngrok <https://ngrok.com/>
-
-## __Enjoyment in console
-
-* Unicode Emoji <https://home.unicode.org/emoji/>
-* FIGlet <http://www.figlet.org/>
-* lolcat <https://github.com/busyloop/lolcat>
-* cowsay <http://cowsay.diamonds/>
-* cfonts <https://github.com/dominikwilkowski/cfonts>
+* Cloud Custodian <https://cloudcustodian.io/>

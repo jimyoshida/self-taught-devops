@@ -6,128 +6,102 @@
 
 * InfoSec/CIA <https://en.wikipedia.org/wiki/Information_security>
 * Vulnerability <https://en.wikipedia.org/wiki/Vulnerability_(computing)>
-* Identity management <https://en.wikipedia.org/wiki/Identity_management>
-* Directory service <https://en.wikipedia.org/wiki/Directory_service>
+* Authenticarion <https://en.wikipedia.org/wiki/Authentication>
+  * Identity management <https://en.wikipedia.org/wiki/Identity_management>
+* Authorization <https://en.wikipedia.org/wiki/Authorization>
+  * Access control list (ACL) <https://en.wikipedia.org/wiki/Access-control_list>
+  * Role-based access control (RBAC) <https://en.wikipedia.org/wiki/Role-based_access_control>
 * Zero trust architecture (ZTA) <https://en.wikipedia.org/wiki/Zero_trust_security_model>
+* Security policy definition
+  * security.txt <https://securitytxt.org/>
 
-## Cryptography
+## Identity and access management
 
-* Unkeyed
-  * Hash Function
-    * MD5 <https://en.wikipedia.org/wiki/MD5>
-    * SHA-2 (SHA-224, SHA-256, SHA-384, SHA-512) <https://en.wikipedia.org/wiki/SHA-2>
-* Common Key / Shard Key / Symmetric Key <https://en.wikipedia.org/wiki/Symmetric-key_algorithm>
-  * Block Cipher
-    * AES <https://en.wikipedia.org/wiki/Advanced_Encryption_Standard>
-    * Salsa20 ChaCha <https://en.wikipedia.org/wiki/Salsa20#ChaCha_variant>
-  * MAC (Message Authentication Code)
-    * HMAC <https://en.wikipedia.org/wiki/HMAC> <https://datatracker.ietf.org/doc/html/rfc2104>
-  * Modes of Operation
-    * CBC (Cipher block chaining) <https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#CBC>
-      * IV (Initialization Vector)
-    * GCM (Galois/Counter Mode) <https://en.wikipedia.org/wiki/Galois/Counter_Mode>
-    * CCM <https://en.wikipedia.org/wiki/CCM_mode>
-* Public Key / Asymmetric Key <https://en.wikipedia.org/wiki/Public-key_cryptography>
-  * Public Key Criptgraphy
-    * RSA <https://en.wikipedia.org/wiki/RSA_(cryptosystem)> <https://datatracker.ietf.org/doc/html/rfc8017>
-    * EdDSA <https://en.wikipedia.org/wiki/EdDSA>
-  * Key Agreement
-    * Diffie–Hellman key exchange <https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange>
-    * Elliptic-curve Diffie–Hellman <https://en.wikipedia.org/wiki/Elliptic-curve_Diffie%E2%80%93Hellman>
-  * Encryption Scheme
-    * RSAES-PKCS1-v1_5, RSAES-OAEP
-  * Signature Scheme
-    * RSASSA-PKCS1-v1_5, RSASSA-PSS, DSA, ECDSA
-  * Key format
-    * PKCS #1: RSA Cryptography Specifications <https://datatracker.ietf.org/doc/html/rfc8017>
-    * PKCS #12: Personal Information Exchange Syntax <https://datatracker.ietf.org/doc/html/rfc7292>
-* FIPS 140-2 (Security Requirements for Cryptographic Modules) <https://en.wikipedia.org/wiki/FIPS_140-2>
+* Specs
+  * Basic authentication <https://en.wikipedia.org/wiki/Basic_access_authentication>
+  * OpenID Connect <https://openid.net/connect/>
+  * OAuth 2.0 Authorization Framework <https://oauth.net/2/>
+  * JSON Web Token (JWT) <https://en.wikipedia.org/wiki/JSON_Web_Token>
+  * SAML (Security Assertion Markup Language) <http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html>
+  * WS-Federation <http://docs.oasis-open.org/wsfed/federation/v1.2/ws-federation.html>
+  * SPIFFE (Secure Production Identity Framework For Everyone) <https://spiffe.io/>
+  * FIDO2 (Fast Identity Online 2) <https://fidoalliance.org/specifications/>
+  * Kerberos <https://web.mit.edu/kerberos/>
+* Implementations
+  * FusionAuth CE <https://fusionauth.io/>
+  * KeyCloak <https://www.keycloak.org/>
+  * Athenz <https://www.athenz.io/>
+  * Dex <https://dexidp.io/>
+  * SPIRE (SPIFFE Runtime Environment) <https://spiffe.io/docs/latest/spire-about/>
+  * MIT Kerberos <https://web.mit.edu/kerberos/new/index.html>
+  * FreeIPA <https://www.freeipa.org/>
+* Cloud IDaaS
+  * Microsoft Entra ID <https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id>
+  * Azure RBAC <https://docs.microsoft.com/en-us/azure/role-based-access-control/overview>
+  * AWS IAM <https://aws.amazon.com/iam/>
+  * Amazon Cognito <https://aws.amazon.com/cognito/>
+  * Auth0 <https://auth0.com/>
 
 ## Security protocols and tools
 
-* X.509 Public Key Infrastructure (PKI) <https://datatracker.ietf.org/doc/html/rfc5280>
-* TLS (Transport Layer Security) <https://datatracker.ietf.org/doc/html/rfc8446>
+* Public Key Infrastructure (PKI) <https://en.wikipedia.org/wiki/Public_key_infrastructure>
+* TLS (Transport Layer Security) <https://en.wikipedia.org/wiki/Transport_Layer_Security>
 * OpenSSL <https://www.openssl.org/>
-* Secure Shell (SSH) Transport Layer Protocol <https://datatracker.ietf.org/doc/html/rfc4253>
+* Secure Shell (SSH) <https://en.wikipedia.org/wiki/Secure_Shell>
 * OpenSSH <https://www.openssh.com/> / SSH Tunnelling
 * mosh <https://mosh.org/>
 * keychain <https://www.funtoo.org/Funtoo:Keychain>
 * OpenPGP/GPG <https://gnupg.org/>
-* PPP Challenge Handshake Authentication Protocol (CHAP) <https://datatracker.ietf.org/doc/html/rfc1994>
-* TOTP (Time-Based One-Time Password Algorithm) <https://datatracker.ietf.org/doc/html/rfc6238>
+* TOTP (Time-Based One-Time Password) <https://en.wikipedia.org/wiki/Time-based_one-time_password>
 * stunnnel <https://www.stunnel.org/>
-* Firewall
+* Network firewall
   * netfilter <https://www.netfilter.org/index.html>
     * iptables <https://man7.org/linux/man-pages/man8/iptables.8.html>
   * ubuntu ufw <https://help.ubuntu.com/community/UFW>
-
-## Web security
-
-* SNI (Server Name Indication) <https://datatracker.ietf.org/doc/html/rfc6066>
-* Fetch Standard <https://fetch.spec.whatwg.org/>
-  * CORS (Cross-Origin Resource Sharing) <https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS>
-* CSP (Content Security Policy) <https://content-security-policy.com/>
-* Same-Site Cookies <https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-cookie-same-site-00>
-* HSTS (HTTP Strict Transport Security) <https://datatracker.ietf.org/doc/html/rfc6797>
 * fail2ban <https://github.com/fail2ban/fail2ban>
+
+## Web security standards
+
+* SOP (Same-origin policy) <https://en.wikipedia.org/wiki/Same-origin_policy>
+* CORS (Cross-Origin Resource Sharing) <https://en.wikipedia.org/wiki/Cross-origin_resource_sharing>
+* Fetch Standard <https://fetch.spec.whatwg.org/>
+* CSP (Content Security Policy) <https://content-security-policy.com/>
+* HSTS (HTTP Strict Transport Security) <https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security>
+* SNI (Server Name Indication) <https://en.wikipedia.org/wiki/Server_Name_Indication>
 
 ## Certificate tools
 
 * cfssl <https://github.com/cloudflare/cfssl#readme>
+* cert-manager <https://cert-manager.io>
 * Let's Encrypt <https://letsencrypt.org/>
-  * ACME protocol <https://datatracker.ietf.org/doc/html/rfc8555>
+  * ACME (Automatic Certificate Management Environment) <https://en.wikipedia.org/wiki/Automatic_Certificate_Management_Environment>
   * certbot <https://certbot.eff.org/>
 * AWS Certificate Manager <https://aws.amazon.com/certificate-manager/>
 
-## Secure coding
+## SAST, DAST, SCA and CSPM
 
-* SEI CERT Coding Standards <https://wiki.sei.cmu.edu/confluence/display/seccode/SEI+CERT+Coding+Standards>
-* CWE (Common Weakness Enumeration) <https://cwe.mitre.org/>
-* CWE/SANS TOP 25 <https://www.sans.org/top25-software-errors/>
-* OWASP Top 10 <https://owasp.org/www-project-top-ten/>
-* OWASP ASVS <https://owasp.org/www-project-application-security-verification-standard/>
-* Cloud Application Security Assessment (CASA) <https://appdefensealliance.dev/casa>
-
-## Threat modeling tool
-
-* Threat modeling <https://en.wikipedia.org/wiki/Threat_model>
-  * STRIDE model <https://en.wikipedia.org/wiki/STRIDE_%28security%29>
-* OWASP Threat Dragon <https://owasp.org/www-project-threat-dragon/>
-
-## Security policy definition
-
-* security.txt <https://securitytxt.org/>
-
-## Security guidelines
-
-* SLSA framework <https://slsa.dev/>
-* Secure Software Development Framework <https://csrc.nist.gov/Projects/ssdf>
-* ISO/IEC 27001: Information security management systems (ISMS)
-* ISO/IEC 27017: Security techniques — Code of practice for information security controls
-* ISO/IEC 27018: Security techniques — Code of practice for protection of personally identifiable information (PII) in public clouds
-* PCI DSS <https://www.pcisecuritystandards.org/document_library/>
-* SOC (System and Organization Controls) 2 <https://drata.com/product/soc-2>
-
-## SAST
-
-* SonarQube <https://www.sonarqube.org/>
-  * SQALE method <http://sqale.org/>
-* fluid attacks <https://docs.fluidattacks.com/tech/scanner/plans/foss/>
-* tfsec <https://aquasecurity.github.io/tfsec/>
-* trivy <https://aquasecurity.github.io/trivy/>
-* kube-score <https://kube-score.com/>
-* Whispers <https://github.com/Skyscanner/whispers>
-* Gitleaks <https://gitleaks.io/>
-* Talisman <https://thoughtworks.github.io/talisman/>
-
-## Artifact SAST and SCA
-
-* Syft <https://github.com/anchore/syft>
-* Grype <https://github.com/anchore/grype>
-* trivy <https://aquasecurity.github.io/trivy/>
-* Clair <https://github.com/quay/clair>
-* OWASP CycloneDX <https://cyclonedx.org>
-* SPDX <https://spdx.dev/>
+* Static application security test (SAST)
+  * SonarQube <https://www.sonarqube.org/>
+    * SQALE method <http://sqale.org/>
+  * trivy <https://aquasecurity.github.io/trivy/>
+  * fluid attacks <https://docs.fluidattacks.com/tech/scanner/plans/foss/>
+  * Whispers <https://github.com/Skyscanner/whispers>
+  * Gitleaks <https://gitleaks.io/>
+  * Talisman <https://thoughtworks.github.io/talisman/>
+  * Grype <https://github.com/anchore/grype>
+  * trivy <https://aquasecurity.github.io/trivy/>
+  * Clair <https://github.com/quay/clair>
+  * kube-score <https://kube-score.com/>
+  * checkov <https://www.checkov.io/>
+* Software composition analysis (SCA)
+  * Syft <https://github.com/anchore/syft>
+  * OWASP CycloneDX <https://cyclonedx.org>
+  * SPDX <https://spdx.dev/>
+* Dynamic application security test (DAST)
+  * OWASP ZAP <https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project>
+* Cloud security posture management (CSPM)
+  * Microsoft Defender for Cloud <https://azure.microsoft.com/en-us/services/defender-for-cloud/>
+  * AWS Security Hub <https://aws.amazon.com/security-hub/>
 
 ## Secret management
 
@@ -139,55 +113,19 @@
 * AWS KMS <https://aws.amazon.com/kms/>
 * AWS Secrets Manager <https://aws.amazon.com/secrets-manager/>
 
-## DAST
-
-* OWASP ZAP <https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project>
-
 ## Email security
 
-* SASL (Simple Authentication and Security Layer) <https://datatracker.ietf.org/doc/html/rfc4422>
-* SPF (Sender Policy Framework) <https://datatracker.ietf.org/doc/html/rfc7208>
+* SASL (Simple Authentication and Security Layer) <https://en.wikipedia.org/wiki/Simple_Authentication_and_Security_Layer>
+* SPF (Sender Policy Framework) <https://en.wikipedia.org/wiki/Sender_Policy_Framework>
 * DKIM (DomainKeys Identified Mail) <https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail> <http://dkim.org/>
 * DMARC (Domain-based Message Authentication, Reporting & Conformance) <https://dmarc.org/>
 
-## Process security policy
-
-* SELinux <https://selinuxproject.org/page/Main_Page>
-* AppArmor <https://apparmor.net/>
-
 ## Directory service
 
-* LDAP <https://datatracker.ietf.org/doc/html/rfc4511>
+* Directory service <https://en.wikipedia.org/wiki/Directory_service>
+* LDAP <https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol>
 * OpenLDAP <https://www.openldap.org/>
 * 389 Directory Server <https://directory.fedoraproject.org/>
-
-## Identity and access management
-
-* Basic auth <https://datatracker.ietf.org/doc/html/rfc7617>
-* OAuth 2.0 Authorization Framework <https://oauth.net/2/>
-* OpenID Connect <https://openid.net/connect/>
-* JOSE framework <https://datatracker.ietf.org/wg/jose/charter/>
-  * JWT <https://jwt.io/>, JWS, JWE, JWK, and JWA
-* SAML <http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html>
-* WS-Federation <http://docs.oasis-open.org/wsfed/federation/v1.2/ws-federation.html>
-* Auth0 <https://auth0.com/>
-* Dex <https://dexidp.io/>
-* KeyCloak <https://www.keycloak.org/>
-* Amazon Cognito <https://aws.amazon.com/cognito/>
-* Microsoft Entra ID <https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id>
-* AWS IAM <https://aws.amazon.com/iam/>
-* Azure RBAC <https://docs.microsoft.com/en-us/azure/role-based-access-control/overview>
-* Athenz <https://www.athenz.io/>
-* SPIFFE <https://spiffe.io/>
-* SPIRE <https://spiffe.io/docs/latest/spire-about/>
-* FIDO2 <https://fidoalliance.org/specifications/>
-* FreeIPA <https://www.freeipa.org/>
-* Kerberos <https://web.mit.edu/kerberos/> <https://datatracker.ietf.org/doc/html/rfc4120>
-
-## Cloud security posture management (CSPM)
-
-* Microsoft Defender for Cloud <https://azure.microsoft.com/en-us/services/defender-for-cloud/>
-* AWS Security Hub <https://aws.amazon.com/security-hub/>
 
 ## Runtime threat detection / CWP
 
@@ -203,30 +141,81 @@
 * AWS Shield <https://aws.amazon.com/shield/>
 * Azure DDoS Protection <https://azure.microsoft.com/en-us/products/ddos-protection>
 
-## Policy as code
+## Policy management
 
-* Gatekeeper <https://open-policy-agent.github.io/gatekeeper/>
-* Kyverno <https://kyverno.io/>
+* Kubernetes policy management
+  * Gatekeeper <https://open-policy-agent.github.io/gatekeeper/>
+  * Kyverno <https://kyverno.io/>
 * Open Policy Agent <https://www.openpolicyagent.org/>
+  * Rego Policy Language <https://www.openpolicyagent.org/docs/latest/policy-language/>
   * Conftest <https://www.conftest.dev/>
-  * Rego Language <https://www.openpolicyagent.org/docs/latest/policy-language/>
-* checkov <https://www.checkov.io/>
+* Linux kernel security
+  * SELinux <https://selinuxproject.org/page/Main_Page>
+  * AppArmor <https://apparmor.net/>
 
-## Secutiry knowledge base
+## Secure coding
+
+* SEI CERT Coding Standards <https://wiki.sei.cmu.edu/confluence/display/seccode/SEI+CERT+Coding+Standards>
+* CWE (Common Weakness Enumeration) <https://cwe.mitre.org/>
+* CWE/SANS TOP 25 <https://www.sans.org/top25-software-errors/>
+* OWASP Top 10 <https://owasp.org/www-project-top-ten/>
+* OWASP ASVS <https://owasp.org/www-project-application-security-verification-standard/>
+* Cloud Application Security Assessment (CASA) <https://appdefensealliance.dev/casa>
+* WASC Threat Classification <http://projects.webappsec.org/w/page/13246978/Threat%20Classification>
+* ATT&CK <https://attack.mitre.org/>
+* Threat modeling <https://en.wikipedia.org/wiki/Threat_model>
+  * STRIDE model <https://en.wikipedia.org/wiki/STRIDE_%28security%29>
+  * OWASP Threat Dragon <https://owasp.org/www-project-threat-dragon/>
+* Security Technical Implementation Guides (STIGs) <https://public.cyber.mil/stigs/>
+* SLSA framework <https://slsa.dev/>
+* Secure Software Development Framework <https://csrc.nist.gov/Projects/ssdf>
+* ISO/IEC 27001: Information security management systems (ISMS)
+* PCI DSS <https://www.pcisecuritystandards.org/document_library/>
+* SOC (System and Organization Controls) 2 <https://drata.com/product/soc-2>
+
+## Vulnerability databases
 
 * NVD (U.S. National Vulnerability Database) <https://nvd.nist.gov/>
   * CVSS (Common Vulnerability Scoring System) <https://nvd.nist.gov/vuln-metrics/cvss>
 * CVE (Common Vulnerabilities and Exposures) <https://cve.mitre.org/cve/>
-* OSV <https://osv.dev/>
+* OSV (Open Source Vulnerability) <https://osv.dev/>
 * SSVC (Stakeholder-Specific Vulnerability Categorization) https://www.cisa.gov/stakeholder-specific-vulnerability-categorization-ssvc
-* KEV (Known Exploited Vulnerabilities) <https://www.cisa.gov/known-exploited-vulnerabilities-catalog>* WASC Threat Classification <http://projects.webappsec.org/w/page/13246978/Threat%20Classification>
-* ATT&CK <https://attack.mitre.org/>
-* Security Technical Implementation Guides (STIGs) <https://public.cyber.mil/stigs/>
-* NIST SP <https://csrc.nist.gov/publications/sp>
+* KEV (Known Exploited Vulnerabilities) <https://www.cisa.gov/known-exploited-vulnerabilities-catalog>
+* Major malicious exploit types
+  * XSS (Cross-site scripting) <https://en.wikipedia.org/wiki/Cross-site_scripting>
+  * CSRF (Cross-site request forgery) <https://en.wikipedia.org/wiki/Cross-site_request_forgery>
+  * Clickjacking <https://en.wikipedia.org/wiki/Clickjacking>
+  * DNS hijacking <https://en.wikipedia.org/wiki/DNS_hijacking>
 
-## Major malicious technique
+## Cryptography
 
-* XSS (Cross-site scripting) <https://en.wikipedia.org/wiki/Cross-site_scripting>
-* CSRF (Cross-site request forgery) <https://en.wikipedia.org/wiki/Cross-site_request_forgery>
-* Clickjacking <https://en.wikipedia.org/wiki/Clickjacking>
-* DNS hijacking <https://en.wikipedia.org/wiki/DNS_hijacking>
+* Unkeyed
+  * Hash Function
+    * MD5 <https://en.wikipedia.org/wiki/MD5>
+    * SHA-2 (SHA-224, SHA-256, SHA-384, SHA-512) <https://en.wikipedia.org/wiki/SHA-2>
+* Common Key / Shard Key / Symmetric Key <https://en.wikipedia.org/wiki/Symmetric-key_algorithm>
+  * Block Cipher
+    * AES <https://en.wikipedia.org/wiki/Advanced_Encryption_Standard>
+    * Salsa20 ChaCha <https://en.wikipedia.org/wiki/Salsa20#ChaCha_variant>
+  * MAC (Message Authentication Code)
+    * HMAC <https://en.wikipedia.org/wiki/HMAC>
+  * Modes of Operation
+    * CBC (Cipher block chaining) <https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation#CBC>
+      * IV (Initialization Vector)
+    * GCM (Galois/Counter Mode) <https://en.wikipedia.org/wiki/Galois/Counter_Mode>
+    * CCM <https://en.wikipedia.org/wiki/CCM_mode>
+* Public Key / Asymmetric Key <https://en.wikipedia.org/wiki/Public-key_cryptography>
+  * Public Key Criptgraphy
+    * RSA <https://en.wikipedia.org/wiki/RSA_(cryptosystem)>
+    * EdDSA <https://en.wikipedia.org/wiki/EdDSA>
+  * Key Agreement
+    * Diffie–Hellman key exchange <https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange>
+    * Elliptic-curve Diffie–Hellman <https://en.wikipedia.org/wiki/Elliptic-curve_Diffie%E2%80%93Hellman>
+  * Encryption Scheme
+    * RSAES-PKCS1-v1_5, RSAES-OAEP
+  * Signature Scheme
+    * RSASSA-PKCS1-v1_5, RSASSA-PSS, DSA, ECDSA
+  * Key format
+    * PKCS #1: RSA Cryptography Specifications <https://en.wikipedia.org/wiki/PKCS_1>
+    * PKCS #12: Personal Information Exchange Syntax <https://en.wikipedia.org/wiki/PKCS_12>
+* FIPS 140-2 (Security Requirements for Cryptographic Modules) <https://en.wikipedia.org/wiki/FIPS_140-2>

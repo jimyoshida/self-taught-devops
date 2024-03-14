@@ -90,7 +90,6 @@
 ## API architecture styles
 
 * REST <https://en.wikipedia.org/wiki/Representational_state_transfer>
-  * OpenAPI (Swagger) <https://swagger.io/docs/specification/about/>
   * ROA <https://en.wikipedia.org/wiki/Resource-oriented_architecture>
 * SOAP <https://en.wikipedia.org/wiki/SOAP>
 * GraphQL <https://graphql.org/>
