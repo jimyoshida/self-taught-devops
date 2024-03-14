@@ -43,7 +43,6 @@
   * DHCPv6 <https://en.wikipedia.org/wiki/DHCPv6>
 * ICMP <https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol>
   * ICMPv6 <https://en.wikipedia.org/wiki/ICMPv6>
-* SNMP <https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol>
 
 ## Linux core services
 
@@ -92,9 +91,6 @@
   * NTP <https://en.wikipedia.org/wiki/Network_Time_Protocol>
   * chrony <https://chrony.tuxfamily.org/>
   * pool.ntp.org <https://www.ntppool.org/en/>
-* Console file managers
-  * midnight commander <https://midnight-commander.org/>
-  * ranger <https://github.com/ranger/ranger>
 * gsudo - a sudo for Windows <https://github.com/gerardog/gsudo>
 
 ## Advanced administration tools
@@ -116,7 +112,6 @@
   * glances <https://nicolargo.github.io/glances/>
 * Json adaptor
   * jc <https://kellyjonbrazil.github.io/jc/docs/>
-* Sysinternals <https://learn.microsoft.com/en-us/sysinternals/>
 
 ## Network administration tools
 
@@ -126,12 +121,17 @@
 * net-tools <https://sourceforge.net/projects/net-tools/>
   * ifconfig <https://man7.org/linux/man-pages/man8/ifconfig.8.html>
   * netstat <https://man7.org/linux/man-pages/man8/netstat.8.html>
+* traceroute <https://traceroute.sourceforge.net/>
 * NetworkManager <https://networkmanager.dev/>
-* NetPlan <https://netplan.io/> in Ubuntu
+* Ubuntu NetPlan <https://netplan.io/>
 * tcpdump <https://www.tcpdump.org/>
 * wireshark <https://www.wireshark.org/>
 * netcat <https://nc110.sourceforge.io/>
 * nmap <https://nmap.org/>
+* SOCKS proxy <https://en.wikipedia.org/wiki/SOCKS>
+  * dante <https://www.inet.no/dante/>
+  * tun2socks <https://github.com/xjasonlyu/tun2socks>
+  * proxychains <https://github.com/haad/proxychains>
 
 ## Package management (operation)
 
@@ -190,7 +190,7 @@
 * Avahi <https://www.avahi.org/>
 * Bonjour <https://developer.apple.com/bonjour/>
 
-## Email systems
+## Email system
 
 * Email <https://en.wikipedia.org/wiki/Email>
 * Quoted-printable <https://en.wikipedia.org/wiki/Quoted-printable>
@@ -430,9 +430,8 @@
 * Azure Virtual Network <https://azure.microsoft.com/en-us/services/virtual-network/>
 * Amazon ELB <https://aws.amazon.com/elasticloadbalancing/>
 * Azure Load Balancer <https://azure.microsoft.com/en-us/products/load-balancer>
-
-## __Packet processing (advanced)
-
-* Open vSwitch <https://www.openvswitch.org/>
-* DPDK <https://www.dpdk.org/>
-* FD.io <https://fd.io/>
+* Related OSS (reference)
+  * OpenStack <https://www.openstack.org/>
+  * Open vSwitch <https://www.openvswitch.org/>
+  * DPDK <https://www.dpdk.org/>
+  * FD.io <https://fd.io/>
