@@ -15,17 +15,18 @@
 * DOM <https://www.w3.org/DOM/DOMTR>
 * CSS <https://www.w3.org/Style/CSS/>
 * Block, Element, Modifier methodology (BEM) <https://en.bem.info>
-* WebAssembly <https://webassembly.org/>
-* WASI <https://github.com/WebAssembly/WASI>
 * CLIs
   * cURL <https://curl.haxx.se/>
   * Wget <https://www.gnu.org/software/wget/>
   * w3m <https://w3m.sourceforge.net/>
   * curlie <https://curlie.io/>
   * httpie <https://httpie.io/>
-* Perl LWP <https://metacpan.org/pod/LWP>
-* Python Requests <https://docs.python-requests.org/en/latest/>
-* JS Axios <https://axios-http.com/>
+* Libraries
+  * Perl LWP <https://metacpan.org/pod/LWP>
+  * Python Requests <https://docs.python-requests.org/en/latest/>
+  * JS Axios <https://axios-http.com/>
+  * Go Resty <https://github.com/go-resty/resty>
+  * Go FastHTTP <https://github.com/valyala/fasthttp>
 * Web caching
   * Web cache <https://en.wikipedia.org/wiki/Web_cache>
   * CDN <https://en.wikipedia.org/wiki/Content_delivery_network>
@@ -47,17 +48,16 @@
 ## Frontend libraries and tools
 
 * Sass language <https://sass-lang.com/>
-* JSX language <https://react.dev/learn/writing-markup-with-jsx>
 * React <https://reactjs.org/>
+  * JSX language <https://react.dev/learn/writing-markup-with-jsx>
   * MUI <https://mui.com/>
 * Vue.js <https://vuejs.org/>
-* Bootstrap <https://getbootstrap.com/>
+* Bootstrap <https://getbootstrap.com/> - Powerful, extensible, and feature-packed frontend toolkit
 * Tailwind CSS <https://tailwindcss.com/>
-  * daisyUI <https://daisyui.com/>
+  * daisyUI <https://daisyui.com/> - The most popular component library
 * Material Web <https://m3.material.io/develop/web/>
-* jQuery <https://jquery.com/>
-* Percel <https://parceljs.org/>
-* Vite <https://vitejs.dev/>
+* Percel <https://parceljs.org/> - The zero configuration build tool
+* Vite <https://vitejs.dev/> - Next Generation Frontend Tooling
 * webpack <https://webpack.js.org/>
 * babel <https://babeljs.io/>
 
@@ -119,12 +119,20 @@
 * API test
   * Postman/Newman <https://www.getpostman.com/>
 * Debug
-  * Fiddler - Web Debugging Proxy <https://www.telerik.com/fiddler>
+  * Fiddler <https://www.telerik.com/fiddler> - Web Debugging Proxy
 * Load test
   * k6 <https://k6.io/>
   * Gatling <https://gatling.io/>
   * Apache Jmeter <https://jmeter.apache.org/>
 
+## WebAssembly
+
+* WebAssembly <https://webassembly.org/>
+* WASI <https://github.com/WebAssembly/WASI>
+* Runtime
+  * wazero <https://wazero.io/>
+  * wasmtime <https://wasmtime.dev/>
+  * wasmer <https://wasmer.io/>
 
 ## Cloud native application helpers
 

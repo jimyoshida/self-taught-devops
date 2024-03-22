@@ -20,6 +20,18 @@ The contents consist of the following 6 sections.
 
 [Appendix: References](ch9/README.md)
 
+## Motivations
+
+- (To be descrived)
+
+## Backlogs
+
+- Reconsider about the license
+- Add brief explanations on software items
+- Make a script to generate mindmaps via plantuml code
+- Update the timeline items to match the current sections
+- Make a document of how to use the Makefile
+
 ## License
 
 This documentation is licensed under the GNU Free Documentation License (GFDL).

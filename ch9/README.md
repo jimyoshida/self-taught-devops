@@ -2,6 +2,7 @@
 
 * [Developer Roadmaps](https://roadmap.sh)
 * [Thoughtworks Technology Radar](https://www.thoughtworks.com/radar)
+* [Golang Weekly](https://golangweekly.com/)
 * Medium publishers
   * [Tony](https://medium.com/@tonylixu)
   * [ITNEXT](https://itnext.io/)
@@ -9,4 +10,4 @@
   * [Level Up Coding](https://levelup.gitconnected.com/)
 * Books
   * Self-taught Programmer (Japanese Edition)
-  * __ To be listed
+  * ... To be listed more

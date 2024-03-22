@@ -59,6 +59,8 @@
   * overlayfs <https://www.kernel.org/doc/html/latest/filesystems/overlayfs.html>
   * proc pseudo-filesystem <https://man7.org/linux/man-pages/man5/proc.5.html>
   * sysfs pseudo-filesystem <https://man7.org/linux/man-pages/man5/sysfs.5.html>
+  * ext4 <https://en.wikipedia.org/wiki/Ext4>
+  * xfs <https://en.wikipedia.org/wiki/XFS>
 * Systemd <https://www.freedesktop.org/wiki/Software/systemd/>
 * linux-pam <https://github.com/linux-pam/linux-pam>
 * kvm <https://www.linux-kvm.org/page/Main_Page>
@@ -70,8 +72,6 @@
   * lsblk <https://man7.org/linux/man-pages/man8/lsblk.8.html>
   * lsns <https://man7.org/linux/man-pages/man8/lsns.8.html>
   * swapon <https://man7.org/linux/man-pages/man8/swapon.8.html>
-* coreutils <https://www.gnu.org/software/coreutils/>
-  * see also <https://en.wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands>
 * Vixie Cron <https://github.com/vixie/cron>
 * logger <https://man7.org/linux/man-pages/man1/logger.1.html>
 * logrotate <https://github.com/logrotate/logrotate>
@@ -91,7 +91,7 @@
   * NTP <https://en.wikipedia.org/wiki/Network_Time_Protocol>
   * chrony <https://chrony.tuxfamily.org/>
   * pool.ntp.org <https://www.ntppool.org/en/>
-* gsudo - a sudo for Windows <https://github.com/gerardog/gsudo>
+* gsudo <https://github.com/gerardog/gsudo> - a sudo for Windows
 
 ## Advanced administration tools
 
@@ -196,13 +196,15 @@
 * Quoted-printable <https://en.wikipedia.org/wiki/Quoted-printable>
 * SMTP <https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol>
 * Postfix <https://www.postfix.org/>
-  * mail <https://linux.die.net/man/1/mail>
 * Twilio SendGrid <https://www.twilio.com/sendgrid/email-api>
 * Amazon SES <https://aws.amazon.com/ses/>
+* mail command <https://linux.die.net/man/1/mail>
+* charm_Pop <https://github.com/charmbracelet/pop>
 * IMAP <https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol>
 * POP <https://en.wikipedia.org/wiki/Post_Office_Protocol>
-* Cyrus IMAP <https://www.cyrusimap.org/> (ref)
-* Dovecot <https://www.dovecot.org/> (ref)
+* Cyrus IMAP <https://www.cyrusimap.org/> (reference)
+* Dovecot <https://www.dovecot.org/> (reference)
+* listmonk <https://listmonk.app/> - Self-hosted newsletter and mailing list manager
 
 ## Kubernetes
 
@@ -327,25 +329,6 @@
 * New Relic <https://newrelic.com>
 * Micrometer <https://micrometer.io/>
 
-## Configuration management and IaC
-
-* idempotency <https://en.wikipedia.org/wiki/Idempotence>
-* Ansible <https://www.ansible.com/>
-* Hashicorp Packer <https://packer.io/>
-* cloud-init <https://cloud-init.io/>
-* Hashicorp Terraform <https://www.terraform.io/>
-  * tf.libsonnet <https://docs.tflibsonnet.com/>
-  * Terraformer <https://github.com/GoogleCloudPlatform/terraformer>
-  * Atrantis (reference) <https://www.runatlantis.io/>
-* Serverless Framework <https://serverless.com/>
-* AWS CloudFormation <https://aws.amazon.com/cloudformation/>
-* AWS Cloud Development Kit <https://aws.amazon.com/cdk/>
-* Azure Resource Manager <https://docs.microsoft.com/en-us/azure/azure-resource-manager/>
-  * Bicep language <https://github.com/Azure/bicep>
-* Pulumi <https://www.pulumi.com/>
-* AWS Systems Manager <https://aws.amazon.com/systems-manager/>
-* Azure Update Manager <https://learn.microsoft.com/en-us/azure/update-manager/>
-
 ## Stress test and chaos engineering
 
 * stress-ng <https://github.com/ColinIanKing/stress-ng>
@@ -355,6 +338,7 @@
 * Chaos engineering <https://en.wikipedia.org/wiki/Chaos_engineering>
   * Litmus <https://litmuschaos.io/>
   * Chaos Mesh <https://chaos-mesh.org/>
+  * toxiproxy <https://github.com/Shopify/toxiproxy>
 
 ## Java VM administration
 
@@ -392,6 +376,8 @@
 
 * Binary file processing
   * Base64 <https://en.wikipedia.org/wiki/Base64>
+  * ELF format <https://en.wikipedia.org/wiki/Executable_and_Linkable_Format>
+  * file (command) <https://www.darwinsys.com/file/>
   * hexdump <https://man7.org/linux/man-pages/man1/hexdump.1.html>
   * xxd <https://github.com/ckormanyos/xxd>
   * fq <https://github.com/wader/fq>
@@ -404,15 +390,17 @@
 * File transfers and converters
   * rsync <https://rsync.samba.org/>
   * s5cmd <https://github.com/peak/s5cmd>
-  * aha - Ansi HTML Adapter <https://github.com/theZiz/aha>
+  * aha <https://github.com/theZiz/aha> - Ansi HTML Adapter
     * NO_COLOR <https://no-color.org/>
   * pandoc <https://pandoc.org/>
 * Office document processing
   * Office Open XML <https://en.wikipedia.org/wiki/Office_Open_XML>
   * OpenDocument <https://en.wikipedia.org/wiki/OpenDocument>
   * LibreOffice <https://www.libreoffice.org/>
+  * Excelize <https://xuri.me/excelize/>
   * xlsx2csv <https://github.com/dilshod/xlsx2csv>
   * docx2txt <https://github.com/ankushshah89/python-docx2txt>
+  * pptx2md <https://github.com/ssine/pptx2md>
   * PDF <https://en.wikipedia.org/wiki/PDF>
   * Ghostscript <https://www.ghostscript.com/>
   * qpdf <https://qpdf.sourceforge.io/>
