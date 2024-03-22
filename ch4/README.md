@@ -58,7 +58,8 @@
   * netfilter <https://www.netfilter.org/index.html>
     * iptables <https://man7.org/linux/man-pages/man8/iptables.8.html>
   * ubuntu ufw <https://help.ubuntu.com/community/UFW>
-* fail2ban <https://github.com/fail2ban/fail2ban>
+* charm_Wish <https://github.com/charmbracelet/wish> - an ssh app library
+* charm_Wishlist <https://github.com/charmbracelet/wishlist> - the ssh directory
 
 ## Web security standards
 
@@ -78,7 +79,7 @@
   * certbot <https://certbot.eff.org/>
 * AWS Certificate Manager <https://aws.amazon.com/certificate-manager/>
 
-## SAST, DAST, SCA and CSPM
+## SAST, SCA and CSPM
 
 * Static application security test (SAST)
   * SonarQube <https://www.sonarqube.org/>
@@ -97,11 +98,26 @@
   * Syft <https://github.com/anchore/syft>
   * OWASP CycloneDX <https://cyclonedx.org>
   * SPDX <https://spdx.dev/>
-* Dynamic application security test (DAST)
-  * OWASP ZAP <https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project>
 * Cloud security posture management (CSPM)
   * Microsoft Defender for Cloud <https://azure.microsoft.com/en-us/services/defender-for-cloud/>
   * AWS Security Hub <https://aws.amazon.com/security-hub/>
+
+## DAST, Runtime threat detection and CWP
+
+* Dynamic application security test (DAST)
+  * OWASP ZAP <https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project>
+* Microsoft Defender for Cloud <https://azure.microsoft.com/en-us/services/defender-for-cloud/>
+* Amazon Inspector <https://aws.amazon.com/inspector/>
+* Amazon GuardDuty <https://aws.amazon.com/guardduty/>
+* Falco <https://falco.org/>
+* AWS CloudTrail <https://aws.amazon.com/cloudtrail/>
+* AWS Config <https://aws.amazon.com/config/>
+* AWS WAF <https://aws.amazon.com/waf/>
+* Azure WAF <https://azure.microsoft.com/en-us/services/web-application-firewall/>
+* F5 NGINX App Protect <https://www.nginx.com/products/nginx-app-protect/>
+* AWS Shield <https://aws.amazon.com/shield/>
+* Azure DDoS Protection <https://azure.microsoft.com/en-us/products/ddos-protection>
+* fail2ban <https://github.com/fail2ban/fail2ban>
 
 ## Secret management
 
@@ -126,20 +142,6 @@
 * LDAP <https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol>
 * OpenLDAP <https://www.openldap.org/>
 * 389 Directory Server <https://directory.fedoraproject.org/>
-
-## Runtime threat detection / CWP
-
-* Microsoft Defender for Cloud <https://azure.microsoft.com/en-us/services/defender-for-cloud/>
-* Amazon Inspector <https://aws.amazon.com/inspector/>
-* Amazon GuardDuty <https://aws.amazon.com/guardduty/>
-* Falco <https://falco.org/>
-* AWS CloudTrail <https://aws.amazon.com/cloudtrail/>
-* AWS Config <https://aws.amazon.com/config/>
-* AWS WAF <https://aws.amazon.com/waf/>
-* Azure WAF <https://azure.microsoft.com/en-us/services/web-application-firewall/>
-* F5 NGINX App Protect <https://www.nginx.com/products/nginx-app-protect/>
-* AWS Shield <https://aws.amazon.com/shield/>
-* Azure DDoS Protection <https://azure.microsoft.com/en-us/products/ddos-protection>
 
 ## Policy management
 

@@ -59,6 +59,8 @@
   * PowerShell <https://docs.microsoft.com/en-us/powershell/>
   * nushell <https://www.nushell.sh/>
 * Shell utilities
+  * coreutils <https://www.gnu.org/software/coreutils/> = fileutils|textutils|shellutils;
+    see also <https://en.wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands>
   * starship <https://starship.rs/>
   * bash-completion <https://github.com/scop/bash-completion>
   * parallel <https://www.gnu.org/software/parallel/>
@@ -71,12 +73,20 @@
   * tmux <https://github.com/tmux/tmux/wiki>
   * byobu <https://www.byobu.org/>
   * zellij <https://zellij.dev/>
+  * Fonts
+    * Noto Fonts <https://fonts.google.com/noto>
+    * Nerd Fonts <https://www.nerdfonts.com/>
+* Search tools
+  * findutils <https://www.gnu.org/software/findutils/>
+    * xargs
+  * fzf <https://github.com/junegunn/fzf>
+  * fd <https://github.com/sharkdp/fd>
+  * grep <https://www.gnu.org/software/grep/>
+  * ripgrep <https://github.com/BurntSushi/ripgrep>
+  * silversearcher-ag <https://geoff.greer.fm/ag/>
 * Console file managers
   * midnight commander <https://midnight-commander.org/>
   * ranger <https://github.com/ranger/ranger>
-* Fonts
-  * Noto Fonts <https://fonts.google.com/noto>
-  * Nerd Fonts <https://www.nerdfonts.com/>
 * Unix-like environments on Windows
   * Git for Windows (MINGW) <https://gitforwindows.org/>
   * Cygwin <https://www.cygwin.com/>
@@ -88,11 +98,13 @@
 * Unicode <https://home.unicode.org/>
   * Unicode Emoji <https://home.unicode.org/emoji/>
 * Regex <https://en.wikipedia.org/wiki/Regular_expression>
-* PCRE <https://en.wikipedia.org/wiki/Perl_Compatible_Regular_Expressions>
-* GNU sed <https://www.gnu.org/software/sed/> <https://sed.sourceforge.io/>
-* Table data
-  * TSV <https://en.wikipedia.org/wiki/Tab-separated_values>
-  * CSV <https://en.wikipedia.org/wiki/Comma-separated_values>
+  * PCRE <https://en.wikipedia.org/wiki/Perl_Compatible_Regular_Expressions>
+* TSV <https://en.wikipedia.org/wiki/Tab-separated_values>
+* CSV <https://en.wikipedia.org/wiki/Comma-separated_values>
+* Text manipulation
+  * GNU sed <https://www.gnu.org/software/sed/>; <https://sed.sourceforge.io/>
+  * sd <https://github.com/chmln/sd> - sed alternative
+* Table manipulation
   * GNU awk <https://www.gnu.org/software/gawk/>
   * csvkit <https://csvkit.readthedocs.io/en/latest/>
   * xsv <https://github.com/BurntSushi/xsv>
@@ -101,13 +113,6 @@
 * Diff tools
   * diffutils <https://www.gnu.org/software/diffutils/>
   * colordiff <https://www.colordiff.org/>
-* Search tools
-  * findutils <https://www.gnu.org/software/findutils/>
-  * fzf <https://github.com/junegunn/fzf>
-  * fd <https://github.com/sharkdp/fd>
-  * grep <https://www.gnu.org/software/grep/>
-  * ripgrep <https://github.com/BurntSushi/ripgrep>
-  * silversearcher-ag <https://geoff.greer.fm/ag/>
 
 ## Package management (programming)
 
@@ -150,6 +155,7 @@
 * BFG Repo-Cleaner <https://rtyley.github.io/bfg-repo-cleaner/>
 * degit <https://github.com/Rich-Harris/degit>
 * lazygit <https://github.com/jesseduffield/lazygit>
+* charm_Soft Serve <https://github.com/charmbracelet/soft-serve> - a self-hostable Git server
 * Hosted-services
   * GitHub <https://github.com/>
   * GitLab SCM <https://about.gitlab.com/>
@@ -207,7 +213,7 @@
   * JSON <https://www.json.org/json-en.html>
     * jq <https://stedolan.github.io/jq/>
     * json_pp <https://metacpan.org/dist/JSON-PP/view/bin/json_pp>
-    * Gopkg json <https://pkg.go.dev/encoding/json>
+    * fx <https://fx.wtf/> - Terminal JSON viewer & processor
   * XML <https://www.w3.org/XML/>
   * ISO 8601: Date and time — Representations for information interchange
   * Unix time <https://en.wikipedia.org/wiki/Unix_time>
@@ -217,7 +223,6 @@
     * yq (python) <https://github.com/kislyuk/yq>
     * yq (go) <https://github.com/mikefarah/yq>
     * PyYAML <https://github.com/yaml/pyyaml>
-    * Gopkg yaml <https://pkg.go.dev/gopkg.in/yaml.v3>
   * TOML <https://github.com/toml-lang/toml>
 * JSON extentions
   * Hjson <https://hjson.org/>
@@ -316,6 +321,7 @@
 
 * Runtime system <https://en.wikipedia.org/wiki/Runtime_system>
 * Compiler <https://en.wikipedia.org/wiki/Compiler>
+  * gcc <https://www.gnu.org/software/gcc/>
   * LLVM Compiler Infrastructure <https://llvm.org/>
 * Javascript
   * Node.js <https://nodejs.org/>
@@ -325,13 +331,15 @@
 * Python
   * CPython <https://github.com/python/cpython>
   * pypy <https://www.pypy.org/>
-* .NET <https://dotnet.microsoft.com/en-us/>
+* Go
+  * go command <https://pkg.go.dev/cmd/go>
+  * GopherJS <https://github.com/gopherjs/gopherjs> - A compiler from Go to JavaScript
+* C core library
+  * glibc <https://sourceware.org/glibc/>; <https://www.gnu.org/software/libc/>
 * Java
   * OpenJDK <https://openjdk.org/>
   * Eclipse Temurin <https://adoptium.net/temurin/>
-* C
-  * glibc <https://www.gnu.org/software/libc/>
-  * gcc <https://www.gnu.org/software/gcc/>
+* .NET <https://dotnet.microsoft.com/en-us/>
 
 ## Build and documentation tools
 
@@ -369,8 +377,8 @@
   * Istanbul <https://istanbul.js.org/>
   * JS Testing Best Practices <https://github.com/goldbergyoni/javascript-testing-best-practices>
 * Go
-  * Go testing <https://pkg.go.dev/testing>
-  * Go cover <https://pkg.go.dev/cmd/cover>
+  * go testing <https://pkg.go.dev/testing>
+  * go cover <https://pkg.go.dev/cmd/cover>
   * gocheck <https://labix.org/gocheck>
   * ginkgo <https://onsi.github.io/ginkgo/>
   * gomega <https://onsi.github.io/gomega/>
@@ -387,7 +395,7 @@
 ## Template tools
 
 * gomplate <https://gomplate.ca/>
-  * Go template <https://pkg.go.dev/text/template>
+  * go template <https://pkg.go.dev/text/template>
 * mustache <https://mustache.github.io/> / mustache.js
 * Jinja <https://www.palletsprojects.com/p/jinja/>
 * Jsonnet <https://jsonnet.org/>
@@ -395,13 +403,13 @@
 * Template Toolkit <http://www.tt2.org/>
 * envsubst in gettext <https://www.gnu.org/software/gettext/>
 
-## CLI development
+## CLI/TUI development
 
 * Bash
   * built-in getopts etc. <https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html>
   * tput <https://www.man7.org/linux/man-pages/man1/tput.1.html>
   * dialog <https://invisible-island.net/dialog/dialog.html>
-  * charm_gum <https://github.com/charmbracelet/gum>
+  * charm_Gum <https://github.com/charmbracelet/gum>
   * FIGlet <http://www.figlet.org/>
   * lolcat <https://github.com/busyloop/lolcat>
   * cfonts <https://github.com/dominikwilkowski/cfonts>
@@ -430,7 +438,8 @@
   * FIGLet.js <https://github.com/patorjk/figlet.js>
   * gradient-string <https://github.com/bokub/gradient-string>
 * Go
-  * flag <https://pkg.go.dev/flag>
+  * charm_Bubble Tea <https://github.com/charmbracelet/bubbletea>
+  * charm_Huh <https://github.com/charmbracelet/huh>
   * pflag <https://github.com/spf13/pflag>
   * cobra <https://cobra.dev/>
   * color <https://github.com/fatih/color>

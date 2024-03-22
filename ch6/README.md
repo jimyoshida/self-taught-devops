@@ -61,6 +61,25 @@ _work in progress._
   * KubeVela <https://kubevela.io/>
   * Flagger <https://flagger.app/>
 
+## Configuration management and IaC
+
+* idempotency <https://en.wikipedia.org/wiki/Idempotence>
+* Ansible <https://www.ansible.com/>
+* Hashicorp Packer <https://packer.io/>
+* cloud-init <https://cloud-init.io/>
+* Hashicorp Terraform <https://www.terraform.io/>
+  * tf.libsonnet <https://docs.tflibsonnet.com/>
+  * Terraformer <https://github.com/GoogleCloudPlatform/terraformer>
+  * Atrantis (reference) <https://www.runatlantis.io/>
+* Serverless Framework <https://serverless.com/>
+* AWS CloudFormation <https://aws.amazon.com/cloudformation/>
+* AWS Cloud Development Kit <https://aws.amazon.com/cdk/>
+* Azure Resource Manager <https://docs.microsoft.com/en-us/azure/azure-resource-manager/>
+  * Bicep language <https://github.com/Azure/bicep>
+* Pulumi <https://www.pulumi.com/>
+* AWS Systems Manager <https://aws.amazon.com/systems-manager/>
+* Azure Update Manager <https://learn.microsoft.com/en-us/azure/update-manager/>
+
 ## Team-development tools
 
 * Slack <https://slack.com/>
@@ -69,6 +88,7 @@ _work in progress._
   * GitLab Issue Board <https://docs.gitlab.com/ee/user/project/issue_board.html>
   * JIRA <https://www.atlassian.com/software/jira>
     * Python Jira <https://jira.readthedocs.io/>
+    * JiraCLI <https://github.com/ankitpokhrel/jira-cli>
   * Azure Boards <https://learn.microsoft.com/en-us/azure/devops/boards/>
 * Conventions
   * Semantic Versioning <https://semver.org/>
@@ -82,7 +102,8 @@ _work in progress._
   * Markdown <https://en.wikipedia.org/wiki/Markdown>
     * GFM (GitHub Flavored Markdown) <https://github.github.com/gfm/>
     * markdownlint <https://github.com/DavidAnson/markdownlint>
-    * remark <https://remark.js.org/>
+    * remark <https://remark.js.org/> - a markdown processor
+    * charm_Glow <https://github.com/charmbracelet/glow> - a terminal based markdown reader
   * Groff <https://www.gnu.org/software/groff/>
   * Asciidoc <https://asciidoc.org/> and Asciidoctor <https://asciidoctor.org/>
   * reStructuredText <https://docutils.sourceforge.io/rst.html>
@@ -119,7 +140,7 @@ _work in progress._
 * Microsoft Writing Style Guide <https://learn.microsoft.com/en-us/style-guide/welcome/>
 * Google Technical Writing Courses <https://developers.google.com/tech-writing>
 * Document checkers
-  * vale <https://vale.sh/>
+  * vale <https://vale.sh/> - A linter for natural language/prose
   * textlint <https://textlint.github.io/>
   * lychee <https://lychee.cli.rs/>
 
