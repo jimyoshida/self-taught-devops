@@ -27,6 +27,7 @@ _work in progress._
   * Dickerson’s Hierarchy of Service Reliability <https://sre.google/sre-book/part-III-practices/>
   * The Four Golden Signals <https://sre.google/sre-book/monitoring-distributed-systems/>
   * The Four Keys of DORA <https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance>
+* Principles of chaos engineering <https://principlesofchaos.org/>
 * Feature Toggles <https://www.martinfowler.com/articles/feature-toggles.html>
 * Canary Releasing <https://martinfowler.com/bliki/CanaryRelease.html>
 * The twelve-factor app <https://12factor.net/>
