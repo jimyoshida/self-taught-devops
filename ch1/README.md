@@ -26,6 +26,10 @@
 * generic programming <https://en.wikipedia.org/wiki/Generic_programming>
 * reference <https://en.wikipedia.org/wiki/Reference_(computer_science)>
   * null pointer <https://en.wikipedia.org/wiki/Null_pointer>
+  * reference counting <https://en.wikipedia.org/wiki/Reference_counting>
+  * garbage collection <https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)>
+  * smart pointer <https://en.wikipedia.org/wiki/Smart_pointer>
+* immutable object <https://en.wikipedia.org/wiki/Immutable_object>
 * function <https://en.wikipedia.org/wiki/Function_(computer_programming)>
   * parameter <https://en.wikipedia.org/wiki/Parameter_(computer_programming)>
   * anonymous function <https://en.wikipedia.org/wiki/Anonymous_function>
@@ -34,13 +38,14 @@
 * heredoc <https://en.wikipedia.org/wiki/Here_document>
 * exception handling <https://en.wikipedia.org/wiki/Exception_handling_(programming)>
 * this keyword <https://en.wikipedia.org/wiki/This_(computer_programming)>
-* garbage collection <https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)>
 
 ## Object-oriented programming
 
 * abstraction <https://en.wikipedia.org/wiki/Abstraction_(computer_science)>
 * encapsulation <https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)>
 * polymorphism <https://en.wikipedia.org/wiki/Polymorphism_(computer_science)>
+  * dymnamic dispatch <https://en.wikipedia.org/wiki/Dynamic_dispatch>
+* inheritance <https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)>
 * class <https://en.wikipedia.org/wiki/Class_(computer_programming)>
 * interface <https://en.wikipedia.org/wiki/Interface_(object-oriented_programming)>
 * method <https://en.wikipedia.org/wiki/Method_(computer_programming)>
@@ -65,17 +70,19 @@
   * bash-completion <https://github.com/scop/bash-completion>
   * parallel <https://www.gnu.org/software/parallel/>
   * rlwrap <https://github.com/hanslub42/rlwrap>
-* Terminal tools
+* Terminals
   * Terminator <https://gnome-terminator.org>
   * Windows Terminal <https://github.com/microsoft/terminal>
+  * Mintty <https://mintty.github.io/>
   * ANSI escape code <https://en.wikipedia.org/wiki/ANSI_escape_code>
+* Terminal utilities
   * screen <https://www.gnu.org/software/screen/>
   * tmux <https://github.com/tmux/tmux/wiki>
   * byobu <https://www.byobu.org/>
   * zellij <https://zellij.dev/>
-  * Fonts
-    * Noto Fonts <https://fonts.google.com/noto>
-    * Nerd Fonts <https://www.nerdfonts.com/>
+* Terminal fonts
+  * Noto Fonts <https://fonts.google.com/noto>
+  * Nerd Fonts <https://www.nerdfonts.com/>
 * Search tools
   * findutils <https://www.gnu.org/software/findutils/>
     * xargs
@@ -89,7 +96,9 @@
   * ranger <https://github.com/ranger/ranger>
 * Unix-like environments on Windows
   * Git for Windows (MINGW) <https://gitforwindows.org/>
+  * MSYS2 <https://www.msys2.org/>
   * Cygwin <https://www.cygwin.com/>
+* Linux on Windows
   * WSL <https://learn.microsoft.com/en-us/windows/wsl/>
 
 ## Text file processing
@@ -114,7 +123,7 @@
   * diffutils <https://www.gnu.org/software/diffutils/>
   * colordiff <https://www.colordiff.org/>
 
-## Package management (programming)
+## Library package management
 
 * Tools
   * npm <https://www.npmjs.com/>
@@ -122,12 +131,15 @@
   * pnpm <https://pnpm.io>
   * pip <https://pip.pypa.io/>
     * PyPI <https://pypi.org/>
-  * Go Modules <https://go.dev/wiki/Modules>
-  * RubyGems <https://rubygems.org/>
-  * nuget <https://www.nuget.org/>
+  * go mod <https://pkg.go.dev/cmd/go>;
+    Go Modules <https://go.dev/wiki/Modules>
+  * cpanminus <https://metacpan.org/pod/App::cpanminus>
   * cargo <https://doc.rust-lang.org/stable/cargo/>
     * crates.io <https://crates.io/>
-  * Hackage <https://hackage.haskell.org/>
+  * RubyGems <https://rubygems.org/>
+  * nuget <https://www.nuget.org/>
+  * stack <https://docs.haskellstack.org/en/stable/>
+    * Stackage <https://www.stackage.org/>
   * Gradle <https://gradle.org/>
   * Maven <https://maven.apache.org/>
 * Private repositories
@@ -135,13 +147,15 @@
   * Jfrog Artifactory <https://jfrog.com/artifactory/>
   * Azure Artifacts <https://learn.microsoft.com/en-us/azure/devops/artifacts/>
 
-## Virtual environment (programming)
+## Virtual environment
 
 * Python venv <https://docs.python.org/3/library/venv.html>
 * nodeenv <https://ekalinin.github.io/nodeenv/>
-* asdf <https://asdf-vm.com/>
+* asdf <https://asdf-vm.com/> - a tool version manager
+* nvm <https://github.com/nvm-sh/nvm>
+* nvm-windows <https://github.com/coreybutler/nvm-windows>
 
-## Version control (programming)
+## Version control
 
 * Distributed version control <https://en.wikipedia.org/wiki/Distributed_version_control>
 * Markle tree <https://en.wikipedia.org/wiki/Merkle_tree>
@@ -166,6 +180,7 @@
 * Orthogonality and DRY principle <https://www.artima.com/intv/dry.html>
 * SOLID - The principle of OOD <http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod>
 * Unix Philosophy <https://en.wikipedia.org/wiki/Unix_philosophy>
+* Rob Pike's 5 Rules of Programming <https://users.ece.utexas.edu/~adnan/pike.html>
 * The Zen of Python <https://www.python.org/dev/peps/pep-0020/>
 * Design by Contract <https://en.wikipedia.org/wiki/Design_by_contract>
 * SSOT <https://en.wikipedia.org/wiki/Single_source_of_truth>
@@ -181,7 +196,6 @@
   * ESLint <https://eslint.org/>
   * JSHint <https://jshint.com/about/>
   * Ruff <https://docs.astral.sh/ruff/>
-  * Haskell Dockerfile Linter <https://github.com/hadolint/hadolint#readme>
   * PSScriptAnalyzer <https://www.powershellgallery.com/packages/PSScriptAnalyzer/1.20.0>
   * ShellCheck <https://www.shellcheck.net/>
 
@@ -265,11 +279,20 @@
   * f-string
   * generator
   * GIL <https://en.wikipedia.org/wiki/Global_interpreter_lock>
+* Go <https://go.dev/>
+  * goroutine
+  * channel
+  * go function
+  * static binary executable
+  * go module
 * Javascript/ECMAScript <https://www.ecma-international.org/publications/standards/Ecma-262.htm>
   * prototypal inheritance <https://en.wikipedia.org/wiki/Prototype-based_programming>
   * event-driven
   * spread and rest operators
   * generator
+
+## Other programming languages
+
 * Typescript <https://www.typescriptlang.org/index.html>
   * type inference
   * interface
@@ -280,19 +303,12 @@
   * type arias
   * type assertion
   * type declaration file
-* Go <https://go.dev/>
-  * goroutine
-  * channel
-  * go function
-  * static binary executable
-  * go module
-
-## Other programming languages
-
 * Rust <https://www.rust-lang.org/>
   * ownership and borrowing
+  * interior mutability
   * lifetime
   * pattern matching
+  * iterator and closure
   * macro
   * trait-based generics
   * unsafe operation
@@ -319,10 +335,16 @@
 
 ## Program execution and toolkits
 
-* Runtime system <https://en.wikipedia.org/wiki/Runtime_system>
 * Compiler <https://en.wikipedia.org/wiki/Compiler>
   * gcc <https://www.gnu.org/software/gcc/>
   * LLVM Compiler Infrastructure <https://llvm.org/>
+    * Clang <https://clang.llvm.org/>
+  * Cross compiler <https://en.wikipedia.org/wiki/Cross_compiler>
+  * MinGW-w64 <https://www.mingw-w64.org/>
+* Linker <https://en.wikipedia.org/wiki/Linker_(computing)>
+  * LLD <https://lld.llvm.org/> - The LLVM Linker
+  * mold <https://github.com/rui314/mold/>
+* Runtime system <https://en.wikipedia.org/wiki/Runtime_system>
 * Javascript
   * Node.js <https://nodejs.org/>
     * PM2 <https://pm2.keymetrics.io/>
@@ -332,7 +354,7 @@
   * CPython <https://github.com/python/cpython>
   * pypy <https://www.pypy.org/>
 * Go
-  * go command <https://pkg.go.dev/cmd/go>
+  * go build <https://pkg.go.dev/cmd/go>
   * GopherJS <https://github.com/gopherjs/gopherjs> - A compiler from Go to JavaScript
 * C core library
   * glibc <https://sourceware.org/glibc/>; <https://www.gnu.org/software/libc/>
@@ -340,6 +362,7 @@
   * OpenJDK <https://openjdk.org/>
   * Eclipse Temurin <https://adoptium.net/temurin/>
 * .NET <https://dotnet.microsoft.com/en-us/>
+  * CLR <https://learn.microsoft.com/en-us/dotnet/standard/clr>
 
 ## Build and documentation tools
 

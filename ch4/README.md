@@ -221,3 +221,5 @@
     * PKCS #1: RSA Cryptography Specifications <https://en.wikipedia.org/wiki/PKCS_1>
     * PKCS #12: Personal Information Exchange Syntax <https://en.wikipedia.org/wiki/PKCS_12>
 * FIPS 140-2 (Security Requirements for Cryptographic Modules) <https://en.wikipedia.org/wiki/FIPS_140-2>
+* Libraries
+  * PyCryptodome <https://www.pycryptodome.org/>

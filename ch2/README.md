@@ -133,7 +133,7 @@
   * tun2socks <https://github.com/xjasonlyu/tun2socks>
   * proxychains <https://github.com/haad/proxychains>
 
-## Package management (operation)
+## OS package management
 
 * Tools
   * dpkg <https://wiki.debian.org/Teams/Dpkg>
@@ -150,12 +150,8 @@
   * Nexus Repository Manager 3 <https://help.sonatype.com/repomanager3>
   * Jfrog Artifactory <https://jfrog.com/artifactory/>
 
-## Virtual environment (operation)
+## Linux container
 
-* Type-2 hypervisor and tools
-  * VirtualBox <https://www.virtualbox.org/>
-  * QEMU <https://www.qemu.org/>
-  * Vagrant <https://www.vagrantup.com/>
 * The Open Container Initiative (OCI) <https://opencontainers.org/>
 * Container runtimes and tools
   * Docker Engine <https://docs.docker.com/engine/>
@@ -169,6 +165,7 @@
   * kaniko <https://github.com/GoogleContainerTools/kaniko>
   * lazydocker <https://github.com/jesseduffield/lazydocker>
   * dive <https://github.com/wagoodman/dive>
+  * Haskell Dockerfile Linter <https://github.com/hadolint/hadolint#readme>
 * Container registries
   * Docker Hub <https://docs.docker.com/docker-hub/>
   * Amazon ECR <https://aws.amazon.com/ecr/>
@@ -331,14 +328,15 @@
 
 ## Stress test and chaos engineering
 
+* ab <https://httpd.apache.org/docs/2.4/programs/ab.html> - Apache HTTP server benchmarking tool
 * stress-ng <https://github.com/ColinIanKing/stress-ng>
-* sysbench <https://github.com/akopytov/sysbench>
-* fio <https://github.com/axboe/fio>
-* iperf <https://iperf.fr/>
+* sysbench <https://github.com/akopytov/sysbench> - Scriptable database and system performance benchmark
+* fio <https://github.com/axboe/fio> - Flexible I/O Tester
+* iPerf <https://iperf.fr/> - The ultimate speed test tool for TCP, UDP and SCTP
 * Chaos engineering <https://en.wikipedia.org/wiki/Chaos_engineering>
-  * Litmus <https://litmuschaos.io/>
-  * Chaos Mesh <https://chaos-mesh.org/>
-  * toxiproxy <https://github.com/Shopify/toxiproxy>
+  * Litmus <https://litmuschaos.io/> - an open source Chaos Engineering
+  * Chaos Mesh <https://chaos-mesh.org/> - an open source cloud-native Chaos Engineering platform
+  * toxiproxy <https://github.com/Shopify/toxiproxy> - A TCP proxy to simulate network and system conditions for chaos and resiliency testing
 
 ## Java VM administration
 
@@ -359,7 +357,11 @@
   * Wayland <https://wayland.freedesktop.org/>
   * GNOME <https://www.gnome.org/>
   * Xfce <https://www.xfce.org/>
-  * openbox <https://github.com/danakj/openbox>
+  * openbox <http://openbox.org> - a highly configurable, next generation window manager
+  * i3 <https://i3wm.org/> - a tiling window manager
+* Type-2 hypervisors
+  * VirtualBox <https://www.virtualbox.org/>
+  * QEMU <https://www.qemu.org/>
 * Remote access
   * x11vnc <https://github.com/LibVNC/x11vnc>
   * TightVNC <https://www.tightvnc.com/>
