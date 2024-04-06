@@ -9,14 +9,16 @@ Also, to understand the background of the technologies etc., each section contai
 
 ## Contents
 
-The contents consist of the following 6 sections.
+The contents consist of the following 6 classes.
 
-1. [Programming](ch1/README.md)
-1. [OS and Network](ch2/README.md)
-1. [Web and Cloud Native](ch3/README.md)
-1. [Security and Privacy](ch4/README.md)
-1. [Data and AI](ch5/README.md)
-1. [Agile and DevOps](ch6/README.md)
+| Class | Contents                               |
+| ----- | -------------------------------------- |
+| 0     | [Agile and Open Source](ch0/README.md) |
+| 1     | [Programming](ch1/README.md)           |
+| 2     | [OS and Network](ch2/README.md)        |
+| 3     | [Web and Cloud Native](ch3/README.md)  |
+| 4     | [Security and Privacy](ch4/README.md)  |
+| 5     | [Data and AI](ch5/README.md)           |
 
 [Appendix: References](ch9/README.md)
 
@@ -27,9 +29,8 @@ The contents consist of the following 6 sections.
 ## Backlogs
 
 - Reconsider about the license
-- Add brief explanations on software items
+- Add brief explanations on the sections and software items
 - Make a script to generate mindmaps via plantuml code
-- Update the timeline items to match the current sections
 - Make a document of how to use the Makefile
 
 ## License

@@ -1,9 +1,10 @@
-# Step 2: OS and Network
+# Class 2: OS and Network
 
 [Show timeline](./Timeline.md)
 
 ## Operating system fundamentals
 
+* operating system <https://en.wikipedia.org/wiki/Operating_system>
 * POSIX <https://en.wikipedia.org/wiki/POSIX>
 * process <https://en.wikipedia.org/wiki/Process_(computing)>
   * pthreads <https://en.wikipedia.org/wiki/Pthreads>
@@ -25,7 +26,8 @@
 
 ## IP network fundamentals
 
-* OSI model <https://en.wikipedia.org/wiki/OSI_model>
+* The OSI model <https://en.wikipedia.org/wiki/OSI_model>
+* The Internet <https://en.wikipedia.org/wiki/Internet>
 * IP <https://en.wikipedia.org/wiki/Internet_Protocol>
   * IPv6 <https://en.wikipedia.org/wiki/IPv6>
   * Global unicast address | Loopback address
@@ -66,7 +68,7 @@
 * kvm <https://www.linux-kvm.org/page/Main_Page>
 * eBPF (Extended Berkeley Packet Filter) <https://ebpf.io/>
 
-## Basic administration tools
+## System administration tools
 
 * util-linux <https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git/>
   * lsblk <https://man7.org/linux/man-pages/man8/lsblk.8.html>
@@ -92,9 +94,6 @@
   * chrony <https://chrony.tuxfamily.org/>
   * pool.ntp.org <https://www.ntppool.org/en/>
 * gsudo <https://github.com/gerardog/gsudo> - a sudo for Windows
-
-## Advanced administration tools
-
 * strace <https://strace.io/>
 * dtrace <https://dtrace.org/about/>
 * neofetch <https://github.com/dylanaraps/neofetch>
@@ -136,19 +135,39 @@
 ## OS package management
 
 * Tools
-  * dpkg <https://wiki.debian.org/Teams/Dpkg>
+  * Dpkg <https://wiki.debian.org/Teams/Dpkg>
     * APT <https://salsa.debian.org/apt-team/apt>
   * Pacman <https://archlinux.org/pacman/>
     * Yay <https://github.com/Jguer/yay>
-  * homebrew <https://brew.sh/>
+  * Homebrew <https://brew.sh/>
   * Flatpak <https://flatpak.org/>
-  * snapcraft <https://snapcraft.io/>
+  * Snapcraft <https://snapcraft.io/>
   * Chocolatey <https://chocolatey.org>
+  * Scoop <https://scoop.sh/>
   * CMake/CPack <https://cmake.org/>
   * fpm <https://fpm.readthedocs.io/>
 * Private repositories
   * Nexus Repository Manager 3 <https://help.sonatype.com/repomanager3>
   * Jfrog Artifactory <https://jfrog.com/artifactory/>
+
+## Configuration management and IaC
+
+* idempotency <https://en.wikipedia.org/wiki/Idempotence>
+* Ansible <https://www.ansible.com/>
+* Hashicorp Packer <https://packer.io/>
+* cloud-init <https://cloud-init.io/>
+* Hashicorp Terraform <https://www.terraform.io/>
+  * tf.libsonnet <https://docs.tflibsonnet.com/>
+  * Terraformer <https://github.com/GoogleCloudPlatform/terraformer>
+  * Atrantis (reference) <https://www.runatlantis.io/>
+* Serverless Framework <https://serverless.com/>
+* AWS CloudFormation <https://aws.amazon.com/cloudformation/>
+* AWS Cloud Development Kit <https://aws.amazon.com/cdk/>
+* Azure Resource Manager <https://docs.microsoft.com/en-us/azure/azure-resource-manager/>
+  * Bicep language <https://github.com/Azure/bicep>
+* Pulumi <https://www.pulumi.com/>
+* AWS Systems Manager <https://aws.amazon.com/systems-manager/>
+* Azure Update Manager <https://learn.microsoft.com/en-us/azure/update-manager/>
 
 ## Linux container
 
@@ -173,39 +192,37 @@
   * Nexus Repository Manager 3 <https://help.sonatype.com/repomanager3>
   * Jfrog Artifactory <https://jfrog.com/artifactory/>
 
-## Domain name system
+## Domain name system and Email
 
 * DNS <https://en.wikipedia.org/wiki/Domain_Name_System>
-* mDNS <https://en.wikipedia.org/wiki/Multicast_DNS>
-* IANA WHOIS Service <https://www.iana.org/whois>
-* Amazon Route53 <https://aws.amazon.com/route53/>
-* BIND (dnsutils) <https://www.isc.org/bind/>
-  * dig <https://linux.die.net/man/1/dig>
-  * nslookup <https://linux.die.net/man/1/nslookup>
-* dog <https://dns.lookup.dog/>
-* systemd-resolved <https://man7.org/linux/man-pages/man8/systemd-resolved.service.8.html>
-* Avahi <https://www.avahi.org/>
-* Bonjour <https://developer.apple.com/bonjour/>
-
-## Email system
-
+  * mDNS <https://en.wikipedia.org/wiki/Multicast_DNS>
+  * IANA WHOIS Service <https://www.iana.org/whois>
+  * Amazon Route53 <https://aws.amazon.com/route53/>
+  * BIND (dnsutils) <https://www.isc.org/bind/>
+    * dig <https://linux.die.net/man/1/dig>
+    * nslookup <https://linux.die.net/man/1/nslookup>
+  * dog <https://dns.lookup.dog/>
+  * systemd-resolved <https://man7.org/linux/man-pages/man8/systemd-resolved.service.8.html>
+  * Avahi <https://www.avahi.org/>
+  * Bonjour <https://developer.apple.com/bonjour/>
 * Email <https://en.wikipedia.org/wiki/Email>
-* Quoted-printable <https://en.wikipedia.org/wiki/Quoted-printable>
-* SMTP <https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol>
-* Postfix <https://www.postfix.org/>
-* Twilio SendGrid <https://www.twilio.com/sendgrid/email-api>
-* Amazon SES <https://aws.amazon.com/ses/>
-* mail command <https://linux.die.net/man/1/mail>
-* charm_Pop <https://github.com/charmbracelet/pop>
-* IMAP <https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol>
-* POP <https://en.wikipedia.org/wiki/Post_Office_Protocol>
-* Cyrus IMAP <https://www.cyrusimap.org/> (reference)
-* Dovecot <https://www.dovecot.org/> (reference)
-* listmonk <https://listmonk.app/> - Self-hosted newsletter and mailing list manager
+  * Quoted-printable <https://en.wikipedia.org/wiki/Quoted-printable>
+  * SMTP <https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol>
+  * Postfix <https://www.postfix.org/>
+  * Twilio SendGrid <https://www.twilio.com/sendgrid/email-api>
+  * Amazon SES <https://aws.amazon.com/ses/>
+  * mail command <https://linux.die.net/man/1/mail>
+  * charm_Pop <https://github.com/charmbracelet/pop>
+  * IMAP <https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol>
+  * POP <https://en.wikipedia.org/wiki/Post_Office_Protocol>
+  * Cyrus IMAP <https://www.cyrusimap.org/> (reference)
+  * Dovecot <https://www.dovecot.org/> (reference)
+  * listmonk <https://listmonk.app/> - Self-hosted newsletter and mailing list manager
 
 ## Kubernetes
 
 * Kubernetes <https://kubernetes.io/>
+* consensus <https://en.wikipedia.org/wiki/Consensus_(computer_science)>
 * K8s as a service
   * GKE <https://cloud.google.com/kubernetes-engine/>
   * Azure Kubernetes Service <https://azure.microsoft.com/en-us/services/kubernetes-service/>
@@ -279,7 +296,7 @@
   * OpenTelemetry Operator <https://opentelemetry.io/docs/kubernetes/operator/>
   * Elastic Cloud on Kubernetes (ECK) <https://www.elastic.co/elastic-cloud-kubernetes>
 
-## Observability tools
+## System observation tools
 
 * Metrics
   * Promethus <https://prometheus.io/>
@@ -309,8 +326,13 @@
   * Jaeger <https://www.jaegertracing.io/>
   * OpenTelemetry <https://opentelemetry.io/>
 
-## Universal observability solutions
+## Universal SRE solutions
 
+* Site Reliability Engineering <https://landing.google.com/sre/>
+* Service Level Indicators (SLIs) and Service Level Objectives (SLOs)
+* Dickerson’s Hierarchy of Service Reliability <https://sre.google/sre-book/part-III-practices/>
+* The Four Golden Signals <https://sre.google/sre-book/monitoring-distributed-systems/>
+  * Latency, Traffic, Errors, Saturation
 * Grafana <https://grafana.com/>
   * Grafonnet <https://grafana.github.io/grafonnet-lib/>
 * Kibana <https://www.elastic.co/kibana>
@@ -337,6 +359,7 @@
   * Litmus <https://litmuschaos.io/> - an open source Chaos Engineering
   * Chaos Mesh <https://chaos-mesh.org/> - an open source cloud-native Chaos Engineering platform
   * toxiproxy <https://github.com/Shopify/toxiproxy> - A TCP proxy to simulate network and system conditions for chaos and resiliency testing
+* Principles of chaos engineering <https://principlesofchaos.org/>
 
 ## Java VM administration
 
@@ -395,20 +418,6 @@
   * aha <https://github.com/theZiz/aha> - Ansi HTML Adapter
     * NO_COLOR <https://no-color.org/>
   * pandoc <https://pandoc.org/>
-* Office document processing
-  * Office Open XML <https://en.wikipedia.org/wiki/Office_Open_XML>
-  * OpenDocument <https://en.wikipedia.org/wiki/OpenDocument>
-  * LibreOffice <https://www.libreoffice.org/>
-  * Excelize <https://xuri.me/excelize/>
-  * xlsx2csv <https://github.com/dilshod/xlsx2csv>
-  * docx2txt <https://github.com/ankushshah89/python-docx2txt>
-  * pptx2md <https://github.com/ssine/pptx2md>
-  * PDF <https://en.wikipedia.org/wiki/PDF>
-  * Ghostscript <https://www.ghostscript.com/>
-  * qpdf <https://qpdf.sourceforge.io/>
-  * pdftk <https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/>
-  * pdftk-java <https://gitlab.com/pdftk-java/pdftk>
-  * pdfcpu <https://pdfcpu.io/>
 
 ## Infrastructure cloud services
 

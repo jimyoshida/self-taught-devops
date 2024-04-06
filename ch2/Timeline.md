@@ -1,4 +1,4 @@
-# Step 2: OS and Network
+# Class 2: OS and Network
 
 ## Timeline
 
@@ -28,17 +28,6 @@ The chroot system call was introduced during development of Version 7 Unix in 19
 
 📈 IPv4 is described in RFC 791 (1981).
 
-📈 Development of the GNU operating system was initiated by Richard Stallman while he worked at MIT Artificial Intelligence Laboratory. It was called the GNU Project, and was publicly announced on September 27, 1983.
-
-📈 X/Open group was a consortium founded by several European UNIX systems manufacturers in 1984 to identify and promote open standards in the field of information technology.
-
-📈 The GNU Manifesto is a call-to-action by Richard Stallman encouraging participation and support of the GNU Project's goal in developing the GNU free computer operating system.
-The GNU Manifesto was published in March 1985.
-
-📈 The Free Software Foundation was founded in 1985 as a non-profit corporation supporting free software development.
-
-📈 The Open Software Foundation (OSF) was a not-for-profit industry consortium for creating an open standard for an implementation of the operating system Unix. It was formed in 1988.
-
 📈 The Portable Operating System Interface (POSIX) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems. POSIX defines both the system- and user-level application programming interfaces (API).
 Started: 1988
 
@@ -61,8 +50,6 @@ Initial release: 1993
 
 📈 Debian first stable version (1.1) was released on June 17, 1996.
 
-📈 The Open Group is a global consortium that seeks to "enable the achievement of business objectives" by developing "open, vendor-neutral technology standards and certifications." It was established in 1996 when X/Open merged with the Open Software Foundation.
-
 📈 Advanced package tool, or APT, is a free-software user interface that works with core libraries to handle the installation and removal of software on Debian, and Debian-based Linux distributions. APT Initial release: 31 March 1998
 
 📈 VMware Workstation Pro (known as VMware Workstation until release of VMware Workstation 12 in 2015) is a hosted hypervisor that runs on x64 versions of Windows and Linux operating systems.
@@ -79,8 +66,6 @@ RRDtool Initial release: July 16, 1999
 Jails were first introduced in FreeBSD version 4.0, that was released on March 14, 2000.
 FreeBSD jails mainly aim at three goals: Virtualization, Security and Ease of delegation.
 
-📈 The Linux Foundation (LF) is a non-profit technology consortium founded in 2000 as a merger between Open Source Development Labs and the Free Standards Group to standardize Linux, support its growth, and promote its commercial adoption.
-
 📈 Linux version 2.4.0, released on 4 January 2001, contained support for ISA Plug and Play, USB, and PC Cards. Linux 2.4 added support for the Pentium 4 and Itanium, and for the newer 64-bit MIPS processor.
 
 📈 VMware ESXi (formerly ESX) is an enterprise-class, type-1 hypervisor developed by VMware for deploying and serving virtual computers.
@@ -89,10 +74,6 @@ Initial release: March 23, 2001
 📈 VMware Server (formerly VMware GSX Server) is a discontinued free-of-charge virtualization-software server suite developed and supplied by VMware, Inc.
 In 2001, both the product version ESX 1.0 and GSX 1.0 were launched where ESX happens to be Type1 and GSX was Type2 Hypervisor.
 [Reference](https://www.google.co.jp/books/edition/Handbook_of_Cloud_Computing/ICiwDwAAQBAJ)
-
-📈 CruiseControl is a Java-based framework for a continuous build process.
-CruiseControl is free, open-source software, distributed under a BSD-style license. It was one of the first of its kind of software.
-Initial release: March 30, 2001
 
 📈 Arch Linux is an independently developed, x86-64 general-purpose Linux distribution that strives to provide the latest stable versions of most software by following a rolling-release model.
 Judd Vinet started the Arch Linux project in March 2002.
@@ -115,10 +96,6 @@ Initial release: Ubuntu 4.10 (Warty Warthog) / 20 October 2004
 
 📈 Unionfs is a filesystem service for Linux, FreeBSD and NetBSD which implements a union mount for other file systems. It allows files and directories of separate file systems, known as branches, to be transparently overlaid, forming a single coherent file system.
 Unionfs 1.0.2 release: 2004-11-09
-
-📈 Hudson is a discontinued continuous integration (CI) tool written in Java, which runs in a servlet container such as Apache Tomcat or the GlassFish application server.
-Hudson became a popular alternative to CruiseControl and other open-source build servers in 2008.
-Initial release: 1.0 / 7 February 2005
 
 📈 collectd is a Unix daemon that collects, transfers and stores performance data of computers and network equipment.
 Initial release: July 8, 2005
@@ -163,10 +140,6 @@ Homebrew Initial release: 21 May 2009
 
 📈 VMware Server final release: October 26, 2009
 
-📈 DevOps as a term originated in 2009 following a talk at the O’Reilly Velocity Conference titled “10+ Deploys per Day: Dev and Ops Cooperation at Flickr.” John Allspaw and Paul Hammond walked through some of the pains in the current software development lifecycle.
-
-📈 In 2009, the first conference named devopsdays was held in Ghent, Belgium. The conference was founded by Belgian consultant, project manager and agile practitioner Patrick Debois.
-
 ### 2010s
 
 📈 Vagrant is an open-source software product for building and maintaining portable virtual software development environments; e.g., for VirtualBox, KVM, Hyper-V, Docker containers, VMware, and AWS.
@@ -178,10 +151,6 @@ The first version of Vagrant was released in March 2010.
 📈 systemd is a software suite that provides an array of system components for Linux operating systems. Its main aim is to unify service configuration and behavior across Linux distributions.
 Lennart Poettering and Kay Sievers, the software engineers working for Red Hat who initially developed systemd, started a project to replace Linux's conventional System V init in 2010.
 Initial release: 30 March 2010
-
-📈 Jenkins is an open source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous delivery.
-The Jenkins project was originally named Hudson, and was renamed in 2011 after a dispute with Oracle.
-Initial release: 2 February 2011
 
 📈 Chocolatey is a machine-level, command-line package manager and installer for Windows software. It uses the NuGet packaging infrastructure and Windows PowerShell to simplify the process of downloading and installing software.
 Initial release: 23 March 2011
@@ -234,8 +203,6 @@ OCI develops runc, a container runtime that implements their specification and s
 📈 The Serverless Framework is a free and open-source web framework written using Node.js. Serverless is the first framework developed for building applications on AWS Lambda.
 Serverless is developed by Austen Collins and maintained by a full-time team.
 Initial release: October 2015
-
-📈 The Cloud Native Computing Foundation (CNCF) is a Linux Foundation project that was founded in 2015 to help advance container technology and align the tech industry around its evolution.
 
 📈 In February 2016 Helm package manager for Kubernetes was released.
 
