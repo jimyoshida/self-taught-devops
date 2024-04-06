@@ -1,4 +1,4 @@
-# Step 3: Web and Cloud Native
+# Class 3: Web and Cloud Native
 
 ## Timeline
 
@@ -66,8 +66,6 @@ XMLHttpRequest (XHR) is an API in the form of an object whose methods transfer d
 
 🌐 LAMP (Linux, Apache, MySQL, PHP/Perl/Python) is an acronym denoting one of the most common software stacks for many of the web's most popular applications.
 The acronym LAMP was coined by Michael Kunze in the December 1998 issue of Computertechnik, a German computing magazine, as he demonstrated that a bundle of free and open-source software "could be a feasible alternative to expensive commercial packages".
-
-🌐 The Apache Software Foundation (ASF) is an American nonprofit corporation to support a number of open source software projects. The ASF was formed from a group of developers of the Apache HTTP Server, and incorporated on March 25, 1999.
 
 ### 2000s
 

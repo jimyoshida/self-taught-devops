@@ -1,4 +1,4 @@
-# Step 4: Security and Privacy
+# Class 4: Security and Privacy
 
 [Show timeline](./Timeline.md)
 

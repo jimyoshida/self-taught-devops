@@ -1,4 +1,4 @@
-# Step 3: Web and Cloud Native
+# Class 3: Web and Cloud Native
 
 [Show timeline](./Timeline.md)
 

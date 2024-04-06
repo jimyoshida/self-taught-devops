@@ -1,4 +1,4 @@
-# Step 1: Programming
+# Class 1: Programming
 
 [Show timeline](./Timeline.md)
 
@@ -95,9 +95,10 @@
   * midnight commander <https://midnight-commander.org/>
   * ranger <https://github.com/ranger/ranger>
 * Unix-like environments on Windows
-  * Git for Windows (MINGW) <https://gitforwindows.org/>
+  * Git for Windows <https://gitforwindows.org/>
   * MSYS2 <https://www.msys2.org/>
   * Cygwin <https://www.cygwin.com/>
+  * Strawberry Perl <https://strawberryperl.com/>
 * Linux on Windows
   * WSL <https://learn.microsoft.com/en-us/windows/wsl/>
 
@@ -125,14 +126,18 @@
 
 ## Library package management
 
+* Specs
+  * CommonJS <https://en.wikipedia.org/wiki/CommonJS>
+  * ES modules <https://nodejs.org/api/esm.html>
+  * Python import system <https://docs.python.org/3/reference/import.html>
+  * Go Modules <https://go.dev/wiki/Modules>
 * Tools
   * npm <https://www.npmjs.com/>
   * yarn <https://yarnpkg.com/>
   * pnpm <https://pnpm.io>
   * pip <https://pip.pypa.io/>
     * PyPI <https://pypi.org/>
-  * go mod <https://pkg.go.dev/cmd/go>;
-    Go Modules <https://go.dev/wiki/Modules>
+  * go mod <https://pkg.go.dev/cmd/go>
   * cpanminus <https://metacpan.org/pod/App::cpanminus>
   * cargo <https://doc.rust-lang.org/stable/cargo/>
     * crates.io <https://crates.io/>
@@ -146,6 +151,9 @@
   * Nexus Repository Manager 3 <https://help.sonatype.com/repomanager3>
   * Jfrog Artifactory <https://jfrog.com/artifactory/>
   * Azure Artifacts <https://learn.microsoft.com/en-us/azure/devops/artifacts/>
+* Conventions
+  * Semantic Versioning <https://semver.org/>
+    * semver <https://github.com/npm/node-semver#readme>
 
 ## Virtual environment
 
@@ -174,6 +182,10 @@
   * GitHub <https://github.com/>
   * GitLab SCM <https://about.gitlab.com/>
   * Azure Repos <https://learn.microsoft.com/en-us/azure/devops/repos/>
+* Conventions
+  * keep a changelog <https://keepachangelog.com/>
+  * Conventional Commits <https://www.conventionalcommits.org/>
+    * git cliff <https://git-cliff.org/> - A highly customizable changelog generator
 
 ## Design principles and practices
 
@@ -252,6 +264,10 @@
 * semaphore <https://en.wikipedia.org/wiki/Semaphore_(programming)>
 * mutex <https://en.wikipedia.org/wiki/Lock_(computer_science)>
 * channel <https://en.wikipedia.org/wiki/Channel_(programming)>
+* thread safety <https://en.wikipedia.org/wiki/Thread_safety>
+* deadlock <https://en.wikipedia.org/wiki/Deadlock>
+* Guarded Command Language (GCL) <https://en.wikipedia.org/wiki/Guarded_Command_Language>
+* communicating sequential processes <https://en.wikipedia.org/wiki/Communicating_sequential_processes>
 
 ## Functional programming
 
@@ -306,12 +322,11 @@
 * Rust <https://www.rust-lang.org/>
   * ownership and borrowing
   * interior mutability
+  * iterator and closure
+  * trait-based generics
   * lifetime
   * pattern matching
-  * iterator and closure
-  * macro
-  * trait-based generics
-  * unsafe operation
+  * pinning
 * C# <https://learn.microsoft.com/en-us/dotnet/csharp/>
   * query expression (LINQ)
   * delegate and event

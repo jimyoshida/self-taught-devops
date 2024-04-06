@@ -1,4 +1,4 @@
-# Step 5: Data and AI
+# Class 5: Data and AI
 
 [Show timeline](./Timeline.md)
 
@@ -89,14 +89,11 @@
 * RStudio <https://posit.co/download/rstudio-desktop/>
 * JASP <https://jasp-stats.org/>
 
-## ML licecycle management
-
-* MLFlow <https://mlflow.org/>
-* KubeFlow <https://www.kubeflow.org/>
+---
 
 ## Machine learning
 
-* Common tools
+* Common concepts
   * Stochastic gradient descent <https://en.wikipedia.org/wiki/Stochastic_gradient_descent>
   * Dynamic programming <https://en.wikipedia.org/wiki/Dynamic_programming>
   * Sigmoid function <https://en.wikipedia.org/wiki/Sigmoid_function>
@@ -129,6 +126,11 @@
 ## ML tools
 
 * scikit-learn <https://scikit-learn.org/stable>
+
+## ML licecycle management
+
+* MLFlow <https://mlflow.org/>
+* KubeFlow <https://www.kubeflow.org/>
 
 ## ML as a service
 

@@ -1,4 +1,4 @@
-# Step 5: Data and AI
+# Class 5: Data and AI
 
 ## Timeline
 

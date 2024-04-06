@@ -1,4 +1,4 @@
-# Step 1: Programming
+# Class 1: Programming
 
 ## Timeline
 
@@ -30,8 +30,6 @@ First appeared: 1958
 📜 Simula is the name of two simulation programming languages, Simula I and Simula 67, developed in the 1960s at the Norwegian Computing Center in Oslo, by Ole-Johan Dahl and Kristen Nygaard.
 Simula 67 introduced objects, classes, inheritance and subclasses, virtual procedures, coroutines, and discrete event simulation, and featured garbage collection.  
 First appeared: 1962
-
-📜 Conway's law is an adage that states organizations design systems that mirror their own communication structure. It is named after the computer programmer Melvin Conway, who introduced the idea in 1967.
 
 📜 ed is a line editor for Unix and Unix-like operating systems.
 The ed text editor was one of the first three key elements of the Unix operating system — assembler, editor, and shell — developed by Ken Thompson in August 1969 on a PDP-7 at AT&T Bell Labs.
@@ -102,9 +100,6 @@ First appeared: December 18, 1987
 Self was designed mostly by David Ungar and Randall Smith in 1986 while working at Xerox PARC.
 First appeared: 1987
 
-📜 Internet Relay Chat (IRC) is a text-based chat system for instant messaging. IRC is designed for group communication in discussion forums, called channels, but also allows one-on-one communication via private messages as well as chat and data transfer, including file sharing.
-Introduced: Late August, 1988
-
 📜 GNU Make (short gmake) is the standard implementation of Make for Linux and macOS. It provides several extensions over the original Make, such as conditionals.
 It also provides many built-in functions which can be used to eliminate the need for shell-scripting in the makefile rules as well as to manipulate the variables set and used in the makefile.
 First release: 1988
@@ -125,13 +120,6 @@ Guido van Rossum began working on Python in the late 1980s as a successor to the
 📜 Vim (a contraction of Vi IMproved) is a free and open-source, screen-based text editor program. It is an improved clone of Bill Joy's vi. Vim's author, Bram Moolenaar, derived Vim from a port of the Stevie editor for Amiga and released a version to the public in 1991.
 Vim Initial release: 2 November 1991
 
-📜 CTAN (an acronym for "Comprehensive TeX Archive Network") is the authoritative place where TeX related material and software can be found for download.
-CTAN was built in 1992, by Rainer Schöpf and Joachim Schrod in Germany, Sebastian Rahtz in the UK, and George Greenwade in the U.S.
-CTAN was officially announced at the EuroTeX conference at Aston University, 1993. The WEB server itself is maintained by Gerd Neugebauer.
-
-📜 CPAN was conceived in 1993 and has been active online since October 1995. It is based on the CTAN model and began as a place to unify the structure of scattered Perl archives.
-On October 26, 1995, the Comprehensive Perl Archive Network (CPAN) was established as a repository for the Perl language and Perl modules.
-
 📜 Perl 5.000 was released on October 17, 1994. It was a nearly complete rewrite of the interpreter, and it added many new features to the language, including objects, references, lexical (my) variables, and modules
 
 📜 Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.
@@ -151,9 +139,6 @@ The first JavaScript engine was created by Brendan Eich in 1995 for the Netscape
 Microsoft first released Visual Studio in 1997, bundling many of its programming tools together for the first time.
 Visual Studio 97 / 1997-03-19
 
-📜 The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary (abbreviated CatB) is an essay, and later a book, by Eric S. Raymond on software engineering methods.
-The essay was first presented by the author at the Linux Kongress on May 27, 1997 in Würzburg (Germany) and was published as the second chapter of the same‑titled book in 1999.
-
 📜 The first edition of ECMA-262 (ECMAScript) was adopted by the Ecma General Assembly in June 1997.
 
 📜 In 1998, the Ruby Application Archive was launched by Matsumoto, along with a simple English-language homepage for Ruby.
@@ -167,17 +152,11 @@ Initially available as an add-on for Java 1.2, HotSpot became the default Sun JV
 
 📜 The Pragmatic Programmer: From Journeyman to Master is a book about computer programming and software engineering, written by Andrew Hunt and David Thomas and published in October 1999.
 
-📜 Extreme programming (XP) is a software development methodology intended to improve software quality and responsiveness to changing customer requirements.
-Kent Beck developed extreme programming during his work.
-He began to refine the development methodology used in the project and wrote a book on the methodology (Extreme Programming Explained, published in October 1999).
-
 📜 GNU nano is a text editor for Unix-like computing systems or operating environments using a command line interface.
 Initial release: 18 November 1999
 
 📜 Jakarta EE, formerly Java Platform, Enterprise Edition (Java EE) and Java 2 Platform, Enterprise Edition (J2EE), is a set of specifications, extending Java SE with specifications for enterprise features such as distributed computing and web services.
 J2EE 1.2 Initial specification release: 1999-12-17
-
-📜 SourceForge, founded in 1999 by VA Software, was the first provider of a centralized location for free and open-source software developers to control and manage software development and offering this service without charge.
 
 ### 2000s
 
@@ -195,9 +174,6 @@ First appeared: 2000
 📜 CMake development began in 1999, in response to the need for a cross-platform build environment for the Insight Segmentation and Registration Toolkit (ITK).
 CMake was first implemented in 2000 and further developed in 2001.
 
-📜 On February 11-13, 2001, seventeen people met to talk, ski, relax, and try to find common ground—and of course, to eat.
-Together they published the Manifesto for Agile Software Development.
-
 📜 YAML is a human-readable data-serialization language. It is commonly used for configuration files and in applications where data is being stored or transmitted.
 YAML Initial release: 11 May 2001
 
@@ -208,15 +184,8 @@ Eclipse Initial release: 1.0 / 29 November 2001
 📜 JSON is a language-independent data format. It was derived from JavaScript.
 The JSON.org website was launched in 2002.
 
-📜 The Python Package Index, abbreviated as PyPI and also known as the Cheese Shop, is the official third-party software repository for Python.
-PEP 241, a proposal to standardize metadata for indexes, was finalized in March 2001. A proposal to create a comprehensive centralised catalog was later finalized in November 2002.
-Launched: 2003
-
 📜 Scala is a strong statically typed general-purpose programming language which supports both object-oriented programming and functional programming.
 First appeared: 20 January 2004
-
-📜 RubyGems is a package manager for the Ruby programming language that provides a standard format for distributing Ruby programs and libraries.
-Development on RubyGems started in November 2003 and was released to the public on March 14, 2004, or Pi Day 2004.
 
 📜 Maven is a build automation tool used primarily for Java projects. Maven can also be used to build and manage projects written in C#, Ruby, Scala, and other languages.
 Maven, created by Jason van Zyl, began as a sub-project of Apache Turbine in 2002. In 2003, it was voted on and accepted as a top level Apache Software Foundation project. In July 2004, Maven's release was the critical first milestone, v1.0.
@@ -253,8 +222,6 @@ PyPy was initially a research and development-oriented project. Reaching a matur
 
 📜 Gradle is a build automation tool for multi-language software development. It controls the development process in the tasks of compilation and packaging to testing, deployment, and publishing.
 Gradle Initial release: 21 April 2008
-
-📜 Development of the GitHub.com platform began on October 19, 2007. The site was launched in April 2008 by Tom Preston-Werner, Chris Wanstrath, P. J. Hyett and Scott Chacon after it had been made available for a few months prior as a beta release.
 
 📜 Python 3.0 was released on 3 December 2008.
 It was a major revision of the language that is not completely backward-compatible.
@@ -297,8 +264,6 @@ First appeared: July 22, 2011
 
 📜 Microsoft released a version of C# with async/await for the first time in the Async CTP (2011). And were later officially released in C# 5 (2012).
 
-📜 From 2012, Microsoft became a significant user of GitHub, using it to host open-source projects and development tools such as .NET Core, Chakra Core, MSBuild, PowerShell, PowerToys, Visual Studio Code, Windows Calculator, Windows Terminal and the bulk of its product documentation (now to be found on Microsoft Docs).
-
 📜 TOML is a file format for configuration files. It is intended to be easy to read and write due to obvious semantics which aim to be "minimal", and is designed to map unambiguously to a dictionary.
 TOML Initial release: 23 February 2013
 
@@ -307,12 +272,7 @@ TOML Initial release: 23 February 2013
 📜 Meson is a software tool for automating the building (compiling) of software. The overall goal for Meson is to promote programmer productivity. Meson is free and open-source software written in Python, under the Apache License 2.0.
 Initial release: 2 March 2013
 
-📜 Slack is an instant messaging program designed by Slack Technologies and owned by Salesforce.
-Slack Initial release: August 2013
-
 📜 In October 2013, Ecma International published the first edition of its JSON standard ECMA-404.
-
-📜 The .NET Foundation is an organization incorporated on March 31, 2014, by Microsoft to improve open-source software development and collaboration around the .NET Framework.
 
 📜 TypeScript 1.0 was released at Microsoft's Build developer conference in 2014 (12 April 2014).
 Visual Studio 2013 Update 2 provides built-in support for TypeScript.
@@ -371,12 +331,8 @@ Deno Initial release: May 13, 2018
 
 📜 Rust added support for async/await with version 1.39.0 in 2019.
 
-📜 In 2019, the JS Foundation and Node.js Foundation merged to form the OpenJS Foundation.
-
 📜 A second edition, The Pragmatic Programmer: Your Journey to Mastery was released in 2019 for the book's 20th anniversary.
 
 ### 2020s
 
 📜 In November 2020, Microsoft released .NET 5.0. The "Core" branding was removed and version 4.0 was skipped to avoid conflation with .NET Framework, which remains the Windows-specific product. It addresses the patent concerns related to the .NET Framework.
-
-📜 On February 8, 2021, the formation of the Rust Foundation was announced by its five founding companies (AWS, Huawei, Google, Microsoft, and Mozilla).
