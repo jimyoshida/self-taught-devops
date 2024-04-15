@@ -136,7 +136,7 @@ Initial release: January 2009
 📈 Homebrew is a free and open-source software package management system that simplifies the installation of software on Apple's operating system, macOS, as well as Linux.
 Originally written by Max Howell, the package manager has gained popularity in the Ruby on Rails community and earned praise for its extensibility.
 Homebrew is written in the Ruby programming language and targets the version of Ruby that comes installed with the macOS operating system.
-Homebrew Initial release: 21 May 2009
+Initial release: 21 May 2009
 
 📈 VMware Server final release: October 26, 2009
 
@@ -169,7 +169,7 @@ Initial release: March 20, 2013
 📈 On April 15, 2013, it was announced that the Xen Project was moved under the auspices of the Linux Foundation as a Collaborative Project.
 
 📈 InfluxDB is an open-source time series database (TSDB) developed by the company InfluxData.
-InfluxDB Initial release: 24 September 2013
+Initial release: 24 September 2013
 
 📈 In 2013, adequate containers support functionality was finished in kernel version 3.8 with the introduction of User namespaces.
 
@@ -180,7 +180,7 @@ InfluxDB Initial release: 24 September 2013
 📈 Kubernetes was announced by Google in mid-2014. The project was created by Joe Beda, Brendan Burns, and Craig McLuckie.
 
 📈 Terraform is an open-source, infrastructure as code, software tool created by HashiCorp.
-Terraform Initial release: 28 July 2014
+Initial release: 28 July 2014
 
 📈 On November 13, 2014, AWS launches a preview of EC2 Container Service (ECS), facilitating the use of container infrastructure on AWS. Third-party integration such as those with Docker are available at the time of release.
 

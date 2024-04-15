@@ -109,20 +109,20 @@
   * Unicode Emoji <https://home.unicode.org/emoji/>
 * Regex <https://en.wikipedia.org/wiki/Regular_expression>
   * PCRE <https://en.wikipedia.org/wiki/Perl_Compatible_Regular_Expressions>
-* TSV <https://en.wikipedia.org/wiki/Tab-separated_values>
-* CSV <https://en.wikipedia.org/wiki/Comma-separated_values>
-* Text manipulation
-  * GNU sed <https://www.gnu.org/software/sed/>; <https://sed.sourceforge.io/>
-  * sd <https://github.com/chmln/sd> - sed alternative
-* Table manipulation
-  * GNU awk <https://www.gnu.org/software/gawk/>
-  * csvkit <https://csvkit.readthedocs.io/en/latest/>
-  * xsv <https://github.com/BurntSushi/xsv>
-  * qsv <https://github.com/jqnatividad/qsv>
-  * Python tabulate <https://github.com/astanin/python-tabulate>
+* GNU sed <https://www.gnu.org/software/sed/>; <https://sed.sourceforge.io/>
+* sd <https://github.com/chmln/sd> - sed alternative
+* GNU awk <https://www.gnu.org/software/gawk/>
 * Diff tools
   * diffutils <https://www.gnu.org/software/diffutils/>
   * colordiff <https://www.colordiff.org/>
+* Tabular data
+  * TSV <https://en.wikipedia.org/wiki/Tab-separated_values>
+  * CSV <https://en.wikipedia.org/wiki/Comma-separated_values>
+  * Text::CSV <https://metacpan.org/pod/Text::CSV>
+  * Python csv <https://docs.python.org/3/library/csv.html>
+  * csvkit <https://csvkit.readthedocs.io/en/latest/>
+  * xsv <https://github.com/BurntSushi/xsv>
+  * qsv <https://github.com/jqnatividad/qsv>
 
 ## Library package management
 
@@ -239,6 +239,7 @@
   * JSON <https://www.json.org/json-en.html>
     * jq <https://stedolan.github.io/jq/>
     * json_pp <https://metacpan.org/dist/JSON-PP/view/bin/json_pp>
+    * JSON::PP <https://metacpan.org/pod/JSON::PP>
     * fx <https://fx.wtf/> - Terminal JSON viewer & processor
   * XML <https://www.w3.org/XML/>
   * ISO 8601: Date and time — Representations for information interchange
@@ -248,8 +249,12 @@
   * YAML <https://yaml.org/>
     * yq (python) <https://github.com/kislyuk/yq>
     * yq (go) <https://github.com/mikefarah/yq>
+    * YAML::Tiny <https://metacpan.org/pod/YAML::Tiny>
     * PyYAML <https://github.com/yaml/pyyaml>
-  * TOML <https://github.com/toml-lang/toml>
+  * TOML <https://toml.io/en/>
+    * TOML::Tiny <https://metacpan.org/pod/TOML::Tiny>
+    * Python tomllib <https://docs.python.org/3/library/tomllib.html>
+  * yj <https://github.com/sclevine/yj> - Convert between YAML, TOML, JSON, and HCL
 * JSON extentions
   * Hjson <https://hjson.org/>
   * jsonc <https://komkom.github.io/>
@@ -347,6 +352,7 @@
 * Haskell <https://www.haskell.org/>
 * Elm <https://elm-lang.org/>
 * C <https://www.open-std.org/jtc1/sc22/wg14/>
+* zx <https://google.github.io/zx/>
 
 ## Program execution and toolkits
 
@@ -455,6 +461,7 @@
 * Perl
   * Getopt::Long <https://metacpan.org/pod/Getopt::Long>
   * Term::ANSIColor <https://metacpan.org/pod/Term::ANSIColor>
+  * Text::ANSITable <https://metacpan.org/pod/Text::ANSITable>
   * DateTime <https://metacpan.org/pod/DateTime>
 * Python
   * argparse <https://docs.python.org/3/library/argparse.html>

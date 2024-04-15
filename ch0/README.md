@@ -75,12 +75,14 @@
 
 ## Agile documentaion
 
-* Markup languages
+* Documentation languages
   * Markdown <https://en.wikipedia.org/wiki/Markdown>
     * GFM (GitHub Flavored Markdown) <https://github.github.com/gfm/>
     * markdownlint <https://github.com/DavidAnson/markdownlint>
     * remark <https://remark.js.org/> - a markdown processor
     * charm_Glow <https://github.com/charmbracelet/glow> - a terminal based markdown reader
+    * Text::MarkdownTable <https://metacpan.org/pod/Text::MarkdownTable>
+    * Python tabulate <https://github.com/astanin/python-tabulate>
   * Groff <https://www.gnu.org/software/groff/>
   * Asciidoc <https://asciidoc.org/> and Asciidoctor <https://asciidoctor.org/>
   * reStructuredText <https://docutils.sourceforge.io/rst.html>
@@ -123,10 +125,17 @@
   * textlint <https://textlint.github.io/>
   * lychee <https://lychee.cli.rs/>
 
-## Licences
+## Non-profit organizations
 
 * Creative Commons <https://creativecommons.org/>
-* Opensource licenses <https://opensource.org/licenses/>
+* Open Source Initiative <https://opensource.org/>
+  * Opensource licenses <https://opensource.org/licenses/>
+* Free Software Foundation <https://www.fsf.org/>
+* Apache Software Foundation <https://www.apache.org/>
+* The Open Group <https://www.opengroup.org/>
+* Cloud Native Computing Foundation <https://www.cncf.io/>
+* Linux Foundation <https://www.linuxfoundation.org/>
+* OpenJS Foundation <https://openjsf.org/>
 
 ## Cultures
 
