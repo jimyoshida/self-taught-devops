@@ -112,13 +112,13 @@ Initial release: June 8, 1989
 ### 1990s
 
 📜 Concurrent Versions System (CVS, also known as the Concurrent Versioning System) is a revision control system originally developed by Dick Grune in July 1986.
-CVS Initial release: November 19, 1990
+Initial release: November 19, 1990
 
 📜 Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.
 Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0.
 
 📜 Vim (a contraction of Vi IMproved) is a free and open-source, screen-based text editor program. It is an improved clone of Bill Joy's vi. Vim's author, Bram Moolenaar, derived Vim from a port of the Stevie editor for Amiga and released a version to the public in 1991.
-Vim Initial release: 2 November 1991
+Initial release: 2 November 1991
 
 📜 Perl 5.000 was released on October 17, 1994. It was a nearly complete rewrite of the interpreter, and it added many new features to the language, including objects, references, lexical (my) variables, and modules
 
@@ -156,7 +156,7 @@ Initially available as an add-on for Java 1.2, HotSpot became the default Sun JV
 Initial release: 18 November 1999
 
 📜 Jakarta EE, formerly Java Platform, Enterprise Edition (Java EE) and Java 2 Platform, Enterprise Edition (J2EE), is a set of specifications, extending Java SE with specifications for enterprise features such as distributed computing and web services.
-J2EE 1.2 Initial specification release: 1999-12-17
+Initial specification release: 1999-12-17
 
 ### 2000s
 
@@ -175,11 +175,11 @@ First appeared: 2000
 CMake was first implemented in 2000 and further developed in 2001.
 
 📜 YAML is a human-readable data-serialization language. It is commonly used for configuration files and in applications where data is being stored or transmitted.
-YAML Initial release: 11 May 2001
+Initial release: 11 May 2001
 
 📜 Eclipse is an integrated development environment (IDE) used in computer programming. It contains a base workspace and an extensible plug-in system for customizing the environment. It is the second-most-popular IDE for Java development, and, until 2016, was the most popular.
 Eclipse was inspired by the Smalltalk-based VisualAge family of integrated development environment (IDE) products.
-Eclipse Initial release: 1.0 / 29 November 2001
+Initial release: 1.0 / 29 November 2001
 
 📜 JSON is a language-independent data format. It was derived from JavaScript.
 The JSON.org website was launched in 2002.
@@ -189,7 +189,7 @@ First appeared: 20 January 2004
 
 📜 Maven is a build automation tool used primarily for Java projects. Maven can also be used to build and manage projects written in C#, Ruby, Scala, and other languages.
 Maven, created by Jason van Zyl, began as a sub-project of Apache Turbine in 2002. In 2003, it was voted on and accepted as a top level Apache Software Foundation project. In July 2004, Maven's release was the critical first milestone, v1.0.
-Maven Initial release: 13 July 2004
+Initial release: 13 July 2004
 
 📜 F# (pronounced F sharp) is a functional-first, general purpose, strongly typed, multi-paradigm programming language.
 F# is developed by the F# Software Foundation, Microsoft and open contributors. An open source, cross-platform compiler for F# is available from the F# Software Foundation.
@@ -221,7 +221,7 @@ PyPy was initially a research and development-oriented project. Reaching a matur
 📜 F# added asynchronous workflows with await points in version 2.0 in 2007. This influenced the async/await mechanism added to C#.
 
 📜 Gradle is a build automation tool for multi-language software development. It controls the development process in the tasks of compilation and packaging to testing, deployment, and publishing.
-Gradle Initial release: 21 April 2008
+Initial release: 21 April 2008
 
 📜 Python 3.0 was released on 3 December 2008.
 It was a major revision of the language that is not completely backward-compatible.
@@ -240,17 +240,17 @@ Go was publicly announced in November 2009.
 
 📜 npm is a package manager for the JavaScript programming language maintained by npm, Inc.
 npm is written entirely in JavaScript and was developed by Isaac Z. Schlueter as a result of having "seen module packaging done terribly" and with inspiration from other similar projects such as PEAR (PHP) and CPAN (Perl).
-npm Initial release: 12 January 2010
+Initial release: 12 January 2010
 
 📜 NuGet is a package manager designed to enable developers to share reusable code. It is a software as a service solution whose client app is free and open-source. The Outercurve Foundation initially created it under the name NuPack.
 NuGet was initially distributed as a Visual Studio extension. Starting with Visual Studio 2012, both Visual Studio and Visual Studio for Mac can natively consume NuGet packages.
-NuGet Initial release: 5 October 2010
+Initial release: 5 October 2010
 
 📜 Rust is a multi-paradigm, general-purpose programming language. Rust enforces memory safety without requiring the use of a garbage collector or reference counting present in other memory-safe languages.
 Rust grew out of a personal project begun in 2006 by Mozilla employee Graydon Hoare. Mozilla began sponsoring the project in 2009 and officially announced the project in 2010.
 
 📜 Package Installer for Python (pip) is the de facto and recommended package-management system written in Python and is used to install and manage software packages.
-Pip Initial release: 4 April 2011
+Initial release: 4 April 2011
 
 📜 Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference.
 Kotlin is designed to interoperate fully with Java, and the JVM version of Kotlin's standard library depends on the Java Class Library, but type inference allows its syntax to be more concise.
@@ -265,7 +265,7 @@ First appeared: July 22, 2011
 📜 Microsoft released a version of C# with async/await for the first time in the Async CTP (2011). And were later officially released in C# 5 (2012).
 
 📜 TOML is a file format for configuration files. It is intended to be easy to read and write due to obvious semantics which aim to be "minimal", and is designed to map unambiguously to a dictionary.
-TOML Initial release: 23 February 2013
+Initial release: 23 February 2013
 
 📜 Ruby 2.0 was intended to be fully backward compatible with Ruby 1.9.3. As of the official 2.0.0 release on February 24, 2013.
 
@@ -323,7 +323,7 @@ WSL beta was introduced in Windows 10 version 1607 (Anniversary Update) on Augus
 Initial Release: 02 Feb 2018
 
 📜 Deno is a runtime for JavaScript, TypeScript, and WebAssembly that is based on the V8 JavaScript engine and the Rust programming language. Deno was co-created by Ryan Dahl, who also created Node.js.
-Deno Initial release: May 13, 2018
+Initial release: May 13, 2018
 
 📜 Microsoft announced WSL 2 on May 6, 2019, and it was shipped with Windows 10 version 2004.
 

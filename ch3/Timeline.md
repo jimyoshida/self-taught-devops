@@ -78,7 +78,7 @@ The WebKit project was started within Apple by Don Melton on June 25, 2001, as a
 
 🌐 ASP.NET is an open-source, server-side web-application framework designed for web development to produce dynamic web pages.
 It was first released in January 2002 with version 1.0 of the .NET Framework and is the successor to Microsoft's Active Server Pages (ASP) technology.
-ASP.NET Initial release: January 5, 2002
+Initial release: January 5, 2002
 
 🌐 The Mozilla project developed and implemented an interface called nsIXMLHttpRequest into the Gecko layout engine.
 Mozilla created a wrapper to use this interface through a JavaScript object which they called XMLHttpRequest.
@@ -98,7 +98,7 @@ Formation: 4 June 2004
 
 🌐 Ruby on Rails (simplify as Rails) is a server-side web application framework written in Ruby under the MIT License.
 David Heinemeier Hansson extracted Ruby on Rails from his work on the project management tool Basecamp at the web application company 37signals. Hansson first released Rails as open source in July 2004.
-Rails Initial release: August 2004 ?
+Initial release: August 2004 ?
 
 🌐 Nginx is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. The software was created by Igor Sysoev and publicly released in 2004.
 Originally, Nginx was developed to solve the C10k problem, and to fill the needs of multiple websites including the Rambler search engine and portal, for which it was serving 500 million requests per day by September 2008
@@ -109,7 +109,7 @@ Initial release: 4 October 2004
 🌐 The Prototype JavaScript Framework is a JavaScript framework created by Sam Stephenson in February 2005 as part of Ajax support in Ruby on Rails.
 
 🌐 Django is a free and open-source, Python-based web framework that follows the model–template–views (MTV) architectural pattern.
-Django Initial release: 21 July 2005
+Initial release: 21 July 2005
 
 🌐 In December 2005, Yahoo! began offering some of its Web services in JSON.
 
@@ -123,7 +123,7 @@ AWS launched Amazon S3 in the United States on March 14, 2006.
 
 🌐 jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.
 jQuery was originally created in January 2006 at BarCamp NYC by John Resig, influenced by Dean Edwards' earlier cssQuery library.
-jQuery Initial release: August 26, 2006
+Initial release: August 26, 2006
 
 🌐 HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and final major HTML version that is a World Wide Web Consortium (W3C) recommendation.
 Initial release: 22 January 2008
@@ -145,14 +145,14 @@ Google announced SPDY in late 2009 and deployed in 2010.
 
 🌐 Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.
 Flask was created by Armin Ronacher of Pocoo, an international group of Python enthusiasts.
-Flask Initial release: April 1, 2010
+Initial release: April 1, 2010
 
 🌐 AngularJS is a discontinued free and open-source JavaScript-based web framework for developing single-page applications. It was maintained mainly by Google and a community of individuals and corporations.
-AngularJS Initial release: October 20, 2010
+Initial release: October 20, 2010
 
 🌐 Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License.
 Express.js was founded by TJ Holowaychuk. The first release, according to Express.js's GitHub repository, was on 22 May 2010. Version 0.12
-Express Initial release: 16 November 2010 ?
+Initial release: 16 November 2010 ?
 
 🌐 Google Native Client (NaCl) was a sandboxing technology for running either a subset of Intel x86, ARM, or MIPS native code, or a portable executable, in a sandbox. It allows safely running native code from a web browser, independent of the user operating system, allowing web apps to run at near-native speeds, which aligns with Google's plans for ChromeOS.
 Initial release: 16 September 2011
@@ -167,11 +167,11 @@ First release: 11/11/2012
 First appeared: 21 March 2013
 
 🌐 React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.
-React Initial release: May 29, 2013
+Initial release: May 29, 2013
 
 🌐 Electron (formerly known as Atom Shell) is a free and open-source software framework developed and maintained by GitHub.
 The framework is designed to create desktop applications using web technologies which are rendered using a flavor of the Chromium browser engine, and a backend using the Node.js runtime environment.
-Electron Initial release: 15 July 2013
+Initial release: 15 July 2013
 
 🌐 The QUIC code was experimentally developed in Google Chrome starting in 2012, and was announced as part of Chromium version 29 (released on August 20, 2013).
 
@@ -179,10 +179,10 @@ Electron Initial release: 15 July 2013
 The acronym MEAN was coined by Valeri Karpov. He introduced the term in a 2013 blog post.
 
 🌐 Webpack is a free and open-source module bundler for JavaScript. It is made primarily for JavaScript, but it can transform front-end assets such as HTML, CSS, and images if the corresponding loaders are included.
-Webpack Initial release: 19 February 2014
+Initial release: 19 February 2014
 
 🌐 Babel is a free and open-source JavaScript transcompiler that is mainly used to convert ECMAScript 2015+ (ES6+) code into a backwards compatible version of JavaScript that can be run by older JavaScript engines.
-Babel Initial release: September 28, 2014
+Initial release: September 28, 2014
 
 🌐 On October 28, 2014, HTML5 was published as a W3C Recommendation.
 
@@ -195,17 +195,17 @@ Vue.js 1.0 release: October 27, 2015
 🌐 HTTP/2, published in 2015, provides a more efficient expression of HTTP's semantics "on the wire".
 
 🌐 ASP.NET Core is a free and open-source web framework and successor to ASP.NET, developed by Microsoft.
-ASP.NET Core Initial release: June 7, 2016
+Initial release: June 7, 2016
 
 🌐 Angular is a TypeScript-based free and open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations.
 Angular 2.0 was announced at the ng-Europe conference 22–23. October 2014. The drastic changes in the 2.0 version created considerable controversy among developers.
-Angular Initial release: 2.0 / 14 September 2016
+Initial release: 2.0 / 14 September 2016
 
 🌐 Next.js is an open-source web development framework created by Vercel enabling React-based web applications with server-side rendering and generating static websites.
-Next.js Initial release: October 25, 2016
+Initial release: October 25, 2016
 
 🌐 Nuxt.js is a free and open source JavaScript library based on Vue.js, Node.js, Webpack and Babel.js. Nuxt is inspired by Next.js, which is a framework of similar purpose, based on React.js.
-Nuxt.js Initial release: October 26, 2016
+Initial release: October 26, 2016
 
 🌐 On November 15, 2016, Microsoft announced the general availability of Azure Functions.
 
@@ -215,10 +215,10 @@ Announced in 2015 and first released in March 2017.
 🌐 WebAssembly System Interface (WASI) is a simple interface (ABI and API) designed by Mozilla intended to be portable to any platform. It provides POSIX-like features like file I/O constrained by capability-based security.
 
 🌐 Nest (NestJS) is a framework for building efficient, scalable Node.js server-side applications.
-Nest Initial release on github: Feb 16, 2018
+Initial release on github: Feb 16, 2018
 
 🌐 Blazor is a free and open-source web framework that enables developers to create web apps using C# and HTML.
-Blazor Initial release: 2018
+Initial release: 2018
 
 🌐 cURL 7.66, released 11 September 2019, supports HTTP/3 (and thus QUIC).
 
