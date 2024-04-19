@@ -157,12 +157,6 @@
 * JupyterLab / Jupiter Notebook <https://jupyter.org/>
 * BeakerX <http://beakerx.com/>
 
-## Typesetting system for scientific documents
-
-* LaTeX <https://www.latex-project.org/>
-  * TexLive <https://tug.org/texlive/>
-* KaTeX <https://katex.org/>
-
 ## NLP
 
 * n-gram <https://en.wikipedia.org/wiki/N-gram>
@@ -187,3 +181,4 @@
 * GitHub Copilot <https://github.com/features/copilot/>
 * Visual Studio IntelliCode <https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode>
 * CodeGPT <https://www.codegpt.co/>
+* charm_mods <https://github.com/charmbracelet/mods>

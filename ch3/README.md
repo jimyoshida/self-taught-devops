@@ -6,8 +6,6 @@
 
 * HTTP <https://en.wikipedia.org/wiki/HTTP>
   * HTTP cookie <https://en.wikipedia.org/wiki/HTTP_cookie>
-  * NGINX <https://www.nginx.com/>
-  * Apache HTTP Server <https://httpd.apache.org/>
 * URL <https://en.wikipedia.org/wiki/URL>
   * URI <https://en.wikipedia.org/wiki/Uniform_Resource_Identifier>
 * HTML <https://html.spec.whatwg.org/>
@@ -15,6 +13,10 @@
 * DOM <https://www.w3.org/DOM/DOMTR>
 * CSS <https://www.w3.org/Style/CSS/>
 * Block, Element, Modifier methodology (BEM) <https://en.bem.info>
+* Servers
+  * NGINX <https://www.nginx.com/>
+  * Apache HTTP Server <https://httpd.apache.org/>
+  * nodejs http-server <https://github.com/http-party/http-server#readme>
 * CLIs
   * cURL <https://curl.haxx.se/>
   * Wget <https://www.gnu.org/software/wget/>

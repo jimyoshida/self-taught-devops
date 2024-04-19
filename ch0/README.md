@@ -75,18 +75,22 @@
 
 ## Agile documentaion
 
-* Documentation languages
-  * Markdown <https://en.wikipedia.org/wiki/Markdown>
-    * GFM (GitHub Flavored Markdown) <https://github.github.com/gfm/>
-    * markdownlint <https://github.com/DavidAnson/markdownlint>
-    * remark <https://remark.js.org/> - a markdown processor
-    * charm_Glow <https://github.com/charmbracelet/glow> - a terminal based markdown reader
-    * Text::MarkdownTable <https://metacpan.org/pod/Text::MarkdownTable>
-    * Python tabulate <https://github.com/astanin/python-tabulate>
-  * Groff <https://www.gnu.org/software/groff/>
-  * Asciidoc <https://asciidoc.org/> and Asciidoctor <https://asciidoctor.org/>
-  * reStructuredText <https://docutils.sourceforge.io/rst.html>
+* Markdown <https://en.wikipedia.org/wiki/Markdown>
+  * GFM (GitHub Flavored Markdown) <https://github.github.com/gfm/>
+  * markdownlint <https://github.com/DavidAnson/markdownlint>
+  * remark <https://remark.js.org/> - a markdown processor
+  * charm_Glow <https://github.com/charmbracelet/glow> - a terminal based markdown reader
+  * Text::MarkdownTable <https://metacpan.org/pod/Text::MarkdownTable>
+  * Python tabulate <https://github.com/astanin/python-tabulate>
 * OpenAPI spec <https://www.openapis.org/>
+
+## Architecture description
+
+* UML <https://www.omg.org/spec/UML/About-UML/>
+* 4+1 architectural view model <https://en.wikipedia.org/wiki/4%2B1_architectural_view_model>
+* The C4 model <https://c4model.com/>
+* ISO/IEC/IEEE 42010: Systems and software engineering — Architecture description
+* Architectural Decision Records (ADRs) <https://adr.github.io/>
 * Diagramming as code
   * Diagrams <https://diagrams.mingrammer.com/>
   * PlantUML <https://plantuml.com/>
@@ -96,25 +100,40 @@
     * DOT language <https://graphviz.org/doc/info/lang.html>
     * haphviz <https://hackage.haskell.org/package/haphviz>
 
-## Architecture description
+## Language-specific documentation tools
 
-* UML <https://www.omg.org/spec/UML/About-UML/>
-* 4+1 architectural view model <https://en.wikipedia.org/wiki/4%2B1_architectural_view_model>
-* The C4 model <https://c4model.com/>
-* ISO/IEC/IEEE 42010: Systems and software engineering — Architecture description
-* Architectural Decision Records (ADRs) <https://adr.github.io/>
+* apiDoc <http://apidocjs.com/>
+* JSDoc <https://jsdoc.app/>
+* perldoc <https://metacpan.org/dist/Pod-Perldoc/view/perldoc.pod>
+  * Pod <https://metacpan.org/pod/perlpod>
+* pydoc <https://docs.python.org/3/library/pydoc.html>
+  * Docstring <https://www.python.org/dev/peps/pep-0257/>
+* godoc <https://pkg.go.dev/golang.org/x/tools/cmd/godoc>
+* rustdoc <https://doc.rust-lang.org/rustdoc/>
+* RDoc <https://ruby.github.io/rdoc/>
+* Javadoc <https://www.oracle.com/java/technologies/javase/javadoc-tool.html>
 
 ## Document site generators
 
-* Hugo <https://gohugo.io/>
-  * Docsy <https://www.docsy.dev/>
-* MkDocs <https://www.mkdocs.org/>
-  * Material for MkDocs <https://squidfunk.github.io/mkdocs-material/>
-* Sphinx <http://www.sphinx-doc.org/en/master/>
-  * DocUtils <https://docutils.sourceforge.io/>
 * Docusaurus <https://docusaurus.io/>
   * MDX <https://mdxjs.com/>
 * VuePress <https://v2.vuepress.vuejs.org/>
+* Hugo <https://gohugo.io/>
+  * Docsy <https://www.docsy.dev/>
+* Sphinx <http://www.sphinx-doc.org/en/master/>
+  * DocUtils <https://docutils.sourceforge.io/>
+    * reStructuredText <https://docutils.sourceforge.io/rst.html>
+* MkDocs <https://www.mkdocs.org/>
+  * Material for MkDocs <https://squidfunk.github.io/mkdocs-material/>
+
+## Typesetting systems
+
+* Troff/Groff <https://www.gnu.org/software/groff/>
+* Asciidoc <https://asciidoc.org/>
+  * Asciidoctor <https://asciidoctor.org/>
+* LaTeX <https://www.latex-project.org/>
+  * TexLive <https://tug.org/texlive/>
+* KaTeX <https://katex.org/>
 
 ## Technical writing
 

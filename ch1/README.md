@@ -95,10 +95,8 @@
   * midnight commander <https://midnight-commander.org/>
   * ranger <https://github.com/ranger/ranger>
 * Unix-like environments on Windows
-  * Git for Windows <https://gitforwindows.org/>
   * MSYS2 <https://www.msys2.org/>
   * Cygwin <https://www.cygwin.com/>
-  * Strawberry Perl <https://strawberryperl.com/>
 * Linux on Windows
   * WSL <https://learn.microsoft.com/en-us/windows/wsl/>
 
@@ -112,6 +110,8 @@
 * GNU sed <https://www.gnu.org/software/sed/>; <https://sed.sourceforge.io/>
 * sd <https://github.com/chmln/sd> - sed alternative
 * GNU awk <https://www.gnu.org/software/gawk/>
+* Perl <https://www.perl.org/>
+  * Strawberry Perl <https://strawberryperl.com/>
 * Diff tools
   * diffutils <https://www.gnu.org/software/diffutils/>
   * colordiff <https://www.colordiff.org/>
@@ -172,8 +172,10 @@
   * branch, tag, worktree
   * push, pull, fetch, rebase, reset, stash
   * staging, commit
-* Git LFS <https://git-lfs.github.com/>
+  * LFS <https://git-lfs.com/>
+* Git for Windows <https://gitforwindows.org/>
 * TortoiseGit <https://tortoisegit.org/>
+* Git Interactive Rebase Tool <https://gitrebasetool.mitmaro.ca/>
 * BFG Repo-Cleaner <https://rtyley.github.io/bfg-repo-cleaner/>
 * degit <https://github.com/Rich-Harris/degit>
 * lazygit <https://github.com/jesseduffield/lazygit>
@@ -343,8 +345,8 @@
   * discriminated union
   * active pattern
   * computation expression
-* Java <https://docs.oracle.com/en/java/index.html>
 * Ruby <https://www.ruby-lang.org/en/>
+* Java <https://docs.oracle.com/en/java/index.html>
 * Kotlin <https://kotlinlang.org/>
 * Scala (for Gatling) <https://www.scala-lang.org/>
 * Groovy (for Jenkins) <http://groovy-lang.org/>
@@ -385,26 +387,15 @@
 * .NET <https://dotnet.microsoft.com/en-us/>
   * CLR <https://learn.microsoft.com/en-us/dotnet/standard/clr>
 
-## Build and documentation tools
+## Build automation tools
 
-* Build tools
-  * GNU Make <https://www.gnu.org/software/make/>
-  * Gradle <https://gradle.org/>
-  * Maven <https://maven.apache.org/>
-  * Task <https://taskfile.dev/>
-  * CMake <https://cmake.org/>
-  * Meson <https://mesonbuild.com/>
-  * Rake <https://ruby.github.io/rake/>
-* Document generators
-  * apiDoc <http://apidocjs.com/>
-  * JSDoc <https://jsdoc.app/>
-  * Javadoc <https://www.oracle.com/java/technologies/javase/javadoc-tool.html>
-  * perldoc <https://metacpan.org/dist/Pod-Perldoc/view/perldoc.pod>
-  * pydoc <https://docs.python.org/3/library/pydoc.html>
-    * Docstring <https://www.python.org/dev/peps/pep-0257/>
-  * godoc <https://pkg.go.dev/golang.org/x/tools/cmd/godoc>
-  * rustdoc <https://doc.rust-lang.org/rustdoc/>
-  * RDoc <https://ruby.github.io/rdoc/>
+* GNU Make <https://www.gnu.org/software/make/>
+* Gradle <https://gradle.org/>
+* Maven <https://maven.apache.org/>
+* Task <https://taskfile.dev/>
+* CMake <https://cmake.org/>
+* Meson <https://mesonbuild.com/>
+* Rake <https://ruby.github.io/rake/>
 
 ## Test and coverage tools
 
