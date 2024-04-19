@@ -128,6 +128,7 @@
 * Azure Key Vault <https://azure.microsoft.com/en-us/services/key-vault/>
 * AWS KMS <https://aws.amazon.com/kms/>
 * AWS Secrets Manager <https://aws.amazon.com/secrets-manager/>
+* pass <https://www.passwordstore.org/> - the standard unix password manager
 
 ## Email security
 

@@ -197,7 +197,6 @@
 * DNS <https://en.wikipedia.org/wiki/Domain_Name_System>
   * mDNS <https://en.wikipedia.org/wiki/Multicast_DNS>
   * IANA WHOIS Service <https://www.iana.org/whois>
-  * Amazon Route53 <https://aws.amazon.com/route53/>
   * BIND (dnsutils) <https://www.isc.org/bind/>
     * dig <https://linux.die.net/man/1/dig>
     * nslookup <https://linux.die.net/man/1/nslookup>
@@ -209,15 +208,19 @@
   * Quoted-printable <https://en.wikipedia.org/wiki/Quoted-printable>
   * SMTP <https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol>
   * Postfix <https://www.postfix.org/>
-  * Twilio SendGrid <https://www.twilio.com/sendgrid/email-api>
-  * Amazon SES <https://aws.amazon.com/ses/>
   * mail command <https://linux.die.net/man/1/mail>
+  * Email::Sender::Simple <https://metacpan.org/pod/Email::Sender::Simple>
   * charm_Pop <https://github.com/charmbracelet/pop>
+* Advanced
   * IMAP <https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol>
   * POP <https://en.wikipedia.org/wiki/Post_Office_Protocol>
   * Cyrus IMAP <https://www.cyrusimap.org/> (reference)
   * Dovecot <https://www.dovecot.org/> (reference)
   * listmonk <https://listmonk.app/> - Self-hosted newsletter and mailing list manager
+* PaaS
+  * Amazon Route53 <https://aws.amazon.com/route53/>
+  * Amazon SES <https://aws.amazon.com/ses/>
+  * Twilio SendGrid <https://www.twilio.com/sendgrid/email-api>
 
 ## Kubernetes
 
