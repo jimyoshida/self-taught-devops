@@ -70,22 +70,23 @@
 * Python
   * FastAPI <https://fastapi.tiangolo.com/>
   * Flask <https://palletsprojects.com/p/flask/>
-  * Django <https://www.djangoproject.com/> (ref)
-* Ruby
-  * Sinatra <https://sinatrarb.com/>
-  * Ruby on Rails <https://rubyonrails.org/> (ref)
 * Javascript/Typescript
   * Express.js <https://expressjs.com/>
   * Next.js <https://nextjs.org/>
   * Nuxt.js <https://nuxtjs.org/>
-  * Angular <https://angular.io/> (ref)
-  * Nest <https://nestjs.com/> (ref)
+  * Nest <https://nestjs.com/>
+  * koa <https://koajs.com/>
+  * Angular <https://angular.io/> (reference)
 * Go
   * Gorilla web toolkit <https://www.gorillatoolkit.org/>
   * Gin Web Framework <https://gin-gonic.com/>
   * Echo <https://echo.labstack.com/>
+* Ruby
+  * Sinatra <https://sinatrarb.com/>
 * Java
-  * Spring Framework <https://spring.io/projects/spring-framework/>
+  * Spark <https://sparkjava.com/>
+  * Javalin <https://javalin.io/about>
+  * Spring boot <https://spring.io/projects/spring-boot>
 * ASP.NET <https://dotnet.microsoft.com/en-us/apps/aspnet>
   * Blazor <https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor>
 

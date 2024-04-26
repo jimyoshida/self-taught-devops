@@ -51,6 +51,9 @@
 * method <https://en.wikipedia.org/wiki/Method_(computer_programming)>
 * duck typing <https://en.wikipedia.org/wiki/Duck_typing>
 * covariance and contravariance <https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)>
+* Frameworks for non-OO languages
+  * Perl Moo <https://metacpan.org/pod/Moo>
+  * Python dataclasses <https://docs.python.org/3/library/dataclasses.html>
 
 ## Shell and terminal
 
@@ -430,12 +433,11 @@
 ## Template tools
 
 * gomplate <https://gomplate.ca/>
-  * go template <https://pkg.go.dev/text/template>
+* Go template <https://pkg.go.dev/text/template>
 * mustache <https://mustache.github.io/> / mustache.js
 * Jinja <https://www.palletsprojects.com/p/jinja/>
 * Jsonnet <https://jsonnet.org/>
-* ERB <https://github.com/ruby/erb>
-* Template Toolkit <http://www.tt2.org/>
+* Perl Text::Template <https://metacpan.org/pod/Text::Template>
 * envsubst in gettext <https://www.gnu.org/software/gettext/>
 
 ## CLI/TUI development
