@@ -57,12 +57,15 @@
 
 ## Shell and terminal
 
-* Shells
-  * bash <https://www.gnu.org/software/bash/>
-    * line editing <https://www.gnu.org/software/bash/manual/html_node/Command-Line-Editing.html>
-    * history <https://www.gnu.org/software/bash/manual/html_node/Using-History-Interactively.html>
+* Bash <https://www.gnu.org/software/bash/>
+  * line editing <https://www.gnu.org/software/bash/manual/html_node/Command-Line-Editing.html>
+  * history <https://www.gnu.org/software/bash/manual/html_node/Using-History-Interactively.html>
+  * shell expansions <https://www.gnu.org/software/bash/manual/html_node/Shell-Expansions.html>
+  * pipelines <https://www.gnu.org/software/bash/manual/html_node/Pipelines.html>
+  * special variables <https://www.gnu.org/software/bash/manual/html_node/Variable-Index.html>
+* Other Shells
   * zsh <https://www.zsh.org/>
-  * oh-my-zsh <https://ohmyz.sh/>
+    * oh-my-zsh <https://ohmyz.sh/>
   * fish-shell <https://fishshell.com/>
   * PowerShell <https://docs.microsoft.com/en-us/powershell/>
   * nushell <https://www.nushell.sh/>
@@ -88,7 +91,6 @@
   * Nerd Fonts <https://www.nerdfonts.com/>
 * Search tools
   * findutils <https://www.gnu.org/software/findutils/>
-    * xargs
   * fzf <https://github.com/junegunn/fzf>
   * fd <https://github.com/sharkdp/fd>
   * grep <https://www.gnu.org/software/grep/>
@@ -108,13 +110,12 @@
 * ASCII <https://en.wikipedia.org/wiki/ASCII>
 * Unicode <https://home.unicode.org/>
   * Unicode Emoji <https://home.unicode.org/emoji/>
+  * ICU <https://icu.unicode.org/> - a mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support
 * Regex <https://en.wikipedia.org/wiki/Regular_expression>
   * PCRE <https://en.wikipedia.org/wiki/Perl_Compatible_Regular_Expressions>
 * GNU sed <https://www.gnu.org/software/sed/>; <https://sed.sourceforge.io/>
 * sd <https://github.com/chmln/sd> - sed alternative
 * GNU awk <https://www.gnu.org/software/gawk/>
-* Perl <https://www.perl.org/>
-  * Strawberry Perl <https://strawberryperl.com/>
 * Diff tools
   * diffutils <https://www.gnu.org/software/diffutils/>
   * colordiff <https://www.colordiff.org/>
@@ -123,6 +124,7 @@
   * CSV <https://en.wikipedia.org/wiki/Comma-separated_values>
   * Text::CSV <https://metacpan.org/pod/Text::CSV>
   * Python csv <https://docs.python.org/3/library/csv.html>
+  * Python tabulate <https://github.com/astanin/python-tabulate>
   * csvkit <https://csvkit.readthedocs.io/en/latest/>
   * xsv <https://github.com/BurntSushi/xsv>
   * qsv <https://github.com/jqnatividad/qsv>
@@ -266,6 +268,16 @@
   * Jsonnet <https://jsonnet.org/>
   * CUE <https://cuelang.org/>
 
+## Template tools
+
+* gomplate <https://gomplate.ca/>
+* Go template <https://pkg.go.dev/text/template>
+* mustache <https://mustache.github.io/> / mustache.js
+* Jinja <https://www.palletsprojects.com/p/jinja/>
+* Jsonnet <https://jsonnet.org/>
+* Perl Text::Template <https://metacpan.org/pod/Text::Template>
+* envsubst in gettext <https://www.gnu.org/software/gettext/>
+
 ## Concurrent programming
 
 * coroutine <https://en.wikipedia.org/wiki/Coroutine>
@@ -279,166 +291,35 @@
 * Guarded Command Language (GCL) <https://en.wikipedia.org/wiki/Guarded_Command_Language>
 * communicating sequential processes <https://en.wikipedia.org/wiki/Communicating_sequential_processes>
 
-## Functional programming
-
-* functional programming <https://en.wikipedia.org/wiki/Functional_programming>
-* referential transparency <https://en.wikipedia.org/wiki/Referential_transparency>
-* lambda calculus <https://en.wikipedia.org/wiki/Lambda_calculus>
-* first-class function <https://en.wikipedia.org/wiki/First-class_function>
-* closure <https://en.wikipedia.org/wiki/Closure_(computer_programming)>
-* side-effect <https://en.wikipedia.org/wiki/Side_effect_(computer_science)>
-* monad <https://en.wikipedia.org/wiki/Monad_(functional_programming)>
-* currying <https://en.wikipedia.org/wiki/Currying>
-
 ## Primary programming languages (for devops)
 
-* Perl <https://www.perl.org/>
-  * context
-  * scalar type
-    * reference
-  * quote-like operator
-    * pattern matching operator
-    * backtick operator
-  * autovivification
-* Python <https://www.python.org/>
-  * indentation
-  * f-string
-  * generator
-  * GIL <https://en.wikipedia.org/wiki/Global_interpreter_lock>
 * Go <https://go.dev/>
   * goroutine
   * channel
   * go function
   * static binary executable
   * go module
+* Python <https://www.python.org/>
+  * indentation
+  * f-string
+  * generator
+  * GIL <https://en.wikipedia.org/wiki/Global_interpreter_lock>
+* Perl <https://www.perl.org/>
+  * special variables <https://metacpan.org/dist/perl/view/pod/perlvar.pod>
+  * context
+  * scalar type
+    * reference
+  * quote-like operators
+    * pattern matching operator
+    * backtick operator
+  * i/o operators
+    * diamond oprator
+  * autovivification
 * Javascript/ECMAScript <https://www.ecma-international.org/publications/standards/Ecma-262.htm>
   * prototypal inheritance <https://en.wikipedia.org/wiki/Prototype-based_programming>
   * event-driven
   * spread and rest operators
   * generator
-
-## Other programming languages
-
-* Typescript <https://www.typescriptlang.org/index.html>
-  * type inference
-  * interface
-  * union and intersection
-  * type guard
-  * decorator
-  * optional and default parameters
-  * type arias
-  * type assertion
-  * type declaration file
-* Rust <https://www.rust-lang.org/>
-  * ownership and borrowing
-  * interior mutability
-  * iterator and closure
-  * trait-based generics
-  * lifetime
-  * pattern matching
-  * pinning
-* C# <https://learn.microsoft.com/en-us/dotnet/csharp/>
-  * query expression (LINQ)
-  * delegate and event
-  * lambda expression
-* F# <https://fsharp.org/> <https://learn.microsoft.com/en-us/dotnet/fsharp/>
-  * immutable data structure
-  * type inference
-  * pattern matching
-  * discriminated union
-  * active pattern
-  * computation expression
-* Ruby <https://www.ruby-lang.org/en/>
-* Java <https://docs.oracle.com/en/java/index.html>
-* Kotlin <https://kotlinlang.org/>
-* Scala (for Gatling) <https://www.scala-lang.org/>
-* Groovy (for Jenkins) <http://groovy-lang.org/>
-* Lua (for NGINX) <https://www.lua.org/>
-* Haskell <https://www.haskell.org/>
-* Elm <https://elm-lang.org/>
-* C <https://www.open-std.org/jtc1/sc22/wg14/>
-* zx <https://google.github.io/zx/>
-
-## Program execution and toolkits
-
-* Compiler <https://en.wikipedia.org/wiki/Compiler>
-  * gcc <https://www.gnu.org/software/gcc/>
-  * LLVM Compiler Infrastructure <https://llvm.org/>
-    * Clang <https://clang.llvm.org/>
-  * Cross compiler <https://en.wikipedia.org/wiki/Cross_compiler>
-  * MinGW-w64 <https://www.mingw-w64.org/>
-* Linker <https://en.wikipedia.org/wiki/Linker_(computing)>
-  * LLD <https://lld.llvm.org/> - The LLVM Linker
-  * mold <https://github.com/rui314/mold/>
-* Runtime system <https://en.wikipedia.org/wiki/Runtime_system>
-* Javascript
-  * Node.js <https://nodejs.org/>
-    * PM2 <https://pm2.keymetrics.io/>
-  * Deno <https://deno.land/>
-  * Bun <https://bun.sh/>
-* Python
-  * CPython <https://github.com/python/cpython>
-  * pypy <https://www.pypy.org/>
-* Go
-  * go build <https://pkg.go.dev/cmd/go>
-  * GopherJS <https://github.com/gopherjs/gopherjs> - A compiler from Go to JavaScript
-* C core library
-  * glibc <https://sourceware.org/glibc/>; <https://www.gnu.org/software/libc/>
-* Java
-  * OpenJDK <https://openjdk.org/>
-  * Eclipse Temurin <https://adoptium.net/temurin/>
-* .NET <https://dotnet.microsoft.com/en-us/>
-  * CLR <https://learn.microsoft.com/en-us/dotnet/standard/clr>
-
-## Build automation tools
-
-* GNU Make <https://www.gnu.org/software/make/>
-* Gradle <https://gradle.org/>
-* Maven <https://maven.apache.org/>
-* Task <https://taskfile.dev/>
-* CMake <https://cmake.org/>
-* Meson <https://mesonbuild.com/>
-* Rake <https://ruby.github.io/rake/>
-
-## Test and coverage tools
-
-* Python
-  * PyUnit <https://wiki.python.org/moin/PyUnit>
-  * PyTest <https://docs.pytest.org/en/latest/>
-  * Behave <https://behave.readthedocs.io/en/latest/>
-* Javascript
-  * Vitest <https://vitest.dev>
-  * Jest <https://jestjs.io/>
-  * Mocha <https://mochajs.org/>
-  * Chai <https://www.chaijs.com/>
-  * Jasmine <https://jasmine.github.io/>
-  * Istanbul <https://istanbul.js.org/>
-  * JS Testing Best Practices <https://github.com/goldbergyoni/javascript-testing-best-practices>
-* Go
-  * go testing <https://pkg.go.dev/testing>
-  * go cover <https://pkg.go.dev/cmd/cover>
-  * gocheck <https://labix.org/gocheck>
-  * ginkgo <https://onsi.github.io/ginkgo/>
-  * gomega <https://onsi.github.io/gomega/>
-* Others
-  * OpenAPI spec <https://www.openapis.org/>
-  * Cucumber <https://cucumber.io/>
-    * Gherkin Syntax <https://cucumber.io/docs/gherkin/>
-  * RSpec <https://rspec.info/>
-  * JUnit <https://junit.org/junit5/>
-  * xUnit.net <https://xunit.net/>
-  * cobertura <https://cobertura.github.io/cobertura/>
-  * LCOV <https://github.com/linux-test-project/lcov>
-
-## Template tools
-
-* gomplate <https://gomplate.ca/>
-* Go template <https://pkg.go.dev/text/template>
-* mustache <https://mustache.github.io/> / mustache.js
-* Jinja <https://www.palletsprojects.com/p/jinja/>
-* Jsonnet <https://jsonnet.org/>
-* Perl Text::Template <https://metacpan.org/pod/Text::Template>
-* envsubst in gettext <https://www.gnu.org/software/gettext/>
 
 ## CLI/TUI development
 
@@ -483,6 +364,138 @@
   * color <https://github.com/fatih/color>
   * cli <https://cli.urfave.org/>
   * viper <https://github.com/spf13/viper>
+
+## Program execution and toolkits
+
+* Compiler <https://en.wikipedia.org/wiki/Compiler>
+  * gcc <https://www.gnu.org/software/gcc/>
+  * LLVM Compiler Infrastructure <https://llvm.org/>
+    * Clang <https://clang.llvm.org/>
+  * Cross compiler <https://en.wikipedia.org/wiki/Cross_compiler>
+  * MinGW-w64 <https://www.mingw-w64.org/>
+* Linker <https://en.wikipedia.org/wiki/Linker_(computing)>
+  * LLD <https://lld.llvm.org/> - The LLVM Linker
+  * mold <https://github.com/rui314/mold/>
+* Runtime system <https://en.wikipedia.org/wiki/Runtime_system>
+* Perl <https://www.perl.org/>
+  * Strawberry Perl <https://strawberryperl.com/>
+* Javascript
+  * Node.js <https://nodejs.org/>
+    * PM2 <https://pm2.keymetrics.io/>
+  * Deno <https://deno.land/>
+  * Bun <https://bun.sh/>
+* Python
+  * CPython <https://github.com/python/cpython>
+  * pypy <https://www.pypy.org/>
+* Go
+  * go build <https://pkg.go.dev/cmd/go>
+  * GopherJS <https://github.com/gopherjs/gopherjs> - A compiler from Go to JavaScript
+* C core library
+  * glibc <https://sourceware.org/glibc/>; <https://www.gnu.org/software/libc/>
+* Java
+  * OpenJDK <https://openjdk.org/>
+  * Eclipse Temurin <https://adoptium.net/temurin/>
+* .NET <https://dotnet.microsoft.com/en-us/>
+  * CLR <https://learn.microsoft.com/en-us/dotnet/standard/clr>
+
+## Build automation tools
+
+* GNU Make <https://www.gnu.org/software/make/>
+* Gradle <https://gradle.org/>
+* Maven <https://maven.apache.org/>
+* Task <https://taskfile.dev/>
+* CMake <https://cmake.org/>
+* Meson <https://mesonbuild.com/>
+* Rake <https://ruby.github.io/rake/>
+
+## Unit test and coverage tools
+
+* Python
+  * python unittest <https://docs.python.org/3/library/unittest.html>
+  * PyTest <https://docs.pytest.org/en/latest/>
+* Go
+  * go testing <https://pkg.go.dev/testing>
+  * go cover <https://pkg.go.dev/cmd/cover>
+  * gocheck <https://labix.org/gocheck>
+  * Ginkgo <https://onsi.github.io/ginkgo/> (also support BDD)
+    * Gomega <https://onsi.github.io/gomega/>
+* Javascript
+  * Mocha <https://mochajs.org/> (also support BDD)
+    * Chai <https://www.chaijs.com/>
+  * Istanbul <https://istanbul.js.org/>
+  * JS Testing Best Practices <https://github.com/goldbergyoni/javascript-testing-best-practices>
+* Others
+  * JUnit <https://junit.org/junit5/>
+  * xUnit.net <https://xunit.net/>
+  * cobertura <https://cobertura.github.io/cobertura/>
+  * LCOV <https://github.com/linux-test-project/lcov>
+
+## Language-specific documentation tools
+
+* apiDoc <http://apidocjs.com/>
+* JSDoc <https://jsdoc.app/>
+* perldoc <https://metacpan.org/dist/Pod-Perldoc/view/perldoc.pod>
+  * Pod <https://metacpan.org/pod/perlpod>
+* pydoc <https://docs.python.org/3/library/pydoc.html>
+  * Docstring <https://www.python.org/dev/peps/pep-0257/>
+* godoc <https://pkg.go.dev/golang.org/x/tools/cmd/godoc>
+* rustdoc <https://doc.rust-lang.org/rustdoc/>
+* RDoc <https://ruby.github.io/rdoc/>
+* Javadoc <https://www.oracle.com/java/technologies/javase/javadoc-tool.html>
+
+## Functional programming (advanced)
+
+* functional programming <https://en.wikipedia.org/wiki/Functional_programming>
+* referential transparency <https://en.wikipedia.org/wiki/Referential_transparency>
+* lambda calculus <https://en.wikipedia.org/wiki/Lambda_calculus>
+* first-class function <https://en.wikipedia.org/wiki/First-class_function>
+* closure <https://en.wikipedia.org/wiki/Closure_(computer_programming)>
+* side-effect <https://en.wikipedia.org/wiki/Side_effect_(computer_science)>
+* monad <https://en.wikipedia.org/wiki/Monad_(functional_programming)>
+* currying <https://en.wikipedia.org/wiki/Currying>
+
+## Other programming languages (advanced)
+
+* Typescript <https://www.typescriptlang.org/index.html>
+  * type inference
+  * interface
+  * union and intersection
+  * type guard
+  * decorator
+  * optional and default parameters
+  * type arias
+  * type assertion
+  * type declaration file
+* Rust <https://www.rust-lang.org/>
+  * ownership and borrowing
+  * interior mutability
+  * iterator and closure
+  * trait-based generics
+  * lifetime
+  * pattern matching
+  * pinning
+* C# <https://learn.microsoft.com/en-us/dotnet/csharp/>
+  * query expression (LINQ)
+  * delegate and event
+  * lambda expression
+* F# <https://fsharp.org/> <https://learn.microsoft.com/en-us/dotnet/fsharp/>
+  * immutable data structure
+  * type inference
+  * pattern matching
+  * discriminated union
+  * active pattern
+  * computation expression
+* Ruby <https://www.ruby-lang.org/en/>
+* Java <https://docs.oracle.com/en/java/index.html>
+* Scala (for Gatling) <https://www.scala-lang.org/>
+* Groovy (for Jenkins/Gradle) <http://groovy-lang.org/>
+* Kotlin (for Gradle) <https://kotlinlang.org/>
+* Lua (for NGINX/Neovim) <https://www.lua.org/>
+* Haskell <https://www.haskell.org/>
+* Elm <https://elm-lang.org/>
+* C <https://www.open-std.org/jtc1/sc22/wg14/>
+* Emacs Lisp <https://www.gnu.org/software/emacs/manual/html_node/elisp/>
+* zx <https://google.github.io/zx/>
 
 ## Programming language tools (advanced)
 

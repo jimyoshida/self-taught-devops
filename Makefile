@@ -1,4 +1,4 @@
-TITLE := $(shell sed -Enf tools/get-title.sed README.md)
+TITLE := DevOps learning items $(shell date +%Y%m%d)
 TITLEF := $(shell echo "$(TITLE)" | tr ' ' '_')
 CHAPTERS := $(shell ls ch*/README.md)
 PDFTARGET := out/$(TITLEF).pdf

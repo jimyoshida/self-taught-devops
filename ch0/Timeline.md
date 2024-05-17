@@ -1,4 +1,4 @@
-# Class 0: Agile and Open Source
+# Class 0: Business
 
 _work in progress._
 

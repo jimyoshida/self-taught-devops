@@ -59,36 +59,6 @@
 * Neo4j <https://neo4j.com/>
 * Amazon Neptune <https://aws.amazon.com/neptune/>
 
-## Data visualization
-
-* matplotlib <https://matplotlib.org/>
-  * seaborn <https://seaborn.pydata.org/>
-* Vega <https://vega.github.io/vega/>
-* Vega-Lite <https://vega.github.io/vega-lite/>
-* D3 <https://d3js.org/>
-
-## Statistics fundamentals
-
-* Probability theory <https://en.wikipedia.org/wiki/Probability_theory>
-* Pearson correlation coefficient <https://en.wikipedia.org/wiki/Pearson_correlation_coefficient>
-* Bayes' theorem <https://en.wikipedia.org/wiki/Bayes%27_theorem>
-* Regression analysis <https://en.wikipedia.org/wiki/Regression_analysis>
-* Confusion matrix <https://en.wikipedia.org/wiki/Confusion_matrix>
-  * ROC curve <https://en.wikipedia.org/wiki/Receiver_operating_characteristic>
-* Statistical hypothesis testing <https://en.wikipedia.org/wiki/Statistical_hypothesis_testing>
-* Confounding <https://en.wikipedia.org/wiki/Confounding>
-* Experimental design <https://en.wikipedia.org/wiki/Design_of_experiments>
-* Cross-validation <https://en.wikipedia.org/wiki/Cross-validation_(statistics)>
-
-## Statistics tools
-
-* Pandas <https://pandas.pydata.org/>
-* NumPy <https://numpy.org/>
-* SciPy <https://scipy.org/>
-* R project <https://www.r-project.org/>
-* RStudio <https://posit.co/download/rstudio-desktop/>
-* JASP <https://jasp-stats.org/>
-
 ---
 
 ## Machine learning
@@ -167,6 +137,7 @@
 * ULMFiT <https://arxiv.org/abs/1801.06146>
 * ELMo <https://arxiv.org/abs/1802.05365>
 * Transformer <https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)>
+* Kuromoji <https://www.atilika.org/> - an open source Japanese morphological analyzer written in Java
 
 ## Pretrained LLM
 

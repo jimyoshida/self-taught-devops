@@ -132,6 +132,7 @@
 
 ## Email security
 
+* STARTTLS <https://en.wikipedia.org/wiki/Opportunistic_TLS>
 * SASL (Simple Authentication and Security Layer) <https://en.wikipedia.org/wiki/Simple_Authentication_and_Security_Layer>
 * SPF (Sender Policy Framework) <https://en.wikipedia.org/wiki/Sender_Policy_Framework>
 * DKIM (DomainKeys Identified Mail) <https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail> <http://dkim.org/>
@@ -182,7 +183,7 @@
   * CVSS (Common Vulnerability Scoring System) <https://nvd.nist.gov/vuln-metrics/cvss>
 * CVE (Common Vulnerabilities and Exposures) <https://cve.mitre.org/cve/>
 * OSV (Open Source Vulnerability) <https://osv.dev/>
-* SSVC (Stakeholder-Specific Vulnerability Categorization) https://www.cisa.gov/stakeholder-specific-vulnerability-categorization-ssvc
+* SSVC (Stakeholder-Specific Vulnerability Categorization) <https://www.cisa.gov/stakeholder-specific-vulnerability-categorization-ssvc>
 * KEV (Known Exploited Vulnerabilities) <https://www.cisa.gov/known-exploited-vulnerabilities-catalog>
 * Major malicious exploit types
   * XSS (Cross-site scripting) <https://en.wikipedia.org/wiki/Cross-site_scripting>
