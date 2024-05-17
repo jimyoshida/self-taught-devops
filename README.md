@@ -13,9 +13,9 @@ The contents consist of the following 6 classes.
 
 | Class | Contents                               |
 | ----- | -------------------------------------- |
-| 0     | [Agile and Open Source](ch0/README.md) |
+| 0     | [Business](ch0/README.md)              |
 | 1     | [Programming](ch1/README.md)           |
-| 2     | [OS and Network](ch2/README.md)        |
+| 2     | [System Administration](ch2/README.md) |
 | 3     | [Web and Cloud Native](ch3/README.md)  |
 | 4     | [Security and Privacy](ch4/README.md)  |
 | 5     | [Data and AI](ch5/README.md)           |
@@ -24,7 +24,7 @@ The contents consist of the following 6 classes.
 
 ## Motivations
 
-- (To be descrived)
+- (To be described)
 
 ## Backlogs
 

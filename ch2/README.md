@@ -1,4 +1,4 @@
-# Class 2: OS and Network
+# Class 2: System Administration
 
 [Show timeline](./Timeline.md)
 
@@ -68,14 +68,13 @@
 * kvm <https://www.linux-kvm.org/page/Main_Page>
 * eBPF (Extended Berkeley Packet Filter) <https://ebpf.io/>
 
-## System administration tools
+## Linux administration tools
 
 * util-linux <https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git/>
   * lsblk <https://man7.org/linux/man-pages/man8/lsblk.8.html>
   * lsns <https://man7.org/linux/man-pages/man8/lsns.8.html>
   * swapon <https://man7.org/linux/man-pages/man8/swapon.8.html>
 * Vixie Cron <https://github.com/vixie/cron>
-* logger <https://man7.org/linux/man-pages/man1/logger.1.html>
 * logrotate <https://github.com/logrotate/logrotate>
 * procps <https://gitlab.com/procps-ng/procps>
   * ps <https://man7.org/linux/man-pages/man1/ps.1.html>
@@ -86,6 +85,7 @@
   * pstree <https://man7.org/linux/man-pages/man1/pstree.1.html>
   * killall <https://man7.org/linux/man-pages/man1/killall.1.html>
 * lsof <https://lsof.readthedocs.io/en/latest/>
+* file (command) <https://www.darwinsys.com/file/>
 * sudo <https://www.sudo.ws/>
 * shadow-utils <https://github.com/shadow-maint/shadow>
   * useradd <https://man7.org/linux/man-pages/man8/useradd.8.html>
@@ -158,6 +158,7 @@
 * cloud-init <https://cloud-init.io/>
 * Hashicorp Terraform <https://www.terraform.io/>
   * tf.libsonnet <https://docs.tflibsonnet.com/>
+  * terraform-docs <https://terraform-docs.io/>
   * Terraformer <https://github.com/GoogleCloudPlatform/terraformer>
   * Atrantis (reference) <https://www.runatlantis.io/>
 * Serverless Framework <https://serverless.com/>
@@ -205,18 +206,24 @@
   * Avahi <https://www.avahi.org/>
   * Bonjour <https://developer.apple.com/bonjour/>
 * Email <https://en.wikipedia.org/wiki/Email>
-  * Quoted-printable <https://en.wikipedia.org/wiki/Quoted-printable>
+  * mailutils <https://mailutils.org/>
+    * mail command <https://mailutils.org/manual/html_section/mail.html>
+    * Unix Mbox and Maildir formats
+  * Quoted-printable encoding <https://en.wikipedia.org/wiki/Quoted-printable>
   * SMTP <https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol>
   * Postfix <https://www.postfix.org/>
-  * mail command <https://linux.die.net/man/1/mail>
   * Email::Sender::Simple <https://metacpan.org/pod/Email::Sender::Simple>
-  * charm_Pop <https://github.com/charmbracelet/pop>
-* Advanced
-  * IMAP <https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol>
-  * POP <https://en.wikipedia.org/wiki/Post_Office_Protocol>
-  * Cyrus IMAP <https://www.cyrusimap.org/> (reference)
-  * Dovecot <https://www.dovecot.org/> (reference)
+  * charm_Pop <https://github.com/charmbracelet/pop> - Send emails from your terminal
   * listmonk <https://listmonk.app/> - Self-hosted newsletter and mailing list manager
+  * Email receiving and readers
+    * IMAP <https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol>
+    * POP <https://en.wikipedia.org/wiki/Post_Office_Protocol>
+    * Cyrus IMAP <https://www.cyrusimap.org/> (reference)
+    * Dovecot <https://www.dovecot.org/> (reference)
+    * Thunderbird <https://www.thunderbird.net/en-US/>
+    * Sylpheed <https://sylpheed.sraoss.jp/en/>
+    * Mutt <http://www.mutt.org/>
+    * Gnus <https://www.gnus.org/>
 * PaaS
   * Amazon Route53 <https://aws.amazon.com/route53/>
   * Amazon SES <https://aws.amazon.com/ses/>
@@ -299,15 +306,35 @@
   * OpenTelemetry Operator <https://opentelemetry.io/docs/kubernetes/operator/>
   * Elastic Cloud on Kubernetes (ECK) <https://www.elastic.co/elastic-cloud-kubernetes>
 
+## Continuous integration and delivery
+
+* Jenkins <https://www.jenkins.io/>
+  * Blue Ocean for Jenkins Pipelines <https://www.jenkins.io/projects/blueocean/>
+  * Python Jenkins <https://opendev.org/jjb/python-jenkins>
+* Gitlab CI/CD <https://docs.gitlab.com/ee/ci/>
+* Concourse CI <https://concourse-ci.org/>
+* Azure Pipelines <https://learn.microsoft.com/en-us/azure/devops/pipelines/>
+* GitOps
+  * ArgoCD <https://argo-cd.readthedocs.io/>
+  * FluxCD <https://fluxcd.io/>
+* Cloud native application delivery
+  * Open Application Model <https://oam.dev/>
+  * KubeVela <https://kubevela.io/>
+  * Flagger <https://flagger.app/>
+
 ## System observation tools
 
 * Metrics
   * Promethus <https://prometheus.io/>
     * PromQL <https://prometheus.io/docs/prometheus/latest/querying/basics/>
+    * promtool <https://prometheus.io/docs/prometheus/latest/command-line/promtool/>
     * node-exporter <https://prometheus.io/docs/guides/node-exporter/>
     * blackbox-exporter <https://github.com/prometheus/blackbox_exporter>
+    * Alertmanager <https://prometheus.io/docs/alerting/latest/alertmanager/>
+      * amtool <https://github.com/prometheus/alertmanager/tree/main?tab=readme-ov-file#amtool>
   * Grafana Mimir <https://grafana.com/oss/mimir/>
   * InfluxDB <https://www.influxdata.com/products/influxdb-overview/>
+    * influx cli <https://docs.influxdata.com/influxdb/cloud/reference/cli/influx/>
   * Telegraf <https://www.influxdata.com/time-series-platform/telegraf/>
   * atop <https://github.com/Atoptool/atop#atop>
   * nmon <https://nmon.sourceforge.net/pmwiki.php>
@@ -317,39 +344,34 @@
 * Logs
   * Grafana Loki <https://grafana.com/oss/loki/>
     * LogQL <https://grafana.com/docs/loki/latest/logql/>
+    * LogCLI <https://grafana.com/docs/loki/latest/query/logcli/>
     * promtail <https://grafana.com/docs/loki/latest/clients/promtail/>
   * Logstash <https://www.elastic.co/logstash>
   * Fluentd <https://www.fluentd.org/>
   * Fluent Bit <https://fluentbit.io/>
   * Syslog <https://en.wikipedia.org/wiki/Syslog>
+    * logger <https://man7.org/linux/man-pages/man1/logger.1.html>
   * systemd-journald <https://man7.org/linux/man-pages/man8/systemd-journald.service.8.html>
     * journalctl <https://man7.org/linux/man-pages/man1/journalctl.1.html>
 * Traces
   * Grafana Tempo <https://grafana.com/oss/tempo/>
   * Jaeger <https://www.jaegertracing.io/>
   * OpenTelemetry <https://opentelemetry.io/>
-
-## Universal SRE solutions
-
-* Site Reliability Engineering <https://landing.google.com/sre/>
-* Service Level Indicators (SLIs) and Service Level Objectives (SLOs)
-* Dickerson’s Hierarchy of Service Reliability <https://sre.google/sre-book/part-III-practices/>
-* The Four Golden Signals <https://sre.google/sre-book/monitoring-distributed-systems/>
-  * Latency, Traffic, Errors, Saturation
-* Grafana <https://grafana.com/>
-  * Grafonnet <https://grafana.github.io/grafonnet-lib/>
-* Kibana <https://www.elastic.co/kibana>
-  * Kibana Query Language <https://www.elastic.co/guide/en/kibana/current/kuery-query.html>
-* ElasticSearch <https://www.elastic.co/elasticsearch/>
-  * Elastic Common Schema <https://www.elastic.co/guide/en/ecs/current/index.html>
-* Beats <https://www.elastic.co/beats/>
-* Azure Monitor <https://docs.microsoft.com/en-us/azure/azure-monitor/overview>
-  * App Insights <https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview>
-  * Kusto Query Language <https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/>
-* AWS CloudWatch <https://aws.amazon.com/cloudwatch/>
-* Datadog <https://www.datadoghq.com/>
-* New Relic <https://newrelic.com>
-* Micrometer <https://micrometer.io/>
+* Universal
+  * Grafana <https://grafana.com/>
+    * Grafonnet <https://grafana.github.io/grafonnet-lib/>
+  * Kibana <https://www.elastic.co/kibana>
+    * Kibana Query Language <https://www.elastic.co/guide/en/kibana/current/kuery-query.html>
+  * ElasticSearch <https://www.elastic.co/elasticsearch/>
+    * Elastic Common Schema <https://www.elastic.co/guide/en/ecs/current/index.html>
+  * Beats <https://www.elastic.co/beats/>
+  * Azure Monitor <https://docs.microsoft.com/en-us/azure/azure-monitor/overview>
+    * App Insights <https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview>
+    * Kusto Query Language <https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/>
+  * AWS CloudWatch <https://aws.amazon.com/cloudwatch/>
+  * Datadog <https://www.datadoghq.com/>
+  * New Relic <https://newrelic.com>
+  * Micrometer <https://micrometer.io/>
 
 ## Stress test and chaos engineering
 
@@ -400,12 +422,28 @@
     * vsftpd <https://security.appspot.com/vsftpd.html>
   * SFTP <https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol>
 
+## Office document processing
+
+* Formats
+  * PDF <https://en.wikipedia.org/wiki/PDF>
+  * Office Open XML <https://en.wikipedia.org/wiki/Office_Open_XML>
+  * OpenDocument <https://en.wikipedia.org/wiki/OpenDocument>
+* Tools and libraries
+  * Ghostscript <https://www.ghostscript.com/>
+  * qpdf <https://qpdf.sourceforge.io/>
+  * pdftk <https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/>
+  * pdfcpu <https://pdfcpu.io/> - a Go PDF processor
+  * LibreOffice cli <https://www.libreoffice.org/>
+  * Excelize <https://xuri.me/excelize/> - a Go library for XLSX files
+  * xlsx2csv <https://github.com/dilshod/xlsx2csv>
+  * docx2txt <https://github.com/ankushshah89/python-docx2txt>
+  * pptx2md <https://github.com/ssine/pptx2md>
+
 ## Misc automation tools
 
 * Binary file processing
   * Base64 <https://en.wikipedia.org/wiki/Base64>
   * ELF format <https://en.wikipedia.org/wiki/Executable_and_Linkable_Format>
-  * file (command) <https://www.darwinsys.com/file/>
   * hexdump <https://man7.org/linux/man-pages/man1/hexdump.1.html>
   * xxd <https://github.com/ckormanyos/xxd>
   * fq <https://github.com/wader/fq>

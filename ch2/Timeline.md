@@ -1,4 +1,4 @@
-# Class 2: OS and Network
+# Class 2: System Administration
 
 ## Timeline
 

@@ -20,9 +20,14 @@
 * CLIs
   * cURL <https://curl.haxx.se/>
   * Wget <https://www.gnu.org/software/wget/>
-  * w3m <https://w3m.sourceforge.net/>
   * curlie <https://curlie.io/>
   * httpie <https://httpie.io/>
+* Browsers
+  * Chrome <https://www.google.com/chrome/>
+  * Chromium <https://www.chromium.org/Home/>
+  * Firefox <https://www.mozilla.org/en-US/firefox/>
+  * w3m <https://w3m.sourceforge.net/>
+  * EWW <https://www.gnu.org/software/emacs/manual/html_mono/eww.html>
 * Libraries
   * Perl LWP <https://metacpan.org/pod/LWP>
   * Python Requests <https://docs.python-requests.org/en/latest/>
@@ -34,11 +39,11 @@
   * CDN <https://en.wikipedia.org/wiki/Content_delivery_network>
   * Squid <http://www.squid-cache.org/>
 
-## Classic web application architecture
+## Web application architecture
 
 * CGI server
   * mod_cgi <https://httpd.apache.org/docs/current/mod/mod_cgi.html>
-  * Perl CGI <https://metacpan.org/pod/CGI>
+  * CGI.pm <https://metacpan.org/pod/CGI>
 * Java servlet container
   * Jakarta EE <https://jakarta.ee/>
   * Apache Tomcat <https://tomcat.apache.org/>
