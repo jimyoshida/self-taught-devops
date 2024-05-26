@@ -306,13 +306,14 @@
   * GIL <https://en.wikipedia.org/wiki/Global_interpreter_lock>
 * Perl <https://www.perl.org/>
   * special variables <https://metacpan.org/dist/perl/view/pod/perlvar.pod>
+  * built-in regex <https://metacpan.org/dist/perl/view/pod/perlre.pod>
   * context
   * scalar type
     * reference
-  * quote-like operators
+  * quote-like operators <https://metacpan.org/dist/perl/view/pod/perlop.pod>
     * pattern matching operator
     * backtick operator
-  * i/o operators
+  * i/o operators <https://metacpan.org/dist/perl/view/pod/perlop.pod>
     * diamond oprator
   * autovivification
 * Javascript/ECMAScript <https://www.ecma-international.org/publications/standards/Ecma-262.htm>
@@ -364,6 +365,8 @@
   * color <https://github.com/fatih/color>
   * cli <https://cli.urfave.org/>
   * viper <https://github.com/spf13/viper>
+* Ruby
+  * TTY <https://ttytoolkit.org/>
 
 ## Program execution and toolkits
 
@@ -372,31 +375,34 @@
   * LLVM Compiler Infrastructure <https://llvm.org/>
     * Clang <https://clang.llvm.org/>
   * Cross compiler <https://en.wikipedia.org/wiki/Cross_compiler>
-  * MinGW-w64 <https://www.mingw-w64.org/>
+    * MinGW-w64 <https://www.mingw-w64.org/>
+  * Golang
+    * go build <https://pkg.go.dev/cmd/go>
+    * GopherJS <https://github.com/gopherjs/gopherjs> - A compiler from Go to JavaScript
 * Linker <https://en.wikipedia.org/wiki/Linker_(computing)>
   * LLD <https://lld.llvm.org/> - The LLVM Linker
   * mold <https://github.com/rui314/mold/>
-* Runtime system <https://en.wikipedia.org/wiki/Runtime_system>
-* Perl <https://www.perl.org/>
-  * Strawberry Perl <https://strawberryperl.com/>
-* Javascript
-  * Node.js <https://nodejs.org/>
-    * PM2 <https://pm2.keymetrics.io/>
-  * Deno <https://deno.land/>
-  * Bun <https://bun.sh/>
-* Python
-  * CPython <https://github.com/python/cpython>
-  * pypy <https://www.pypy.org/>
-* Go
-  * go build <https://pkg.go.dev/cmd/go>
-  * GopherJS <https://github.com/gopherjs/gopherjs> - A compiler from Go to JavaScript
 * C core library
-  * glibc <https://sourceware.org/glibc/>; <https://www.gnu.org/software/libc/>
-* Java
-  * OpenJDK <https://openjdk.org/>
-  * Eclipse Temurin <https://adoptium.net/temurin/>
-* .NET <https://dotnet.microsoft.com/en-us/>
-  * CLR <https://learn.microsoft.com/en-us/dotnet/standard/clr>
+  * glibc <https://sourceware.org/glibc/>
+  * musl libc <https://musl.libc.org/>
+* Runtime system <https://en.wikipedia.org/wiki/Runtime_system>
+  * Javascript
+    * Node.js <https://nodejs.org/>
+      * PM2 <https://pm2.keymetrics.io/>
+    * Deno <https://deno.land/>
+    * Bun <https://bun.sh/>
+  * Python
+    * CPython (default)
+    * pypy <https://www.pypy.org/>
+  * Ruby
+    * Ruby MRI (default)
+    * JRuby <https://www.jruby.org/>
+    * PyCall <https://github.com/mrkn/pycall.rb> - Calling Python functions from the Ruby language
+  * Java
+    * OpenJDK <https://openjdk.org/>
+    * Eclipse Temurin <https://adoptium.net/temurin/>
+  * .NET <https://dotnet.microsoft.com/en-us/>
+    * CLR <https://learn.microsoft.com/en-us/dotnet/standard/clr>
 
 ## Build automation tools
 

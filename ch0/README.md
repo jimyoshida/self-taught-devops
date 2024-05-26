@@ -44,6 +44,14 @@
   * Change Failure Rate
   * Time to Restore Service
 * Toyota Production System <https://en.wikipedia.org/wiki/Toyota_Production_System>
+  * Kaizen: Continuous improvement through small, incremental changes.
+  * Just-in-Time (JIT): Producing and delivering parts and products only when needed, minimizing waste and inventory.
+  * Kanban: A pull-based system that controls the production and movement of items in a just-in-time production system.
+  * Jidoka: Automation with a human touch, where machines detect defects and allow workers to address quality issues.
+  * Heijunka: Leveling the production schedule to achieve a balanced, consistent workflow.
+  * Genchi Genbutsu: Going to the source to understand the actual situation.
+  * Andon: A visual management system that allows workers to signal problems and request assistance.
+  * Muri Muda Mura: Identifying and eliminating waste, unevenness, and overburden.
 * Theory of Constraints <https://en.wikipedia.org/wiki/Theory_of_constraints>
 
 ## Service reliability management
@@ -90,14 +98,15 @@
 ## Lightweight documentaion
 
 * Markdown <https://en.wikipedia.org/wiki/Markdown>
+  * Markdown.pl <https://metacpan.org/dist/Text-Markdown>
   * GFM (GitHub Flavored Markdown) <https://github.github.com/gfm/>
   * markdownlint <https://github.com/DavidAnson/markdownlint>
   * remark <https://remark.js.org/> - a markdown processor
   * charm_Glow <https://github.com/charmbracelet/glow> - a terminal based markdown reader
-  * Text::Markdown <https://metacpan.org/pod/Text::Markdown>
   * Regexp::Common::Markdown <https://metacpan.org/pod/Regexp::Common::Markdown>
   * Text::MarkdownTable <https://metacpan.org/pod/Text::MarkdownTable>
-* reStructuredText <https://docutils.sourceforge.io/rst.html>
+* DocUtils <https://docutils.sourceforge.io/>
+  * reStructuredText <https://docutils.sourceforge.io/rst.html>
 
 ## Behavior driven development
 
@@ -140,7 +149,8 @@
 * Hugo <https://gohugo.io/>
   * Docsy <https://www.docsy.dev/>
 * Sphinx <http://www.sphinx-doc.org/en/master/>
-  * DocUtils <https://docutils.sourceforge.io/>
+  * sphinxcontrib-katex <https://sphinxcontrib-katex.readthedocs.io/en/>
+    * KaTeX <https://katex.org/>
 * MkDocs <https://www.mkdocs.org/>
   * Material for MkDocs <https://squidfunk.github.io/mkdocs-material/>
 
@@ -151,7 +161,6 @@
   * Asciidoctor <https://asciidoctor.org/>
 * LaTeX <https://www.latex-project.org/>
   * TexLive <https://tug.org/texlive/>
-* KaTeX <https://katex.org/>
 
 ## Non-profit organizations
 
@@ -217,11 +226,25 @@
 ## Economics
 
 * Braess's paradox <https://en.wikipedia.org/wiki/Braess%27s_paradox>
+* Induced demand <https://en.wikipedia.org/wiki/Induced_demand>
 * Network externality <https://en.wikipedia.org/wiki/Network_effect>
 * Metcalfe's law <https://en.wikipedia.org/wiki/Metcalfe%27s_law>
-* Induced demand <https://en.wikipedia.org/wiki/Induced_demand>
 
-## Statistics fundamentals
+## Mathematics
+
+* Formal system <https://en.wikipedia.org/wiki/Formal_system>
+* Algebra <https://en.wikipedia.org/wiki/Algebra>
+* Function <https://en.wikipedia.org/wiki/Function_(mathematics)>
+* Equation <https://en.wikipedia.org/wiki/Equation>
+* Linear algebra <https://en.wikipedia.org/wiki/Linear_algebra>
+  * Vector space <https://en.wikipedia.org/wiki/Vector_space>
+  * Matrix <https://en.wikipedia.org/wiki/Matrix_(mathematics)>
+  * Rank <https://en.wikipedia.org/wiki/Rank_(linear_algebra)>
+  * Determinant <https://en.wikipedia.org/wiki/Determinant>
+* Differential equation <https://en.wikipedia.org/wiki/Differential_equation>
+* Logarithm <https://en.wikipedia.org/wiki/Logarithm>
+
+## Probability theory and statistics
 
 * Probability theory <https://en.wikipedia.org/wiki/Probability_theory>
 * Pearson correlation coefficient <https://en.wikipedia.org/wiki/Pearson_correlation_coefficient>
@@ -234,20 +257,27 @@
 * Experimental design <https://en.wikipedia.org/wiki/Design_of_experiments>
 * Cross-validation <https://en.wikipedia.org/wiki/Cross-validation_(statistics)>
 
-## Statistics tools
+## Math and statistics tools
 
-* Pandas <https://pandas.pydata.org/>
 * NumPy <https://numpy.org/>
 * SciPy <https://scipy.org/>
+* SymPy <https://www.sympy.org/en/index.html>
+* SageMath <https://www.sagemath.org/>
+* Pandas <https://pandas.pydata.org/>
 * R project <https://www.r-project.org/>
-* RStudio <https://posit.co/download/rstudio-desktop/>
-* JASP <https://jasp-stats.org/>
 
 ## Data visualization
 
-* gnuplot <http://gnuplot.info/>
-* matplotlib <https://matplotlib.org/>
-  * seaborn <https://seaborn.pydata.org/>
-* Vega <https://vega.github.io/vega/>
-* Vega-Lite <https://vega.github.io/vega-lite/>
-* D3 <https://d3js.org/>
+* Tools and libraries
+  * gnuplot <http://gnuplot.info/>
+  * matplotlib <https://matplotlib.org/>
+    * seaborn <https://seaborn.pydata.org/>
+  * Vega <https://vega.github.io/vega/>
+  * Vega-Lite <https://vega.github.io/vega-lite/>
+  * D3 <https://d3js.org/>
+  * GeoLite2 <https://dev.maxmind.com/geoip/geolite2-free-geolocation-data> - free geolocation data
+* Views
+  * Histgram <https://en.wikipedia.org/wiki/Histogram>
+  * Heat map <https://en.wikipedia.org/wiki/Heat_map>
+  * Choropleth map <https://en.wikipedia.org/wiki/Choropleth_map>
+  * Proportional symbol map <https://en.wikipedia.org/wiki/Proportional_symbol_map>

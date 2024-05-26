@@ -136,6 +136,7 @@
 * SASL (Simple Authentication and Security Layer) <https://en.wikipedia.org/wiki/Simple_Authentication_and_Security_Layer>
 * SPF (Sender Policy Framework) <https://en.wikipedia.org/wiki/Sender_Policy_Framework>
 * DKIM (DomainKeys Identified Mail) <https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail> <http://dkim.org/>
+  * OpenDKIM <http://www.opendkim.org/>
 * DMARC (Domain-based Message Authentication, Reporting & Conformance) <https://dmarc.org/>
 
 ## Directory service
