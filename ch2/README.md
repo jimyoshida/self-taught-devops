@@ -209,7 +209,9 @@
   * mailutils <https://mailutils.org/>
     * mail command <https://mailutils.org/manual/html_section/mail.html>
     * Unix Mbox and Maildir formats
-  * Quoted-printable encoding <https://en.wikipedia.org/wiki/Quoted-printable>
+  * MIME <https://en.wikipedia.org/wiki/MIME>
+    * Quoted-printable encoding <https://en.wikipedia.org/wiki/Quoted-printable>
+    * Base64 <https://en.wikipedia.org/wiki/Base64>
   * SMTP <https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol>
   * Postfix <https://www.postfix.org/>
   * Email::Sender::Simple <https://metacpan.org/pod/Email::Sender::Simple>
@@ -355,7 +357,7 @@
     * journalctl <https://man7.org/linux/man-pages/man1/journalctl.1.html>
 * Traces
   * Grafana Tempo <https://grafana.com/oss/tempo/>
-  * Jaeger <https://www.jaegertracing.io/>
+    * TraceQL <https://grafana.com/docs/tempo/latest/traceql/>
   * OpenTelemetry <https://opentelemetry.io/>
 * Universal
   * Grafana <https://grafana.com/>
@@ -370,8 +372,6 @@
     * Kusto Query Language <https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/>
   * AWS CloudWatch <https://aws.amazon.com/cloudwatch/>
   * Datadog <https://www.datadoghq.com/>
-  * New Relic <https://newrelic.com>
-  * Micrometer <https://micrometer.io/>
 
 ## Stress test and chaos engineering
 
@@ -392,6 +392,7 @@
 * JDK tools <https://docs.oracle.com/en/java/javase/21/docs/specs/man/index.html>
 * VisualVM <https://visualvm.github.io/>
 * JMX API <https://docs.oracle.com/en/java/javase/21/jmx/introduction-jmx-technology.html>
+* Micrometer <https://micrometer.io/> - a metrics instrumentation library for JVM-based applications
 
 ## Linux desktop for operation
 
