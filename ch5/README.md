@@ -93,17 +93,14 @@
   * Recurrent neural network <https://en.wikipedia.org/wiki/Recurrent_neural_network>
     * LSTM <https://en.wikipedia.org/wiki/Long_short-term_memory>
 
-## ML tools
+## Generic tools for AI
+
+* Mojo <https://www.modular.com/mojo> - the programming language for all AI developers
+* Anaconda distribution <http://anaconda.com/> - the Operating System for AI
+
+## ML tools and services
 
 * scikit-learn <https://scikit-learn.org/stable>
-
-## ML licecycle management
-
-* MLFlow <https://mlflow.org/>
-* KubeFlow <https://www.kubeflow.org/>
-
-## ML as a service
-
 * Azure Machine Learning <https://azure.microsoft.com/en-us/products/machine-learning/>
 * Amazon SageMaker <https://aws.amazon.com/sagemaker/>
 
@@ -114,20 +111,12 @@
   * Keras <https://keras.io/>
 * PyTorch <https://pytorch.org/>
 
-## Programming language for AI
+## MLOps
 
-* Mojo <https://www.modular.com/mojo>
+* MLFlow <https://mlflow.org/>
+* KubeFlow <https://www.kubeflow.org/>
 
-## Package management for computational science
-
-* Anaconda distribution <http://anaconda.com/>
-
-## Interactive computing
-
-* JupyterLab / Jupiter Notebook <https://jupyter.org/>
-* BeakerX <http://beakerx.com/>
-
-## NLP
+## Natural Language Processing
 
 * n-gram <https://en.wikipedia.org/wiki/N-gram>
 * tf-idf (term frequency–inverse document frequency) <https://en.wikipedia.org/wiki/Tf%E2%80%93idf>
@@ -141,13 +130,12 @@
 
 ## Pretrained LLM
 
-* BERT <https://arxiv.org/abs/1810.04805>
+* Codex <https://arxiv.org/abs/2107.03374>
+* InstructGPT <https://arxiv.org/abs/2203.02155>
 * GPT-4 <https://openai.com/research/gpt-4> <https://arxiv.org/abs/2303.08774>
 * LLaMA <https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/>
-* InstructGPT <https://arxiv.org/abs/2203.02155>
-* Codex <https://arxiv.org/abs/2107.03374>
 
-## Coding assistant
+## Coding or CLI assistant
 
 * GitHub Copilot <https://github.com/features/copilot/>
 * Visual Studio IntelliCode <https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode>

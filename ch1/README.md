@@ -63,6 +63,7 @@
   * shell expansions <https://www.gnu.org/software/bash/manual/html_node/Shell-Expansions.html>
   * pipelines <https://www.gnu.org/software/bash/manual/html_node/Pipelines.html>
   * special variables <https://www.gnu.org/software/bash/manual/html_node/Variable-Index.html>
+  * built-in job control <https://www.gnu.org/software/bash/manual/html_node/Job-Control.html>
 * Other Shells
   * zsh <https://www.zsh.org/>
     * oh-my-zsh <https://ohmyz.sh/>
@@ -70,11 +71,10 @@
   * PowerShell <https://docs.microsoft.com/en-us/powershell/>
   * nushell <https://www.nushell.sh/>
 * Shell utilities
-  * coreutils <https://www.gnu.org/software/coreutils/> = fileutils|textutils|shellutils;
-    see also <https://en.wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands>
+  * coreutils <https://www.gnu.org/software/coreutils/> -- fileutils+textutils+shellutils
   * starship <https://starship.rs/>
   * bash-completion <https://github.com/scop/bash-completion>
-  * parallel <https://www.gnu.org/software/parallel/>
+  * GNU parallel <https://www.gnu.org/software/parallel/>
   * rlwrap <https://github.com/hanslub42/rlwrap>
 * Terminals
   * Terminator <https://gnome-terminator.org>
@@ -177,11 +177,11 @@
   * branch, tag, worktree
   * push, pull, fetch, rebase, reset, stash
   * staging, commit
-  * LFS <https://git-lfs.com/>
+  * lfs <https://git-lfs.com/>
+  * filter-repo <https://github.com/newren/git-filter-repo>
 * Git for Windows <https://gitforwindows.org/>
 * TortoiseGit <https://tortoisegit.org/>
 * Git Interactive Rebase Tool <https://gitrebasetool.mitmaro.ca/>
-* BFG Repo-Cleaner <https://rtyley.github.io/bfg-repo-cleaner/>
 * degit <https://github.com/Rich-Harris/degit>
 * lazygit <https://github.com/jesseduffield/lazygit>
 * charm_Soft Serve <https://github.com/charmbracelet/soft-serve> - a self-hostable Git server
@@ -267,16 +267,6 @@
   * jsonc <https://komkom.github.io/>
   * Jsonnet <https://jsonnet.org/>
   * CUE <https://cuelang.org/>
-
-## Template tools
-
-* gomplate <https://gomplate.ca/>
-* Go template <https://pkg.go.dev/text/template>
-* mustache <https://mustache.github.io/> / mustache.js
-* Jinja <https://www.palletsprojects.com/p/jinja/>
-* Jsonnet <https://jsonnet.org/>
-* Perl Text::Template <https://metacpan.org/pod/Text::Template>
-* envsubst in gettext <https://www.gnu.org/software/gettext/>
 
 ## Concurrent programming
 
@@ -395,7 +385,7 @@
     * CPython (default)
     * pypy <https://www.pypy.org/>
   * Ruby
-    * Ruby MRI (default)
+    * CRuby (default)
     * JRuby <https://www.jruby.org/>
     * PyCall <https://github.com/mrkn/pycall.rb> - Calling Python functions from the Ruby language
   * Java
@@ -436,7 +426,7 @@
   * cobertura <https://cobertura.github.io/cobertura/>
   * LCOV <https://github.com/linux-test-project/lcov>
 
-## Language-specific documentation tools
+## Program documentation tools
 
 * apiDoc <http://apidocjs.com/>
 * JSDoc <https://jsdoc.app/>
@@ -448,6 +438,17 @@
 * rustdoc <https://doc.rust-lang.org/rustdoc/>
 * RDoc <https://ruby.github.io/rdoc/>
 * Javadoc <https://www.oracle.com/java/technologies/javase/javadoc-tool.html>
+
+## Template tools
+
+* gomplate <https://gomplate.ca/> -- A fast template renderer supporting many datasources and hundreds of functions
+* Go template <https://pkg.go.dev/text/template>
+* mustache <https://mustache.github.io/> -- Logic-less templates
+* Jinja <https://www.palletsprojects.com/p/jinja/> -- a full-featured template engine for Python
+* Jsonnet <https://jsonnet.org/> -- A configuration language for app and tool developers
+* Perl Text::Template <https://metacpan.org/pod/Text::Template>
+* envsubst in gettext <https://www.gnu.org/software/gettext/>
+* ERB <https://github.com/ruby/erb> -- An easy to use but powerful templating system for Ruby
 
 ## Functional programming (advanced)
 
@@ -462,6 +463,12 @@
 
 ## Other programming languages (advanced)
 
+* Ruby <https://www.ruby-lang.org/en/>
+  * persent notation
+  * block, yield, proc, lambda
+  * dynamic method definition
+  * pattern matching
+  * instance_eval
 * Typescript <https://www.typescriptlang.org/index.html>
   * type inference
   * interface
@@ -491,7 +498,6 @@
   * discriminated union
   * active pattern
   * computation expression
-* Ruby <https://www.ruby-lang.org/en/>
 * Java <https://docs.oracle.com/en/java/index.html>
 * Scala (for Gatling) <https://www.scala-lang.org/>
 * Groovy (for Jenkins/Gradle) <http://groovy-lang.org/>

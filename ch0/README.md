@@ -95,13 +95,24 @@
   * textlint <https://textlint.github.io/> - The pluggable linting tool for text and markdown
   * lychee <https://lychee.cli.rs/> - A fast, async link checker written in Rust
 
+## Hypertext
+
+* Hypertext <https://en.wikipedia.org/wiki/Hypertext>
+* Hyperlink <https://en.wikipedia.org/wiki/Hyperlink>
+* URL <https://url.spec.whatwg.org/>
+  * URI <https://en.wikipedia.org/wiki/Uniform_Resource_Identifier>
+* HTML <https://html.spec.whatwg.org/>
+  * rehype <https://github.com/rehypejs/rehype> - HTML processor powered by plugins
+* CSS <https://www.w3.org/Style/CSS/>
+* DOM <https://dom.spec.whatwg.org/>
+
 ## Lightweight documentaion
 
 * Markdown <https://en.wikipedia.org/wiki/Markdown>
-  * Markdown.pl <https://metacpan.org/dist/Text-Markdown>
+  * CommonMark <https://commonmark.org/>
   * GFM (GitHub Flavored Markdown) <https://github.github.com/gfm/>
+  * remark <https://remark.js.org/> - A markdown processor powered by plugins
   * markdownlint <https://github.com/DavidAnson/markdownlint>
-  * remark <https://remark.js.org/> - a markdown processor
   * charm_Glow <https://github.com/charmbracelet/glow> - a terminal based markdown reader
   * Regexp::Common::Markdown <https://metacpan.org/pod/Regexp::Common::Markdown>
   * Text::MarkdownTable <https://metacpan.org/pod/Text::MarkdownTable>
@@ -149,8 +160,6 @@
 * Hugo <https://gohugo.io/>
   * Docsy <https://www.docsy.dev/>
 * Sphinx <http://www.sphinx-doc.org/en/master/>
-  * sphinxcontrib-katex <https://sphinxcontrib-katex.readthedocs.io/en/>
-    * KaTeX <https://katex.org/>
 * MkDocs <https://www.mkdocs.org/>
   * Material for MkDocs <https://squidfunk.github.io/mkdocs-material/>
 
@@ -161,6 +170,8 @@
   * Asciidoctor <https://asciidoctor.org/>
 * LaTeX <https://www.latex-project.org/>
   * TexLive <https://tug.org/texlive/>
+  * KaTeX <https://katex.org/> - The fastest math typesetting library for the web
+    * sphinxcontrib-katex <https://sphinxcontrib-katex.readthedocs.io/en/>
 
 ## Non-profit organizations
 
@@ -257,13 +268,20 @@
 * Experimental design <https://en.wikipedia.org/wiki/Design_of_experiments>
 * Cross-validation <https://en.wikipedia.org/wiki/Cross-validation_(statistics)>
 
-## Math and statistics tools
+## Interactive computing environment
 
-* NumPy <https://numpy.org/>
-* SciPy <https://scipy.org/>
-* SymPy <https://www.sympy.org/en/index.html>
-* SageMath <https://www.sagemath.org/>
-* Pandas <https://pandas.pydata.org/>
+* JupyterLab <https://jupyter.org/> -- web-based interactive development environment for notebooks, code, and data
+* Jupiter Notebook <https://jupyter.org/> -- the original web application for creating and sharing computational documents
+* BeakerX <http://beakerx.com/>
+
+## Computation
+
+* Python <https://www.python.org/>
+  * NumPy <https://numpy.org/>
+  * SciPy <https://scipy.org/>
+  * SymPy <https://www.sympy.org/en/index.html>
+  * SageMath <https://www.sagemath.org/>
+  * Pandas <https://pandas.pydata.org/>
 * R project <https://www.r-project.org/>
 
 ## Data visualization

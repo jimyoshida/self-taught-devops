@@ -100,7 +100,7 @@
 * inxi <https://smxi.org/docs/inxi.htm>
 * Modern utils
   * lsd <https://github.com/Peltoche/lsd>
-  * exa <https://the.exa.website/>
+  * eza <https://eza.rocks/>
   * broot <https://dystroy.org/broot/>
   * bat <https://github.com/sharkdp/bat>
   * dust <https://github.com/bootandy/dust>
@@ -206,17 +206,19 @@
   * Avahi <https://www.avahi.org/>
   * Bonjour <https://developer.apple.com/bonjour/>
 * Email <https://en.wikipedia.org/wiki/Email>
-  * mailutils <https://mailutils.org/>
-    * mail command <https://mailutils.org/manual/html_section/mail.html>
-    * Unix Mbox and Maildir formats
+  * Unix Mbox and Maildir formats
   * MIME <https://en.wikipedia.org/wiki/MIME>
     * Quoted-printable encoding <https://en.wikipedia.org/wiki/Quoted-printable>
     * Base64 <https://en.wikipedia.org/wiki/Base64>
   * SMTP <https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol>
   * Postfix <https://www.postfix.org/>
   * Email::Sender::Simple <https://metacpan.org/pod/Email::Sender::Simple>
+  * Email::MIME <https://metacpan.org/pod/Email::MIME>
+  * mailutils <https://mailutils.org/>
+    * mail command <https://mailutils.org/manual/html_section/mail.html>
+  * mutt <http://www.mutt.org/>
+  * swaks <http://www.jetmore.org/john/code/swaks/>
   * charm_Pop <https://github.com/charmbracelet/pop> - Send emails from your terminal
-  * listmonk <https://listmonk.app/> - Self-hosted newsletter and mailing list manager
   * Email receiving and readers
     * IMAP <https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol>
     * POP <https://en.wikipedia.org/wiki/Post_Office_Protocol>
@@ -226,6 +228,7 @@
     * Sylpheed <https://sylpheed.sraoss.jp/en/>
     * Mutt <http://www.mutt.org/>
     * Gnus <https://www.gnus.org/>
+  * listmonk <https://listmonk.app/> - Self-hosted newsletter and mailing list manager
 * PaaS
   * Amazon Route53 <https://aws.amazon.com/route53/>
   * Amazon SES <https://aws.amazon.com/ses/>
