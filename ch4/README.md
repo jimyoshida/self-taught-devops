@@ -14,6 +14,27 @@
 * Zero trust architecture (ZTA) <https://en.wikipedia.org/wiki/Zero_trust_security_model>
 * Security policy definition
   * security.txt <https://securitytxt.org/>
+* NIST SP 800-53 (Security and Privacy Controls for Information Systems and Organizations) Rev.5
+  1. AC - Access Control
+  1. AT - Awareness and Training
+  1. AU - Audit and Accountability
+  1. CA - Assessment, Authorization and Monitoring
+  1. CM - Configuration Management
+  1. CP - Contingency Planning
+  1. IA - Identification and Authentication
+  1. IR - Incident Response
+  1. MA - Maintenance
+  1. MP - Media Protection
+  1. PE - Physical and Environmental Protection
+  1. PL - Planning
+  1. PM - Program Management
+  1. PS - Personnel Security
+  1. PT - Personally Identifiable Information Processing and Transparency
+  1. RA - Risk Assessment
+  1. SA - System and Services Acquisition
+  1. SC - System and Communications Protection
+  1. SI - System and Information Integrity
+  1. SR - Supply Chain Risk Management
 
 ## Identity and access management
 
@@ -138,6 +159,8 @@
 * DKIM (DomainKeys Identified Mail) <https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail> <http://dkim.org/>
   * OpenDKIM <http://www.opendkim.org/>
 * DMARC (Domain-based Message Authentication, Reporting & Conformance) <https://dmarc.org/>
+* S/MIME <https://en.wikipedia.org/wiki/S/MIME>
+* OpenPGP/GPG <https://gnupg.org/>
 
 ## Directory service
 

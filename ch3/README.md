@@ -2,28 +2,46 @@
 
 [Show timeline](./Timeline.md)
 
-## Web standards and tools
+## Web and API style standards
 
 * HTTP <https://en.wikipedia.org/wiki/HTTP>
   * HTTP cookie <https://en.wikipedia.org/wiki/HTTP_cookie>
-* URL <https://en.wikipedia.org/wiki/URL>
-  * URI <https://en.wikipedia.org/wiki/Uniform_Resource_Identifier>
-* HTML <https://html.spec.whatwg.org/>
-* XMLHttpRequest (XHR) <https://xhr.spec.whatwg.org/>
-* DOM <https://www.w3.org/DOM/DOMTR>
-* CSS <https://www.w3.org/Style/CSS/>
-* Block, Element, Modifier methodology (BEM) <https://en.bem.info>
-* CLIs
-  * cURL <https://curl.haxx.se/>
-  * Wget <https://www.gnu.org/software/wget/>
-  * curlie <https://curlie.io/>
-  * httpie <https://httpie.io/>
+* Javascript/ECMAScript <https://www.ecma-international.org/publications/standards/Ecma-262.htm>
+  * XMLHttpRequest (XHR) <https://xhr.spec.whatwg.org/>
+  * Fetch Standard <https://fetch.spec.whatwg.org/> (also for security)
+* REST <https://en.wikipedia.org/wiki/Representational_state_transfer>
+  * ROA <https://en.wikipedia.org/wiki/Resource-oriented_architecture>
+* SOAP <https://en.wikipedia.org/wiki/SOAP>
+* GraphQL <https://graphql.org/>
+* gRPC <https://grpc.io/>
+* WebSockets <https://websockets.spec.whatwg.org/>
+* Webhook <https://en.wikipedia.org/wiki/Webhook>
+* json-rpc <https://www.jsonrpc.org/>
+* MQTT <https://mqtt.org/>
+* AMQP <https://www.amqp.org/>
+
+## WebAssembly
+
+* WebAssembly <https://webassembly.org/>
+* WASI <https://github.com/WebAssembly/WASI>
+* Runtime
+  * wazero <https://wazero.io/>
+  * wasmtime <https://wasmtime.dev/>
+  * wasmer <https://wasmer.io/>
+
+## Web clients
+
 * Browsers
   * Chrome <https://www.google.com/chrome/>
   * Chromium <https://www.chromium.org/Home/>
   * Firefox <https://www.mozilla.org/en-US/firefox/>
   * w3m <https://w3m.sourceforge.net/>
   * EWW <https://www.gnu.org/software/emacs/manual/html_mono/eww.html>
+* CLIs
+  * cURL <https://curl.haxx.se/>
+  * Wget <https://www.gnu.org/software/wget/>
+  * curlie <https://curlie.io/>
+  * httpie <https://httpie.io/>
 * Libraries
   * Perl LWP <https://metacpan.org/pod/LWP>
   * Python Requests <https://docs.python-requests.org/en/latest/>
@@ -60,15 +78,6 @@
   * Kiali <https://kiali.io/>
 * Linkerd <https://linkerd.io/>
 * traefik mesh <https://traefik.io/traefik-mesh/> - a straight-forward, easy to configure, and non-invasive service mesh
-
-## WebAssembly
-
-* WebAssembly <https://webassembly.org/>
-* WASI <https://github.com/WebAssembly/WASI>
-* Runtime
-  * wazero <https://wazero.io/>
-  * wasmtime <https://wasmtime.dev/>
-  * wasmer <https://wasmer.io/>
 
 ## Web application PaaS and FaaS
 
@@ -118,19 +127,6 @@
   * Spring boot <https://spring.io/projects/spring-boot> (reference)
 * .NET
   * ASP.NET <https://dotnet.microsoft.com/en-us/apps/aspnet> (reference)
-
-## API architecture styles
-
-* REST <https://en.wikipedia.org/wiki/Representational_state_transfer>
-  * ROA <https://en.wikipedia.org/wiki/Resource-oriented_architecture>
-* SOAP <https://en.wikipedia.org/wiki/SOAP>
-* GraphQL <https://graphql.org/>
-* gRPC <https://grpc.io/>
-* WebSockets <https://websockets.spec.whatwg.org/>
-* Webhook <https://en.wikipedia.org/wiki/Webhook>
-* json-rpc <https://www.jsonrpc.org/>
-* MQTT <https://mqtt.org/>
-* AMQP <https://www.amqp.org/>
 
 ## Web server test and debug tools
 
