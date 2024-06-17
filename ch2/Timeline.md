@@ -28,6 +28,10 @@ The chroot system call was introduced during development of Version 7 Unix in 19
 
 IPv4 is described in RFC 791 (1981).
 
+In March 1982, the US Department of Defense declared TCP/IP as the standard for all military computer networking.
+
+The migration of the ARPANET from NCP to TCP/IP was officially completed on flag day January 1, 1983, when the new protocols were permanently activated.
+
 The Portable Operating System Interface (POSIX) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems. POSIX defines both the system- and user-level application programming interfaces (API).
 Started: 1988
 
