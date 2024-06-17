@@ -2,18 +2,9 @@
 
 [Show timeline](./Timeline.md)
 
-## Security fundamentals
+## Guidances for security and privacy
 
 * InfoSec/CIA <https://en.wikipedia.org/wiki/Information_security>
-* Vulnerability <https://en.wikipedia.org/wiki/Vulnerability_(computing)>
-* Authenticarion <https://en.wikipedia.org/wiki/Authentication>
-  * Identity management <https://en.wikipedia.org/wiki/Identity_management>
-* Authorization <https://en.wikipedia.org/wiki/Authorization>
-  * Access control list (ACL) <https://en.wikipedia.org/wiki/Access-control_list>
-  * Role-based access control (RBAC) <https://en.wikipedia.org/wiki/Role-based_access_control>
-* Zero trust architecture (ZTA) <https://en.wikipedia.org/wiki/Zero_trust_security_model>
-* Security policy definition
-  * security.txt <https://securitytxt.org/>
 * NIST SP 800-53 (Security and Privacy Controls for Information Systems and Organizations) Rev.5
   1. AC - Access Control
   1. AT - Awareness and Training
@@ -35,9 +26,30 @@
   1. SC - System and Communications Protection
   1. SI - System and Information Integrity
   1. SR - Supply Chain Risk Management
+* NIST SP 800-160 Vol.2 (Developing Cyber-Resilient Systems)
+  1. Adaptive Response: Implement agile courses of action to manage risks.
+  1. Analytic Monitoring: Monitor and analyze a wide range of properties and behaviors on an ongoing basis and in a coordinated way.
+  1. Contextual Awareness: Construct and maintain current representations of the posture of missions or business functions while considering threat events and courses of action.
+  1. Coordinated Protection: Ensure that protection mechanisms operate in a coordinated and effective manner.
+  1. Deception: Mislead, confuse, hide critical assets from, or expose covertly tainted assets to the adversary.
+  1. Diversity: Use heterogeneity to minimize common mode failures, particularly threat events exploiting common vulnerabilities.
+  1. Dynamic Positioning: Distribute and dynamically relocate functionality or system resources.
+  1. Non-Persistence: Generate and retain resources as needed or for a limited time.
+  1. Privilege Restriction: Restrict privileges based on attributes of users and system elements, as well as on environmental factors.
+  1. Realignment: Structure systems and resource uses to align with mission or business function needs, reduce current and anticipated risks, and accommodate the evolution of technical, operational, and threat environments.
+  1. Redundancy: Provide multiple protected instances of critical resources.
+  1. Segmentation: Define and separate system elements based on criticality and trustworthiness.
+  1. Substantiated Integrity: Ascertain whether critical system elements have been corrupted.
+  1. Unpredictability: Make changes randomly or unpredictably.
 
 ## Identity and access management
 
+* Authenticarion <https://en.wikipedia.org/wiki/Authentication>
+  * Identity management <https://en.wikipedia.org/wiki/Identity_management>
+* Authorization <https://en.wikipedia.org/wiki/Authorization>
+  * Access control list (ACL) <https://en.wikipedia.org/wiki/Access-control_list>
+  * Role-based access control (RBAC) <https://en.wikipedia.org/wiki/Role-based_access_control>
+* Zero trust architecture (ZTA) <https://en.wikipedia.org/wiki/Zero_trust_security_model>
 * Specs
   * Basic authentication <https://en.wikipedia.org/wiki/Basic_access_authentication>
   * OpenID Connect <https://openid.net/connect/>
@@ -79,6 +91,8 @@
   * netfilter <https://www.netfilter.org/index.html>
     * iptables <https://man7.org/linux/man-pages/man8/iptables.8.html>
   * ubuntu ufw <https://help.ubuntu.com/community/UFW>
+* Security policy definition
+  * security.txt <https://securitytxt.org/>
 * charm_Wish <https://github.com/charmbracelet/wish> - an ssh app library
 * charm_Wishlist <https://github.com/charmbracelet/wishlist> - the ssh directory
 
@@ -203,6 +217,7 @@
 
 ## Vulnerability databases
 
+* Vulnerability <https://en.wikipedia.org/wiki/Vulnerability_(computing)>
 * NVD (U.S. National Vulnerability Database) <https://nvd.nist.gov/>
   * CVSS (Common Vulnerability Scoring System) <https://nvd.nist.gov/vuln-metrics/cvss>
 * CVE (Common Vulnerabilities and Exposures) <https://cve.mitre.org/cve/>

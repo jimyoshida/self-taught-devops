@@ -88,10 +88,15 @@
 
 ## Technical writing
 
-* Microsoft Writing Style Guide <https://learn.microsoft.com/en-us/style-guide/welcome/>
-* Google Technical Writing Courses <https://developers.google.com/tech-writing>
+* Style and terminology
+  * Microsoft Writing Style Guide <https://learn.microsoft.com/en-us/style-guide/welcome/>
+  * Google documentation style guide <https://developers.google.com/style/>
+  * Red Hat documentation style guide <https://redhat-documentation.github.io/supplementary-style-guide/>
+  * Microsoft Terminology <https://learn.microsoft.com/en-us/globalization/reference/microsoft-terminology>
 * Document checkers
   * vale <https://vale.sh/> - A linter for natural language/prose
+  * alex <https://alexjs.com/> - Catch insensitive, inconsiderate writing
+  * write-good <https://github.com/btford/write-good> - Naive linter for English prose
   * textlint <https://textlint.github.io/> - The pluggable linting tool for text and markdown
   * lychee <https://lychee.cli.rs/> - A fast, async link checker written in Rust
 
@@ -143,6 +148,8 @@
 * The C4 model <https://c4model.com/>
 * ISO/IEC/IEEE 42010: Systems and software engineering — Architecture description
 * Architectural Decision Records (ADRs) <https://adr.github.io/>
+* Diagramming tools
+  * draw.io <https://www.drawio.com/>
 * Diagramming as code
   * Diagrams <https://diagrams.mingrammer.com/>
   * PlantUML <https://plantuml.com/>
@@ -270,16 +277,17 @@
 
 ## Interactive computing environment
 
-* JupyterLab <https://jupyter.org/> -- web-based interactive development environment for notebooks, code, and data
-* Jupiter Notebook <https://jupyter.org/> -- the original web application for creating and sharing computational documents
-* BeakerX <http://beakerx.com/>
+* JupyterLab <https://jupyter.org/> - web-based interactive development environment for notebooks, code, and data
+* Jupiter Notebook <https://jupyter.org/> - the original web application for creating and sharing computational documents
+* BeakerX <http://beakerx.com/> - a collection of kernels and extensions to the Jupyter interactive computing environment
+* Org Mode <https://orgmode.org/> - Your life in plain text
 
-## Computation
+## Scientific computing
 
 * Python <https://www.python.org/>
-  * NumPy <https://numpy.org/>
-  * SciPy <https://scipy.org/>
-  * SymPy <https://www.sympy.org/en/index.html>
+  * NumPy <https://numpy.org/> - The fundamental package for scientific computing with Python
+  * SciPy <https://scipy.org/> - Fundamental algorithms for scientific computing in Python
+  * SymPy <https://www.sympy.org/en/index.html> - A Python library for symbolic mathematics
   * SageMath <https://www.sagemath.org/>
   * Pandas <https://pandas.pydata.org/>
 * R project <https://www.r-project.org/>

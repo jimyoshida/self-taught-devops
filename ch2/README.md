@@ -210,6 +210,7 @@
   * MIME <https://en.wikipedia.org/wiki/MIME>
     * Quoted-printable encoding <https://en.wikipedia.org/wiki/Quoted-printable>
     * Base64 <https://en.wikipedia.org/wiki/Base64>
+    * GNU sharutils <https://www.gnu.org/software/sharutils/>
   * SMTP <https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol>
   * Postfix <https://www.postfix.org/>
   * Email::Sender::Simple <https://metacpan.org/pod/Email::Sender::Simple>
@@ -355,7 +356,6 @@
   * Fluentd <https://www.fluentd.org/>
   * Fluent Bit <https://fluentbit.io/>
   * Syslog <https://en.wikipedia.org/wiki/Syslog>
-    * logger <https://man7.org/linux/man-pages/man1/logger.1.html>
   * systemd-journald <https://man7.org/linux/man-pages/man8/systemd-journald.service.8.html>
     * journalctl <https://man7.org/linux/man-pages/man1/journalctl.1.html>
 * Traces
@@ -446,20 +446,20 @@
 ## Misc automation tools
 
 * Binary file processing
-  * Base64 <https://en.wikipedia.org/wiki/Base64>
   * ELF format <https://en.wikipedia.org/wiki/Executable_and_Linkable_Format>
   * hexdump <https://man7.org/linux/man-pages/man1/hexdump.1.html>
   * xxd <https://github.com/ckormanyos/xxd>
   * fq <https://github.com/wader/fq>
   * bbe <https://bbe-.sourceforge.net/>
 * Archivers
-  * Gzip <https://www.gnu.org/software/gzip/>
-  * tar <https://www.gnu.org/software/tar/>
+  * GNU Gzip <https://www.gnu.org/software/gzip/>
+  * GNU tar <https://www.gnu.org/software/tar/>
   * Info-Zip <https://sourceforge.net/projects/infozip/>
   * 7-Zip <https://www.7-zip.org/>
 * File transfers and converters
   * rsync <https://rsync.samba.org/>
   * s5cmd <https://github.com/peak/s5cmd>
+  * Rclone <https://rclone.org/> - A command-line program to manage files on cloud storage
   * aha <https://github.com/theZiz/aha> - Ansi HTML Adapter
     * NO_COLOR <https://no-color.org/>
   * pandoc <https://pandoc.org/>

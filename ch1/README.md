@@ -144,6 +144,7 @@
     * PyPI <https://pypi.org/>
   * go mod <https://pkg.go.dev/cmd/go>
   * cpanminus <https://metacpan.org/pod/App::cpanminus>
+  * bpkg <https://bpkg.sh/bpkg/>
   * cargo <https://doc.rust-lang.org/stable/cargo/>
     * crates.io <https://crates.io/>
   * RubyGems <https://rubygems.org/>
@@ -283,17 +284,7 @@
 
 ## Primary programming languages (for devops)
 
-* Go <https://go.dev/>
-  * goroutine
-  * channel
-  * go function
-  * static binary executable
-  * go module
-* Python <https://www.python.org/>
-  * indentation
-  * f-string
-  * generator
-  * GIL <https://en.wikipedia.org/wiki/Global_interpreter_lock>
+* Bash (see Shell section)
 * Perl <https://www.perl.org/>
   * special variables <https://metacpan.org/dist/perl/view/pod/perlvar.pod>
   * built-in regex <https://metacpan.org/dist/perl/view/pod/perlre.pod>
@@ -306,11 +297,51 @@
   * i/o operators <https://metacpan.org/dist/perl/view/pod/perlop.pod>
     * diamond oprator
   * autovivification
+* Python <https://www.python.org/>
+  * f-string
+  * generator
+  * with statement <https://docs.python.org/3/reference/compound_stmts.html#with>
+  * context manager
+  * decorator
+  * coroutine function
+  * lambda
+  * special methods <https://docs.python.org/3/reference/datamodel.html#specialnames>
+  * global interpreter lock <https://en.wikipedia.org/wiki/Global_interpreter_lock>
 * Javascript/ECMAScript <https://www.ecma-international.org/publications/standards/Ecma-262.htm>
+  * Lodash <https://lodash.com/> - A modern JavaScript utility library delivering modularity, performance & extras
   * prototypal inheritance <https://en.wikipedia.org/wiki/Prototype-based_programming>
   * event-driven
   * spread and rest operators
   * generator
+* Go <https://go.dev/>
+  * goroutine
+  * channel
+  * go function
+  * static binary executable
+  * go module
+
+## Logging and Datetime
+
+* Bash
+  * log4sh <https://github.com/kward/log4sh>
+  * logger <https://man7.org/linux/man-pages/man1/logger.1.html>
+* Perl
+  * log4perl <https://metacpan.org/pod/Log::Log4perl>
+  * DateTime <https://metacpan.org/pod/DateTime>
+* Python
+  * python logging <https://docs.python.org/3/library/logging.html>
+  * delorean <https://delorean.readthedocs.io/en/latest/index.html>
+  * arrow <https://arrow.readthedocs.io/en/latest/>
+* Javascript
+  * bunyan <https://github.com/trentm/node-bunyan>
+  * winston <https://github.com/winstonjs/winston>
+  * debug <https://github.com/debug-js/debug>
+  * Moment.js <https://momentjs.com/>
+  * Luson <https://moment.github.io/luxon/>
+* Go
+  * go log <https://pkg.go.dev/log>
+  * zap <https://pkg.go.dev/go.uber.org/zap>
+  * Logrus <https://github.com/sirupsen/logrus>
 
 ## CLI/TUI development
 
@@ -318,7 +349,7 @@
   * built-in getopts etc. <https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html>
   * tput <https://www.man7.org/linux/man-pages/man1/tput.1.html>
   * dialog <https://invisible-island.net/dialog/dialog.html>
-  * charm_Gum <https://github.com/charmbracelet/gum>
+  * charm_Gum <https://github.com/charmbracelet/gum> - A tool for glamorous shell scripts
   * FIGlet <http://www.figlet.org/>
   * lolcat <https://github.com/busyloop/lolcat>
   * cfonts <https://github.com/dominikwilkowski/cfonts>
@@ -327,12 +358,9 @@
   * Getopt::Long <https://metacpan.org/pod/Getopt::Long>
   * Term::ANSIColor <https://metacpan.org/pod/Term::ANSIColor>
   * Text::ANSITable <https://metacpan.org/pod/Text::ANSITable>
-  * DateTime <https://metacpan.org/pod/DateTime>
 * Python
   * argparse <https://docs.python.org/3/library/argparse.html>
   * click <https://palletsprojects.com/p/click/>
-  * arrow <https://arrow.readthedocs.io/en/latest/>
-  * delorean <https://delorean.readthedocs.io/en/latest/index.html>
   * Colorama <https://github.com/tartley/colorama>
   * Typer <https://typer.tiangolo.com/>
   * Asciimatics <https://github.com/peterbrittain/asciimatics>
@@ -341,20 +369,17 @@
   * yargs <https://yargs.js.org/>
   * minimist <https://github.com/minimistjs/minimist>
   * chalk <https://github.com/chalk/chalk>
-  * Lodash <https://lodash.com/>
-  * Moment.js <https://momentjs.com/>
-  * Luson <https://moment.github.io/luxon/>
   * cli-progress <https://github.com/npkgz/cli-progress>
   * FIGLet.js <https://github.com/patorjk/figlet.js>
   * gradient-string <https://github.com/bokub/gradient-string>
 * Go
-  * charm_Bubble Tea <https://github.com/charmbracelet/bubbletea>
-  * charm_Huh <https://github.com/charmbracelet/huh>
-  * pflag <https://github.com/spf13/pflag>
-  * cobra <https://cobra.dev/>
+  * charm_Bubble Tea <https://github.com/charmbracelet/bubbletea> - A powerful little TUI framework
+  * charm_Huh <https://github.com/charmbracelet/huh> - Build terminal forms and prompts
+  * pflag <https://github.com/spf13/pflag> - Drop-in replacement for Go's flag package
   * color <https://github.com/fatih/color>
-  * cli <https://cli.urfave.org/>
-  * viper <https://github.com/spf13/viper>
+  * cobra <https://cobra.dev/> - A Framework for Modern CLI Apps in Go
+  * cli <https://cli.urfave.org/> - A simple, fast, and fun package for building command line apps in Go
+  * viper <https://github.com/spf13/viper> - Go configuration with fangs
 * Ruby
   * TTY <https://ttytoolkit.org/>
 
@@ -406,25 +431,37 @@
 
 ## Unit test and coverage tools
 
+* Test Anything Protocol <http://testanything.org/>
+* Bash
+  * Bats-core <https://bats-core.readthedocs.io/en/stable/>
+  * shUnit2 <https://github.com/kward/shunit2>
+  * shellspec <https://shellspec.info/> (BDD style)
+* Perl
+  * Test2 <https://metacpan.org/pod/Test2>
+    * Test2::Suite <https://metacpan.org/pod/Test2%3A%3ASuite>
+  * prove <https://metacpan.org/pod/prove>
 * Python
   * python unittest <https://docs.python.org/3/library/unittest.html>
-  * PyTest <https://docs.pytest.org/en/latest/>
+  * pytest <https://docs.pytest.org/en/latest/>
+  * tappy <https://tappy.readthedocs.io/en/latest/>
+* Javascript
+  * Mocha <https://mochajs.org/> (BDD style)
+    * Chai <https://www.chaijs.com/>
+  * Node-Tap <https://node-tap.org/> - Test Anything Protocol library for JavaScript
+  * Istanbul <https://istanbul.js.org/> - Yet another JS code coverage tool
+  * JS Testing Best Practices <https://github.com/goldbergyoni/javascript-testing-best-practices>
 * Go
   * go testing <https://pkg.go.dev/testing>
   * go cover <https://pkg.go.dev/cmd/cover>
   * gocheck <https://labix.org/gocheck>
-  * Ginkgo <https://onsi.github.io/ginkgo/> (also support BDD)
+  * Ginkgo <https://onsi.github.io/ginkgo/> (BDD style)
     * Gomega <https://onsi.github.io/gomega/>
-* Javascript
-  * Mocha <https://mochajs.org/> (also support BDD)
-    * Chai <https://www.chaijs.com/>
-  * Istanbul <https://istanbul.js.org/>
-  * JS Testing Best Practices <https://github.com/goldbergyoni/javascript-testing-best-practices>
 * Others
   * JUnit <https://junit.org/junit5/>
   * xUnit.net <https://xunit.net/>
   * cobertura <https://cobertura.github.io/cobertura/>
   * LCOV <https://github.com/linux-test-project/lcov>
+  * kcov <https://simonkagstrom.github.io/kcov/> - A code coverage tester for compiled programs
 
 ## Program documentation tools
 
