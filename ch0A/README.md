@@ -1,4 +1,4 @@
-# Class 5: Data and AI
+# Class 0A: Data Engineering
 
 [Show timeline](./Timeline.md)
 
@@ -93,10 +93,11 @@
   * Recurrent neural network <https://en.wikipedia.org/wiki/Recurrent_neural_network>
     * LSTM <https://en.wikipedia.org/wiki/Long_short-term_memory>
 
-## Generic tools for AI
+## Generic tools for AI/ML
 
-* Mojo <https://www.modular.com/mojo> - the programming language for all AI developers
-* Anaconda distribution <http://anaconda.com/> - the Operating System for AI
+* Mojo <https://www.modular.com/mojo> - The programming language for all AI developers
+* Anaconda distribution <http://anaconda.com/> - The Operating System for AI
+* DVC <https://dvc.org/> - Data Version Control
 
 ## ML tools and services
 

@@ -1,4 +1,4 @@
-# Class 5: Data and AI
+# Class 0A: Data Engineering
 
 ## Timeline
 

@@ -14,11 +14,11 @@ The contents consist of the following 6 classes.
 | Class | Contents                               |
 | ----- | -------------------------------------- |
 | 0     | [Business](ch0/README.md)              |
+| 0A    | [Data Engineering](ch0A/README.md)     |
 | 1     | [Programming](ch1/README.md)           |
 | 2     | [System Administration](ch2/README.md) |
 | 3     | [Web and Cloud Native](ch3/README.md)  |
 | 4     | [Security and Privacy](ch4/README.md)  |
-| 5     | [Data and AI](ch5/README.md)           |
 
 [Appendix: References](ch9/README.md)
 
