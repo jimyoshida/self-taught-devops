@@ -479,3 +479,13 @@
   * Open vSwitch <https://www.openvswitch.org/>
   * DPDK <https://www.dpdk.org/>
   * FD.io <https://fd.io/>
+
+## FinOps
+
+* FinOps principles <https://www.finops.org/framework/principles/>
+* Tools
+  * FinOps toolkit <https://microsoft.github.io/finops-toolkit/>
+  * AWS Cost Explorer <https://aws.amazon.com/aws-cost-management/aws-cost-explorer/>
+  * OpenCost <https://www.opencost.io/>
+  * Karpenter <https://karpenter.sh/>
+  * Cloud Custodian <https://cloudcustodian.io/>

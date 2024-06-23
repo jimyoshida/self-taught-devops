@@ -158,6 +158,7 @@
   * Graphviz <https://graphviz.org/>
     * DOT language <https://graphviz.org/doc/info/lang.html>
     * haphviz <https://hackage.haskell.org/package/haphviz>
+  * ditaa <https://github.com/stathissideris/ditaa> - a small command-line utility that can convert diagrams drawn using ascii art into proper bitmap graphics
 
 ## Document site generators
 
@@ -175,10 +176,11 @@
 * Troff/Groff <https://www.gnu.org/software/groff/>
 * Asciidoc <https://asciidoc.org/>
   * Asciidoctor <https://asciidoctor.org/>
-* LaTeX <https://www.latex-project.org/>
-  * TexLive <https://tug.org/texlive/>
-  * KaTeX <https://katex.org/> - The fastest math typesetting library for the web
-    * sphinxcontrib-katex <https://sphinxcontrib-katex.readthedocs.io/en/>
+* LaTeX <https://www.latex-project.org/> - A document preparation system
+  * TexLive <https://tug.org/texlive/> - A cross-platform, free software distribution for the TeX typesetting system
+  * PGF/TikZ <https://github.com/pgf-tikz/pgf> - A TeX macro package for generating graphics
+* KaTeX <https://katex.org/> - The fastest math typesetting library for the web
+  * sphinxcontrib-katex <https://sphinxcontrib-katex.readthedocs.io/en/>
 
 ## Non-profit organizations
 
@@ -231,16 +233,6 @@
 * Net present value <https://en.wikipedia.org/wiki/Net_present_value>
 * ...
 
-## FinOps
-
-* FinOps principles <https://www.finops.org/framework/principles/>
-* Tools
-  * FinOps toolkit <https://microsoft.github.io/finops-toolkit/>
-  * AWS Cost Explorer <https://aws.amazon.com/aws-cost-management/aws-cost-explorer/>
-  * OpenCost <https://www.opencost.io/>
-  * Karpenter <https://karpenter.sh/>
-  * Cloud Custodian <https://cloudcustodian.io/>
-
 ## Economics
 
 * Braess's paradox <https://en.wikipedia.org/wiki/Braess%27s_paradox>
@@ -277,12 +269,14 @@
 
 ## Interactive computing environment
 
+* Org Mode <https://orgmode.org/> - Your life in plain text
+  * Babel <https://orgmode.org/worg/org-contrib/babel/> - Active Code in Org
+  * org-ai <https://github.com/rksm/org-ai> - Emacs as your personal AI assistant
 * JupyterLab <https://jupyter.org/> - web-based interactive development environment for notebooks, code, and data
 * Jupiter Notebook <https://jupyter.org/> - the original web application for creating and sharing computational documents
 * BeakerX <http://beakerx.com/> - a collection of kernels and extensions to the Jupyter interactive computing environment
-* Org Mode <https://orgmode.org/> - Your life in plain text
 
-## Scientific computing
+## Numeric or scientific computing
 
 * Python <https://www.python.org/>
   * NumPy <https://numpy.org/> - The fundamental package for scientific computing with Python
@@ -295,13 +289,14 @@
 ## Data visualization
 
 * Tools and libraries
-  * gnuplot <http://gnuplot.info/>
-  * matplotlib <https://matplotlib.org/>
+  * gnuplot <http://gnuplot.info/> - A portable command-line driven graphing utility
+  * matplotlib <https://matplotlib.org/> - A comprehensive library for creating static, animated, and interactive visualizations in Python
     * seaborn <https://seaborn.pydata.org/>
   * Vega <https://vega.github.io/vega/>
   * Vega-Lite <https://vega.github.io/vega-lite/>
   * D3 <https://d3js.org/>
   * GeoLite2 <https://dev.maxmind.com/geoip/geolite2-free-geolocation-data> - free geolocation data
+  * Kibana <https://www.elastic.co/kibana>
 * Views
   * Histgram <https://en.wikipedia.org/wiki/Histogram>
   * Heat map <https://en.wikipedia.org/wiki/Heat_map>

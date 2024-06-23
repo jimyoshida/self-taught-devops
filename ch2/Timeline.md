@@ -12,6 +12,15 @@ Etablished: 1969
 
 ### 1970s
 
+The File Transfer Protocol (FTP) is a standard communication protocol used for the transfer of computer files from a server to a client on a computer network.
+Introduction: April 16, 1971
+
+mail is a command-line email client for Unix and Unix-like operating systems.
+Initial release: November 3, 1971
+
+In 1971 the first ARPANET network mail was sent, introducing the now-familiar address syntax with the '@' symbol designating the user's system address.
+Over a series of RFCs, conventions were refined for sending mail messages over the File Transfer Protocol.
+
 In 1973, Version 4 Unix was rewritten in the higher-level language C, contrary to the general notion at the time that an operating system's complexity and sophistication required it to be written in assembly language.
 
 TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network.
@@ -31,6 +40,8 @@ IPv4 is described in RFC 791 (1981).
 In March 1982, the US Department of Defense declared TCP/IP as the standard for all military computer networking.
 
 The migration of the ARPANET from NCP to TCP/IP was officially completed on flag day January 1, 1983, when the new protocols were permanently activated.
+
+The Simple Mail Transfer Protocol (SMTP) protocol was implemented on the ARPANET in 1983.
 
 The Portable Operating System Interface (POSIX) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems. POSIX defines both the system- and user-level application programming interfaces (API).
 Started: 1988

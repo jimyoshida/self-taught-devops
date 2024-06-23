@@ -79,20 +79,20 @@
 
 * Public Key Infrastructure (PKI) <https://en.wikipedia.org/wiki/Public_key_infrastructure>
 * TLS (Transport Layer Security) <https://en.wikipedia.org/wiki/Transport_Layer_Security>
-* OpenSSL <https://www.openssl.org/>
+  * OpenSSL <https://www.openssl.org/>
+  * stunnnel <https://www.stunnel.org/>
 * Secure Shell (SSH) <https://en.wikipedia.org/wiki/Secure_Shell>
-* OpenSSH <https://www.openssh.com/> / SSH Tunnelling
-* mosh <https://mosh.org/>
-* keychain <https://www.funtoo.org/Funtoo:Keychain>
+  * OpenSSH <https://www.openssh.com/>
+  * Python Paramiko <https://www.paramiko.org/>
+  * Python Fablic <https://www.fabfile.org/>
+  * mosh <https://mosh.org/>
 * OpenPGP/GPG <https://gnupg.org/>
+* keychain <https://www.funtoo.org/Funtoo:Keychain>
 * TOTP (Time-Based One-Time Password) <https://en.wikipedia.org/wiki/Time-based_one-time_password>
-* stunnnel <https://www.stunnel.org/>
 * Network firewall
   * netfilter <https://www.netfilter.org/index.html>
     * iptables <https://man7.org/linux/man-pages/man8/iptables.8.html>
   * ubuntu ufw <https://help.ubuntu.com/community/UFW>
-* Security policy definition
-  * security.txt <https://securitytxt.org/>
 * charm_Wish <https://github.com/charmbracelet/wish> - an ssh app library
 * charm_Wishlist <https://github.com/charmbracelet/wishlist> - the ssh directory
 
@@ -224,6 +224,8 @@
 * OSV (Open Source Vulnerability) <https://osv.dev/>
 * SSVC (Stakeholder-Specific Vulnerability Categorization) <https://www.cisa.gov/stakeholder-specific-vulnerability-categorization-ssvc>
 * KEV (Known Exploited Vulnerabilities) <https://www.cisa.gov/known-exploited-vulnerabilities-catalog>
+* Security policy definition
+  * security.txt <https://securitytxt.org/>
 * Major malicious exploit types
   * XSS (Cross-site scripting) <https://en.wikipedia.org/wiki/Cross-site_scripting>
   * CSRF (Cross-site request forgery) <https://en.wikipedia.org/wiki/Cross-site_request_forgery>
@@ -264,3 +266,5 @@
 * FIPS 140-2 (Security Requirements for Cryptographic Modules) <https://en.wikipedia.org/wiki/FIPS_140-2>
 * Libraries
   * PyCryptodome <https://www.pycryptodome.org/>
+  * Python cryptography <https://cryptography.io/en/latest/>
+  * Go Cryptography <https://pkg.go.dev/golang.org/x/crypto>
