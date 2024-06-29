@@ -1,4 +1,4 @@
-# Class 0A: Data Engineering
+# Class 5: Data Engineering
 
 ## Timeline
 
@@ -70,6 +70,9 @@ Initial release: June 2007
 Amazon Relational Database Service (or Amazon RDS) is a distributed relational database service by Amazon Web Services (AWS).
 Amazon RDS was first released on 22 October 2009, supporting MySQL databases. This was followed by support for Oracle Database in June 2011, Microsoft SQL Server in May 2012, PostgreSQL in November 2013.
 
+MariaDB is a community-developed, commercially supported fork of the MySQL relational database management system (RDBMS), intended to remain free and open-source software under the GNU General Public License.
+Initial release: 29 October 2009
+
 ### 2010s
 
 Keras is an open-source software library that provides a Python interface for artificial neural networks. Keras acts as an interface for the TensorFlow library.
@@ -104,10 +107,17 @@ Released: Aug 10, 2021
 
 On May 11, 2022, Google unveiled LaMDA 2, the successor to LaMDA, during the 2022 Google I/O keynote.
 
+PaLM (Pathways Language Model) is a 540 billion parameter transformer-based large language model developed by Google AI.
+The model was first announced in April 2022 and remained private until March 2023, when Google launched an API for PaLM and several other technologies.
+
 ChatGPT (Chat Generative Pre-trained Transformer) is an artificial-intelligence (AI) chatbot developed by OpenAI and launched in November 2022. It is built on top of OpenAI's GPT-3.5 and GPT-4 families of large language models (LLMs) and has been fine-tuned (an approach to transfer learning) using both supervised and reinforcement learning techniques.
 
 On February 7, 2023, Microsoft announced a major overhaul to Bing including the addition of chatbot functionality marketed as "the new Bing".
 
+Llama (acronym for Large Language Model Meta AI, and formerly stylized as LLaMA) is a family of autoregressive large language models (LLMs) released by Meta AI starting in February 2023.
+
 Bard is a conversational artificial intelligence chatbot developed by Google, based on the LaMDA family of large language models. It was developed as a response to the rise of OpenAI's ChatGPT, and was released in a limited capacity in March 2023 to lukewarm responses.
 
 The original release of ChatGPT was based on GPT-3.5. A version based on GPT-4, the newest OpenAI model, was released on March 14, 2023, and is available for paid subscribers on a limited basis.
+
+Google Gemini is a family of multimodal large language models developed by Google DeepMind, serving as the successor to LaMDA and PaLM 2. Comprising Gemini Ultra, Gemini Pro, Gemini Flash, and Gemini Nano, it was announced on December 6, 2023, positioned as a competitor to OpenAI's GPT-4.

@@ -1,4 +1,4 @@
-# Class 2: System Administration
+# Class 2: System Engineering
 
 ## Timeline
 
@@ -86,6 +86,10 @@ Linux version 2.4.0, released on 4 January 2001, contained support for ISA Plug 
 VMware ESXi (formerly ESX) is an enterprise-class, type-1 hypervisor developed by VMware for deploying and serving virtual computers.
 Initial release: March 23, 2001
 
+CruiseControl is a Java-based framework for a continuous build process.
+CruiseControl is free, open-source software, distributed under a BSD-style license. It was one of the first of its kind of software.
+Initial release: March 30, 2001
+
 VMware Server (formerly VMware GSX Server) is a discontinued free-of-charge virtualization-software server suite developed and supplied by VMware, Inc.
 In 2001, both the product version ESX 1.0 and GSX 1.0 were launched where ESX happens to be Type1 and GSX was Type2 Hypervisor.
 [Reference](https://www.google.co.jp/books/edition/Handbook_of_Cloud_Computing/ICiwDwAAQBAJ)
@@ -111,6 +115,10 @@ Initial release: Ubuntu 4.10 (Warty Warthog) / 20 October 2004
 
 Unionfs is a filesystem service for Linux, FreeBSD and NetBSD which implements a union mount for other file systems. It allows files and directories of separate file systems, known as branches, to be transparently overlaid, forming a single coherent file system.
 Unionfs 1.0.2 release: 2004-11-09
+
+Hudson is a discontinued continuous integration (CI) tool written in Java, which runs in a servlet container such as Apache Tomcat or the GlassFish application server.
+Hudson became a popular alternative to CruiseControl and other open-source build servers in 2008.
+Initial release: 1.0 / 7 February 2005
 
 collectd is a Unix daemon that collects, transfers and stores performance data of computers and network equipment.
 Initial release: July 8, 2005
@@ -167,6 +175,10 @@ systemd is a software suite that provides an array of system components for Linu
 Lennart Poettering and Kay Sievers, the software engineers working for Red Hat who initially developed systemd, started a project to replace Linux's conventional System V init in 2010.
 Initial release: 30 March 2010
 
+Jenkins is an open source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous delivery.
+The Jenkins project was originally named Hudson, and was renamed in 2011 after a dispute with Oracle.
+Initial release: 2 February 2011
+
 Chocolatey is a machine-level, command-line package manager and installer for Windows software. It uses the NuGet packaging infrastructure and Windows PowerShell to simplify the process of downloading and installing software.
 Initial release: 23 March 2011
 
@@ -185,6 +197,8 @@ On April 15, 2013, it was announced that the Xen Project was moved under the aus
 
 InfluxDB is an open-source time series database (TSDB) developed by the company InfluxData.
 Initial release: 24 September 2013
+
+On November 13, 2013, Microsoft announced the release of a software as a service offering of Visual Studio on Microsoft Azure platform; at the time, Microsoft called it Visual Studio Online.
 
 In 2013, adequate containers support functionality was finished in kernel version 3.8 with the introduction of User namespaces.
 
@@ -219,6 +233,8 @@ The Serverless Framework is a free and open-source web framework written using N
 Serverless is developed by Austen Collins and maintained by a full-time team.
 Initial release: October 2015
 
+On November 18, 2015, Microsoft announced that Visual Studio Online was rebranded as "Visual Studio Team Services (VSTS)".
+
 In February 2016 Helm package manager for Kubernetes was released.
 
 On April 20, 2016, Jenkins version 2 was released with the Pipeline plugin enabled by default. The plugin allows for writing build instructions using a domain specific language based on Apache Groovy.
@@ -237,6 +253,8 @@ On November 6, 2017, Amazon announced the new C5 family of instances that were b
 On June 5, 2018, AWS Elastic Kubernetes Service (EKS) available in the US East (N. Virginia) and US West (Oregon) Regions.
 
 On June 13, 2018, Microsoft announced the general availability of the Azure Kubernetes Service (AKS).
+
+On September 10, 2018, Microsoft announced another rebranding of VSTS, this time to "Azure DevOps Services".
 
 In January 2019, Linuxbrew was merged back into Homebrew, adding beta support for Linux and the Windows Subsystem for Linux to the Homebrew feature set.
 

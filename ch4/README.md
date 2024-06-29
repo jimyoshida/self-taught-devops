@@ -114,25 +114,33 @@
   * certbot <https://certbot.eff.org/>
 * AWS Certificate Manager <https://aws.amazon.com/certificate-manager/>
 
-## SAST, SCA and CSPM
+## SAST and other static analysys
 
 * Static application security test (SAST)
   * SonarQube <https://www.sonarqube.org/>
-    * SQALE method <http://sqale.org/>
-  * trivy <https://aquasecurity.github.io/trivy/>
   * fluid attacks <https://docs.fluidattacks.com/tech/scanner/plans/foss/>
+  * GitLab SAST <https://docs.gitlab.com/ee/user/application_security/sast/index.html>
+  * trivy <https://aquasecurity.github.io/trivy/>
+  * checkov <https://www.checkov.io/> - Policy-as-code for everyone
+  * Haskell Dockerfile Linter <https://github.com/hadolint/hadolint#readme>
+  * kube-score <https://kube-score.com/>
+  * kubesec <https://kubesec.io/>
+  * Semgrep OSS <https://github.com/semgrep/semgrep>
+* Secret detection
+  * trivy <https://aquasecurity.github.io/trivy/>
+  * GitLab Secret Detection <https://docs.gitlab.com/ee/user/application_security/secret_detection/>
   * Whispers <https://github.com/Skyscanner/whispers>
   * Gitleaks <https://gitleaks.io/>
   * Talisman <https://thoughtworks.github.io/talisman/>
-  * Grype <https://github.com/anchore/grype>
-  * trivy <https://aquasecurity.github.io/trivy/>
-  * Clair <https://github.com/quay/clair>
-  * kube-score <https://kube-score.com/>
-  * checkov <https://www.checkov.io/>
 * Software composition analysis (SCA)
   * Syft <https://github.com/anchore/syft>
   * OWASP CycloneDX <https://cyclonedx.org>
   * SPDX <https://spdx.dev/>
+* Vulnerability static analysys
+  * trivy <https://aquasecurity.github.io/trivy/>
+  * Grype <https://github.com/anchore/grype>
+  * Clair <https://github.com/quay/clair>
+  * GitLab Container Scanning <https://docs.gitlab.com/ee/user/application_security/container_scanning/>
 * Cloud security posture management (CSPM)
   * Microsoft Defender for Cloud <https://azure.microsoft.com/en-us/services/defender-for-cloud/>
   * AWS Security Hub <https://aws.amazon.com/security-hub/>
@@ -161,6 +169,7 @@
 * git-secret <https://git-secret.io/>
 * Sealed Secrets <https://sealed-secrets.netlify.app>
 * Azure Key Vault <https://azure.microsoft.com/en-us/services/key-vault/>
+* GCP Secret Manager <https://cloud.google.com/security/products/secret-manager>
 * AWS KMS <https://aws.amazon.com/kms/>
 * AWS Secrets Manager <https://aws.amazon.com/secrets-manager/>
 * pass <https://www.passwordstore.org/> - the standard unix password manager
@@ -201,6 +210,7 @@
 * CWE (Common Weakness Enumeration) <https://cwe.mitre.org/>
 * CWE/SANS TOP 25 <https://www.sans.org/top25-software-errors/>
 * OWASP Top 10 <https://owasp.org/www-project-top-ten/>
+  * OWASP Top 10 for LLM <https://owasp.org/www-project-top-10-for-large-language-model-applications/>
 * OWASP ASVS <https://owasp.org/www-project-application-security-verification-standard/>
 * Cloud Application Security Assessment (CASA) <https://appdefensealliance.dev/casa>
 * WASC Threat Classification <http://projects.webappsec.org/w/page/13246978/Threat%20Classification>
@@ -221,6 +231,8 @@
 * NVD (U.S. National Vulnerability Database) <https://nvd.nist.gov/>
   * CVSS (Common Vulnerability Scoring System) <https://nvd.nist.gov/vuln-metrics/cvss>
 * CVE (Common Vulnerabilities and Exposures) <https://cve.mitre.org/cve/>
+* OVAL (Open Vulnerability and Assessment Language) <https://oval.mitre.org/>
+* STIX (Structured Threat Information Expression) <https://oasis-open.github.io/cti-documentation/stix/intro> - A language and serialization format used to exchange cyber threat intelligence
 * OSV (Open Source Vulnerability) <https://osv.dev/>
 * SSVC (Stakeholder-Specific Vulnerability Categorization) <https://www.cisa.gov/stakeholder-specific-vulnerability-categorization-ssvc>
 * KEV (Known Exploited Vulnerabilities) <https://www.cisa.gov/known-exploited-vulnerabilities-catalog>

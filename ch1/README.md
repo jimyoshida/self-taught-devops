@@ -1,4 +1,4 @@
-# Class 1: Programming
+# Class 1: Software Engineering
 
 [Show timeline](./Timeline.md)
 
@@ -71,11 +71,12 @@
   * PowerShell <https://docs.microsoft.com/en-us/powershell/>
   * nushell <https://www.nushell.sh/>
 * Shell utilities
-  * coreutils <https://www.gnu.org/software/coreutils/> -- fileutils+textutils+shellutils
+  * coreutils <https://www.gnu.org/software/coreutils/> = fileutils+textutils+shellutils
   * starship <https://starship.rs/>
   * bash-completion <https://github.com/scop/bash-completion>
   * GNU parallel <https://www.gnu.org/software/parallel/>
   * rlwrap <https://github.com/hanslub42/rlwrap>
+  * charm_mods <https://github.com/charmbracelet/mods> - AI on the command line
 * Terminals
   * Terminator <https://gnome-terminator.org>
   * Windows Terminal <https://github.com/microsoft/terminal>
@@ -86,6 +87,7 @@
   * tmux <https://github.com/tmux/tmux/wiki>
   * byobu <https://www.byobu.org/>
   * zellij <https://zellij.dev/>
+  * asciinema <https://asciinema.org/> - recording terminal sessions and sharing them on the web
 * Terminal fonts
   * Noto Fonts <https://fonts.google.com/noto>
   * Nerd Fonts <https://www.nerdfonts.com/>
@@ -137,25 +139,23 @@
   * Python import system <https://docs.python.org/3/reference/import.html>
   * Go Modules <https://go.dev/wiki/Modules>
 * Tools
-  * npm <https://www.npmjs.com/>
+  * npm CLI <https://www.npmjs.com/>
   * yarn <https://yarnpkg.com/>
   * pnpm <https://pnpm.io>
   * pip <https://pip.pypa.io/>
-    * PyPI <https://pypi.org/>
   * go mod <https://pkg.go.dev/cmd/go>
   * cpanminus <https://metacpan.org/pod/App::cpanminus>
   * bpkg <https://bpkg.sh/bpkg/>
   * cargo <https://doc.rust-lang.org/stable/cargo/>
-    * crates.io <https://crates.io/>
-  * RubyGems <https://rubygems.org/>
-  * nuget <https://www.nuget.org/>
+  * RubyGems CLI <https://rubygems.org/>
+  * NuGet CLI <https://www.nuget.org/>
   * stack <https://docs.haskellstack.org/en/stable/>
-    * Stackage <https://www.stackage.org/>
   * Gradle <https://gradle.org/>
   * Maven <https://maven.apache.org/>
-* Private repositories
+* Private package registries
+  * GitLab Package Registry <https://docs.gitlab.com/ee/user/packages/package_registry/index.html>
+  * GitHub Packages <https://github.com/features/packages>
   * Nexus Repository Manager 3 <https://help.sonatype.com/repomanager3>
-  * Jfrog Artifactory <https://jfrog.com/artifactory/>
   * Azure Artifacts <https://learn.microsoft.com/en-us/azure/devops/artifacts/>
 * Conventions
   * Semantic Versioning <https://semver.org/>
@@ -186,14 +186,14 @@
 * degit <https://github.com/Rich-Harris/degit>
 * lazygit <https://github.com/jesseduffield/lazygit>
 * charm_Soft Serve <https://github.com/charmbracelet/soft-serve> - a self-hostable Git server
-* Hosted-services
+* git cliff <https://git-cliff.org/> - A highly customizable changelog generator
+* Source code management services
   * GitHub <https://github.com/>
   * GitLab SCM <https://about.gitlab.com/>
   * Azure Repos <https://learn.microsoft.com/en-us/azure/devops/repos/>
 * Conventions
   * keep a changelog <https://keepachangelog.com/>
   * Conventional Commits <https://www.conventionalcommits.org/>
-    * git cliff <https://git-cliff.org/> - A highly customizable changelog generator
 
 ## Design principles and practices
 
@@ -212,7 +212,10 @@
   * 33 JS Concepts <https://github.com/leonardomso/33-js-concepts>
   * Callback Hell <http://callbackhell.com/>
   * Effective Go <https://golang.org/doc/effective_go.html>
-* Linters
+* Code quality
+  * SonarQube <https://www.sonarqube.org/>
+    * SQALE method <http://sqale.org/>
+  * GitLab Code Quality <https://docs.gitlab.com/ee/ci/testing/code_quality.html>
   * ESLint <https://eslint.org/>
   * JSHint <https://jshint.com/about/>
   * Ruff <https://docs.astral.sh/ruff/>
@@ -225,14 +228,20 @@
   * VS Code <https://code.visualstudio.com/>
     * GitLens <https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens>
     * Git Graph <https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph>
-  * Cursor <https://cursor.sh/>
   * Vim <https://www.vim.org/>
+    * NERDTree <https://github.com/preservim/nerdtree>
   * Neovim <https://neovim.io/>
+    * Neo-tree.nvim <https://github.com/nvim-neo-tree/neo-tree.nvim>
   * GNU Emacs <https://www.gnu.org/software/emacs/>
+    * neotree <https://github.com/jaypei/emacs-neotree>
+    * Magit <https://magit.vc/>
+    * Treemacs <https://github.com/Alexander-Miller/treemacs>
+  * Spacemacs <https://www.spacemacs.org/#> - A community-driven Emacs distribution
   * Eclipse IDE <https://eclipseide.org/>
-* Editors
-  * MarkText <https://github.com/marktext/marktext>
-  * Notepad++ <https://notepad-plus-plus.org/>
+* AI assistance
+  * GitHub Copilot <https://github.com/features/copilot/>
+  * CodeGPT <https://www.codegpt.co/>
+  * Cursor <https://cursor.sh/>
 * Formatters
   * EditorConfig <https://editorconfig.org/>
   * Prettier <https://prettier.io/>
@@ -382,6 +391,8 @@
   * viper <https://github.com/spf13/viper> - Go configuration with fangs
 * Ruby
   * TTY <https://ttytoolkit.org/>
+* Rust
+  * Ratatui <https://ratatui.rs/>
 
 ## Program execution and toolkits
 
@@ -431,7 +442,6 @@
 
 ## Unit test and coverage tools
 
-* Test Anything Protocol <http://testanything.org/>
 * Bash
   * Bats-core <https://bats-core.readthedocs.io/en/stable/>
   * shUnit2 <https://github.com/kward/shunit2>
@@ -457,6 +467,8 @@
   * Ginkgo <https://onsi.github.io/ginkgo/> (BDD style)
     * Gomega <https://onsi.github.io/gomega/>
 * Others
+  * Test Anything Protocol <http://testanything.org/>
+  * GitLab Code Coverage <https://docs.gitlab.com/ee/ci/testing/code_coverage.html>
   * JUnit <https://junit.org/junit5/>
   * xUnit.net <https://xunit.net/>
   * cobertura <https://cobertura.github.io/cobertura/>

@@ -1,4 +1,4 @@
-# Class 1: Programming
+# Class 1: Software Engineering
 
 ## Timeline
 
@@ -205,7 +205,7 @@ James Strachan first talked about the development of Groovy on his blog in Augus
 Sun released the Java HotSpot virtual machine and compiler as free software under the GNU General Public License on November 13, 2006, with a promise that the rest of the JDK (which includes the Java Runtime Environment) would be placed under the GPL by March 2007.
 
 Rake is a Make-like program implemented in Ruby. Tasks and dependencies are specified in standard Ruby syntax.
-Version 0.7.3 (Github oldest tag) release: 21 Apr 2007
+Version 0.7.3 (GitHub oldest tag) release: 21 Apr 2007
 
 OpenJDK (Open Java Development Kit) is a free and open-source implementation of the Java Platform, Standard Edition (Java SE). It is the result of an effort Sun Microsystems began in 2006.
 The OpenJDK project produces a number of components: most importantly the virtual machine (HotSpot), the Java Class Library and the Java compiler (javac).

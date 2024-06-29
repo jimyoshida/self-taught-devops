@@ -1,4 +1,4 @@
-# Class 2: System Administration
+# Class 2: System Engineering
 
 [Show timeline](./Timeline.md)
 
@@ -22,6 +22,8 @@
 * loop device <https://en.wikipedia.org/wiki/Loop_device>
 * virtual memory <https://en.wikipedia.org/wiki/Virtual_memory>
   * memory paging <https://en.wikipedia.org/wiki/Memory_paging>
+  * resident set size (RSS) <https://en.wikipedia.org/wiki/Resident_set_size>
+  * working set size (WSS) <https://en.wikipedia.org/wiki/Working_set_size>
 * shared memory <https://en.wikipedia.org/wiki/Shared_memory>
 
 ## IP network fundamentals
@@ -157,6 +159,7 @@
 * Hashicorp Packer <https://packer.io/>
 * cloud-init <https://cloud-init.io/>
 * Hashicorp Terraform <https://www.terraform.io/>
+  * GitLab-managed Terraform state <https://docs.gitlab.com/ee/user/infrastructure/iac/terraform_state.html>
   * tf.libsonnet <https://docs.tflibsonnet.com/>
   * terraform-docs <https://terraform-docs.io/>
   * Terraformer <https://github.com/GoogleCloudPlatform/terraformer>
@@ -164,6 +167,7 @@
 * Serverless Framework <https://serverless.com/>
 * AWS CloudFormation <https://aws.amazon.com/cloudformation/>
 * AWS Cloud Development Kit <https://aws.amazon.com/cdk/>
+* AWS Serverless Application Model <https://aws.amazon.com/serverless/sam/>
 * Azure Resource Manager <https://docs.microsoft.com/en-us/azure/azure-resource-manager/>
   * Bicep language <https://github.com/Azure/bicep>
 * Pulumi <https://www.pulumi.com/>
@@ -185,13 +189,13 @@
   * kaniko <https://github.com/GoogleContainerTools/kaniko>
   * lazydocker <https://github.com/jesseduffield/lazydocker>
   * dive <https://github.com/wagoodman/dive>
-  * Haskell Dockerfile Linter <https://github.com/hadolint/hadolint#readme>
 * Container registries
   * Docker Hub <https://docs.docker.com/docker-hub/>
+  * GitLab Container Registry <https://docs.gitlab.com/ee/user/packages/container_registry/index.html>
+  * Nexus Repository Manager 3 <https://help.sonatype.com/repomanager3>
   * Amazon ECR <https://aws.amazon.com/ecr/>
   * Azure Container Registry <https://azure.microsoft.com/en-us/services/container-registry/>
-  * Nexus Repository Manager 3 <https://help.sonatype.com/repomanager3>
-  * Jfrog Artifactory <https://jfrog.com/artifactory/>
+  * Harbor <https://goharbor.io/> - an open source registry that secures artifacts with policies and role-based access control
 
 ## Domain name system and Email
 
@@ -317,7 +321,8 @@
 * Jenkins <https://www.jenkins.io/>
   * Blue Ocean for Jenkins Pipelines <https://www.jenkins.io/projects/blueocean/>
   * Python Jenkins <https://opendev.org/jjb/python-jenkins>
-* Gitlab CI/CD <https://docs.gitlab.com/ee/ci/>
+* GitLab CI/CD <https://docs.gitlab.com/ee/ci/>
+* GitHub Actions <https://github.com/features/actions>
 * Concourse CI <https://concourse-ci.org/>
 * Azure Pipelines <https://learn.microsoft.com/en-us/azure/devops/pipelines/>
 * GitOps
@@ -328,30 +333,22 @@
   * KubeVela <https://kubevela.io/>
   * Flagger <https://flagger.app/>
 
-## System observation tools
+## System data collection
 
 * Metrics
   * Promethus <https://prometheus.io/>
-    * PromQL <https://prometheus.io/docs/prometheus/latest/querying/basics/>
-    * promtool <https://prometheus.io/docs/prometheus/latest/command-line/promtool/>
     * node-exporter <https://prometheus.io/docs/guides/node-exporter/>
     * blackbox-exporter <https://github.com/prometheus/blackbox_exporter>
-    * Alertmanager <https://prometheus.io/docs/alerting/latest/alertmanager/>
-      * amtool <https://github.com/prometheus/alertmanager/tree/main?tab=readme-ov-file#amtool>
-  * Grafana Mimir <https://grafana.com/oss/mimir/>
-  * InfluxDB <https://www.influxdata.com/products/influxdb-overview/>
-    * influx cli <https://docs.influxdata.com/influxdb/cloud/reference/cli/influx/>
   * Telegraf <https://www.influxdata.com/time-series-platform/telegraf/>
+  * Metricbeat <https://www.elastic.co/beats/metricbeat>
   * atop <https://github.com/Atoptool/atop#atop>
   * nmon <https://nmon.sourceforge.net/pmwiki.php>
   * sysstat <https://sysstat.github.io/>
     * iostat <https://man7.org/linux/man-pages/man1/iostat.1.html>
   * smem <https://www.selenic.com/smem/>
 * Logs
-  * Grafana Loki <https://grafana.com/oss/loki/>
-    * LogQL <https://grafana.com/docs/loki/latest/logql/>
-    * LogCLI <https://grafana.com/docs/loki/latest/query/logcli/>
-    * promtail <https://grafana.com/docs/loki/latest/clients/promtail/>
+  * promtail <https://grafana.com/docs/loki/latest/clients/promtail/>
+  * Filebeat <https://www.elastic.co/beats/filebeat>
   * Logstash <https://www.elastic.co/logstash>
   * Fluentd <https://www.fluentd.org/>
   * Fluent Bit <https://fluentbit.io/>
@@ -359,22 +356,10 @@
   * systemd-journald <https://man7.org/linux/man-pages/man8/systemd-journald.service.8.html>
     * journalctl <https://man7.org/linux/man-pages/man1/journalctl.1.html>
 * Traces
-  * Grafana Tempo <https://grafana.com/oss/tempo/>
-    * TraceQL <https://grafana.com/docs/tempo/latest/traceql/>
   * OpenTelemetry <https://opentelemetry.io/>
-* Universal
-  * Grafana <https://grafana.com/>
-    * Grafonnet <https://grafana.github.io/grafonnet-lib/>
-  * Kibana <https://www.elastic.co/kibana>
-    * Kibana Query Language <https://www.elastic.co/guide/en/kibana/current/kuery-query.html>
-  * ElasticSearch <https://www.elastic.co/elasticsearch/>
-    * Elastic Common Schema <https://www.elastic.co/guide/en/ecs/current/index.html>
-  * Beats <https://www.elastic.co/beats/>
-  * Azure Monitor <https://docs.microsoft.com/en-us/azure/azure-monitor/overview>
-    * App Insights <https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview>
-    * Kusto Query Language <https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/>
-  * AWS CloudWatch <https://aws.amazon.com/cloudwatch/>
-  * Datadog <https://www.datadoghq.com/>
+* Integrated
+  * Azure Monitor Agent <https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agents-overview>
+  * Cloudwatch Agent <https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Install-CloudWatch-Agent.html>
 
 ## Stress test and chaos engineering
 
