@@ -9,6 +9,8 @@
 * Javascript/ECMAScript <https://www.ecma-international.org/publications/standards/Ecma-262.htm>
   * XMLHttpRequest (XHR) <https://xhr.spec.whatwg.org/>
   * Fetch Standard <https://fetch.spec.whatwg.org/> (also for security)
+* OpenAPI spec <https://www.openapis.org/>
+  * Redocly CLI <https://redocly.com/> - Your all-in-one OpenAPI utility
 * REST <https://en.wikipedia.org/wiki/Representational_state_transfer>
   * ROA <https://en.wikipedia.org/wiki/Resource-oriented_architecture>
 * SOAP <https://en.wikipedia.org/wiki/SOAP>
@@ -54,6 +56,7 @@
 * NGINX <https://www.nginx.com/>
 * Apache HTTP Server <https://httpd.apache.org/>
 * nodejs http-server <https://github.com/http-party/http-server#readme>
+* GitLab Pages <https://docs.gitlab.com/ee/user/project/pages/>
 * Forward proxy / caching
   * Web cache <https://en.wikipedia.org/wiki/Web_cache>
   * CDN <https://en.wikipedia.org/wiki/Content_delivery_network>
@@ -141,7 +144,6 @@
 
 ## Frontend libraries and tools
 
-* Sass language <https://sass-lang.com/>
 * React <https://reactjs.org/>
   * JSX language <https://react.dev/learn/writing-markup-with-jsx>
   * MUI <https://mui.com/>

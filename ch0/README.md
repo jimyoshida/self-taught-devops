@@ -2,29 +2,24 @@
 
 [Show timeline](./Timeline.md)
 
-## Agile principals and practices
+## Agile development
 
 * Agile software development <https://en.wikipedia.org/wiki/Agile_software_development>
   * Agile Manifesto <https://agilemanifesto.org/>
-* Extreme Programming <http://www.extremeprogramming.org/>
-* Refactoring <https://refactoring.com/>
-* Trunk Based Development <https://trunkbaseddevelopment.com/>
-* Manifesto for Software Craftsmanship <http://manifesto.softwarecraftsmanship.org/>
-* Scrum vs Kanban vs Scrumban <https://eylean.com/scrum-vs-kanban-vs-scrumban/>
+  * Extreme Programming <http://www.extremeprogramming.org/>
+  * Refactoring <https://refactoring.com/>
+  * Trunk Based Development <https://trunkbaseddevelopment.com/>
+  * Manifesto for Software Craftsmanship <http://manifesto.softwarecraftsmanship.org/>
+* Scrum <https://www.scrum.org/learning-series/what-is-scrum/>
+* User story <https://en.wikipedia.org/wiki/User_story>
 * INVEST in Good Stories, and SMART Tasks <https://xp123.com/articles/invest-in-good-stories-and-smart-tasks/>
 * Delegation Poker <https://management30.com/practice/delegation-poker/>
 * Test-Driven Development <https://en.wikipedia.org/wiki/Test-driven_development>
 * A/B testing <https://en.wikipedia.org/wiki/A/B_testing>
-* Lean software development <https://en.wikipedia.org/wiki/Lean_software_development>
-* OKR (Objectives and Key Results) <https://en.wikipedia.org/wiki/Objectives_and_key_results>
-* NPS (Net Promoter Score) <https://en.wikipedia.org/wiki/Net_promoter_score>
-* The Reactive Manifesto <https://www.reactivemanifesto.org/>
-
-## Agile for services
-
 * Feature Toggles <https://martinfowler.com/articles/feature-toggles.html>
   * Canary Release <https://martinfowler.com/bliki/CanaryRelease.html>
 * Microservices <https://martinfowler.com/articles/microservices.html>
+* The Reactive Manifesto <https://www.reactivemanifesto.org/>
 * The twelve-factor app <https://12factor.net/>
   * Codebase: One codebase tracked in revision control, many deploys.
   * Dependencies: Explicitly declare and isolate dependencies.
@@ -43,6 +38,11 @@
   * Lead Time for Changes
   * Change Failure Rate
   * Time to Restore Service
+
+## Lean development
+
+* Lean software development <https://en.wikipedia.org/wiki/Lean_software_development>
+  * Lean manufacturing <https://en.wikipedia.org/wiki/Lean_manufacturing>
 * Toyota Production System <https://en.wikipedia.org/wiki/Toyota_Production_System>
   * Kaizen: Continuous improvement through small, incremental changes.
   * Just-in-Time (JIT): Producing and delivering parts and products only when needed, minimizing waste and inventory.
@@ -53,14 +53,25 @@
   * Andon: A visual management system that allows workers to signal problems and request assistance.
   * Muri Muda Mura: Identifying and eliminating waste, unevenness, and overburden.
 * Theory of Constraints <https://en.wikipedia.org/wiki/Theory_of_constraints>
-
-## Service reliability management
-
+* Scrumban <https://www.agilealliance.org/scrumban/>
+* OKR (Objectives and Key Results) <https://en.wikipedia.org/wiki/Objectives_and_key_results>
+* NPS (Net Promoter Score) <https://en.wikipedia.org/wiki/Net_promoter_score>
 * Site Reliability Engineering <https://landing.google.com/sre/>
-* Service Level Indicators (SLIs) and Service Level Objectives (SLOs)
+  * Service Level Indicators (SLIs) and Service Level Objectives (SLOs)
 * Dickerson’s Hierarchy of Service Reliability <https://sre.google/sre-book/part-III-practices/>
 * The Four Golden Signals <https://sre.google/sre-book/monitoring-distributed-systems/>
   * Latency, Traffic, Errors, Saturation
+
+## Generic risk management
+
+* Business continuity planning <https://en.wikipedia.org/wiki/Business_continuity_planning>
+  * IT disaster recovery <https://en.wikipedia.org/wiki/IT_disaster_recovery>
+* Financial risk management <https://en.wikipedia.org/wiki/Financial_risk_management>
+  * Value at risk <https://en.wikipedia.org/wiki/Value_at_risk>
+* Project risk management <https://en.wikipedia.org/wiki/Project_risk_management>
+* Standards
+  * ISO 22301: Security and resilience – Business continuity management systems – Requirements
+  * ISO 31000: Risk management
 
 ## Development lifecycle management
 
@@ -84,10 +95,21 @@
     * Python Jira <https://jira.readthedocs.io/>
     * JiraCLI <https://github.com/ankitpokhrel/jira-cli>
   * GitLab Issue Board <https://docs.gitlab.com/ee/user/project/issue_board.html>
+  * GitHub Issues <https://github.com/features/issues>
   * Azure Boards <https://learn.microsoft.com/en-us/azure/devops/boards/>
+  * GitLab Service Desk <https://docs.gitlab.com/ee/user/project/service_desk/>
 
 ## Technical writing
 
+* Hypertext <https://en.wikipedia.org/wiki/Hypertext>
+  * Hyperlink <https://en.wikipedia.org/wiki/Hyperlink>
+  * URL <https://url.spec.whatwg.org/>
+    * URI <https://en.wikipedia.org/wiki/Uniform_Resource_Identifier>
+* HTML <https://html.spec.whatwg.org/>
+  * rehype <https://github.com/rehypejs/rehype> - HTML processor powered by plugins
+  * DOM <https://dom.spec.whatwg.org/>
+* CSS <https://www.w3.org/Style/CSS/>
+  * Sass language <https://sass-lang.com/>
 * Style and terminology
   * Microsoft Writing Style Guide <https://learn.microsoft.com/en-us/style-guide/welcome/>
   * Google documentation style guide <https://developers.google.com/style/>
@@ -99,17 +121,6 @@
   * write-good <https://github.com/btford/write-good> - Naive linter for English prose
   * textlint <https://textlint.github.io/> - The pluggable linting tool for text and markdown
   * lychee <https://lychee.cli.rs/> - A fast, async link checker written in Rust
-
-## Hypertext
-
-* Hypertext <https://en.wikipedia.org/wiki/Hypertext>
-* Hyperlink <https://en.wikipedia.org/wiki/Hyperlink>
-* URL <https://url.spec.whatwg.org/>
-  * URI <https://en.wikipedia.org/wiki/Uniform_Resource_Identifier>
-* HTML <https://html.spec.whatwg.org/>
-  * rehype <https://github.com/rehypejs/rehype> - HTML processor powered by plugins
-* CSS <https://www.w3.org/Style/CSS/>
-* DOM <https://dom.spec.whatwg.org/>
 
 ## Lightweight documentaion
 
@@ -127,19 +138,20 @@
 ## Behavior driven development
 
 * Behavior driven development <https://en.wikipedia.org/wiki/Behavior-driven_development>
+* Use case <https://en.wikipedia.org/wiki/Use_case>
 * Specification by example <https://en.wikipedia.org/wiki/Specification_by_example>
 * Acceptance test-driven development <https://en.wikipedia.org/wiki/Acceptance_test%E2%80%93driven_development>
-* OpenAPI spec <https://www.openapis.org/>
-* Cucumber <https://cucumber.io/>
-  * Gherkin Syntax <https://cucumber.io/docs/gherkin/>
-* RSpec <https://rspec.info/> (reference)
-* Ginkgo <https://onsi.github.io/ginkgo/>
-  * Gomega <https://onsi.github.io/gomega/>
-* Vitest <https://vitest.dev>
-* Jest <https://jestjs.io/>
-* Mocha <https://mochajs.org/>
-  * Chai <https://www.chaijs.com/>
-* Behave <https://behave.readthedocs.io/en/latest/>
+* Tools
+  * Cucumber <https://cucumber.io/>
+    * Gherkin Syntax <https://cucumber.io/docs/gherkin/>
+  * RSpec <https://rspec.info/> (reference)
+  * Ginkgo <https://onsi.github.io/ginkgo/>
+    * Gomega <https://onsi.github.io/gomega/>
+  * Vitest <https://vitest.dev>
+  * Jest <https://jestjs.io/>
+  * Mocha <https://mochajs.org/>
+    * Chai <https://www.chaijs.com/>
+  * Behave <https://behave.readthedocs.io/en/latest/>
 
 ## Architecture description
 
@@ -181,6 +193,21 @@
   * PGF/TikZ <https://github.com/pgf-tikz/pgf> - A TeX macro package for generating graphics
 * KaTeX <https://katex.org/> - The fastest math typesetting library for the web
   * sphinxcontrib-katex <https://sphinxcontrib-katex.readthedocs.io/en/>
+
+## OSS repositories or registries
+
+* GitHub <https://github.com/>
+* GitLab.com <https://about.gitlab.com/>
+* CTAN <https://ctan.org/>
+* CPAN <https://www.cpan.org/>
+* CRAN <https://cran.r-project.org/>
+* PyPI <https://pypi.org/>
+* RubyGems <https://rubygems.org/>
+* npm <https://www.npmjs.com/>
+* crates.io <https://crates.io/>
+* Stackage <https://www.stackage.org/>
+* NuGet <https://www.nuget.org/>
+* MELPA <https://melpa.org/#/>
 
 ## Non-profit organizations
 
@@ -243,14 +270,20 @@
 ## Mathematics
 
 * Formal system <https://en.wikipedia.org/wiki/Formal_system>
-* Algebra <https://en.wikipedia.org/wiki/Algebra>
-* Function <https://en.wikipedia.org/wiki/Function_(mathematics)>
-* Equation <https://en.wikipedia.org/wiki/Equation>
+* Propositional calculus <https://en.wikipedia.org/wiki/Propositional_calculus>
+  * Tautology <https://en.wikipedia.org/wiki/Tautology_(logic)>
+* First order logic <https://en.wikipedia.org/wiki/First-order_logic>
+* Elementary algebra <https://en.wikipedia.org/wiki/Elementary_algebra>
+  * Equation <https://en.wikipedia.org/wiki/Equation>
 * Linear algebra <https://en.wikipedia.org/wiki/Linear_algebra>
   * Vector space <https://en.wikipedia.org/wiki/Vector_space>
   * Matrix <https://en.wikipedia.org/wiki/Matrix_(mathematics)>
   * Rank <https://en.wikipedia.org/wiki/Rank_(linear_algebra)>
   * Determinant <https://en.wikipedia.org/wiki/Determinant>
+* Function (Map) <https://en.wikipedia.org/wiki/Function_(mathematics)>
+  * NIST Digital Library of Mathematical Functions <https://dlmf.nist.gov/>
+    * Notations <https://dlmf.nist.gov/not/>
+* Differential calculus <https://en.wikipedia.org/wiki/Differential_calculus>
 * Differential equation <https://en.wikipedia.org/wiki/Differential_equation>
 * Logarithm <https://en.wikipedia.org/wiki/Logarithm>
 

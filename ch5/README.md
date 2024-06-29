@@ -1,10 +1,86 @@
-# Class 0A: Data Engineering
+# Class 5: Data Engineering
 
 [Show timeline](./Timeline.md)
 
-## Blob storage
+_work in progress._
+
+## Concepts
+
+* DIKW pyramid <https://en.wikipedia.org/wiki/DIKW_pyramid>
+* Concurrency control <https://en.wikipedia.org/wiki/Concurrency_control>
+  * ACID <https://en.wikipedia.org/wiki/ACID>
+* Codd’s Twelve Rules <https://reldb.org/c/index.php/twelve-rules/>
+* CRUD operations <https://en.wikipedia.org/wiki/Create,_read,_update_and_delete>
+
+## Monitoring data and visualization
+
+* Grafana <https://grafana.com/>
+  * Grafonnet <https://grafana.github.io/grafonnet/> - Jsonnet library for generating Grafana dashboards
+* Promethus <https://prometheus.io/>
+  * PromQL <https://prometheus.io/docs/prometheus/latest/querying/basics/>
+  * promtool <https://prometheus.io/docs/prometheus/latest/command-line/promtool/>
+* Alertmanager <https://prometheus.io/docs/alerting/latest/alertmanager/>
+  * amtool <https://github.com/prometheus/alertmanager/tree/main?tab=readme-ov-file#amtool>
+* InfluxDB <https://www.influxdata.com/products/influxdb-overview/>
+  * InfluxQL <https://docs.influxdata.com/influxdb/v1/query_language/>
+  * influx cli <https://docs.influxdata.com/influxdb/cloud/reference/cli/influx/>
+* Grafana Mimir <https://grafana.com/oss/mimir/>
+* Grafana Loki <https://grafana.com/oss/loki/>
+  * LogQL <https://grafana.com/docs/loki/latest/logql/>
+  * LogCLI <https://grafana.com/docs/loki/latest/query/logcli/>
+* Grafana Tempo <https://grafana.com/oss/tempo/>
+  * TraceQL <https://grafana.com/docs/tempo/latest/traceql/>
+* Graphite <https://grafana.com/oss/graphite/>
+* Azure Monitor <https://docs.microsoft.com/en-us/azure/azure-monitor/overview>
+  * Kusto Query Language <https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/>
+  * App Insights <https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview>
+* AWS CloudWatch <https://aws.amazon.com/cloudwatch/>
+* Datadog <https://www.datadoghq.com/>
+
+---
+
+## Relational databases
+
+* Relational model <https://en.wikipedia.org/wiki/Relational_model>
+* Structured Query Language (SQL) <https://en.wikipedia.org/wiki/SQL>
+* ODBC <https://en.wikipedia.org/wiki/Open_Database_Connectivity>
+* Object-relational mapping <https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping>
+  * Prisma <https://www.prisma.io/>
+  * Hibernate <https://hibernate.org/orm/>
+* PostgreSQL <https://www.postgresql.org/>
+  * pgAdmin <https://www.pgadmin.org/>
+  * pgBadger <https://pgbadger.darold.net/>
+* MySQL <https://www.mysql.com/>
+* MariaDB <https://mariadb.org/>
+* Amazon RDS <https://aws.amazon.com/rds/>
+* Azure SQL Database <https://azure.microsoft.com/en-us/products/azure-sql/database/>
+  * sqlcmd utility <https://learn.microsoft.com/en-us/sql/tools/sqlcmd/sqlcmd-utility>
+  * sqlpackage <https://learn.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage>
+  * SSMS <https://learn.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms>
+  * DAC <https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications>
+* Beekeeper Studio <https://www.beekeeperstudio.io/>
+* SQLite <https://www.sqlite.org/index.html>
+  * DB Browser for SQLite <https://sqlitebrowser.org/>
+
+## NoSQL databases
+
+* ElasticSearch <https://www.elastic.co/elasticsearch/>
+  * Painless <https://www.elastic.co/guide/en/elasticsearch/painless/current/index.html> - A simple, secure scripting language designed specifically for use with Elasticsearch
+  * Elastic Common Schema <https://www.elastic.co/guide/en/ecs/current/index.html>
+  * Kibana <https://www.elastic.co/kibana>
+    * Kibana Query Language <https://www.elastic.co/guide/en/kibana/current/kuery-query.html>
+* MongoDB <https://www.mongodb.com/>
+* Redis <https://redis.io/>
+* etcd <https://etcd.io/>
+* Amazon DynamoDB <https://aws.amazon.com/dynamodb/>
+* Azure Cosmos DB <https://azure.microsoft.com/en-us/products/cosmos-db/>
+* Neo4j <https://neo4j.com/>
+* Amazon Neptune <https://aws.amazon.com/neptune/>
+
+## Object storage
 
 * Object storage <https://en.wikipedia.org/wiki/Object_storage>
+* Ceph <https://ceph.com/en/> - An open-source, distributed storage system
 * Amazon S3 <https://aws.amazon.com/s3/>
 * Azure Blob Storage <https://azure.microsoft.com/en-us/services/storage/blobs/>
 
@@ -17,47 +93,6 @@
 * Azure Queue Storage <https://azure.microsoft.com/en-us/products/storage/queues/>
 * Amazon Simple Queue Service <https://aws.amazon.com/sqs/>
 * Amazon Simple Notification Service <https://aws.amazon.com/sns/>
-
-## Database fundamentals
-
-* Relational model <https://en.wikipedia.org/wiki/Relational_model>
-* First order logic <https://en.wikipedia.org/wiki/First-order_logic>
-* ER model <https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model>
-* Ontology <https://en.wikipedia.org/wiki/Ontology_(information_science)>
-* DIKW pyramid <https://en.wikipedia.org/wiki/DIKW_pyramid>
-* ORM <https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping>
-* Concurrency control <https://en.wikipedia.org/wiki/Concurrency_control>
-  * ACID <https://en.wikipedia.org/wiki/ACID>
-* ODBC <https://en.wikipedia.org/wiki/Open_Database_Connectivity>
-* JDBC <https://en.wikipedia.org/wiki/Java_Database_Connectivity>
-
-## DBMS and libraries
-
-* PostgreSQL <https://www.postgresql.org/>
-  * pgAdmin <https://www.pgadmin.org/>
-  * pgBadger <https://pgbadger.darold.net/>
-* MySQL <https://www.mysql.com/>
-* Amazon RDS <https://aws.amazon.com/rds/>
-* Azure SQL Database <https://azure.microsoft.com/en-us/products/azure-sql/database/>
-  * sqlcmd utility <https://learn.microsoft.com/en-us/sql/tools/sqlcmd/sqlcmd-utility>
-  * sqlpackage <https://learn.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage>
-  * SSMS <https://learn.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms>
-  * DAC <https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications>
-* Beekeeper Studio <https://www.beekeeperstudio.io/>
-* SQLite <https://www.sqlite.org/index.html>
-  * DB Browser for SQLite <https://sqlitebrowser.org/>
-
-## NoSQL data store
-
-* ElasticSearch <https://www.elastic.co/products/elasticsearch>
-  * Painless language <https://www.elastic.co/guide/en/elasticsearch/painless/current/index.html>
-* MongoDB <https://www.mongodb.com/>
-* Redis <https://redis.io/>
-* etcd <https://etcd.io/>
-* Amazon DynamoDB <https://aws.amazon.com/dynamodb/>
-* Azure Cosmos DB <https://azure.microsoft.com/en-us/products/cosmos-db/>
-* Neo4j <https://neo4j.com/>
-* Amazon Neptune <https://aws.amazon.com/neptune/>
 
 ---
 
@@ -129,16 +164,8 @@
 * Transformer <https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)>
 * Kuromoji <https://www.atilika.org/> - an open source Japanese morphological analyzer written in Java
 
-## Pretrained LLM
+## Generic LLMs
 
-* Codex <https://arxiv.org/abs/2107.03374>
-* InstructGPT <https://arxiv.org/abs/2203.02155>
 * GPT-4 <https://openai.com/research/gpt-4> <https://arxiv.org/abs/2303.08774>
-* LLaMA <https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/>
-
-## Coding or CLI assistant
-
-* GitHub Copilot <https://github.com/features/copilot/>
-* Visual Studio IntelliCode <https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode>
-* CodeGPT <https://www.codegpt.co/>
-* charm_mods <https://github.com/charmbracelet/mods>
+* Llama <https://llama.meta.com/> <https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/>
+* Gemini <https://gemini.google.com/>
