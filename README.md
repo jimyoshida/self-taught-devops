@@ -2,8 +2,8 @@
 
 Welcome to this site, a comprehensive collection of essential concepts, useful technologies, and techniques curated specifically for DevOps engineers.
 
-While the continuous delivery becomes a focal point within the DevOps practice, designing a truly efficient system to drive continuous improvement requires a broader range of knowledge.
-So, this collection contains all such relevant items for learning.
+While the continuous delivery becomes a focal point within the DevOps practice, it will require a broader range of knowledge to develop and operate truly effective systems.
+Thus, this site assembles all such relevant domains - BizDataMLDevSecOps.
 
 Also, to understand the background of the technologies etc., each section contains the timeline of them. The descriptions are mainly quoted from the [Wikipedia English version](https://en.wikipedia.org/wiki/Main_Page) unless other references are noted.
 
@@ -28,9 +28,10 @@ The contents consist of the following 6 classes.
 
 ## Backlogs
 
+- Assign class numbers like [Nippon Decimal Classification](https://en.wikipedia.org/wiki/Nippon_Decimal_Classification)
+- Make the docusaurus site and host it
 - Reconsider about the license
-- Add brief explanations on the sections and software items
-- Make a script to generate mindmaps via plantuml code
+- Add brief explanations on each section and item
 - Make a document of how to use the Makefile
 
 ## License
