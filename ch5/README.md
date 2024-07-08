@@ -4,19 +4,92 @@
 
 _work in progress._
 
-## Concepts
+## Data science concepts
 
+* Data <https://en.wikipedia.org/wiki/Data_(computer_science)>
+* Data warehouse <https://en.wikipedia.org/wiki/Data_warehouse>
+  * ETL <https://en.wikipedia.org/wiki/Extract,_transform,_load>
+* Data lake <https://en.wikipedia.org/wiki/Data_lake>
 * DIKW pyramid <https://en.wikipedia.org/wiki/DIKW_pyramid>
 * Concurrency control <https://en.wikipedia.org/wiki/Concurrency_control>
   * ACID <https://en.wikipedia.org/wiki/ACID>
-* Codd’s Twelve Rules <https://reldb.org/c/index.php/twelve-rules/>
 * CRUD operations <https://en.wikipedia.org/wiki/Create,_read,_update_and_delete>
 
-## Monitoring data and visualization
+## Probability theory and statistics
+
+* Probability theory <https://en.wikipedia.org/wiki/Probability_theory>
+  * Bayes' theorem <https://en.wikipedia.org/wiki/Bayes%27_theorem>
+* Statistics <https://en.wikipedia.org/wiki/Statistics>
+* Correlation <https://en.wikipedia.org/wiki/Correlation>
+  * Pearson correlation coefficient <https://en.wikipedia.org/wiki/Pearson_correlation_coefficient>
+* Regression analysis <https://en.wikipedia.org/wiki/Regression_analysis>
+* Statistical classification <https://en.wikipedia.org/wiki/Statistical_classification>
+  * ROC curve <https://en.wikipedia.org/wiki/Receiver_operating_characteristic>
+* Statistical hypothesis testing <https://en.wikipedia.org/wiki/Statistical_hypothesis_testing>
+  * Cross-validation <https://en.wikipedia.org/wiki/Cross-validation_(statistics)>
+  * Null hypothesis <https://en.wikipedia.org/wiki/Null_hypothesis>
+
+## Scientific computing and data manipuration
+
+* Computing
+  * R project <https://www.r-project.org/>
+  * NumPy <https://numpy.org/> - The fundamental package for scientific computing with Python
+  * SciPy <https://scipy.org/> - Fundamental algorithms for scientific computing in Python
+  * SymPy <https://www.sympy.org/en/index.html> - A Python library for symbolic mathematics
+  * SageMath <https://www.sagemath.org/>
+* Manipuration
+  * Pandas <https://pandas.pydata.org/> - A fast, powerful, flexible and easy to use open source data analysis and manipulation tool
+  * Tidyverse <https://www.tidyverse.org/> - An opinionated collection of R packages designed for data science
+    * dplyr, tidyr, stringr, purrr, readr
+
+## Telemetry ETL tools
+
+* Prometheus exporters <https://prometheus.io/docs/instrumenting/exporters/>
+  * node-exporter <https://prometheus.io/docs/guides/node-exporter/>
+  * blackbox-exporter <https://github.com/prometheus/blackbox_exporter>
+* Dissect and Grok <https://www.elastic.co/guide/en/elasticsearch/reference/current/esql-process-data-with-dissect-and-grok.html>
+* Promtail agent <https://grafana.com/docs/loki/latest/clients/promtail/>
+* Fluent Bit <https://fluentbit.io/>
+* Fluentd <https://www.fluentd.org/>
+* Filebeat <https://www.elastic.co/beats/filebeat>
+* Logstash <https://www.elastic.co/logstash>
+* Telegraf <https://www.influxdata.com/time-series-platform/telegraf/>
+* Metricbeat <https://www.elastic.co/beats/metricbeat>
+* Elasticsearch
+  * Ingest pipelines <https://www.elastic.co/guide/en/elasticsearch/reference/current/ingest.html>
+* OpenTelemetry <https://opentelemetry.io/>
+* Cloud-specific
+  * Azure Monitor Agent <https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agents-overview>
+  * Cloudwatch Agent <https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Install-CloudWatch-Agent.html>
+
+## Data visualization
+
+* Apps
+  * Grafana <https://grafana.com/>
+    * Grafonnet <https://grafana.github.io/grafonnet/> - Jsonnet library for generating Grafana dashboards
+  * Kibana <https://www.elastic.co/kibana>
+  * Azure Dashboard <https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-dashboards>
+  * Power BI <https://www.microsoft.com/en-us/power-platform/products/power-bi/>
+* Tools and libraries
+  * gnuplot <http://gnuplot.info/> - A portable command-line driven graphing utility
+  * matplotlib <https://matplotlib.org/> - A comprehensive library for creating static, animated, and interactive visualizations in Python
+    * seaborn <https://seaborn.pydata.org/>
+  * ggplot2 <https://ggplot2.tidyverse.org/>
+  * Vega <https://vega.github.io/vega/>
+  * Vega-Lite <https://vega.github.io/vega-lite/>
+  * D3 <https://d3js.org/>
+  * go-echarts <https://go-echarts.github.io/go-echarts/#/>
+  * GeoLite2 <https://dev.maxmind.com/geoip/geolite2-free-geolocation-data> - Free geolocation data
+* Views
+  * Histgram <https://en.wikipedia.org/wiki/Histogram>
+  * Heat map <https://en.wikipedia.org/wiki/Heat_map>
+  * Choropleth map <https://en.wikipedia.org/wiki/Choropleth_map>
+  * Proportional symbol map <https://en.wikipedia.org/wiki/Proportional_symbol_map>
+
+## Monitoring and alerting
 
 * Grafana <https://grafana.com/>
-  * Grafonnet <https://grafana.github.io/grafonnet/> - Jsonnet library for generating Grafana dashboards
-* Promethus <https://prometheus.io/>
+* Prometheus <https://prometheus.io/>
   * PromQL <https://prometheus.io/docs/prometheus/latest/querying/basics/>
   * promtool <https://prometheus.io/docs/prometheus/latest/command-line/promtool/>
 * Alertmanager <https://prometheus.io/docs/alerting/latest/alertmanager/>
@@ -26,8 +99,8 @@ _work in progress._
   * influx cli <https://docs.influxdata.com/influxdb/cloud/reference/cli/influx/>
 * Grafana Mimir <https://grafana.com/oss/mimir/>
 * Grafana Loki <https://grafana.com/oss/loki/>
-  * LogQL <https://grafana.com/docs/loki/latest/logql/>
-  * LogCLI <https://grafana.com/docs/loki/latest/query/logcli/>
+  * LogQL <https://grafana.com/docs/loki/latest/query/>
+    * LogCLI <https://grafana.com/docs/loki/latest/query/logcli/>
 * Grafana Tempo <https://grafana.com/oss/tempo/>
   * TraceQL <https://grafana.com/docs/tempo/latest/traceql/>
 * Graphite <https://grafana.com/oss/graphite/>
@@ -43,7 +116,9 @@ _work in progress._
 
 * Relational model <https://en.wikipedia.org/wiki/Relational_model>
 * Structured Query Language (SQL) <https://en.wikipedia.org/wiki/SQL>
+* Codd's Twelve Rules <https://reldb.org/c/index.php/twelve-rules/>
 * ODBC <https://en.wikipedia.org/wiki/Open_Database_Connectivity>
+* JDBC <https://www.oracle.com/java/technologies/javase/javase-tech-database.html>
 * Object-relational mapping <https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping>
   * Prisma <https://www.prisma.io/>
   * Hibernate <https://hibernate.org/orm/>
@@ -76,6 +151,7 @@ _work in progress._
 * Azure Cosmos DB <https://azure.microsoft.com/en-us/products/cosmos-db/>
 * Neo4j <https://neo4j.com/>
 * Amazon Neptune <https://aws.amazon.com/neptune/>
+* Apache Cassandra <https://cassandra.apache.org/>
 
 ## Object storage
 
@@ -84,15 +160,34 @@ _work in progress._
 * Amazon S3 <https://aws.amazon.com/s3/>
 * Azure Blob Storage <https://azure.microsoft.com/en-us/services/storage/blobs/>
 
-## Data streaming and hubs
+## Distributed processing
 
-* Kafka <https://kafka.apache.org/>
-* Amazon Managed Streaming for Apache Kafka (MSK) <https://aws.amazon.com/msk/>
-* Azure Event Hubs <https://azure.microsoft.com/en-us/products/event-hubs/>
-* Azure Service Bus <https://azure.microsoft.com/en-us/products/service-bus/>
-* Azure Queue Storage <https://azure.microsoft.com/en-us/products/storage/queues/>
-* Amazon Simple Queue Service <https://aws.amazon.com/sqs/>
-* Amazon Simple Notification Service <https://aws.amazon.com/sns/>
+* Apache Hadoop <https://hadoop.apache.org/> - A framework that allows for the distributed processing of large data sets
+* Apache Spark <https://spark.apache.org/> - Unified engine for large-scale data analytics
+* RAY <https://www.ray.io/> - An open-source unified compute framework that makes it easy to scale AI and Python workloads
+
+## Data warehouses/lakes
+
+* Apache Hive <https://hive.apache.org/> - A distributed, fault-tolerant data warehouse system that enables analytics at a massive scale
+* Trino <https://trino.io/> - A distributed SQL query engine designed to query large data sets
+* Amazon RedShift <https://aws.amazon.com/redshift/>
+* Azure Synapse Analytics <https://azure.microsoft.com/en-us/products/synapse-analytics/>
+
+## Other data services/tools
+
+* Full-fledged ETL services
+  * Azure Data Factory <https://azure.microsoft.com/en-us/products/data-factory/>
+  * AWS Glue <https://aws.amazon.com/glue/>
+  * Apache NiFi <https://nifi.apache.org/>
+* Distributed streaming
+  * Apache Kafka <https://kafka.apache.org/>
+* Real-time data ingestion
+  * Amazon Kinesis <https://aws.amazon.com/kinesis/>
+  * Azure Event Hubs <https://azure.microsoft.com/en-us/products/event-hubs/>
+* Message queuing
+  * Azure Service Bus <https://azure.microsoft.com/en-us/products/service-bus/>
+  * Azure Queue Storage <https://azure.microsoft.com/en-us/products/storage/queues/>
+  * Amazon Simple Queue Service <https://aws.amazon.com/sqs/>
 
 ---
 
@@ -116,6 +211,15 @@ _work in progress._
   * Markov decision process <https://en.wikipedia.org/wiki/Markov_decision_process>
   * Multi-armed bandit <https://en.wikipedia.org/wiki/Multi-armed_bandit>
   * Value function <https://en.wikipedia.org/wiki/Value_function>
+* ML tools and services
+  * scikit-learn <https://scikit-learn.org/stable>
+  * Azure Machine Learning <https://azure.microsoft.com/en-us/products/machine-learning/>
+  * Amazon SageMaker <https://aws.amazon.com/sagemaker/>
+  * ML.NET <https://dotnet.microsoft.com/en-us/apps/machinelearning-ai/ml-dotnet>
+* MLOps
+  * CML <https://cml.dev/> - An open-source tool for implementing continuous integration & delivery (CI/CD) in machine learning projects
+  * MLFlow <https://mlflow.org/>
+  * KubeFlow <https://www.kubeflow.org/>
 
 ## Deep learning
 
@@ -127,30 +231,17 @@ _work in progress._
   * Fine tuning <https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)>
   * Recurrent neural network <https://en.wikipedia.org/wiki/Recurrent_neural_network>
     * LSTM <https://en.wikipedia.org/wiki/Long_short-term_memory>
+* Frameworks
+  * TensorFlow <https://www.tensorflow.org/>
+    * TFDS <https://www.tensorflow.org/datasets>
+    * Keras <https://keras.io/>
+  * PyTorch <https://pytorch.org/>
 
 ## Generic tools for AI/ML
 
 * Mojo <https://www.modular.com/mojo> - The programming language for all AI developers
 * Anaconda distribution <http://anaconda.com/> - The Operating System for AI
 * DVC <https://dvc.org/> - Data Version Control
-
-## ML tools and services
-
-* scikit-learn <https://scikit-learn.org/stable>
-* Azure Machine Learning <https://azure.microsoft.com/en-us/products/machine-learning/>
-* Amazon SageMaker <https://aws.amazon.com/sagemaker/>
-
-## Deep learning frameworks
-
-* TensorFlow <https://www.tensorflow.org/>
-  * TFDS <https://www.tensorflow.org/datasets>
-  * Keras <https://keras.io/>
-* PyTorch <https://pytorch.org/>
-
-## MLOps
-
-* MLFlow <https://mlflow.org/>
-* KubeFlow <https://www.kubeflow.org/>
 
 ## Natural Language Processing
 

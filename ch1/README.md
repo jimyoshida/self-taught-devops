@@ -111,10 +111,16 @@
 
 * ASCII <https://en.wikipedia.org/wiki/ASCII>
 * Unicode <https://home.unicode.org/>
-  * Unicode Emoji <https://home.unicode.org/emoji/>
   * ICU <https://icu.unicode.org/> - a mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support
+* Unicode Emoji <https://home.unicode.org/emoji/>
+  * python emoji <https://github.com/carpedm20/emoji/>
+  * go emoji <https://github.com/kyokomi/emoji>
 * Regex <https://en.wikipedia.org/wiki/Regular_expression>
   * PCRE <https://en.wikipedia.org/wiki/Perl_Compatible_Regular_Expressions>
+  * Oniguruma <https://github.com/kkos/oniguruma> - A regular expression library
+  * Onigumo <https://github.com/k-takata/Onigmo> - A regular expressions library forked from Oniguruma
+  * python re <https://docs.python.org/3/library/re.html>
+  * go regexp <https://pkg.go.dev/regexp>
 * GNU sed <https://www.gnu.org/software/sed/>; <https://sed.sourceforge.io/>
 * sd <https://github.com/chmln/sd> - sed alternative
 * GNU awk <https://www.gnu.org/software/gawk/>
@@ -125,8 +131,9 @@
   * TSV <https://en.wikipedia.org/wiki/Tab-separated_values>
   * CSV <https://en.wikipedia.org/wiki/Comma-separated_values>
   * Text::CSV <https://metacpan.org/pod/Text::CSV>
-  * Python csv <https://docs.python.org/3/library/csv.html>
-  * Python tabulate <https://github.com/astanin/python-tabulate>
+  * python csv <https://docs.python.org/3/library/csv.html>
+  * python tabulate <https://github.com/astanin/python-tabulate>
+  * go csv <https://pkg.go.dev/encoding/csv>
   * csvkit <https://csvkit.readthedocs.io/en/latest/>
   * xsv <https://github.com/BurntSushi/xsv>
   * qsv <https://github.com/jqnatividad/qsv>
@@ -255,6 +262,7 @@
 * Data exchange formats
   * JSON <https://www.json.org/json-en.html>
     * jq <https://stedolan.github.io/jq/>
+    * gojq <https://github.com/itchyny/gojq>
     * json_pp <https://metacpan.org/dist/JSON-PP/view/bin/json_pp>
     * JSON::PP <https://metacpan.org/pod/JSON::PP>
     * fx <https://fx.wtf/> - Terminal JSON viewer & processor
@@ -323,6 +331,7 @@
   * spread and rest operators
   * generator
 * Go <https://go.dev/>
+  * lo <https://pkg.go.dev/github.com/samber/lo> - A Lodash-style Go library
   * goroutine
   * channel
   * go function
@@ -393,6 +402,9 @@
   * TTY <https://ttytoolkit.org/>
 * Rust
   * Ratatui <https://ratatui.rs/>
+  * R3BL <https://r3bl.com/>
+* C
+  * ncurses <https://invisible-island.net/ncurses/>
 
 ## Program execution and toolkits
 

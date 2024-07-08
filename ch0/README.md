@@ -62,7 +62,7 @@
 * The Four Golden Signals <https://sre.google/sre-book/monitoring-distributed-systems/>
   * Latency, Traffic, Errors, Saturation
 
-## Generic risk management
+## Risk management
 
 * Business continuity planning <https://en.wikipedia.org/wiki/Business_continuity_planning>
   * IT disaster recovery <https://en.wikipedia.org/wiki/IT_disaster_recovery>
@@ -134,6 +134,18 @@
   * Text::MarkdownTable <https://metacpan.org/pod/Text::MarkdownTable>
 * DocUtils <https://docutils.sourceforge.io/>
   * reStructuredText <https://docutils.sourceforge.io/rst.html>
+
+## Interactive computing environment
+
+* Org Mode <https://orgmode.org/> - Your life in plain text
+  * Babel <https://orgmode.org/worg/org-contrib/babel/> - Active Code in Org
+  * org-ai <https://github.com/rksm/org-ai> - Emacs as your personal AI assistant
+* Org-roam <https://www.orgroam.com/> - A plain-text personal knowledge management system
+* OrgNote <https://github.com/Artawower/orgnote>
+* JupyterLab <https://jupyter.org/> - Web-based interactive development environment for notebooks, code, and data
+* Jupiter Notebook <https://jupyter.org/> - The original web application for creating and sharing computational documents
+* BeakerX <http://beakerx.com/> - A collection of kernels and extensions to the Jupyter interactive computing environment
+* R Markdown <https://rmarkdown.rstudio.com/>
 
 ## Behavior driven development
 
@@ -286,52 +298,3 @@
 * Differential calculus <https://en.wikipedia.org/wiki/Differential_calculus>
 * Differential equation <https://en.wikipedia.org/wiki/Differential_equation>
 * Logarithm <https://en.wikipedia.org/wiki/Logarithm>
-
-## Probability theory and statistics
-
-* Probability theory <https://en.wikipedia.org/wiki/Probability_theory>
-* Pearson correlation coefficient <https://en.wikipedia.org/wiki/Pearson_correlation_coefficient>
-* Bayes' theorem <https://en.wikipedia.org/wiki/Bayes%27_theorem>
-* Regression analysis <https://en.wikipedia.org/wiki/Regression_analysis>
-* Confusion matrix <https://en.wikipedia.org/wiki/Confusion_matrix>
-  * ROC curve <https://en.wikipedia.org/wiki/Receiver_operating_characteristic>
-* Statistical hypothesis testing <https://en.wikipedia.org/wiki/Statistical_hypothesis_testing>
-* Confounding <https://en.wikipedia.org/wiki/Confounding>
-* Experimental design <https://en.wikipedia.org/wiki/Design_of_experiments>
-* Cross-validation <https://en.wikipedia.org/wiki/Cross-validation_(statistics)>
-
-## Interactive computing environment
-
-* Org Mode <https://orgmode.org/> - Your life in plain text
-  * Babel <https://orgmode.org/worg/org-contrib/babel/> - Active Code in Org
-  * org-ai <https://github.com/rksm/org-ai> - Emacs as your personal AI assistant
-* JupyterLab <https://jupyter.org/> - web-based interactive development environment for notebooks, code, and data
-* Jupiter Notebook <https://jupyter.org/> - the original web application for creating and sharing computational documents
-* BeakerX <http://beakerx.com/> - a collection of kernels and extensions to the Jupyter interactive computing environment
-
-## Numeric or scientific computing
-
-* Python <https://www.python.org/>
-  * NumPy <https://numpy.org/> - The fundamental package for scientific computing with Python
-  * SciPy <https://scipy.org/> - Fundamental algorithms for scientific computing in Python
-  * SymPy <https://www.sympy.org/en/index.html> - A Python library for symbolic mathematics
-  * SageMath <https://www.sagemath.org/>
-  * Pandas <https://pandas.pydata.org/>
-* R project <https://www.r-project.org/>
-
-## Data visualization
-
-* Tools and libraries
-  * gnuplot <http://gnuplot.info/> - A portable command-line driven graphing utility
-  * matplotlib <https://matplotlib.org/> - A comprehensive library for creating static, animated, and interactive visualizations in Python
-    * seaborn <https://seaborn.pydata.org/>
-  * Vega <https://vega.github.io/vega/>
-  * Vega-Lite <https://vega.github.io/vega-lite/>
-  * D3 <https://d3js.org/>
-  * GeoLite2 <https://dev.maxmind.com/geoip/geolite2-free-geolocation-data> - free geolocation data
-  * Kibana <https://www.elastic.co/kibana>
-* Views
-  * Histgram <https://en.wikipedia.org/wiki/Histogram>
-  * Heat map <https://en.wikipedia.org/wiki/Heat_map>
-  * Choropleth map <https://en.wikipedia.org/wiki/Choropleth_map>
-  * Proportional symbol map <https://en.wikipedia.org/wiki/Proportional_symbol_map>
