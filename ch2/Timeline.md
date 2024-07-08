@@ -10,6 +10,9 @@ Initial release: 1969
 The Advanced Research Projects Agency Network (ARPANET) was the first wide-area packet-switched network with distributed control and one of the first networks to implement the TCP/IP protocol suite. Both technologies became the technical foundation of the Internet.
 Etablished: 1969
 
+Telnet (short for "teletype network") is a client/server application protocol that provides access to virtual terminals of remote systems on local area networks or the Internet.
+Telnet was developed as secret technology in 1969 beginning with RFC 15.
+
 ### 1970s
 
 The File Transfer Protocol (FTP) is a standard communication protocol used for the transfer of computer files from a server to a client on a computer network.
@@ -36,6 +39,9 @@ The chroot system call was introduced during development of Version 7 Unix in 19
 ### 1980s
 
 IPv4 is described in RFC 791 (1981).
+
+The Berkeley r-commands are a suite of computer programs designed to enable users of one Unix system to log in or issue commands to another Unix computer via TCP/IP computer network.
+Initial release: June 1981
 
 In March 1982, the US Department of Defense declared TCP/IP as the standard for all military computer networking.
 

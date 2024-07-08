@@ -85,6 +85,7 @@
   * OpenSSH <https://www.openssh.com/>
   * Python Paramiko <https://www.paramiko.org/>
   * Python Fablic <https://www.fabfile.org/>
+  * gliderlabs/ssh <https://pkg.go.dev/github.com/gliderlabs/ssh>
   * mosh <https://mosh.org/>
 * OpenPGP/GPG <https://gnupg.org/>
 * keychain <https://www.funtoo.org/Funtoo:Keychain>
@@ -262,7 +263,7 @@
     * GCM (Galois/Counter Mode) <https://en.wikipedia.org/wiki/Galois/Counter_Mode>
     * CCM <https://en.wikipedia.org/wiki/CCM_mode>
 * Public Key / Asymmetric Key <https://en.wikipedia.org/wiki/Public-key_cryptography>
-  * Public Key Criptgraphy
+  * Public Key Cryptography
     * RSA <https://en.wikipedia.org/wiki/RSA_(cryptosystem)>
     * EdDSA <https://en.wikipedia.org/wiki/EdDSA>
   * Key Agreement

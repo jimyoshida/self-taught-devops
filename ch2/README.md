@@ -100,6 +100,15 @@
 * dtrace <https://dtrace.org/about/>
 * neofetch <https://github.com/dylanaraps/neofetch>
 * inxi <https://smxi.org/docs/inxi.htm>
+* atop <https://github.com/Atoptool/atop#atop>
+* nmon <https://nmon.sourceforge.net/pmwiki.php>
+* sysstat <https://sysstat.github.io/>
+  * iostat <https://man7.org/linux/man-pages/man1/iostat.1.html>
+* smem <https://www.selenic.com/smem/>
+* Syslog <https://en.wikipedia.org/wiki/Syslog>
+* systemd-journald <https://man7.org/linux/man-pages/man8/systemd-journald.service.8.html>
+  * journalctl <https://man7.org/linux/man-pages/man1/journalctl.1.html>
+* jc <https://kellyjonbrazil.github.io/jc/docs/> - Json adaptor
 * Modern utils
   * lsd <https://github.com/Peltoche/lsd>
   * eza <https://eza.rocks/>
@@ -111,8 +120,6 @@
   * htop <https://hisham.hm/htop/>
   * btop++ <https://github.com/aristocratos/btop>
   * glances <https://nicolargo.github.io/glances/>
-* Json adaptor
-  * jc <https://kellyjonbrazil.github.io/jc/docs/>
 
 ## Network administration tools
 
@@ -206,6 +213,7 @@
     * dig <https://linux.die.net/man/1/dig>
     * nslookup <https://linux.die.net/man/1/nslookup>
   * dog <https://dns.lookup.dog/>
+  * Doggo <https://doggo.mrkaran.dev/docs/>
   * systemd-resolved <https://man7.org/linux/man-pages/man8/systemd-resolved.service.8.html>
   * Avahi <https://www.avahi.org/>
   * Bonjour <https://developer.apple.com/bonjour/>
@@ -332,34 +340,6 @@
   * Open Application Model <https://oam.dev/>
   * KubeVela <https://kubevela.io/>
   * Flagger <https://flagger.app/>
-
-## System data collection
-
-* Metrics
-  * Promethus <https://prometheus.io/>
-    * node-exporter <https://prometheus.io/docs/guides/node-exporter/>
-    * blackbox-exporter <https://github.com/prometheus/blackbox_exporter>
-  * Telegraf <https://www.influxdata.com/time-series-platform/telegraf/>
-  * Metricbeat <https://www.elastic.co/beats/metricbeat>
-  * atop <https://github.com/Atoptool/atop#atop>
-  * nmon <https://nmon.sourceforge.net/pmwiki.php>
-  * sysstat <https://sysstat.github.io/>
-    * iostat <https://man7.org/linux/man-pages/man1/iostat.1.html>
-  * smem <https://www.selenic.com/smem/>
-* Logs
-  * promtail <https://grafana.com/docs/loki/latest/clients/promtail/>
-  * Filebeat <https://www.elastic.co/beats/filebeat>
-  * Logstash <https://www.elastic.co/logstash>
-  * Fluentd <https://www.fluentd.org/>
-  * Fluent Bit <https://fluentbit.io/>
-  * Syslog <https://en.wikipedia.org/wiki/Syslog>
-  * systemd-journald <https://man7.org/linux/man-pages/man8/systemd-journald.service.8.html>
-    * journalctl <https://man7.org/linux/man-pages/man1/journalctl.1.html>
-* Traces
-  * OpenTelemetry <https://opentelemetry.io/>
-* Integrated
-  * Azure Monitor Agent <https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agents-overview>
-  * Cloudwatch Agent <https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Install-CloudWatch-Agent.html>
 
 ## Stress test and chaos engineering
 
