@@ -7,10 +7,10 @@ _work in progress._
 ## Data science concepts
 
 * Data <https://en.wikipedia.org/wiki/Data_(computer_science)>
-* Data warehouse <https://en.wikipedia.org/wiki/Data_warehouse>
-  * ETL <https://en.wikipedia.org/wiki/Extract,_transform,_load>
-* Data lake <https://en.wikipedia.org/wiki/Data_lake>
+* ETL <https://en.wikipedia.org/wiki/Extract,_transform,_load>
 * DIKW pyramid <https://en.wikipedia.org/wiki/DIKW_pyramid>
+* Data warehouse <https://en.wikipedia.org/wiki/Data_warehouse>
+* Data lake <https://en.wikipedia.org/wiki/Data_lake>
 * Concurrency control <https://en.wikipedia.org/wiki/Concurrency_control>
   * ACID <https://en.wikipedia.org/wiki/ACID>
 * CRUD operations <https://en.wikipedia.org/wiki/Create,_read,_update_and_delete>
@@ -151,7 +151,8 @@ _work in progress._
 * Azure Cosmos DB <https://azure.microsoft.com/en-us/products/cosmos-db/>
 * Neo4j <https://neo4j.com/>
 * Amazon Neptune <https://aws.amazon.com/neptune/>
-* Apache Cassandra <https://cassandra.apache.org/>
+* Apache Cassandra <https://cassandra.apache.org/> - An open source NoSQL distributed database
+* Apache HBase <https://hbase.apache.org/> - The Hadoop database, a distributed, scalable, big data store
 
 ## Object storage
 
@@ -160,18 +161,19 @@ _work in progress._
 * Amazon S3 <https://aws.amazon.com/s3/>
 * Azure Blob Storage <https://azure.microsoft.com/en-us/services/storage/blobs/>
 
-## Distributed processing
+## Distributed processing and analytics
 
-* Apache Hadoop <https://hadoop.apache.org/> - A framework that allows for the distributed processing of large data sets
-* Apache Spark <https://spark.apache.org/> - Unified engine for large-scale data analytics
-* RAY <https://www.ray.io/> - An open-source unified compute framework that makes it easy to scale AI and Python workloads
-
-## Data warehouses/lakes
-
-* Apache Hive <https://hive.apache.org/> - A distributed, fault-tolerant data warehouse system that enables analytics at a massive scale
-* Trino <https://trino.io/> - A distributed SQL query engine designed to query large data sets
-* Amazon RedShift <https://aws.amazon.com/redshift/>
-* Azure Synapse Analytics <https://azure.microsoft.com/en-us/products/synapse-analytics/>
+* Frameworks
+  * Apache Hadoop <https://hadoop.apache.org/> - A framework that allows for the distributed processing of large data sets
+  * Apache Spark <https://spark.apache.org/> - Unified engine for large-scale data analytics
+  * RAY <https://www.ray.io/> - An open-source unified compute framework that makes it easy to scale AI and Python workloads
+* Analytics
+  * Apache Hive <https://hive.apache.org/> - A distributed, fault-tolerant data warehouse system that enables analytics at a massive scale
+  * Trino <https://trino.io/> - A distributed SQL query engine designed to query large data sets
+  * Amazon RedShift <https://aws.amazon.com/redshift/>
+  * Azure Synapse Analytics <https://azure.microsoft.com/en-us/products/synapse-analytics/>
+  * Amazon Athena <https://aws.amazon.com/athena/>
+  * Presto <https://prestodb.io/> - Fast and Reliable SQL Engine
 
 ## Other data services/tools
 
@@ -196,8 +198,9 @@ _work in progress._
 * Common concepts
   * Stochastic gradient descent <https://en.wikipedia.org/wiki/Stochastic_gradient_descent>
   * Dynamic programming <https://en.wikipedia.org/wiki/Dynamic_programming>
-  * Sigmoid function <https://en.wikipedia.org/wiki/Sigmoid_function>
-  * Softmax function <https://en.wikipedia.org/wiki/Softmax_function>
+  * Rectifier <https://en.wikipedia.org/wiki/Rectifier_(neural_networks)>
+    * Sigmoid function <https://en.wikipedia.org/wiki/Sigmoid_function>
+    * Softmax function <https://en.wikipedia.org/wiki/Softmax_function>
   * Early stopping <https://en.wikipedia.org/wiki/Early_stopping>
 * Supervised learning <https://en.wikipedia.org/wiki/Supervised_learning>
   * Ensemble learning <https://en.wikipedia.org/wiki/Ensemble_learning>
@@ -227,10 +230,10 @@ _work in progress._
   * Backpropagation <https://en.wikipedia.org/wiki/Backpropagation>
   * Autoencoder <https://en.wikipedia.org/wiki/Autoencoder>
   * Vanishing gradient problem <https://en.wikipedia.org/wiki/Vanishing_gradient_problem>
-  * Rectifier <https://en.wikipedia.org/wiki/Rectifier_(neural_networks)>
   * Fine tuning <https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)>
   * Recurrent neural network <https://en.wikipedia.org/wiki/Recurrent_neural_network>
     * LSTM <https://en.wikipedia.org/wiki/Long_short-term_memory>
+  * Transformer <https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)>
 * Frameworks
   * TensorFlow <https://www.tensorflow.org/>
     * TFDS <https://www.tensorflow.org/datasets>
@@ -243,20 +246,21 @@ _work in progress._
 * Anaconda distribution <http://anaconda.com/> - The Operating System for AI
 * DVC <https://dvc.org/> - Data Version Control
 
-## Natural Language Processing
+## Natural language processing
 
+* Linguistics <https://en.wikipedia.org/wiki/Linguistics>
+  * Syntax <https://en.wikipedia.org/wiki/Syntax>
+  * Semantics <https://en.wikipedia.org/wiki/Semantics>
 * n-gram <https://en.wikipedia.org/wiki/N-gram>
-* tf-idf (term frequency–inverse document frequency) <https://en.wikipedia.org/wiki/Tf%E2%80%93idf>
+* tf-idf (term frequency-inverse document frequency) <https://en.wikipedia.org/wiki/Tf%E2%80%93idf>
 * Word2vec <https://en.wikipedia.org/wiki/Word2vec>
-  * fastText <https://fasttext.cc/>
-* GloVe <https://nlp.stanford.edu/projects/glove/>
-* ULMFiT <https://arxiv.org/abs/1801.06146>
-* ELMo <https://arxiv.org/abs/1802.05365>
-* Transformer <https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)>
+* fastText <https://fasttext.cc/> - Library for efficient text classification and representation learning
+* GloVe <https://nlp.stanford.edu/projects/glove/> - Global Vectors for Word Representation
 * Kuromoji <https://www.atilika.org/> - an open source Japanese morphological analyzer written in Java
 
-## Generic LLMs
+## LLMs and their hosted services
 
 * GPT-4 <https://openai.com/research/gpt-4> <https://arxiv.org/abs/2303.08774>
 * Llama <https://llama.meta.com/> <https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/>
 * Gemini <https://gemini.google.com/>
+* Azure OpnAI Service <https://azure.microsoft.com/en-us/products/ai-services/openai-service>

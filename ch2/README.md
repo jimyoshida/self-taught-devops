@@ -212,6 +212,7 @@
   * BIND (dnsutils) <https://www.isc.org/bind/>
     * dig <https://linux.die.net/man/1/dig>
     * nslookup <https://linux.die.net/man/1/nslookup>
+  * CoreDNS <https://coredns.io/> - DNS and Service Discovery
   * dog <https://dns.lookup.dog/>
   * Doggo <https://doggo.mrkaran.dev/docs/>
   * systemd-resolved <https://man7.org/linux/man-pages/man8/systemd-resolved.service.8.html>
@@ -261,10 +262,10 @@
   * kube-scheduler - Responsible for scheduling
   * kube-controller-manager - Responsible for container orchestration
 * Compute node
-  * kubelet – watches the API server for pods on that node and makes sure they are running
-  * cAdvisor – collects metrics about pods running on that particular node
-  * kube-proxy – watches the API server for pods/services changes in order to maintain the network up to date
-  * container runtime – responsible for managing container images and running containers on that node
+  * kubelet - watches the API server for pods on that node and makes sure they are running
+  * cAdvisor - collects metrics about pods running on that particular node
+  * kube-proxy - watches the API server for pods/services changes in order to maintain the network up to date
+  * container runtime - responsible for managing container images and running containers on that node
 * Standards
   * CNI (Container Networking Interface)
   * CSI (Container Storage Interface)

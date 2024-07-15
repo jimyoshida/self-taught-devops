@@ -267,8 +267,8 @@
     * RSA <https://en.wikipedia.org/wiki/RSA_(cryptosystem)>
     * EdDSA <https://en.wikipedia.org/wiki/EdDSA>
   * Key Agreement
-    * Diffie–Hellman key exchange <https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange>
-    * Elliptic-curve Diffie–Hellman <https://en.wikipedia.org/wiki/Elliptic-curve_Diffie%E2%80%93Hellman>
+    * Diffie-Hellman key exchange <https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange>
+    * Elliptic-curve Diffie-Hellman <https://en.wikipedia.org/wiki/Elliptic-curve_Diffie%E2%80%93Hellman>
   * Encryption Scheme
     * RSAES-PKCS1-v1_5, RSAES-OAEP
   * Signature Scheme

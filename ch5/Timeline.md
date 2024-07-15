@@ -30,6 +30,9 @@ The term Deep Learning was introduced to the machine learning community by Rina 
 
 SQL was adopted as a standard by the ANSI in 1986 as SQL-86 and the ISO in 1987.
 
+The concept of data warehousing dates back to the late 1980s when IBM researchers Barry Devlin and Paul Murphy developed the "business data warehouse".
+1988 – Barry Devlin and Paul Murphy publish the article "An architecture for a business and information system" where they introduce the term "business data warehouse".
+
 Microsoft SQL Server is a proprietary relational database management system developed by Microsoft. As a database server, it is a software product with the primary function of storing and retrieving data as requested by other software applications.
 Initial release: April 24, 1989
 
@@ -59,13 +62,27 @@ Initial release: 17 August 2000
 Torch is an open-source machine learning library, a scientific computing framework, and a script language based on the Lua programming language.
 Initial release: October 2002
 
+MapReduce is a programming model and an associated implementation for processing and generating big data sets with a parallel, distributed algorithm on a cluster.
+Introduced: 2004
+
 In 2004, it was shown by K. S. Oh and K. Jung that standard neural networks can be greatly accelerated on GPUs. Their implementation was 20 times faster than an equivalent implementation on CPU.
 In 2005, another paper also emphasised the value of GPGPU for machine learning.
+
+Apache Hadoop is a collection of open-source software utilities that facilitates using a network of many computers to solve problems involving massive amounts of data and computation.
+The genesis of Hadoop was the Google File System paper that was published in October 2003.
+The core of Apache Hadoop consists of a storage part, known as Hadoop Distributed File System (HDFS), and a processing part which is a MapReduce programming model.
+Initial release: April 1, 2006
 
 In 2006, Geoffrey Hinton developed the deep belief network technique for training many-layered deep autoencoders.
 
 The scikit-learn project started as scikits.learn, a Google Summer of Code project by French data scientist David Cournapeau.
 Initial release: June 2007
+
+HBase is an open-source non-relational distributed database modeled after Google's Bigtable and written in Java. It is developed as part of Apache Software Foundation's Apache Hadoop project and runs on top of HDFS (Hadoop Distributed File System) or Alluxio, providing Bigtable-like capabilities for Hadoop.
+Initial release: 28 March 2008
+
+Apache Cassandra is a free and open-source, distributed, wide-column store, NoSQL database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure.
+Initial release: July 2008
 
 Amazon Relational Database Service (or Amazon RDS) is a distributed relational database service by Amazon Web Services (AWS).
 Amazon RDS was first released on 22 October 2009, supporting MySQL databases. This was followed by support for Oracle Database in June 2011, Microsoft SQL Server in May 2012, PostgreSQL in November 2013.
@@ -74,6 +91,23 @@ MariaDB is a community-developed, commercially supported fork of the MySQL relat
 Initial release: 29 October 2009
 
 ### 2010s
+
+Apache Hive is a data warehouse software project. It is built on top of Apache Hadoop for providing data query and analysis.
+Initial release: October 1, 2010
+
+Apache Kafka is a distributed event store and stream-processing platform. It is an open-source system developed by the Apache Software Foundation written in Java and Scala. The project aims to provide a unified, high-throughput, low-latency platform for handling real-time data feeds.
+Initial release: January 2011
+
+James Dixon, then chief technology officer at Pentaho, coined the term data lake by 2011 to contrast it with data mart, which is a smaller repository of interesting attributes derived from raw data.
+
+Presto is a distributed query engine for big data using the SQL query language. Its architecture allows users to query data sources such as Hadoop, Cassandra, Kafka, AWS S3, Alluxio, MySQL, MongoDB and Teradata, and allows use of multiple data sources within a query.
+Hive was deemed too slow for Facebook's scale and Presto was invented to fill the gap to run fast queries. Original development started in 2012 and deployed at Facebook later that year.
+Initial release: 10 November 2013
+
+Apache Spark is an open-source unified analytics engine for large-scale data processing. Spark provides an interface for programming clusters with implicit data parallelism and fault tolerance.
+Spark was initially started by Matei Zaharia at UC Berkeley's AMPLab in 2009, and open sourced in 2010 under a BSD license.
+In 2013, the project was donated to the Apache Software Foundation and switched its license to Apache 2.0.
+Initial release (v1.0): May 26, 2014
 
 Keras is an open-source software library that provides a Python interface for artificial neural networks. Keras acts as an interface for the TensorFlow library.
 Initial release: 27 March 2015
@@ -84,10 +118,17 @@ Initial release: November 9, 2015
 PyTorch is a machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing, originally developed by Meta AI and now part of the Linux Foundation umbrella.
 Initial release: September 2016
 
+Apache Iceberg is an open-source high-performance format for huge analytic tables.
+Iceberg enables the use of SQL tables for big data while making it possible for engines like Spark, Trino, Flink, Presto, Hive, Impala, StarRocks, Doris, and Pig to safely work with the same tables, at the same time.
+Initial release: 10 August 2017
+
 Amazon SageMaker is a cloud machine-learning platform that enables developers to create, train, and deploy machine-learning (ML) models in the cloud. It also enables developers to deploy ML models on embedded systems and edge-devices. SageMaker was launched in 29 November 2017.
 
 A transformer is a deep learning model that adopts the mechanism of self-attention, differentially weighting the significance of each part of the input data. It is used primarily in the fields of natural language processing (NLP) and computer vision (CV).
 Transformers were introduced in 2017 by a team at Google Brain and are increasingly becoming the model of choice for NLP problems, replacing RNN models such as long short-term memory (LSTM).
+
+Trino is an open-source distributed SQL query engine designed to query large data sets distributed over one or more heterogeneous data sources.
+In January 2019, the original creators of Presto, Martin Traverso, Dain Sundstrom, and David Phillips, created a fork of the Presto project. They initially kept the name Presto and used the PrestoSQL web handle to distinguish it from the original PrestoDB project.
 
 Generative Pre-trained Transformer 2 (GPT-2) is an open-source artificial intelligence created by OpenAI in February 2019.
 GPT-2 translates text, answers questions, summarizes passages, and generates text output on a level that, while sometimes indistinguishable from that of humans, can become repetitive or nonsensical when generating long passages.
@@ -95,6 +136,8 @@ GPT-2 translates text, answers questions, summarizes passages, and generates tex
 ### 2020s
 
 Generative Pre-trained Transformer 3 (GPT-3) is an autoregressive language model released in 2020 that uses deep learning to produce human-like text. Given an initial text as prompt, it will produce text that continues the prompt.
+
+In December 2020, PrestoSQL was rebranded as Trino.
 
 LaMDA (Language Model for Dialogue Applications) is a family of conversational large language models developed by Google. Originally developed and introduced as Meena in 2020, the first-generation LaMDA was announced during the 2021 Google I/O keynote, while the second generation was announced the following year.
 
