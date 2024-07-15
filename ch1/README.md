@@ -240,11 +240,13 @@
   * Neovim <https://neovim.io/>
     * Neo-tree.nvim <https://github.com/nvim-neo-tree/neo-tree.nvim>
   * GNU Emacs <https://www.gnu.org/software/emacs/>
+    * doomemacs <https://github.com/doomemacs/doomemacs> - An Emacs framework for the stubborn martian hacker
     * neotree <https://github.com/jaypei/emacs-neotree>
-    * Magit <https://magit.vc/>
     * Treemacs <https://github.com/Alexander-Miller/treemacs>
+    * Magit <https://magit.vc/>
   * Spacemacs <https://www.spacemacs.org/#> - A community-driven Emacs distribution
   * Eclipse IDE <https://eclipseide.org/>
+  * Eclipse Che <https://eclipse.dev/che/>
 * AI assistance
   * GitHub Copilot <https://github.com/features/copilot/>
   * CodeGPT <https://www.codegpt.co/>
