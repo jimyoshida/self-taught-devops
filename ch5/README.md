@@ -7,6 +7,7 @@ _work in progress._
 ## Data science concepts
 
 * Data <https://en.wikipedia.org/wiki/Data_(computer_science)>
+* Big data <https://en.wikipedia.org/wiki/Big_data>
 * ETL <https://en.wikipedia.org/wiki/Extract,_transform,_load>
 * DIKW pyramid <https://en.wikipedia.org/wiki/DIKW_pyramid>
 * Data warehouse <https://en.wikipedia.org/wiki/Data_warehouse>
@@ -28,6 +29,9 @@ _work in progress._
 * Statistical hypothesis testing <https://en.wikipedia.org/wiki/Statistical_hypothesis_testing>
   * Cross-validation <https://en.wikipedia.org/wiki/Cross-validation_(statistics)>
   * Null hypothesis <https://en.wikipedia.org/wiki/Null_hypothesis>
+* Textbooks
+  * Openstax Introductory Statistics <https://openstax.org/details/books/introductory-statistics/>
+  * OpenIntro Statistics <https://www.openintro.org/book/os/>
 
 ## Scientific computing and data manipuration
 
@@ -37,6 +41,7 @@ _work in progress._
   * SciPy <https://scipy.org/> - Fundamental algorithms for scientific computing in Python
   * SymPy <https://www.sympy.org/en/index.html> - A Python library for symbolic mathematics
   * SageMath <https://www.sagemath.org/>
+  * statsmodels <https://www.statsmodels.org/stable/index.html>
 * Manipuration
   * Pandas <https://pandas.pydata.org/> - A fast, powerful, flexible and easy to use open source data analysis and manipulation tool
   * Tidyverse <https://www.tidyverse.org/> - An opinionated collection of R packages designed for data science
@@ -70,10 +75,11 @@ _work in progress._
   * Kibana <https://www.elastic.co/kibana>
   * Azure Dashboard <https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-dashboards>
   * Power BI <https://www.microsoft.com/en-us/power-platform/products/power-bi/>
+  * Amazon QuickSight <https://aws.amazon.com/quicksight/>
 * Tools and libraries
   * gnuplot <http://gnuplot.info/> - A portable command-line driven graphing utility
   * matplotlib <https://matplotlib.org/> - A comprehensive library for creating static, animated, and interactive visualizations in Python
-    * seaborn <https://seaborn.pydata.org/>
+  * seaborn <https://seaborn.pydata.org/>
   * ggplot2 <https://ggplot2.tidyverse.org/>
   * Vega <https://vega.github.io/vega/>
   * Vega-Lite <https://vega.github.io/vega-lite/>
@@ -85,10 +91,12 @@ _work in progress._
   * Heat map <https://en.wikipedia.org/wiki/Heat_map>
   * Choropleth map <https://en.wikipedia.org/wiki/Choropleth_map>
   * Proportional symbol map <https://en.wikipedia.org/wiki/Proportional_symbol_map>
+  * Tag cloud <https://en.wikipedia.org/wiki/Tag_cloud>
+    * WordCloud for Python <https://amueller.github.io/word_cloud/>
 
-## Monitoring and alerting
+## Telemetry storage and alerting
 
-* Grafana <https://grafana.com/>
+* Grafana Alerting <https://grafana.com/docs/grafana/latest/alerting/>
 * Prometheus <https://prometheus.io/>
   * PromQL <https://prometheus.io/docs/prometheus/latest/querying/basics/>
   * promtool <https://prometheus.io/docs/prometheus/latest/command-line/promtool/>
@@ -127,12 +135,15 @@ _work in progress._
   * pgBadger <https://pgbadger.darold.net/>
 * MySQL <https://www.mysql.com/>
 * MariaDB <https://mariadb.org/>
+* TiDB <https://www.pingcap.com/tidb/> - An open-source distributed SQL database that supports Hybrid Transactional and Analytical Processing (HTAP) workloads
 * Amazon RDS <https://aws.amazon.com/rds/>
+* Amazon Aurora <https://aws.amazon.com/rds/aurora/>
 * Azure SQL Database <https://azure.microsoft.com/en-us/products/azure-sql/database/>
   * sqlcmd utility <https://learn.microsoft.com/en-us/sql/tools/sqlcmd/sqlcmd-utility>
   * sqlpackage <https://learn.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage>
   * SSMS <https://learn.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms>
   * DAC <https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications>
+* Azure Data Studio <https://azure.microsoft.com/en-us/products/data-studio/> - A modern open-source, cross-platform hybrid data analytics tool designed to simplify the data landscape
 * Beekeeper Studio <https://www.beekeeperstudio.io/>
 * SQLite <https://www.sqlite.org/index.html>
   * DB Browser for SQLite <https://sqlitebrowser.org/>
@@ -157,36 +168,42 @@ _work in progress._
 ## Object storage
 
 * Object storage <https://en.wikipedia.org/wiki/Object_storage>
-* Ceph <https://ceph.com/en/> - An open-source, distributed storage system
 * Amazon S3 <https://aws.amazon.com/s3/>
+* Ceph <https://ceph.com/en/> - An open-source, distributed storage system
+* MinIO <https://min.io/> - A high-performance, S3 compatible object store
 * Azure Blob Storage <https://azure.microsoft.com/en-us/services/storage/blobs/>
+* Azure Storage Exproler <https://azure.microsoft.com/en-us/products/storage/storage-explorer/> - Manage your Azure cloud storage resources from your desktop
 
 ## Distributed processing and analytics
 
 * Frameworks
   * Apache Hadoop <https://hadoop.apache.org/> - A framework that allows for the distributed processing of large data sets
+    * mrjob <https://mrjob.readthedocs.io/en/latest/> - The easiest route to writing Python programs that run on Hadoop
   * Apache Spark <https://spark.apache.org/> - Unified engine for large-scale data analytics
   * RAY <https://www.ray.io/> - An open-source unified compute framework that makes it easy to scale AI and Python workloads
 * Analytics
   * Apache Hive <https://hive.apache.org/> - A distributed, fault-tolerant data warehouse system that enables analytics at a massive scale
-  * Trino <https://trino.io/> - A distributed SQL query engine designed to query large data sets
-  * Amazon RedShift <https://aws.amazon.com/redshift/>
-  * Azure Synapse Analytics <https://azure.microsoft.com/en-us/products/synapse-analytics/>
-  * Amazon Athena <https://aws.amazon.com/athena/>
   * Presto <https://prestodb.io/> - Fast and Reliable SQL Engine
-
-## Other data services/tools
-
-* Full-fledged ETL services
+  * Trino <https://trino.io/> - A distributed SQL query engine designed to query large data sets
+  * Amazon EMR <https://aws.amazon.com/emr/>
+  * Amazon RedShift <https://aws.amazon.com/redshift/>
+  * Amazon Athena <https://aws.amazon.com/athena/>
+  * Microsoft Fablic <https://www.microsoft.com/en-us/microsoft-fabric>
+  * Azure Synapse Analytics <https://azure.microsoft.com/en-us/products/synapse-analytics/>
+* Full-fledged ETL
   * Azure Data Factory <https://azure.microsoft.com/en-us/products/data-factory/>
   * AWS Glue <https://aws.amazon.com/glue/>
   * Apache NiFi <https://nifi.apache.org/>
-* Distributed streaming
-  * Apache Kafka <https://kafka.apache.org/>
-* Real-time data ingestion
+* Real-time streaming
   * Amazon Kinesis <https://aws.amazon.com/kinesis/>
   * Azure Event Hubs <https://azure.microsoft.com/en-us/products/event-hubs/>
-* Message queuing
+  * Apache Kafka <https://kafka.apache.org/> - An open-source distributed event streaming platform
+  * Apache Storm <https://storm.apache.org/> - A free and open source distributed realtime computation system
+  * Apache Flink <https://flink.apache.org/> - A framework and distributed processing engine for stateful computations over unbounded and bounded data streams
+
+## Application integration
+
+* Messaging
   * Azure Service Bus <https://azure.microsoft.com/en-us/products/service-bus/>
   * Azure Queue Storage <https://azure.microsoft.com/en-us/products/storage/queues/>
   * Amazon Simple Queue Service <https://aws.amazon.com/sqs/>
@@ -214,8 +231,9 @@ _work in progress._
   * Markov decision process <https://en.wikipedia.org/wiki/Markov_decision_process>
   * Multi-armed bandit <https://en.wikipedia.org/wiki/Multi-armed_bandit>
   * Value function <https://en.wikipedia.org/wiki/Value_function>
-* ML tools and services
+* Tools and services
   * scikit-learn <https://scikit-learn.org/stable>
+  * libsvm <https://www.csie.ntu.edu.tw/~cjlin/libsvm/> - A Library for Support Vector Machines
   * Azure Machine Learning <https://azure.microsoft.com/en-us/products/machine-learning/>
   * Amazon SageMaker <https://aws.amazon.com/sagemaker/>
   * ML.NET <https://dotnet.microsoft.com/en-us/apps/machinelearning-ai/ml-dotnet>
@@ -239,6 +257,9 @@ _work in progress._
     * TFDS <https://www.tensorflow.org/datasets>
     * Keras <https://keras.io/>
   * PyTorch <https://pytorch.org/>
+* Textbooks
+  * Neural Networks and Deep Learning <http://neuralnetworksanddeeplearning.com/>
+  * Deep Learning, MIT Press <https://www.deeplearningbook.org/>
 
 ## Generic tools for AI/ML
 
@@ -249,6 +270,7 @@ _work in progress._
 ## Natural language processing
 
 * Linguistics <https://en.wikipedia.org/wiki/Linguistics>
+  * Morphology <https://en.wikipedia.org/wiki/Morphology_(linguistics)>
   * Syntax <https://en.wikipedia.org/wiki/Syntax>
   * Semantics <https://en.wikipedia.org/wiki/Semantics>
 * n-gram <https://en.wikipedia.org/wiki/N-gram>
@@ -256,7 +278,8 @@ _work in progress._
 * Word2vec <https://en.wikipedia.org/wiki/Word2vec>
 * fastText <https://fasttext.cc/> - Library for efficient text classification and representation learning
 * GloVe <https://nlp.stanford.edu/projects/glove/> - Global Vectors for Word Representation
-* Kuromoji <https://www.atilika.org/> - an open source Japanese morphological analyzer written in Java
+* Kuromoji <https://www.atilika.org/> - An open source Japanese morphological analyzer written in Java
+* Natural Language Toolkit <https://www.nltk.org/> - A leading platform for building Python programs to work with human language data
 
 ## LLMs and their hosted services
 
@@ -264,3 +287,4 @@ _work in progress._
 * Llama <https://llama.meta.com/> <https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/>
 * Gemini <https://gemini.google.com/>
 * Azure OpnAI Service <https://azure.microsoft.com/en-us/products/ai-services/openai-service>
+* Amazon Bedrock <https://aws.amazon.com/bedrock/>

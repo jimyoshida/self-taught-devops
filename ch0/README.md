@@ -277,8 +277,14 @@
 
 * Braess's paradox <https://en.wikipedia.org/wiki/Braess%27s_paradox>
 * Induced demand <https://en.wikipedia.org/wiki/Induced_demand>
-* Network externality <https://en.wikipedia.org/wiki/Network_effect>
 * Metcalfe's law <https://en.wikipedia.org/wiki/Metcalfe%27s_law>
+* Network effect <https://en.wikipedia.org/wiki/Network_effect>
+* Network analysis
+  * Centrality <https://en.wikipedia.org/wiki/Centrality>
+  * NetworkX <https://networkx.org/>
+* Collective intelligence <https://en.wikipedia.org/wiki/Collective_intelligence>
+  * Recommender system <https://en.wikipedia.org/wiki/Recommender_system>
+  * Crab <https://muricoca.github.io/crab/> - Recommender systems in Python
 
 ## Mathematics
 
