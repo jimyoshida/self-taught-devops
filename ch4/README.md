@@ -87,15 +87,19 @@
   * Python Fablic <https://www.fabfile.org/>
   * gliderlabs/ssh <https://pkg.go.dev/github.com/gliderlabs/ssh>
   * mosh <https://mosh.org/>
-* OpenPGP/GPG <https://gnupg.org/>
+  * WinSSHTerm <https://winsshterm.blogspot.com/>
+  * charm_Wish <https://github.com/charmbracelet/wish> - an ssh app library
+  * charm_Wishlist <https://github.com/charmbracelet/wishlist> - the ssh directory
+* PGP (Pretty Good Privacy) <https://en.wikipedia.org/wiki/Pretty_Good_Privacy>
+  * OpenPGP <https://www.openpgp.org/>
+  * GnuPG <https://gnupg.org/>
+  * Gpg4win <https://www.gpg4win.org/>
 * keychain <https://www.funtoo.org/Funtoo:Keychain>
 * TOTP (Time-Based One-Time Password) <https://en.wikipedia.org/wiki/Time-based_one-time_password>
 * Network firewall
   * netfilter <https://www.netfilter.org/index.html>
     * iptables <https://man7.org/linux/man-pages/man8/iptables.8.html>
   * ubuntu ufw <https://help.ubuntu.com/community/UFW>
-* charm_Wish <https://github.com/charmbracelet/wish> - an ssh app library
-* charm_Wishlist <https://github.com/charmbracelet/wishlist> - the ssh directory
 
 ## Web security standards
 

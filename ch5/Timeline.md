@@ -31,7 +31,7 @@ The term Deep Learning was introduced to the machine learning community by Rina 
 SQL was adopted as a standard by the ANSI in 1986 as SQL-86 and the ISO in 1987.
 
 The concept of data warehousing dates back to the late 1980s when IBM researchers Barry Devlin and Paul Murphy developed the "business data warehouse".
-1988 – Barry Devlin and Paul Murphy publish the article "An architecture for a business and information system" where they introduce the term "business data warehouse".
+In 1988, Barry Devlin and Paul Murphy publish the article "An architecture for a business and information system" where they introduce the term "business data warehouse".
 
 Microsoft SQL Server is a proprietary relational database management system developed by Microsoft. As a database server, it is a software product with the primary function of storing and retrieving data as requested by other software applications.
 Initial release: April 24, 1989
@@ -98,11 +98,23 @@ Initial release: October 1, 2010
 Apache Kafka is a distributed event store and stream-processing platform. It is an open-source system developed by the Apache Software Foundation written in Java and Scala. The project aims to provide a unified, high-throughput, low-latency platform for handling real-time data feeds.
 Initial release: January 2011
 
+Apache Flink is an open-source, unified stream-processing and batch-processing framework developed by the Apache Software Foundation. The core of Apache Flink is a distributed streaming data-flow engine written in Java and Scala.
+Initial release: May 2011
+
+Apache Storm is a distributed stream processing computation framework written predominantly in the Clojure programming language. Originally created by Nathan Marz and team at BackType, the project was open sourced after being acquired by Twitter.
+The initial release was on 17 September 2011.
+
 James Dixon, then chief technology officer at Pentaho, coined the term data lake by 2011 to contrast it with data mart, which is a smaller repository of interesting attributes derived from raw data.
+
+Amazon Redshift is a data warehouse product which forms part of the larger cloud-computing platform Amazon Web Services.
+It is built on top of technology from the massive parallel processing (MPP) data warehouse company ParAccel (later acquired by Actian), to handle large scale data sets and database migrations.
+Initial release: October 2012
 
 Presto is a distributed query engine for big data using the SQL query language. Its architecture allows users to query data sources such as Hadoop, Cassandra, Kafka, AWS S3, Alluxio, MySQL, MongoDB and Teradata, and allows use of multiple data sources within a query.
 Hive was deemed too slow for Facebook's scale and Presto was invented to fill the gap to run fast queries. Original development started in 2012 and deployed at Facebook later that year.
 Initial release: 10 November 2013
+
+Amazon Kinesis is a family of services provided by Amazon Web Services (AWS) for processing and analyzing real-time streaming data at a large scale. Launched in November 2013.
 
 Apache Spark is an open-source unified analytics engine for large-scale data processing. Spark provides an interface for programming clusters with implicit data parallelism and fault tolerance.
 Spark was initially started by Matei Zaharia at UC Berkeley's AMPLab in 2009, and open sourced in 2010 under a BSD license.

@@ -11,4 +11,5 @@
   * and so on
 * Books
   * Self-taught Programmer (Japanese Edition)
+  * Data Science from Scratch (Japanese Edition)
   * ... To be listed more

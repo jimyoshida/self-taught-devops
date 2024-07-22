@@ -60,15 +60,18 @@
   * cgroups <https://man7.org/linux/man-pages/man7/cgroups.7.html>
   * namespaces <https://man7.org/linux/man-pages/man7/namespaces.7.html>
   * lxc/rootfs <https://man7.org/linux/man-pages/man7/lxc.7.html>
-  * overlayfs <https://www.kernel.org/doc/html/latest/filesystems/overlayfs.html>
-  * proc pseudo-filesystem <https://man7.org/linux/man-pages/man5/proc.5.html>
-  * sysfs pseudo-filesystem <https://man7.org/linux/man-pages/man5/sysfs.5.html>
+* Filesystems
   * ext4 <https://en.wikipedia.org/wiki/Ext4>
   * xfs <https://en.wikipedia.org/wiki/XFS>
+  * overlayfs <https://en.wikipedia.org/wiki/OverlayFS>
+  * proc pseudo-filesystem <https://man7.org/linux/man-pages/man5/proc.5.html>
+  * sysfs pseudo-filesystem <https://man7.org/linux/man-pages/man5/sysfs.5.html>
 * Systemd <https://www.freedesktop.org/wiki/Software/systemd/>
 * linux-pam <https://github.com/linux-pam/linux-pam>
 * kvm <https://www.linux-kvm.org/page/Main_Page>
 * eBPF (Extended Berkeley Packet Filter) <https://ebpf.io/>
+* FUSE (Filesystem in Userspace) <https://github.com/libfuse/libfuse>
+  * s3fs <https://github.com/s3fs-fuse/s3fs-fuse>
 
 ## Linux administration tools
 
@@ -324,6 +327,7 @@
     * kube-prometheus <https://github.com/prometheus-operator/kube-prometheus>
   * OpenTelemetry Operator <https://opentelemetry.io/docs/kubernetes/operator/>
   * Elastic Cloud on Kubernetes (ECK) <https://www.elastic.co/elastic-cloud-kubernetes>
+  * Rook <https://rook.io/> - Storage Operators for Kubernetes
 
 ## Continuous integration and delivery
 

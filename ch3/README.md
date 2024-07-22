@@ -164,10 +164,11 @@
 * Selenium IDE <https://www.selenium.dev/selenium-ide/>
 * Selenium WebDriver <https://selenium.dev/documentation/en/webdriver/>
 * Playwright <https://playwright.dev/>
-* Crawlee <https://crawlee.dev/>
-* Karma <https://karma-runner.github.io>
+* Karma <https://karma-runner.github.io> - A test runner that fits all our needs
+* Crawlee <https://crawlee.dev/> - A web scraping and browser automation library
+* BeautifulSoup <https://www.crummy.com/software/BeautifulSoup/> - A Python library designed for quick turnaround projects like screen-scraping
+* Scrapy <https://scrapy.org/> - An open source and collaborative framework for extracting the data you need from websites
 * Mechanize <https://metacpan.org/pod/WWW::Mechanize>
-* BeautifulSoup <https://www.crummy.com/software/BeautifulSoup/>
 * Watir <http://watir.com/>
 
 ## Rendering and JS engines (reference)
