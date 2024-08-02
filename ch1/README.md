@@ -134,6 +134,7 @@
   * python csv <https://docs.python.org/3/library/csv.html>
   * python tabulate <https://github.com/astanin/python-tabulate>
   * go csv <https://pkg.go.dev/encoding/csv>
+  * js Papa Parse <https://www.papaparse.com/>
   * csvkit <https://csvkit.readthedocs.io/en/latest/>
   * xsv <https://github.com/BurntSushi/xsv>
   * qsv <https://github.com/jqnatividad/qsv>
@@ -265,8 +266,9 @@
   * JSON <https://www.json.org/json-en.html>
     * jq <https://stedolan.github.io/jq/>
     * gojq <https://github.com/itchyny/gojq>
-    * json_pp <https://metacpan.org/dist/JSON-PP/view/bin/json_pp>
+    * JMESPath <https://jmespath.org/>
     * JSON::PP <https://metacpan.org/pod/JSON::PP>
+      * json_pp <https://metacpan.org/dist/JSON-PP/view/bin/json_pp>
     * fx <https://fx.wtf/> - Terminal JSON viewer & processor
   * XML <https://www.w3.org/XML/>
   * ISO 8601: Date and time — Representations for information interchange

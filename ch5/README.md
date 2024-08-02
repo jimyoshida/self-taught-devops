@@ -16,27 +16,25 @@ _work in progress._
   * ACID <https://en.wikipedia.org/wiki/ACID>
 * CRUD operations <https://en.wikipedia.org/wiki/Create,_read,_update_and_delete>
 
-## Probability theory and statistics
+## Statistics
 
+* Statistics <https://en.wikipedia.org/wiki/Statistics>
 * Probability theory <https://en.wikipedia.org/wiki/Probability_theory>
   * Bayes' theorem <https://en.wikipedia.org/wiki/Bayes%27_theorem>
-* Statistics <https://en.wikipedia.org/wiki/Statistics>
+  * Naive_Bayes_classifier <https://en.wikipedia.org/wiki/Naive_Bayes_classifier>
 * Correlation <https://en.wikipedia.org/wiki/Correlation>
   * Pearson correlation coefficient <https://en.wikipedia.org/wiki/Pearson_correlation_coefficient>
-* Regression analysis <https://en.wikipedia.org/wiki/Regression_analysis>
-* Statistical classification <https://en.wikipedia.org/wiki/Statistical_classification>
-  * ROC curve <https://en.wikipedia.org/wiki/Receiver_operating_characteristic>
-* Statistical hypothesis testing <https://en.wikipedia.org/wiki/Statistical_hypothesis_testing>
+* Hypothesis testing <https://en.wikipedia.org/wiki/Statistical_hypothesis_testing>
   * Cross-validation <https://en.wikipedia.org/wiki/Cross-validation_(statistics)>
   * Null hypothesis <https://en.wikipedia.org/wiki/Null_hypothesis>
 * Textbooks
   * Openstax Introductory Statistics <https://openstax.org/details/books/introductory-statistics/>
   * OpenIntro Statistics <https://www.openintro.org/book/os/>
 
-## Scientific computing and data manipuration
+## Basic data science tools
 
 * Computing
-  * R project <https://www.r-project.org/>
+  * R <https://www.r-project.org/> - A free software environment for statistical computing and graphics
   * NumPy <https://numpy.org/> - The fundamental package for scientific computing with Python
   * SciPy <https://scipy.org/> - Fundamental algorithms for scientific computing in Python
   * SymPy <https://www.sympy.org/en/index.html> - A Python library for symbolic mathematics
@@ -207,47 +205,59 @@ _work in progress._
   * Azure Service Bus <https://azure.microsoft.com/en-us/products/service-bus/>
   * Azure Queue Storage <https://azure.microsoft.com/en-us/products/storage/queues/>
   * Amazon Simple Queue Service <https://aws.amazon.com/sqs/>
+  * RabbitMQ <https://www.rabbitmq.com/> - A reliable and mature messaging and streaming broker
 
 ---
 
 ## Machine learning
 
-* Common concepts
-  * Stochastic gradient descent <https://en.wikipedia.org/wiki/Stochastic_gradient_descent>
+* Paradigms and concepts
+  * Supervised learning <https://en.wikipedia.org/wiki/Supervised_learning>
+    * Decision tree learning <https://en.wikipedia.org/wiki/Decision_tree_learning>
+    * Ensemble learning <https://en.wikipedia.org/wiki/Ensemble_learning>
+      * Random forest <https://en.wikipedia.org/wiki/Random_forest>
+    * Support vector machine <https://en.wikipedia.org/wiki/Support_vector_machine>
+  * Unsupervised learning <https://en.wikipedia.org/wiki/Unsupervised_learning>
+    * K-means clustering <https://en.wikipedia.org/wiki/K-means_clustering>
+  * Reinforcement learning <https://en.wikipedia.org/wiki/Reinforcement_learning>
+    * Markov decision process <https://en.wikipedia.org/wiki/Markov_decision_process>
+    * Multi-armed bandit <https://en.wikipedia.org/wiki/Multi-armed_bandit>
+    * Value function <https://en.wikipedia.org/wiki/Value_function>
   * Dynamic programming <https://en.wikipedia.org/wiki/Dynamic_programming>
-  * Rectifier <https://en.wikipedia.org/wiki/Rectifier_(neural_networks)>
-    * Sigmoid function <https://en.wikipedia.org/wiki/Sigmoid_function>
-    * Softmax function <https://en.wikipedia.org/wiki/Softmax_function>
   * Early stopping <https://en.wikipedia.org/wiki/Early_stopping>
-* Supervised learning <https://en.wikipedia.org/wiki/Supervised_learning>
-  * Ensemble learning <https://en.wikipedia.org/wiki/Ensemble_learning>
+* Classification <https://en.wikipedia.org/wiki/Statistical_classification>
   * Logistic regression <https://en.wikipedia.org/wiki/Logistic_regression>
-  * Support vector machine <https://en.wikipedia.org/wiki/Support_vector_machine>
-  * Random forest <https://en.wikipedia.org/wiki/Random_forest>
-  * Artificial neural network <https://en.wikipedia.org/wiki/Artificial_neural_network>
+  * ROC curve <https://en.wikipedia.org/wiki/Receiver_operating_characteristic>
+* Regression <https://en.wikipedia.org/wiki/Regression_analysis>
+  * Ordinary least squares <https://en.wikipedia.org/wiki/Ordinary_least_squares>
+  * Generalized linear model <https://en.wikipedia.org/wiki/Generalized_linear_model>
   * ARIMA model <https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average>
-* Unsupervised learning <https://en.wikipedia.org/wiki/Unsupervised_learning>
-* Reinforcement learning <https://en.wikipedia.org/wiki/Reinforcement_learning>
-  * Markov decision process <https://en.wikipedia.org/wiki/Markov_decision_process>
-  * Multi-armed bandit <https://en.wikipedia.org/wiki/Multi-armed_bandit>
-  * Value function <https://en.wikipedia.org/wiki/Value_function>
+* Anomaly detection <https://en.wikipedia.org/wiki/Anomaly_detection>
+  * One-class classification <https://en.wikipedia.org/wiki/One-class_classification>
+* Recommender system <https://en.wikipedia.org/wiki/Recommender_system>
 * Tools and services
   * scikit-learn <https://scikit-learn.org/stable>
   * libsvm <https://www.csie.ntu.edu.tw/~cjlin/libsvm/> - A Library for Support Vector Machines
   * Azure Machine Learning <https://azure.microsoft.com/en-us/products/machine-learning/>
   * Amazon SageMaker <https://aws.amazon.com/sagemaker/>
   * ML.NET <https://dotnet.microsoft.com/en-us/apps/machinelearning-ai/ml-dotnet>
+  * Crab <https://muricoca.github.io/crab/> - Recommender systems in Python
 * MLOps
   * CML <https://cml.dev/> - An open-source tool for implementing continuous integration & delivery (CI/CD) in machine learning projects
   * MLFlow <https://mlflow.org/>
   * KubeFlow <https://www.kubeflow.org/>
 
-## Deep learning
+## Neural networks and deep learning
 
-* Deep Learning <https://en.wikipedia.org/wiki/Deep_learning>
+* Neural network <https://en.wikipedia.org/wiki/Neural_network_(machine_learning)>
+  * Rectifier <https://en.wikipedia.org/wiki/Rectifier_(neural_networks)>
+    * Sigmoid function <https://en.wikipedia.org/wiki/Sigmoid_function>
+    * Softmax function <https://en.wikipedia.org/wiki/Softmax_function>
   * Backpropagation <https://en.wikipedia.org/wiki/Backpropagation>
   * Autoencoder <https://en.wikipedia.org/wiki/Autoencoder>
   * Vanishing gradient problem <https://en.wikipedia.org/wiki/Vanishing_gradient_problem>
+* Deep Learning <https://en.wikipedia.org/wiki/Deep_learning>
+  * Stochastic gradient descent <https://en.wikipedia.org/wiki/Stochastic_gradient_descent>
   * Fine tuning <https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)>
   * Recurrent neural network <https://en.wikipedia.org/wiki/Recurrent_neural_network>
     * LSTM <https://en.wikipedia.org/wiki/Long_short-term_memory>

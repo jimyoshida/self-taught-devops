@@ -11,6 +11,11 @@ The first implementation was a machine built in 1958 at the Cornell Aeronautical
 
 The term machine learning was coined in 1959 by Arthur Samuel, an IBM employee and pioneer in the field of computer gaming and artificial intelligence. The synonym self-teaching computers was also used in this time period.
 
+### 1960s
+
+In machine learning, backpropagation is a gradient estimation method used to train neural network models.
+The term "back-propagating error correction" was introduced in 1962 by Frank Rosenblatt, but he did not know how to implement this, even though Henry J. Kelley had a continuous precursor of backpropagation already in 1960 in the context of control theory.
+
 ### 1970s
 
 The term "relational database" was first defined by E. F. Codd at IBM in 1970. Codd introduced the term in his research paper "A Relational Model of Data for Large Shared Data Banks".
