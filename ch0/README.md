@@ -283,8 +283,6 @@
   * Centrality <https://en.wikipedia.org/wiki/Centrality>
   * NetworkX <https://networkx.org/>
 * Collective intelligence <https://en.wikipedia.org/wiki/Collective_intelligence>
-  * Recommender system <https://en.wikipedia.org/wiki/Recommender_system>
-  * Crab <https://muricoca.github.io/crab/> - Recommender systems in Python
 
 ## Mathematics
 

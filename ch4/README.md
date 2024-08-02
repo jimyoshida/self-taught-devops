@@ -68,9 +68,9 @@
   * SPIRE (SPIFFE Runtime Environment) <https://spiffe.io/docs/latest/spire-about/>
   * MIT Kerberos <https://web.mit.edu/kerberos/new/index.html>
   * FreeIPA <https://www.freeipa.org/>
-* Cloud IDaaS
   * Microsoft Entra ID <https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id>
   * Azure RBAC <https://docs.microsoft.com/en-us/azure/role-based-access-control/overview>
+  * Azure Shared Access Signature (SAS) <https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview>
   * AWS IAM <https://aws.amazon.com/iam/>
   * Amazon Cognito <https://aws.amazon.com/cognito/>
   * Auth0 <https://auth0.com/>
