@@ -196,7 +196,7 @@
   * podman <https://podman.io/>
   * buildah <https://buildah.io/>
   * skopeo <https://github.com/containers/skopeo>
-  * kaniko <https://github.com/GoogleContainerTools/kaniko>
+  * Kaniko <https://github.com/GoogleContainerTools/kaniko>
   * lazydocker <https://github.com/jesseduffield/lazydocker>
   * dive <https://github.com/wagoodman/dive>
 * Container registries
@@ -328,6 +328,15 @@
   * OpenTelemetry Operator <https://opentelemetry.io/docs/kubernetes/operator/>
   * Elastic Cloud on Kubernetes (ECK) <https://www.elastic.co/elastic-cloud-kubernetes>
   * Rook <https://rook.io/> - Storage Operators for Kubernetes
+
+## WebAssembly
+
+* WebAssembly <https://webassembly.org/>
+* WebAssembly System Interface (WASI) <https://github.com/WebAssembly/WASI>
+* Runtimes
+  * wazero <https://wazero.io/>
+  * wasmtime <https://wasmtime.dev/>
+  * wasmer <https://wasmer.io/>
 
 ## Continuous integration and delivery
 

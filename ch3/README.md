@@ -1,4 +1,4 @@
-# Class 3: Web and Cloud Native
+# Class 3: Distributed Systems
 
 [Show timeline](./Timeline.md)
 
@@ -22,15 +22,6 @@
 * MQTT <https://mqtt.org/>
 * AMQP <https://www.amqp.org/>
 
-## WebAssembly
-
-* WebAssembly <https://webassembly.org/>
-* WASI <https://github.com/WebAssembly/WASI>
-* Runtime
-  * wazero <https://wazero.io/>
-  * wasmtime <https://wasmtime.dev/>
-  * wasmer <https://wasmer.io/>
-
 ## Web clients
 
 * Browsers
@@ -38,18 +29,18 @@
   * Chromium <https://www.chromium.org/Home/>
   * Firefox <https://www.mozilla.org/en-US/firefox/>
   * w3m <https://w3m.sourceforge.net/>
-  * EWW <https://www.gnu.org/software/emacs/manual/html_mono/eww.html>
+  * EWW <https://www.gnu.org/software/emacs/manual/html_mono/eww.html> (reference)
 * CLIs
   * cURL <https://curl.haxx.se/>
   * Wget <https://www.gnu.org/software/wget/>
   * curlie <https://curlie.io/>
   * httpie <https://httpie.io/>
 * Libraries
-  * Perl LWP <https://metacpan.org/pod/LWP>
   * Python Requests <https://docs.python-requests.org/en/latest/>
   * JS Axios <https://axios-http.com/>
   * Go Resty <https://github.com/go-resty/resty>
   * Go FastHTTP <https://github.com/valyala/fasthttp>
+  * Perl LWP <https://metacpan.org/pod/LWP> (reference)
 
 ## Web servers / proxies
 
@@ -101,13 +92,11 @@
   * Apache Tomcat <https://tomcat.apache.org/>
 * Web server interfaces
   * WSGI/uWSGI <https://uwsgi-docs.readthedocs.io/en/latest/>
-  * PSGI/Plack <https://plackperl.org/>
-  * Rack <https://rack.github.io/>
+  * PSGI/Plack <https://plackperl.org/> (reference)
+  * Rack <https://rack.github.io/> (reference)
 
 ## Web application frameworks (for devops)
 
-* Perl
-  * Dancer2 <https://metacpan.org/pod/Dancer2>
 * Python
   * FastAPI <https://fastapi.tiangolo.com/>
   * Flask <https://palletsprojects.com/p/flask/>
@@ -122,12 +111,13 @@
   * Gorilla web toolkit <https://www.gorillatoolkit.org/>
   * Gin Web Framework <https://gin-gonic.com/>
   * Echo <https://echo.labstack.com/>
+* Perl
+  * Dancer2 <https://metacpan.org/pod/Dancer2> (reference)
+  * Mojolicious <https://www.mojolicious.org/> (reference)
 * Ruby
-  * Sinatra <https://sinatrarb.com/>
+  * Sinatra <https://sinatrarb.com/> (reference)
 * Java
-  * Spark <https://sparkjava.com/> (reference)
-  * Javalin <https://javalin.io/about> (reference)
-  * Spring boot <https://spring.io/projects/spring-boot> (reference)
+  * Spring <https://spring.io/> (reference)
 * .NET
   * ASP.NET <https://dotnet.microsoft.com/en-us/apps/aspnet> (reference)
 
@@ -168,8 +158,8 @@
 * Crawlee <https://crawlee.dev/> - A web scraping and browser automation library
 * BeautifulSoup <https://www.crummy.com/software/BeautifulSoup/> - A Python library designed for quick turnaround projects like screen-scraping
 * Scrapy <https://scrapy.org/> - An open source and collaborative framework for extracting the data you need from websites
-* Mechanize <https://metacpan.org/pod/WWW::Mechanize>
-* Watir <http://watir.com/>
+* Mechanize <https://metacpan.org/pod/WWW::Mechanize> (for CGI)
+* Watir <http://watir.com/> (reference)
 
 ## Rendering and JS engines (reference)
 
@@ -188,3 +178,7 @@
 * Tauri <https://tauri.app/>
 * React Native <https://reactnative.dev>
 * Flutter <https://flutter.dev>
+
+## Mobile application platforms (reference)
+
+To Do

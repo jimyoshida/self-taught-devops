@@ -37,7 +37,8 @@
 * state <https://en.wikipedia.org/wiki/State_(computer_science)>
 * heredoc <https://en.wikipedia.org/wiki/Here_document>
 * exception handling <https://en.wikipedia.org/wiki/Exception_handling_(programming)>
-* this keyword <https://en.wikipedia.org/wiki/This_(computer_programming)>
+* cohesion <https://en.wikipedia.org/wiki/Cohesion_(computer_science)>
+* assertion <https://en.wikipedia.org/wiki/Assertion_(software_development)>
 
 ## Object-oriented programming
 
@@ -49,6 +50,7 @@
 * class <https://en.wikipedia.org/wiki/Class_(computer_programming)>
 * interface <https://en.wikipedia.org/wiki/Interface_(object-oriented_programming)>
 * method <https://en.wikipedia.org/wiki/Method_(computer_programming)>
+* this keyword <https://en.wikipedia.org/wiki/This_(computer_programming)>
 * duck typing <https://en.wikipedia.org/wiki/Duck_typing>
 * covariance and contravariance <https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)>
 * Frameworks for non-OO languages
@@ -113,14 +115,14 @@
 * Unicode <https://home.unicode.org/>
   * ICU <https://icu.unicode.org/> - a mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support
 * Unicode Emoji <https://home.unicode.org/emoji/>
-  * python emoji <https://github.com/carpedm20/emoji/>
-  * go emoji <https://github.com/kyokomi/emoji>
+  * Python emoji <https://github.com/carpedm20/emoji/>
+  * Go emoji <https://github.com/kyokomi/emoji>
 * Regex <https://en.wikipedia.org/wiki/Regular_expression>
   * PCRE <https://en.wikipedia.org/wiki/Perl_Compatible_Regular_Expressions>
   * Oniguruma <https://github.com/kkos/oniguruma> - A regular expression library
-  * Onigumo <https://github.com/k-takata/Onigmo> - A regular expressions library forked from Oniguruma
-  * python re <https://docs.python.org/3/library/re.html>
-  * go regexp <https://pkg.go.dev/regexp>
+  * Onigmo <https://github.com/k-takata/Onigmo> - A regular expressions library forked from Oniguruma
+  * Python re <https://docs.python.org/3/library/re.html>
+  * Go regexp <https://pkg.go.dev/regexp>
 * GNU sed <https://www.gnu.org/software/sed/>; <https://sed.sourceforge.io/>
 * sd <https://github.com/chmln/sd> - sed alternative
 * GNU awk <https://www.gnu.org/software/gawk/>
@@ -131,9 +133,9 @@
   * TSV <https://en.wikipedia.org/wiki/Tab-separated_values>
   * CSV <https://en.wikipedia.org/wiki/Comma-separated_values>
   * Text::CSV <https://metacpan.org/pod/Text::CSV>
-  * python csv <https://docs.python.org/3/library/csv.html>
-  * python tabulate <https://github.com/astanin/python-tabulate>
-  * go csv <https://pkg.go.dev/encoding/csv>
+  * Python csv <https://docs.python.org/3/library/csv.html>
+  * Python tabulate <https://github.com/astanin/python-tabulate>
+  * Go csv <https://pkg.go.dev/encoding/csv>
   * js Papa Parse <https://www.papaparse.com/>
   * csvkit <https://csvkit.readthedocs.io/en/latest/>
   * xsv <https://github.com/BurntSushi/xsv>
@@ -151,10 +153,12 @@
   * yarn <https://yarnpkg.com/>
   * pnpm <https://pnpm.io>
   * pip <https://pip.pypa.io/>
-  * go mod <https://pkg.go.dev/cmd/go>
+  * Go mod <https://pkg.go.dev/cmd/go>
   * cpanminus <https://metacpan.org/pod/App::cpanminus>
+  * perlbrew <https://perlbrew.pl/>
   * bpkg <https://bpkg.sh/bpkg/>
-  * cargo <https://doc.rust-lang.org/stable/cargo/>
+  * Conan <https://conan.io/>
+  * Cargo <https://doc.rust-lang.org/stable/cargo/>
   * RubyGems CLI <https://rubygems.org/>
   * NuGet CLI <https://www.nuget.org/>
   * stack <https://docs.haskellstack.org/en/stable/>
@@ -176,6 +180,7 @@
 * asdf <https://asdf-vm.com/> - a tool version manager
 * nvm <https://github.com/nvm-sh/nvm>
 * nvm-windows <https://github.com/coreybutler/nvm-windows>
+* perlbrew <https://perlbrew.pl/>
 
 ## Version control
 
@@ -207,6 +212,7 @@
 
 * Orthogonality and DRY principle <https://www.artima.com/intv/dry.html>
 * SOLID - The principle of OOD <http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod>
+* Law of Demeter <https://en.wikipedia.org/wiki/Law_of_Demeter>
 * Unix Philosophy <https://en.wikipedia.org/wiki/Unix_philosophy>
 * Rob Pike's 5 Rules of Programming <https://users.ece.utexas.edu/~adnan/pike.html>
 * The Zen of Python <https://www.python.org/dev/peps/pep-0020/>
@@ -220,15 +226,17 @@
   * 33 JS Concepts <https://github.com/leonardomso/33-js-concepts>
   * Callback Hell <http://callbackhell.com/>
   * Effective Go <https://golang.org/doc/effective_go.html>
-* Code quality
+* Code quality checkers / linters
   * SonarQube <https://www.sonarqube.org/>
     * SQALE method <http://sqale.org/>
   * GitLab Code Quality <https://docs.gitlab.com/ee/ci/testing/code_quality.html>
-  * ESLint <https://eslint.org/>
-  * JSHint <https://jshint.com/about/>
-  * Ruff <https://docs.astral.sh/ruff/>
-  * PSScriptAnalyzer <https://www.powershellgallery.com/packages/PSScriptAnalyzer/1.20.0>
-  * ShellCheck <https://www.shellcheck.net/>
+  * ESLint <https://eslint.org/> - An open source project that helps you find and fix problems with your JavaScript code
+  * JSHint <https://jshint.com/about/> - A Static Code Analysis Tool for JavaScript
+  * Ruff <https://docs.astral.sh/ruff/> - An extremely fast Python linter and code formatter, written in Rust
+  * Staticcheck <https://staticcheck.dev/> - A state of the art linter for the Go programming language
+  * golangci-lint <https://golangci-lint.run/> - A fast linters runner for Go
+  * PSScriptAnalyzer <https://github.com/PowerShell/PSScriptAnalyzer> - A static code checker for PowerShell modules and scripts
+  * ShellCheck <https://www.shellcheck.net/> - A GPLv3 tool that gives warnings and suggestions for bash/sh shell scripts
 
 ## IDEs and editors
 
@@ -240,6 +248,7 @@
     * NERDTree <https://github.com/preservim/nerdtree>
   * Neovim <https://neovim.io/>
     * Neo-tree.nvim <https://github.com/nvim-neo-tree/neo-tree.nvim>
+  * Zed <https://zed.dev/> - A next-generation code editor designed for high-performance collaboration with humans and AI
   * GNU Emacs <https://www.gnu.org/software/emacs/>
     * doomemacs <https://github.com/doomemacs/doomemacs> - An Emacs framework for the stubborn martian hacker
     * neotree <https://github.com/jaypei/emacs-neotree>
@@ -252,6 +261,7 @@
   * GitHub Copilot <https://github.com/features/copilot/>
   * CodeGPT <https://www.codegpt.co/>
   * Cursor <https://cursor.sh/>
+  * Zed AI <https://zed.dev/ai>
 * Formatters
   * EditorConfig <https://editorconfig.org/>
   * Prettier <https://prettier.io/>
@@ -260,19 +270,29 @@
   * scc <https://github.com/boyter/scc/>
   * cloc <https://github.com/AlDanial/cloc>
 
-## Data description languages and tools
+## Structured text processing
 
 * Data exchange formats
   * JSON <https://www.json.org/json-en.html>
     * jq <https://stedolan.github.io/jq/>
     * gojq <https://github.com/itchyny/gojq>
     * JMESPath <https://jmespath.org/>
-    * JSON::PP <https://metacpan.org/pod/JSON::PP>
-      * json_pp <https://metacpan.org/dist/JSON-PP/view/bin/json_pp>
+    * JSON::Tiny <https://metacpan.org/pod/JSON::Tiny>
+    * Python json <https://docs.python.org/3/library/json.html>
     * fx <https://fx.wtf/> - Terminal JSON viewer & processor
   * XML <https://www.w3.org/XML/>
+    * XPath <https://www.w3.org/TR/xpath/>
+    * Python xml.etree.ElementTree <https://docs.python.org/3/library/xml.etree.elementtree.html>
+* Time formats
   * ISO 8601: Date and time — Representations for information interchange
   * Unix time <https://en.wikipedia.org/wiki/Unix_time>
+  * Libraries
+    * Perl DateTime <https://metacpan.org/pod/DateTime>
+    * Python delorean <https://delorean.readthedocs.io/en/latest/index.html>
+    * Python arrow <https://arrow.readthedocs.io/en/latest/>
+    * JS Moment.js <https://momentjs.com/>
+    * JS Luson <https://moment.github.io/luxon/>
+    * Go time <https://pkg.go.dev/time>
   * iCalendar <https://en.wikipedia.org/wiki/ICalendar>
 * Configuration formats
   * YAML <https://yaml.org/>
@@ -336,34 +356,43 @@
   * generator
 * Go <https://go.dev/>
   * lo <https://pkg.go.dev/github.com/samber/lo> - A Lodash-style Go library
+  * defer, panic and recover <https://go.dev/blog/defer-panic-and-recover>
+  * method receiver
+  * init function
   * goroutine
   * channel
   * go function
   * static binary executable
   * go module
 
-## Logging and Datetime
+## Debugging and logging
 
 * Bash
+  * BASH Debugger <https://bashdb.sourceforge.net/>
+  * VSCode Bash Debug <https://marketplace.visualstudio.com/items?itemName=rogalmic.bash-debug>
   * log4sh <https://github.com/kward/log4sh>
   * logger <https://man7.org/linux/man-pages/man1/logger.1.html>
-* Perl
-  * log4perl <https://metacpan.org/pod/Log::Log4perl>
-  * DateTime <https://metacpan.org/pod/DateTime>
 * Python
-  * python logging <https://docs.python.org/3/library/logging.html>
-  * delorean <https://delorean.readthedocs.io/en/latest/index.html>
-  * arrow <https://arrow.readthedocs.io/en/latest/>
-* Javascript
+  * debugpy <https://github.com/microsoft/debugpy/>
+  * VSCode Python extension <https://marketplace.visualstudio.com/items?itemName=ms-python.python>
+  * Python logging <https://docs.python.org/3/library/logging.html>
+* Node.js
+  * VSCode built-in debugger <https://code.visualstudio.com/docs/nodejs/nodejs-debugging>
+  * Node.js built-in inspector <https://nodejs.org/en/learn/getting-started/debugging>
   * bunyan <https://github.com/trentm/node-bunyan>
   * winston <https://github.com/winstonjs/winston>
   * debug <https://github.com/debug-js/debug>
-  * Moment.js <https://momentjs.com/>
-  * Luson <https://moment.github.io/luxon/>
 * Go
-  * go log <https://pkg.go.dev/log>
+  * Delve <https://github.com/go-delve/delve>
+  * VSCode Go extension <https://marketplace.visualstudio.com/items?itemName=golang.Go>
+  * Go log <https://pkg.go.dev/log>
   * zap <https://pkg.go.dev/go.uber.org/zap>
   * Logrus <https://github.com/sirupsen/logrus>
+* Perl
+  * Devel::Trepan <https://metacpan.org/pod/Devel::Trepan> - A modular gdb-like Perl debugger
+  * log4perl <https://metacpan.org/pod/Log::Log4perl>
+* C
+  * GDB <https://www.gnu.org/software/gdb/> - The GNU Project debugger
 
 ## CLI/TUI development
 
@@ -419,7 +448,7 @@
   * Cross compiler <https://en.wikipedia.org/wiki/Cross_compiler>
     * MinGW-w64 <https://www.mingw-w64.org/>
   * Golang
-    * go build <https://pkg.go.dev/cmd/go>
+    * Go build <https://pkg.go.dev/cmd/go>
     * GopherJS <https://github.com/gopherjs/gopherjs> - A compiler from Go to JavaScript
 * Linker <https://en.wikipedia.org/wiki/Linker_(computing)>
   * LLD <https://lld.llvm.org/> - The LLVM Linker
@@ -449,6 +478,7 @@
 ## Build automation tools
 
 * GNU Make <https://www.gnu.org/software/make/>
+  * Remake <https://bashdb.sourceforge.net/remake/> - An enahanced version of GNU Make that adds improved error reporting, better tracing, profiling and a debugger
 * Gradle <https://gradle.org/>
 * Maven <https://maven.apache.org/>
 * Task <https://taskfile.dev/>
@@ -467,8 +497,9 @@
     * Test2::Suite <https://metacpan.org/pod/Test2%3A%3ASuite>
   * prove <https://metacpan.org/pod/prove>
 * Python
-  * python unittest <https://docs.python.org/3/library/unittest.html>
+  * Python unittest <https://docs.python.org/3/library/unittest.html>
   * pytest <https://docs.pytest.org/en/latest/>
+  * nose <https://nose.readthedocs.io/en/latest/>
   * tappy <https://tappy.readthedocs.io/en/latest/>
 * Javascript
   * Mocha <https://mochajs.org/> (BDD style)
@@ -477,8 +508,8 @@
   * Istanbul <https://istanbul.js.org/> - Yet another JS code coverage tool
   * JS Testing Best Practices <https://github.com/goldbergyoni/javascript-testing-best-practices>
 * Go
-  * go testing <https://pkg.go.dev/testing>
-  * go cover <https://pkg.go.dev/cmd/cover>
+  * Go testing <https://pkg.go.dev/testing>
+  * Go cover <https://pkg.go.dev/cmd/cover>
   * gocheck <https://labix.org/gocheck>
   * Ginkgo <https://onsi.github.io/ginkgo/> (BDD style)
     * Gomega <https://onsi.github.io/gomega/>
@@ -504,23 +535,28 @@
 * RDoc <https://ruby.github.io/rdoc/>
 * Javadoc <https://www.oracle.com/java/technologies/javase/javadoc-tool.html>
 
-## Template tools
+## Template processors
 
-* gomplate <https://gomplate.ca/> -- A fast template renderer supporting many datasources and hundreds of functions
+* gomplate <https://gomplate.ca/> - A fast template renderer supporting many datasources and hundreds of functions
 * Go template <https://pkg.go.dev/text/template>
-* mustache <https://mustache.github.io/> -- Logic-less templates
-* Jinja <https://www.palletsprojects.com/p/jinja/> -- a full-featured template engine for Python
-* Jsonnet <https://jsonnet.org/> -- A configuration language for app and tool developers
+* mustache <https://mustache.github.io/> - Logic-less templates
+* Jinja <https://www.palletsprojects.com/p/jinja/> - A full-featured template engine for Python
+* Jsonnet <https://jsonnet.org/> - A configuration language for app and tool developers
 * Perl Text::Template <https://metacpan.org/pod/Text::Template>
-* envsubst in gettext <https://www.gnu.org/software/gettext/>
-* ERB <https://github.com/ruby/erb> -- An easy to use but powerful templating system for Ruby
+* Perl HTML::Template <https://metacpan.org/pod/HTML::Template>
+* Template Toolkit <https://template-toolkit.org/> - A fast, flexible and highly extensible template processing system
+* ERB <https://github.com/ruby/erb> - An easy to use but powerful templating system for Ruby
+* envsubst in gettext <https://www.gnu.org/software/gettext/manual/gettext.html#envsubst-Invocation>
 
 ## Functional programming (advanced)
 
 * functional programming <https://en.wikipedia.org/wiki/Functional_programming>
+* first-class function <https://en.wikipedia.org/wiki/First-class_function>
+  * map <https://en.wikipedia.org/wiki/Map_(higher-order_function)>
+  * filter <https://en.wikipedia.org/wiki/Filter_(higher-order_function)>
+  * reduce <https://en.wikipedia.org/wiki/Fold_(higher-order_function)>
 * referential transparency <https://en.wikipedia.org/wiki/Referential_transparency>
 * lambda calculus <https://en.wikipedia.org/wiki/Lambda_calculus>
-* first-class function <https://en.wikipedia.org/wiki/First-class_function>
 * closure <https://en.wikipedia.org/wiki/Closure_(computer_programming)>
 * side-effect <https://en.wikipedia.org/wiki/Side_effect_(computer_science)>
 * monad <https://en.wikipedia.org/wiki/Monad_(functional_programming)>

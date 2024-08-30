@@ -209,13 +209,9 @@
   * SELinux <https://selinuxproject.org/page/Main_Page>
   * AppArmor <https://apparmor.net/>
 
-## Secure coding
+## Secure application development
 
-* SEI CERT Coding Standards <https://wiki.sei.cmu.edu/confluence/display/seccode/SEI+CERT+Coding+Standards>
-* CWE (Common Weakness Enumeration) <https://cwe.mitre.org/>
-* CWE/SANS TOP 25 <https://www.sans.org/top25-software-errors/>
-* OWASP Top 10 <https://owasp.org/www-project-top-ten/>
-  * OWASP Top 10 for LLM <https://owasp.org/www-project-top-10-for-large-language-model-applications/>
+* OWASP Cheat Sheet Series <https://cheatsheetseries.owasp.org/>
 * OWASP ASVS <https://owasp.org/www-project-application-security-verification-standard/>
 * Cloud Application Security Assessment (CASA) <https://appdefensealliance.dev/casa>
 * WASC Threat Classification <http://projects.webappsec.org/w/page/13246978/Threat%20Classification>
@@ -233,6 +229,10 @@
 ## Vulnerability databases
 
 * Vulnerability <https://en.wikipedia.org/wiki/Vulnerability_(computing)>
+* CWE (Common Weakness Enumeration) <https://cwe.mitre.org/>
+* CWE/SANS TOP 25 <https://www.sans.org/top25-software-errors/>
+* OWASP Top 10 <https://owasp.org/www-project-top-ten/>
+* OWASP Top 10 for LLM <https://genai.owasp.org/llm-top-10/>
 * NVD (U.S. National Vulnerability Database) <https://nvd.nist.gov/>
   * CVSS (Common Vulnerability Scoring System) <https://nvd.nist.gov/vuln-metrics/cvss>
 * CVE (Common Vulnerabilities and Exposures) <https://cve.mitre.org/cve/>

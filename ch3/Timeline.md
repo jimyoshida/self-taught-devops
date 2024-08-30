@@ -1,10 +1,8 @@
-# Class 3: Web and Cloud Native
+# Class 3: Distributed Systems
 
 ## Timeline
 
 ### 1980s
-
-The Standard Generalized Markup Language (SGML; ISO 8879:1986) is a standard for defining generalized markup languages for documents.
 
 The Hypertext Transfer Protocol (HTTP) is an application layer protocol in the Internet protocol suite model for distributed, collaborative, hypermedia information systems.
 Development of HTTP was initiated by Tim Berners-Lee at CERN in 1989 and summarized in a simple document describing the behavior of a client and a server using the first HTTP protocol version that was named 0.9.
@@ -25,17 +23,11 @@ Mosaic is based on the libwww library.
 Mosaic was the first browser that could submit forms to a server.
 Initial release: 0.5 / January 23, 1993
 
-The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.
-Initial release: 1993
-
 NCSA HTTPd is an early, now discontinued, web server originally developed at the NCSA at the University of Illinois at Urbana–Champaign by Robert McCool and others.
 First released in 1993, it was among the earliest web servers developed.
 
 Common Gateway Interface (CGI) is an interface specification that enables web servers to execute an external program, typically to process user requests.
 In 1993, the National Center for Supercomputing Applications (NCSA) team wrote the specification for calling command line executables on the www-talk mailing list.
-
-The World Wide Web Consortium (W3C) is the main international standards organization for the World Wide Web. Founded in 1994 and led by Tim Berners-Lee.
-Formation: 1 October 1994
 
 Netscape Navigator was a proprietary web browser, and the original browser of the Netscape line, from versions 1 to 4.08, and 9.x. It was the flagship product of the Netscape Communications Corp and was the dominant web browser in terms of usage share in the 1990s.
 Initial release: 15 December 1994
@@ -46,20 +38,11 @@ Initial release: 1995
 PHP is a general-purpose scripting language geared toward web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994.
 PHP First appeared: June 8, 1995
 
-Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML.
-Initial release: 17 December 1996
-
 HTTP/1 was finalized and fully documented (as version 1.0) in 1996.
 
 In 1996, the iframe tag was introduced by Internet Explorer; like the object element, it can load or fetch content asynchronously.
 
 Zeev Suraski and Andi Gutmans rewrote the parser in 1997 and formed the base of PHP 3, changing the language's name to the recursive acronym PHP: Hypertext Preprocessor.
-
-Extensible Markup Language (XML) is a markup language and file format for storing, transmitting, and reconstructing arbitrary data. It defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.
-First published: February 10, 1998
-
-The Document Object Model (DOM) is a cross-platform and language-independent interface that treats an XML or HTML document as a tree structure wherein each node is an object representing a part of the document.
-First published: October 1, 1998
 
 In 1998, the Microsoft Outlook Web Access team developed the concept behind the XMLHttpRequest scripting object.
 XMLHttpRequest (XHR) is an API in the form of an object whose methods transfer data between a web browser and a web server. The object is provided by the browser's JavaScript environment.
@@ -89,10 +72,6 @@ Initial release: September 23, 2002
 
 The Spring Framework is an application framework and inversion of control container for the Java platform. The framework's core features can be used by any Java application, but there are extensions for building web applications on top of the Java EE (Enterprise Edition) platform.
 Initial release: 1 October 2002
-
-The Web Hypertext Application Technology Working Group (WHATWG) is a community of people interested in evolving HTML and related technologies.
-The WHATWG was founded by individuals from Apple Inc., the Mozilla Foundation and Opera Software, leading Web browser vendors.
-Formation: 4 June 2004
 
 On 1 July 2004, PHP 5 was released, powered by the new Zend Engine II. PHP 5 included new features such as improved support for object-oriented programming, the PHP Data Objects (PDO) extension, and numerous performance enhancements.
 
@@ -125,12 +104,6 @@ jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and 
 jQuery was originally created in January 2006 at BarCamp NYC by John Resig, influenced by Dean Edwards' earlier cssQuery library.
 Initial release: August 26, 2006
 
-HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and final major HTML version that is a World Wide Web Consortium (W3C) recommendation.
-Initial release: 22 January 2008
-
-Jinja is a web template engine for the Python programming language. It was created by Armin Ronacher and is licensed under a BSD License.
-Initial release: July 17, 2008
-
 Google Chrome is a cross-platform web browser developed by Google. It was first released in 2008 for Microsoft Windows, built with free software components from Apple WebKit and Mozilla Firefox.
 First release: 2 September 2008.
 
@@ -154,17 +127,8 @@ Express.js, or simply Express, is a back end web application framework for build
 Express.js was founded by TJ Holowaychuk. The first release, according to Express.js's GitHub repository, was on 22 May 2010. Version 0.12
 Initial release: 16 November 2010 ?
 
-Google Native Client (NaCl) was a sandboxing technology for running either a subset of Intel x86, ARM, or MIPS native code, or a portable executable, in a sandbox. It allows safely running native code from a web browser, independent of the user operating system, allowing web apps to run at near-native speeds, which aligns with Google's plans for ChromeOS.
-Initial release: 16 September 2011
-
 QUIC is a general-purpose transport layer network protocol initially designed by Jim Roskind at Google, implemented, and deployed in 2012.
 Introduction: October 12, 2012
-
-Emscripten is an LLVM/Clang-based compiler that compiles C and C++ source code to WebAssembly (or to a subset of JavaScript known as asm.js, its original compilation target before the advent of WebAssembly in 2017), primarily for execution in web browsers.
-First release: 11/11/2012
-
-asm.js is a subset of JavaScript designed to allow computer software written in languages such as C to be run as web applications while maintaining performance characteristics considerably better than standard JavaScript, which is the typical language used for such applications.
-First appeared: 21 March 2013
 
 React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.
 Initial release: May 29, 2013
@@ -183,8 +147,6 @@ Initial release: 19 February 2014
 
 Babel is a free and open-source JavaScript transcompiler that is mainly used to convert ECMAScript 2015+ (ES6+) code into a backwards compatible version of JavaScript that can be run by older JavaScript engines.
 Initial release: September 28, 2014
-
-On October 28, 2014, HTML5 was published as a W3C Recommendation.
 
 On November 13, 2014, AWS launches AWS Lambda, its Functions as a Service (FaaS) tool. With Lambda, AWS customers can define and upload functions with specific triggers and execution code.
 
@@ -209,11 +171,6 @@ Initial release: October 26, 2016
 
 On November 15, 2016, Microsoft announced the general availability of Azure Functions.
 
-WebAssembly (sometimes abbreviated Wasm) defines a portable binary-code format and a corresponding text format for executable programs.
-Announced in 2015 and first released in March 2017.
-
-WebAssembly System Interface (WASI) is a simple interface (ABI and API) designed by Mozilla intended to be portable to any platform. It provides POSIX-like features like file I/O constrained by capability-based security.
-
 Nest (NestJS) is a framework for building efficient, scalable Node.js server-side applications.
 Initial release on github: Feb 16, 2018
 
@@ -221,8 +178,6 @@ Blazor is a free and open-source web framework that enables developers to create
 Initial release: 2018
 
 cURL 7.66, released 11 September 2019, supports HTTP/3 (and thus QUIC).
-
-WebAssembly became a World Wide Web Consortium recommendation on 5 December 2019.
 
 ### 2020s
 

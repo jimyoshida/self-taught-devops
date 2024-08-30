@@ -7,6 +7,7 @@ _work in progress._
 ## Data science concepts
 
 * Data <https://en.wikipedia.org/wiki/Data_(computer_science)>
+* Metadata <https://en.wikipedia.org/wiki/Metadata>
 * Big data <https://en.wikipedia.org/wiki/Big_data>
 * ETL <https://en.wikipedia.org/wiki/Extract,_transform,_load>
 * DIKW pyramid <https://en.wikipedia.org/wiki/DIKW_pyramid>
@@ -15,21 +16,8 @@ _work in progress._
 * Concurrency control <https://en.wikipedia.org/wiki/Concurrency_control>
   * ACID <https://en.wikipedia.org/wiki/ACID>
 * CRUD operations <https://en.wikipedia.org/wiki/Create,_read,_update_and_delete>
-
-## Statistics
-
-* Statistics <https://en.wikipedia.org/wiki/Statistics>
-* Probability theory <https://en.wikipedia.org/wiki/Probability_theory>
-  * Bayes' theorem <https://en.wikipedia.org/wiki/Bayes%27_theorem>
-  * Naive_Bayes_classifier <https://en.wikipedia.org/wiki/Naive_Bayes_classifier>
-* Correlation <https://en.wikipedia.org/wiki/Correlation>
-  * Pearson correlation coefficient <https://en.wikipedia.org/wiki/Pearson_correlation_coefficient>
-* Hypothesis testing <https://en.wikipedia.org/wiki/Statistical_hypothesis_testing>
-  * Cross-validation <https://en.wikipedia.org/wiki/Cross-validation_(statistics)>
-  * Null hypothesis <https://en.wikipedia.org/wiki/Null_hypothesis>
-* Textbooks
-  * Openstax Introductory Statistics <https://openstax.org/details/books/introductory-statistics/>
-  * OpenIntro Statistics <https://www.openintro.org/book/os/>
+* Network analysis
+  * Centrality <https://en.wikipedia.org/wiki/Centrality>
 
 ## Basic data science tools
 
@@ -44,6 +32,8 @@ _work in progress._
   * Pandas <https://pandas.pydata.org/> - A fast, powerful, flexible and easy to use open source data analysis and manipulation tool
   * Tidyverse <https://www.tidyverse.org/> - An opinionated collection of R packages designed for data science
     * dplyr, tidyr, stringr, purrr, readr
+* Network analysis
+  * NetworkX <https://networkx.org/>
 
 ## Telemetry ETL tools
 
@@ -65,7 +55,7 @@ _work in progress._
   * Azure Monitor Agent <https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agents-overview>
   * Cloudwatch Agent <https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Install-CloudWatch-Agent.html>
 
-## Data visualization
+## Data visualization tools
 
 * Apps
   * Grafana <https://grafana.com/>
@@ -84,13 +74,7 @@ _work in progress._
   * D3 <https://d3js.org/>
   * go-echarts <https://go-echarts.github.io/go-echarts/#/>
   * GeoLite2 <https://dev.maxmind.com/geoip/geolite2-free-geolocation-data> - Free geolocation data
-* Views
-  * Histgram <https://en.wikipedia.org/wiki/Histogram>
-  * Heat map <https://en.wikipedia.org/wiki/Heat_map>
-  * Choropleth map <https://en.wikipedia.org/wiki/Choropleth_map>
-  * Proportional symbol map <https://en.wikipedia.org/wiki/Proportional_symbol_map>
-  * Tag cloud <https://en.wikipedia.org/wiki/Tag_cloud>
-    * WordCloud for Python <https://amueller.github.io/word_cloud/>
+  * WordCloud for Python <https://amueller.github.io/word_cloud/>
 
 ## Telemetry storage and alerting
 
@@ -201,6 +185,7 @@ _work in progress._
 
 ## Application integration
 
+* CloudEvents <https://cloudevents.io/> - A specification for describing event data in a common way
 * Messaging
   * Azure Service Bus <https://azure.microsoft.com/en-us/products/service-bus/>
   * Azure Queue Storage <https://azure.microsoft.com/en-us/products/storage/queues/>
@@ -228,6 +213,7 @@ _work in progress._
 * Classification <https://en.wikipedia.org/wiki/Statistical_classification>
   * Logistic regression <https://en.wikipedia.org/wiki/Logistic_regression>
   * ROC curve <https://en.wikipedia.org/wiki/Receiver_operating_characteristic>
+  * Naive Bayes classifier <https://en.wikipedia.org/wiki/Naive_Bayes_classifier>
 * Regression <https://en.wikipedia.org/wiki/Regression_analysis>
   * Ordinary least squares <https://en.wikipedia.org/wiki/Ordinary_least_squares>
   * Generalized linear model <https://en.wikipedia.org/wiki/Generalized_linear_model>
@@ -235,6 +221,7 @@ _work in progress._
 * Anomaly detection <https://en.wikipedia.org/wiki/Anomaly_detection>
   * One-class classification <https://en.wikipedia.org/wiki/One-class_classification>
 * Recommender system <https://en.wikipedia.org/wiki/Recommender_system>
+  * Collective intelligence <https://en.wikipedia.org/wiki/Collective_intelligence>
 * Tools and services
   * scikit-learn <https://scikit-learn.org/stable>
   * libsvm <https://www.csie.ntu.edu.tw/~cjlin/libsvm/> - A Library for Support Vector Machines
@@ -259,8 +246,10 @@ _work in progress._
 * Deep Learning <https://en.wikipedia.org/wiki/Deep_learning>
   * Stochastic gradient descent <https://en.wikipedia.org/wiki/Stochastic_gradient_descent>
   * Fine tuning <https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)>
+  * Retrieval-augmented generation (RAG) <https://arxiv.org/abs/2005.11401v4>
   * Recurrent neural network <https://en.wikipedia.org/wiki/Recurrent_neural_network>
     * LSTM <https://en.wikipedia.org/wiki/Long_short-term_memory>
+  * Attention <https://en.wikipedia.org/wiki/Attention_(machine_learning)>
   * Transformer <https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)>
 * Frameworks
   * TensorFlow <https://www.tensorflow.org/>
@@ -271,11 +260,12 @@ _work in progress._
   * Neural Networks and Deep Learning <http://neuralnetworksanddeeplearning.com/>
   * Deep Learning, MIT Press <https://www.deeplearningbook.org/>
 
-## Generic tools for AI/ML
+## Platforms for Data/AI/ML
 
-* Mojo <https://www.modular.com/mojo> - The programming language for all AI developers
 * Anaconda distribution <http://anaconda.com/> - The Operating System for AI
 * DVC <https://dvc.org/> - Data Version Control
+* Mojo <https://www.modular.com/mojo> - The programming language for all AI developers
+* Vanna.AI <https://vanna.ai/> - A Python package that uses retrieval augmentation to help you generate accurate SQL queries for your database using LLMs
 
 ## Natural language processing
 
@@ -283,13 +273,17 @@ _work in progress._
   * Morphology <https://en.wikipedia.org/wiki/Morphology_(linguistics)>
   * Syntax <https://en.wikipedia.org/wiki/Syntax>
   * Semantics <https://en.wikipedia.org/wiki/Semantics>
+  * Levenshtein distance <https://en.wikipedia.org/wiki/Levenshtein_distance>
 * n-gram <https://en.wikipedia.org/wiki/N-gram>
 * tf-idf (term frequency-inverse document frequency) <https://en.wikipedia.org/wiki/Tf%E2%80%93idf>
 * Word2vec <https://en.wikipedia.org/wiki/Word2vec>
-* fastText <https://fasttext.cc/> - Library for efficient text classification and representation learning
-* GloVe <https://nlp.stanford.edu/projects/glove/> - Global Vectors for Word Representation
-* Kuromoji <https://www.atilika.org/> - An open source Japanese morphological analyzer written in Java
-* Natural Language Toolkit <https://www.nltk.org/> - A leading platform for building Python programs to work with human language data
+* Seq2seq <https://en.wikipedia.org/wiki/Seq2seq>
+* Tools
+  * Natural Language Toolkit <https://www.nltk.org/> - A leading platform for building Python programs to work with human language data
+  * fastText <https://fasttext.cc/> - Library for efficient text classification and representation learning
+  * GloVe <https://nlp.stanford.edu/projects/glove/> - Global Vectors for Word Representation
+  * Kuromoji <https://www.atilika.org/> - An open source Japanese morphological analyzer written in Java
+  * Kagome <https://github.com/ikawaha/kagome> - An open source Japanese morphological analyzer written in pure golang
 
 ## LLMs and their hosted services
 
