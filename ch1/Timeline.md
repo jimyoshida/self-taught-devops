@@ -60,9 +60,6 @@ AWK was initially developed in 1977 by Alfred Aho (author of egrep), Peter J. We
 Bill Joy's ex 1.1 was released as part of the first Berkeley Software Distribution (BSD) Unix release in March 1978.
 According to Joy, many of the ideas in this visual mode were taken from Bravo—the bimodal text editor developed at Xerox PARC for the Alto.
 
-TeX is a typesetting system which was designed and written by Donald Knuth and first released in 1978.
-The first version of TeX, called TeX78, was written in the SAIL programming language to run on a PDP-10 under Stanford's WAITS operating system.
-
 In 1978, Brian Kernighan and Dennis Ritchie published the first edition of The C Programming Language. This book, known to C programmers as K&R, served for many years as an informal specification of the language. The version of C that it describes is commonly referred to as "K&R C".
 
 The Bourne shell, sh, was a new Unix shell by Stephen Bourne at Bell Labs. Distributed as the shell for UNIX Version 7 in 1979
@@ -73,10 +70,6 @@ Smalltalk-80 was the first language variant made available outside of PARC, firs
 
 Revision Control System (RCS) is an early implementation of a version control system (VCS). It is a set of UNIX commands that allow multiple users to develop and maintain program code or documents.
 RCS was first released in 1982 by Walter F. Tichy at Purdue University. RCS is currently maintained by the GNU Project.
-
-TeX82, a new version of TeX rewritten from scratch, was published in 1982. Among other changes, the original hyphenation algorithm was replaced by a new algorithm written by Frank Liang.
-
-TeX has been the official typesetting package for the GNU operating system since 1984.
 
 GNU Emacs is a free software text editor. It was created by GNU Project founder Richard Stallman, based on the Emacs editor developed for Unix operating systems.
 GNU Emacs is written in C and provides Emacs Lisp, also implemented in C, as an extension language. Version 13, the first public release, was made on March 20, 1985.
@@ -222,6 +215,9 @@ F# added asynchronous workflows with await points in version 2.0 in 2007. This i
 
 Gradle is a build automation tool for multi-language software development. It controls the development process in the tasks of compilation and packaging to testing, deployment, and publishing.
 Initial release: 21 April 2008
+
+Jinja is a web template engine for the Python programming language. It was created by Armin Ronacher and is licensed under a BSD License.
+Initial release: July 17, 2008
 
 Python 3.0 was released on 3 December 2008.
 It was a major revision of the language that is not completely backward-compatible.

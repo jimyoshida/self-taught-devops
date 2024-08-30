@@ -1,4 +1,4 @@
-# Class 0: Business
+# Class 0: Agile and OSS
 
 [Show timeline](./Timeline.md)
 
@@ -10,6 +10,8 @@
   * Refactoring <https://refactoring.com/>
   * Trunk Based Development <https://trunkbaseddevelopment.com/>
   * Manifesto for Software Craftsmanship <http://manifesto.softwarecraftsmanship.org/>
+* Software rot <https://en.wikipedia.org/wiki/Software_rot>
+* Software prototyping <https://en.wikipedia.org/wiki/Software_prototyping>
 * Scrum <https://www.scrum.org/learning-series/what-is-scrum/>
 * User story <https://en.wikipedia.org/wiki/User_story>
 * INVEST in Good Stories, and SMART Tasks <https://xp123.com/articles/invest-in-good-stories-and-smart-tasks/>
@@ -58,20 +60,34 @@
 * NPS (Net Promoter Score) <https://en.wikipedia.org/wiki/Net_promoter_score>
 * Site Reliability Engineering <https://landing.google.com/sre/>
   * Service Level Indicators (SLIs) and Service Level Objectives (SLOs)
-* Dickerson’s Hierarchy of Service Reliability <https://sre.google/sre-book/part-III-practices/>
+* Dickerson's Hierarchy of Service Reliability <https://sre.google/sre-book/part-III-practices/>
 * The Four Golden Signals <https://sre.google/sre-book/monitoring-distributed-systems/>
   * Latency, Traffic, Errors, Saturation
 
-## Risk management
+## Cultures and ergonomics
 
-* Business continuity planning <https://en.wikipedia.org/wiki/Business_continuity_planning>
-  * IT disaster recovery <https://en.wikipedia.org/wiki/IT_disaster_recovery>
-* Financial risk management <https://en.wikipedia.org/wiki/Financial_risk_management>
-  * Value at risk <https://en.wikipedia.org/wiki/Value_at_risk>
-* Project risk management <https://en.wikipedia.org/wiki/Project_risk_management>
-* Standards
-  * ISO 22301: Security and resilience – Business continuity management systems – Requirements
-  * ISO 31000: Risk management
+* Code of Conduct
+  * Amazon's Leadership Principles <https://www.amazon.jobs/en/principles>
+  * GitLab Values <https://about.gitlab.com/handbook/values/>
+  * Debian Constitution <https://www.debian.org/devel/constitution>
+  * Ubuntu Code of Conduct <https://ubuntu.com/community/code-of-conduct>
+  * Mozilla Community Participation Guidelines <https://www.mozilla.org/en-US/about/governance/policies/participation/>
+  * Philosophy of the GNU Project <https://www.gnu.org/philosophy/philosophy.html>
+  * The GNU Manifesto <https://www.gnu.org/gnu/manifesto.html>
+  * Contributor Covenant <https://www.contributor-covenant.org/>
+* Social concerns
+  * Broken windows theory <https://en.wikipedia.org/wiki/Broken_windows_theory>
+  * Psychological safety <https://en.wikipedia.org/wiki/Psychological_safety>
+  * Defence mechanism <https://en.wikipedia.org/wiki/Defence_mechanism>
+  * Maslow's Hierarchy of Needs <https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs>
+  * Stone soup story <https://en.wikipedia.org/wiki/Stone_Soup>
+  * Boiling frog apologue <https://en.wikipedia.org/wiki/Boiling_frog>
+* Usability concerns
+  * Cognitive distortion <https://en.wikipedia.org/wiki/Cognitive_distortion>
+  * Seven stages of action <https://en.wikipedia.org/wiki/Seven_stages_of_action>
+  * Principle of least astonishment <https://en.wikipedia.org/wiki/Principle_of_least_astonishment>
+  * Affordance <https://en.wikipedia.org/wiki/Affordance>
+  * Stroop effect <https://en.wikipedia.org/wiki/Stroop_effect>
 
 ## Development lifecycle management
 
@@ -83,6 +99,18 @@
   * ISO/IEC 20000: Information technology — Service management
   * ISO/IEC 25010: Systems and software Quality Requirements and Evaluation (SQuaRE)
 * RACI matrix <https://en.wikipedia.org/wiki/Responsibility_assignment_matrix>
+
+## Risk management
+
+* Business continuity planning <https://en.wikipedia.org/wiki/Business_continuity_planning>
+  * IT disaster recovery <https://en.wikipedia.org/wiki/IT_disaster_recovery>
+* Financial risk management <https://en.wikipedia.org/wiki/Financial_risk_management>
+  * Value at risk <https://en.wikipedia.org/wiki/Value_at_risk>
+* Project risk management <https://en.wikipedia.org/wiki/Project_risk_management>
+* Three-point estimation <https://en.wikipedia.org/wiki/Three-point_estimation>
+* Standards
+  * ISO 22301: Security and resilience - Business continuity management systems - Requirements
+  * ISO 31000: Risk management
 
 ## Issue tracking and collaboration
 
@@ -101,15 +129,6 @@
 
 ## Technical writing
 
-* Hypertext <https://en.wikipedia.org/wiki/Hypertext>
-  * Hyperlink <https://en.wikipedia.org/wiki/Hyperlink>
-  * URL <https://url.spec.whatwg.org/>
-    * URI <https://en.wikipedia.org/wiki/Uniform_Resource_Identifier>
-* HTML <https://html.spec.whatwg.org/>
-  * rehype <https://github.com/rehypejs/rehype> - HTML processor powered by plugins
-  * DOM <https://dom.spec.whatwg.org/>
-* CSS <https://www.w3.org/Style/CSS/>
-  * Sass language <https://sass-lang.com/>
 * Style and terminology
   * Microsoft Writing Style Guide <https://learn.microsoft.com/en-us/style-guide/welcome/>
   * Google documentation style guide <https://developers.google.com/style/>
@@ -134,19 +153,27 @@
   * Text::MarkdownTable <https://metacpan.org/pod/Text::MarkdownTable>
 * DocUtils <https://docutils.sourceforge.io/>
   * reStructuredText <https://docutils.sourceforge.io/rst.html>
+* Hypertext <https://en.wikipedia.org/wiki/Hypertext>
+  * Hyperlink <https://en.wikipedia.org/wiki/Hyperlink>
+  * URL <https://url.spec.whatwg.org/>
+    * URI <https://en.wikipedia.org/wiki/Uniform_Resource_Identifier>
+* HTML <https://html.spec.whatwg.org/>
+  * rehype <https://github.com/rehypejs/rehype> - HTML processor powered by plugins
+  * DOM <https://dom.spec.whatwg.org/>
+* CSS <https://www.w3.org/Style/CSS/>
+  * Sass language <https://sass-lang.com/>
 
 ## Interactive computing environment
 
-* Org Mode <https://orgmode.org/> - Your life in plain text
-  * Babel <https://orgmode.org/worg/org-contrib/babel/> - Active Code in Org
-  * org-export <https://nhoffman.github.io/org-export/> - Batch export of Emacs org-mode files from the command line
-  * org-ai <https://github.com/rksm/org-ai> - Emacs as your personal AI assistant
-* Org-roam <https://www.orgroam.com/> - A plain-text personal knowledge management system
-* OrgNote <https://github.com/Artawower/orgnote>
 * JupyterLab <https://jupyter.org/> - Web-based interactive development environment for notebooks, code, and data
 * Jupiter Notebook <https://jupyter.org/> - The original web application for creating and sharing computational documents
+  * VSCode Jupyter Extension <https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter>
 * BeakerX <http://beakerx.com/> - A collection of kernels and extensions to the Jupyter interactive computing environment
 * R Markdown <https://rmarkdown.rstudio.com/>
+* Org Mode <https://orgmode.org/> - Your life in plain text
+  * org-export <https://nhoffman.github.io/org-export/> - Batch export of Emacs org-mode files from the command line
+  * org-ai <https://github.com/rksm/org-ai> - Emacs as your personal AI assistant
+  * Org-roam <https://www.orgroam.com/> - A plain-text personal knowledge management system
 
 ## Behavior driven development
 
@@ -221,6 +248,7 @@
 * Stackage <https://www.stackage.org/>
 * NuGet <https://www.nuget.org/>
 * MELPA <https://melpa.org/#/>
+* Hugging Face Hub <https://huggingface.co/docs/hub/index>
 
 ## Non-profit organizations
 
@@ -234,24 +262,6 @@
 * Linux Foundation <https://www.linuxfoundation.org/>
 * OpenJS Foundation <https://openjsf.org/>
 * Rust Foundation <https://foundation.rust-lang.org/>
-
-## Cultures and psychology
-
-* Code of Conduct
-  * Amazon's Leadership Principles <https://www.amazon.jobs/en/principles>
-  * GitLab Values <https://about.gitlab.com/handbook/values/>
-  * Debian Constitution <https://www.debian.org/devel/constitution>
-  * Ubuntu Code of Conduct <https://ubuntu.com/community/code-of-conduct>
-  * Mozilla Community Participation Guidelines <https://www.mozilla.org/en-US/about/governance/policies/participation/>
-  * Philosophy of the GNU Project <https://www.gnu.org/philosophy/philosophy.html>
-  * The GNU Manifesto <https://www.gnu.org/gnu/manifesto.html>
-  * Contributor Covenant <https://www.contributor-covenant.org/>
-* Concerns
-  * Psychological safety <https://en.wikipedia.org/wiki/Psychological_safety>
-  * Cognitive distortion <https://en.wikipedia.org/wiki/Cognitive_distortion>
-  * Broken windows theory <https://en.wikipedia.org/wiki/Broken_windows_theory>
-  * Maslow's Hierarchy of Needs <https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs>
-  * Seven stages of action <https://en.wikipedia.org/wiki/Seven_stages_of_action>
 
 ## Finance
 
@@ -273,16 +283,16 @@
 * Net present value <https://en.wikipedia.org/wiki/Net_present_value>
 * ...
 
-## Economics
+## Economics and game theory
 
+* Market <https://en.wikipedia.org/wiki/Market_(economics)>
+* Inflation <https://en.wikipedia.org/wiki/Inflation>
+* Nash equilibrium <https://en.wikipedia.org/wiki/Nash_equilibrium>
+* Pareto efficiency <https://en.wikipedia.org/wiki/Pareto_efficiency>
 * Braess's paradox <https://en.wikipedia.org/wiki/Braess%27s_paradox>
 * Induced demand <https://en.wikipedia.org/wiki/Induced_demand>
 * Metcalfe's law <https://en.wikipedia.org/wiki/Metcalfe%27s_law>
 * Network effect <https://en.wikipedia.org/wiki/Network_effect>
-* Network analysis
-  * Centrality <https://en.wikipedia.org/wiki/Centrality>
-  * NetworkX <https://networkx.org/>
-* Collective intelligence <https://en.wikipedia.org/wiki/Collective_intelligence>
 
 ## Mathematics
 
@@ -303,3 +313,34 @@
 * Differential calculus <https://en.wikipedia.org/wiki/Differential_calculus>
 * Differential equation <https://en.wikipedia.org/wiki/Differential_equation>
 * Logarithm <https://en.wikipedia.org/wiki/Logarithm>
+
+## Statistics
+
+* Statistics <https://en.wikipedia.org/wiki/Statistics>
+* Sampling <https://en.wikipedia.org/wiki/Sampling_(statistics)>
+* Errors and residuals <https://en.wikipedia.org/wiki/Errors_and_residuals>
+* Significant figures <https://en.wikipedia.org/wiki/Significant_figures>
+* Probability theory <https://en.wikipedia.org/wiki/Probability_theory>
+  * Bayes' theorem <https://en.wikipedia.org/wiki/Bayes%27_theorem>
+  * Naive Bayes classifier <https://en.wikipedia.org/wiki/Naive_Bayes_classifier>
+  * Central limit theorem (CLT) <https://en.wikipedia.org/wiki/Central_limit_theorem>
+* Standard deviation <https://en.wikipedia.org/wiki/Standard_deviation>
+* Correlation <https://en.wikipedia.org/wiki/Correlation>
+  * Pearson correlation coefficient <https://en.wikipedia.org/wiki/Pearson_correlation_coefficient>
+* Hypothesis testing <https://en.wikipedia.org/wiki/Statistical_hypothesis_testing>
+  * Cross-validation <https://en.wikipedia.org/wiki/Cross-validation_(statistics)>
+  * Null hypothesis <https://en.wikipedia.org/wiki/Null_hypothesis>
+  * Confidence interval (CI) <https://en.wikipedia.org/wiki/Confidence_interval>
+  * P-value <https://en.wikipedia.org/wiki/P-value>
+* Data visualization
+  * Histgram <https://en.wikipedia.org/wiki/Histogram>
+  * Scatter plot <https://en.wikipedia.org/wiki/Scatter_plot>
+  * Box plot <https://en.wikipedia.org/wiki/Box_plot>
+  * Error bar <https://en.wikipedia.org/wiki/Error_bar>
+  * Heat map <https://en.wikipedia.org/wiki/Heat_map>
+  * Choropleth map <https://en.wikipedia.org/wiki/Choropleth_map>
+  * Proportional symbol map <https://en.wikipedia.org/wiki/Proportional_symbol_map>
+  * Tag cloud <https://en.wikipedia.org/wiki/Tag_cloud>
+* Textbooks
+  * Openstax Introductory Statistics <https://openstax.org/details/books/introductory-statistics/>
+  * OpenIntro Statistics <https://www.openintro.org/book/os/>

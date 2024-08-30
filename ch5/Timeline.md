@@ -33,6 +33,9 @@ In 1986, David E. Rumelhart et al. published an experimental analysis of the tec
 
 The term Deep Learning was introduced to the machine learning community by Rina Dechter in 1986.
 
+gnuplot is a command-line and GUI program that can generate two- and three-dimensional plots of functions, data, and data fits. The program runs on all major computers and operating systems (Linux, Unix, Microsoft Windows, macOS, FreeDOS, and many others).
+Initial release: 1986
+
 SQL was adopted as a standard by the ANSI in 1986 as SQL-86 and the ISO in 1987.
 
 The concept of data warehousing dates back to the late 1980s when IBM researchers Barry Devlin and Paul Murphy developed the "business data warehouse".
@@ -52,6 +55,9 @@ MySQL is an open-source relational database management system (RDBMS).
 MySQL is free and open-source software under the terms of the GNU General Public License, and is also available under a variety of proprietary licenses.
 Initial release: 23 May 1995
 
+The predecessor of NumPy, Numeric, was originally created by Jim Hugunin with contributions from several other developers.
+Initial release: 1995
+
 PostgreSQL also known as Postgres, is a free and open-source relational database management system (RDBMS) emphasizing extensibility and SQL compliance.
 In 1996, the project was renamed to PostgreSQL to reflect its support for SQL.
 Initial release: 8 July 1996
@@ -64,8 +70,15 @@ Long short-term memory (LSTM) networks were invented by Hochreiter and Schmidhub
 SQLite is a database engine written in the C programming language. It is not a standalone app; rather, it is a library that software developers embed in their apps. As such, it belongs to the family of embedded databases.
 Initial release: 17 August 2000
 
+SciPy is a free and open-source Python library used for scientific computing and technical computing.
+As of 2000, there was a growing number of extension modules and increasing interest in creating a complete environment for scientific and technical computing. In 2001, Travis Oliphant, Eric Jones, and Pearu Peterson merged code they had written and called the resulting package SciPy.
+Initial release: Around 2001
+
 Torch is an open-source machine learning library, a scientific computing framework, and a script language based on the Lua programming language.
 Initial release: October 2002
+
+Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy. It provides an object-oriented API for embedding plots into applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK.
+Initial release: 2003
 
 MapReduce is a programming model and an associated implementation for processing and generating big data sets with a parallel, distributed algorithm on a cluster.
 Introduced: 2004
@@ -77,6 +90,9 @@ Apache Hadoop is a collection of open-source software utilities that facilitates
 The genesis of Hadoop was the Google File System paper that was published in October 2003.
 The core of Apache Hadoop consists of a storage part, known as Hadoop Distributed File System (HDFS), and a processing part which is a MapReduce programming model.
 Initial release: April 1, 2006
+
+NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
+In early 2005, NumPy developer Travis Oliphant wanted to unify the community around a single array package and ported Numarray's features to Numeric, releasing the result as NumPy 1.0 in 2006. This new project was part of SciPy.
 
 In 2006, Geoffrey Hinton developed the deep belief network technique for training many-layered deep autoencoders.
 
@@ -125,6 +141,11 @@ Apache Spark is an open-source unified analytics engine for large-scale data pro
 Spark was initially started by Matei Zaharia at UC Berkeley's AMPLab in 2009, and open sourced in 2010 under a BSD license.
 In 2013, the project was donated to the Apache Software Foundation and switched its license to Apache 2.0.
 Initial release (v1.0): May 26, 2014
+
+seq2seq is an approach to machine translation (or more generally, sequence transduction) with roots in information theory, where communication is understood as an encode-transmit-decode process, and machine translation can be studied as a special case of communication.
+The idea of encoder-decoder sequence transduction had been developed in the early 2010s. The papers most commonly cited as the originators that produced seq2seq are two papers from 2014.
+In the seq2seq as proposed by them, both the encoder and the decoder were LSTMs. This had the "bottleneck" problem.
+The attention mechanism, proposed in 2014, resolved the bottleneck problem.
 
 Keras is an open-source software library that provides a Python interface for artificial neural networks. Keras acts as an interface for the TensorFlow library.
 Initial release: 27 March 2015

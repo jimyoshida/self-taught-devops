@@ -71,7 +71,7 @@ Linux version 0.95 was the first to be capable of running the X Window System. I
 
 Debian first stable version (1.1) was released on June 17, 1996.
 
-Advanced package tool, or APT, is a free-software user interface that works with core libraries to handle the installation and removal of software on Debian, and Debian-based Linux distributions. APT Initial release: 31 March 1998
+Advanced package tool, or APT, is a free-software user interface that works with core libraries to handle the installation and removal of software on Debian, and Debian-based Linux distributions. APT Initial release: 31 March 1998
 
 VMware Workstation Pro (known as VMware Workstation until release of VMware Workstation 12 in 2015) is a hosted hypervisor that runs on x64 versions of Windows and Linux operating systems.
 VMware Workstation Initial release: 15 May 1999
@@ -117,7 +117,7 @@ Xen originated as a research project at the University of Cambridge led by Ian P
 Google Borg is a cluster manager used by Google. It led to widespread use of similar approaches such as Docker and Kubernetes. According to the research paper published by Google in 2015, Borg was developed in 2003.
 
 Ubuntu is a Linux distribution based on Debian and composed mostly of free and open-source software.
-Initial release: Ubuntu 4.10 (Warty Warthog) / 20 October 2004
+Initial release: Ubuntu 4.10 (Warty Warthog) / 20 October 2004
 
 Unionfs is a filesystem service for Linux, FreeBSD and NetBSD which implements a union mount for other file systems. It allows files and directories of separate file systems, known as branches, to be transparently overlaid, forming a single coherent file system.
 Unionfs 1.0.2 release: 2004-11-09
@@ -150,7 +150,7 @@ The control groups functionality was merged into the Linux kernel mainline in ke
 Linux Containers (LXC) is an operating-system-level virtualization method for running multiple isolated Linux systems (containers) on a control host using a single Linux kernel.
 By 2008, LXC (upon which Docker was later built) adopted the "container" terminology and gained popularity in 2013 due to inclusion into Linux kernel 3.8 of user namespaces.
 LXC combines the kernel's cgroups and support for isolated namespaces to provide an isolated environment for applications.
-Initial release: August 6, 2008
+Initial release: August 6, 2008
 
 On August 20, 2008, Amazon added Elastic Block Store (EBS). This provides persistent storage, a feature that had been lacking since the service was introduced.
 
@@ -188,8 +188,14 @@ Initial release: 2 February 2011
 Chocolatey is a machine-level, command-line package manager and installer for Windows software. It uses the NuGet packaging infrastructure and Windows PowerShell to simplify the process of downloading and installing software.
 Initial release: 23 March 2011
 
+Google Native Client (NaCl) was a sandboxing technology for running either a subset of Intel x86, ARM, or MIPS native code, or a portable executable, in a sandbox. It allows safely running native code from a web browser, independent of the user operating system, allowing web apps to run at near-native speeds, which aligns with Google's plans for ChromeOS.
+Initial release: 16 September 2011
+
 Ansible was written by Michael DeHaan and acquired by Red Hat in 2015.
 Initial release: February 20, 2012
+
+Emscripten is an LLVM/Clang-based compiler that compiles C and C++ source code to WebAssembly (or to a subset of JavaScript known as asm.js, its original compilation target before the advent of WebAssembly in 2017), primarily for execution in web browsers.
+First release: 11/11/2012
 
 Prometheus is a free software application used for event monitoring and alerting. It records real-time metrics in a time series database built using a HTTP pull model.
 Prometheus was developed at SoundCloud starting in 2012, when the company discovered that its existing metrics and monitoring solutions (using StatsD and Graphite) were not sufficient for their needs.
@@ -197,7 +203,10 @@ Prometheus was developed at SoundCloud starting in 2012, when the company discov
 Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers.
 Docker debuted to the public in Santa Clara at PyCon in 2013.
 It was released as open-source in March 2013. At the time, it used LXC as its default execution environment.
-Initial release: March 20, 2013
+Initial release: March 20, 2013
+
+asm.js is a subset of JavaScript designed to allow computer software written in languages such as C to be run as web applications while maintaining performance characteristics considerably better than standard JavaScript, which is the typical language used for such applications.
+First appeared: 21 March 2013
 
 On April 15, 2013, it was announced that the Xen Project was moved under the auspices of the Linux Foundation as a Collaborative Project.
 
@@ -252,6 +261,11 @@ In May 2016, the Cloud Native Computing Foundation accepted Prometheus as its se
 
 Prometheus 1.0 was released in July 2016. Subsequent versions were released through 2016 and 2017, leading to Prometheus 2.0 in November 2017.
 
+WebAssembly (sometimes abbreviated Wasm) defines a portable binary-code format and a corresponding text format for executable programs.
+Announced in 2015 and first released in March 2017.
+
+WebAssembly System Interface (WASI) is a simple interface (ABI and API) designed by Mozilla intended to be portable to any platform. It provides POSIX-like features like file I/O constrained by capability-based security.
+
 At the end of October 2017 Microsoft announced a preview of AKS (Azure Container Service), a managed Kubernetes service in Azure.
 
 On November 6, 2017, Amazon announced the new C5 family of instances that were based on a custom architecture around the KVM hypervisor, called Nitro.
@@ -263,6 +277,8 @@ On June 13, 2018, Microsoft announced the general availability of the Azure Kube
 On September 10, 2018, Microsoft announced another rebranding of VSTS, this time to "Azure DevOps Services".
 
 In January 2019, Linuxbrew was merged back into Homebrew, adding beta support for Linux and the Windows Subsystem for Linux to the Homebrew feature set.
+
+WebAssembly became a World Wide Web Consortium recommendation on 5 December 2019.
 
 ### 2020s
 

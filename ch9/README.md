@@ -10,6 +10,7 @@
   * [Level Up Coding](https://levelup.gitconnected.com/)
   * and so on
 * Books
+  * The Pragmatic Programmer: From Journeyman to Master, 1st Edition (Japanese Edition)
   * Self-taught Programmer (Japanese Edition)
   * Data Science from Scratch (Japanese Edition)
   * ... To be listed more
