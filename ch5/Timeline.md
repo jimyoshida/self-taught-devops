@@ -1,4 +1,4 @@
-# Class 5: Data Engineering
+# Class 500 - Database, AI, and ML
 
 ## Timeline
 

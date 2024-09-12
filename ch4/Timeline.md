@@ -1,4 +1,4 @@
-# Class 4: Security and Privacy
+# Class 400 - Security and privacy
 
 ## Timeline
 

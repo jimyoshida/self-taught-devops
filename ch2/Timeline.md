@@ -1,4 +1,4 @@
-# Class 2: System Engineering
+# Class 200 - OS, network, and platform
 
 ## Timeline
 

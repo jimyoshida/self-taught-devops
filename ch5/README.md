@@ -1,4 +1,4 @@
-# Class 5: Data Engineering
+# Class 500 - Database, AI, and ML
 
 [Show timeline](./Timeline.md)
 
@@ -99,6 +99,18 @@ _work in progress._
   * App Insights <https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview>
 * AWS CloudWatch <https://aws.amazon.com/cloudwatch/>
 * Datadog <https://www.datadoghq.com/>
+
+## Interactive computing environment
+
+* JupyterLab <https://jupyter.org/> - Web-based interactive development environment for notebooks, code, and data
+* Jupiter Notebook <https://jupyter.org/> - The original web application for creating and sharing computational documents
+  * VSCode Jupyter Extension <https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter>
+* BeakerX <http://beakerx.com/> - A collection of kernels and extensions to the Jupyter interactive computing environment
+* R Markdown <https://rmarkdown.rstudio.com/>
+* Org Mode <https://orgmode.org/> - Your life in plain text
+  * org-export <https://nhoffman.github.io/org-export/> - Batch export of Emacs org-mode files from the command line
+  * org-ai <https://github.com/rksm/org-ai> - Emacs as your personal AI assistant
+  * Org-roam <https://www.orgroam.com/> - A plain-text personal knowledge management system
 
 ---
 
@@ -262,7 +274,6 @@ _work in progress._
 
 ## Platforms for Data/AI/ML
 
-* Anaconda distribution <http://anaconda.com/> - The Operating System for AI
 * DVC <https://dvc.org/> - Data Version Control
 * Mojo <https://www.modular.com/mojo> - The programming language for all AI developers
 * Vanna.AI <https://vanna.ai/> - A Python package that uses retrieval augmentation to help you generate accurate SQL queries for your database using LLMs
@@ -287,8 +298,11 @@ _work in progress._
 
 ## LLMs and their hosted services
 
-* GPT-4 <https://openai.com/research/gpt-4> <https://arxiv.org/abs/2303.08774>
+* OpenAI API <https://platform.openai.com/>
+  * GPT-4 <https://openai.com/research/gpt-4> <https://arxiv.org/abs/2303.08774>
 * Llama <https://llama.meta.com/> <https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/>
 * Gemini <https://gemini.google.com/>
 * Azure OpnAI Service <https://azure.microsoft.com/en-us/products/ai-services/openai-service>
 * Amazon Bedrock <https://aws.amazon.com/bedrock/>
+* Libraries
+  * go-openai <https://github.com/sashabaranov/go-openai>

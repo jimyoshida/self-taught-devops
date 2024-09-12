@@ -1,4 +1,4 @@
-# Class 0: Agile and OSS
+# Class 000 - Agile, management, and general works
 
 ## Timeline
 
@@ -13,6 +13,9 @@ Initial release: November 3, 1971
 
 TeX is a typesetting system which was designed and written by Donald Knuth and first released in 1978.
 The first version of TeX, called TeX78, was written in the SAIL programming language to run on a PDP-10 under Stanford's WAITS operating system.
+
+Model-view-controller (MVC) is a software design pattern commonly used for developing user interfaces that divides the related program logic into three interconnected elements.
+Trygve Reenskaug created MVC while working on Smalltalk-79 as a visiting scientist at the Xerox Palo Alto Research Center (PARC) in the late 1970s.
 
 ### 1980s
 
@@ -112,6 +115,9 @@ Initial release: 2001
 The Python Package Index, abbreviated as PyPI and also known as the Cheese Shop, is the official third-party software repository for Python.
 PEP 241, a proposal to standardize metadata for indexes, was finalized in March 2001. A proposal to create a comprehensive centralised catalog was later finalized in November 2002.
 Launched: 2003
+
+Domain-driven design (DDD) is a major software design approach, focusing on modeling software to match a domain according to input from that domain's experts.
+The term was coined by Eric Evans in his book of the same name published in 2003.
 
 RubyGems is a package manager for the Ruby programming language that provides a standard format for distributing Ruby programs and libraries.
 Development on RubyGems started in November 2003 and was released to the public on March 14, 2004, or Pi Day 2004.

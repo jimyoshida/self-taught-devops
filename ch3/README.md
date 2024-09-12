@@ -1,4 +1,4 @@
-# Class 3: Distributed Systems
+# Class 300 - Web and distributed application
 
 [Show timeline](./Timeline.md)
 
@@ -6,13 +6,13 @@
 
 * HTTP <https://en.wikipedia.org/wiki/HTTP>
   * HTTP cookie <https://en.wikipedia.org/wiki/HTTP_cookie>
+  * JSON Merge Patch <https://datatracker.ietf.org/doc/html/rfc7396>
 * Javascript/ECMAScript <https://www.ecma-international.org/publications/standards/Ecma-262.htm>
   * XMLHttpRequest (XHR) <https://xhr.spec.whatwg.org/>
   * Fetch Standard <https://fetch.spec.whatwg.org/> (also for security)
 * OpenAPI spec <https://www.openapis.org/>
   * Redocly CLI <https://redocly.com/> - Your all-in-one OpenAPI utility
 * REST <https://en.wikipedia.org/wiki/Representational_state_transfer>
-  * ROA <https://en.wikipedia.org/wiki/Resource-oriented_architecture>
 * SOAP <https://en.wikipedia.org/wiki/SOAP>
 * GraphQL <https://graphql.org/>
 * gRPC <https://grpc.io/>
@@ -35,6 +35,7 @@
   * Wget <https://www.gnu.org/software/wget/>
   * curlie <https://curlie.io/>
   * httpie <https://httpie.io/>
+  * hurl <https://hurl.dev/>
 * Libraries
   * Python Requests <https://docs.python-requests.org/en/latest/>
   * JS Axios <https://axios-http.com/>
@@ -172,13 +173,14 @@
   * V8 <https://v8.dev/>
   * JavaScriptCore <https://developer.apple.com/documentation/javascriptcore>
 
-## Web-based native application frameworks (reference)
+## Mobile/Desktop application platforms (reference)
 
-* Electron <https://www.electronjs.org/>
-* Tauri <https://tauri.app/>
-* React Native <https://reactnative.dev>
-* Flutter <https://flutter.dev>
-
-## Mobile application platforms (reference)
-
-To Do
+* Android <https://www.android.com/>
+* iOS <https://www.apple.com/ios/>
+* Web-based native application frameworks
+  * Electron <https://www.electronjs.org/>
+  * React Native <https://reactnative.dev>
+  * Tauri <https://tauri.app/>
+* Notification services
+  * Firebase Cloud Messaging <https://firebase.google.com/products/cloud-messaging/>
+  * Apple Push Notification service <https://developer.apple.com/notifications/>

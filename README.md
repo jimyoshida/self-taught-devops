@@ -7,18 +7,14 @@ Thus, this site assembles all such relevant domains - BizDataMLDevSecOps.
 
 Also, to understand the background of the technologies etc., each section contains the timeline of them. The descriptions are mainly quoted from the [Wikipedia English version](https://en.wikipedia.org/wiki/Main_Page) unless other references are noted.
 
-## Contents
+The contents consist of the following 6 major classes.
 
-The contents consist of the following 6 classes.
-
-| Class | Contents                              |
-| ----- | ------------------------------------- |
-| 0     | [Agile and OSS](ch0/README.md)        |
-| 1     | [Software Engineering](ch1/README.md) |
-| 2     | [System Engineering](ch2/README.md)   |
-| 3     | [Distributed Systems](ch3/README.md)  |
-| 4     | [Security and Privacy](ch4/README.md) |
-| 5     | [Data Engineering](ch5/README.md)     |
+- [Class 000 - Agile, management, and general works](ch0/README.md)
+- [Class 100 - Programming](ch1/README.md)
+- [Class 200 - OS, network, and platform](ch2/README.md)
+- [Class 300 - Web and distributed application](ch3/README.md)
+- [Class 400 - Security and privacy](ch4/README.md)
+- [Class 500 - Database, AI, and ML](ch5/README.md)
 
 [Appendix: References](ch9/README.md)
 
@@ -28,7 +24,7 @@ The contents consist of the following 6 classes.
 
 ## Backlogs
 
-- Assign class numbers like [Nippon Decimal Classification](https://en.wikipedia.org/wiki/Nippon_Decimal_Classification)
+- Assign class numbers like [Dewey Decimal Classification](https://en.wikipedia.org/wiki/Dewey_Decimal_Classification)
 - Make the docusaurus site and host it
 - Reconsider about the license
 - Add brief explanations on each section and item
