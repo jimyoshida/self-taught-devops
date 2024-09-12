@@ -1,4 +1,4 @@
-# Class 3: Distributed Systems
+# Class 300 - Web and distributed application
 
 ## Timeline
 

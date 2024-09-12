@@ -1,4 +1,4 @@
-# Class 1: Software Engineering
+# Class 100 - Programming
 
 ## Timeline
 

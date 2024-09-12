@@ -1,4 +1,4 @@
-# Class 2: System Engineering
+# Class 200 - OS, network, and platform
 
 [Show timeline](./Timeline.md)
 
@@ -429,7 +429,7 @@
   * hexdump <https://man7.org/linux/man-pages/man1/hexdump.1.html>
   * xxd <https://github.com/ckormanyos/xxd>
   * fq <https://github.com/wader/fq>
-  * bbe <https://bbe-.sourceforge.net/>
+  * Image::ExifTool <https://metacpan.org/pod/Image::ExifTool>
 * Archivers
   * GNU Gzip <https://www.gnu.org/software/gzip/>
   * GNU tar <https://www.gnu.org/software/tar/>
