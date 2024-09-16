@@ -2,7 +2,7 @@
 
 [Show timeline](./Timeline.md)
 
-## 100 - Programming fundamentals
+## 100 - Programming concepts
 
 * code <https://en.wikipedia.org/wiki/Source_code>
 * statement <https://en.wikipedia.org/wiki/Statement_(computer_science)>
@@ -43,7 +43,7 @@
   * abstraction <https://en.wikipedia.org/wiki/Abstraction_(computer_science)>
   * encapsulation <https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)>
   * polymorphism <https://en.wikipedia.org/wiki/Polymorphism_(computer_science)>
-    * dymnamic dispatch <https://en.wikipedia.org/wiki/Dynamic_dispatch>
+    * dynamic dispatch <https://en.wikipedia.org/wiki/Dynamic_dispatch>
   * inheritance <https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)>
   * class <https://en.wikipedia.org/wiki/Class_(computer_programming)>
   * interface <https://en.wikipedia.org/wiki/Interface_(object-oriented_programming)>
@@ -77,6 +77,9 @@
   * side-effect <https://en.wikipedia.org/wiki/Side_effect_(computer_science)>
   * monad <https://en.wikipedia.org/wiki/Monad_(functional_programming)>
   * currying <https://en.wikipedia.org/wiki/Currying>
+* Program analysys
+  * Hoare logic <https://en.wikipedia.org/wiki/Hoare_logic>
+  * Curry-Howard correspondence <https://en.wikipedia.org/wiki/Curry–Howard_correspondence>
 
 ## 110 - Shell and terminal
 
@@ -130,7 +133,97 @@
 * Linux on Windows
   * WSL <https://learn.microsoft.com/en-us/windows/wsl/>
 
-## 120 - IDE, version control, and code quality
+## 120 - Programming language features
+
+* Bash (see 110)
+* Perl <https://www.perl.org/>
+  * special variables <https://metacpan.org/dist/perl/view/pod/perlvar.pod>
+  * built-in regex <https://metacpan.org/dist/perl/view/pod/perlre.pod>
+  * context
+  * scalar type
+    * reference
+  * quote-like operators <https://metacpan.org/dist/perl/view/pod/perlop.pod>
+    * pattern matching operator
+    * backtick operator
+  * i/o operators <https://metacpan.org/dist/perl/view/pod/perlop.pod>
+    * diamond oprator
+  * autovivification
+* Python <https://www.python.org/>
+  * Python import system <https://docs.python.org/3/reference/import.html>
+  * f-string
+  * generator
+  * with statement <https://docs.python.org/3/reference/compound_stmts.html#with>
+  * context manager
+  * decorator
+  * coroutine function
+  * lambda
+  * special methods <https://docs.python.org/3/reference/datamodel.html#specialnames>
+  * global interpreter lock <https://en.wikipedia.org/wiki/Global_interpreter_lock>
+* Javascript/ECMAScript <https://www.ecma-international.org/publications/standards/Ecma-262.htm>
+  * CommonJS <https://en.wikipedia.org/wiki/CommonJS>
+  * ES modules <https://nodejs.org/api/esm.html>
+  * Lodash <https://lodash.com/> - A modern JavaScript utility library delivering modularity, performance & extras
+  * prototypal inheritance <https://en.wikipedia.org/wiki/Prototype-based_programming>
+  * event-driven
+  * spread and rest operators
+  * generator
+* Go <https://go.dev/>
+  * Go Modules <https://go.dev/wiki/Modules>
+  * lo <https://pkg.go.dev/github.com/samber/lo> - A Lodash-style Go library
+  * defer, panic and recover <https://go.dev/blog/defer-panic-and-recover>
+  * method receiver
+  * init function
+  * goroutine
+  * channel
+  * go function
+  * static binary executable
+* Extra programming languages (advanced)
+  * Ruby <https://www.ruby-lang.org/en/>
+    * persent notation
+    * block, yield, proc, lambda
+    * dynamic method definition
+    * pattern matching
+    * instance_eval
+  * Typescript <https://www.typescriptlang.org/index.html>
+    * type inference
+    * interface
+    * union and intersection
+    * type guard
+    * decorator
+    * optional and default parameters
+    * type arias
+    * type assertion
+    * type declaration file
+  * Rust <https://www.rust-lang.org/>
+    * ownership and borrowing
+    * interior mutability
+    * iterator and closure
+    * trait-based generics
+    * lifetime
+    * pattern matching
+    * pinning
+  * C# <https://learn.microsoft.com/en-us/dotnet/csharp/>
+    * query expression (LINQ)
+    * delegate and event
+    * lambda expression
+  * F# <https://fsharp.org/> <https://learn.microsoft.com/en-us/dotnet/fsharp/>
+    * immutable data structure
+    * type inference
+    * pattern matching
+    * discriminated union
+    * active pattern
+    * computation expression
+  * Java <https://docs.oracle.com/en/java/index.html>
+  * Scala (for Gatling) <https://www.scala-lang.org/>
+  * Groovy (for Jenkins/Gradle) <http://groovy-lang.org/>
+  * Lua (for NGINX/Neovim) <https://www.lua.org/>
+  * Haskell <https://www.haskell.org/>
+  * Elm <https://elm-lang.org/>
+  * C <https://www.open-std.org/jtc1/sc22/wg14/>
+  * Emacs Lisp <https://www.gnu.org/software/emacs/manual/html_node/elisp/>
+  * zx <https://google.github.io/zx/>
+
+## 130 - IDE, SCM, and code quality
 
 * Integrated development environments
   * VS Code <https://code.visualstudio.com/>
@@ -157,7 +250,7 @@
 * Formatters
   * EditorConfig <https://editorconfig.org/>
   * Prettier <https://prettier.io/>
-* Version control
+* Source code management
   * Distributed version control <https://en.wikipedia.org/wiki/Distributed_version_control>
   * Markle tree <https://en.wikipedia.org/wiki/Merkle_tree>
   * Git <https://git-scm.com/>
@@ -209,7 +302,7 @@
   * Callback Hell <http://callbackhell.com/>
   * Effective Go <https://golang.org/doc/effective_go.html>
 
-## 130 - Text and structured text processing
+## 140 - Text and structured text processing
 
 * ASCII <https://en.wikipedia.org/wiki/ASCII>
 * Unicode <https://home.unicode.org/>
@@ -288,137 +381,26 @@
   * envsubst in gettext <https://www.gnu.org/software/gettext/manual/gettext.html#envsubst-Invocation>
 * CUE <https://cuelang.org/> - An open-source data validation language and inference engine with its roots in logic programming
 * unified <https://unifiedjs.com/> - A friendly interface backed by an ecosystem of plugins built for creating and manipulating content
+* Language processing (advanced)
+  * Chomsky hierarchy <https://en.wikipedia.org/wiki/Chomsky_hierarchy>
+  * Automata theory <https://en.wikipedia.org/wiki/Automata_theory>
+  * Homoiconicity <https://en.wikipedia.org/wiki/Homoiconicity>
+  * BNF syntax <https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form>
+  * AST <https://en.wikipedia.org/wiki/Abstract_syntax_tree>
+  * ANTLR <https://www.antlr.org/>
+  * Ragel <https://www.colm.net/open-source/ragel/>
+  * Bison <https://www.gnu.org/software/bison/>
+  * Flex <https://github.com/westes/flex>
+  * LSP <https://microsoft.github.io/language-server-protocol/>
+  * Syntax highlighting
+    * highlight.js <https://highlightjs.org/>
+    * Prism <https://prismjs.com>
+    * Pygments <https://pygments.org/>
 
-## 140 - Module management and virtual environment
-
-* Specs
-  * CommonJS <https://en.wikipedia.org/wiki/CommonJS>
-  * ES modules <https://nodejs.org/api/esm.html>
-  * Python import system <https://docs.python.org/3/reference/import.html>
-  * Go Modules <https://go.dev/wiki/Modules>
-* Tools
-  * npm CLI <https://www.npmjs.com/>
-  * yarn <https://yarnpkg.com/>
-  * pnpm <https://pnpm.io>
-  * pip <https://pip.pypa.io/>
-  * Go mod <https://pkg.go.dev/cmd/go>
-  * cpanminus <https://metacpan.org/pod/App::cpanminus>
-  * perlbrew <https://perlbrew.pl/>
-  * bpkg <https://bpkg.sh/bpkg/>
-  * Conan <https://conan.io/>
-  * Cargo <https://doc.rust-lang.org/stable/cargo/>
-  * RubyGems CLI <https://rubygems.org/>
-  * NuGet CLI <https://www.nuget.org/>
-  * stack <https://docs.haskellstack.org/en/stable/>
-  * Gradle <https://gradle.org/>
-  * Maven <https://maven.apache.org/>
-* Private package registries
-  * GitLab Package Registry <https://docs.gitlab.com/ee/user/packages/package_registry/index.html>
-  * GitHub Packages <https://github.com/features/packages>
-  * Nexus Repository Manager 3 <https://help.sonatype.com/repomanager3>
-  * Azure Artifacts <https://learn.microsoft.com/en-us/azure/devops/artifacts/>
-* Version conventions
-  * Semantic Versioning <https://semver.org/>
-    * semver <https://github.com/npm/node-semver#readme>
-* Virtual environments
-  * Python venv <https://docs.python.org/3/library/venv.html>
-  * nodeenv <https://ekalinin.github.io/nodeenv/>
-  * asdf <https://asdf-vm.com/> - a tool version manager
-  * nvm <https://github.com/nvm-sh/nvm>
-  * nvm-windows <https://github.com/coreybutler/nvm-windows>
-  * perlbrew <https://perlbrew.pl/>
-
-## 150 - Programming language features (for devops)
-
-* Bash (see Shell section)
-* Perl <https://www.perl.org/>
-  * special variables <https://metacpan.org/dist/perl/view/pod/perlvar.pod>
-  * built-in regex <https://metacpan.org/dist/perl/view/pod/perlre.pod>
-  * context
-  * scalar type
-    * reference
-  * quote-like operators <https://metacpan.org/dist/perl/view/pod/perlop.pod>
-    * pattern matching operator
-    * backtick operator
-  * i/o operators <https://metacpan.org/dist/perl/view/pod/perlop.pod>
-    * diamond oprator
-  * autovivification
-* Python <https://www.python.org/>
-  * f-string
-  * generator
-  * with statement <https://docs.python.org/3/reference/compound_stmts.html#with>
-  * context manager
-  * decorator
-  * coroutine function
-  * lambda
-  * special methods <https://docs.python.org/3/reference/datamodel.html#specialnames>
-  * global interpreter lock <https://en.wikipedia.org/wiki/Global_interpreter_lock>
-* Javascript/ECMAScript <https://www.ecma-international.org/publications/standards/Ecma-262.htm>
-  * Lodash <https://lodash.com/> - A modern JavaScript utility library delivering modularity, performance & extras
-  * prototypal inheritance <https://en.wikipedia.org/wiki/Prototype-based_programming>
-  * event-driven
-  * spread and rest operators
-  * generator
-* Go <https://go.dev/>
-  * lo <https://pkg.go.dev/github.com/samber/lo> - A Lodash-style Go library
-  * defer, panic and recover <https://go.dev/blog/defer-panic-and-recover>
-  * method receiver
-  * init function
-  * goroutine
-  * channel
-  * go function
-  * static binary executable
-  * go module
-* Extra programming languages (advanced)
-  * Ruby <https://www.ruby-lang.org/en/>
-    * persent notation
-    * block, yield, proc, lambda
-    * dynamic method definition
-    * pattern matching
-    * instance_eval
-  * Typescript <https://www.typescriptlang.org/index.html>
-    * type inference
-    * interface
-    * union and intersection
-    * type guard
-    * decorator
-    * optional and default parameters
-    * type arias
-    * type assertion
-    * type declaration file
-  * Rust <https://www.rust-lang.org/>
-    * ownership and borrowing
-    * interior mutability
-    * iterator and closure
-    * trait-based generics
-    * lifetime
-    * pattern matching
-    * pinning
-  * C# <https://learn.microsoft.com/en-us/dotnet/csharp/>
-    * query expression (LINQ)
-    * delegate and event
-    * lambda expression
-  * F# <https://fsharp.org/> <https://learn.microsoft.com/en-us/dotnet/fsharp/>
-    * immutable data structure
-    * type inference
-    * pattern matching
-    * discriminated union
-    * active pattern
-    * computation expression
-  * Java <https://docs.oracle.com/en/java/index.html>
-  * Scala (for Gatling) <https://www.scala-lang.org/>
-  * Groovy (for Jenkins/Gradle) <http://groovy-lang.org/>
-  * Kotlin (for Gradle) <https://kotlinlang.org/>
-  * Lua (for NGINX/Neovim) <https://www.lua.org/>
-  * Haskell <https://www.haskell.org/>
-  * Elm <https://elm-lang.org/>
-  * C <https://www.open-std.org/jtc1/sc22/wg14/>
-  * Emacs Lisp <https://www.gnu.org/software/emacs/manual/html_node/elisp/>
-  * zx <https://google.github.io/zx/>
-
-## 160 - Debugging, logging, unit test, and coverage
+## 150 - Debugging, logging, unit test, and coverage
 
 * Debuggers and loggers
+  * DAP <https://microsoft.github.io/debug-adapter-protocol/>
   * Bash
     * BASH Debugger <https://bashdb.sourceforge.net/>
     * VSCode Bash Debug <https://marketplace.visualstudio.com/items?itemName=rogalmic.bash-debug>
@@ -480,7 +462,7 @@
     * LCOV <https://github.com/linux-test-project/lcov>
     * kcov <https://simonkagstrom.github.io/kcov/> - A code coverage tester for compiled programs
 
-## 170 - Program execution, toolkit, and CLI/TUI development
+## 160 - Program execution and SDK
 
 * Compiler <https://en.wikipedia.org/wiki/Compiler>
   * gcc <https://www.gnu.org/software/gcc/>
@@ -513,6 +495,10 @@
   * Java
     * OpenJDK <https://openjdk.org/>
     * Eclipse Temurin <https://adoptium.net/temurin/>
+    * Java HotSpot VM <https://docs.oracle.com/en/java/javase/21/vm/java-virtual-machine-technology-overview.html>
+    * JDK tools <https://docs.oracle.com/en/java/javase/21/docs/specs/man/index.html>
+    * VisualVM <https://visualvm.github.io/>
+    * JMX API <https://docs.oracle.com/en/java/javase/21/jmx/introduction-jmx-technology.html>
   * .NET <https://dotnet.microsoft.com/en-us/>
     * CLR <https://learn.microsoft.com/en-us/dotnet/standard/clr>
 * Build automation tools
@@ -522,8 +508,10 @@
   * Maven <https://maven.apache.org/>
   * Task <https://taskfile.dev/>
   * CMake <https://cmake.org/>
+    * CPack <https://cmake.org/cmake/help/latest/module/CPack.html> - Configure generators for binary installers and source packages
   * Meson <https://mesonbuild.com/>
   * Rake <https://ruby.github.io/rake/>
+  * fpm <https://fpm.readthedocs.io/> - A tool which lets you easily create packages for Debian, Ubuntu, Fedora, CentOS, RHEL, Arch Linux, ...
 * Program documentation tools
   * apiDoc <http://apidocjs.com/>
   * JSDoc <https://jsdoc.app/>
@@ -535,67 +523,100 @@
   * rustdoc <https://doc.rust-lang.org/rustdoc/>
   * RDoc <https://ruby.github.io/rdoc/>
   * Javadoc <https://www.oracle.com/java/technologies/javase/javadoc-tool.html>
-* CLI/TUI development
-  * Bash
-    * built-in getopts etc. <https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html>
-    * tput <https://www.man7.org/linux/man-pages/man1/tput.1.html>
-    * dialog <https://invisible-island.net/dialog/dialog.html>
-    * charm_Gum <https://github.com/charmbracelet/gum> - A tool for glamorous shell scripts
-    * FIGlet <http://www.figlet.org/>
-    * lolcat <https://github.com/busyloop/lolcat>
-    * cfonts <https://github.com/dominikwilkowski/cfonts>
-    * cowsay <http://cowsay.diamonds/>
-  * Perl
-    * Getopt::Long <https://metacpan.org/pod/Getopt::Long>
-    * Term::ANSIColor <https://metacpan.org/pod/Term::ANSIColor>
-    * Text::ANSITable <https://metacpan.org/pod/Text::ANSITable>
-  * Python
-    * argparse <https://docs.python.org/3/library/argparse.html>
-    * click <https://palletsprojects.com/p/click/>
-    * Colorama <https://github.com/tartley/colorama>
-    * Typer <https://typer.tiangolo.com/>
-    * Asciimatics <https://github.com/peterbrittain/asciimatics>
-    * Python Prompt Toolkit <https://python-prompt-toolkit.readthedocs.io/en/master/>
-  * Javascript
-    * yargs <https://yargs.js.org/>
-    * minimist <https://github.com/minimistjs/minimist>
-    * chalk <https://github.com/chalk/chalk>
-    * cli-progress <https://github.com/npkgz/cli-progress>
-    * FIGLet.js <https://github.com/patorjk/figlet.js>
-    * gradient-string <https://github.com/bokub/gradient-string>
-  * Go
-    * charm_Bubble Tea <https://github.com/charmbracelet/bubbletea> - A powerful little TUI framework
-    * charm_Huh <https://github.com/charmbracelet/huh> - Build terminal forms and prompts
-    * pflag <https://github.com/spf13/pflag> - Drop-in replacement for Go's flag package
-    * color <https://github.com/fatih/color>
-    * cobra <https://cobra.dev/> - A Framework for Modern CLI Apps in Go
-    * cli <https://cli.urfave.org/> - A simple, fast, and fun package for building command line apps in Go
-    * viper <https://github.com/spf13/viper> - Go configuration with fangs
-  * Ruby
-    * TTY <https://ttytoolkit.org/>
-  * Rust
-    * Ratatui <https://ratatui.rs/>
-    * R3BL <https://r3bl.com/>
-  * C
-    * ncurses <https://invisible-island.net/ncurses/>
+* Package management
+  * npm CLI <https://www.npmjs.com/>
+  * yarn <https://yarnpkg.com/>
+  * pnpm <https://pnpm.io>
+  * pip <https://pip.pypa.io/>
+  * Go mod <https://pkg.go.dev/cmd/go>
+  * cpanminus <https://metacpan.org/pod/App::cpanminus>
+  * perlbrew <https://perlbrew.pl/>
+  * bpkg <https://bpkg.sh/bpkg/>
+  * Conan <https://conan.io/>
+  * Cargo <https://doc.rust-lang.org/stable/cargo/>
+  * RubyGems CLI <https://rubygems.org/>
+  * NuGet CLI <https://www.nuget.org/>
+  * stack <https://docs.haskellstack.org/en/stable/>
+  * Gradle <https://gradle.org/>
+  * Maven <https://maven.apache.org/>
+* Virtual environment
+  * Python venv <https://docs.python.org/3/library/venv.html>
+  * nodeenv <https://ekalinin.github.io/nodeenv/>
+  * nvm <https://github.com/nvm-sh/nvm>
+  * nvm-windows <https://github.com/coreybutler/nvm-windows>
+  * perlbrew <https://perlbrew.pl/>
+  * asdf <https://asdf-vm.com/> - A tool version manager
 
-## 180 - Programming language tools (advanced)
+## 170 - CLI/TUI development
 
-* Chomsky hierarchy <https://en.wikipedia.org/wiki/Chomsky_hierarchy>
-* Automata theory <https://en.wikipedia.org/wiki/Automata_theory>
-* Homoiconicity <https://en.wikipedia.org/wiki/Homoiconicity>
-* BNF syntax <https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form>
-* AST <https://en.wikipedia.org/wiki/Abstract_syntax_tree>
-* ANTLR <https://www.antlr.org/>
-* Ragel <https://www.colm.net/open-source/ragel/>
-* Bison <https://www.gnu.org/software/bison/>
-* Flex <https://github.com/westes/flex>
-* LSP <https://microsoft.github.io/language-server-protocol/>
-* DAP <https://microsoft.github.io/debug-adapter-protocol/>
-* Syntax highlighting
-  * highlight.js <https://highlightjs.org/>
-  * Prism <https://prismjs.com>
-  * Pygments <https://pygments.org/>
-* Program analysys
-  * Hoare logic <https://en.wikipedia.org/wiki/Hoare_logic>
-  * Curry-Howard correspondence <https://en.wikipedia.org/wiki/Curry–Howard_correspondence>
+* Bash
+  * built-in getopts etc. <https://www.gnu.org/software/bash/manual/html_node/Shell-Builtin-Commands.html>
+  * tput <https://www.man7.org/linux/man-pages/man1/tput.1.html>
+  * dialog <https://invisible-island.net/dialog/dialog.html>
+  * charm_Gum <https://github.com/charmbracelet/gum> - A tool for glamorous shell scripts
+  * FIGlet <http://www.figlet.org/>
+  * lolcat <https://github.com/busyloop/lolcat>
+  * cfonts <https://github.com/dominikwilkowski/cfonts>
+  * cowsay <http://cowsay.diamonds/>
+* Perl
+  * Getopt::Long <https://metacpan.org/pod/Getopt::Long>
+  * Term::ANSIColor <https://metacpan.org/pod/Term::ANSIColor>
+  * Text::ANSITable <https://metacpan.org/pod/Text::ANSITable>
+* Python
+  * argparse <https://docs.python.org/3/library/argparse.html>
+  * click <https://palletsprojects.com/p/click/>
+  * Colorama <https://github.com/tartley/colorama>
+  * Typer <https://typer.tiangolo.com/>
+  * Asciimatics <https://github.com/peterbrittain/asciimatics>
+  * Python Prompt Toolkit <https://python-prompt-toolkit.readthedocs.io/en/master/>
+* Javascript
+  * yargs <https://yargs.js.org/>
+  * minimist <https://github.com/minimistjs/minimist>
+  * chalk <https://github.com/chalk/chalk>
+  * cli-progress <https://github.com/npkgz/cli-progress>
+  * FIGLet.js <https://github.com/patorjk/figlet.js>
+  * gradient-string <https://github.com/bokub/gradient-string>
+* Go
+  * charm_Bubble Tea <https://github.com/charmbracelet/bubbletea> - A powerful little TUI framework
+  * charm_Huh <https://github.com/charmbracelet/huh> - Build terminal forms and prompts
+  * pflag <https://github.com/spf13/pflag> - Drop-in replacement for Go's flag package
+  * color <https://github.com/fatih/color>
+  * cobra <https://cobra.dev/> - A Framework for Modern CLI Apps in Go
+  * cli <https://cli.urfave.org/> - A simple, fast, and fun package for building command line apps in Go
+  * viper <https://github.com/spf13/viper> - Go configuration with fangs
+* Ruby
+  * TTY <https://ttytoolkit.org/>
+* Rust
+  * Ratatui <https://ratatui.rs/>
+  * R3BL <https://r3bl.com/>
+* C
+  * ncurses <https://invisible-island.net/ncurses/>
+
+## 180 - Binary processing
+
+* Archivers
+  * GNU Gzip <https://www.gnu.org/software/gzip/>
+  * GNU tar <https://www.gnu.org/software/tar/>
+  * Info-Zip <https://sourceforge.net/projects/infozip/>
+  * 7-Zip <https://www.7-zip.org/>
+* Binary file processing
+  * file (command) <https://www.darwinsys.com/file/>
+  * ELF format <https://en.wikipedia.org/wiki/Executable_and_Linkable_Format>
+  * hexdump <https://man7.org/linux/man-pages/man1/hexdump.1.html>
+  * xxd <https://github.com/ckormanyos/xxd>
+  * fq <https://github.com/wader/fq>
+  * Image::ExifTool <https://metacpan.org/pod/Image::ExifTool>
+* Office document processing
+  * Formats
+    * PDF <https://en.wikipedia.org/wiki/PDF>
+    * Office Open XML <https://en.wikipedia.org/wiki/Office_Open_XML>
+    * OpenDocument <https://en.wikipedia.org/wiki/OpenDocument>
+  * Ghostscript <https://www.ghostscript.com/>
+  * qpdf <https://qpdf.sourceforge.io/>
+  * pdftk <https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/>
+  * pdfcpu <https://pdfcpu.io/> - a Go PDF processor
+  * LibreOffice cli <https://www.libreoffice.org/>
+  * Excelize <https://xuri.me/excelize/> - a Go library for XLSX files
+  * xlsx2csv <https://github.com/dilshod/xlsx2csv>
+  * docx2txt <https://github.com/ankushshah89/python-docx2txt>
+  * pptx2md <https://github.com/ssine/pptx2md>

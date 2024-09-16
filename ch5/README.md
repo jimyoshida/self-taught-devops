@@ -2,7 +2,7 @@
 
 [Show timeline](./Timeline.md)
 
-_work in progress._
+_Classification in progress._
 
 ## Data science concepts
 
@@ -35,33 +35,10 @@ _work in progress._
 * Network analysis
   * NetworkX <https://networkx.org/>
 
-## Telemetry ETL tools
-
-* Prometheus exporters <https://prometheus.io/docs/instrumenting/exporters/>
-  * node-exporter <https://prometheus.io/docs/guides/node-exporter/>
-  * blackbox-exporter <https://github.com/prometheus/blackbox_exporter>
-* Dissect and Grok <https://www.elastic.co/guide/en/elasticsearch/reference/current/esql-process-data-with-dissect-and-grok.html>
-* Promtail agent <https://grafana.com/docs/loki/latest/clients/promtail/>
-* Fluent Bit <https://fluentbit.io/>
-* Fluentd <https://www.fluentd.org/>
-* Filebeat <https://www.elastic.co/beats/filebeat>
-* Logstash <https://www.elastic.co/logstash>
-* Telegraf <https://www.influxdata.com/time-series-platform/telegraf/>
-* Metricbeat <https://www.elastic.co/beats/metricbeat>
-* Elasticsearch
-  * Ingest pipelines <https://www.elastic.co/guide/en/elasticsearch/reference/current/ingest.html>
-* OpenTelemetry <https://opentelemetry.io/>
-* Cloud-specific
-  * Azure Monitor Agent <https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agents-overview>
-  * Cloudwatch Agent <https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Install-CloudWatch-Agent.html>
-
-## Data visualization tools
+## Data visualization
 
 * Apps
-  * Grafana <https://grafana.com/>
-    * Grafonnet <https://grafana.github.io/grafonnet/> - Jsonnet library for generating Grafana dashboards
   * Kibana <https://www.elastic.co/kibana>
-  * Azure Dashboard <https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-dashboards>
   * Power BI <https://www.microsoft.com/en-us/power-platform/products/power-bi/>
   * Amazon QuickSight <https://aws.amazon.com/quicksight/>
 * Tools and libraries
@@ -76,30 +53,6 @@ _work in progress._
   * GeoLite2 <https://dev.maxmind.com/geoip/geolite2-free-geolocation-data> - Free geolocation data
   * WordCloud for Python <https://amueller.github.io/word_cloud/>
 
-## Telemetry storage and alerting
-
-* Grafana Alerting <https://grafana.com/docs/grafana/latest/alerting/>
-* Prometheus <https://prometheus.io/>
-  * PromQL <https://prometheus.io/docs/prometheus/latest/querying/basics/>
-  * promtool <https://prometheus.io/docs/prometheus/latest/command-line/promtool/>
-* Alertmanager <https://prometheus.io/docs/alerting/latest/alertmanager/>
-  * amtool <https://github.com/prometheus/alertmanager/tree/main?tab=readme-ov-file#amtool>
-* InfluxDB <https://www.influxdata.com/products/influxdb-overview/>
-  * InfluxQL <https://docs.influxdata.com/influxdb/v1/query_language/>
-  * influx cli <https://docs.influxdata.com/influxdb/cloud/reference/cli/influx/>
-* Grafana Mimir <https://grafana.com/oss/mimir/>
-* Grafana Loki <https://grafana.com/oss/loki/>
-  * LogQL <https://grafana.com/docs/loki/latest/query/>
-    * LogCLI <https://grafana.com/docs/loki/latest/query/logcli/>
-* Grafana Tempo <https://grafana.com/oss/tempo/>
-  * TraceQL <https://grafana.com/docs/tempo/latest/traceql/>
-* Graphite <https://grafana.com/oss/graphite/>
-* Azure Monitor <https://docs.microsoft.com/en-us/azure/azure-monitor/overview>
-  * Kusto Query Language <https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/>
-  * App Insights <https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview>
-* AWS CloudWatch <https://aws.amazon.com/cloudwatch/>
-* Datadog <https://www.datadoghq.com/>
-
 ## Interactive computing environment
 
 * JupyterLab <https://jupyter.org/> - Web-based interactive development environment for notebooks, code, and data
@@ -111,6 +64,12 @@ _work in progress._
   * org-export <https://nhoffman.github.io/org-export/> - Batch export of Emacs org-mode files from the command line
   * org-ai <https://github.com/rksm/org-ai> - Emacs as your personal AI assistant
   * Org-roam <https://www.orgroam.com/> - A plain-text personal knowledge management system
+
+## Platforms for Data/AI/ML
+
+* DVC <https://dvc.org/> - Data Version Control
+* Mojo <https://www.modular.com/mojo> - The programming language for all AI developers
+* Vanna.AI <https://vanna.ai/> - A Python package that uses retrieval augmentation to help you generate accurate SQL queries for your database using LLMs
 
 ---
 
@@ -159,15 +118,6 @@ _work in progress._
 * Apache Cassandra <https://cassandra.apache.org/> - An open source NoSQL distributed database
 * Apache HBase <https://hbase.apache.org/> - The Hadoop database, a distributed, scalable, big data store
 
-## Object storage
-
-* Object storage <https://en.wikipedia.org/wiki/Object_storage>
-* Amazon S3 <https://aws.amazon.com/s3/>
-* Ceph <https://ceph.com/en/> - An open-source, distributed storage system
-* MinIO <https://min.io/> - A high-performance, S3 compatible object store
-* Azure Blob Storage <https://azure.microsoft.com/en-us/services/storage/blobs/>
-* Azure Storage Exproler <https://azure.microsoft.com/en-us/products/storage/storage-explorer/> - Manage your Azure cloud storage resources from your desktop
-
 ## Distributed processing and analytics
 
 * Frameworks
@@ -194,15 +144,6 @@ _work in progress._
   * Apache Kafka <https://kafka.apache.org/> - An open-source distributed event streaming platform
   * Apache Storm <https://storm.apache.org/> - A free and open source distributed realtime computation system
   * Apache Flink <https://flink.apache.org/> - A framework and distributed processing engine for stateful computations over unbounded and bounded data streams
-
-## Application integration
-
-* CloudEvents <https://cloudevents.io/> - A specification for describing event data in a common way
-* Messaging
-  * Azure Service Bus <https://azure.microsoft.com/en-us/products/service-bus/>
-  * Azure Queue Storage <https://azure.microsoft.com/en-us/products/storage/queues/>
-  * Amazon Simple Queue Service <https://aws.amazon.com/sqs/>
-  * RabbitMQ <https://www.rabbitmq.com/> - A reliable and mature messaging and streaming broker
 
 ---
 
@@ -271,12 +212,6 @@ _work in progress._
 * Textbooks
   * Neural Networks and Deep Learning <http://neuralnetworksanddeeplearning.com/>
   * Deep Learning, MIT Press <https://www.deeplearningbook.org/>
-
-## Platforms for Data/AI/ML
-
-* DVC <https://dvc.org/> - Data Version Control
-* Mojo <https://www.modular.com/mojo> - The programming language for all AI developers
-* Vanna.AI <https://vanna.ai/> - A Python package that uses retrieval augmentation to help you generate accurate SQL queries for your database using LLMs
 
 ## Natural language processing
 

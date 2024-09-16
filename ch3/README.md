@@ -2,6 +2,8 @@
 
 [Show timeline](./Timeline.md)
 
+_Classification in progress._
+
 ## Web and API style standards
 
 * HTTP <https://en.wikipedia.org/wiki/HTTP>
@@ -122,17 +124,6 @@
 * .NET
   * ASP.NET <https://dotnet.microsoft.com/en-us/apps/aspnet> (reference)
 
-## Web server test and debug tools
-
-* API test
-  * Postman/Newman <https://www.getpostman.com/>
-* Debug
-  * Fiddler <https://www.telerik.com/fiddler> - Web Debugging Proxy
-* Load test
-  * k6 <https://k6.io/>
-  * Gatling <https://gatling.io/>
-  * Apache Jmeter <https://jmeter.apache.org/>
-
 ## Frontend libraries and tools
 
 * React <https://reactjs.org/>
@@ -161,6 +152,19 @@
 * Scrapy <https://scrapy.org/> - An open source and collaborative framework for extracting the data you need from websites
 * Mechanize <https://metacpan.org/pod/WWW::Mechanize> (for CGI)
 * Watir <http://watir.com/> (reference)
+* API test
+  * Postman/Newman <https://www.getpostman.com/>
+* Debug
+  * Fiddler <https://www.telerik.com/fiddler> - Web Debugging Proxy
+
+## Application integration
+
+* CloudEvents <https://cloudevents.io/> - A specification for describing event data in a common way
+* Messaging
+  * Azure Service Bus <https://azure.microsoft.com/en-us/products/service-bus/>
+  * Azure Queue Storage <https://azure.microsoft.com/en-us/products/storage/queues/>
+  * Amazon Simple Queue Service <https://aws.amazon.com/sqs/>
+  * RabbitMQ <https://www.rabbitmq.com/> - A reliable and mature messaging and streaming broker
 
 ## Rendering and JS engines (reference)
 

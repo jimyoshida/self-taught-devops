@@ -2,32 +2,29 @@
 
 [Show timeline](./Timeline.md)
 
-## Operating system fundamentals
+## 200 - OS and IP network basics
 
-* operating system <https://en.wikipedia.org/wiki/Operating_system>
-* POSIX <https://en.wikipedia.org/wiki/POSIX>
-* process <https://en.wikipedia.org/wiki/Process_(computing)>
-  * pthreads <https://en.wikipedia.org/wiki/Pthreads>
-* environment variable <https://en.wikipedia.org/wiki/Environment_variable>
-* pipeline <https://en.wikipedia.org/wiki/Pipeline_(Unix)>
-* file system <https://en.wikipedia.org/wiki/File_system>
-  * path <https://en.wikipedia.org/wiki/Path_(computing)>
-  * glob pattern <https://en.wikipedia.org/wiki/Glob_(programming)>
-  * file handle/descriptor <https://en.wikipedia.org/wiki/File_descriptor>
-  * symbolic link <https://en.wikipedia.org/wiki/Symbolic_link>
-  * permission <https://en.wikipedia.org/wiki/File-system_permissions>
-  * setuid <https://en.wikipedia.org/wiki/Setuid>
-    * sticky bit <https://en.wikipedia.org/wiki/Sticky_bit>
-* disk partitioning <https://en.wikipedia.org/wiki/Disk_partitioning>
-* loop device <https://en.wikipedia.org/wiki/Loop_device>
-* virtual memory <https://en.wikipedia.org/wiki/Virtual_memory>
-  * memory paging <https://en.wikipedia.org/wiki/Memory_paging>
-  * resident set size (RSS) <https://en.wikipedia.org/wiki/Resident_set_size>
-  * working set size (WSS) <https://en.wikipedia.org/wiki/Working_set_size>
-* shared memory <https://en.wikipedia.org/wiki/Shared_memory>
-
-## IP network fundamentals
-
+* Operating system <https://en.wikipedia.org/wiki/Operating_system>
+  * POSIX <https://en.wikipedia.org/wiki/POSIX>
+  * process <https://en.wikipedia.org/wiki/Process_(computing)>
+    * pthreads <https://en.wikipedia.org/wiki/Pthreads>
+  * environment variable <https://en.wikipedia.org/wiki/Environment_variable>
+  * pipeline <https://en.wikipedia.org/wiki/Pipeline_(Unix)>
+  * file system <https://en.wikipedia.org/wiki/File_system>
+    * path <https://en.wikipedia.org/wiki/Path_(computing)>
+    * glob pattern <https://en.wikipedia.org/wiki/Glob_(programming)>
+    * file handle/descriptor <https://en.wikipedia.org/wiki/File_descriptor>
+    * symbolic link <https://en.wikipedia.org/wiki/Symbolic_link>
+    * permission <https://en.wikipedia.org/wiki/File-system_permissions>
+    * setuid <https://en.wikipedia.org/wiki/Setuid>
+      * sticky bit <https://en.wikipedia.org/wiki/Sticky_bit>
+  * disk partitioning <https://en.wikipedia.org/wiki/Disk_partitioning>
+  * loop device <https://en.wikipedia.org/wiki/Loop_device>
+  * virtual memory <https://en.wikipedia.org/wiki/Virtual_memory>
+    * memory paging <https://en.wikipedia.org/wiki/Memory_paging>
+    * resident set size (RSS) <https://en.wikipedia.org/wiki/Resident_set_size>
+    * working set size (WSS) <https://en.wikipedia.org/wiki/Working_set_size>
+  * shared memory <https://en.wikipedia.org/wiki/Shared_memory>
 * The OSI model <https://en.wikipedia.org/wiki/OSI_model>
 * The Internet <https://en.wikipedia.org/wiki/Internet>
 * IP <https://en.wikipedia.org/wiki/Internet_Protocol>
@@ -48,7 +45,7 @@
 * ICMP <https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol>
   * ICMPv6 <https://en.wikipedia.org/wiki/ICMPv6>
 
-## Linux core services
+## 210 - Linux administration
 
 * The Linux Kernel <https://www.kernel.org/>
   * daemon <https://man7.org/linux/man-pages/man7/daemon.7.html>
@@ -72,47 +69,46 @@
 * eBPF (Extended Berkeley Packet Filter) <https://ebpf.io/>
 * FUSE (Filesystem in Userspace) <https://github.com/libfuse/libfuse>
   * s3fs <https://github.com/s3fs-fuse/s3fs-fuse>
-
-## Linux administration tools
-
-* util-linux <https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git/>
-  * lsblk <https://man7.org/linux/man-pages/man8/lsblk.8.html>
-  * lsns <https://man7.org/linux/man-pages/man8/lsns.8.html>
-  * swapon <https://man7.org/linux/man-pages/man8/swapon.8.html>
-* Vixie Cron <https://github.com/vixie/cron>
-* logrotate <https://github.com/logrotate/logrotate>
-* procps <https://gitlab.com/procps-ng/procps>
-  * ps <https://man7.org/linux/man-pages/man1/ps.1.html>
-  * top <https://www.man7.org/linux/man-pages/man1/top.1.html>
-  * free <https://www.man7.org/linux/man-pages/man1/free.1.html>
-  * vmstat <https://www.man7.org/linux/man-pages/man8/vmstat.8.html>
-* psmisc <https://gitlab.com/psmisc/psmisc>
-  * pstree <https://man7.org/linux/man-pages/man1/pstree.1.html>
-  * killall <https://man7.org/linux/man-pages/man1/killall.1.html>
-* lsof <https://lsof.readthedocs.io/en/latest/>
-* file (command) <https://www.darwinsys.com/file/>
-* sudo <https://www.sudo.ws/>
-* shadow-utils <https://github.com/shadow-maint/shadow>
-  * useradd <https://man7.org/linux/man-pages/man8/useradd.8.html>
+* Host administration
+  * util-linux <https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git/>
+    * lsblk <https://man7.org/linux/man-pages/man8/lsblk.8.html>
+    * lsns <https://man7.org/linux/man-pages/man8/lsns.8.html>
+    * swapon <https://man7.org/linux/man-pages/man8/swapon.8.html>
+  * rsync <https://rsync.samba.org/>
+  * Vixie Cron <https://github.com/vixie/cron>
+  * logrotate <https://github.com/logrotate/logrotate>
+  * procps <https://gitlab.com/procps-ng/procps>
+    * ps <https://man7.org/linux/man-pages/man1/ps.1.html>
+    * top <https://www.man7.org/linux/man-pages/man1/top.1.html>
+    * free <https://www.man7.org/linux/man-pages/man1/free.1.html>
+    * vmstat <https://www.man7.org/linux/man-pages/man8/vmstat.8.html>
+  * psmisc <https://gitlab.com/psmisc/psmisc>
+    * pstree <https://man7.org/linux/man-pages/man1/pstree.1.html>
+    * killall <https://man7.org/linux/man-pages/man1/killall.1.html>
+  * lsof <https://lsof.readthedocs.io/en/latest/>
+  * sudo <https://www.sudo.ws/>
+  * shadow-utils <https://github.com/shadow-maint/shadow>
+    * useradd <https://man7.org/linux/man-pages/man8/useradd.8.html>
+  * strace <https://strace.io/>
+  * dtrace <https://dtrace.org/about/>
+  * neofetch <https://github.com/dylanaraps/neofetch>
+  * inxi <https://smxi.org/docs/inxi.htm>
+  * atop <https://github.com/Atoptool/atop#atop>
+  * nmon <https://nmon.sourceforge.net/pmwiki.php>
+  * sysstat <https://sysstat.github.io/>
+    * iostat <https://man7.org/linux/man-pages/man1/iostat.1.html>
+  * smem <https://www.selenic.com/smem/>
+  * Syslog <https://en.wikipedia.org/wiki/Syslog>
+  * systemd-journald <https://man7.org/linux/man-pages/man8/systemd-journald.service.8.html>
+    * journalctl <https://man7.org/linux/man-pages/man1/journalctl.1.html>
+  * jc <https://kellyjonbrazil.github.io/jc/docs/> - Json adaptor
+  * aha <https://github.com/theZiz/aha> - Ansi HTML Adapter
+    * NO_COLOR <https://no-color.org/>
 * Clock syncing <https://en.wikipedia.org/wiki/Clock_synchronization>
   * NTP <https://en.wikipedia.org/wiki/Network_Time_Protocol>
   * chrony <https://chrony.tuxfamily.org/>
   * pool.ntp.org <https://www.ntppool.org/en/>
-* gsudo <https://github.com/gerardog/gsudo> - a sudo for Windows
-* strace <https://strace.io/>
-* dtrace <https://dtrace.org/about/>
-* neofetch <https://github.com/dylanaraps/neofetch>
-* inxi <https://smxi.org/docs/inxi.htm>
-* atop <https://github.com/Atoptool/atop#atop>
-* nmon <https://nmon.sourceforge.net/pmwiki.php>
-* sysstat <https://sysstat.github.io/>
-  * iostat <https://man7.org/linux/man-pages/man1/iostat.1.html>
-* smem <https://www.selenic.com/smem/>
-* Syslog <https://en.wikipedia.org/wiki/Syslog>
-* systemd-journald <https://man7.org/linux/man-pages/man8/systemd-journald.service.8.html>
-  * journalctl <https://man7.org/linux/man-pages/man1/journalctl.1.html>
-* jc <https://kellyjonbrazil.github.io/jc/docs/> - Json adaptor
-* Modern utils
+* Modern utilities
   * lsd <https://github.com/Peltoche/lsd>
   * eza <https://eza.rocks/>
   * broot <https://dystroy.org/broot/>
@@ -123,30 +119,25 @@
   * htop <https://hisham.hm/htop/>
   * btop++ <https://github.com/aristocratos/btop>
   * glances <https://nicolargo.github.io/glances/>
-
-## Network administration tools
-
-* iproute2 <https://github.com/shemminger/iproute2>
-  * ip <https://man7.org/linux/man-pages/man8/ip.8.html>
-  * ss <https://man7.org/linux/man-pages/man8/ss.8.html>
-* net-tools <https://sourceforge.net/projects/net-tools/>
-  * ifconfig <https://man7.org/linux/man-pages/man8/ifconfig.8.html>
-  * netstat <https://man7.org/linux/man-pages/man8/netstat.8.html>
-* traceroute <https://traceroute.sourceforge.net/>
-* NetworkManager <https://networkmanager.dev/>
-* Ubuntu NetPlan <https://netplan.io/>
-* tcpdump <https://www.tcpdump.org/>
-* wireshark <https://www.wireshark.org/>
-* netcat <https://nc110.sourceforge.io/>
-* nmap <https://nmap.org/>
+* Network administration
+  * iproute2 <https://github.com/shemminger/iproute2>
+    * ip <https://man7.org/linux/man-pages/man8/ip.8.html>
+    * ss <https://man7.org/linux/man-pages/man8/ss.8.html>
+  * net-tools <https://sourceforge.net/projects/net-tools/>
+    * ifconfig <https://man7.org/linux/man-pages/man8/ifconfig.8.html>
+    * netstat <https://man7.org/linux/man-pages/man8/netstat.8.html>
+  * traceroute <https://traceroute.sourceforge.net/>
+  * NetworkManager <https://networkmanager.dev/>
+  * Ubuntu NetPlan <https://netplan.io/>
+  * tcpdump <https://www.tcpdump.org/>
+  * wireshark <https://www.wireshark.org/>
+  * netcat <https://nc110.sourceforge.io/>
+  * nmap <https://nmap.org/>
 * SOCKS proxy <https://en.wikipedia.org/wiki/SOCKS>
   * dante <https://www.inet.no/dante/>
   * tun2socks <https://github.com/xjasonlyu/tun2socks>
   * proxychains <https://github.com/haad/proxychains>
-
-## OS package management
-
-* Tools
+* OS package management
   * Dpkg <https://wiki.debian.org/Teams/Dpkg>
     * APT <https://salsa.debian.org/apt-team/apt>
   * Pacman <https://archlinux.org/pacman/>
@@ -154,60 +145,8 @@
   * Homebrew <https://brew.sh/>
   * Flatpak <https://flatpak.org/>
   * Snapcraft <https://snapcraft.io/>
-  * Chocolatey <https://chocolatey.org>
-  * Scoop <https://scoop.sh/>
-  * CMake/CPack <https://cmake.org/>
-  * fpm <https://fpm.readthedocs.io/>
-* Private repositories
-  * Nexus Repository Manager 3 <https://help.sonatype.com/repomanager3>
-  * Jfrog Artifactory <https://jfrog.com/artifactory/>
 
-## Configuration management and IaC
-
-* idempotency <https://en.wikipedia.org/wiki/Idempotence>
-* Ansible <https://www.ansible.com/>
-* Hashicorp Packer <https://packer.io/>
-* cloud-init <https://cloud-init.io/>
-* Hashicorp Terraform <https://www.terraform.io/>
-  * GitLab-managed Terraform state <https://docs.gitlab.com/ee/user/infrastructure/iac/terraform_state.html>
-  * tf.libsonnet <https://docs.tflibsonnet.com/>
-  * terraform-docs <https://terraform-docs.io/>
-  * Terraformer <https://github.com/GoogleCloudPlatform/terraformer>
-  * Atrantis (reference) <https://www.runatlantis.io/>
-* Serverless Framework <https://serverless.com/>
-* AWS CloudFormation <https://aws.amazon.com/cloudformation/>
-* AWS Cloud Development Kit <https://aws.amazon.com/cdk/>
-* AWS Serverless Application Model <https://aws.amazon.com/serverless/sam/>
-* Azure Resource Manager <https://docs.microsoft.com/en-us/azure/azure-resource-manager/>
-  * Bicep language <https://github.com/Azure/bicep>
-* Pulumi <https://www.pulumi.com/>
-* AWS Systems Manager <https://aws.amazon.com/systems-manager/>
-* Azure Update Manager <https://learn.microsoft.com/en-us/azure/update-manager/>
-
-## Linux container
-
-* The Open Container Initiative (OCI) <https://opencontainers.org/>
-* Container runtimes and tools
-  * Docker Engine <https://docs.docker.com/engine/>
-    * docker-compose <https://docs.docker.com/compose/>
-  * containerd <https://containerd.io/>
-    * nerdctl <https://github.com/containerd/nerdctl>
-  * Docker Build <https://docs.docker.com/build/>
-  * podman <https://podman.io/>
-  * buildah <https://buildah.io/>
-  * skopeo <https://github.com/containers/skopeo>
-  * Kaniko <https://github.com/GoogleContainerTools/kaniko>
-  * lazydocker <https://github.com/jesseduffield/lazydocker>
-  * dive <https://github.com/wagoodman/dive>
-* Container registries
-  * Docker Hub <https://docs.docker.com/docker-hub/>
-  * GitLab Container Registry <https://docs.gitlab.com/ee/user/packages/container_registry/index.html>
-  * Nexus Repository Manager 3 <https://help.sonatype.com/repomanager3>
-  * Amazon ECR <https://aws.amazon.com/ecr/>
-  * Azure Container Registry <https://azure.microsoft.com/en-us/services/container-registry/>
-  * Harbor <https://goharbor.io/> - an open source registry that secures artifacts with policies and role-based access control
-
-## Domain name system and Email
+## 220 - Domain name system and Email
 
 * DNS <https://en.wikipedia.org/wiki/Domain_Name_System>
   * mDNS <https://en.wikipedia.org/wiki/Multicast_DNS>
@@ -251,7 +190,36 @@
   * Amazon SES <https://aws.amazon.com/ses/>
   * Twilio SendGrid <https://www.twilio.com/sendgrid/email-api>
 
-## Kubernetes
+## 230 - Linux container and WebAssembly
+
+* The Open Container Initiative (OCI) <https://opencontainers.org/>
+* Container runtimes and tools
+  * Docker Engine <https://docs.docker.com/engine/>
+    * docker-compose <https://docs.docker.com/compose/>
+  * containerd <https://containerd.io/>
+    * nerdctl <https://github.com/containerd/nerdctl>
+  * Docker Build <https://docs.docker.com/build/>
+  * podman <https://podman.io/>
+  * buildah <https://buildah.io/>
+  * skopeo <https://github.com/containers/skopeo>
+  * Kaniko <https://github.com/GoogleContainerTools/kaniko>
+  * lazydocker <https://github.com/jesseduffield/lazydocker>
+  * dive <https://github.com/wagoodman/dive>
+* Container registries
+  * Docker Hub <https://docs.docker.com/docker-hub/>
+  * GitLab Container Registry <https://docs.gitlab.com/ee/user/packages/container_registry/index.html>
+  * Nexus Repository Manager 3 <https://help.sonatype.com/repomanager3>
+  * Amazon ECR <https://aws.amazon.com/ecr/>
+  * Azure Container Registry <https://azure.microsoft.com/en-us/services/container-registry/>
+  * Harbor <https://goharbor.io/> - an open source registry that secures artifacts with policies and role-based access control
+* WebAssembly <https://webassembly.org/>
+  * WebAssembly System Interface (WASI) <https://github.com/WebAssembly/WASI>
+* WebAssembly runtimes
+  * wazero <https://wazero.io/>
+  * wasmtime <https://wasmtime.dev/>
+  * wasmer <https://wasmer.io/>
+
+## 240 - Kubernetes
 
 * Kubernetes <https://kubernetes.io/>
 * consensus <https://en.wikipedia.org/wiki/Consensus_(computer_science)>
@@ -300,9 +268,6 @@
 * Networking
   * Calico <https://www.tigera.io/projectCalico>
   * Cilium <https://cilium.io/>
-
-## K8s ecosystem
-
 * Helm <https://helm.sh/>
   * Artifact Hub <https://artifacthub.io/>
 * Kubernetes Lens IDE <https://k8slens.dev/>
@@ -329,61 +294,157 @@
   * Elastic Cloud on Kubernetes (ECK) <https://www.elastic.co/elastic-cloud-kubernetes>
   * Rook <https://rook.io/> - Storage Operators for Kubernetes
 
-## WebAssembly
+## 250 - Continuous delivery, Configuration management, and IaC
 
-* WebAssembly <https://webassembly.org/>
-* WebAssembly System Interface (WASI) <https://github.com/WebAssembly/WASI>
-* Runtimes
-  * wazero <https://wazero.io/>
-  * wasmtime <https://wasmtime.dev/>
-  * wasmer <https://wasmer.io/>
+* Configuration management and IaC
+  * idempotency <https://en.wikipedia.org/wiki/Idempotence>
+  * Ansible <https://www.ansible.com/>
+  * Hashicorp Packer <https://packer.io/>
+  * cloud-init <https://cloud-init.io/>
+  * Hashicorp Terraform <https://www.terraform.io/>
+    * GitLab-managed Terraform state <https://docs.gitlab.com/ee/user/infrastructure/iac/terraform_state.html>
+    * tf.libsonnet <https://docs.tflibsonnet.com/>
+    * terraform-docs <https://terraform-docs.io/>
+    * Terraformer <https://github.com/GoogleCloudPlatform/terraformer>
+    * Atrantis (reference) <https://www.runatlantis.io/>
+  * Serverless Framework <https://serverless.com/>
+  * AWS CloudFormation <https://aws.amazon.com/cloudformation/>
+  * AWS Cloud Development Kit <https://aws.amazon.com/cdk/>
+  * AWS Serverless Application Model <https://aws.amazon.com/serverless/sam/>
+  * Azure Resource Manager <https://docs.microsoft.com/en-us/azure/azure-resource-manager/>
+    * Bicep language <https://github.com/Azure/bicep>
+  * Pulumi <https://www.pulumi.com/>
+  * AWS Systems Manager <https://aws.amazon.com/systems-manager/>
+  * Azure Update Manager <https://learn.microsoft.com/en-us/azure/update-manager/>
+* Continuous delivery
+  * Jenkins <https://www.jenkins.io/>
+    * Blue Ocean for Jenkins Pipelines <https://www.jenkins.io/projects/blueocean/>
+    * Python Jenkins <https://opendev.org/jjb/python-jenkins>
+  * GitLab CI/CD <https://docs.gitlab.com/ee/ci/>
+  * GitHub Actions <https://github.com/features/actions>
+  * Concourse CI <https://concourse-ci.org/>
+  * Azure Pipelines <https://learn.microsoft.com/en-us/azure/devops/pipelines/>
+  * GitOps
+    * ArgoCD <https://argo-cd.readthedocs.io/>
+    * FluxCD <https://fluxcd.io/>
+  * Cloud native application delivery
+    * Open Application Model <https://oam.dev/>
+    * KubeVela <https://kubevela.io/>
+    * Flagger <https://flagger.app/>
+* Private package registries
+  * GitLab Package Registry <https://docs.gitlab.com/ee/user/packages/package_registry/index.html>
+  * GitHub Packages <https://github.com/features/packages>
+  * Nexus Repository Manager 3 <https://help.sonatype.com/repomanager3>
+  * Azure Artifacts <https://learn.microsoft.com/en-us/azure/devops/artifacts/>
+* Version conventions
+  * Semantic Versioning <https://semver.org/>
+    * semver <https://github.com/npm/node-semver#readme>
 
-## Continuous integration and delivery
+## 260 - Infrastructure cloud
 
-* Jenkins <https://www.jenkins.io/>
-  * Blue Ocean for Jenkins Pipelines <https://www.jenkins.io/projects/blueocean/>
-  * Python Jenkins <https://opendev.org/jjb/python-jenkins>
-* GitLab CI/CD <https://docs.gitlab.com/ee/ci/>
-* GitHub Actions <https://github.com/features/actions>
-* Concourse CI <https://concourse-ci.org/>
-* Azure Pipelines <https://learn.microsoft.com/en-us/azure/devops/pipelines/>
-* GitOps
-  * ArgoCD <https://argo-cd.readthedocs.io/>
-  * FluxCD <https://fluxcd.io/>
-* Cloud native application delivery
-  * Open Application Model <https://oam.dev/>
-  * KubeVela <https://kubevela.io/>
-  * Flagger <https://flagger.app/>
+* Server and load balancer
+  * Amazon EC2 <https://aws.amazon.com/ec2/>
+    * Amazon EBS <https://aws.amazon.com/ebs/>
+  * Amazon VPC <https://aws.amazon.com/vpc/>
+  * Azure Virtual Machines <https://azure.microsoft.com/en-us/services/virtual-machines/>
+    * Azure Disk Storage <https://azure.microsoft.com/en-us/services/storage/disks/>
+  * Azure Virtual Network <https://azure.microsoft.com/en-us/services/virtual-network/>
+  * Amazon ELB <https://aws.amazon.com/elasticloadbalancing/>
+  * Azure Load Balancer <https://azure.microsoft.com/en-us/products/load-balancer>
+  * OpenStack <https://www.openstack.org/> - A cloud operating system that controls large pools of compute
+  * Open vSwitch <https://www.openvswitch.org/>
+  * DPDK <https://www.dpdk.org/>
+  * FD.io <https://fd.io/>
+* Object storage <https://en.wikipedia.org/wiki/Object_storage>
+  * Amazon S3 <https://aws.amazon.com/s3/>
+  * Ceph <https://ceph.com/en/> - An open-source, distributed storage system
+  * MinIO <https://min.io/> - A high-performance, S3 compatible object store
+  * Azure Blob Storage <https://azure.microsoft.com/en-us/services/storage/blobs/>
+  * Azure Storage Exproler <https://azure.microsoft.com/en-us/products/storage/storage-explorer/> - Manage your Azure cloud storage resources from your desktop
+* File transfers
+  * s5cmd <https://github.com/peak/s5cmd>
+  * Rclone <https://rclone.org/> - A command-line program to manage files on cloud storage
 
-## Stress test and chaos engineering
+## 270 - Stress test, load test, chaos engineering, and FinOps
 
 * ab <https://httpd.apache.org/docs/2.4/programs/ab.html> - Apache HTTP server benchmarking tool
 * stress-ng <https://github.com/ColinIanKing/stress-ng>
 * sysbench <https://github.com/akopytov/sysbench> - Scriptable database and system performance benchmark
 * fio <https://github.com/axboe/fio> - Flexible I/O Tester
 * iPerf <https://iperf.fr/> - The ultimate speed test tool for TCP, UDP and SCTP
+* Load test
+  * Grafana k6 <https://k6.io/>
+  * Gatling <https://gatling.io/>
+  * Apache Jmeter <https://jmeter.apache.org/>
 * Chaos engineering <https://en.wikipedia.org/wiki/Chaos_engineering>
+  * Principles of chaos engineering <https://principlesofchaos.org/>
   * Litmus <https://litmuschaos.io/> - an open source Chaos Engineering
   * Chaos Mesh <https://chaos-mesh.org/> - an open source cloud-native Chaos Engineering platform
   * toxiproxy <https://github.com/Shopify/toxiproxy> - A TCP proxy to simulate network and system conditions for chaos and resiliency testing
-* Principles of chaos engineering <https://principlesofchaos.org/>
+* FinOps
+  * FinOps principles <https://www.finops.org/framework/principles/>
+  * FinOps toolkit <https://microsoft.github.io/finops-toolkit/>
+  * AWS Cost Explorer <https://aws.amazon.com/aws-cost-management/aws-cost-explorer/>
+  * OpenCost <https://www.opencost.io/>
+  * Karpenter <https://karpenter.sh/>
+  * Cloud Custodian <https://cloudcustodian.io/>
 
-## Java VM administration
+## 280 - Server telemetry ETL and visualization
 
-* Java HotSpot VM <https://docs.oracle.com/en/java/javase/21/vm/java-virtual-machine-technology-overview.html>
-* JDK tools <https://docs.oracle.com/en/java/javase/21/docs/specs/man/index.html>
-* VisualVM <https://visualvm.github.io/>
-* JMX API <https://docs.oracle.com/en/java/javase/21/jmx/introduction-jmx-technology.html>
+* Prometheus exporters <https://prometheus.io/docs/instrumenting/exporters/>
+  * node-exporter <https://prometheus.io/docs/guides/node-exporter/>
+  * blackbox-exporter <https://github.com/prometheus/blackbox_exporter>
+* Dissect and Grok <https://www.elastic.co/guide/en/elasticsearch/reference/current/esql-process-data-with-dissect-and-grok.html>
+* Promtail agent <https://grafana.com/docs/loki/latest/clients/promtail/>
+* Fluent Bit <https://fluentbit.io/>
+* Fluentd <https://www.fluentd.org/>
+* Filebeat <https://www.elastic.co/beats/filebeat>
+* Logstash <https://www.elastic.co/logstash>
+* Telegraf <https://www.influxdata.com/time-series-platform/telegraf/>
+* Metricbeat <https://www.elastic.co/beats/metricbeat>
+* Elasticsearch
+  * Ingest pipelines <https://www.elastic.co/guide/en/elasticsearch/reference/current/ingest.html>
+* OpenTelemetry <https://opentelemetry.io/>
 * Micrometer <https://micrometer.io/> - a metrics instrumentation library for JVM-based applications
+* Cloud-specific
+  * Azure Monitor Agent <https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agents-overview>
+  * Cloudwatch Agent <https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Install-CloudWatch-Agent.html>
+* Load and monitoring
+  * Prometheus <https://prometheus.io/>
+    * PromQL <https://prometheus.io/docs/prometheus/latest/querying/basics/>
+    * promtool <https://prometheus.io/docs/prometheus/latest/command-line/promtool/>
+  * Alertmanager <https://prometheus.io/docs/alerting/latest/alertmanager/>
+    * amtool <https://github.com/prometheus/alertmanager/tree/main?tab=readme-ov-file#amtool>
+  * InfluxDB <https://www.influxdata.com/products/influxdb-overview/>
+    * InfluxQL <https://docs.influxdata.com/influxdb/v1/query_language/>
+    * influx cli <https://docs.influxdata.com/influxdb/cloud/reference/cli/influx/>
+  * Grafana Mimir <https://grafana.com/oss/mimir/>
+  * Grafana Loki <https://grafana.com/oss/loki/>
+    * LogQL <https://grafana.com/docs/loki/latest/query/>
+      * LogCLI <https://grafana.com/docs/loki/latest/query/logcli/>
+  * Grafana Tempo <https://grafana.com/oss/tempo/>
+    * TraceQL <https://grafana.com/docs/tempo/latest/traceql/>
+  * Graphite <https://grafana.com/oss/graphite/>
+  * Grafana Alerting <https://grafana.com/docs/grafana/latest/alerting/>
+  * Azure Monitor <https://docs.microsoft.com/en-us/azure/azure-monitor/overview>
+    * Kusto Query Language <https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/>
+    * App Insights <https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview>
+  * AWS CloudWatch <https://aws.amazon.com/cloudwatch/>
+* Visualization
+  * Grafana <https://grafana.com/>
+    * Grafonnet <https://grafana.github.io/grafonnet/> - Jsonnet library for generating Grafana dashboards
+  * Kibana <https://www.elastic.co/kibana>
+  * Azure Dashboard <https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-dashboards>
+  * Datadog <https://www.datadoghq.com/>
 
-## Linux desktop for operation
+## 290 - DevOps workspace
 
 * Debian <https://www.debian.org/>
   * Ubuntu <https://ubuntu.com/>
 * Arch Linux <https://archlinux.org/>
   * Manjaro Linux <https://manjaro.org/>
     * Mabox Linux <https://maboxlinux.org/>
-* GUI
+* Linux GUI
   * X Window System <https://www.x.org/wiki/>
   * Wayland <https://wayland.freedesktop.org/>
   * GNOME <https://www.gnome.org/>
@@ -394,6 +455,8 @@
   * VirtualBox <https://www.virtualbox.org/>
   * QEMU <https://www.qemu.org/>
 * Remote access
+  * RDP <https://en.wikipedia.org/wiki/Remote_Desktop_Protocol>
+  * RFB <https://github.com/rfbproto/rfbproto/blob/master/rfbproto.rst>
   * x11vnc <https://github.com/LibVNC/x11vnc>
   * TightVNC <https://www.tightvnc.com/>
   * xrdp <https://github.com/neutrinolabs/xrdp>
@@ -404,67 +467,7 @@
   * FTP <https://en.wikipedia.org/wiki/File_Transfer_Protocol>
     * vsftpd <https://security.appspot.com/vsftpd.html>
   * SFTP <https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol>
-
-## Office document processing
-
-* Formats
-  * PDF <https://en.wikipedia.org/wiki/PDF>
-  * Office Open XML <https://en.wikipedia.org/wiki/Office_Open_XML>
-  * OpenDocument <https://en.wikipedia.org/wiki/OpenDocument>
-* Tools and libraries
-  * Ghostscript <https://www.ghostscript.com/>
-  * qpdf <https://qpdf.sourceforge.io/>
-  * pdftk <https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/>
-  * pdfcpu <https://pdfcpu.io/> - a Go PDF processor
-  * LibreOffice cli <https://www.libreoffice.org/>
-  * Excelize <https://xuri.me/excelize/> - a Go library for XLSX files
-  * xlsx2csv <https://github.com/dilshod/xlsx2csv>
-  * docx2txt <https://github.com/ankushshah89/python-docx2txt>
-  * pptx2md <https://github.com/ssine/pptx2md>
-
-## Misc automation tools
-
-* Binary file processing
-  * ELF format <https://en.wikipedia.org/wiki/Executable_and_Linkable_Format>
-  * hexdump <https://man7.org/linux/man-pages/man1/hexdump.1.html>
-  * xxd <https://github.com/ckormanyos/xxd>
-  * fq <https://github.com/wader/fq>
-  * Image::ExifTool <https://metacpan.org/pod/Image::ExifTool>
-* Archivers
-  * GNU Gzip <https://www.gnu.org/software/gzip/>
-  * GNU tar <https://www.gnu.org/software/tar/>
-  * Info-Zip <https://sourceforge.net/projects/infozip/>
-  * 7-Zip <https://www.7-zip.org/>
-* File transfers and converters
-  * rsync <https://rsync.samba.org/>
-  * s5cmd <https://github.com/peak/s5cmd>
-  * Rclone <https://rclone.org/> - A command-line program to manage files on cloud storage
-  * aha <https://github.com/theZiz/aha> - Ansi HTML Adapter
-    * NO_COLOR <https://no-color.org/>
-  * pandoc <https://pandoc.org/>
-
-## Infrastructure cloud services
-
-* Amazon EC2 <https://aws.amazon.com/ec2/>
-  * Amazon EBS <https://aws.amazon.com/ebs/>
-* Amazon VPC <https://aws.amazon.com/vpc/>
-* Azure Virtual Machines <https://azure.microsoft.com/en-us/services/virtual-machines/>
-  * Azure Disk Storage <https://azure.microsoft.com/en-us/services/storage/disks/>
-* Azure Virtual Network <https://azure.microsoft.com/en-us/services/virtual-network/>
-* Amazon ELB <https://aws.amazon.com/elasticloadbalancing/>
-* Azure Load Balancer <https://azure.microsoft.com/en-us/products/load-balancer>
-* Related OSS (reference)
-  * OpenStack <https://www.openstack.org/>
-  * Open vSwitch <https://www.openvswitch.org/>
-  * DPDK <https://www.dpdk.org/>
-  * FD.io <https://fd.io/>
-
-## FinOps
-
-* FinOps principles <https://www.finops.org/framework/principles/>
-* Tools
-  * FinOps toolkit <https://microsoft.github.io/finops-toolkit/>
-  * AWS Cost Explorer <https://aws.amazon.com/aws-cost-management/aws-cost-explorer/>
-  * OpenCost <https://www.opencost.io/>
-  * Karpenter <https://karpenter.sh/>
-  * Cloud Custodian <https://cloudcustodian.io/>
+* Windows administration
+  * Chocolatey <https://chocolatey.org>
+  * Scoop <https://scoop.sh/>
+  * gsudo <https://gerardog.github.io/gsudo/>

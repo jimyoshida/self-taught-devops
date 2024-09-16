@@ -10,6 +10,8 @@ Initial release: 1969
 The Advanced Research Projects Agency Network (ARPANET) was the first wide-area packet-switched network with distributed control and one of the first networks to implement the TCP/IP protocol suite. Both technologies became the technical foundation of the Internet.
 Etablished: 1969
 
+In computing, "server" dates at least to RFC 5 (1969), one of the earliest documents describing ARPANET (the predecessor of Internet), and is contrasted with "user", distinguishing two types of host: "server-host" and "user-host".
+
 Telnet (short for "teletype network") is a client/server application protocol that provides access to virtual terminals of remote systems on local area networks or the Internet.
 Telnet was developed as secret technology in 1969 beginning with RFC 15.
 
