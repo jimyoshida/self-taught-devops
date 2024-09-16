@@ -97,6 +97,7 @@
     * Text::MarkdownTable <https://metacpan.org/pod/Text::MarkdownTable>
   * DocUtils <https://docutils.sourceforge.io/>
     * reStructuredText <https://docutils.sourceforge.io/rst.html>
+  * pandoc <https://pandoc.org/>
 * Writing styles
   * Microsoft Writing Style Guide <https://learn.microsoft.com/en-us/style-guide/welcome/>
   * Google documentation style guide <https://developers.google.com/style/>
@@ -240,6 +241,7 @@
   * PyPI <https://pypi.org/>
   * RubyGems <https://rubygems.org/>
   * npm <https://www.npmjs.com/>
+  * pkg.go.dev <https://pkg.go.dev/>
   * crates.io <https://crates.io/>
   * Stackage <https://www.stackage.org/>
     * Hackage <https://hackage.haskell.org/>
