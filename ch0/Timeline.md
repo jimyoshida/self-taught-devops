@@ -109,8 +109,12 @@ Founded: January 15, 2001
 On February 11-13, 2001, seventeen people met to talk, ski, relax, and try to find common ground—and of course, to eat.
 Together they published the Manifesto for Agile Software Development.
 
-IPython (Interactive Python) is a command shell for interactive computing in multiple programming languages, originally developed for the Python programming language, that offers introspection, rich media, shell syntax, tab completion, and history.
-Initial release: 2001
+reStructuredText (RST, ReST, or reST) is a file format for textual data used primarily in the Python programming language community for technical documentation.
+It is part of the Docutils project of the Python Doc-SIG (Documentation Special Interest Group), aimed at creating a set of tools for Python similar to Javadoc for Java or Plain Old Documentation (POD) for Perl.
+Initial release: June 1, 2001
+
+AsciiDoc is a human-readable document format, semantically equivalent to DocBook XML, but using plain-text mark-up conventions.
+AsciiDoc was created in 2002 by Stuart Rackham, who published tools (‘asciidoc’ and ‘a2x’), written in the Python programming language to convert plain-text, ‘human readable’ files to commonly used published document formats.
 
 The Python Package Index, abbreviated as PyPI and also known as the Cheese Shop, is the official third-party software repository for Python.
 PEP 241, a proposal to standardize metadata for indexes, was finalized in March 2001. A proposal to create a comprehensive centralised catalog was later finalized in November 2002.
@@ -130,10 +134,17 @@ Formation: 4 June 2004
 
 Markdown is a lightweight markup language for creating formatted text using a plain-text editor. John Gruber and Aaron Swartz created Markdown in 2004 as a markup language that is intended to be easy to read in its source code form.
 
+RSpec is a computer domain-specific language (DSL) (particular application domain) testing tool written in the programming language Ruby to test Ruby code. It is a behavior-driven development (BDD) framework which is extensively used in production applications.
+Initial release: May 18, 2007
+
 Development of the GitHub.com platform began on October 19, 2007. The site was launched in April 2008 by Tom Preston-Werner, Chris Wanstrath, P. J. Hyett and Scott Chacon after it had been made available for a few months prior as a beta release.
 
 HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and final major HTML version that is a World Wide Web Consortium (W3C) recommendation.
 Initial release: 22 January 2008
+
+Sphinx is a documentation generator written and used by the Python community. It is written in Python, and also used in other environments.
+Sphinx converts reStructuredText files into HTML websites and other formats including PDF, EPub, Texinfo and man.
+Initial release: March 21, 2008
 
 In 2008, Microsoft joined the Apache Software Foundation and co-founded the Open Web Foundation with Google, Facebook, Sun, IBM, Apache, and others.
 
@@ -147,18 +158,21 @@ Microsoft first began contributing to the Linux kernel in 2009.
 
 From 2012, Microsoft became a significant user of GitHub, using it to host open-source projects and development tools such as .NET Core, Chakra Core, MSBuild, PowerShell, PowerToys, Visual Studio Code, Windows Calculator, Windows Terminal and the bulk of its product documentation (now to be found on Microsoft Docs).
 
+A Ruby implementation of AsciiDoc called ‘Asciidoctor’, released in 2013, is in use by GitHub and GitLab.
+Initial release: January 30, 2013
+
 Slack is an instant messaging program designed by Slack Technologies and owned by Salesforce.
 Initial release: August 2013
+
+MkDocs is static site generator designed for building project documentation. It is written in Python, and also used in other environments.
+MkDocs converts Markdown files into HTML pages, effectively creating a static website containing documentation.
+Initial release: January 24, 2014
 
 The .NET Foundation is an organization incorporated on March 31, 2014, by Microsoft to improve open-source software development and collaboration around the .NET Framework.
 
 On October 28, 2014, HTML5 was published as a W3C Recommendation.
 
 In 2014, Satya Nadella was named the new CEO of Microsoft. Microsoft began to adopt open source into its core business. In contrast to Ballmer's stance, Nadella presented a slide that read, "Microsoft loves Linux".
-
-Project Jupyter is a project to develop open-source software, open standards, and services for interactive computing across multiple programming languages.
-It was spun off from IPython in 2014 by Fernando Pérez and Brian Granger.
-Formation: February 2015
 
 The Cloud Native Computing Foundation (CNCF) is a Linux Foundation project that was founded in 2015 to help advance container technology and align the tech industry around its evolution.
 

@@ -294,9 +294,9 @@
   * Elastic Cloud on Kubernetes (ECK) <https://www.elastic.co/elastic-cloud-kubernetes>
   * Rook <https://rook.io/> - Storage Operators for Kubernetes
 
-## 250 - Continuous delivery, Configuration management, and IaC
+## 250 - IaC, configuration management, and continuous delivery
 
-* Configuration management and IaC
+* Configuration management and infrastructure as code
   * idempotency <https://en.wikipedia.org/wiki/Idempotence>
   * Ansible <https://www.ansible.com/>
   * Hashicorp Packer <https://packer.io/>

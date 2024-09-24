@@ -70,6 +70,9 @@ Long short-term memory (LSTM) networks were invented by Hochreiter and Schmidhub
 SQLite is a database engine written in the C programming language. It is not a standalone app; rather, it is a library that software developers embed in their apps. As such, it belongs to the family of embedded databases.
 Initial release: 17 August 2000
 
+IPython (Interactive Python) is a command shell for interactive computing in multiple programming languages, originally developed for the Python programming language, that offers introspection, rich media, shell syntax, tab completion, and history.
+Initial release: 2001
+
 SciPy is a free and open-source Python library used for scientific computing and technical computing.
 As of 2000, there was a growing number of extension modules and increasing interest in creating a complete environment for scientific and technical computing. In 2001, Travis Oliphant, Eric Jones, and Pearu Peterson merged code they had written and called the resulting package SciPy.
 Initial release: Around 2001
@@ -98,6 +101,9 @@ In 2006, Geoffrey Hinton developed the deep belief network technique for trainin
 
 The scikit-learn project started as scikits.learn, a Google Summer of Code project by French data scientist David Cournapeau.
 Initial release: June 2007
+
+Pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series.
+Initial release: 11 January 2008
 
 HBase is an open-source non-relational distributed database modeled after Google's Bigtable and written in Java. It is developed as part of Apache Software Foundation's Apache Hadoop project and runs on top of HDFS (Hadoop Distributed File System) or Alluxio, providing Bigtable-like capabilities for Hadoop.
 Initial release: 28 March 2008
@@ -147,6 +153,10 @@ The idea of encoder-decoder sequence transduction had been developed in the earl
 In the seq2seq as proposed by them, both the encoder and the decoder were LSTMs. This had the "bottleneck" problem.
 The attention mechanism, proposed in 2014, resolved the bottleneck problem.
 
+Project Jupyter is a project to develop open-source software, open standards, and services for interactive computing across multiple programming languages.
+It was spun off from IPython in 2014 by Fernando Pérez and Brian Granger.
+Formation: February 2015
+
 Keras is an open-source software library that provides a Python interface for artificial neural networks. Keras acts as an interface for the TensorFlow library.
 Initial release: 27 March 2015
 
@@ -155,6 +165,9 @@ Initial release: November 9, 2015
 
 PyTorch is a machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing, originally developed by Meta AI and now part of the Linux Foundation umbrella.
 Initial release: September 2016
+
+DVC is a free and open-source, platform-agnostic version system for data, machine learning models, and experiments. It is designed to make ML models shareable, experiments reproducible, and to track versions of models, data, and pipelines.
+Initial release: May 4, 2017
 
 Apache Iceberg is an open-source high-performance format for huge analytic tables.
 Iceberg enables the use of SQL tables for big data while making it possible for engines like Spark, Trino, Flink, Presto, Hive, Impala, StarRocks, Doris, and Pig to safely work with the same tables, at the same time.
@@ -191,7 +204,8 @@ On May 11, 2022, Google unveiled LaMDA 2, the successor to LaMDA, during the 202
 PaLM (Pathways Language Model) is a 540 billion parameter transformer-based large language model developed by Google AI.
 The model was first announced in April 2022 and remained private until March 2023, when Google launched an API for PaLM and several other technologies.
 
-ChatGPT (Chat Generative Pre-trained Transformer) is an artificial-intelligence (AI) chatbot developed by OpenAI and launched in November 2022. It is built on top of OpenAI's GPT-3.5 and GPT-4 families of large language models (LLMs) and has been fine-tuned (an approach to transfer learning) using both supervised and reinforcement learning techniques.
+ChatGPT (Chat Generative Pre-trained Transformer) is an artificial-intelligence (AI) chatbot developed by OpenAI and launched in November 2022.
+It is built on top of OpenAI's GPT-3.5 and GPT-4 families of large language models (LLMs) and has been fine-tuned (an approach to transfer learning) using both supervised and reinforcement learning techniques.
 
 On February 7, 2023, Microsoft announced a major overhaul to Bing including the addition of chatbot functionality marketed as "the new Bing".
 
@@ -199,6 +213,14 @@ Llama (acronym for Large Language Model Meta AI, and formerly stylized as LLaMA)
 
 Bard is a conversational artificial intelligence chatbot developed by Google, based on the LaMDA family of large language models. It was developed as a response to the rise of OpenAI's ChatGPT, and was released in a limited capacity in March 2023 to lukewarm responses.
 
-The original release of ChatGPT was based on GPT-3.5. A version based on GPT-4, the newest OpenAI model, was released on March 14, 2023, and is available for paid subscribers on a limited basis.
+Generative Pre-trained Transformer 4 (GPT-4) is a multimodal large language model created by OpenAI, and the fourth in its series of GPT foundation models. It was launched on March 14, 2023, and made publicly available via the paid chatbot product ChatGPT Plus, via OpenAI's API, and via the free chatbot Microsoft Copilot.
+
+Mojo is a programming language in the Python family that is currently under development. It is available both in browsers via Jupyter notebooks, and locally on Linux and macOS.
+First appeared: 2023
+
+LocalAI is the free, Open Source OpenAI alternative. LocalAI act as a drop-in replacement REST API that's compatible with OpenAI API specifications for local inferencing.
+First appeared: 2023
 
 Google Gemini is a family of multimodal large language models developed by Google DeepMind, serving as the successor to LaMDA and PaLM 2. Comprising Gemini Ultra, Gemini Pro, Gemini Flash, and Gemini Nano, it was announced on December 6, 2023, positioned as a competitor to OpenAI's GPT-4.
+
+GPT-4o (GPT-4 Omni) is a multilingual, multimodal generative pre-trained transformer designed by OpenAI. It was announced by OpenAI's CTO Mira Murati during a live-streamed demonstration on 13 May 2024 and released the same day.

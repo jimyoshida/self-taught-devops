@@ -110,6 +110,7 @@ _Classification in progress._
     * Kibana Query Language <https://www.elastic.co/guide/en/kibana/current/kuery-query.html>
 * MongoDB <https://www.mongodb.com/>
 * Redis <https://redis.io/>
+* Dragonfly <https://www.dragonflydb.io/> - A drop-in Redis replacement
 * etcd <https://etcd.io/>
 * Amazon DynamoDB <https://aws.amazon.com/dynamodb/>
 * Azure Cosmos DB <https://azure.microsoft.com/en-us/products/cosmos-db/>
@@ -117,6 +118,8 @@ _Classification in progress._
 * Amazon Neptune <https://aws.amazon.com/neptune/>
 * Apache Cassandra <https://cassandra.apache.org/> - An open source NoSQL distributed database
 * Apache HBase <https://hbase.apache.org/> - The Hadoop database, a distributed, scalable, big data store
+* Weaviate <https://weaviate.io/> - An open-source vector database that simplifies the development of AI applications
+* Milvus <https://zilliz.com/what-is-milvus> - A high-performance open-source vector database built to handle billions of vectors
 
 ## Distributed processing and analytics
 
@@ -199,7 +202,6 @@ _Classification in progress._
 * Deep Learning <https://en.wikipedia.org/wiki/Deep_learning>
   * Stochastic gradient descent <https://en.wikipedia.org/wiki/Stochastic_gradient_descent>
   * Fine tuning <https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)>
-  * Retrieval-augmented generation (RAG) <https://arxiv.org/abs/2005.11401v4>
   * Recurrent neural network <https://en.wikipedia.org/wiki/Recurrent_neural_network>
     * LSTM <https://en.wikipedia.org/wiki/Long_short-term_memory>
   * Attention <https://en.wikipedia.org/wiki/Attention_(machine_learning)>
@@ -230,14 +232,21 @@ _Classification in progress._
   * GloVe <https://nlp.stanford.edu/projects/glove/> - Global Vectors for Word Representation
   * Kuromoji <https://www.atilika.org/> - An open source Japanese morphological analyzer written in Java
   * Kagome <https://github.com/ikawaha/kagome> - An open source Japanese morphological analyzer written in pure golang
+* Sentence embedding <https://en.wikipedia.org/wiki/Sentence_embedding>
+* Retrieval-augmented generation (RAG) <https://en.wikipedia.org/wiki/Retrieval-augmented_generation>
 
-## LLMs and their hosted services
+## Generative AI
 
-* OpenAI API <https://platform.openai.com/>
+* Models
   * GPT-4 <https://openai.com/research/gpt-4> <https://arxiv.org/abs/2303.08774>
-* Llama <https://llama.meta.com/> <https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/>
-* Gemini <https://gemini.google.com/>
+  * Llama <https://llama.meta.com/> <https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/>
+  * Gemini <https://gemini.google.com/>
+* OpenAI API <https://platform.openai.com/>
 * Azure OpnAI Service <https://azure.microsoft.com/en-us/products/ai-services/openai-service>
 * Amazon Bedrock <https://aws.amazon.com/bedrock/>
-* Libraries
+* LocalAI <https://localai.io/> - The free, Open Source OpenAI alternative.
+* Ollama <https://ollama.com/> - A tool designed for deploying and managing large language models (LLMs) locally
+* Tools
   * go-openai <https://github.com/sashabaranov/go-openai>
+  * LangChain <https://python.langchain.com/> - A framework for developing applications powered by large language models (LLMs)
+  * LangChainGo <https://tmc.github.io/langchaingo/>

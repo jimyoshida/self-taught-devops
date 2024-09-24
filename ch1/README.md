@@ -213,7 +213,7 @@
     * discriminated union
     * active pattern
     * computation expression
-  * Java <https://docs.oracle.com/en/java/index.html>
+  * Java <https://www.oracle.com/java/>
   * Scala (for Gatling) <https://www.scala-lang.org/>
   * Groovy (for Jenkins/Gradle) <http://groovy-lang.org/>
   * Lua (for NGINX/Neovim) <https://www.lua.org/>
@@ -492,14 +492,15 @@
     * CRuby (default)
     * JRuby <https://www.jruby.org/>
     * PyCall <https://github.com/mrkn/pycall.rb> - Calling Python functions from the Ruby language
-  * Java
+  * Java SE <https://www.oracle.com/java/technologies/java-se-glance.html>
+    * Java HotSpot VM <https://docs.oracle.com/en/java/javase/22/vm/java-virtual-machine-technology-overview.html>
+    * JMX API <https://docs.oracle.com/en/java/javase/22/jmx/introduction-jmx-technology.html>
+    * JDK tools <https://docs.oracle.com/en/java/javase/22/docs/specs/man/index.html>
+    * GraalVM <https://oracle.com/java/graalvm/>
     * OpenJDK <https://openjdk.org/>
     * Eclipse Temurin <https://adoptium.net/temurin/>
-    * Java HotSpot VM <https://docs.oracle.com/en/java/javase/21/vm/java-virtual-machine-technology-overview.html>
-    * JDK tools <https://docs.oracle.com/en/java/javase/21/docs/specs/man/index.html>
     * VisualVM <https://visualvm.github.io/>
-    * JMX API <https://docs.oracle.com/en/java/javase/21/jmx/introduction-jmx-technology.html>
-  * .NET <https://dotnet.microsoft.com/en-us/>
+  * .NET <https://dotnet.microsoft.com/en-us/> - The free, open-source, cross-platform framework for building modern apps and powerful cloud services
     * CLR <https://learn.microsoft.com/en-us/dotnet/standard/clr>
 * Build automation tools
   * GNU Make <https://www.gnu.org/software/make/>
@@ -512,6 +513,7 @@
   * Meson <https://mesonbuild.com/>
   * Rake <https://ruby.github.io/rake/>
   * fpm <https://fpm.readthedocs.io/> - A tool which lets you easily create packages for Debian, Ubuntu, Fedora, CentOS, RHEL, Arch Linux, ...
+  * Nx <https://nx.dev/> - A powerful open-source build system that provides tools and techniques for enhancing developer productivity
 * Program documentation tools
   * apiDoc <http://apidocjs.com/>
   * JSDoc <https://jsdoc.app/>
