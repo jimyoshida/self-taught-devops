@@ -23,13 +23,18 @@ Regular expressions originated in 1951, when mathematician Stephen Cole Kleene d
 
 Lisp (historically LISP) is a family of programming languages with a long history and a distinctive, fully parenthesized prefix notation. Originally specified in 1958, Lisp is the second-oldest high-level programming language still in common use.
 John McCarthy developed Lisp in 1958 while he was at the Massachusetts Institute of Technology (MIT).
-First appeared: 1958
+First appeared: 1958
+
+ALGOL (short for "Algorithmic Language") is a family of imperative computer programming languages originally developed in 1958. ALGOL heavily influenced many other languages and was the standard method for algorithm description.
+First appeared: 1958
 
 ### 1960s
 
 Simula is the name of two simulation programming languages, Simula I and Simula 67, developed in the 1960s at the Norwegian Computing Center in Oslo, by Ole-Johan Dahl and Kristen Nygaard.
 Simula 67 introduced objects, classes, inheritance and subclasses, virtual procedures, coroutines, and discrete event simulation, and featured garbage collection.
 First appeared: 1962
+
+In 1964, for the Multics operating system, Louis Pouzin conceived the idea of "using commands somehow like a programming language," and coined the term shell to describe it.
 
 ed is a line editor for Unix and Unix-like operating systems.
 The ed text editor was one of the first three key elements of the Unix operating system — assembler, editor, and shell — developed by Ken Thompson in August 1969 on a PDP-7 at AT&T Bell Labs.
@@ -87,28 +92,28 @@ GCC was first released March 22, 1987, available by FTP from MIT.
 
 Perl is a family of two high-level, general-purpose, interpreted, dynamic programming languages. "Perl" refers to Perl 5.
 Perl was developed by Larry Wall in 1987 as a general-purpose Unix scripting language to make report processing easier.
-First appeared: December 18, 1987
+First appeared: December 18, 1987
 
 Self is an object-oriented programming language based on the concept of prototypes. Self began as a dialect of Smalltalk, being dynamically typed and using just-in-time compilation (JIT) as well as the prototype-based approach to objects.
 Self was designed mostly by David Ungar and Randall Smith in 1986 while working at Xerox PARC.
-First appeared: 1987
+First appeared: 1987
 
 GNU Make (short gmake) is the standard implementation of Make for Linux and macOS. It provides several extensions over the original Make, such as conditionals.
 It also provides many built-in functions which can be used to eliminate the need for shell-scripting in the makefile rules as well as to manipulate the variables set and used in the makefile.
 First release: 1988
 
-AWK was significantly revised and expanded in 1985–88, resulting in the GNU AWK implementation written by Paul Rubin, Jay Fenlason, and Richard Stallman, released in 1988.
+AWK was significantly revised and expanded in 1985-88, resulting in the GNU AWK implementation written by Paul Rubin, Jay Fenlason, and Richard Stallman, released in 1988.
 
 Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell. First released in 1989, it has been used as the default login shell for most Linux distributions.
-Initial release: June 8, 1989
+Initial release: June 8, 1989
 
 ### 1990s
 
 Concurrent Versions System (CVS, also known as the Concurrent Versioning System) is a revision control system originally developed by Dick Grune in July 1986.
-Initial release: November 19, 1990
+Initial release: November 19, 1990
 
 Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.
-Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0.
+Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0.
 
 Vim (a contraction of Vi IMproved) is a free and open-source, screen-based text editor program. It is an improved clone of Bill Joy's vi. Vim's author, Bram Moolenaar, derived Vim from a port of the Stevie editor for Amiga and released a version to the public in 1991.
 Initial release: 2 November 1991
@@ -118,7 +123,7 @@ Perl 5.000 was released on October 17, 1994. It was a nearly complete rewrite of
 Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.
 Java was originally developed by James Gosling at Sun Microsystems.
 Java SE defines a range of general-purpose APIs and also includes the Java Language Specification and the Java Virtual Machine Specification.
-First appeared: May 23, 1995
+First appeared: May 23, 1995
 
 Ruby is an interpreted, high-level, general-purpose programming language which supports multiple programming paradigms.
 The first public release of Ruby 0.95 was announced on Japanese domestic newsgroups on December 21, 1995.
@@ -158,7 +163,7 @@ including a cycle-detecting garbage collector and support for Unicode.b
 
 Apache Subversion (often abbreviated SVN, after its command name svn) is a software versioning and revision control system distributed as open source under the Apache License.
 CollabNet founded the Subversion project in 2000 as an effort to write an open-source version-control system which operated much like CVS but which fixed the bugs and supplied some features missing in CVS.
-Initial release: 20 October 2000
+Initial release: 20 October 2000
 
 C# (pronounced see sharp) is a general-purpose, multi-paradigm programming language.
 The C# programming language was designed by Anders Hejlsberg from Microsoft in 2000 and was later approved as an international standard by Ecma (ECMA-334) in 2002 and ISO/IEC (ISO/IEC 23270) in 2003.
@@ -202,7 +207,7 @@ Version 0.7.3 (GitHub oldest tag) release: 21 Apr 2007
 
 OpenJDK (Open Java Development Kit) is a free and open-source implementation of the Java Platform, Standard Edition (Java SE). It is the result of an effort Sun Microsystems began in 2006.
 The OpenJDK project produces a number of components: most importantly the virtual machine (HotSpot), the Java Class Library and the Java compiler (javac).
-Initial release: May 8, 2007
+Initial release: May 8, 2007
 
 PyPy is an alternative implementation of the Python programming language to CPython (which is the standard implementation). PyPy often runs faster than CPython because PyPy uses a just-in-time compiler.
 PyPy was initially a research and development-oriented project. Reaching a mature state of development and an official 1.0 release in mid-2007, its next focus was on releasing a production-ready version with more CPython compatibility.
@@ -229,7 +234,7 @@ In August 2009, the project was renamed CommonJS to show the broader applicabili
 Node.js was written initially by Ryan Dahl in 2009, about thirteen years after the introduction of the first server-side JavaScript environment, Netscape's LiveWire Pro Web.
 Dahl demonstrated the project at the inaugural European JSConf on November 8, 2009.
 
-Go is a statically typed, compiled programming language designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson.
+Go is a statically typed, compiled programming language designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson.
 Go was publicly announced in November 2009.
 
 ### 2010s
@@ -246,7 +251,7 @@ Rust is a multi-paradigm, general-purpose programming language. Rust enforces me
 Rust grew out of a personal project begun in 2006 by Mozilla employee Graydon Hoare. Mozilla began sponsoring the project in 2009 and officially announced the project in 2010.
 
 Package Installer for Python (pip) is the de facto and recommended package-management system written in Python and is used to install and manage software packages.
-Initial release: 4 April 2011
+Initial release: 4 April 2011
 
 Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference.
 Kotlin is designed to interoperate fully with Java, and the JVM version of Kotlin's standard library depends on the Java Class Library, but type inference allows its syntax to be more concise.
@@ -298,7 +303,7 @@ TypeScript added support for async/await with version 1.7 in 2015.
 On April 14, 2016, Visual Studio Code graduated from the public preview stage and was released to the Web.
 
 Yarn is a software packaging system developed in 2016 by Facebook for the Node.js JavaScript runtime environment.
-Initial release: 18 June 2016
+Initial release: 18 June 2016
 
 .NET Core 1.0 was released on June 27, 2016, along with Microsoft Visual Studio 2015 Update 3, which enables .NET Core development.
 

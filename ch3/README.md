@@ -153,7 +153,7 @@ _Classification in progress._
 * Mechanize <https://metacpan.org/pod/WWW::Mechanize> (for CGI)
 * Watir <http://watir.com/> (reference)
 * API test
-  * Postman/Newman <https://www.getpostman.com/>
+  * Postman/Newman <https://www.postman.com/>
 * Debug
   * Fiddler <https://www.telerik.com/fiddler> - Web Debugging Proxy
 
@@ -177,14 +177,21 @@ _Classification in progress._
   * V8 <https://v8.dev/>
   * JavaScriptCore <https://developer.apple.com/documentation/javascriptcore>
 
-## Mobile/Desktop application platforms (reference)
+## Mobile/Desktop application development (reference)
 
 * Android <https://www.android.com/>
 * iOS <https://www.apple.com/ios/>
-* Web-based native application frameworks
-  * Electron <https://www.electronjs.org/>
-  * React Native <https://reactnative.dev>
-  * Tauri <https://tauri.app/>
-* Notification services
+* Web-based UI
+  * Electron <https://www.electronjs.org/> - A framework for building desktop applications using JavaScript, HTML, and CSS
+  * React Native <https://reactnative.dev> - allows developers who know React to create native apps
+    * Expo <https://expo.dev/> - A production-grade React Native Framework
+  * Tauri <https://tauri.app/> - A toolkit that helps developers make applications for the major desktop platforms
+* Notification service
   * Firebase Cloud Messaging <https://firebase.google.com/products/cloud-messaging/>
   * Apple Push Notification service <https://developer.apple.com/notifications/>
+* Widget toolkit
+  * tk <http://www.tcl.tk/> - A graphical user interface toolkit
+    * tkinter <https://docs.python.org/3/library/tkinter.html> - The standard Python interface to the Tcl/Tk GUI toolkit
+  * gtk <https://www.gtk.org/>
+    * pygobject <https://pygobject.gnome.org/>
+  * fyne <https://fyne.io/> - An easy to learn toolkit for creating graphical apps for desktop, mobile and web
