@@ -1,37 +1,44 @@
-# Class 300 - Web and distributed application
+# Class 300 - Web and applications
 
 [Show timeline](./Timeline.md)
 
 _Classification in progress._
 
-## Web and API style standards
+## 300 - Web and API style standards
 
 * HTTP <https://en.wikipedia.org/wiki/HTTP>
   * HTTP cookie <https://en.wikipedia.org/wiki/HTTP_cookie>
   * JSON Merge Patch <https://datatracker.ietf.org/doc/html/rfc7396>
-* Javascript/ECMAScript <https://www.ecma-international.org/publications/standards/Ecma-262.htm>
-  * XMLHttpRequest (XHR) <https://xhr.spec.whatwg.org/>
-  * Fetch Standard <https://fetch.spec.whatwg.org/> (also for security)
 * OpenAPI spec <https://www.openapis.org/>
   * Redocly CLI <https://redocly.com/> - Your all-in-one OpenAPI utility
-* REST <https://en.wikipedia.org/wiki/Representational_state_transfer>
-* SOAP <https://en.wikipedia.org/wiki/SOAP>
-* GraphQL <https://graphql.org/>
-* gRPC <https://grpc.io/>
-* WebSockets <https://websockets.spec.whatwg.org/>
-* Webhook <https://en.wikipedia.org/wiki/Webhook>
-* json-rpc <https://www.jsonrpc.org/>
-* MQTT <https://mqtt.org/>
-* AMQP <https://www.amqp.org/>
-
-## Web clients
-
+* CloudEvents <https://cloudevents.io/> - A specification for describing event data in a common way
+* API styles
+  * REST <https://en.wikipedia.org/wiki/Representational_state_transfer>
+  * SOAP <https://en.wikipedia.org/wiki/SOAP>
+  * GraphQL <https://graphql.org/>
+  * gRPC <https://grpc.io/>
+  * WebSockets <https://websockets.spec.whatwg.org/>
+  * Webhook <https://en.wikipedia.org/wiki/Webhook>
+  * json-rpc <https://www.jsonrpc.org/>
+  * MQTT <https://mqtt.org/>
+  * AMQP <https://www.amqp.org/>
 * Browsers
   * Chrome <https://www.google.com/chrome/>
   * Chromium <https://www.chromium.org/Home/>
   * Firefox <https://www.mozilla.org/en-US/firefox/>
   * w3m <https://w3m.sourceforge.net/>
   * EWW <https://www.gnu.org/software/emacs/manual/html_mono/eww.html> (reference)
+* Client scripting spec
+  * XMLHttpRequest (XHR) <https://xhr.spec.whatwg.org/>
+  * Fetch Standard <https://fetch.spec.whatwg.org/> (also for security)
+* Rendering engines
+  * WebKit <https://developer.apple.com/documentation/webkit>
+  * Gecko <https://developer.mozilla.org/en-US/docs/Glossary/Gecko>
+  * Blink <https://www.chromium.org/blink/>
+  * Servo <https://servo.org/>
+* Scripting engines
+  * V8 <https://v8.dev/>
+  * JavaScriptCore <https://developer.apple.com/documentation/javascriptcore>
 * CLIs
   * cURL <https://curl.haxx.se/>
   * Wget <https://www.gnu.org/software/wget/>
@@ -45,13 +52,13 @@ _Classification in progress._
   * Go FastHTTP <https://github.com/valyala/fasthttp>
   * Perl LWP <https://metacpan.org/pod/LWP> (reference)
 
-## Web servers / proxies
+## 310 - Web servers, web proxies, and service mesh
 
 * NGINX <https://www.nginx.com/>
 * Apache HTTP Server <https://httpd.apache.org/>
 * nodejs http-server <https://github.com/http-party/http-server#readme>
 * GitLab Pages <https://docs.gitlab.com/ee/user/project/pages/>
-* Forward proxy / caching
+* Forward proxy and caching
   * Web cache <https://en.wikipedia.org/wiki/Web_cache>
   * CDN <https://en.wikipedia.org/wiki/Content_delivery_network>
   * Squid <http://www.squid-cache.org/>
@@ -67,25 +74,20 @@ _Classification in progress._
   * Kong API gateway <https://konghq.com/products/kong-gateway>
   * Azure API Management <https://azure.microsoft.com/en-us/services/api-management/>
   * Amazon API Gateway <https://aws.amazon.com/api-gateway/>
-
-## Service mesh
-
-* Hashicorp Consul <https://www.consul.io/>
-* Istio <https://istio.io/>
-  * Kiali <https://kiali.io/>
-* Linkerd <https://linkerd.io/>
-* traefik mesh <https://traefik.io/traefik-mesh/> - a straight-forward, easy to configure, and non-invasive service mesh
-
-## Web application PaaS and FaaS
-
 * Application hosting services
   * Azure App Service <https://azure.microsoft.com/en-us/services/app-service/>
   * AWS Elastic Beanstalk <https://aws.amazon.com/elasticbeanstalk/>
 * Function as a service
-  * AWS Lambda <https://aws.amazon.com/lambda/>
   * Azure Functions <https://azure.microsoft.com/en-us/services/functions/>
+  * AWS Lambda <https://aws.amazon.com/lambda/>
+* Service mesh
+  * Hashicorp Consul <https://www.consul.io/>
+  * Istio <https://istio.io/>
+    * Kiali <https://kiali.io/>
+  * Linkerd <https://linkerd.io/>
+  * traefik mesh <https://traefik.io/traefik-mesh/> - a straight-forward, easy to configure, and non-invasive service mesh
 
-## Web application interfaces
+## 330 - Web application interfaces and frameworks
 
 * CGI server
   * mod_cgi <https://httpd.apache.org/docs/current/mod/mod_cgi.html>
@@ -93,52 +95,51 @@ _Classification in progress._
 * Java servlet container
   * Jakarta EE <https://jakarta.ee/>
   * Apache Tomcat <https://tomcat.apache.org/>
-* Web server interfaces
+* Web server gateway interfaces
   * WSGI/uWSGI <https://uwsgi-docs.readthedocs.io/en/latest/>
   * PSGI/Plack <https://plackperl.org/> (reference)
   * Rack <https://rack.github.io/> (reference)
-
-## Web application frameworks (for devops)
-
-* Python
+* Python frameworks
   * FastAPI <https://fastapi.tiangolo.com/>
   * Flask <https://palletsprojects.com/p/flask/>
-* Javascript/Typescript
+* Javascript/Typescript frameworks
   * Express.js <https://expressjs.com/>
   * koa <https://koajs.com/>
   * Next.js <https://nextjs.org/>
   * Nuxt.js <https://nuxtjs.org/> (reference)
   * Nest <https://nestjs.com/> (reference)
   * Angular <https://angular.io/> (reference)
-* Go
-  * Gorilla web toolkit <https://www.gorillatoolkit.org/>
-  * Gin Web Framework <https://gin-gonic.com/>
-  * Echo <https://echo.labstack.com/>
-* Perl
-  * Dancer2 <https://metacpan.org/pod/Dancer2> (reference)
-  * Mojolicious <https://www.mojolicious.org/> (reference)
-* Ruby
-  * Sinatra <https://sinatrarb.com/> (reference)
-* Java
-  * Spring <https://spring.io/> (reference)
-* .NET
-  * ASP.NET <https://dotnet.microsoft.com/en-us/apps/aspnet> (reference)
+* Go frameworks
+  * Echo <https://echo.labstack.com/> - High performance, extensible, minimalist Go web framework
+  * Gin Web Framework <https://gin-gonic.com/> - A web framework written in Go
+  * Gorilla web toolkit <https://www.gorillatoolkit.org/> - A helpful toolkit that provides useful, composable packages for writing HTTP-based applications
+* Perl frameworks (reference)
+  * Dancer2 <https://metacpan.org/pod/Dancer2> - Lightweight yet powerful web application framework
+  * Mojolicious <https://www.mojolicious.org/> - Perl real-time web framework
+* Ruby frameworks (reference)
+  * Sinatra <https://sinatrarb.com/> - A DSL for quickly creating web applications in Ruby with minimal effort
+* Java frameworks (reference)
+  * Spring <https://spring.io/>
+* .NET frameworks (reference)
+  * ASP.NET <https://dotnet.microsoft.com/en-us/apps/aspnet>
 
-## Frontend libraries and tools
+## 340 - Frontend libraries and tools
 
 * React <https://reactjs.org/>
   * JSX language <https://react.dev/learn/writing-markup-with-jsx>
   * MUI <https://mui.com/>
 * Vue.js <https://vuejs.org/>
 * Bootstrap <https://getbootstrap.com/> - Powerful, extensible, and feature-packed frontend toolkit
+* GWT <https://www.gwtproject.org/> - A development toolkit for building and optimizing complex browser-based applications
 * Tailwind CSS <https://tailwindcss.com/>
   * daisyUI <https://daisyui.com/> - The most popular component library
 * Material Web <https://m3.material.io/develop/web/>
 * Percel <https://parceljs.org/> - The zero configuration build tool
 * Vite <https://vitejs.dev/> - Next Generation Frontend Tooling
-* babel <https://babeljs.io/>
+* babel <https://babeljs.io/> - A JavaScript compiler
+* Rspack <https://rspack.dev/> - A high performance JavaScript bundler written in Rust
 
-## Browser automation and test tools
+## 350 - Browser automation and test tools
 
 * Chrome DevTools <https://developer.chrome.com/docs/devtools/>
 * Puppeteer <https://developer.chrome.com/docs/puppeteer/>
@@ -150,6 +151,7 @@ _Classification in progress._
 * Crawlee <https://crawlee.dev/> - A web scraping and browser automation library
 * BeautifulSoup <https://www.crummy.com/software/BeautifulSoup/> - A Python library designed for quick turnaround projects like screen-scraping
 * Scrapy <https://scrapy.org/> - An open source and collaborative framework for extracting the data you need from websites
+* Katana <https://github.com/projectdiscovery/katana> - A next-generation crawling and spidering framework
 * Mechanize <https://metacpan.org/pod/WWW::Mechanize> (for CGI)
 * Watir <http://watir.com/> (reference)
 * API test
@@ -157,27 +159,7 @@ _Classification in progress._
 * Debug
   * Fiddler <https://www.telerik.com/fiddler> - Web Debugging Proxy
 
-## Application integration
-
-* CloudEvents <https://cloudevents.io/> - A specification for describing event data in a common way
-* Messaging
-  * Azure Service Bus <https://azure.microsoft.com/en-us/products/service-bus/>
-  * Azure Queue Storage <https://azure.microsoft.com/en-us/products/storage/queues/>
-  * Amazon Simple Queue Service <https://aws.amazon.com/sqs/>
-  * RabbitMQ <https://www.rabbitmq.com/> - A reliable and mature messaging and streaming broker
-
-## Rendering and JS engines (reference)
-
-* Rendering
-  * WebKit <https://developer.apple.com/documentation/webkit>
-  * Gecko <https://developer.mozilla.org/en-US/docs/Glossary/Gecko>
-  * Blink <https://www.chromium.org/blink/>
-  * Servo <https://servo.org/>
-* Scripting
-  * V8 <https://v8.dev/>
-  * JavaScriptCore <https://developer.apple.com/documentation/javascriptcore>
-
-## Mobile/Desktop application development (reference)
+## 380 - Mobile/Desktop application development (reference)
 
 * Android <https://www.android.com/>
 * iOS <https://www.apple.com/ios/>
@@ -194,4 +176,4 @@ _Classification in progress._
     * tkinter <https://docs.python.org/3/library/tkinter.html> - The standard Python interface to the Tcl/Tk GUI toolkit
   * gtk <https://www.gtk.org/>
     * pygobject <https://pygobject.gnome.org/>
-  * fyne <https://fyne.io/> - An easy to learn toolkit for creating graphical apps for desktop, mobile and web
+  * Fyne <https://fyne.io/> - An easy to learn toolkit for creating graphical apps for desktop, mobile and web

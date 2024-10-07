@@ -4,7 +4,7 @@
 
 _Classification in progress._
 
-## Guidances for security and privacy
+## 400 - References for security and privacy
 
 * InfoSec/CIA <https://en.wikipedia.org/wiki/Information_security>
 * NIST SP 800-53 (Security and Privacy Controls for Information Systems and Organizations) Rev.5
@@ -43,8 +43,23 @@ _Classification in progress._
   1. Segmentation: Define and separate system elements based on criticality and trustworthiness.
   1. Substantiated Integrity: Ascertain whether critical system elements have been corrupted.
   1. Unpredictability: Make changes randomly or unpredictably.
+* Secure application development
+  * OWASP Cheat Sheet Series <https://cheatsheetseries.owasp.org/>
+  * OWASP ASVS <https://owasp.org/www-project-application-security-verification-standard/>
+  * ATT&CK <https://attack.mitre.org/> - A globally-accessible knowledge base of adversary tactics and techniques
+  * Threat modeling <https://en.wikipedia.org/wiki/Threat_model>
+    * STRIDE model <https://en.wikipedia.org/wiki/STRIDE_%28security%29>
+    * OWASP Threat Dragon <https://owasp.org/www-project-threat-dragon/>
+  * Security Technical Implementation Guides (STIGs) <https://public.cyber.mil/stigs/>
+  * SLSA framework <https://slsa.dev/>
+  * Secure Software Development Framework <https://csrc.nist.gov/Projects/ssdf>
+* Standards
+  * ISO/IEC 27001: Information security management systems (ISMS)
+  * PCI DSS <https://www.pcisecuritystandards.org/document_library/>
+  * SOC (System and Organization Controls) 2 <https://drata.com/product/soc-2>
+  * Cloud Application Security Assessment (CASA) <https://appdefensealliance.dev/casa>
 
-## Identity and access management
+## 410 - Identity and access management
 
 * Authenticarion <https://en.wikipedia.org/wiki/Authentication>
   * Identity management <https://en.wikipedia.org/wiki/Identity_management>
@@ -77,16 +92,22 @@ _Classification in progress._
   * Amazon Cognito <https://aws.amazon.com/cognito/>
   * Auth0 <https://auth0.com/>
 
-## Security protocols and tools
+## 420 - Security standards and implementations
 
 * Public Key Infrastructure (PKI) <https://en.wikipedia.org/wiki/Public_key_infrastructure>
+  * cfssl <https://github.com/cloudflare/cfssl#readme> - CloudFlare's PKI/TLS swiss army knife
+  * cert-manager <https://cert-manager.io> - X.509 certificate management for Kubernetes and OpenShift
+  * Let's Encrypt <https://letsencrypt.org/> - A nonprofit Certificate Authority providing TLS certificates
+    * certbot <https://certbot.eff.org/> - A free, open source software tool for automatically using Let’s Encrypt certificates
+    * ACME (Automatic Certificate Management Environment) <https://en.wikipedia.org/wiki/Automatic_Certificate_Management_Environment>
+  * AWS Certificate Manager <https://aws.amazon.com/certificate-manager/>
 * TLS (Transport Layer Security) <https://en.wikipedia.org/wiki/Transport_Layer_Security>
   * OpenSSL <https://www.openssl.org/>
   * stunnnel <https://www.stunnel.org/>
 * Secure Shell (SSH) <https://en.wikipedia.org/wiki/Secure_Shell>
   * OpenSSH <https://www.openssh.com/>
+  * keychain <https://www.funtoo.org/Funtoo:Keychain>
   * Python Paramiko <https://www.paramiko.org/>
-  * Python Fablic <https://www.fabfile.org/>
   * gliderlabs/ssh <https://pkg.go.dev/github.com/gliderlabs/ssh>
   * mosh <https://mosh.org/>
   * WinSSHTerm <https://winsshterm.blogspot.com/>
@@ -96,43 +117,40 @@ _Classification in progress._
   * OpenPGP <https://www.openpgp.org/>
   * GnuPG <https://gnupg.org/>
   * Gpg4win <https://www.gpg4win.org/>
-* keychain <https://www.funtoo.org/Funtoo:Keychain>
 * TOTP (Time-Based One-Time Password) <https://en.wikipedia.org/wiki/Time-based_one-time_password>
-* Network firewall
-  * netfilter <https://www.netfilter.org/index.html>
-    * iptables <https://man7.org/linux/man-pages/man8/iptables.8.html>
-  * ubuntu ufw <https://help.ubuntu.com/community/UFW>
+  * PyOTP <https://pyauth.github.io/pyotp/> - The Python One-Time Password Library
+* Web security
+  * SOP (Same-origin policy) <https://en.wikipedia.org/wiki/Same-origin_policy>
+  * CORS (Cross-Origin Resource Sharing) <https://en.wikipedia.org/wiki/Cross-origin_resource_sharing>
+  * Fetch Standard <https://fetch.spec.whatwg.org/>
+  * CSP (Content Security Policy) <https://content-security-policy.com/>
+  * HSTS (HTTP Strict Transport Security) <https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security>
+  * SNI (Server Name Indication) <https://en.wikipedia.org/wiki/Server_Name_Indication>
+  * security.txt <https://securitytxt.org/>
+* Email security
+  * STARTTLS <https://en.wikipedia.org/wiki/Opportunistic_TLS>
+  * SASL (Simple Authentication and Security Layer) <https://en.wikipedia.org/wiki/Simple_Authentication_and_Security_Layer>
+  * SPF (Sender Policy Framework) <https://en.wikipedia.org/wiki/Sender_Policy_Framework>
+  * DKIM (DomainKeys Identified Mail) <https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail> <http://dkim.org/>
+    * OpenDKIM <http://www.opendkim.org/>
+  * DMARC (Domain-based Message Authentication, Reporting & Conformance) <https://dmarc.org/>
+  * S/MIME <https://en.wikipedia.org/wiki/S/MIME>
+  * OpenPGP/GPG <https://gnupg.org/>
 
-## Web security standards
-
-* SOP (Same-origin policy) <https://en.wikipedia.org/wiki/Same-origin_policy>
-* CORS (Cross-Origin Resource Sharing) <https://en.wikipedia.org/wiki/Cross-origin_resource_sharing>
-* Fetch Standard <https://fetch.spec.whatwg.org/>
-* CSP (Content Security Policy) <https://content-security-policy.com/>
-* HSTS (HTTP Strict Transport Security) <https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security>
-* SNI (Server Name Indication) <https://en.wikipedia.org/wiki/Server_Name_Indication>
-
-## Certificate tools
-
-* cfssl <https://github.com/cloudflare/cfssl#readme>
-* cert-manager <https://cert-manager.io>
-* Let's Encrypt <https://letsencrypt.org/>
-  * ACME (Automatic Certificate Management Environment) <https://en.wikipedia.org/wiki/Automatic_Certificate_Management_Environment>
-  * certbot <https://certbot.eff.org/>
-* AWS Certificate Manager <https://aws.amazon.com/certificate-manager/>
-
-## SAST and other static analysys
+## 430 - Static security check
 
 * Static application security test (SAST)
   * SonarQube <https://www.sonarqube.org/>
   * fluid attacks <https://docs.fluidattacks.com/tech/scanner/plans/foss/>
   * GitLab SAST <https://docs.gitlab.com/ee/user/application_security/sast/index.html>
-  * trivy <https://aquasecurity.github.io/trivy/>
-  * checkov <https://www.checkov.io/> - Policy-as-code for everyone
+  * trivy <https://aquasecurity.github.io/trivy/> - A comprehensive and versatile security scanner
+  * bandit <https://github.com/PyCQA/bandit> - A tool designed to find common security issues in Python code
+  * safety <https://github.com/pyupio/safety/> - A Python dependency vulnerability scanner
+  * Semgrep OSS <https://github.com/semgrep/semgrep> - A fast, open-source, static analysis tool
+  * checkov <https://www.checkov.io/> - A static code analysis tool for scanning infrastructure as code (IaC) files for misconfigurations
   * Haskell Dockerfile Linter <https://github.com/hadolint/hadolint#readme>
   * kube-score <https://kube-score.com/>
   * kubesec <https://kubesec.io/>
-  * Semgrep OSS <https://github.com/semgrep/semgrep>
 * Secret detection
   * trivy <https://aquasecurity.github.io/trivy/>
   * GitLab Secret Detection <https://docs.gitlab.com/ee/user/application_security/secret_detection/>
@@ -143,7 +161,7 @@ _Classification in progress._
   * Syft <https://github.com/anchore/syft>
   * OWASP CycloneDX <https://cyclonedx.org>
   * SPDX <https://spdx.dev/>
-* Vulnerability static analysys
+* Vulnerability scanning
   * trivy <https://aquasecurity.github.io/trivy/>
   * Grype <https://github.com/anchore/grype>
   * Clair <https://github.com/quay/clair>
@@ -152,7 +170,7 @@ _Classification in progress._
   * Microsoft Defender for Cloud <https://azure.microsoft.com/en-us/services/defender-for-cloud/>
   * AWS Security Hub <https://aws.amazon.com/security-hub/>
 
-## DAST, Runtime threat detection and CWP
+## 440 - Dynamic security protection
 
 * Dynamic application security test (DAST)
   * OWASP ZAP <https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project>
@@ -169,66 +187,40 @@ _Classification in progress._
 * Azure DDoS Protection <https://azure.microsoft.com/en-us/products/ddos-protection>
 * fail2ban <https://github.com/fail2ban/fail2ban>
 
-## Secret management
+## 470 - Other tools for security and personal data
 
-* Hashicorp Vault <https://www.vaultproject.io/>
-* SOPS <https://github.com/mozilla/sops#readme>
-* git-secret <https://git-secret.io/>
-* Sealed Secrets <https://sealed-secrets.netlify.app>
-* Azure Key Vault <https://azure.microsoft.com/en-us/services/key-vault/>
-* GCP Secret Manager <https://cloud.google.com/security/products/secret-manager>
-* AWS KMS <https://aws.amazon.com/kms/>
-* AWS Secrets Manager <https://aws.amazon.com/secrets-manager/>
-* pass <https://www.passwordstore.org/> - the standard unix password manager
-
-## Email security
-
-* STARTTLS <https://en.wikipedia.org/wiki/Opportunistic_TLS>
-* SASL (Simple Authentication and Security Layer) <https://en.wikipedia.org/wiki/Simple_Authentication_and_Security_Layer>
-* SPF (Sender Policy Framework) <https://en.wikipedia.org/wiki/Sender_Policy_Framework>
-* DKIM (DomainKeys Identified Mail) <https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail> <http://dkim.org/>
-  * OpenDKIM <http://www.opendkim.org/>
-* DMARC (Domain-based Message Authentication, Reporting & Conformance) <https://dmarc.org/>
-* S/MIME <https://en.wikipedia.org/wiki/S/MIME>
-* OpenPGP/GPG <https://gnupg.org/>
-
-## Directory service
-
-* Directory service <https://en.wikipedia.org/wiki/Directory_service>
-* LDAP <https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol>
-* OpenLDAP <https://www.openldap.org/>
-* 389 Directory Server <https://directory.fedoraproject.org/>
-
-## Policy management
-
-* Kubernetes policy management
+* Secret management
+  * Hashicorp Vault <https://www.vaultproject.io/>
+  * SOPS <https://github.com/mozilla/sops#readme>
+  * git-secret <https://git-secret.io/>
+  * Sealed Secrets <https://sealed-secrets.netlify.app>
+  * Azure Key Vault <https://azure.microsoft.com/en-us/services/key-vault/>
+  * GCP Secret Manager <https://cloud.google.com/security/products/secret-manager>
+  * AWS KMS <https://aws.amazon.com/kms/>
+  * AWS Secrets Manager <https://aws.amazon.com/secrets-manager/>
+  * pass <https://www.passwordstore.org/> - the standard unix password manager
+* Policy management
   * Gatekeeper <https://open-policy-agent.github.io/gatekeeper/>
   * Kyverno <https://kyverno.io/>
-* Open Policy Agent <https://www.openpolicyagent.org/>
-  * Rego Policy Language <https://www.openpolicyagent.org/docs/latest/policy-language/>
-  * Conftest <https://www.conftest.dev/>
+  * Open Policy Agent <https://www.openpolicyagent.org/>
+    * Rego Policy Language <https://www.openpolicyagent.org/docs/latest/policy-language/>
+    * Conftest <https://www.conftest.dev/>
 * Linux kernel security
   * SELinux <https://selinuxproject.org/page/Main_Page>
   * AppArmor <https://apparmor.net/>
+* Network firewall
+  * netfilter <https://www.netfilter.org/index.html>
+    * iptables <https://man7.org/linux/man-pages/man8/iptables.8.html>
+  * ubuntu ufw <https://help.ubuntu.com/community/UFW>
+* Directory service
+  * Directory service <https://en.wikipedia.org/wiki/Directory_service>
+  * LDAP <https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol>
+  * OpenLDAP <https://www.openldap.org/>
+  * 389 Directory Server <https://directory.fedoraproject.org/>
+* Remote execution
+  * Python Fablic <https://www.fabfile.org/>
 
-## Secure application development
-
-* OWASP Cheat Sheet Series <https://cheatsheetseries.owasp.org/>
-* OWASP ASVS <https://owasp.org/www-project-application-security-verification-standard/>
-* Cloud Application Security Assessment (CASA) <https://appdefensealliance.dev/casa>
-* WASC Threat Classification <http://projects.webappsec.org/w/page/13246978/Threat%20Classification>
-* ATT&CK <https://attack.mitre.org/>
-* Threat modeling <https://en.wikipedia.org/wiki/Threat_model>
-  * STRIDE model <https://en.wikipedia.org/wiki/STRIDE_%28security%29>
-  * OWASP Threat Dragon <https://owasp.org/www-project-threat-dragon/>
-* Security Technical Implementation Guides (STIGs) <https://public.cyber.mil/stigs/>
-* SLSA framework <https://slsa.dev/>
-* Secure Software Development Framework <https://csrc.nist.gov/Projects/ssdf>
-* ISO/IEC 27001: Information security management systems (ISMS)
-* PCI DSS <https://www.pcisecuritystandards.org/document_library/>
-* SOC (System and Organization Controls) 2 <https://drata.com/product/soc-2>
-
-## Vulnerability databases
+## 480 - Vulnerability databases
 
 * Vulnerability <https://en.wikipedia.org/wiki/Vulnerability_(computing)>
 * CWE (Common Weakness Enumeration) <https://cwe.mitre.org/>
@@ -243,15 +235,8 @@ _Classification in progress._
 * OSV (Open Source Vulnerability) <https://osv.dev/>
 * SSVC (Stakeholder-Specific Vulnerability Categorization) <https://www.cisa.gov/stakeholder-specific-vulnerability-categorization-ssvc>
 * KEV (Known Exploited Vulnerabilities) <https://www.cisa.gov/known-exploited-vulnerabilities-catalog>
-* Security policy definition
-  * security.txt <https://securitytxt.org/>
-* Major malicious exploit types
-  * XSS (Cross-site scripting) <https://en.wikipedia.org/wiki/Cross-site_scripting>
-  * CSRF (Cross-site request forgery) <https://en.wikipedia.org/wiki/Cross-site_request_forgery>
-  * Clickjacking <https://en.wikipedia.org/wiki/Clickjacking>
-  * DNS hijacking <https://en.wikipedia.org/wiki/DNS_hijacking>
 
-## Cryptography
+## 490 - Cryptography
 
 * Unkeyed
   * Hash Function
