@@ -11,8 +11,8 @@ The contents consist of the following 6 major classes.
 
 - [Class 000 - Agile, management, and general works](ch0/README.md)
 - [Class 100 - Programming](ch1/README.md)
-- [Class 200 - OS, network, and platform](ch2/README.md)
-- [Class 300 - Web and distributed application](ch3/README.md)
+- [Class 200 - OS, network, and infrastructure](ch2/README.md)
+- [Class 300 - Web and applications](ch3/README.md)
 - [Class 400 - Security and privacy](ch4/README.md)
 - [Class 500 - Database, AI, and ML](ch5/README.md)
 

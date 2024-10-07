@@ -52,9 +52,6 @@
   * duck typing <https://en.wikipedia.org/wiki/Duck_typing>
   * covariance and contravariance <https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)>
   * passive data structure <https://en.wikipedia.org/wiki/Passive_data_structure>
-  * Frameworks for non-OO languages
-    * Perl Moo <https://metacpan.org/pod/Moo>
-    * Python dataclasses <https://docs.python.org/3/library/dataclasses.html>
 * Concurrent programming
   * coroutine <https://en.wikipedia.org/wiki/Coroutine>
   * async/await <https://en.wikipedia.org/wiki/Async/await>
@@ -64,8 +61,6 @@
   * channel <https://en.wikipedia.org/wiki/Channel_(programming)>
   * thread safety <https://en.wikipedia.org/wiki/Thread_safety>
   * deadlock <https://en.wikipedia.org/wiki/Deadlock>
-  * Guarded Command Language (GCL) <https://en.wikipedia.org/wiki/Guarded_Command_Language>
-  * communicating sequential processes <https://en.wikipedia.org/wiki/Communicating_sequential_processes>
 * Functional programming <https://en.wikipedia.org/wiki/Functional_programming>
   * first-class function <https://en.wikipedia.org/wiki/First-class_function>
     * map <https://en.wikipedia.org/wiki/Map_(higher-order_function)>
@@ -148,6 +143,7 @@
   * i/o operators <https://metacpan.org/dist/perl/view/pod/perlop.pod>
     * diamond oprator
   * autovivification
+  * Moo <https://metacpan.org/pod/Moo>
 * Python <https://www.python.org/>
   * Python import system <https://docs.python.org/3/reference/import.html>
   * f-string
@@ -159,17 +155,17 @@
   * lambda
   * special methods <https://docs.python.org/3/reference/datamodel.html#specialnames>
   * global interpreter lock <https://en.wikipedia.org/wiki/Global_interpreter_lock>
+  * dataclasses <https://docs.python.org/3/library/dataclasses.html>
 * Javascript/ECMAScript <https://www.ecma-international.org/publications/standards/Ecma-262.htm>
   * CommonJS <https://en.wikipedia.org/wiki/CommonJS>
   * ES modules <https://nodejs.org/api/esm.html>
-  * Lodash <https://lodash.com/> - A modern JavaScript utility library delivering modularity, performance & extras
   * prototypal inheritance <https://en.wikipedia.org/wiki/Prototype-based_programming>
   * event-driven
   * spread and rest operators
   * generator
+  * Lodash <https://lodash.com/> - A modern JavaScript utility library delivering modularity, performance & extras
 * Go <https://go.dev/>
   * Go Modules <https://go.dev/wiki/Modules>
-  * lo <https://pkg.go.dev/github.com/samber/lo> - A Lodash-style Go library
   * defer, panic and recover <https://go.dev/blog/defer-panic-and-recover>
   * method receiver
   * init function
@@ -177,6 +173,8 @@
   * channel
   * go function
   * static binary executable
+  * lo <https://pkg.go.dev/github.com/samber/lo> - A Lodash-style Go library
+  * fp-go <https://github.com/repeale/fp-go> - A collection of Functional Programming helpers
 * Extra programming languages (advanced)
   * Ruby <https://www.ruby-lang.org/en/>
     * persent notation
@@ -244,6 +242,7 @@
   * Eclipse Che <https://eclipse.dev/che/>
 * AI assistance
   * GitHub Copilot <https://github.com/features/copilot/>
+  * Amazon Q Developer <https://aws.amazon.com/q/developer/>
   * CodeGPT <https://www.codegpt.co/>
   * Cursor <https://cursor.sh/>
   * Zed AI <https://zed.dev/ai>
@@ -285,11 +284,13 @@
   * GitLab Code Quality <https://docs.gitlab.com/ee/ci/testing/code_quality.html>
   * ESLint <https://eslint.org/> - An open source project that helps you find and fix problems with your JavaScript code
   * JSHint <https://jshint.com/about/> - A Static Code Analysis Tool for JavaScript
+  * Pylint <https://pylint.readthedocs.io/> - A static code analyser for Python 2 or 3
   * Ruff <https://docs.astral.sh/ruff/> - An extremely fast Python linter and code formatter, written in Rust
   * Staticcheck <https://staticcheck.dev/> - A state of the art linter for the Go programming language
-  * golangci-lint <https://golangci-lint.run/> - A fast linters runner for Go
+  * revive <https://revive.run/> - Fast & extensible static code analysis framework for Go
   * PSScriptAnalyzer <https://github.com/PowerShell/PSScriptAnalyzer> - A static code checker for PowerShell modules and scripts
   * ShellCheck <https://www.shellcheck.net/> - A GPLv3 tool that gives warnings and suggestions for bash/sh shell scripts
+  * Stylellint <https://stylelint.io/> - A mighty CSS linter that helps you avoid errors and enforce conventions
 * Code counters
   * Cyclomatic complexity <https://en.wikipedia.org/wiki/Cyclomatic_complexity>
   * scc <https://github.com/boyter/scc/>
@@ -513,7 +514,10 @@
   * Meson <https://mesonbuild.com/>
   * Rake <https://ruby.github.io/rake/>
   * fpm <https://fpm.readthedocs.io/> - A tool which lets you easily create packages for Debian, Ubuntu, Fedora, CentOS, RHEL, Arch Linux, ...
+* Monorepo tools <https://monorepo.tools/>
+  * Lerna <https://lerna.js.org/> - The original monorepo tool for JavaScript/TypeScript
   * Nx <https://nx.dev/> - A powerful open-source build system that provides tools and techniques for enhancing developer productivity
+  * Gradle <https://gradle.org/>
 * Program documentation tools
   * apiDoc <http://apidocjs.com/>
   * JSDoc <https://jsdoc.app/>
@@ -532,7 +536,6 @@
   * pip <https://pip.pypa.io/>
   * Go mod <https://pkg.go.dev/cmd/go>
   * cpanminus <https://metacpan.org/pod/App::cpanminus>
-  * perlbrew <https://perlbrew.pl/>
   * bpkg <https://bpkg.sh/bpkg/>
   * Conan <https://conan.io/>
   * Cargo <https://doc.rust-lang.org/stable/cargo/>
@@ -601,6 +604,8 @@
   * GNU tar <https://www.gnu.org/software/tar/>
   * Info-Zip <https://sourceforge.net/projects/infozip/>
   * 7-Zip <https://www.7-zip.org/>
+  * JSZip <https://stuk.github.io/jszip/> - A javascript library for creating, reading and editing .zip files
+  * go zip <https://pkg.go.dev/archive/zip>
 * Binary file processing
   * file (command) <https://www.darwinsys.com/file/>
   * ELF format <https://en.wikipedia.org/wiki/Executable_and_Linkable_Format>

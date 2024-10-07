@@ -1,4 +1,4 @@
-# Class 300 - Web and distributed application
+# Class 300 - Web and applications
 
 ## Timeline
 
@@ -36,13 +36,13 @@ The Apache HTTP Server is a free and open-source cross-platform web server softw
 Initial release: 1995
 
 PHP is a general-purpose scripting language geared toward web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994.
-PHP First appeared: June 8, 1995
+PHP First appeared: June 8, 1995
 
 HTTP/1 was finalized and fully documented (as version 1.0) in 1996.
 
 In 1996, the iframe tag was introduced by Internet Explorer; like the object element, it can load or fetch content asynchronously.
 
-Zeev Suraski and Andi Gutmans rewrote the parser in 1997 and formed the base of PHP 3, changing the language's name to the recursive acronym PHP: Hypertext Preprocessor.
+Zeev Suraski and Andi Gutmans rewrote the parser in 1997 and formed the base of PHP 3, changing the language's name to the recursive acronym PHP: Hypertext Preprocessor.
 
 In 1998, the Microsoft Outlook Web Access team developed the concept behind the XMLHttpRequest scripting object.
 XMLHttpRequest (XHR) is an API in the form of an object whose methods transfer data between a web browser and a web server. The object is provided by the browser's JavaScript environment.
@@ -68,16 +68,16 @@ Mozilla created a wrapper to use this interface through a JavaScript object whic
 The XMLHttpRequest object was accessible as early as Gecko version 0.6 released on December 6, 2000, but it was not completely functional until as late as version 1.0 of Gecko released on June 5, 2002.
 
 Mozilla Firefox, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards.
-Initial release: September 23, 2002
+Initial release: September 23, 2002
 
 The Spring Framework is an application framework and inversion of control container for the Java platform. The framework's core features can be used by any Java application, but there are extensions for building web applications on top of the Java EE (Enterprise Edition) platform.
 Initial release: 1 October 2002
 
-On 1 July 2004, PHP 5 was released, powered by the new Zend Engine II. PHP 5 included new features such as improved support for object-oriented programming, the PHP Data Objects (PDO) extension, and numerous performance enhancements.
+On 1 July 2004, PHP 5 was released, powered by the new Zend Engine II. PHP 5 included new features such as improved support for object-oriented programming, the PHP Data Objects (PDO) extension, and numerous performance enhancements.
 
 Ruby on Rails (simplify as Rails) is a server-side web application framework written in Ruby under the MIT License.
 David Heinemeier Hansson extracted Ruby on Rails from his work on the project management tool Basecamp at the web application company 37signals. Hansson first released Rails as open source in July 2004.
-Initial release: August 2004 ?
+Initial release: August 2004 ?
 
 Nginx is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. The software was created by Igor Sysoev and publicly released in 2004.
 Originally, Nginx was developed to solve the C10k problem, and to fill the needs of multiple websites including the Rambler search engine and portal, for which it was serving 500 million requests per day by September 2008
@@ -88,7 +88,7 @@ Version 1.0 of Firefox was released on November 9, 2004. This was followed by ve
 The Prototype JavaScript Framework is a JavaScript framework created by Sam Stephenson in February 2005 as part of Ajax support in Ruby on Rails.
 
 Django is a free and open-source, Python-based web framework that follows the model–template–views (MTV) architectural pattern.
-Initial release: 21 July 2005
+Initial release: 21 July 2005
 
 In December 2005, Yahoo! began offering some of its Web services in JSON.
 

@@ -1,4 +1,4 @@
-# Class 200 - OS, network, and platform
+# Class 200 - OS, network, and infrastructure
 
 ## Timeline
 

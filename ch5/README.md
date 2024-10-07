@@ -121,7 +121,7 @@ _Classification in progress._
 * Weaviate <https://weaviate.io/> - An open-source vector database that simplifies the development of AI applications
 * Milvus <https://zilliz.com/what-is-milvus> - A high-performance open-source vector database built to handle billions of vectors
 
-## Distributed processing and analytics
+## Distributed processing, analytics, and application integration
 
 * Frameworks
   * Apache Hadoop <https://hadoop.apache.org/> - A framework that allows for the distributed processing of large data sets
@@ -147,6 +147,11 @@ _Classification in progress._
   * Apache Kafka <https://kafka.apache.org/> - An open-source distributed event streaming platform
   * Apache Storm <https://storm.apache.org/> - A free and open source distributed realtime computation system
   * Apache Flink <https://flink.apache.org/> - A framework and distributed processing engine for stateful computations over unbounded and bounded data streams
+* Messaging
+  * Azure Service Bus <https://azure.microsoft.com/en-us/products/service-bus/>
+  * Azure Queue Storage <https://azure.microsoft.com/en-us/products/storage/queues/>
+  * Amazon Simple Queue Service <https://aws.amazon.com/sqs/>
+  * RabbitMQ <https://www.rabbitmq.com/> - A reliable and mature messaging and streaming broker
 
 ---
 
@@ -235,6 +240,15 @@ _Classification in progress._
 * Sentence embedding <https://en.wikipedia.org/wiki/Sentence_embedding>
 * Retrieval-augmented generation (RAG) <https://en.wikipedia.org/wiki/Retrieval-augmented_generation>
 
+## Computer vision and OCR
+
+* OpenCV <https://github.com/opencv/opencv> - An open-source library that includes several hundreds of computer vision algorithms
+* GoCV <https://gocv.io/> - A wrapper around the OpenCV 4.x computer vision library
+* Tesseract OCR <https://github.com/tesseract-ocr/tesseract>
+* gosseract OCR <https://github.com/otiai10/gosseract> - Golang OCR package, by using Tesseract C++ library
+* OCRmyPDF <https://ocrmypdf.readthedocs.io/en/latest/>
+* EasyOCR <https://github.com/JaidedAI/EasyOCR>
+
 ## Generative AI
 
 * Models
@@ -242,11 +256,11 @@ _Classification in progress._
   * Llama <https://llama.meta.com/> <https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/>
   * Gemini <https://gemini.google.com/>
 * OpenAI API <https://platform.openai.com/>
+  * Go OpenAI <https://github.com/sashabaranov/go-openai>
 * Azure OpnAI Service <https://azure.microsoft.com/en-us/products/ai-services/openai-service>
 * Amazon Bedrock <https://aws.amazon.com/bedrock/>
 * LocalAI <https://localai.io/> - The free, Open Source OpenAI alternative.
 * Ollama <https://ollama.com/> - A tool designed for deploying and managing large language models (LLMs) locally
 * Tools
-  * go-openai <https://github.com/sashabaranov/go-openai>
   * LangChain <https://python.langchain.com/> - A framework for developing applications powered by large language models (LLMs)
   * LangChainGo <https://tmc.github.io/langchaingo/>

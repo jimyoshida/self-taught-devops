@@ -1,4 +1,4 @@
-# Class 200 - OS, network, and platform
+# Class 200 - OS, network, and infrastructure
 
 [Show timeline](./Timeline.md)
 
@@ -307,10 +307,11 @@
     * terraform-docs <https://terraform-docs.io/>
     * Terraformer <https://github.com/GoogleCloudPlatform/terraformer>
     * Atrantis (reference) <https://www.runatlantis.io/>
+  * OpenTofu <https://opentofu.org/> - A fork of Terraform
   * Serverless Framework <https://serverless.com/>
   * AWS CloudFormation <https://aws.amazon.com/cloudformation/>
-  * AWS Cloud Development Kit <https://aws.amazon.com/cdk/>
-  * AWS Serverless Application Model <https://aws.amazon.com/serverless/sam/>
+  * AWS CDK <https://aws.amazon.com/cdk/>
+  * AWS SAM <https://aws.amazon.com/serverless/sam/>
   * Azure Resource Manager <https://docs.microsoft.com/en-us/azure/azure-resource-manager/>
     * Bicep language <https://github.com/Azure/bicep>
   * Pulumi <https://www.pulumi.com/>
