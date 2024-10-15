@@ -76,16 +76,6 @@
 
 ## 030 - Documentation and knowledge base
 
-* World Wide Web basics
-  * Hypertext <https://en.wikipedia.org/wiki/Hypertext>
-  * URL <https://url.spec.whatwg.org/>
-  * URI <https://en.wikipedia.org/wiki/Uniform_Resource_Identifier>
-    * Perl URI <https://metacpan.org/pod/URI>
-  * HTML <https://html.spec.whatwg.org/>
-    * Perl Html::Entities <https://metacpan.org/pod/HTML::Entities>
-  * CSS <https://www.w3.org/Style/CSS/>
-  * Sass language <https://sass-lang.com/>
-  * lychee <https://lychee.cli.rs/> - A fast, async link checker written in Rust
 * Lightweight markup
   * Markdown <https://en.wikipedia.org/wiki/Markdown>
     * CommonMark <https://commonmark.org/>
@@ -109,6 +99,7 @@
   * alex <https://alexjs.com/> - Catch insensitive, inconsiderate writing
   * write-good <https://github.com/btford/write-good> - Naive linter for English prose
   * textlint <https://textlint.github.io/> - The pluggable linting tool for text and markdown
+  * lychee <https://lychee.cli.rs/> - A fast, async link checker written in Rust
 * Document site generators
   * Docusaurus <https://docusaurus.io/>
     * MDX <https://mdxjs.com/>

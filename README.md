@@ -1,30 +1,30 @@
 # Self-taught DevOps
 
 Welcome to this site, a comprehensive collection of essential concepts, useful technologies, and techniques curated specifically for DevOps engineers.
-
-While the continuous delivery becomes a focal point within the DevOps practice, it will require a broader range of knowledge to develop and operate truly effective systems.
+While the _continuous delivery_ becomes a core portion of the DevOps practices, it will require a broader range of knowledge to make flexible, low-cost, low-stress, and profitable systems.
 Thus, this site assembles all such relevant domains - BizDataMLDevSecOps.
 
-Also, to understand the background of the technologies etc., each section contains the timeline of them. The descriptions are mainly quoted from the [Wikipedia English version](https://en.wikipedia.org/wiki/Main_Page) unless other references are noted.
+In addition, to understand the background of the technologies etc., each section contains the timeline of those items.
+The descriptions are mainly quoted from the [Wikipedia English version](https://en.wikipedia.org/wiki/Main_Page) unless other references are noted.
 
-The contents consist of the following 6 major classes.
+The contents consist of the following 6 major classes, and they are classified like [Dewey Decimal Classification](https://en.wikipedia.org/wiki/Dewey_Decimal_Classification) system.
 
 - [Class 000 - Agile, management, and general works](ch0/README.md)
 - [Class 100 - Programming](ch1/README.md)
 - [Class 200 - OS, network, and infrastructure](ch2/README.md)
-- [Class 300 - Web and applications](ch3/README.md)
+- [Class 300 - WWW and applications](ch3/README.md)
 - [Class 400 - Security and privacy](ch4/README.md)
-- [Class 500 - Database, AI, and ML](ch5/README.md)
+- [Class 500 - Data, ML, and LLM](ch5/README.md)
 
 [Appendix: References](ch9/README.md)
 
 ## Motivations
 
-- (To be described)
+- I want a curation list which contains multiple programming language cultures
+- I want a curation list which covers all key techs used in today's dynamic web systems
 
 ## Backlogs
 
-- Assign class numbers like [Dewey Decimal Classification](https://en.wikipedia.org/wiki/Dewey_Decimal_Classification)
 - Make the docusaurus site and host it
 - Reconsider about the license
 - Add brief explanations on each section and item

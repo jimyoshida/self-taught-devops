@@ -462,6 +462,8 @@
   * TightVNC <https://www.tightvnc.com/>
   * xrdp <https://github.com/neutrinolabs/xrdp>
   * Remmina <https://remmina.org/>
+  * WinSSHTerm <https://winsshterm.blogspot.com/> - A tabbed SSH solution for Windows, combining PuTTY, WinSCP and VcXsrv
+  * Mosh <https://mosh.org/> - A replacement for interactive SSH terminals
 * File sharing
   * SMB <https://en.wikipedia.org/wiki/Server_Message_Block>
     * Samba <https://www.samba.org/>

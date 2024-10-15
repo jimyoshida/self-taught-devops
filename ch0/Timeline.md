@@ -35,8 +35,6 @@ The GNU Manifesto was published in March 1985.
 
 The Free Software Foundation was founded in 1985 as a non-profit corporation supporting free software development.
 
-The Standard Generalized Markup Language (SGML; ISO 8879:1986) is a standard for defining generalized markup languages for documents.
-
 Internet Relay Chat (IRC) is a text-based chat system for instant messaging. IRC is designed for group communication in discussion forums, called channels, but also allows one-on-one communication via private messages as well as chat and data transfer, including file sharing.
 Introduced: Late August, 1988
 
@@ -47,18 +45,9 @@ The Open Software Foundation (OSF) was a not-for-profit industry consortium for 
 groff (also called GNU troff) is a typesetting system that creates formatted output when given plain text mixed with formatting commands.
 The first version, 0.3.1, was released June 1990.
 
-In 1990, Tim Berners-Lee's proposals for hypertext implicitly introduced the idea of a URL as a short string representing a resource that is the target of a hyperlink.
-
-In November 1992 the IETF "URI Working Group" met for the first time.
-
-The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.
-Initial release: 1993
-
 CTAN (an acronym for "Comprehensive TeX Archive Network") is the authoritative place where TeX related material and software can be found for download.
 CTAN was built in 1992, by Rainer Schöpf and Joachim Schrod in Germany, Sebastian Rahtz in the UK, and George Greenwade in the U.S.
 CTAN was officially announced at the EuroTeX conference at Aston University, 1993. The WEB server itself is maintained by Gerd Neugebauer.
-
-In June 1994, the IETF published Berners-Lee's first Request for Comments that acknowledged the existence of URLs and URNs.
 
 The World Wide Web Consortium (W3C) is the main international standards organization for the World Wide Web. Founded in 1994 and led by Tim Berners-Lee.
 Formation: 1 October 1994
@@ -66,16 +55,7 @@ Formation: 1 October 1994
 CPAN was conceived in 1993 and has been active online since October 1995. It is based on the CTAN model and began as a place to unify the structure of scattered Perl archives.
 On October 26, 1995, the Comprehensive Perl Archive Network (CPAN) was established as a repository for the Perl language and Perl modules.
 
-Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML.
-Initial release: 17 December 1996
-
 The Open Group is a global consortium that seeks to "enable the achievement of business objectives" by developing "open, vendor-neutral technology standards and certifications." It was established in 1996 when X/Open merged with the Open Software Foundation.
-
-Extensible Markup Language (XML) is a markup language and file format for storing, transmitting, and reconstructing arbitrary data. It defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.
-First published: February 10, 1998
-
-The Document Object Model (DOM) is a cross-platform and language-independent interface that treats an XML or HTML document as a tree structure wherein each node is an object representing a part of the document.
-First published: October 1, 1998
 
 The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary (abbreviated CatB) is an essay, and later a book, by Eric S. Raymond on software engineering methods.
 The essay was first presented by the author at the Linux Kongress on May 27, 1997 in Würzburg (Germany) and was published as the second chapter of the same‑titled book in 1999.

@@ -39,6 +39,7 @@
 * exception handling <https://en.wikipedia.org/wiki/Exception_handling_(programming)>
 * cohesion <https://en.wikipedia.org/wiki/Cohesion_(computer_science)>
 * assertion <https://en.wikipedia.org/wiki/Assertion_(software_development)>
+* test double <https://en.wikipedia.org/wiki/Test_double>
 * Object-oriented programming
   * abstraction <https://en.wikipedia.org/wiki/Abstraction_(computer_science)>
   * encapsulation <https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)>
@@ -597,7 +598,7 @@
 * C
   * ncurses <https://invisible-island.net/ncurses/>
 
-## 180 - Binary processing
+## 180 - Binary and image processing
 
 * Archivers
   * GNU Gzip <https://www.gnu.org/software/gzip/>
@@ -627,3 +628,8 @@
   * xlsx2csv <https://github.com/dilshod/xlsx2csv>
   * docx2txt <https://github.com/ankushshah89/python-docx2txt>
   * pptx2md <https://github.com/ssine/pptx2md>
+* OCR
+  * Tesseract OCR <https://github.com/tesseract-ocr/tesseract>
+  * gosseract OCR <https://github.com/otiai10/gosseract> - Golang OCR package, by using Tesseract C++ library
+  * OCRmyPDF <https://ocrmypdf.readthedocs.io/en/latest/>
+  * EasyOCR <https://github.com/JaidedAI/EasyOCR>

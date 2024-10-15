@@ -1,4 +1,4 @@
-# Class 500 - Database, AI, and ML
+# Class 500 - Data, ML, and LLM
 
 ## Timeline
 

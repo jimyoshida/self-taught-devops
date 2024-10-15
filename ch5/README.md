@@ -1,10 +1,8 @@
-# Class 500 - Database, AI, and ML
+# Class 500 - Data, ML, and LLM
 
 [Show timeline](./Timeline.md)
 
-_Classification in progress._
-
-## Data science concepts
+## 500 - Data/AI concepts and platforms
 
 * Data <https://en.wikipedia.org/wiki/Data_(computer_science)>
 * Metadata <https://en.wikipedia.org/wiki/Metadata>
@@ -18,8 +16,22 @@ _Classification in progress._
 * CRUD operations <https://en.wikipedia.org/wiki/Create,_read,_update_and_delete>
 * Network analysis
   * Centrality <https://en.wikipedia.org/wiki/Centrality>
+* Interactive computing environment
+  * JupyterLab <https://jupyter.org/> - Web-based interactive development environment for notebooks, code, and data
+  * Jupiter Notebook <https://jupyter.org/> - The original web application for creating and sharing computational documents
+    * VSCode Jupyter Extension <https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter>
+  * BeakerX <http://beakerx.com/> - A collection of kernels and extensions to the Jupyter interactive computing environment
+  * R Markdown <https://rmarkdown.rstudio.com/>
+  * Org Mode <https://orgmode.org/> - Your life in plain text
+    * org-export <https://nhoffman.github.io/org-export/> - Batch export of Emacs org-mode files from the command line
+    * org-ai <https://github.com/rksm/org-ai> - Emacs as your personal AI assistant
+    * Org-roam <https://www.orgroam.com/> - A plain-text personal knowledge management system
+* Platforms for Data/AI/ML
+  * DVC <https://dvc.org/> - Data Version Control
+  * Mojo <https://www.modular.com/mojo> - The programming language for all AI developers
+  * Vanna.AI <https://vanna.ai/> - A Python package that uses retrieval augmentation to help you generate accurate SQL queries for your database using LLMs
 
-## Basic data science tools
+## 510 - Basic data science tools
 
 * Computing
   * R <https://www.r-project.org/> - A free software environment for statistical computing and graphics
@@ -34,14 +46,11 @@ _Classification in progress._
     * dplyr, tidyr, stringr, purrr, readr
 * Network analysis
   * NetworkX <https://networkx.org/>
-
-## Data visualization
-
-* Apps
+* Visualization apps
   * Kibana <https://www.elastic.co/kibana>
   * Power BI <https://www.microsoft.com/en-us/power-platform/products/power-bi/>
   * Amazon QuickSight <https://aws.amazon.com/quicksight/>
-* Tools and libraries
+* Visualization tools and libraries
   * gnuplot <http://gnuplot.info/> - A portable command-line driven graphing utility
   * matplotlib <https://matplotlib.org/> - A comprehensive library for creating static, animated, and interactive visualizations in Python
   * seaborn <https://seaborn.pydata.org/>
@@ -53,75 +62,53 @@ _Classification in progress._
   * GeoLite2 <https://dev.maxmind.com/geoip/geolite2-free-geolocation-data> - Free geolocation data
   * WordCloud for Python <https://amueller.github.io/word_cloud/>
 
-## Interactive computing environment
-
-* JupyterLab <https://jupyter.org/> - Web-based interactive development environment for notebooks, code, and data
-* Jupiter Notebook <https://jupyter.org/> - The original web application for creating and sharing computational documents
-  * VSCode Jupyter Extension <https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter>
-* BeakerX <http://beakerx.com/> - A collection of kernels and extensions to the Jupyter interactive computing environment
-* R Markdown <https://rmarkdown.rstudio.com/>
-* Org Mode <https://orgmode.org/> - Your life in plain text
-  * org-export <https://nhoffman.github.io/org-export/> - Batch export of Emacs org-mode files from the command line
-  * org-ai <https://github.com/rksm/org-ai> - Emacs as your personal AI assistant
-  * Org-roam <https://www.orgroam.com/> - A plain-text personal knowledge management system
-
-## Platforms for Data/AI/ML
-
-* DVC <https://dvc.org/> - Data Version Control
-* Mojo <https://www.modular.com/mojo> - The programming language for all AI developers
-* Vanna.AI <https://vanna.ai/> - A Python package that uses retrieval augmentation to help you generate accurate SQL queries for your database using LLMs
-
----
-
-## Relational databases
+## 520 - Databases
 
 * Relational model <https://en.wikipedia.org/wiki/Relational_model>
-* Structured Query Language (SQL) <https://en.wikipedia.org/wiki/SQL>
-* Codd's Twelve Rules <https://reldb.org/c/index.php/twelve-rules/>
-* ODBC <https://en.wikipedia.org/wiki/Open_Database_Connectivity>
-* JDBC <https://www.oracle.com/java/technologies/javase/javase-tech-database.html>
-* Object-relational mapping <https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping>
-  * Prisma <https://www.prisma.io/>
-  * Hibernate <https://hibernate.org/orm/>
-* PostgreSQL <https://www.postgresql.org/>
-  * pgAdmin <https://www.pgadmin.org/>
-  * pgBadger <https://pgbadger.darold.net/>
-* MySQL <https://www.mysql.com/>
-* MariaDB <https://mariadb.org/>
-* TiDB <https://www.pingcap.com/tidb/> - An open-source distributed SQL database that supports Hybrid Transactional and Analytical Processing (HTAP) workloads
-* Amazon RDS <https://aws.amazon.com/rds/>
-* Amazon Aurora <https://aws.amazon.com/rds/aurora/>
-* Azure SQL Database <https://azure.microsoft.com/en-us/products/azure-sql/database/>
-  * sqlcmd utility <https://learn.microsoft.com/en-us/sql/tools/sqlcmd/sqlcmd-utility>
-  * sqlpackage <https://learn.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage>
-  * SSMS <https://learn.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms>
-  * DAC <https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications>
-* Azure Data Studio <https://azure.microsoft.com/en-us/products/data-studio/> - A modern open-source, cross-platform hybrid data analytics tool designed to simplify the data landscape
-* Beekeeper Studio <https://www.beekeeperstudio.io/>
-* SQLite <https://www.sqlite.org/index.html>
-  * DB Browser for SQLite <https://sqlitebrowser.org/>
+  * Structured Query Language (SQL) <https://en.wikipedia.org/wiki/SQL>
+  * Codd's Twelve Rules <https://reldb.org/c/index.php/twelve-rules/>
+  * ODBC <https://en.wikipedia.org/wiki/Open_Database_Connectivity>
+  * JDBC <https://www.oracle.com/java/technologies/javase/javase-tech-database.html>
+  * Object-relational mapping <https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping>
+    * Prisma <https://www.prisma.io/>
+    * Hibernate <https://hibernate.org/orm/>
+  * PostgreSQL <https://www.postgresql.org/>
+    * pgAdmin <https://www.pgadmin.org/>
+    * pgBadger <https://pgbadger.darold.net/>
+  * MySQL <https://www.mysql.com/>
+  * MariaDB <https://mariadb.org/>
+  * TiDB <https://www.pingcap.com/tidb/> - An open-source distributed SQL database that supports Hybrid Transactional and Analytical Processing (HTAP) workloads
+  * Amazon RDS <https://aws.amazon.com/rds/>
+  * Amazon Aurora <https://aws.amazon.com/rds/aurora/>
+  * Azure SQL Database <https://azure.microsoft.com/en-us/products/azure-sql/database/>
+    * sqlcmd utility <https://learn.microsoft.com/en-us/sql/tools/sqlcmd/sqlcmd-utility>
+    * sqlpackage <https://learn.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage>
+    * SSMS <https://learn.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms>
+    * DAC <https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications>
+  * Azure Data Studio <https://azure.microsoft.com/en-us/products/data-studio/> - A modern open-source, cross-platform hybrid data analytics tool designed to simplify the data landscape
+  * Beekeeper Studio <https://www.beekeeperstudio.io/>
+  * SQLite <https://www.sqlite.org/index.html>
+    * DB Browser for SQLite <https://sqlitebrowser.org/>
+* NoSQL databases
+  * ElasticSearch <https://www.elastic.co/elasticsearch/>
+    * Painless <https://www.elastic.co/guide/en/elasticsearch/painless/current/index.html> - A simple, secure scripting language designed specifically for use with Elasticsearch
+    * Elastic Common Schema <https://www.elastic.co/guide/en/ecs/current/index.html>
+    * Kibana <https://www.elastic.co/kibana>
+      * Kibana Query Language <https://www.elastic.co/guide/en/kibana/current/kuery-query.html>
+  * MongoDB <https://www.mongodb.com/>
+  * Redis <https://redis.io/>
+  * Dragonfly <https://www.dragonflydb.io/> - A drop-in Redis replacement
+  * etcd <https://etcd.io/>
+  * Amazon DynamoDB <https://aws.amazon.com/dynamodb/>
+  * Azure Cosmos DB <https://azure.microsoft.com/en-us/products/cosmos-db/>
+  * Neo4j <https://neo4j.com/>
+  * Amazon Neptune <https://aws.amazon.com/neptune/>
+  * Apache Cassandra <https://cassandra.apache.org/> - An open source NoSQL distributed database
+  * Apache HBase <https://hbase.apache.org/> - The Hadoop database, a distributed, scalable, big data store
+  * Weaviate <https://weaviate.io/> - An open-source vector database that simplifies the development of AI applications
+  * Milvus <https://zilliz.com/what-is-milvus> - A high-performance open-source vector database built to handle billions of vectors
 
-## NoSQL databases
-
-* ElasticSearch <https://www.elastic.co/elasticsearch/>
-  * Painless <https://www.elastic.co/guide/en/elasticsearch/painless/current/index.html> - A simple, secure scripting language designed specifically for use with Elasticsearch
-  * Elastic Common Schema <https://www.elastic.co/guide/en/ecs/current/index.html>
-  * Kibana <https://www.elastic.co/kibana>
-    * Kibana Query Language <https://www.elastic.co/guide/en/kibana/current/kuery-query.html>
-* MongoDB <https://www.mongodb.com/>
-* Redis <https://redis.io/>
-* Dragonfly <https://www.dragonflydb.io/> - A drop-in Redis replacement
-* etcd <https://etcd.io/>
-* Amazon DynamoDB <https://aws.amazon.com/dynamodb/>
-* Azure Cosmos DB <https://azure.microsoft.com/en-us/products/cosmos-db/>
-* Neo4j <https://neo4j.com/>
-* Amazon Neptune <https://aws.amazon.com/neptune/>
-* Apache Cassandra <https://cassandra.apache.org/> - An open source NoSQL distributed database
-* Apache HBase <https://hbase.apache.org/> - The Hadoop database, a distributed, scalable, big data store
-* Weaviate <https://weaviate.io/> - An open-source vector database that simplifies the development of AI applications
-* Milvus <https://zilliz.com/what-is-milvus> - A high-performance open-source vector database built to handle billions of vectors
-
-## Distributed processing, analytics, and application integration
+## 530 - Distributed processing, analytics, and application integration
 
 * Frameworks
   * Apache Hadoop <https://hadoop.apache.org/> - A framework that allows for the distributed processing of large data sets
@@ -153,9 +140,7 @@ _Classification in progress._
   * Amazon Simple Queue Service <https://aws.amazon.com/sqs/>
   * RabbitMQ <https://www.rabbitmq.com/> - A reliable and mature messaging and streaming broker
 
----
-
-## Machine learning
+## 540 - Machine learning
 
 * Paradigms and concepts
   * Supervised learning <https://en.wikipedia.org/wiki/Supervised_learning>
@@ -195,7 +180,27 @@ _Classification in progress._
   * MLFlow <https://mlflow.org/>
   * KubeFlow <https://www.kubeflow.org/>
 
-## Neural networks and deep learning
+## 550 - Natural language processing
+
+* Linguistics <https://en.wikipedia.org/wiki/Linguistics>
+  * Morphology <https://en.wikipedia.org/wiki/Morphology_(linguistics)>
+  * Syntax <https://en.wikipedia.org/wiki/Syntax>
+  * Semantics <https://en.wikipedia.org/wiki/Semantics>
+  * Levenshtein distance <https://en.wikipedia.org/wiki/Levenshtein_distance>
+* n-gram <https://en.wikipedia.org/wiki/N-gram>
+* tf-idf (term frequency-inverse document frequency) <https://en.wikipedia.org/wiki/Tf%E2%80%93idf>
+* Word2vec <https://en.wikipedia.org/wiki/Word2vec>
+* Seq2seq <https://en.wikipedia.org/wiki/Seq2seq>
+* Tools
+  * Natural Language Toolkit <https://www.nltk.org/> - A leading platform for building Python programs to work with human language data
+  * fastText <https://fasttext.cc/> - Library for efficient text classification and representation learning
+  * GloVe <https://nlp.stanford.edu/projects/glove/> - Global Vectors for Word Representation
+  * Kuromoji <https://www.atilika.org/> - An open source Japanese morphological analyzer written in Java
+  * Kagome <https://github.com/ikawaha/kagome> - An open source Japanese morphological analyzer written in pure golang
+* Sentence embedding <https://en.wikipedia.org/wiki/Sentence_embedding>
+* Retrieval-augmented generation (RAG) <https://en.wikipedia.org/wiki/Retrieval-augmented_generation>
+
+## 560 - Deep neural networks
 
 * Neural network <https://en.wikipedia.org/wiki/Neural_network_(machine_learning)>
   * Rectifier <https://en.wikipedia.org/wiki/Rectifier_(neural_networks)>
@@ -220,36 +225,7 @@ _Classification in progress._
   * Neural Networks and Deep Learning <http://neuralnetworksanddeeplearning.com/>
   * Deep Learning, MIT Press <https://www.deeplearningbook.org/>
 
-## Natural language processing
-
-* Linguistics <https://en.wikipedia.org/wiki/Linguistics>
-  * Morphology <https://en.wikipedia.org/wiki/Morphology_(linguistics)>
-  * Syntax <https://en.wikipedia.org/wiki/Syntax>
-  * Semantics <https://en.wikipedia.org/wiki/Semantics>
-  * Levenshtein distance <https://en.wikipedia.org/wiki/Levenshtein_distance>
-* n-gram <https://en.wikipedia.org/wiki/N-gram>
-* tf-idf (term frequency-inverse document frequency) <https://en.wikipedia.org/wiki/Tf%E2%80%93idf>
-* Word2vec <https://en.wikipedia.org/wiki/Word2vec>
-* Seq2seq <https://en.wikipedia.org/wiki/Seq2seq>
-* Tools
-  * Natural Language Toolkit <https://www.nltk.org/> - A leading platform for building Python programs to work with human language data
-  * fastText <https://fasttext.cc/> - Library for efficient text classification and representation learning
-  * GloVe <https://nlp.stanford.edu/projects/glove/> - Global Vectors for Word Representation
-  * Kuromoji <https://www.atilika.org/> - An open source Japanese morphological analyzer written in Java
-  * Kagome <https://github.com/ikawaha/kagome> - An open source Japanese morphological analyzer written in pure golang
-* Sentence embedding <https://en.wikipedia.org/wiki/Sentence_embedding>
-* Retrieval-augmented generation (RAG) <https://en.wikipedia.org/wiki/Retrieval-augmented_generation>
-
-## Computer vision and OCR
-
-* OpenCV <https://github.com/opencv/opencv> - An open-source library that includes several hundreds of computer vision algorithms
-* GoCV <https://gocv.io/> - A wrapper around the OpenCV 4.x computer vision library
-* Tesseract OCR <https://github.com/tesseract-ocr/tesseract>
-* gosseract OCR <https://github.com/otiai10/gosseract> - Golang OCR package, by using Tesseract C++ library
-* OCRmyPDF <https://ocrmypdf.readthedocs.io/en/latest/>
-* EasyOCR <https://github.com/JaidedAI/EasyOCR>
-
-## Generative AI
+## 570 - Large language models
 
 * Models
   * GPT-4 <https://openai.com/research/gpt-4> <https://arxiv.org/abs/2303.08774>

@@ -1,13 +1,17 @@
-# Class 300 - Web and applications
+# Class 300 - WWW and applications
 
 ## Timeline
 
 ### 1980s
 
+The Standard Generalized Markup Language (SGML; ISO 8879:1986) is a standard for defining generalized markup languages for documents.
+
 The Hypertext Transfer Protocol (HTTP) is an application layer protocol in the Internet protocol suite model for distributed, collaborative, hypermedia information systems.
 Development of HTTP was initiated by Tim Berners-Lee at CERN in 1989 and summarized in a simple document describing the behavior of a client and a server using the first HTTP protocol version that was named 0.9.
 
 ### 1990s
+
+In 1990, Tim Berners-Lee's proposals for hypertext implicitly introduced the idea of a URL as a short string representing a resource that is the target of a hyperlink.
 
 CERN httpd (later also known as W3C httpd) is an early, now discontinued, web server (HTTP) daemon originally developed at CERN from 1990 onwards by Tim Berners-Lee, Ari Luotonen and Henrik Frystyk Nielsen. Implemented in C, it was the first web server software.
 Initial release: 24 December 1990
@@ -17,6 +21,11 @@ The first web browser, WorldWideWeb, was developed in 1990 by Tim Berners-Lee fo
 libwww (Library World Wide Web) is a modular client-side web API for Unix and Windows. It is also the name of the reference implementation of the libwww API.
 In 1991 and 1992, Tim Berners-Lee and a student at CERN named Jean-François Groff rewrote various components of the original WorldWideWeb browser for the NeXTstep operating system in portable C code, in order to demonstrate the potential of the World Wide Web.
 Initial release: 1.0, November 1992
+
+In November 1992 the IETF "URI Working Group" met for the first time.
+
+The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.
+Initial release: 1993
 
 NCSA Mosaic is a discontinued web browser, one of the first to be widely available. It was instrumental in popularizing the World Wide Web and the general Internet by integrating multimedia such as text and graphics.
 Mosaic is based on the libwww library.
@@ -29,6 +38,8 @@ First released in 1993, it was among the earliest web servers developed.
 Common Gateway Interface (CGI) is an interface specification that enables web servers to execute an external program, typically to process user requests.
 In 1993, the National Center for Supercomputing Applications (NCSA) team wrote the specification for calling command line executables on the www-talk mailing list.
 
+In June 1994, the IETF published Berners-Lee's first Request for Comments that acknowledged the existence of URLs and URNs.
+
 Netscape Navigator was a proprietary web browser, and the original browser of the Netscape line, from versions 1 to 4.08, and 9.x. It was the flagship product of the Netscape Communications Corp and was the dominant web browser in terms of usage share in the 1990s.
 Initial release: 15 December 1994
 
@@ -39,6 +50,9 @@ PHP is a general-purpose scripting language geared toward web development. It wa
 PHP First appeared: June 8, 1995
 
 HTTP/1 was finalized and fully documented (as version 1.0) in 1996.
+
+Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML.
+Initial release: 17 December 1996
 
 In 1996, the iframe tag was introduced by Internet Explorer; like the object element, it can load or fetch content asynchronously.
 
