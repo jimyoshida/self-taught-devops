@@ -1,11 +1,18 @@
-# Class 300 - Web and applications
+# Class 300 - WWW and applications
 
 [Show timeline](./Timeline.md)
 
-_Classification in progress._
-
 ## 300 - Web and API style standards
 
+* World Wide Web <https://en.wikipedia.org/wiki/World_Wide_Web>
+  * Hypertext <https://en.wikipedia.org/wiki/Hypertext>
+  * URL <https://url.spec.whatwg.org/>
+  * URI <https://en.wikipedia.org/wiki/Uniform_Resource_Identifier>
+    * Perl URI <https://metacpan.org/pod/URI>
+  * HTML <https://html.spec.whatwg.org/>
+    * Perl Html::Entities <https://metacpan.org/pod/HTML::Entities>
+  * CSS <https://www.w3.org/Style/CSS/>
+  * Sass language <https://sass-lang.com/>
 * HTTP <https://en.wikipedia.org/wiki/HTTP>
   * HTTP cookie <https://en.wikipedia.org/wiki/HTTP_cookie>
   * JSON Merge Patch <https://datatracker.ietf.org/doc/html/rfc7396>
@@ -123,16 +130,17 @@ _Classification in progress._
 * .NET frameworks (reference)
   * ASP.NET <https://dotnet.microsoft.com/en-us/apps/aspnet>
 
-## 340 - Frontend libraries and tools
+## 340 - Frontend libraries, tools and frameworks
 
-* React <https://reactjs.org/>
+* React <https://reactjs.org/> - The library for web and native user interfaces
   * JSX language <https://react.dev/learn/writing-markup-with-jsx>
-  * MUI <https://mui.com/>
-* Vue.js <https://vuejs.org/>
+  * Material UI <https://mui.com/material-ui/> - An open-source React component library that implements Google's Material Design
+* Vue.js <https://vuejs.org/> - A JavaScript framework for building user interfaces
 * Bootstrap <https://getbootstrap.com/> - Powerful, extensible, and feature-packed frontend toolkit
 * GWT <https://www.gwtproject.org/> - A development toolkit for building and optimizing complex browser-based applications
-* Tailwind CSS <https://tailwindcss.com/>
-  * daisyUI <https://daisyui.com/> - The most popular component library
+* Tailwind CSS <https://tailwindcss.com/> - A utility-first CSS framework packed with classes
+  * daisyUI <https://daisyui.com/> - The most popular component library for Tailwind CSS
+* Emotion <https://emotion.sh/> - A library designed for writing css styles with JavaScript
 * Material Web <https://m3.material.io/develop/web/>
 * Percel <https://parceljs.org/> - The zero configuration build tool
 * Vite <https://vitejs.dev/> - Next Generation Frontend Tooling

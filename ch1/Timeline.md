@@ -139,6 +139,12 @@ Visual Studio 97 / 1997-03-19
 
 The first edition of ECMA-262 (ECMAScript) was adopted by the Ecma General Assembly in June 1997.
 
+Extensible Markup Language (XML) is a markup language and file format for storing, transmitting, and reconstructing arbitrary data. It defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.
+First published: February 10, 1998
+
+The Document Object Model (DOM) is a cross-platform and language-independent interface that treats an XML or HTML document as a tree structure wherein each node is an object representing a part of the document.
+First published: October 1, 1998
+
 In 1998, the Ruby Application Archive was launched by Matsumoto, along with a simple English-language homepage for Ruby.
 
 Perl 5 gained widespread popularity in the late 1990s as a CGI scripting language, in part due to its powerful regular expression and string parsing abilities.

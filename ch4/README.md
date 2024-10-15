@@ -2,8 +2,6 @@
 
 [Show timeline](./Timeline.md)
 
-_Classification in progress._
-
 ## 400 - References for security and privacy
 
 * InfoSec/CIA <https://en.wikipedia.org/wiki/Information_security>
@@ -67,6 +65,10 @@ _Classification in progress._
   * Access control list (ACL) <https://en.wikipedia.org/wiki/Access-control_list>
   * Role-based access control (RBAC) <https://en.wikipedia.org/wiki/Role-based_access_control>
 * Zero trust architecture (ZTA) <https://en.wikipedia.org/wiki/Zero_trust_security_model>
+* Directory service <https://en.wikipedia.org/wiki/Directory_service>
+  * LDAP <https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol>
+  * OpenLDAP <https://www.openldap.org/>
+  * 389 Directory Server <https://directory.fedoraproject.org/>
 * Specs
   * Basic authentication <https://en.wikipedia.org/wiki/Basic_access_authentication>
   * OpenID Connect <https://openid.net/connect/>
@@ -101,24 +103,25 @@ _Classification in progress._
     * certbot <https://certbot.eff.org/> - A free, open source software tool for automatically using Let’s Encrypt certificates
     * ACME (Automatic Certificate Management Environment) <https://en.wikipedia.org/wiki/Automatic_Certificate_Management_Environment>
   * AWS Certificate Manager <https://aws.amazon.com/certificate-manager/>
+  * Botan <https://botan.randombit.net/> - A C++ cryptography library
 * TLS (Transport Layer Security) <https://en.wikipedia.org/wiki/Transport_Layer_Security>
   * OpenSSL <https://www.openssl.org/>
   * stunnnel <https://www.stunnel.org/>
 * Secure Shell (SSH) <https://en.wikipedia.org/wiki/Secure_Shell>
   * OpenSSH <https://www.openssh.com/>
   * keychain <https://www.funtoo.org/Funtoo:Keychain>
-  * Python Paramiko <https://www.paramiko.org/>
-  * gliderlabs/ssh <https://pkg.go.dev/github.com/gliderlabs/ssh>
-  * mosh <https://mosh.org/>
-  * WinSSHTerm <https://winsshterm.blogspot.com/>
-  * charm_Wish <https://github.com/charmbracelet/wish> - an ssh app library
-  * charm_Wishlist <https://github.com/charmbracelet/wishlist> - the ssh directory
+  * Python Paramiko <https://www.paramiko.org/> - A pure-Python implementation of the SSHv2 protocol
+  * Python Fablic <https://www.fabfile.org/> - A high level Python library designed to execute shell commands remotely over SSH
+  * Go gliderlabs/ssh <https://pkg.go.dev/github.com/gliderlabs/ssh>
+  * charm_Wish <https://github.com/charmbracelet/wish> - An ssh app library
+  * charm_Wishlist <https://github.com/charmbracelet/wishlist> - The ssh directory
 * PGP (Pretty Good Privacy) <https://en.wikipedia.org/wiki/Pretty_Good_Privacy>
   * OpenPGP <https://www.openpgp.org/>
   * GnuPG <https://gnupg.org/>
   * Gpg4win <https://www.gpg4win.org/>
 * TOTP (Time-Based One-Time Password) <https://en.wikipedia.org/wiki/Time-based_one-time_password>
   * PyOTP <https://pyauth.github.io/pyotp/> - The Python One-Time Password Library
+  * Botan <https://botan.randombit.net/> - A C++ cryptography library
 * Web security
   * SOP (Same-origin policy) <https://en.wikipedia.org/wiki/Same-origin_policy>
   * CORS (Cross-Origin Resource Sharing) <https://en.wikipedia.org/wiki/Cross-origin_resource_sharing>
@@ -187,7 +190,7 @@ _Classification in progress._
 * Azure DDoS Protection <https://azure.microsoft.com/en-us/products/ddos-protection>
 * fail2ban <https://github.com/fail2ban/fail2ban>
 
-## 470 - Other tools for security and personal data
+## 470 - Other tools for security
 
 * Secret management
   * Hashicorp Vault <https://www.vaultproject.io/>
@@ -212,13 +215,6 @@ _Classification in progress._
   * netfilter <https://www.netfilter.org/index.html>
     * iptables <https://man7.org/linux/man-pages/man8/iptables.8.html>
   * ubuntu ufw <https://help.ubuntu.com/community/UFW>
-* Directory service
-  * Directory service <https://en.wikipedia.org/wiki/Directory_service>
-  * LDAP <https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol>
-  * OpenLDAP <https://www.openldap.org/>
-  * 389 Directory Server <https://directory.fedoraproject.org/>
-* Remote execution
-  * Python Fablic <https://www.fabfile.org/>
 
 ## 480 - Vulnerability databases
 
@@ -272,3 +268,4 @@ _Classification in progress._
   * PyCryptodome <https://www.pycryptodome.org/>
   * Python cryptography <https://cryptography.io/en/latest/>
   * Go Cryptography <https://pkg.go.dev/golang.org/x/crypto>
+  * Botan <https://botan.randombit.net/> - A C++ cryptography library
