@@ -143,6 +143,7 @@
 ## 540 - Machine learning
 
 * Paradigms and concepts
+  * Symbolic AI <https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence>
   * Supervised learning <https://en.wikipedia.org/wiki/Supervised_learning>
     * Decision tree learning <https://en.wikipedia.org/wiki/Decision_tree_learning>
     * Ensemble learning <https://en.wikipedia.org/wiki/Ensemble_learning>
@@ -189,16 +190,19 @@
   * Levenshtein distance <https://en.wikipedia.org/wiki/Levenshtein_distance>
 * n-gram <https://en.wikipedia.org/wiki/N-gram>
 * tf-idf (term frequency-inverse document frequency) <https://en.wikipedia.org/wiki/Tf%E2%80%93idf>
-* Word2vec <https://en.wikipedia.org/wiki/Word2vec>
-* Seq2seq <https://en.wikipedia.org/wiki/Seq2seq>
-* Tools
-  * Natural Language Toolkit <https://www.nltk.org/> - A leading platform for building Python programs to work with human language data
+* Word embedding <https://en.wikipedia.org/wiki/Word_embedding>
+  * Word2vec <https://en.wikipedia.org/wiki/Word2vec>
   * fastText <https://fasttext.cc/> - Library for efficient text classification and representation learning
   * GloVe <https://nlp.stanford.edu/projects/glove/> - Global Vectors for Word Representation
+  * wego <https://github.com/ynqa/wego> - The implementations from scratch for word embeddings (a.k.a word representation) models in Go
+* Sentence embedding <https://en.wikipedia.org/wiki/Sentence_embedding>
+  * Retrieval-augmented generation (RAG) <https://en.wikipedia.org/wiki/Retrieval-augmented_generation>
+  * Gensim <https://radimrehurek.com/gensim/> - A free open-source Python library for representing documents as semantic vectors
+* Other tools
+  * Natural Language Toolkit <https://www.nltk.org/> - A leading platform for building Python programs to work with human language data
   * Kuromoji <https://www.atilika.org/> - An open source Japanese morphological analyzer written in Java
   * Kagome <https://github.com/ikawaha/kagome> - An open source Japanese morphological analyzer written in pure golang
-* Sentence embedding <https://en.wikipedia.org/wiki/Sentence_embedding>
-* Retrieval-augmented generation (RAG) <https://en.wikipedia.org/wiki/Retrieval-augmented_generation>
+  * mecab-python3 <https://github.com/SamuraiT/mecab-python3> - A Python wrapper for the MeCab morphological analyzer for Japanese text
 
 ## 560 - Deep neural networks
 
@@ -230,7 +234,8 @@
 * Models
   * GPT-4 <https://openai.com/research/gpt-4> <https://arxiv.org/abs/2303.08774>
   * Llama <https://llama.meta.com/> <https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/>
-  * Gemini <https://gemini.google.com/>
+  * Google Gemini <https://gemini.google.com/>
+  * Anthropic Claude <https://www.anthropic.com/claude>
 * OpenAI API <https://platform.openai.com/>
   * Go OpenAI <https://github.com/sashabaranov/go-openai>
 * Azure OpnAI Service <https://azure.microsoft.com/en-us/products/ai-services/openai-service>

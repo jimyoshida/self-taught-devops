@@ -39,7 +39,6 @@
 * exception handling <https://en.wikipedia.org/wiki/Exception_handling_(programming)>
 * cohesion <https://en.wikipedia.org/wiki/Cohesion_(computer_science)>
 * assertion <https://en.wikipedia.org/wiki/Assertion_(software_development)>
-* test double <https://en.wikipedia.org/wiki/Test_double>
 * Object-oriented programming
   * abstraction <https://en.wikipedia.org/wiki/Abstraction_(computer_science)>
   * encapsulation <https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)>
@@ -99,20 +98,22 @@
   * GNU parallel <https://www.gnu.org/software/parallel/>
   * rlwrap <https://github.com/hanslub42/rlwrap>
   * charm_mods <https://github.com/charmbracelet/mods> - AI on the command line
-* Terminals
+* Terminal emulator <https://en.wikipedia.org/wiki/Terminal_emulator>
   * Terminator <https://gnome-terminator.org>
   * Windows Terminal <https://github.com/microsoft/terminal>
   * Mintty <https://mintty.github.io/>
+  * PuTTY <https://www.chiark.greenend.org.uk/~sgtatham/putty/> - A free implementation of SSH and Telnet for Windows and Unix platforms
+  * xterm <https://invisible-island.net/xterm/>
   * ANSI escape code <https://en.wikipedia.org/wiki/ANSI_escape_code>
-* Terminal utilities
-  * screen <https://www.gnu.org/software/screen/>
-  * tmux <https://github.com/tmux/tmux/wiki>
-  * byobu <https://www.byobu.org/>
-  * zellij <https://zellij.dev/>
-  * asciinema <https://asciinema.org/> - recording terminal sessions and sharing them on the web
-* Terminal fonts
-  * Noto Fonts <https://fonts.google.com/noto>
-  * Nerd Fonts <https://www.nerdfonts.com/>
+  * Terminal utilities
+    * screen <https://www.gnu.org/software/screen/>
+    * tmux <https://github.com/tmux/tmux/wiki>
+    * byobu <https://www.byobu.org/>
+    * zellij <https://zellij.dev/>
+    * asciinema <https://asciinema.org/> - recording terminal sessions and sharing them on the web
+  * Terminal fonts
+    * Noto Fonts <https://fonts.google.com/noto>
+    * Nerd Fonts <https://www.nerdfonts.com/>
 * Search tools
   * findutils <https://www.gnu.org/software/findutils/>
   * fzf <https://github.com/junegunn/fzf>
@@ -242,7 +243,9 @@
   * Eclipse IDE <https://eclipseide.org/>
   * Eclipse Che <https://eclipse.dev/che/>
 * AI assistance
+  * OpenHands <https://docs.all-hands.dev/> - A platform for software development agents powered by AI
   * GitHub Copilot <https://github.com/features/copilot/>
+  * Gemini Code Assist <https://cloud.google.com/products/gemini/code-assist>
   * Amazon Q Developer <https://aws.amazon.com/q/developer/>
   * CodeGPT <https://www.codegpt.co/>
   * Cursor <https://cursor.sh/>
@@ -267,6 +270,7 @@
   * degit <https://github.com/Rich-Harris/degit>
   * lazygit <https://github.com/jesseduffield/lazygit>
   * charm_Soft Serve <https://github.com/charmbracelet/soft-serve> - a self-hostable Git server
+  * git lint <https://alchemists.io/projects/git-lint> - A command line interface for linting Git commits by ensuring you maintain a clean, easy to read, debuggable, and maintainable project history
   * git cliff <https://git-cliff.org/> - A highly customizable changelog generator
   * Source code management services
     * GitHub <https://github.com/>
@@ -309,9 +313,9 @@
 * ASCII <https://en.wikipedia.org/wiki/ASCII>
 * Unicode <https://home.unicode.org/>
   * ICU <https://icu.unicode.org/> - a mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support
-* Unicode Emoji <https://home.unicode.org/emoji/>
-  * Python emoji <https://github.com/carpedm20/emoji/>
-  * Go emoji <https://github.com/kyokomi/emoji>
+  * Unicode Emoji <https://home.unicode.org/emoji/>
+    * Python emoji <https://github.com/carpedm20/emoji/>
+    * Go emoji <https://github.com/kyokomi/emoji>
 * Regex <https://en.wikipedia.org/wiki/Regular_expression>
   * PCRE <https://en.wikipedia.org/wiki/Perl_Compatible_Regular_Expressions>
   * Oniguruma <https://github.com/kkos/oniguruma> - A regular expression library
@@ -319,22 +323,19 @@
   * Python re <https://docs.python.org/3/library/re.html>
   * Go regexp <https://pkg.go.dev/regexp>
 * GNU sed <https://www.gnu.org/software/sed/>; <https://sed.sourceforge.io/>
-* sd <https://github.com/chmln/sd> - sed alternative
 * GNU awk <https://www.gnu.org/software/gawk/>
-* Diff tools
-  * diffutils <https://www.gnu.org/software/diffutils/>
-  * colordiff <https://www.colordiff.org/>
-* Tabular data
-  * TSV <https://en.wikipedia.org/wiki/Tab-separated_values>
-  * CSV <https://en.wikipedia.org/wiki/Comma-separated_values>
+* sd <https://github.com/chmln/sd> - sed alternative
+* GNU diffutils <https://www.gnu.org/software/diffutils/>
+* colordiff <https://www.colordiff.org/>
+* CSV <https://en.wikipedia.org/wiki/Comma-separated_values>
+  * csvkit <https://csvkit.readthedocs.io/en/latest/> - A suite of command-line tools for converting to and working with CSV
+  * xsv <https://github.com/BurntSushi/xsv> - A fast CSV command line toolkit written in Rust
+  * qsv <https://github.com/jqnatividad/qsv> - Blazing-fast Data-Wrangling toolkit
   * Text::CSV <https://metacpan.org/pod/Text::CSV>
   * Python csv <https://docs.python.org/3/library/csv.html>
-  * Python tabulate <https://github.com/astanin/python-tabulate>
   * Go csv <https://pkg.go.dev/encoding/csv>
-  * js Papa Parse <https://www.papaparse.com/>
-  * csvkit <https://csvkit.readthedocs.io/en/latest/>
-  * xsv <https://github.com/BurntSushi/xsv>
-  * qsv <https://github.com/jqnatividad/qsv>
+  * js Papa Parse <https://www.papaparse.com/> - The powerful, in-browser CSV parser
+* TSV <https://en.wikipedia.org/wiki/Tab-separated_values>
 * Data exchange languages
   * JSON <https://www.json.org/json-en.html>
     * jq <https://stedolan.github.io/jq/> - A lightweight and flexible command-line JSON processor
@@ -343,6 +344,7 @@
     * JSON::Tiny <https://metacpan.org/pod/JSON::Tiny>
     * Python json <https://docs.python.org/3/library/json.html>
     * fx <https://fx.wtf/> - Terminal JSON viewer & processor
+    * jnv <https://github.com/ynqa/jnv> - Interactive JSON filter using jq
   * XML <https://www.w3.org/XML/>
     * XPath <https://www.w3.org/TR/xpath/>
     * DOM <https://dom.spec.whatwg.org/>
@@ -355,6 +357,8 @@
     * yq (go) <https://github.com/mikefarah/yq>
     * YAML::Tiny <https://metacpan.org/pod/YAML::Tiny>
     * PyYAML <https://github.com/yaml/pyyaml>
+  * StrictYAML <https://hitchdev.com/strictyaml/> - A type-safe YAML parser that parses and validates a restricted subset of the YAML specification
+    * The Norway Problem <https://hitchdev.com/strictyaml/why/implicit-typing-removed/>
   * TOML <https://toml.io/en/>
     * TOML::Tiny <https://metacpan.org/pod/TOML::Tiny>
     * Python tomllib <https://docs.python.org/3/library/tomllib.html>
@@ -381,8 +385,16 @@
   * Template Toolkit <https://template-toolkit.org/> - A fast, flexible and highly extensible template processing system
   * ERB <https://github.com/ruby/erb> - An easy to use but powerful templating system for Ruby
   * envsubst in gettext <https://www.gnu.org/software/gettext/manual/gettext.html#envsubst-Invocation>
+* CEL <https://cel.dev/> - A general-purpose expression language designed to be fast, portable, and safe to execute
 * CUE <https://cuelang.org/> - An open-source data validation language and inference engine with its roots in logic programming
 * unified <https://unifiedjs.com/> - A friendly interface backed by an ecosystem of plugins built for creating and manipulating content
+* Markdown processing
+  * remark <https://remark.js.org/> - A markdown processor powered by plugins
+  * markdown-it <https://github.com/markdown-it/markdown-it>
+  * markdown-it-py <https://markdown-it-py.readthedocs.io/en/latest/>
+  * Regexp::Common::Markdown <https://metacpan.org/pod/Regexp::Common::Markdown>
+  * Text::MarkdownTable <https://metacpan.org/pod/Text::MarkdownTable>
+  * Python tabulate <https://github.com/astanin/python-tabulate>
 * Language processing (advanced)
   * Chomsky hierarchy <https://en.wikipedia.org/wiki/Chomsky_hierarchy>
   * Automata theory <https://en.wikipedia.org/wiki/Automata_theory>
@@ -399,7 +411,7 @@
     * Prism <https://prismjs.com>
     * Pygments <https://pygments.org/>
 
-## 150 - Debugging, logging, unit test, and coverage
+## 150 - Debugging, logging, and unit testing
 
 * Debuggers and loggers
   * DAP <https://microsoft.github.io/debug-adapter-protocol/>
@@ -429,7 +441,10 @@
     * log4perl <https://metacpan.org/pod/Log::Log4perl>
   * C
     * GDB <https://www.gnu.org/software/gdb/> - The GNU Project debugger
-* Unit test tools
+* Unit testing
+  * test case <https://en.wikipedia.org/wiki/Test_case>
+  * test double <https://en.wikipedia.org/wiki/Test_double>
+  * Unit testing best practices with .NET <https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices>
   * Bash
     * Bats-core <https://bats-core.readthedocs.io/en/stable/>
     * shUnit2 <https://github.com/kward/shunit2>
@@ -530,17 +545,20 @@
   * rustdoc <https://doc.rust-lang.org/rustdoc/>
   * RDoc <https://ruby.github.io/rdoc/>
   * Javadoc <https://www.oracle.com/java/technologies/javase/javadoc-tool.html>
-* Package management
+* Package dependency management
   * npm CLI <https://www.npmjs.com/>
   * yarn <https://yarnpkg.com/>
   * pnpm <https://pnpm.io>
   * pip <https://pip.pypa.io/>
+  * poetry <https://python-poetry.org/> - A tool for dependency management and packaging in Python
+  * PDM <https://pdm-project.org/en/latest/> - A modern Python package and dependency manager supporting the latest PEP standards
   * Go mod <https://pkg.go.dev/cmd/go>
   * cpanminus <https://metacpan.org/pod/App::cpanminus>
   * bpkg <https://bpkg.sh/bpkg/>
   * Conan <https://conan.io/>
   * Cargo <https://doc.rust-lang.org/stable/cargo/>
   * RubyGems CLI <https://rubygems.org/>
+  * Bundler <https://bundler.io/> - provides a consistent environment for Ruby projects
   * NuGet CLI <https://www.nuget.org/>
   * stack <https://docs.haskellstack.org/en/stable/>
   * Gradle <https://gradle.org/>
@@ -600,20 +618,24 @@
 
 ## 180 - Binary and image processing
 
-* Archivers
+* Compression and archiving
   * GNU Gzip <https://www.gnu.org/software/gzip/>
   * GNU tar <https://www.gnu.org/software/tar/>
-  * Info-Zip <https://sourceforge.net/projects/infozip/>
-  * 7-Zip <https://www.7-zip.org/>
+  * Info-Zip <https://sourceforge.net/projects/infozip/> - Portable compression/archiver utilities
+  * P7ZIP <https://p7zip.sourceforge.net/> - A port of 7za.exe for POSIX systems
+  * Python Data Compression and Archiving libs <https://docs.python.org/3/library/archiving.html>
+  * Go compress libs <https://pkg.go.dev/compress>
+  * Go archive libs <https://pkg.go.dev/archive>
   * JSZip <https://stuk.github.io/jszip/> - A javascript library for creating, reading and editing .zip files
-  * go zip <https://pkg.go.dev/archive/zip>
 * Binary file processing
-  * file (command) <https://www.darwinsys.com/file/>
+  * file (command) <https://www.darwinsys.com/file/> - A file type guesser
   * ELF format <https://en.wikipedia.org/wiki/Executable_and_Linkable_Format>
   * hexdump <https://man7.org/linux/man-pages/man1/hexdump.1.html>
-  * xxd <https://github.com/ckormanyos/xxd>
-  * fq <https://github.com/wader/fq>
-  * Image::ExifTool <https://metacpan.org/pod/Image::ExifTool>
+  * xxd <https://github.com/ckormanyos/xxd> - The well-known hex-dump-type utility
+  * bed <https://github.com/itchyny/bed> - Binary editor written in Go
+  * fq <https://github.com/wader/fq> - Inspired by the jq tool and language and allows you to work with binary formats in the same way
+  * ImageMagick <https://imagemagick.org/index.php> - A free, open-source software suite, used for editing and manipulating digital images
+  * Image::ExifTool <https://metacpan.org/pod/Image::ExifTool> - Read and write meta information
 * Office document processing
   * Formats
     * PDF <https://en.wikipedia.org/wiki/PDF>

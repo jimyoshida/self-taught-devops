@@ -4,6 +4,10 @@
 
 ### 1970s
 
+The Data Encryption Standard is a symmetric-key algorithm for the encryption of digital data. Although its short key length of 56 bits makes it too insecure for modern applications, it has been highly influential in the advancement of cryptography.
+The origins of DES date to 1972, when a National Bureau of Standards study of US government computer security identified a need for a government-wide standard for encrypting unclassified, sensitive information.
+On 17 March 1975, the proposed DES was published in the Federal Register. Public comments were requested, and in the following year two open workshops were held to discuss the proposed standard.
+
 Diffie–Hellman key exchange is a mathematical method of securely exchanging cryptographic keys over a public channel.
 Published in 1976 by Diffie and Hellman, this is the earliest publicly known work that proposed the idea of a private key and a corresponding public key.
 
@@ -20,6 +24,12 @@ X.509 First published 1.0 at November 25, 1988
 ### 1990s
 
 Pretty Good Privacy (PGP) is an encryption program that provides cryptographic privacy and authentication for data communication. PGP is used for signing, encrypting, and decrypting texts, e-mails, files, directories, and whole disk partitions and to increase the security of e-mail communications. Phil Zimmermann developed PGP in 1991.
+
+MD5 is one in a series of message digest algorithms designed by Professor Ronald Rivest of MIT (Rivest, 1992). When analytic work indicated that MD5's predecessor MD4 was likely to be insecure, Rivest designed MD5 in 1991 as a secure replacement.
+First published: April 1992
+
+SHA-1 (Secure Hash Algorithm 1) is a hash function which takes an input and produces a 160-bit (20-byte) hash value known as a message digest – typically rendered as 40 hexadecimal digits. It was designed by the United States National Security Agency, and is a U.S. Federal Information Processing Standard.
+First published: 1995
 
 Transport Layer Security (TLS) is a cryptographic protocol designed to provide communications security over a computer network.
 Netscape developed the original SSL protocols, and Taher Elgamal, chief scientist at Netscape Communications from 1995 to 1998, has been described as the "father of SSL".
@@ -59,6 +69,11 @@ Code Red was a computer worm observed on the Internet on July 15, 2001. It attac
 
 The Nimda virus is a malicious file-infecting computer worm. It quickly spread, surpassing the economic damage caused by previous outbreaks such as Code Red.
 The first released advisory about this thread (worm) was released on September 18, 2001.
+
+SHA-2 (Secure Hash Algorithm 2) is a set of cryptographic hash functions designed by the United States National Security Agency (NSA) and first published in 2001.
+They are built using the Merkle–Damgård construction, from a one-way compression function itself built using the Davies–Meyer structure from a specialized block cipher.
+
+The Advanced Encryption Standard (AES), also known by its original name Rijndael, is a specification for the encryption of electronic data established by the U.S. National Institute of Standards and Technology (NIST) in 2001.
 
 In 2006, a revised version of the protocol, SSH-2, was adopted as a standard.
 This version is incompatible with SSH-1.

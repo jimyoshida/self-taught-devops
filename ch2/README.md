@@ -77,6 +77,10 @@
   * rsync <https://rsync.samba.org/>
   * Vixie Cron <https://github.com/vixie/cron>
   * logrotate <https://github.com/logrotate/logrotate>
+  * Syslog <https://en.wikipedia.org/wiki/Syslog>
+  * rsyslog <https://www.rsyslog.com/> - The rocket-fast system for log processing
+  * systemd-journald <https://man7.org/linux/man-pages/man8/systemd-journald.service.8.html>
+    * journalctl <https://man7.org/linux/man-pages/man1/journalctl.1.html>
   * procps <https://gitlab.com/procps-ng/procps>
     * ps <https://man7.org/linux/man-pages/man1/ps.1.html>
     * top <https://www.man7.org/linux/man-pages/man1/top.1.html>
@@ -98,9 +102,6 @@
   * sysstat <https://sysstat.github.io/>
     * iostat <https://man7.org/linux/man-pages/man1/iostat.1.html>
   * smem <https://www.selenic.com/smem/>
-  * Syslog <https://en.wikipedia.org/wiki/Syslog>
-  * systemd-journald <https://man7.org/linux/man-pages/man8/systemd-journald.service.8.html>
-    * journalctl <https://man7.org/linux/man-pages/man1/journalctl.1.html>
   * jc <https://kellyjonbrazil.github.io/jc/docs/> - Json adaptor
   * aha <https://github.com/theZiz/aha> - Ansi HTML Adapter
     * NO_COLOR <https://no-color.org/>
@@ -114,6 +115,7 @@
   * broot <https://dystroy.org/broot/>
   * bat <https://github.com/sharkdp/bat>
   * dust <https://github.com/bootandy/dust>
+  * dua <https://github.com/byron/dua-cli>
   * duf <https://github.com/muesli/duf>
   * procs <https://github.com/dalance/procs>
   * htop <https://hisham.hm/htop/>
@@ -145,6 +147,7 @@
   * Homebrew <https://brew.sh/>
   * Flatpak <https://flatpak.org/>
   * Snapcraft <https://snapcraft.io/>
+  * arkade <https://github.com/alexellis/arkade> - Open Source Marketplace For Developer Tools
 
 ## 220 - Domain name system and Email
 
@@ -206,7 +209,6 @@
   * lazydocker <https://github.com/jesseduffield/lazydocker>
   * dive <https://github.com/wagoodman/dive>
 * Container registries
-  * Docker Hub <https://docs.docker.com/docker-hub/>
   * GitLab Container Registry <https://docs.gitlab.com/ee/user/packages/container_registry/index.html>
   * Nexus Repository Manager 3 <https://help.sonatype.com/repomanager3>
   * Amazon ECR <https://aws.amazon.com/ecr/>
@@ -222,7 +224,8 @@
 ## 240 - Kubernetes
 
 * Kubernetes <https://kubernetes.io/>
-* consensus <https://en.wikipedia.org/wiki/Consensus_(computer_science)>
+* Byzantine fault <https://en.wikipedia.org/wiki/Byzantine_fault>
+  * consensus <https://en.wikipedia.org/wiki/Consensus_(computer_science)>
 * K8s as a service
   * GKE <https://cloud.google.com/kubernetes-engine/>
   * Azure Kubernetes Service <https://azure.microsoft.com/en-us/services/kubernetes-service/>
@@ -264,17 +267,21 @@
 * HPA <https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/>
 * Autoscalers <https://github.com/kubernetes/autoscaler/tree/master>
 * kube-fencing <https://github.com/kvaps/kube-fencing>
-* Kustomize <https://kustomize.io/>
+* KubeVirt <https://kubevirt.io/> - Building a virtualization API for Kubernetes
+* Kubebuilder <https://github.com/kubernetes-sigs/kubebuilder> - A framework for building Kubernetes APIs using custom resource definitions (CRDs)
 * Networking
   * Calico <https://www.tigera.io/projectCalico>
   * Cilium <https://cilium.io/>
-* Helm <https://helm.sh/>
-  * Artifact Hub <https://artifacthub.io/>
-* Kubernetes Lens IDE <https://k8slens.dev/>
-* k9s <https://k9scli.io/>
-* KDash <https://kdash.cli.rs/>
-* k1s <https://github.com/weibeld/k1s>
-* Krew <https://krew.sigs.k8s.io/>
+* Kustomize <https://kustomize.io/> - A standalone tool to customize Kubernetes objects through a kustomization file
+* Helm <https://helm.sh/> - The package manager for Kubernetes
+* Dashboard
+  * Kubernetes Lens IDE <https://k8slens.dev/>
+  * k9s <https://k9scli.io/> - A terminal based UI to interact with your Kubernetes cluster
+  * KDash <https://kdash.cli.rs/> - A simple terminal dashboard for Kubernetes built with Rust
+  * k1s <https://github.com/weibeld/k1s> - A minimalistic Kubernetes dashboard
+  * Seabird <https://getseabird.github.io/> - The native desktop app that simplifies working with Kubernetes
+  * Headlamp <https://headlamp.dev/> - A user-friendly Kubernetes UI focused on extensibility
+* Krew <https://krew.sigs.k8s.io/> - The plugin manager for kubectl command-line tool
   * kubectl-node-shell <https://github.com/kvaps/kubectl-node-shell>
   * kubectl-tree <https://github.com/ahmetb/kubectl-tree#readme>
   * kubectl-pod-inspect <https://github.com/jpriebe/kubectl-pod-inspect#readme>
@@ -432,9 +439,10 @@
     * App Insights <https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview>
   * AWS CloudWatch <https://aws.amazon.com/cloudwatch/>
 * Visualization
-  * Grafana <https://grafana.com/>
+  * Grafana <https://grafana.com/oss/grafana/> - The open source data visualization and monitoring solution
     * Grafonnet <https://grafana.github.io/grafonnet/> - Jsonnet library for generating Grafana dashboards
-  * Kibana <https://www.elastic.co/kibana>
+  * Kibana <https://www.elastic.co/kibana> - Discover, iterate, and resolve with ES|QL
+  * Uptime Kuma <https://uptime.kuma.pet/> - An easy-to-use self-hosted monitoring tool
   * Azure Dashboard <https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-dashboards>
   * Datadog <https://www.datadoghq.com/>
 
@@ -474,3 +482,6 @@
   * Chocolatey <https://chocolatey.org>
   * Scoop <https://scoop.sh/>
   * gsudo <https://gerardog.github.io/gsudo/>
+* Windows tools
+  * AutoHotKey <https://www.autohotkey.com/> - A free, open-source scripting language for Windows that allows users to easily create small to complex scripts
+  * Clavier+ <https://gryder.org/software/clavier-plus/> - Allows to trigger actions with keyboard shortcuts

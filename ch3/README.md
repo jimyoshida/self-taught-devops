@@ -67,7 +67,8 @@
 * GitLab Pages <https://docs.gitlab.com/ee/user/project/pages/>
 * Forward proxy and caching
   * Web cache <https://en.wikipedia.org/wiki/Web_cache>
-  * CDN <https://en.wikipedia.org/wiki/Content_delivery_network>
+    * CDN <https://en.wikipedia.org/wiki/Content_delivery_network>
+    * Point of presence (PoP) <https://en.wikipedia.org/wiki/Point_of_presence>
   * Squid <http://www.squid-cache.org/>
   * Azure Content Delivery Network <https://azure.microsoft.com/en-us/services/cdn/>
   * Amazon CloudFront <https://aws.amazon.com/cloudfront/>
@@ -185,3 +186,22 @@
   * gtk <https://www.gtk.org/>
     * pygobject <https://pygobject.gnome.org/>
   * Fyne <https://fyne.io/> - An easy to learn toolkit for creating graphical apps for desktop, mobile and web
+
+## 390 - Web marketing (reference)
+
+* Wappalyzer <https://www.wappalyzer.com/> - A technology profiler that shows you what websites are built with
+* Analytics
+  * Google Analytics <https://developers.google.com/analytics>
+  * Plausible <https://plausible.io/> - Intuitive, lightweight and open source web analytics.
+* Tag manager <https://en.wikipedia.org/wiki/Tag_management_system>
+  * Google Tag Manager <https://marketingplatform.google.com/about/tag-manager/>
+* Core Web Vitals <https://web.dev/articles/vitals#core-web-vitals>
+  * Largest Contentful Paint (LCP)
+  * Interaction to Next Paint (INP)
+  * Cumulative Layout Shift (CLS)
+* Advertisement
+  * Google Ads <https://ads.google.com/home/>
+  * Google AdSence <https://adsense.google.com/start/>
+  * Microsoft Advertising <https://ads.microsoft.com/>
+* Experiment platform
+  * Optimizely <https://www.optimizely.com/>
