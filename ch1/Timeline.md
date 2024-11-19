@@ -343,3 +343,5 @@ A second edition, The Pragmatic Programmer: Your Journey to Mastery was released
 ### 2020s
 
 In November 2020, Microsoft released .NET 5.0. The "Core" branding was removed and version 4.0 was skipped to avoid conflation with .NET Framework, which remains the Windows-specific product. It addresses the patent concerns related to the .NET Framework.
+
+Deno 2 was announced on October 9, 2024.

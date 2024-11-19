@@ -5,105 +5,131 @@
 ## 400 - References for security and privacy
 
 * InfoSec/CIA <https://en.wikipedia.org/wiki/Information_security>
-* NIST SP 800-53 (Security and Privacy Controls for Information Systems and Organizations) Rev.5
-  1. AC - Access Control
-  1. AT - Awareness and Training
-  1. AU - Audit and Accountability
-  1. CA - Assessment, Authorization and Monitoring
-  1. CM - Configuration Management
-  1. CP - Contingency Planning
-  1. IA - Identification and Authentication
-  1. IR - Incident Response
-  1. MA - Maintenance
-  1. MP - Media Protection
-  1. PE - Physical and Environmental Protection
-  1. PL - Planning
-  1. PM - Program Management
-  1. PS - Personnel Security
-  1. PT - Personally Identifiable Information Processing and Transparency
-  1. RA - Risk Assessment
-  1. SA - System and Services Acquisition
-  1. SC - System and Communications Protection
-  1. SI - System and Information Integrity
-  1. SR - Supply Chain Risk Management
-* NIST SP 800-160 Vol.2 (Developing Cyber-Resilient Systems)
-  1. Adaptive Response: Implement agile courses of action to manage risks.
-  1. Analytic Monitoring: Monitor and analyze a wide range of properties and behaviors on an ongoing basis and in a coordinated way.
-  1. Contextual Awareness: Construct and maintain current representations of the posture of missions or business functions while considering threat events and courses of action.
-  1. Coordinated Protection: Ensure that protection mechanisms operate in a coordinated and effective manner.
-  1. Deception: Mislead, confuse, hide critical assets from, or expose covertly tainted assets to the adversary.
-  1. Diversity: Use heterogeneity to minimize common mode failures, particularly threat events exploiting common vulnerabilities.
-  1. Dynamic Positioning: Distribute and dynamically relocate functionality or system resources.
-  1. Non-Persistence: Generate and retain resources as needed or for a limited time.
-  1. Privilege Restriction: Restrict privileges based on attributes of users and system elements, as well as on environmental factors.
-  1. Realignment: Structure systems and resource uses to align with mission or business function needs, reduce current and anticipated risks, and accommodate the evolution of technical, operational, and threat environments.
-  1. Redundancy: Provide multiple protected instances of critical resources.
-  1. Segmentation: Define and separate system elements based on criticality and trustworthiness.
-  1. Substantiated Integrity: Ascertain whether critical system elements have been corrupted.
-  1. Unpredictability: Make changes randomly or unpredictably.
-* Secure application development
-  * OWASP Cheat Sheet Series <https://cheatsheetseries.owasp.org/>
-  * OWASP ASVS <https://owasp.org/www-project-application-security-verification-standard/>
-  * ATT&CK <https://attack.mitre.org/> - A globally-accessible knowledge base of adversary tactics and techniques
-  * Threat modeling <https://en.wikipedia.org/wiki/Threat_model>
-    * STRIDE model <https://en.wikipedia.org/wiki/STRIDE_%28security%29>
-    * OWASP Threat Dragon <https://owasp.org/www-project-threat-dragon/>
+* Vulnerability <https://en.wikipedia.org/wiki/Vulnerability_(computing)>
+* Certifications, Regulations and Standards
+  * NIST SP 800-53: Security and Privacy Controls for Information Systems and Organizations
+    * AC - Access Control
+    * AT - Awareness and Training
+    * AU - Audit and Accountability
+    * CA - Assessment, Authorization and Monitoring
+    * CM - Configuration Management
+    * CP - Contingency Planning
+    * IA - Identification and Authentication
+    * IR - Incident Response
+    * MA - Maintenance
+    * MP - Media Protection
+    * PE - Physical and Environmental Protection
+    * PL - Planning
+    * PM - Program Management
+    * PS - Personnel Security
+    * PT - Personally Identifiable Information Processing and Transparency
+    * RA - Risk Assessment
+    * SA - System and Services Acquisition
+    * SC - System and Communications Protection
+    * SI - System and Information Integrity
+    * SR - Supply Chain Risk Management
+  * NIST SP 800-171: Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations
+  * General Data Protection Regulation (GDPR) <https://gdpr.eu/>
+    * Data subject requests (DSR)
+    * Breach notification
+    * Data protection impact assessment (DPIA)
+  * California Consumer Privacy Act (CCPA) <https://oag.ca.gov/privacy/ccpa>
+  * ISO/IEC 27001: Information security, cybersecurity and privacy protection — Information security management systems (ISMS)
+  * ISO/IEC 27002: Information security, cybersecurity and privacy protection — Information security controls
+  * ISO/IEC 27018: Information technology — Security techniques — Code of practice for protection of personally identifiable information (PII) in public clouds acting as PII processors
   * Security Technical Implementation Guides (STIGs) <https://public.cyber.mil/stigs/>
-  * SLSA framework <https://slsa.dev/>
-  * Secure Software Development Framework <https://csrc.nist.gov/Projects/ssdf>
-* Standards
-  * ISO/IEC 27001: Information security management systems (ISMS)
-  * PCI DSS <https://www.pcisecuritystandards.org/document_library/>
-  * SOC (System and Organization Controls) 2 <https://drata.com/product/soc-2>
-  * Cloud Application Security Assessment (CASA) <https://appdefensealliance.dev/casa>
+  * CIS Controls and Benchmarks <https://www.cisecurity.org/>
+  * PCI-DSS <https://www.pcisecuritystandards.org/document_library/> - An information security standard used to handle credit cards from major card brands
+  * SOC 2 (System and Organization Controls) <https://soc2.co.uk/>
+  * FIPS 140-2 (Security Requirements for Cryptographic Modules) <https://en.wikipedia.org/wiki/FIPS_140-2>
+* Security Content Automation Protocol (SCAP) <https://csrc.nist.gov/projects/security-content-automation-protocol/>
+  * CVE (Common Vulnerabilities and Exposures) <https://cve.mitre.org/cve/>
+  * OVAL (Open Vulnerability and Assessment Language) <https://oval.mitre.org/>
+  * CVSS (Common Vulnerability Scoring System) <https://www.first.org/cvss/>
+  * NVD (U.S. National Vulnerability Database) <https://nvd.nist.gov/>
+  * CWE (Common Weakness Enumeration) <https://cwe.mitre.org/>
+* Other references
+  * CWE/SANS TOP 25 <https://www.sans.org/top25-software-errors/>
+  * OWASP Top 10 <https://owasp.org/www-project-top-ten/>
+  * OWASP Top 10 for LLM <https://genai.owasp.org/llm-top-10/>
+  * OSV (Open Source Vulnerability) <https://osv.dev/>
+  * SSVC (Stakeholder-Specific Vulnerability Categorization) <https://www.cisa.gov/stakeholder-specific-vulnerability-categorization-ssvc>
+  * KEV (Known Exploited Vulnerabilities) <https://www.cisa.gov/known-exploited-vulnerabilities-catalog>
 
-## 410 - Identity and access management
+## 410 - Secure software development
 
+* ATT&CK <https://attack.mitre.org/> - A globally-accessible knowledge base of adversary tactics and techniques
+  * Tactics: The high-level objectives or goals that an adversary aims to achieve during an attack.
+  * Techniques: The specific methods or ways adversaries achieve their tactical objectives.
+  * Procedures: The specific implementations or variations of techniques that adversaries utilize in their operations.
+* SLSA framework <https://slsa.dev/> - A specification for describing and incrementally improving supply chain security
+* Secure Software Development Framework <https://csrc.nist.gov/Projects/ssdf> - A set of fundamental, sound, and secure software development practices based on established secure software development practice documents
+* OWASP Cheat Sheet Series <https://cheatsheetseries.owasp.org/>
+* OWASP Application Security Verification Standard (ASVS) <https://owasp.org/www-project-application-security-verification-standard/>
+* Threat modeling <https://en.wikipedia.org/wiki/Threat_model>
+  * STRIDE model <https://en.wikipedia.org/wiki/STRIDE_%28security%29>
+  * OWASP Threat Dragon <https://owasp.org/www-project-threat-dragon/>
+* STIX (Structured Threat Information Expression) <https://oasis-open.github.io/cti-documentation/stix/intro> - A language and serialization format used to exchange cyber threat intelligence (CTI)
+* Business email compromise (BEC) <https://www.microsoft.com/en-us/security/business/security-101/what-is-business-email-compromise-bec>
+* Demonstration
+  * Evilginx <https://github.com/kgretzky/evilginx2> - A man-in-the-middle attack framework used for phishing login credentials along with session cookies
+
+## 420 - Identity and access management
+
+* Identity management (integrated) <https://en.wikipedia.org/wiki/Identity_management>
+  * JSON Web Token (JWT) <https://en.wikipedia.org/wiki/JSON_Web_Token>
+  * FusionAuth CE <https://fusionauth.io/> - adds login, registration, SSO, MFA, and a bazillion other features to your app in days - not months
+  * KeyCloak <https://www.keycloak.org/> - provides user federation, strong authentication, user management, fine-grained authorization, and more
+  * FreeIPA <https://www.freeipa.org/> - An integrated security information management solution combining Linux (Fedora), 389 Directory Server, MIT Kerberos, NTP, DNS, Dogtag (Certificate System)
+  * Microsoft Entra ID <https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id>
+  * AWS IAM <https://aws.amazon.com/iam/>
+    * AWS Security Token Service (STS)
+  * Amazon Cognito <https://aws.amazon.com/cognito/>
+  * Auth0 <https://auth0.com/>
 * Authenticarion <https://en.wikipedia.org/wiki/Authentication>
-  * Identity management <https://en.wikipedia.org/wiki/Identity_management>
+  * Basic authentication <https://en.wikipedia.org/wiki/Basic_access_authentication>
+  * OpenID Connect <https://openid.net/connect/>
+  * SAML (Security Assertion Markup Language) <http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html>
+  * WS-Federation <http://docs.oasis-open.org/wsfed/federation/v1.2/ws-federation.html>
+  * FIDO2 (Fast Identity Online 2) <https://fidoalliance.org/specifications/>
+    * WebAuthn <https://www.w3.org/TR/webauthn-1/>
+    * CTAP <https://fidoalliance.org/specs/fido-v2.0-id-20180227/fido-client-to-authenticator-protocol-v2.0-id-20180227.html>
+    * Passkeys <https://fidoalliance.org/passkeys/>
+  * Dex <https://dexidp.io/> - A Federated OpenID Connect Provider
+  * SPIFFE (Secure Production Identity Framework For Everyone) <https://spiffe.io/>
+  * SPIRE (SPIFFE Runtime Environment) <https://spiffe.io/docs/latest/spire-about/> - A production-ready implementation of the SPIFFE APIs that performs node and workload attestation in order to securely issue SVIDs to workloads
+  * Kerberos <https://web.mit.edu/kerberos/>
+  * MIT Kerberos <https://web.mit.edu/kerberos/new/index.html> - An implementation of the Kerberos network authentication protocol
+  * Azure Shared Access Signature (SAS) <https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview>
 * Authorization <https://en.wikipedia.org/wiki/Authorization>
   * Access control list (ACL) <https://en.wikipedia.org/wiki/Access-control_list>
   * Role-based access control (RBAC) <https://en.wikipedia.org/wiki/Role-based_access_control>
+  * OAuth 2.0 Authorization Framework <https://oauth.net/2/>
+  * Athenz <https://www.athenz.io/> - A set of services and libraries supporting service authentication and role-based authorization (RBAC)
+  * Permify <https://github.com/Permify/permify> - An open-source authorization as a service inspired by Google Zanzibar
+  * Azure RBAC <https://docs.microsoft.com/en-us/azure/role-based-access-control/overview>
 * Zero trust architecture (ZTA) <https://en.wikipedia.org/wiki/Zero_trust_security_model>
 * Directory service <https://en.wikipedia.org/wiki/Directory_service>
   * LDAP <https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol>
   * OpenLDAP <https://www.openldap.org/>
   * 389 Directory Server <https://directory.fedoraproject.org/>
-* Specs
-  * Basic authentication <https://en.wikipedia.org/wiki/Basic_access_authentication>
-  * OpenID Connect <https://openid.net/connect/>
-  * OAuth 2.0 Authorization Framework <https://oauth.net/2/>
-  * JSON Web Token (JWT) <https://en.wikipedia.org/wiki/JSON_Web_Token>
-  * SAML (Security Assertion Markup Language) <http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html>
-  * WS-Federation <http://docs.oasis-open.org/wsfed/federation/v1.2/ws-federation.html>
-  * SPIFFE (Secure Production Identity Framework For Everyone) <https://spiffe.io/>
-  * FIDO2 (Fast Identity Online 2) <https://fidoalliance.org/specifications/>
-  * Kerberos <https://web.mit.edu/kerberos/>
-* Implementations
-  * FusionAuth CE <https://fusionauth.io/>
-  * KeyCloak <https://www.keycloak.org/>
-  * Athenz <https://www.athenz.io/>
-  * Dex <https://dexidp.io/>
-  * SPIRE (SPIFFE Runtime Environment) <https://spiffe.io/docs/latest/spire-about/>
-  * MIT Kerberos <https://web.mit.edu/kerberos/new/index.html>
-  * FreeIPA <https://www.freeipa.org/>
-  * Microsoft Entra ID <https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id>
-  * Azure RBAC <https://docs.microsoft.com/en-us/azure/role-based-access-control/overview>
-  * Azure Shared Access Signature (SAS) <https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview>
-  * AWS IAM <https://aws.amazon.com/iam/>
-  * Amazon Cognito <https://aws.amazon.com/cognito/>
-  * Auth0 <https://auth0.com/>
 
-## 420 - Security standards and implementations
+## 430 - Secure communications
 
-* Public Key Infrastructure (PKI) <https://en.wikipedia.org/wiki/Public_key_infrastructure>
+* Public key infrastructure (PKI) <https://en.wikipedia.org/wiki/Public_key_infrastructure>
+  * Certificate authority (CA)
+  * Registration authority (RA)
+  * Validation authority (VA)
+  * Public key certificate <https://en.wikipedia.org/wiki/Public_key_certificate>
+    * Domain Validated (DV)
+    * Organization Validated (OV)
+    * Extended Validation (EV)
   * cfssl <https://github.com/cloudflare/cfssl#readme> - CloudFlare's PKI/TLS swiss army knife
   * cert-manager <https://cert-manager.io> - X.509 certificate management for Kubernetes and OpenShift
   * Let's Encrypt <https://letsencrypt.org/> - A nonprofit Certificate Authority providing TLS certificates
-    * certbot <https://certbot.eff.org/> - A free, open source software tool for automatically using Let’s Encrypt certificates
+    * certbot <https://certbot.eff.org/> - A free, open source software tool for automatically using Let's Encrypt certificates
     * ACME (Automatic Certificate Management Environment) <https://en.wikipedia.org/wiki/Automatic_Certificate_Management_Environment>
   * AWS Certificate Manager <https://aws.amazon.com/certificate-manager/>
-  * Botan <https://botan.randombit.net/> - A C++ cryptography library
 * TLS (Transport Layer Security) <https://en.wikipedia.org/wiki/Transport_Layer_Security>
   * OpenSSL <https://www.openssl.org/>
   * stunnnel <https://www.stunnel.org/>
@@ -117,6 +143,7 @@
   * charm_Wishlist <https://github.com/charmbracelet/wishlist> - The ssh directory
 * PGP (Pretty Good Privacy) <https://en.wikipedia.org/wiki/Pretty_Good_Privacy>
   * OpenPGP <https://www.openpgp.org/>
+    * keys.openpgp.org <https://keys.openpgp.org/about> - A public service for the distribution and discovery of OpenPGP-compatible keys
   * GnuPG <https://gnupg.org/>
   * Gpg4win <https://www.gpg4win.org/>
 * TOTP (Time-Based One-Time Password) <https://en.wikipedia.org/wiki/Time-based_one-time_password>
@@ -140,57 +167,60 @@
   * S/MIME <https://en.wikipedia.org/wiki/S/MIME>
   * OpenPGP/GPG <https://gnupg.org/>
 
-## 430 - Static security check
+## 440 - Static security check
 
 * Static application security test (SAST)
   * SonarQube <https://www.sonarqube.org/>
-  * fluid attacks <https://docs.fluidattacks.com/tech/scanner/plans/foss/>
+  * Fluid attacks <https://docs.fluidattacks.com/tech/scanner/plans/foss/>
   * GitLab SAST <https://docs.gitlab.com/ee/user/application_security/sast/index.html>
-  * trivy <https://aquasecurity.github.io/trivy/> - A comprehensive and versatile security scanner
-  * bandit <https://github.com/PyCQA/bandit> - A tool designed to find common security issues in Python code
-  * safety <https://github.com/pyupio/safety/> - A Python dependency vulnerability scanner
+  * Bandit <https://github.com/PyCQA/bandit> - A tool designed to find common security issues in Python code
   * Semgrep OSS <https://github.com/semgrep/semgrep> - A fast, open-source, static analysis tool
+* System configuration check
+  * OpenSCAP <https://www.open-scap.org/> - A collection of open source tools for implementing and enforcing this standard
+  * Trivy <https://aquasecurity.github.io/trivy/> - A comprehensive and versatile security scanner
   * checkov <https://www.checkov.io/> - A static code analysis tool for scanning infrastructure as code (IaC) files for misconfigurations
   * Haskell Dockerfile Linter <https://github.com/hadolint/hadolint#readme>
   * kube-score <https://kube-score.com/>
   * kubesec <https://kubesec.io/>
+* Cloud security posture management (CSPM)
+  * Microsoft Defender for Cloud <https://azure.microsoft.com/en-us/services/defender-for-cloud/>
+  * AWS Security Hub <https://aws.amazon.com/security-hub/>
 * Secret detection
-  * trivy <https://aquasecurity.github.io/trivy/>
+  * Trivy <https://aquasecurity.github.io/trivy/>
   * GitLab Secret Detection <https://docs.gitlab.com/ee/user/application_security/secret_detection/>
   * Whispers <https://github.com/Skyscanner/whispers>
   * Gitleaks <https://gitleaks.io/>
   * Talisman <https://thoughtworks.github.io/talisman/>
 * Software composition analysis (SCA)
   * Syft <https://github.com/anchore/syft>
-  * OWASP CycloneDX <https://cyclonedx.org>
-  * SPDX <https://spdx.dev/>
+  * OWASP CycloneDX format <https://cyclonedx.org>
+  * SPDX format <https://spdx.dev/>
 * Vulnerability scanning
-  * trivy <https://aquasecurity.github.io/trivy/>
+  * Trivy <https://aquasecurity.github.io/trivy/>
   * Grype <https://github.com/anchore/grype>
+  * Safety <https://github.com/pyupio/safety/> - A Python dependency vulnerability scanner
   * Clair <https://github.com/quay/clair>
   * GitLab Container Scanning <https://docs.gitlab.com/ee/user/application_security/container_scanning/>
-* Cloud security posture management (CSPM)
-  * Microsoft Defender for Cloud <https://azure.microsoft.com/en-us/services/defender-for-cloud/>
-  * AWS Security Hub <https://aws.amazon.com/security-hub/>
 
-## 440 - Dynamic security protection
+## 450 - Runtime security protection
 
 * Dynamic application security test (DAST)
   * OWASP ZAP <https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project>
 * Microsoft Defender for Cloud <https://azure.microsoft.com/en-us/services/defender-for-cloud/>
+* Microsoft Sentinel <https://azure.microsoft.com/en-us/products/microsoft-sentinel>
 * Amazon Inspector <https://aws.amazon.com/inspector/>
 * Amazon GuardDuty <https://aws.amazon.com/guardduty/>
-* Falco <https://falco.org/>
+* Falco <https://falco.org/> - A cloud native security tool that provides runtime security across hosts, containers, Kubernetes, and cloud environments
+* Tracee <https://aquasecurity.github.io/tracee/latest/> - A runtime security and observability tool that helps you understand how your system and applications behave
 * AWS CloudTrail <https://aws.amazon.com/cloudtrail/>
 * AWS Config <https://aws.amazon.com/config/>
 * AWS WAF <https://aws.amazon.com/waf/>
 * Azure WAF <https://azure.microsoft.com/en-us/services/web-application-firewall/>
-* F5 NGINX App Protect <https://www.nginx.com/products/nginx-app-protect/>
 * AWS Shield <https://aws.amazon.com/shield/>
 * Azure DDoS Protection <https://azure.microsoft.com/en-us/products/ddos-protection>
-* fail2ban <https://github.com/fail2ban/fail2ban>
+* fail2ban <https://github.com/fail2ban/fail2ban> - Daemon to ban hosts that cause multiple authentication errors
 
-## 470 - Other tools for security
+## 460 - Other security tools
 
 * Secret management
   * Hashicorp Vault <https://www.vaultproject.io/>
@@ -202,6 +232,7 @@
   * AWS KMS <https://aws.amazon.com/kms/>
   * AWS Secrets Manager <https://aws.amazon.com/secrets-manager/>
   * pass <https://www.passwordstore.org/> - the standard unix password manager
+  * go-generate-password <https://github.com/m1/go-generate-password>
 * Policy management
   * Gatekeeper <https://open-policy-agent.github.io/gatekeeper/>
   * Kyverno <https://kyverno.io/>
@@ -216,21 +247,15 @@
     * iptables <https://man7.org/linux/man-pages/man8/iptables.8.html>
   * ubuntu ufw <https://help.ubuntu.com/community/UFW>
 
-## 480 - Vulnerability databases
+## 470 - Business continuity
 
-* Vulnerability <https://en.wikipedia.org/wiki/Vulnerability_(computing)>
-* CWE (Common Weakness Enumeration) <https://cwe.mitre.org/>
-* CWE/SANS TOP 25 <https://www.sans.org/top25-software-errors/>
-* OWASP Top 10 <https://owasp.org/www-project-top-ten/>
-* OWASP Top 10 for LLM <https://genai.owasp.org/llm-top-10/>
-* NVD (U.S. National Vulnerability Database) <https://nvd.nist.gov/>
-  * CVSS (Common Vulnerability Scoring System) <https://nvd.nist.gov/vuln-metrics/cvss>
-* CVE (Common Vulnerabilities and Exposures) <https://cve.mitre.org/cve/>
-* OVAL (Open Vulnerability and Assessment Language) <https://oval.mitre.org/>
-* STIX (Structured Threat Information Expression) <https://oasis-open.github.io/cti-documentation/stix/intro> - A language and serialization format used to exchange cyber threat intelligence
-* OSV (Open Source Vulnerability) <https://osv.dev/>
-* SSVC (Stakeholder-Specific Vulnerability Categorization) <https://www.cisa.gov/stakeholder-specific-vulnerability-categorization-ssvc>
-* KEV (Known Exploited Vulnerabilities) <https://www.cisa.gov/known-exploited-vulnerabilities-catalog>
+* Business continuity planning <https://en.wikipedia.org/wiki/Business_continuity_planning>
+  * IT disaster recovery <https://en.wikipedia.org/wiki/IT_disaster_recovery>
+* ISO 22301: Security and resilience - Business continuity management systems - Requirements
+* ISO 31000: Risk management
+* Project risk management <https://en.wikipedia.org/wiki/Project_risk_management>
+* Financial risk management <https://en.wikipedia.org/wiki/Financial_risk_management>
+  * Value at risk <https://en.wikipedia.org/wiki/Value_at_risk>
 
 ## 490 - Cryptography
 
@@ -263,7 +288,6 @@
   * Key format
     * PKCS #1: RSA Cryptography Specifications <https://en.wikipedia.org/wiki/PKCS_1>
     * PKCS #12: Personal Information Exchange Syntax <https://en.wikipedia.org/wiki/PKCS_12>
-* FIPS 140-2 (Security Requirements for Cryptographic Modules) <https://en.wikipedia.org/wiki/FIPS_140-2>
 * Libraries
   * PyCryptodome <https://www.pycryptodome.org/>
   * Python cryptography <https://cryptography.io/en/latest/>

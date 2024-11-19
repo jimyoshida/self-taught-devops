@@ -35,6 +35,8 @@ The specification of the resulting protocol (TCP/IP) was written by Vint Cerf, Y
 The cron command-line utility is a job scheduler on Unix-like operating systems. Users who set up and maintain software environments use cron to schedule jobs (commands or shell scripts), also known as cron jobs, to run periodically at fixed times, dates, or intervals.
 Initial release: May 1975
 
+The problem of obtaining Byzantine consensus was conceived and formalized by Robert Shostak, who dubbed it the interactive consistency problem. This work was done in 1978 in the context of the NASA-sponsored SIFT project in the Computer Science Lab at SRI International.
+
 A chroot on Unix and Unix-like operating systems is an operation that changes the apparent root directory for the current running process and its children.
 The chroot system call was introduced during development of Version 7 Unix in 1979.
 

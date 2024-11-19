@@ -14,9 +14,6 @@
   * Scrum <https://www.scrum.org/learning-series/what-is-scrum/>
   * User story <https://en.wikipedia.org/wiki/User_story>
   * INVEST in stories <https://en.wikipedia.org/wiki/INVEST_(mnemonic)>
-  * SMART goals <https://en.wikipedia.org/wiki/SMART_criteria>
-  * OKR (Objectives and Key Results) <https://en.wikipedia.org/wiki/Objectives_and_key_results>
-    * NPS (Net Promoter Score) <https://en.wikipedia.org/wiki/Net_promoter_score>
   * A/B testing <https://en.wikipedia.org/wiki/A/B_testing>
   * Feature Toggles <https://martinfowler.com/articles/feature-toggles.html>
     * Canary Release <https://martinfowler.com/bliki/CanaryRelease.html>
@@ -60,19 +57,59 @@
   * Philosophy of the GNU Project <https://www.gnu.org/philosophy/philosophy.html>
   * The GNU Manifesto <https://www.gnu.org/gnu/manifesto.html>
   * Contributor Covenant <https://www.contributor-covenant.org/>
-* Social concerns
+* Social or psychological concerns
   * Broken windows theory <https://en.wikipedia.org/wiki/Broken_windows_theory>
   * Psychological safety <https://en.wikipedia.org/wiki/Psychological_safety>
   * Defence mechanism <https://en.wikipedia.org/wiki/Defence_mechanism>
   * Maslow's Hierarchy of Needs <https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs>
   * Stone soup story <https://en.wikipedia.org/wiki/Stone_Soup>
   * Boiling frog apologue <https://en.wikipedia.org/wiki/Boiling_frog>
+  * Fear of missing out (FOMO) <https://en.wikipedia.org/wiki/Fear_of_missing_out>
+  * Fear, uncertainty, and doubt (FUD) <https://en.wikipedia.org/wiki/Fear,_uncertainty,_and_doubt>
 * Usability concerns
   * Cognitive distortion <https://en.wikipedia.org/wiki/Cognitive_distortion>
   * Seven stages of action <https://en.wikipedia.org/wiki/Seven_stages_of_action>
   * Principle of least astonishment <https://en.wikipedia.org/wiki/Principle_of_least_astonishment>
   * Affordance <https://en.wikipedia.org/wiki/Affordance>
   * Stroop effect <https://en.wikipedia.org/wiki/Stroop_effect>
+
+## 020 - Project and service management
+
+* Systems development life cycle (SDLC) <https://en.wikipedia.org/wiki/Systems_development_life_cycle>
+  * ISO/IEC/IEEE 12207: Systems and software engineering — Software life cycle processes
+  * ISO/IEC/IEEE 15288: Systems and software engineering — System life cycle processes
+  * ISO/IEC 15504: Information technology — Process assessment
+  * ISO/IEC 20000: Information technology — Service management
+  * ISO/IEC 25010: Systems and software Quality Requirements and Evaluation (SQuaRE)
+* SMART goals <https://en.wikipedia.org/wiki/SMART_criteria>
+* OKR (Objectives and Key Results) <https://en.wikipedia.org/wiki/Objectives_and_key_results>
+* NPS (Net Promoter Score) <https://en.wikipedia.org/wiki/Net_promoter_score>
+* RACI matrix <https://en.wikipedia.org/wiki/Responsibility_assignment_matrix>
+* Three-point estimation <https://en.wikipedia.org/wiki/Three-point_estimation>
+* Issue tracking systems
+  * JIRA <https://www.atlassian.com/software/jira>
+    * Python Jira <https://jira.readthedocs.io/>
+    * JiraCLI <https://github.com/ankitpokhrel/jira-cli>
+  * GitLab Issue Board <https://docs.gitlab.com/ee/user/project/issue_board.html>
+  * GitLab Service Desk <https://docs.gitlab.com/ee/user/project/service_desk/>
+  * Azure Boards <https://learn.microsoft.com/en-us/azure/devops/boards/>
+  * GitHub Issues <https://github.com/features/issues>
+  * Redmine <https://www.redmine.org/>
+* Behavior driven development <https://en.wikipedia.org/wiki/Behavior-driven_development>
+  * Requirement <https://en.wikipedia.org/wiki/Requirement>
+  * Use case <https://en.wikipedia.org/wiki/Use_case>
+  * Specification by example <https://en.wikipedia.org/wiki/Specification_by_example>
+  * Tools
+    * Cucumber <https://cucumber.io/>
+      * Gherkin Syntax <https://cucumber.io/docs/gherkin/>
+    * RSpec <https://rspec.info/> (reference)
+    * Ginkgo <https://onsi.github.io/ginkgo/>
+      * Gomega <https://onsi.github.io/gomega/>
+    * Vitest <https://vitest.dev>
+    * Jest <https://jestjs.io/>
+    * Mocha <https://mochajs.org/>
+      * Chai <https://www.chaijs.com/>
+    * Behave <https://behave.readthedocs.io/en/latest/>
 
 ## 030 - Documentation and knowledge base
 
@@ -81,18 +118,20 @@
     * CommonMark <https://commonmark.org/>
     * GFM (GitHub Flavored Markdown) <https://github.github.com/gfm/>
     * markdownlint <https://github.com/DavidAnson/markdownlint>
-    * charm_Glow <https://github.com/charmbracelet/glow> - a terminal based markdown reader
-    * remark <https://remark.js.org/> - A markdown processor powered by plugins
-    * Regexp::Common::Markdown <https://metacpan.org/pod/Regexp::Common::Markdown>
-    * Text::MarkdownTable <https://metacpan.org/pod/Text::MarkdownTable>
+    * charm_Glow <https://github.com/charmbracelet/glow> - A terminal based markdown reader
+    * Markdown Preview Enhanced <https://shd101wyy.github.io/markdown-preview-enhanced/#/> - A SUPER POWERFUL markdown extension for Visual Studio Code
+    * html-to-markdown <https://html-to-markdown.com/>
   * DocUtils <https://docutils.sourceforge.io/>
     * reStructuredText <https://docutils.sourceforge.io/rst.html>
-  * pandoc <https://pandoc.org/>
+  * Pandoc <https://pandoc.org/> - A universal document converter
+    * Eisvogel <https://github.com/Wandmalfarbe/pandoc-latex-template> - A pandoc LaTeX template to convert markdown files to PDF or LaTeX
 * Writing styles
   * Microsoft Writing Style Guide <https://learn.microsoft.com/en-us/style-guide/welcome/>
   * Google documentation style guide <https://developers.google.com/style/>
   * Red Hat documentation style guide <https://redhat-documentation.github.io/supplementary-style-guide/>
   * Microsoft Terminology <https://learn.microsoft.com/en-us/globalization/reference/microsoft-terminology>
+  * Sentence diagram <https://en.wikipedia.org/wiki/Sentence_diagram> - A pictorial representation of the grammatical structure of a sentence
+  * List of English words <https://github.com/dwyl/english-words>
 * Prose linters
   * vale <https://vale.sh/> - A linter for natural language/prose
   * retext <https://github.com/retextjs/retext> - natural language processor (with plugins)
@@ -118,6 +157,8 @@
     * PGF/TikZ <https://github.com/pgf-tikz/pgf> - A TeX macro package for generating graphics
   * KaTeX <https://katex.org/> - The fastest math typesetting library for the web
     * sphinxcontrib-katex <https://sphinxcontrib-katex.readthedocs.io/en/>
+* Content collaboration platform
+  * Nextcloud <https://nextcloud.com/>
 
 ## 040 - Architecture design and description
 
@@ -176,48 +217,6 @@
       * DOT language <https://graphviz.org/doc/info/lang.html>
       * haphviz <https://hackage.haskell.org/package/haphviz>
     * ditaa <https://github.com/stathissideris/ditaa> - a small command-line utility that can convert diagrams drawn using ascii art into proper bitmap graphics
-
-## 050 - Project and service management
-
-* Requirement <https://en.wikipedia.org/wiki/Requirement>
-* Systems development life cycle (SDLC) <https://en.wikipedia.org/wiki/Systems_development_life_cycle>
-  * ISO/IEC/IEEE 12207: Systems and software engineering — Software life cycle processes
-  * ISO/IEC/IEEE 15288: Systems and software engineering — System life cycle processes
-  * ISO/IEC 15504: Information technology — Process assessment
-  * ISO/IEC 20000: Information technology — Service management
-  * ISO/IEC 25010: Systems and software Quality Requirements and Evaluation (SQuaRE)
-* RACI matrix <https://en.wikipedia.org/wiki/Responsibility_assignment_matrix>
-* Risk management
-  * Business continuity planning <https://en.wikipedia.org/wiki/Business_continuity_planning>
-    * IT disaster recovery <https://en.wikipedia.org/wiki/IT_disaster_recovery>
-  * Financial risk management <https://en.wikipedia.org/wiki/Financial_risk_management>
-    * Value at risk <https://en.wikipedia.org/wiki/Value_at_risk>
-  * Project risk management <https://en.wikipedia.org/wiki/Project_risk_management>
-  * Three-point estimation <https://en.wikipedia.org/wiki/Three-point_estimation>
-  * ISO 22301: Security and resilience - Business continuity management systems - Requirements
-  * ISO 31000: Risk management
-* Issue tracking systems
-  * JIRA <https://www.atlassian.com/software/jira>
-    * Python Jira <https://jira.readthedocs.io/>
-    * JiraCLI <https://github.com/ankitpokhrel/jira-cli>
-  * GitLab Issue Board <https://docs.gitlab.com/ee/user/project/issue_board.html>
-  * GitHub Issues <https://github.com/features/issues>
-  * Azure Boards <https://learn.microsoft.com/en-us/azure/devops/boards/>
-  * GitLab Service Desk <https://docs.gitlab.com/ee/user/project/service_desk/>
-* Behavior driven development <https://en.wikipedia.org/wiki/Behavior-driven_development>
-  * Use case <https://en.wikipedia.org/wiki/Use_case>
-  * Specification by example <https://en.wikipedia.org/wiki/Specification_by_example>
-  * Tools
-    * Cucumber <https://cucumber.io/>
-      * Gherkin Syntax <https://cucumber.io/docs/gherkin/>
-    * RSpec <https://rspec.info/> (reference)
-    * Ginkgo <https://onsi.github.io/ginkgo/>
-      * Gomega <https://onsi.github.io/gomega/>
-    * Vitest <https://vitest.dev>
-    * Jest <https://jestjs.io/>
-    * Mocha <https://mochajs.org/>
-      * Chai <https://www.chaijs.com/>
-    * Behave <https://behave.readthedocs.io/en/latest/>
 * Architectural Decision Records (ADRs) <https://adr.github.io/>
   * adr-tools <https://github.com/npryce/adr-tools>
 
@@ -239,8 +238,10 @@
   * NuGet Gallery <https://www.nuget.org/>
   * Maven Central <https://central.sonatype.com/>
   * ConanCenter <https://conan.io/center>
+  * Docker Hub <https://docs.docker.com/docker-hub/> - A service provided by Docker for finding and sharing container images
+  * Artifact Hub <https://artifacthub.io/> - A web-based application that enables finding, installing, and publishing Cloud Native packages
   * Anaconda Hub <https://www.anaconda.com/products> - The Hub for Data Science and AI Collaboration
-  * Hugging Face Hub <https://huggingface.co/docs/hub/index>
+  * Hugging Face Hub <https://huggingface.co/docs/hub/index> - A platform with over 900k models, 200k datasets, and 300k demos in which people can easily collaborate in their ML workflows
 * Non-profit organizations
   * Creative Commons <https://creativecommons.org/>
   * Open Source Initiative <https://opensource.org/>
