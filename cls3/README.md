@@ -23,6 +23,8 @@
   * REST <https://en.wikipedia.org/wiki/Representational_state_transfer>
   * SOAP <https://en.wikipedia.org/wiki/SOAP>
   * GraphQL <https://graphql.org/>
+    * URQL <https://commerce.nearform.com/open-source/urql/> - The highly customizable and versatile GraphQL client
+    * Apollo Server <https://www.apollographql.com/docs/apollo-server> - An open-source, spec-compliant GraphQL server that's compatible with any GraphQL client
   * gRPC <https://grpc.io/>
   * WebSockets <https://websockets.spec.whatwg.org/>
   * Webhook <https://en.wikipedia.org/wiki/Webhook>
@@ -49,9 +51,8 @@
 * CLIs
   * cURL <https://curl.haxx.se/>
   * Wget <https://www.gnu.org/software/wget/>
-  * curlie <https://curlie.io/>
-  * httpie <https://httpie.io/>
-  * hurl <https://hurl.dev/>
+  * curlie <https://github.com/rs/curlie> - The power of curl, the ease of use of httpie
+  * hurl <https://hurl.dev/> - A command line tool that runs HTTP requests defined in a simple plain text format
 * Libraries
   * Python Requests <https://docs.python-requests.org/en/latest/>
   * JS Axios <https://axios-http.com/>
@@ -75,8 +76,8 @@
 * Reverse proxy
   * NGINX <https://www.nginx.com/>
   * HAProxy <https://www.haproxy.org/>
-  * envoy <https://www.envoyproxy.io/> - an open source edge and service proxy
-  * traefik proxy <https://traefik.io/traefik/> - a leading modern open source reverse proxy and ingress controller
+  * envoy <https://www.envoyproxy.io/> - An open source edge and service proxy
+  * traefik proxy <https://traefik.io/traefik/> - A leading modern open source reverse proxy and ingress controller
   * Amazon ALB <https://aws.amazon.com/elasticloadbalancing/application-load-balancer/>
 * API gateways
   * Kong API gateway <https://konghq.com/products/kong-gateway>
@@ -111,10 +112,11 @@
   * FastAPI <https://fastapi.tiangolo.com/>
   * Flask <https://palletsprojects.com/p/flask/>
 * Javascript/Typescript frameworks
-  * Express.js <https://expressjs.com/>
-  * koa <https://koajs.com/>
+  * Express.js <https://expressjs.com/> - A minimal and flexible Node.js web application framework
+  * Koa <https://koajs.com/> - A new web framework designed by the team behind Express
+  * Hono <https://hono.dev/> - Fast, lightweight, built on Web Standards
   * Next.js <https://nextjs.org/>
-  * Nuxt.js <https://nuxtjs.org/> (reference)
+  * Nuxt.js <https://nuxtjs.org/>
   * Nest <https://nestjs.com/> (reference)
   * Angular <https://angular.io/> (reference)
 * Go frameworks
@@ -148,24 +150,30 @@
 * babel <https://babeljs.io/> - A JavaScript compiler
 * Rspack <https://rspack.dev/> - A high performance JavaScript bundler written in Rust
 
-## 350 - Browser automation and test tools
+## 350 - Web application automation and test tools
 
-* Chrome DevTools <https://developer.chrome.com/docs/devtools/>
-* Puppeteer <https://developer.chrome.com/docs/puppeteer/>
-* Chrome for Testing <https://googlechromelabs.github.io/chrome-for-testing/>
-* Selenium IDE <https://www.selenium.dev/selenium-ide/>
-* Selenium WebDriver <https://selenium.dev/documentation/en/webdriver/>
-* Playwright <https://playwright.dev/>
-* Karma <https://karma-runner.github.io> - A test runner that fits all our needs
-* Crawlee <https://crawlee.dev/> - A web scraping and browser automation library
-* BeautifulSoup <https://www.crummy.com/software/BeautifulSoup/> - A Python library designed for quick turnaround projects like screen-scraping
-* Scrapy <https://scrapy.org/> - An open source and collaborative framework for extracting the data you need from websites
-* Katana <https://github.com/projectdiscovery/katana> - A next-generation crawling and spidering framework
-* Mechanize <https://metacpan.org/pod/WWW::Mechanize> (for CGI)
-* Watir <http://watir.com/> (reference)
-* API test
-  * Postman/Newman <https://www.postman.com/>
+* Browser automation and test
+  * Puppeteer <https://developer.chrome.com/docs/puppeteer/>
+  * Playwright <https://playwright.dev/>
+  * Selenium WebDriver <https://selenium.dev/documentation/en/webdriver/>
+  * Selenium IDE <https://www.selenium.dev/selenium-ide/>
+  * Watir <http://watir.com/> (reference)
+* Web scraping
+  * Crawlee <https://crawlee.dev/> - A web scraping and browser automation library
+  * BeautifulSoup <https://www.crummy.com/software/BeautifulSoup/> - A Python library designed for quick turnaround projects like screen-scraping
+  * Scrapy <https://scrapy.org/> - An open source and collaborative framework for extracting the data you need from websites
+  * Katana <https://github.com/projectdiscovery/katana> - A next-generation crawling and spidering framework
+  * Mechanize <https://metacpan.org/pod/WWW::Mechanize> (for CGI)
+* Testing
+  * Chrome for Testing <https://googlechromelabs.github.io/chrome-for-testing/>
+  * Karma <https://karma-runner.github.io> - A test runner that fits all our needs
+  * API test
+    * Bruno <https://www.usebruno.com/> - A Git-integrated, fully offline, and open-source API client
+    * httpie cli <https://httpie.io/cli> - A simple yet powerful command-line HTTP and API testing client for the API era
+    * hurl <https://hurl.dev/> - A command line tool that runs HTTP requests defined in a simple plain text format
+    * Postman/Newman <https://www.postman.com/>
 * Debug
+  * Chrome DevTools <https://developer.chrome.com/docs/devtools/>
   * Fiddler <https://www.telerik.com/fiddler> - Web Debugging Proxy
 
 ## 380 - Mobile/Desktop application development (reference)
@@ -180,6 +188,7 @@
 * Notification service
   * Firebase Cloud Messaging <https://firebase.google.com/products/cloud-messaging/>
   * Apple Push Notification service <https://developer.apple.com/notifications/>
+  * Supabase <https://supabase.com/> - An open source Firebase alternative
 * Widget toolkit
   * tk <http://www.tcl.tk/> - A graphical user interface toolkit
     * tkinter <https://docs.python.org/3/library/tkinter.html> - The standard Python interface to the Tcl/Tk GUI toolkit

@@ -26,24 +26,24 @@
     * working set size (WSS) <https://en.wikipedia.org/wiki/Working_set_size>
   * shared memory <https://en.wikipedia.org/wiki/Shared_memory>
 * The OSI model <https://en.wikipedia.org/wiki/OSI_model>
-* The Internet <https://en.wikipedia.org/wiki/Internet>
-* IP <https://en.wikipedia.org/wiki/Internet_Protocol>
-  * IPv6 <https://en.wikipedia.org/wiki/IPv6>
-  * Global unicast address | Loopback address
-  * Unique local address <https://en.wikipedia.org/wiki/Unique_local_address>
-  * Link-local address <https://en.wikipedia.org/wiki/Link-local_address>
-  * IP-multicast <https://en.wikipedia.org/wiki/IP_multicast>
-* Routing table <https://en.wikipedia.org/wiki/Routing_table>
-  * CIDR <https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing>
-* TCP <https://en.wikipedia.org/wiki/Transmission_Control_Protocol>
-* UDP <https://en.wikipedia.org/wiki/User_Datagram_Protocol>
-* NAT <https://en.wikipedia.org/wiki/Network_address_translation>
 * ARP <https://en.wikipedia.org/wiki/Address_Resolution_Protocol>
   * MAC address <https://en.wikipedia.org/wiki/MAC_address>
-* DHCP <https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol>
-  * DHCPv6 <https://en.wikipedia.org/wiki/DHCPv6>
-* ICMP <https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol>
-  * ICMPv6 <https://en.wikipedia.org/wiki/ICMPv6>
+* The Internet <https://en.wikipedia.org/wiki/Internet>
+* IP <https://en.wikipedia.org/wiki/Internet_Protocol>
+  * Link-local address <https://en.wikipedia.org/wiki/Link-local_address>
+  * IP-multicast <https://en.wikipedia.org/wiki/IP_multicast>
+  * DHCP <https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol>
+  * ICMP <https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol>
+  * NAT <https://en.wikipedia.org/wiki/Network_address_translation>
+  * IPv6 <https://en.wikipedia.org/wiki/IPv6>
+    * Unique local address <https://en.wikipedia.org/wiki/Unique_local_address>
+    * DHCPv6 <https://en.wikipedia.org/wiki/DHCPv6>
+    * ICMPv6 <https://en.wikipedia.org/wiki/ICMPv6>
+    * NAT64 <https://en.wikipedia.org/wiki/NAT64> - An IPv6 transition mechanism that facilitates communication between IPv6 and IPv4 hosts
+  * Routing table <https://en.wikipedia.org/wiki/Routing_table>
+    * CIDR <https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing>
+  * TCP <https://en.wikipedia.org/wiki/Transmission_Control_Protocol>
+  * UDP <https://en.wikipedia.org/wiki/User_Datagram_Protocol>
 
 ## 210 - Linux administration
 
@@ -63,12 +63,17 @@
   * overlayfs <https://en.wikipedia.org/wiki/OverlayFS>
   * proc pseudo-filesystem <https://man7.org/linux/man-pages/man5/proc.5.html>
   * sysfs pseudo-filesystem <https://man7.org/linux/man-pages/man5/sysfs.5.html>
-* Systemd <https://www.freedesktop.org/wiki/Software/systemd/>
 * linux-pam <https://github.com/linux-pam/linux-pam>
 * kvm <https://www.linux-kvm.org/page/Main_Page>
 * eBPF (Extended Berkeley Packet Filter) <https://ebpf.io/>
 * FUSE (Filesystem in Userspace) <https://github.com/libfuse/libfuse>
   * s3fs <https://github.com/s3fs-fuse/s3fs-fuse>
+* Systemd <https://www.freedesktop.org/wiki/Software/systemd/>
+  * journald <https://www.freedesktop.org/software/systemd/man/latest/systemd-journald.html#>
+  * hostnamed <https://www.freedesktop.org/software/systemd/man/latest/systemd-hostnamed.html#>
+  * networkd <https://www.freedesktop.org/software/systemd/man/latest/systemd-networkd.html#>
+  * resolved <https://www.freedesktop.org/software/systemd/man/latest/systemd-resolved.html#>
+  * timesyncd <https://www.freedesktop.org/software/systemd/man/latest/systemd-timesyncd.html#>
 * Host administration
   * util-linux <https://git.kernel.org/pub/scm/utils/util-linux/util-linux.git/>
     * lsblk <https://man7.org/linux/man-pages/man8/lsblk.8.html>
@@ -77,10 +82,8 @@
   * rsync <https://rsync.samba.org/>
   * Vixie Cron <https://github.com/vixie/cron>
   * logrotate <https://github.com/logrotate/logrotate>
-  * Syslog <https://en.wikipedia.org/wiki/Syslog>
-  * rsyslog <https://www.rsyslog.com/> - The rocket-fast system for log processing
-  * systemd-journald <https://man7.org/linux/man-pages/man8/systemd-journald.service.8.html>
-    * journalctl <https://man7.org/linux/man-pages/man1/journalctl.1.html>
+  * Syslog <https://en.wikipedia.org/wiki/Syslog> - A standard for message logging
+    * rsyslog <https://www.rsyslog.com/> - The rocket-fast system for log processing
   * procps <https://gitlab.com/procps-ng/procps>
     * ps <https://man7.org/linux/man-pages/man1/ps.1.html>
     * top <https://www.man7.org/linux/man-pages/man1/top.1.html>
@@ -102,25 +105,12 @@
   * sysstat <https://sysstat.github.io/>
     * iostat <https://man7.org/linux/man-pages/man1/iostat.1.html>
   * smem <https://www.selenic.com/smem/>
+  * NTP <https://en.wikipedia.org/wiki/Network_Time_Protocol>
+    * chrony <https://chrony.tuxfamily.org/>
+    * pool.ntp.org <https://www.ntppool.org/en/>
   * jc <https://kellyjonbrazil.github.io/jc/docs/> - Json adaptor
   * aha <https://github.com/theZiz/aha> - Ansi HTML Adapter
     * NO_COLOR <https://no-color.org/>
-* Clock syncing <https://en.wikipedia.org/wiki/Clock_synchronization>
-  * NTP <https://en.wikipedia.org/wiki/Network_Time_Protocol>
-  * chrony <https://chrony.tuxfamily.org/>
-  * pool.ntp.org <https://www.ntppool.org/en/>
-* Modern utilities
-  * lsd <https://github.com/Peltoche/lsd>
-  * eza <https://eza.rocks/>
-  * broot <https://dystroy.org/broot/>
-  * bat <https://github.com/sharkdp/bat>
-  * dust <https://github.com/bootandy/dust>
-  * dua <https://github.com/byron/dua-cli>
-  * duf <https://github.com/muesli/duf>
-  * procs <https://github.com/dalance/procs>
-  * htop <https://hisham.hm/htop/>
-  * btop++ <https://github.com/aristocratos/btop>
-  * glances <https://nicolargo.github.io/glances/>
 * Network administration
   * iproute2 <https://github.com/shemminger/iproute2>
     * ip <https://man7.org/linux/man-pages/man8/ip.8.html>
@@ -135,10 +125,22 @@
   * wireshark <https://www.wireshark.org/>
   * netcat <https://nc110.sourceforge.io/>
   * nmap <https://nmap.org/>
-* SOCKS proxy <https://en.wikipedia.org/wiki/SOCKS>
-  * dante <https://www.inet.no/dante/>
-  * tun2socks <https://github.com/xjasonlyu/tun2socks>
-  * proxychains <https://github.com/haad/proxychains>
+  * SOCKS proxy <https://en.wikipedia.org/wiki/SOCKS>
+    * dante <https://www.inet.no/dante/>
+    * tun2socks <https://github.com/xjasonlyu/tun2socks>
+    * proxychains <https://github.com/haad/proxychains>
+* Modern Unix tools
+  * lsd <https://github.com/Peltoche/lsd>
+  * eza <https://eza.rocks/>
+  * broot <https://dystroy.org/broot/>
+  * bat <https://github.com/sharkdp/bat>
+  * dust <https://github.com/bootandy/dust>
+  * dua <https://github.com/byron/dua-cli>
+  * duf <https://github.com/muesli/duf>
+  * procs <https://github.com/dalance/procs>
+  * htop <https://hisham.hm/htop/>
+  * btop++ <https://github.com/aristocratos/btop>
+  * glances <https://nicolargo.github.io/glances/>
 * OS package management
   * Dpkg <https://wiki.debian.org/Teams/Dpkg>
     * APT <https://salsa.debian.org/apt-team/apt>
@@ -399,25 +401,24 @@
 
 ## 280 - Server telemetry ETL and visualization
 
-* Prometheus exporters <https://prometheus.io/docs/instrumenting/exporters/>
-  * node-exporter <https://prometheus.io/docs/guides/node-exporter/>
-  * blackbox-exporter <https://github.com/prometheus/blackbox_exporter>
-* Dissect and Grok <https://www.elastic.co/guide/en/elasticsearch/reference/current/esql-process-data-with-dissect-and-grok.html>
-* Promtail agent <https://grafana.com/docs/loki/latest/clients/promtail/>
-* Fluent Bit <https://fluentbit.io/>
-* Fluentd <https://www.fluentd.org/>
-* Filebeat <https://www.elastic.co/beats/filebeat>
-* Logstash <https://www.elastic.co/logstash>
-* Telegraf <https://www.influxdata.com/time-series-platform/telegraf/>
-* Metricbeat <https://www.elastic.co/beats/metricbeat>
-* Elasticsearch
-  * Ingest pipelines <https://www.elastic.co/guide/en/elasticsearch/reference/current/ingest.html>
-* OpenTelemetry <https://opentelemetry.io/>
-* Micrometer <https://micrometer.io/> - a metrics instrumentation library for JVM-based applications
-* Cloud-specific
-  * Azure Monitor Agent <https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agents-overview>
-  * Cloudwatch Agent <https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Install-CloudWatch-Agent.html>
-* Load and monitoring
+* Data shipping
+  * Prometheus exporters <https://prometheus.io/docs/instrumenting/exporters/>
+    * node-exporter <https://prometheus.io/docs/guides/node-exporter/>
+    * blackbox-exporter <https://github.com/prometheus/blackbox_exporter>
+  * Promtail agent <https://grafana.com/docs/loki/latest/clients/promtail/>
+  * Fluent Bit <https://fluentbit.io/>
+  * Fluentd <https://www.fluentd.org/>
+  * Filebeat <https://www.elastic.co/beats/filebeat>
+  * Logstash <https://www.elastic.co/logstash>
+  * Telegraf <https://www.influxdata.com/time-series-platform/telegraf/>
+  * Metricbeat <https://www.elastic.co/beats/metricbeat>
+  * OpenTelemetry <https://opentelemetry.io/>
+  * Micrometer <https://micrometer.io/> - a metrics instrumentation library for JVM-based applications
+  * rsyslog <https://www.rsyslog.com/> - The rocket-fast system for log processing
+  * IaaS-specific
+    * Azure Monitor Agent <https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agents-overview>
+    * Cloudwatch Agent <https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Install-CloudWatch-Agent.html>
+* Datastore and monitoring
   * Prometheus <https://prometheus.io/>
     * PromQL <https://prometheus.io/docs/prometheus/latest/querying/basics/>
     * promtool <https://prometheus.io/docs/prometheus/latest/command-line/promtool/>
@@ -432,6 +433,10 @@
       * LogCLI <https://grafana.com/docs/loki/latest/query/logcli/>
   * Grafana Tempo <https://grafana.com/oss/tempo/>
     * TraceQL <https://grafana.com/docs/tempo/latest/traceql/>
+  * ElasticSearch <https://www.elastic.co/elasticsearch/> - An open source distributed, RESTful search and analytics engine, scalable data store, and vector database
+    * Elastic Common Schema <https://www.elastic.co/guide/en/ecs/current/index.html> - An open source specification, developed with support from the Elastic user community
+    * Ingest pipelines <https://www.elastic.co/guide/en/elasticsearch/reference/current/ingest.html>
+    * Dissect and Grok <https://www.elastic.co/guide/en/elasticsearch/reference/current/esql-process-data-with-dissect-and-grok.html>
   * Graphite <https://grafana.com/oss/graphite/>
   * Grafana Alerting <https://grafana.com/docs/grafana/latest/alerting/>
   * Azure Monitor <https://docs.microsoft.com/en-us/azure/azure-monitor/overview>

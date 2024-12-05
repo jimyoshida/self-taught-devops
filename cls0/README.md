@@ -40,10 +40,6 @@
   * Dickerson's Hierarchy of Service Reliability <https://sre.google/sre-book/part-III-practices/>
   * The Four Golden Signals <https://sre.google/sre-book/monitoring-distributed-systems/>
     * Latency, Traffic, Errors, Saturation
-* Collaboration systems
-  * Slack <https://slack.com/>
-    * Python Slack SDK <https://slack.dev/python-slack-sdk/>
-  * Mattermost <https://mattermost.com/>
 
 ## 010 - Cultures and ergonomics
 
@@ -72,6 +68,10 @@
   * Principle of least astonishment <https://en.wikipedia.org/wiki/Principle_of_least_astonishment>
   * Affordance <https://en.wikipedia.org/wiki/Affordance>
   * Stroop effect <https://en.wikipedia.org/wiki/Stroop_effect>
+* Collaboration systems
+  * Slack <https://slack.com/>
+    * Python Slack SDK <https://slack.dev/python-slack-sdk/>
+  * Mattermost <https://mattermost.com/>
 
 ## 020 - Project and service management
 
@@ -82,8 +82,8 @@
   * ISO/IEC 20000: Information technology — Service management
   * ISO/IEC 25010: Systems and software Quality Requirements and Evaluation (SQuaRE)
 * SMART goals <https://en.wikipedia.org/wiki/SMART_criteria>
-* OKR (Objectives and Key Results) <https://en.wikipedia.org/wiki/Objectives_and_key_results>
-* NPS (Net Promoter Score) <https://en.wikipedia.org/wiki/Net_promoter_score>
+* Objectives and Key Results <https://en.wikipedia.org/wiki/Objectives_and_key_results>
+* Net Promoter Score <https://en.wikipedia.org/wiki/Net_promoter_score>
 * RACI matrix <https://en.wikipedia.org/wiki/Responsibility_assignment_matrix>
 * Three-point estimation <https://en.wikipedia.org/wiki/Three-point_estimation>
 * Issue tracking systems
@@ -119,12 +119,18 @@
     * GFM (GitHub Flavored Markdown) <https://github.github.com/gfm/>
     * markdownlint <https://github.com/DavidAnson/markdownlint>
     * charm_Glow <https://github.com/charmbracelet/glow> - A terminal based markdown reader
-    * Markdown Preview Enhanced <https://shd101wyy.github.io/markdown-preview-enhanced/#/> - A SUPER POWERFUL markdown extension for Visual Studio Code
-    * html-to-markdown <https://html-to-markdown.com/>
+    * markmap <https://markmap.js.org/> - A combination of Markdown and mindmap
+    * Marp <https://marp.app/> - Markdown Presentation Ecosystem
+    * Editor plugins
+      * Markdown all-in-one <https://github.com/yzhang-gh/vscode-markdown>
+      * Markdown Preview Enhanced <https://shd101wyy.github.io/markdown-preview-enhanced/#/> - A SUPER POWERFUL markdown extension for Visual Studio Code
+      * Markdown Preview for (Neo)vim <https://github.com/iamcco/markdown-preview.nvim>
   * DocUtils <https://docutils.sourceforge.io/>
     * reStructuredText <https://docutils.sourceforge.io/rst.html>
   * Pandoc <https://pandoc.org/> - A universal document converter
     * Eisvogel <https://github.com/Wandmalfarbe/pandoc-latex-template> - A pandoc LaTeX template to convert markdown files to PDF or LaTeX
+  * Org Mode <https://orgmode.org/> - Your life in plain text
+  * nvim-orgmode <https://github.com/nvim-orgmode/orgmode>
 * Writing styles
   * Microsoft Writing Style Guide <https://learn.microsoft.com/en-us/style-guide/welcome/>
   * Google documentation style guide <https://developers.google.com/style/>
@@ -228,11 +234,12 @@
   * CTAN <https://ctan.org/> - The Comprehensive TEX Archive Network
   * CPAN <https://www.cpan.org/> - The Comprehensive Perl Archive Network
   * CRAN <https://cran.r-project.org/> - The Comprehensive R Archive Network
-  * PyPI <https://pypi.org/>
-  * RubyGems <https://rubygems.org/>
-  * npm <https://www.npmjs.com/>
-  * pkg.go.dev <https://pkg.go.dev/>
-  * crates.io <https://crates.io/>
+  * PyPI <https://pypi.org/> - A repository of software for the Python programming language:w
+  * RubyGems.org <https://rubygems.org/> - The Ruby community’s gem hosting service
+  * npm Registry <https://www.npmjs.com/> - The world's largest software registry
+  * pkg.go.dev <https://pkg.go.dev/> - Your source for information about Go packages and modules
+  * crates.io <https://crates.io/> - The Rust community’s crate registry
+  * LuaRocks <https://luarocks.org/> - The package manager for Lua modules
   * Stackage <https://www.stackage.org/>
     * Hackage <https://hackage.haskell.org/>
   * NuGet Gallery <https://www.nuget.org/>
@@ -254,20 +261,29 @@
   * OpenJS Foundation <https://openjsf.org/>
   * Rust Foundation <https://foundation.rust-lang.org/>
 
-## 070 - Finance, economics and game theory
+## 070 - Finance and business strategy
 
-* Currency <https://en.wikipedia.org/wiki/Currency>
-* Interest <https://en.wikipedia.org/wiki/Interest>
-* Central bank <https://en.wikipedia.org/wiki/Central_bank>
-* Credit <https://en.wikipedia.org/wiki/Credit>
-* Debt <https://en.wikipedia.org/wiki/Debt>
-  * Discounting <https://en.wikipedia.org/wiki/Discounting>
-* Bond <https://en.wikipedia.org/wiki/Bond_(finance)>
-* Futures <https://en.wikipedia.org/wiki/Futures_contract>
-* Options <https://en.wikipedia.org/wiki/Option_(finance)>
-* Cryptcurrency <https://en.wikipedia.org/wiki/Cryptocurrency>
-  * Blockchain <https://en.wikipedia.org/wiki/Blockchain> - a distributed ledger with growing lists of records
+* Strategy
+  * Enterprise modeling <https://en.wikipedia.org/wiki/Enterprise_modelling>
+  * Enterprise resource planning <https://en.wikipedia.org/wiki/Enterprise_resource_planning>
+  * Business Model Canvas <https://en.wikipedia.org/wiki/Business_Model_Canvas>
+  * MECE principle <https://en.wikipedia.org/wiki/MECE_principle>
+* Finance
+  * Currency <https://en.wikipedia.org/wiki/Currency>
+  * Interest <https://en.wikipedia.org/wiki/Interest>
+  * Central bank <https://en.wikipedia.org/wiki/Central_bank>
+  * Contracts
+    * Credit <https://en.wikipedia.org/wiki/Credit>
+    * Debt <https://en.wikipedia.org/wiki/Debt>
+      * Discounting <https://en.wikipedia.org/wiki/Discounting>
+      * Bond <https://en.wikipedia.org/wiki/Bond_(finance)>
+    * Spot <https://en.wikipedia.org/wiki/Spot_contract>
+    * Futures <https://en.wikipedia.org/wiki/Futures_contract>
+    * Option <https://en.wikipedia.org/wiki/Option_(finance)>
+  * Cryptcurrency <https://en.wikipedia.org/wiki/Cryptocurrency>
+    * Blockchain <https://en.wikipedia.org/wiki/Blockchain> - A distributed ledger with growing lists of records
 * Financial accounting
+  * Return on investment <https://en.wikipedia.org/wiki/Return_on_investment>
   * Cash flow statement <https://en.wikipedia.org/wiki/Cash_flow_statement>
   * Income statement <https://en.wikipedia.org/wiki/Income_statement>
   * Balance sheet <https://en.wikipedia.org/wiki/Balance_sheet>

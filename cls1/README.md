@@ -85,12 +85,16 @@
   * pipelines <https://www.gnu.org/software/bash/manual/html_node/Pipelines.html>
   * special variables <https://www.gnu.org/software/bash/manual/html_node/Variable-Index.html>
   * built-in job control <https://www.gnu.org/software/bash/manual/html_node/Job-Control.html>
+  * oh-my-bash <https://ohmybash.nntoan.com/> - An open source, community-driven framework for managing your BASH configuration
+* Zsh <https://www.zsh.org/> - A shell designed for interactive use, although it is also a powerful scripting language
+  * Zim Framework <https://zimfw.sh/> - The Zsh configuration framework with blazing speed and modular extensions
+  * oh-my-zsh <https://ohmyz.sh/> - A delightful, open source, community-driven framework for managing your Zsh configuration
+  * Powerlevel10k <https://github.com/romkatv/powerlevel10k> - A theme for Zsh
+  * Pure <https://github.com/sindresorhus/pure> - Pretty, minimal and fast ZSH prompt
 * Other Shells
-  * zsh <https://www.zsh.org/>
-    * oh-my-zsh <https://ohmyz.sh/>
-  * fish-shell <https://fishshell.com/>
-  * PowerShell <https://docs.microsoft.com/en-us/powershell/>
-  * nushell <https://www.nushell.sh/>
+  * fish-shell <https://fishshell.com/> - A smart and user-friendly command line shell for Linux, macOS, and the rest of the family
+  * PowerShell <https://docs.microsoft.com/en-us/powershell/> - A cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework
+  * nushell <https://www.nushell.sh/> - A new type of shell
 * Shell utilities
   * coreutils <https://www.gnu.org/software/coreutils/> = fileutils+textutils+shellutils
   * starship <https://starship.rs/>
@@ -100,20 +104,26 @@
   * charm_mods <https://github.com/charmbracelet/mods> - AI on the command line
 * Terminal emulator <https://en.wikipedia.org/wiki/Terminal_emulator>
   * Terminator <https://gnome-terminator.org>
+  * Kitty <https://sw.kovidgoyal.net/kitty/> - The fast, feature-rich, GPU based terminal emulator
+  * WezTerm <https://wezfurlong.org/wezterm/> - A powerful cross-platform terminal emulator and multiplexer
+  * Alacritty <https://alacritty.org/> - A modern terminal emulator that comes with sensible defaults, but allows for extensive configuration
   * Windows Terminal <https://github.com/microsoft/terminal>
   * Mintty <https://mintty.github.io/>
-  * PuTTY <https://www.chiark.greenend.org.uk/~sgtatham/putty/> - A free implementation of SSH and Telnet for Windows and Unix platforms
   * xterm <https://invisible-island.net/xterm/>
+* Terminal utilities
+  * screen <https://www.gnu.org/software/screen/>
+  * tmux <https://github.com/tmux/tmux/wiki>
+  * byobu <https://www.byobu.org/>
+  * zellij <https://zellij.dev/>
+  * asciinema <https://asciinema.org/> - recording terminal sessions and sharing them on the web
+* Terminal interfaces
+  * pseudoterminal <https://en.wikipedia.org/wiki/Pseudoterminal>
   * ANSI escape code <https://en.wikipedia.org/wiki/ANSI_escape_code>
-  * Terminal utilities
-    * screen <https://www.gnu.org/software/screen/>
-    * tmux <https://github.com/tmux/tmux/wiki>
-    * byobu <https://www.byobu.org/>
-    * zellij <https://zellij.dev/>
-    * asciinema <https://asciinema.org/> - recording terminal sessions and sharing them on the web
-  * Terminal fonts
-    * Noto Fonts <https://fonts.google.com/noto>
-    * Nerd Fonts <https://www.nerdfonts.com/>
+  * iTerm2 image protocol <https://iterm2.com/documentation-images.html>
+* Terminal fonts
+  * Noto Fonts <https://fonts.google.com/noto>
+  * Nerd Fonts <https://www.nerdfonts.com/>
+  * Cascadia Code <https://github.com/microsoft/cascadia-code>
 * Search tools
   * findutils <https://www.gnu.org/software/findutils/>
   * fzf <https://github.com/junegunn/fzf>
@@ -122,15 +132,105 @@
   * ripgrep <https://github.com/BurntSushi/ripgrep>
   * silversearcher-ag <https://geoff.greer.fm/ag/>
 * Console file managers
-  * midnight commander <https://midnight-commander.org/>
-  * ranger <https://github.com/ranger/ranger>
+  * midnight commander <https://midnight-commander.org/> - A visual file manager
+  * ranger <https://github.com/ranger/ranger> - A VIM-inspired filemanager for the console
+  * superfile <https://superfile.netlify.app/> - A very fancy and modern terminal file manager
 * Unix-like environments on Windows
-  * MSYS2 <https://www.msys2.org/>
+  * Git for Windows <https://gitforwindows.org/> - focuses on offering a lightweight, native set of tools that bring the full feature set of the Git SCM to Windows
+  * MSYS2 <https://www.msys2.org/> - A collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software
   * Cygwin <https://www.cygwin.com/>
 * Linux on Windows
   * WSL <https://learn.microsoft.com/en-us/windows/wsl/>
 
-## 120 - Programming language features
+## 120 - Editor, SCM, IDE, and code quality
+
+* Editors
+  * Vim <https://www.vim.org/> - A highly configurable text editor built to make creating and changing any kind of text very efficient
+    * vim-plug <https://junegunn.github.io/vim-plug/> - The de-facto standard plugin manager for Vim
+    * NERDTree <https://github.com/preservim/nerdtree> - A tree explorer plugin for vim
+  * Neovim <https://neovim.io/> - Hyperextensible Vim-based text editor
+    * LazyVim <https://www.lazyvim.org/> - A Neovim setup powered by 💤 lazy.nvim to make it easy to customize and extend your config
+      * lazy.nvim <https://lazy.folke.io/> - A modern plugin manager for Neovim
+    * neo-tree.nvim <https://github.com/nvim-neo-tree/neo-tree.nvim>
+    * colorful-winsep.nvim <https://github.com/nvim-zh/colorful-winsep.nvim>
+    * mason.nvim <https://github.com/williamboman/mason.nvim> - A Neovim plugin that allows you to easily manage external editor tooling such as LSP servers, DAP servers, linters, and formatters through a single interface
+    * telescope.nvim <https://github.com/nvim-telescope/telescope.nvim> - A highly extendable fuzzy finder over lists
+    * flash.nvim <https://github.com/folke/flash.nvim> - lets you navigate your code with search labels, enhanced character motions, and Treesitter integration
+  * Helix <https://helix-editor.com/> - A modal editor, meaning it has different modes for different tasks
+  * GNU Emacs <https://www.gnu.org/software/emacs/>
+    * MELPA <https://melpa.org/#/> - Milkypostman's Emacs Lisp Package Archive
+    * doomemacs <https://github.com/doomemacs/doomemacs> - An Emacs framework for the stubborn martian hacker
+    * neotree <https://github.com/jaypei/emacs-neotree>
+    * Treemacs <https://github.com/Alexander-Miller/treemacs>
+    * Spacemacs <https://www.spacemacs.org/#> - A community-driven Emacs distribution
+* Formatters
+  * EditorConfig <https://editorconfig.org/>
+  * Prettier <https://prettier.io/>
+* Source code management
+  * Distributed version control <https://en.wikipedia.org/wiki/Distributed_version_control>
+  * Markle tree <https://en.wikipedia.org/wiki/Merkle_tree>
+  * Git <https://git-scm.com/>
+    * local repository, remote repository
+    * branch, tag, worktree
+    * push, pull, fetch, rebase, reset, stash
+    * staging, commit
+    * git lfs <https://git-lfs.com/>
+    * Informative git prompt for bash and fish <https://github.com/magicmonty/bash-git-prompt>
+    * lazygit <https://github.com/jesseduffield/lazygit> - A simple terminal UI for git commands
+    * Git Interactive Rebase Tool <https://gitrebasetool.mitmaro.ca/> - An improved sequence editor for Git
+    * BFG Repo-Cleaner <https://rtyley.github.io/bfg-repo-cleaner/> - A simpler, faster alternative to git-filter-branch for cleansing bad data out of your Git repository history
+    * git filter-repo <https://github.com/newren/git-filter-repo> - A versatile tool for rewriting history
+    * degit <https://github.com/Rich-Harris/degit> - Straightforward project scaffolding
+    * git lint <https://alchemists.io/projects/git-lint> - A command line interface for linting Git commits by ensuring you maintain a clean, easy to read, debuggable, and maintainable project history
+    * git cliff <https://git-cliff.org/> - A highly customizable changelog generator
+    * TortoiseGit <https://tortoisegit.org/> - A Windows Shell Interface to Git and based on TortoiseSVN
+  * Git hosting services
+    * GitLab SCM <https://about.gitlab.com/>
+    * Gitea <https://about.gitea.com/>
+    * Azure Repos <https://learn.microsoft.com/en-us/azure/devops/repos/>
+    * GitHub <https://github.com/>
+    * charm_Soft Serve <https://github.com/charmbracelet/soft-serve> - a self-hostable Git server
+  * Conventions
+    * keep a changelog <https://keepachangelog.com/>
+    * Conventional Commits <https://www.conventionalcommits.org/>
+* IDEs
+  * Visual Studio Code <https://code.visualstudio.com/>
+    * GitLens <https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens>
+    * Git Graph <https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph>
+  * Protocols
+    * LSP <https://microsoft.github.io/language-server-protocol/>
+    * DAP <https://microsoft.github.io/debug-adapter-protocol/>
+  * Eclipse Che <https://eclipse.dev/che/> - A Kubernetes-native IDE and developer collaboration platform
+* AI assistance
+  * OpenHands <https://docs.all-hands.dev/> - A platform for software development agents powered by AI
+  * GitHub Copilot <https://github.com/features/copilot/>
+  * Gemini Code Assist <https://cloud.google.com/products/gemini/code-assist>
+    * gemini.nvim <https://github.com/kiddos/gemini.nvim>
+  * nvim-llama <https://github.com/jpmcb/nvim-llama>
+  * Amazon Q Developer <https://aws.amazon.com/q/developer/>
+  * CodeGPT <https://www.codegpt.co/>
+  * Cursor <https://cursor.sh/>
+  * Zed <https://zed.dev/> - A next-generation code editor designed for high-performance collaboration with humans and AI
+* Code linters
+  * SonarQube <https://www.sonarqube.org/>
+    * SQALE method <http://sqale.org/>
+  * GitLab Code Quality <https://docs.gitlab.com/ee/ci/testing/code_quality.html>
+  * ESLint <https://eslint.org/> - An open source project that helps you find and fix problems with your JavaScript code
+  * JSHint <https://jshint.com/about/> - A Static Code Analysis Tool for JavaScript
+  * Pylint <https://pylint.readthedocs.io/> - A static code analyser for Python 2 or 3
+  * Ruff <https://docs.astral.sh/ruff/> - An extremely fast Python linter and code formatter, written in Rust
+  * Staticcheck <https://staticcheck.dev/> - A state of the art linter for the Go programming language
+  * revive <https://revive.run/> - Fast & extensible static code analysis framework for Go
+  * golangci-lint <https://golangci-lint.run/> - A fast linters runner for Go
+  * PSScriptAnalyzer <https://github.com/PowerShell/PSScriptAnalyzer> - A static code checker for PowerShell modules and scripts
+  * ShellCheck <https://www.shellcheck.net/> - A GPLv3 tool that gives warnings and suggestions for bash/sh shell scripts
+  * Stylelint <https://stylelint.io/> - A mighty CSS linter that helps you avoid errors and enforce conventions
+* Code counters
+  * Cyclomatic complexity <https://en.wikipedia.org/wiki/Cyclomatic_complexity>
+  * scc <https://github.com/boyter/scc/>
+  * cloc <https://github.com/AlDanial/cloc>
+
+## 130 - Programming language features
 
 * Bash (see 110)
 * Perl <https://www.perl.org/>
@@ -222,84 +322,6 @@
   * C <https://www.open-std.org/jtc1/sc22/wg14/>
   * Emacs Lisp <https://www.gnu.org/software/emacs/manual/html_node/elisp/>
   * zx <https://google.github.io/zx/>
-
-## 130 - IDE, SCM, and code quality
-
-* Integrated development environments
-  * VS Code <https://code.visualstudio.com/>
-  * Vim <https://www.vim.org/>
-    * vim-plug <https://junegunn.github.io/vim-plug/> - the de-facto standard plugin manager for Vim
-    * NERDTree <https://github.com/preservim/nerdtree>
-  * Neovim <https://neovim.io/>
-    * lazy.nvim <https://lazy.folke.io/> - a modern plugin manager for Neovim
-    * Neo-tree.nvim <https://github.com/nvim-neo-tree/neo-tree.nvim>
-  * Zed <https://zed.dev/> - A next-generation code editor designed for high-performance collaboration with humans and AI
-  * GNU Emacs <https://www.gnu.org/software/emacs/>
-    * MELPA <https://melpa.org/#/> - Milkypostman's Emacs Lisp Package Archive
-    * doomemacs <https://github.com/doomemacs/doomemacs> - An Emacs framework for the stubborn martian hacker
-    * neotree <https://github.com/jaypei/emacs-neotree>
-    * Treemacs <https://github.com/Alexander-Miller/treemacs>
-    * Spacemacs <https://www.spacemacs.org/#> - A community-driven Emacs distribution
-  * Eclipse IDE <https://eclipseide.org/>
-  * Eclipse Che <https://eclipse.dev/che/>
-* AI assistance
-  * OpenHands <https://docs.all-hands.dev/> - A platform for software development agents powered by AI
-  * GitHub Copilot <https://github.com/features/copilot/>
-  * Gemini Code Assist <https://cloud.google.com/products/gemini/code-assist>
-  * Amazon Q Developer <https://aws.amazon.com/q/developer/>
-  * CodeGPT <https://www.codegpt.co/>
-  * Cursor <https://cursor.sh/>
-  * Zed AI <https://zed.dev/ai>
-* Formatters
-  * EditorConfig <https://editorconfig.org/>
-  * Prettier <https://prettier.io/>
-* Source code management
-  * Distributed version control <https://en.wikipedia.org/wiki/Distributed_version_control>
-  * Markle tree <https://en.wikipedia.org/wiki/Merkle_tree>
-  * Git <https://git-scm.com/>
-    * local repository, remote repository
-    * branch, tag, worktree
-    * push, pull, fetch, rebase, reset, stash
-    * staging, commit
-    * lfs <https://git-lfs.com/>
-    * filter-repo <https://github.com/newren/git-filter-repo>
-  * Git for Windows <https://gitforwindows.org/>
-  * TortoiseGit <https://tortoisegit.org/>
-  * Git Interactive Rebase Tool <https://gitrebasetool.mitmaro.ca/>
-  * BFG Repo-Cleaner <https://rtyley.github.io/bfg-repo-cleaner/>
-  * degit <https://github.com/Rich-Harris/degit>
-  * lazygit <https://github.com/jesseduffield/lazygit>
-  * charm_Soft Serve <https://github.com/charmbracelet/soft-serve> - a self-hostable Git server
-  * git lint <https://alchemists.io/projects/git-lint> - A command line interface for linting Git commits by ensuring you maintain a clean, easy to read, debuggable, and maintainable project history
-  * git cliff <https://git-cliff.org/> - A highly customizable changelog generator
-  * Source code management services
-    * GitHub <https://github.com/>
-    * GitLab SCM <https://about.gitlab.com/>
-    * Azure Repos <https://learn.microsoft.com/en-us/azure/devops/repos/>
-  * Conventions
-    * keep a changelog <https://keepachangelog.com/>
-    * Conventional Commits <https://www.conventionalcommits.org/>
-  * IDE plugins
-    * GitLens <https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens>
-    * Git Graph <https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph>
-    * Magit <https://magit.vc/>
-* Code linters
-  * SonarQube <https://www.sonarqube.org/>
-    * SQALE method <http://sqale.org/>
-  * GitLab Code Quality <https://docs.gitlab.com/ee/ci/testing/code_quality.html>
-  * ESLint <https://eslint.org/> - An open source project that helps you find and fix problems with your JavaScript code
-  * JSHint <https://jshint.com/about/> - A Static Code Analysis Tool for JavaScript
-  * Pylint <https://pylint.readthedocs.io/> - A static code analyser for Python 2 or 3
-  * Ruff <https://docs.astral.sh/ruff/> - An extremely fast Python linter and code formatter, written in Rust
-  * Staticcheck <https://staticcheck.dev/> - A state of the art linter for the Go programming language
-  * revive <https://revive.run/> - Fast & extensible static code analysis framework for Go
-  * PSScriptAnalyzer <https://github.com/PowerShell/PSScriptAnalyzer> - A static code checker for PowerShell modules and scripts
-  * ShellCheck <https://www.shellcheck.net/> - A GPLv3 tool that gives warnings and suggestions for bash/sh shell scripts
-  * Stylellint <https://stylelint.io/> - A mighty CSS linter that helps you avoid errors and enforce conventions
-* Code counters
-  * Cyclomatic complexity <https://en.wikipedia.org/wiki/Cyclomatic_complexity>
-  * scc <https://github.com/boyter/scc/>
-  * cloc <https://github.com/AlDanial/cloc>
 * Coding style guides
   * Google Style Guides <https://google.github.io/styleguide/>
   * JS Project Guidelines <https://github.com/elsewhencode/project-guidelines>
@@ -323,19 +345,22 @@
   * Python re <https://docs.python.org/3/library/re.html>
   * Go regexp <https://pkg.go.dev/regexp>
 * GNU sed <https://www.gnu.org/software/sed/>; <https://sed.sourceforge.io/>
-* GNU awk <https://www.gnu.org/software/gawk/>
 * sd <https://github.com/chmln/sd> - sed alternative
 * GNU diffutils <https://www.gnu.org/software/diffutils/>
 * colordiff <https://www.colordiff.org/>
-* CSV <https://en.wikipedia.org/wiki/Comma-separated_values>
-  * csvkit <https://csvkit.readthedocs.io/en/latest/> - A suite of command-line tools for converting to and working with CSV
-  * xsv <https://github.com/BurntSushi/xsv> - A fast CSV command line toolkit written in Rust
-  * qsv <https://github.com/jqnatividad/qsv> - Blazing-fast Data-Wrangling toolkit
-  * Text::CSV <https://metacpan.org/pod/Text::CSV>
-  * Python csv <https://docs.python.org/3/library/csv.html>
-  * Go csv <https://pkg.go.dev/encoding/csv>
-  * js Papa Parse <https://www.papaparse.com/> - The powerful, in-browser CSV parser
-* TSV <https://en.wikipedia.org/wiki/Tab-separated_values>
+* Tabular data
+  * CSV <https://en.wikipedia.org/wiki/Comma-separated_values>
+    * csvkit <https://csvkit.readthedocs.io/en/latest/> - A suite of command-line tools for converting to and working with CSV
+    * xsv <https://github.com/BurntSushi/xsv> - A fast CSV command line toolkit written in Rust
+    * qsv <https://github.com/jqnatividad/qsv> - Blazing-fast Data-Wrangling toolkit
+    * Text::CSV <https://metacpan.org/pod/Text::CSV>
+    * Python csv <https://docs.python.org/3/library/csv.html>
+    * Go csv <https://pkg.go.dev/encoding/csv>
+    * js Papa Parse <https://www.papaparse.com/> - The powerful, in-browser CSV parser
+  * TSV <https://en.wikipedia.org/wiki/Tab-separated_values>
+  * GNU awk <https://www.gnu.org/software/gawk/>
+  * Python tabulate <https://github.com/astanin/python-tabulate> - Pretty-print tabular data in Python, a library and a command-line utility
+  * Text::MarkdownTable <https://metacpan.org/pod/Text::MarkdownTable>
 * Data exchange languages
   * JSON <https://www.json.org/json-en.html>
     * jq <https://stedolan.github.io/jq/> - A lightweight and flexible command-line JSON processor
@@ -362,8 +387,8 @@
   * TOML <https://toml.io/en/>
     * TOML::Tiny <https://metacpan.org/pod/TOML::Tiny>
     * Python tomllib <https://docs.python.org/3/library/tomllib.html>
-* yj <https://github.com/sclevine/yj> - Convert between YAML, TOML, JSON, and HCL
-* jsmin <https://www.crockford.com/jsmin.html> - A minification tool that removes comments and unnecessary whitespace from JavaScript files
+* yj <https://github.com/sclevine/yj> - CLI - Convert between YAML, TOML, JSON, and HCL
+* JSMin <https://www.crockford.com/jsmin.html> - A minification tool that removes comments and unnecessary whitespace from JavaScript files
 * Time formats
   * ISO 8601: Date and time — Representations for information interchange
   * Unix time <https://en.wikipedia.org/wiki/Unix_time>
@@ -371,8 +396,9 @@
     * Perl DateTime <https://metacpan.org/pod/DateTime>
     * Python delorean <https://delorean.readthedocs.io/en/latest/index.html>
     * Python arrow <https://arrow.readthedocs.io/en/latest/>
-    * JS Moment.js <https://momentjs.com/>
-    * JS Luson <https://moment.github.io/luxon/>
+    * Moment.js <https://momentjs.com/> - Parse, validate, manipulate, and display dates and times in JavaScript
+      * Moment Timezone <https://momentjs.com/timezone/> - Parse and display dates in any timezone
+      * Luson <https://moment.github.io/luxon/#/> - A powerful, modern, and friendly wrapper for JavaScript dates and times
     * Go time <https://pkg.go.dev/time>
   * iCalendar <https://en.wikipedia.org/wiki/ICalendar>
 * Template processors
@@ -393,19 +419,17 @@
   * markdown-it <https://github.com/markdown-it/markdown-it>
   * markdown-it-py <https://markdown-it-py.readthedocs.io/en/latest/>
   * Regexp::Common::Markdown <https://metacpan.org/pod/Regexp::Common::Markdown>
-  * Text::MarkdownTable <https://metacpan.org/pod/Text::MarkdownTable>
-  * Python tabulate <https://github.com/astanin/python-tabulate>
 * Language processing (advanced)
   * Chomsky hierarchy <https://en.wikipedia.org/wiki/Chomsky_hierarchy>
   * Automata theory <https://en.wikipedia.org/wiki/Automata_theory>
   * Homoiconicity <https://en.wikipedia.org/wiki/Homoiconicity>
   * BNF syntax <https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form>
   * AST <https://en.wikipedia.org/wiki/Abstract_syntax_tree>
-  * ANTLR <https://www.antlr.org/>
-  * Ragel <https://www.colm.net/open-source/ragel/>
+  * ANTLR <https://www.antlr.org/> - A powerful parser generator for reading, processing, executing, or translating structured text or binary files
+  * tree-sitter <https://github.com/tree-sitter/tree-sitter> - A parser generator tool and an incremental parsing library
+  * Ragel <https://www.colm.net/open-source/ragel/> - compiles executable finite state machines from regular languages
   * Bison <https://www.gnu.org/software/bison/>
   * Flex <https://github.com/westes/flex>
-  * LSP <https://microsoft.github.io/language-server-protocol/>
   * Syntax highlighting
     * highlight.js <https://highlightjs.org/>
     * Prism <https://prismjs.com>
@@ -414,7 +438,6 @@
 ## 150 - Debugging, logging, and unit testing
 
 * Debuggers and loggers
-  * DAP <https://microsoft.github.io/debug-adapter-protocol/>
   * Bash
     * BASH Debugger <https://bashdb.sourceforge.net/>
     * VSCode Bash Debug <https://marketplace.visualstudio.com/items?itemName=rogalmic.bash-debug>
@@ -444,7 +467,6 @@
 * Unit testing
   * test case <https://en.wikipedia.org/wiki/Test_case>
   * test double <https://en.wikipedia.org/wiki/Test_double>
-  * Unit testing best practices with .NET <https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices>
   * Bash
     * Bats-core <https://bats-core.readthedocs.io/en/stable/>
     * shUnit2 <https://github.com/kward/shunit2>
@@ -459,11 +481,11 @@
     * nose <https://nose.readthedocs.io/en/latest/>
     * tappy <https://tappy.readthedocs.io/en/latest/>
   * Javascript
+    * Jest <https://jestjs.io/> (BDD style)
     * Mocha <https://mochajs.org/> (BDD style)
       * Chai <https://www.chaijs.com/>
     * Node-Tap <https://node-tap.org/> - Test Anything Protocol library for JavaScript
     * Istanbul <https://istanbul.js.org/> - Yet another JS code coverage tool
-    * JS Testing Best Practices <https://github.com/goldbergyoni/javascript-testing-best-practices>
   * Go
     * Go testing <https://pkg.go.dev/testing>
     * Go cover <https://pkg.go.dev/cmd/cover>
@@ -473,29 +495,34 @@
   * Others
     * Test Anything Protocol <http://testanything.org/>
     * GitLab Code Coverage <https://docs.gitlab.com/ee/ci/testing/code_coverage.html>
-    * JUnit <https://junit.org/junit5/>
-    * xUnit.net <https://xunit.net/>
-    * cobertura <https://cobertura.github.io/cobertura/>
-    * LCOV <https://github.com/linux-test-project/lcov>
+    * JUnit <https://junit.org/junit5/> - The 5th major version of the programmer-friendly testing framework for Java and the JVM
+    * xUnit.net <https://xunit.net/> - A free, open source, community-focused unit testing tool for the .NET Framework
+    * cobertura <https://cobertura.github.io/cobertura/> - A free Java tool that calculates the percentage of code accessed by tests
+    * LCOV <https://github.com/linux-test-project/lcov> - An extension of GCOV, a GNU tool which provides information about
+  what parts of a program are actually executed (i.e. "covered")
     * kcov <https://simonkagstrom.github.io/kcov/> - A code coverage tester for compiled programs
+* Test best practices
+  * Test Pyramid <https://martinfowler.com/articles/practical-test-pyramid.html>
+  * Unit testing best practices with .NET <https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices>
+  * JS Testing Best Practices <https://github.com/goldbergyoni/javascript-testing-best-practices>
 
 ## 160 - Program execution and SDK
 
 * Compiler <https://en.wikipedia.org/wiki/Compiler>
   * gcc <https://www.gnu.org/software/gcc/>
+  * rustc <https://doc.rust-lang.org/rustc/what-is-rustc.html> - The compiler for the Rust programming language
   * LLVM Compiler Infrastructure <https://llvm.org/>
     * Clang <https://clang.llvm.org/>
   * Cross compiler <https://en.wikipedia.org/wiki/Cross_compiler>
-    * MinGW-w64 <https://www.mingw-w64.org/>
-  * Golang
-    * Go build <https://pkg.go.dev/cmd/go>
-    * GopherJS <https://github.com/gopherjs/gopherjs> - A compiler from Go to JavaScript
+    * MinGW-w64 <https://www.mingw-w64.org/> - An advancement of the original mingw.org project, created to support the GCC compiler on Windows systems
+  * Go build command <https://pkg.go.dev/cmd/go> - A tool for managing Go source code
+  * GopherJS <https://github.com/gopherjs/gopherjs> - A compiler from Go to JavaScript
 * Linker <https://en.wikipedia.org/wiki/Linker_(computing)>
   * LLD <https://lld.llvm.org/> - The LLVM Linker
-  * mold <https://github.com/rui314/mold/>
-* C core library
-  * glibc <https://sourceware.org/glibc/>
-  * musl libc <https://musl.libc.org/>
+  * mold <https://github.com/rui314/mold/> - A Modern Linker 🦠
+  * C core library
+    * glibc <https://sourceware.org/glibc/>
+    * musl libc <https://musl.libc.org/>
 * Runtime system <https://en.wikipedia.org/wiki/Runtime_system>
   * Javascript
     * Node.js <https://nodejs.org/>
@@ -557,6 +584,7 @@
   * bpkg <https://bpkg.sh/bpkg/>
   * Conan <https://conan.io/>
   * Cargo <https://doc.rust-lang.org/stable/cargo/>
+  * LuaRocks CLI <https://luarocks.org/> - The package manager for Lua modules
   * RubyGems CLI <https://rubygems.org/>
   * Bundler <https://bundler.io/> - provides a consistent environment for Ruby projects
   * NuGet CLI <https://www.nuget.org/>
@@ -644,7 +672,8 @@
   * Ghostscript <https://www.ghostscript.com/>
   * qpdf <https://qpdf.sourceforge.io/>
   * pdftk <https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/>
-  * pdfcpu <https://pdfcpu.io/> - a Go PDF processor
+  * pdfcpu <https://pdfcpu.io/> - A Go PDF processor
+  * PDF.js <https://mozilla.github.io/pdf.js/> - A general-purpose, web standards-based platform for parsing and rendering PDFs
   * LibreOffice cli <https://www.libreoffice.org/>
   * Excelize <https://xuri.me/excelize/> - a Go library for XLSX files
   * xlsx2csv <https://github.com/dilshod/xlsx2csv>

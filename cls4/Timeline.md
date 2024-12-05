@@ -21,6 +21,10 @@ The Morris worm or Internet worm of November 2, 1988, is one of the oldest compu
 X.509 is an International Telecommunication Union (ITU) standard defining the format of public key certificates.
 X.509 First published 1.0 at November 25, 1988
 
+Kerberos is a computer-network authentication protocol that works on the basis of tickets to allow nodes communicating over a non-secure network to prove their identity to one another in a secure manner.
+The Massachusetts Institute of Technology (MIT) developed Kerberos in 1988 to protect network services provided by Project Athena.
+Kerberos version 4, the first public version, was released on January 24, 1989.
+
 ### 1990s
 
 Pretty Good Privacy (PGP) is an encryption program that provides cryptographic privacy and authentication for data communication. PGP is used for signing, encrypting, and decrypting texts, e-mails, files, directories, and whole disk partitions and to increase the security of e-mail communications. Phil Zimmermann developed PGP in 1991.
@@ -75,6 +79,9 @@ They are built using the Merkle–Damgård construction, from a one-way compress
 
 The Advanced Encryption Standard (AES), also known by its original name Rijndael, is a specification for the encryption of electronic data established by the U.S. National Institute of Standards and Technology (NIST) in 2001.
 
+Security Assertion Markup Language (SAML) is an open standard for exchanging authentication and authorization data between parties, in particular, between an identity provider and a service provider.
+SAML 2.0 became an OASIS Standard in March 2005
+
 In 2006, a revised version of the protocol, SSH-2, was adopted as a standard.
 This version is incompatible with SSH-1.
 
@@ -88,6 +95,12 @@ In March 2009 the draft was renamed to "Cross-Origin Resource Sharing".
 OAuth is an open standard for access delegation, commonly used as a way for internet users to grant websites or applications access to their information on other websites but without giving them the passwords.
 The OAuth 1.0 protocol was published as RFC 5849, an informational Request for Comments, in April 2010.
 
+ZAP (Zed Attack Proxy) is a dynamic application security testing tool published under the Apache License. When used as a proxy server it allows the user to manipulate all of the traffic that passes through it, including HTTPS encrypted traffic.
+The first release was announced on Bugtraq in September 2010, and became an OWASP project a few months later.
+
+JSON Web Token (JWT) is a proposed Internet standard for creating data with optional signature and/or optional encryption whose payload holds JSON that asserts some number of claims.
+First published: December 28, 2010
+
 Time-based one-time password (TOTP) is a computer algorithm that generates a one-time password (OTP) that uses the current time as a source of uniqueness.
 In May 2011, TOTP officially became RFC 6238.
 
@@ -95,6 +108,10 @@ OAuth 2.0 was published as RFC 6749 in October 2012.
 
 HTTP Strict Transport Security (HSTS) is a policy mechanism that helps to protect websites against man-in-the-middle attacks such as protocol downgrade attacks and cookie hijacking.
 The HSTS specification was published as RFC 6797 on 19 November 2012 after being approved on 2 October 2012 by the IESG for publication as a Proposed Standard RFC.
+
+The FIDO ("Fast IDentity Online") Alliance is an open industry association launched in February 2013 whose stated mission is to develop and promote authentication standards that "help reduce the world’s over-reliance on passwords".
+
+The Adversarial Tactics, Techniques, and Common Knowledge or MITRE ATT&CK is a guideline for classifying and describing cyberattacks and intrusions. It was created by the Mitre Corporation and released in 2013.
 
 In January 2014 CORS was accepted as a W3C Recommendation.
 
@@ -107,7 +124,22 @@ Shellshock, also known as Bashdoor, is a family of security bugs in the Unix Bas
 Let's Encrypt is a non-profit certificate authority run by Internet Security Research Group (ISRG) that provides X.509 certificates for Transport Layer Security (TLS) encryption at no charge.
 Let's Encrypt was announced publicly on November 18, 2014.
 
+eBPF is a technology that can run programs in a privileged context such as the operating system kernel. It is the successor to the Berkeley Packet Filter (BPF, with the "e" originally meaning "extended") filtering mechanism in Linux and is also used in non-networking parts of the Linux kernel as well.
+Initial release: 2014
+
 On September 14, 2015, Let's Encrypt issued its first certificate, which was for the domain helloworld.letsencrypt.org. On the same day, ISRG submitted its root program applications to Mozilla, Microsoft, Google and Apple.
+
+Cilium is a cloud native technology for networking, observability, and security. It is based on the kernel technology eBPF, originally for better networking performance, and now leverages many additional features for different use cases.
+Initial release	December 16, 2015
+
+The General Data Protection Regulation, abbreviated GDPR, or French RGPD is a European Union regulation on information privacy in the European Union (EU) and the European Economic Area (EEA).
+The European Parliament and Council of the European Union adopted the GDPR on 14 April 2016, to become effective on 25 May 2018.
+
+The FIDO2 Project is a joint effort between the FIDO Alliance and the World Wide Web Consortium (W3C) whose goal is to create strong authentication for the web. At its core, FIDO2 consists of the W3C Web Authentication (WebAuthn) standard and the FIDO Client to Authenticator Protocol 2 (CTAP2).
+FIDO 2.0 Proposed Standard: September 4, 2015
+
+Web Authentication (WebAuthn) is a web standard published by the World Wide Web Consortium (W3C). WebAuthn is a core component of the FIDO2 Project under the guidance of the FIDO Alliance.
+First published: 31 May 2016
 
 The WannaCry ransomware attack was a worldwide cyberattack in May 2017 by the WannaCry ransomware cryptoworm, which targeted computers running the Microsoft Windows operating system by encrypting data and demanding ransom payments in the Bitcoin cryptocurrency.
 
