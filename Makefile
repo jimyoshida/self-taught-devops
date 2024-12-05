@@ -1,31 +1,23 @@
-TITLE := DevOps learning items $(shell date +%Y%m%d)
-FNAME := $(shell echo "$(TITLE)" | tr ' ' '_')
-MAINPAGES := $(shell ls ch*/README.md)
-MAINPAGES_MOD := $(addprefix tmp/,$(MAINPAGES))
-MAINPDF := out/$(FNAME).pdf
+PAGES := $(shell ls cls*/README.md)
+MAPS := $(addprefix out/,$(PAGES:.md=.html))
 
-TITLE2 := DevOps learning items timeline $(shell date +%Y%m%d)
-FNAME2 := $(shell echo "$(TITLE2)" | tr ' ' '_')
-TLPAGES := $(shell ls ch*/Timeline.md)
-TLPDF := out/$(FNAME2).pdf
+TLPAGES := $(shell ls cls*/Timeline.md)
+TLTITLE := DevOps learning items timeline $(shell date +%Y%m%d)
+TLPDF := out/$(shell echo "$(TLTITLE)" | tr ' ' '_').pdf
 
+#---
 .PHONY: all
-all: $(MAINPDF) $(TLPDF)
+all: $(MAPS) $(TLPDF)
 
 .PHONY: clean
 clean:
 	rm -fr out tmp
 
-$(MAINPDF): $(MAINPAGES_MOD) Makefile
+out/%.html: %.md Makefile
 	mkdir -p $(@D)
-	pandoc $(MAINPAGES_MOD) -o $@ --from markdown --template templates/eisvogel.latex --toc \
-	-V colorlinks -V title="$(TITLE)"
-
-tmp/%.md: %.md
-	mkdir -p $(@D)
-	tools/hide-local-links.sed $^ > $@
+	markmap --no-open -o $@ $^
 
 $(TLPDF): $(TLPAGES) Makefile
 	mkdir -p $(@D)
 	pandoc $(TLPAGES) -o $@ --from markdown --template templates/eisvogel.latex --toc \
-	-V colorlinks -V title="$(TITLE2)"
+	-V colorlinks -V title="$(TLTITLE)"

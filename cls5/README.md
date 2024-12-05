@@ -22,10 +22,6 @@
     * VSCode Jupyter Extension <https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter>
   * BeakerX <http://beakerx.com/> - A collection of kernels and extensions to the Jupyter interactive computing environment
   * R Markdown <https://rmarkdown.rstudio.com/>
-  * Org Mode <https://orgmode.org/> - Your life in plain text
-    * org-export <https://nhoffman.github.io/org-export/> - Batch export of Emacs org-mode files from the command line
-    * org-ai <https://github.com/rksm/org-ai> - Emacs as your personal AI assistant
-    * Org-roam <https://www.orgroam.com/> - A plain-text personal knowledge management system
 * Platforms for Data/AI/ML
   * DVC <https://dvc.org/> - Data Version Control
   * Mojo <https://www.modular.com/mojo> - The programming language for all AI developers
@@ -53,12 +49,13 @@
 * Visualization tools and libraries
   * gnuplot <http://gnuplot.info/> - A portable command-line driven graphing utility
   * matplotlib <https://matplotlib.org/> - A comprehensive library for creating static, animated, and interactive visualizations in Python
-  * seaborn <https://seaborn.pydata.org/>
-  * ggplot2 <https://ggplot2.tidyverse.org/>
-  * Vega <https://vega.github.io/vega/>
-  * Vega-Lite <https://vega.github.io/vega-lite/>
-  * D3 <https://d3js.org/>
-  * go-echarts <https://go-echarts.github.io/go-echarts/#/>
+  * seaborn <https://seaborn.pydata.org/> - A Python data visualization library based on matplotlib
+  * ggplot2 <https://ggplot2.tidyverse.org/> - A system for declaratively creating graphics, based on The Grammar of Graphics
+  * Vega <https://vega.github.io/vega/> - A visualization grammar, a declarative language for creating, saving, and sharing interactive visualization designs
+  * Vega-Lite <https://vega.github.io/vega-lite/> - A high-level grammar of interactive graphics
+  * D3 <https://d3js.org/> - The JavaScript library for bespoke data visualization
+  * GoJS <https://gojs.net/latest/> - A JavaScript library that lets you easily create interactive diagrams in web browsers
+  * Chart.js <https://www.chartjs.org/> - Simple yet flexible JavaScript charting library for the modern web
   * GeoLite2 <https://dev.maxmind.com/geoip/geolite2-free-geolocation-data> - Free geolocation data
   * WordCloud for Python <https://amueller.github.io/word_cloud/>
 
@@ -90,9 +87,9 @@
   * SQLite <https://www.sqlite.org/index.html>
     * DB Browser for SQLite <https://sqlitebrowser.org/>
 * NoSQL databases
-  * ElasticSearch <https://www.elastic.co/elasticsearch/>
+  * ElasticSearch <https://www.elastic.co/elasticsearch/> - An open source distributed, RESTful search and analytics engine, scalable data store, and vector database
+    * Apache Lucene <https://lucene.apache.org/> - A Java library providing powerful indexing and search features
     * Painless <https://www.elastic.co/guide/en/elasticsearch/painless/current/index.html> - A simple, secure scripting language designed specifically for use with Elasticsearch
-    * Elastic Common Schema <https://www.elastic.co/guide/en/ecs/current/index.html>
     * Kibana <https://www.elastic.co/kibana>
       * Kibana Query Language <https://www.elastic.co/guide/en/kibana/current/kuery-query.html>
   * MongoDB <https://www.mongodb.com/>
@@ -236,6 +233,7 @@
   * Llama <https://llama.meta.com/> <https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/>
   * Google Gemini <https://gemini.google.com/>
   * Anthropic Claude <https://www.anthropic.com/claude>
+  * Mistral AI <https://mistral.ai/>
 * OpenAI API <https://platform.openai.com/>
   * Go OpenAI <https://github.com/sashabaranov/go-openai>
 * Azure OpnAI Service <https://azure.microsoft.com/en-us/products/ai-services/openai-service>
@@ -244,4 +242,7 @@
 * Ollama <https://ollama.com/> - A tool designed for deploying and managing large language models (LLMs) locally
 * Tools
   * LangChain <https://python.langchain.com/> - A framework for developing applications powered by large language models (LLMs)
-  * LangChainGo <https://tmc.github.io/langchaingo/>
+    * LangChainGo <https://tmc.github.io/langchaingo/>
+  * LangGraph <https://langchain-ai.github.io/langgraph/> - A library for building stateful, multi-actor applications with LLMs, used to create agent and multi-agent workflows
+  * LangSmith <https://docs.smith.langchain.com/> - A platform for building production-grade LLM applications
+  * Tavily Search <https://tavily.com/> - A search engine optimized for LLMs, aimed at efficient, quick and persistent search results

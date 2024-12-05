@@ -76,7 +76,7 @@
 
 ## 420 - Identity and access management
 
-* Identity management (integrated) <https://en.wikipedia.org/wiki/Identity_management>
+* Integrated IAM <https://en.wikipedia.org/wiki/Identity_management>
   * JSON Web Token (JWT) <https://en.wikipedia.org/wiki/JSON_Web_Token>
   * FusionAuth CE <https://fusionauth.io/> - adds login, registration, SSO, MFA, and a bazillion other features to your app in days - not months
   * KeyCloak <https://www.keycloak.org/> - provides user federation, strong authentication, user management, fine-grained authorization, and more
@@ -97,9 +97,9 @@
     * Passkeys <https://fidoalliance.org/passkeys/>
   * Dex <https://dexidp.io/> - A Federated OpenID Connect Provider
   * SPIFFE (Secure Production Identity Framework For Everyone) <https://spiffe.io/>
-  * SPIRE (SPIFFE Runtime Environment) <https://spiffe.io/docs/latest/spire-about/> - A production-ready implementation of the SPIFFE APIs that performs node and workload attestation in order to securely issue SVIDs to workloads
+    * SPIRE (SPIFFE Runtime Environment) <https://spiffe.io/docs/latest/spire-about/> - A production-ready implementation of the SPIFFE APIs that performs node and workload attestation in order to securely issue SVIDs to workloads
   * Kerberos <https://web.mit.edu/kerberos/>
-  * MIT Kerberos <https://web.mit.edu/kerberos/new/index.html> - An implementation of the Kerberos network authentication protocol
+    * MIT Kerberos <https://web.mit.edu/kerberos/new/index.html> - An implementation of the Kerberos network authentication protocol
   * Azure Shared Access Signature (SAS) <https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview>
 * Authorization <https://en.wikipedia.org/wiki/Authorization>
   * Access control list (ACL) <https://en.wikipedia.org/wiki/Access-control_list>
@@ -135,6 +135,7 @@
   * stunnnel <https://www.stunnel.org/>
 * Secure Shell (SSH) <https://en.wikipedia.org/wiki/Secure_Shell>
   * OpenSSH <https://www.openssh.com/>
+  * PuTTY <https://www.chiark.greenend.org.uk/~sgtatham/putty/> - A free implementation of SSH and Telnet for Windows and Unix platforms
   * keychain <https://www.funtoo.org/Funtoo:Keychain>
   * Python Paramiko <https://www.paramiko.org/> - A pure-Python implementation of the SSHv2 protocol
   * Python Fablic <https://www.fabfile.org/> - A high level Python library designed to execute shell commands remotely over SSH
@@ -204,21 +205,25 @@
 
 ## 450 - Runtime security protection
 
-* Dynamic application security test (DAST)
-  * OWASP ZAP <https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project>
-* Microsoft Defender for Cloud <https://azure.microsoft.com/en-us/services/defender-for-cloud/>
-* Microsoft Sentinel <https://azure.microsoft.com/en-us/products/microsoft-sentinel>
-* Amazon Inspector <https://aws.amazon.com/inspector/>
-* Amazon GuardDuty <https://aws.amazon.com/guardduty/>
-* Falco <https://falco.org/> - A cloud native security tool that provides runtime security across hosts, containers, Kubernetes, and cloud environments
-* Tracee <https://aquasecurity.github.io/tracee/latest/> - A runtime security and observability tool that helps you understand how your system and applications behave
-* AWS CloudTrail <https://aws.amazon.com/cloudtrail/>
-* AWS Config <https://aws.amazon.com/config/>
-* AWS WAF <https://aws.amazon.com/waf/>
-* Azure WAF <https://azure.microsoft.com/en-us/services/web-application-firewall/>
-* AWS Shield <https://aws.amazon.com/shield/>
-* Azure DDoS Protection <https://azure.microsoft.com/en-us/products/ddos-protection>
-* fail2ban <https://github.com/fail2ban/fail2ban> - Daemon to ban hosts that cause multiple authentication errors
+* Cloud workload protection
+  * Microsoft Defender for Cloud <https://azure.microsoft.com/en-us/services/defender-for-cloud/>
+  * Amazon Inspector <https://aws.amazon.com/inspector/>
+  * Falco <https://falco.org/> - A cloud native security tool that provides runtime security across hosts, containers, Kubernetes, and cloud environments
+  * Tracee <https://aquasecurity.github.io/tracee/latest/> - A runtime security and observability tool that helps you understand how your system and applications behave
+  * YARA <https://virustotal.github.io/yara/> - A tool aimed at (but not limited to) helping malware researchers to identify and classify malware samples
+* Security Information and Event Management (SIEM)
+  * Microsoft Sentinel <https://azure.microsoft.com/en-us/products/microsoft-sentinel>
+  * Amazon GuardDuty <https://aws.amazon.com/guardduty/>
+  * Sigma Detection Format <https://sigmahq.io/>
+* Auditing
+  * AWS CloudTrail <https://aws.amazon.com/cloudtrail/>
+  * AWS Config <https://aws.amazon.com/config/>
+* WAF and DDos protection
+  * AWS WAF <https://aws.amazon.com/waf/>
+  * Azure WAF <https://azure.microsoft.com/en-us/services/web-application-firewall/>
+  * AWS Shield <https://aws.amazon.com/shield/>
+  * Azure DDoS Protection <https://azure.microsoft.com/en-us/products/ddos-protection>
+  * fail2ban <https://github.com/fail2ban/fail2ban> - Daemon to ban hosts that cause multiple authentication errors
 
 ## 460 - Other security tools
 
