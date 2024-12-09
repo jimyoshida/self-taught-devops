@@ -119,6 +119,10 @@ Initial release: 29 October 2009
 
 ### 2010s
 
+BigQuery is a managed, serverless data warehouse product by Google, offering scalable analysis over large quantities of data.
+Bigquery originated from Google's internal Dremel technology, which enabled quick queries across trillions of rows of data.
+Launched: May 19, 2010
+
 Apache Hive is a data warehouse software project. It is built on top of Apache Hadoop for providing data query and analysis.
 Initial release: October 1, 2010
 

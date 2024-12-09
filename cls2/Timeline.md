@@ -88,7 +88,7 @@ Between 1998 and 2004, CFEngine grew in adoption along with the popularity of Li
 ### 2000s
 
 The jail mechanism is an implementation of FreeBSD's OS-level virtualisation that allows system administrators to partition a FreeBSD-derived computer system into several independent mini-systems called jails.
-Jails were first introduced in FreeBSD version 4.0, that was released on March 14, 2000.
+Jails were first introduced in FreeBSD version 4.0, that was released on March 14, 2000.
 FreeBSD jails mainly aim at three goals: Virtualization, Security and Ease of delegation.
 
 Linux version 2.4.0, released on 4 January 2001, contained support for ISA Plug and Play, USB, and PC Cards. Linux 2.4 added support for the Pentium 4 and Itanium, and for the newer 64-bit MIPS processor.
@@ -175,15 +175,18 @@ VMware Server final release: October 26, 2009
 
 ### 2010s
 
+On February 1, 2010, Windows Azure Platform commercially available.
+
 Vagrant is an open-source software product for building and maintaining portable virtual software development environments; e.g., for VirtualBox, KVM, Hyper-V, Docker containers, VMware, and AWS.
 Vagrant was first started as a personal side-project by Mitchell Hashimoto in January 2010.
 The first version of Vagrant was released in March 2010.
 
-On February 1, 2010, Windows Azure Platform commercially available.
-
 systemd is a software suite that provides an array of system components for Linux operating systems. Its main aim is to unify service configuration and behavior across Linux distributions.
 Lennart Poettering and Kay Sievers, the software engineers working for Red Hat who initially developed systemd, started a project to replace Linux's conventional System V init in 2010.
 Initial release: 30 March 2010
+
+Google Cloud Storage is an online file storage web service for storing and accessing data on Google Cloud Platform infrastructure.
+Launched: May 19, 2010
 
 Jenkins is an open source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous delivery.
 The Jenkins project was originally named Hudson, and was renamed in 2011 after a dispute with Oracle.
@@ -197,6 +200,9 @@ Initial release: 16 September 2011
 
 Ansible was written by Michael DeHaan and acquired by Red Hat in 2015.
 Initial release: February 20, 2012
+
+Google Compute Engine (GCE) is the infrastructure as a service (IaaS) component of Google Cloud Platform which is built on the global infrastructure that runs Google's search engine, Gmail, YouTube and other services.
+Google announced Compute Engine on June 28, 2012 at Google I/O 2012 in a limited preview mode. In April 2013, GCE was made available to customers with Gold Support Package.
 
 Emscripten is an LLVM/Clang-based compiler that compiles C and C++ source code to WebAssembly (or to a subset of JavaScript known as asm.js, its original compilation target before the advent of WebAssembly in 2017), primarily for execution in web browsers.
 First release: 11/11/2012

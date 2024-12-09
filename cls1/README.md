@@ -430,10 +430,6 @@
   * Ragel <https://www.colm.net/open-source/ragel/> - compiles executable finite state machines from regular languages
   * Bison <https://www.gnu.org/software/bison/>
   * Flex <https://github.com/westes/flex>
-  * Syntax highlighting
-    * highlight.js <https://highlightjs.org/>
-    * Prism <https://prismjs.com>
-    * Pygments <https://pygments.org/>
 
 ## 150 - Debugging, logging, and unit testing
 

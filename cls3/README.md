@@ -86,6 +86,7 @@
 * Application hosting services
   * Azure App Service <https://azure.microsoft.com/en-us/services/app-service/>
   * AWS Elastic Beanstalk <https://aws.amazon.com/elasticbeanstalk/>
+  * Google Cloud App Engine <https://cloud.google.com/appengine/>
 * Function as a service
   * Azure Functions <https://azure.microsoft.com/en-us/services/functions/>
   * AWS Lambda <https://aws.amazon.com/lambda/>
@@ -149,6 +150,11 @@
 * Vite <https://vitejs.dev/> - Next Generation Frontend Tooling
 * babel <https://babeljs.io/> - A JavaScript compiler
 * Rspack <https://rspack.dev/> - A high performance JavaScript bundler written in Rust
+* Syntax highlighting libs
+  * highlight.js <https://highlightjs.org/> - The Internet's favorite JavaScript syntax highlighter supporting Node.js and the web
+  * Prism <https://prismjs.com> - A lightweight, extensible syntax highlighter, built with modern web standards in mind
+  * Pygments <https://pygments.org/> - A generic syntax highlighter suitable for use in code hosting, forums, wikis or other applications that need to prettify source code
+  * Rouge <https://rouge.jneen.net/> - An elegant, extendable code highlighter written in pure Ruby
 
 ## 350 - Web application automation and test tools
 

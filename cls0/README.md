@@ -146,14 +146,15 @@
   * textlint <https://textlint.github.io/> - The pluggable linting tool for text and markdown
   * lychee <https://lychee.cli.rs/> - A fast, async link checker written in Rust
 * Document site generators
-  * Docusaurus <https://docusaurus.io/>
+  * Docusaurus <https://docusaurus.io/> - A static-site generator. It builds a single-page application with fast client-side navigation, leveraging the full power of React to make your site interactive
     * MDX <https://mdxjs.com/>
-  * VuePress <https://v2.vuepress.vuejs.org/>
-  * Hugo <https://gohugo.io/>
+  * VuePress <https://v2.vuepress.vuejs.org/> - Vue-powered Static Site Generator
+  * Hugo <https://gohugo.io/> - The world’s fastest framework for building websites
     * Docsy <https://www.docsy.dev/>
   * Sphinx <http://www.sphinx-doc.org/en/master/>
-  * MkDocs <https://www.mkdocs.org/>
+  * MkDocs <https://www.mkdocs.org/> - A fast, simple and downright gorgeous static site generator that's geared towards building project documentation
     * Material for MkDocs <https://squidfunk.github.io/mkdocs-material/>
+  * Nanoc <https://nanoc.app/> - A static-site generator, fit for building anything from a small personal blog to a large corporate website
 * Typesetting systems
   * Troff/Groff <https://www.gnu.org/software/groff/>
   * Asciidoc <https://asciidoc.org/>

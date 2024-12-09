@@ -1,23 +1,32 @@
 PAGES := $(shell ls cls*/README.md)
-MAPS := $(addprefix out/,$(PAGES:.md=.html))
+MAPS := $(addprefix out/,$(PAGES:README.md=Map.html))
 
 TLPAGES := $(shell ls cls*/Timeline.md)
-TLTITLE := DevOps learning items timeline $(shell date +%Y%m%d)
-TLPDF := out/$(shell echo "$(TLTITLE)" | tr ' ' '_').pdf
+TLHTMLS := $(addprefix out/,$(TLPAGES:.md=.html))
+TLPDFS := $(addprefix out/,$(TLPAGES:.md=.pdf))
 
 #---
-.PHONY: all
-all: $(MAPS) $(TLPDF)
+.PHONY: html
+all: $(MAPS) $(TLHTMLS)
+
+.PHONY: pdf
+pdf: $(TLPDFS)
 
 .PHONY: clean
 clean:
 	rm -fr out tmp
 
-out/%.html: %.md Makefile
+out/%/Map.html: %/README.md Makefile
 	mkdir -p $(@D)
-	markmap --no-open -o $@ $^
+	markmap --no-open -o $@ $<
 
-$(TLPDF): $(TLPAGES) Makefile
+out/%/Timeline.html: %/Timeline.md Makefile out/github-markdown.css
 	mkdir -p $(@D)
-	pandoc $(TLPAGES) -o $@ --from markdown --template templates/eisvogel.latex --toc \
-	-V colorlinks -V title="$(TLTITLE)"
+	pandoc -o $@ --from markdown --standalone -M title="Timeline" \
+	-V mainfont='"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif' \
+	-V maxwidth=64em $<
+
+out/%/Timeline.pdf: %/Timeline.md Makefile
+	mkdir -p $(@D)
+	pandoc -o $@ --from markdown --template templates/eisvogel.latex \
+	-V colorlinks -V title="Timeline" $<
