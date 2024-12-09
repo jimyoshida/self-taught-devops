@@ -98,6 +98,7 @@
   * etcd <https://etcd.io/>
   * Amazon DynamoDB <https://aws.amazon.com/dynamodb/>
   * Azure Cosmos DB <https://azure.microsoft.com/en-us/products/cosmos-db/>
+  * Google Cloud Bigtable <https://cloud.google.com/bigtable/>
   * Neo4j <https://neo4j.com/>
   * Amazon Neptune <https://aws.amazon.com/neptune/>
   * Apache Cassandra <https://cassandra.apache.org/> - An open source NoSQL distributed database
@@ -121,6 +122,7 @@
   * Amazon Athena <https://aws.amazon.com/athena/>
   * Microsoft Fablic <https://www.microsoft.com/en-us/microsoft-fabric>
   * Azure Synapse Analytics <https://azure.microsoft.com/en-us/products/synapse-analytics/>
+  * Google Cloud BigQuery <https://cloud.google.com/bigquery>
 * Full-fledged ETL
   * Azure Data Factory <https://azure.microsoft.com/en-us/products/data-factory/>
   * AWS Glue <https://aws.amazon.com/glue/>
@@ -234,15 +236,17 @@
   * Google Gemini <https://gemini.google.com/>
   * Anthropic Claude <https://www.anthropic.com/claude>
   * Mistral AI <https://mistral.ai/>
-* OpenAI API <https://platform.openai.com/>
-  * Go OpenAI <https://github.com/sashabaranov/go-openai>
-* Azure OpnAI Service <https://azure.microsoft.com/en-us/products/ai-services/openai-service>
-* Amazon Bedrock <https://aws.amazon.com/bedrock/>
-* LocalAI <https://localai.io/> - The free, Open Source OpenAI alternative.
-* Ollama <https://ollama.com/> - A tool designed for deploying and managing large language models (LLMs) locally
+* APIs
+  * OpenAI API <https://platform.openai.com/>
+    * Go OpenAI <https://github.com/sashabaranov/go-openai>
+  * Azure OpnAI Service <https://azure.microsoft.com/en-us/products/ai-services/openai-service>
+  * Amazon Bedrock <https://aws.amazon.com/bedrock/>
+  * Vertex AI <https://cloud.google.com/vertex-ai>
+  * Hugging Face Serverless Inference API <https://huggingface.co/docs/api-inference/index>
+  * LocalAI <https://localai.io/> - The free, Open Source OpenAI alternative.
+  * Ollama <https://ollama.com/> - A tool designed for deploying and managing large language models (LLMs) locally
 * Tools
-  * LangChain <https://python.langchain.com/> - A framework for developing applications powered by large language models (LLMs)
-    * LangChainGo <https://tmc.github.io/langchaingo/>
   * LangGraph <https://langchain-ai.github.io/langgraph/> - A library for building stateful, multi-actor applications with LLMs, used to create agent and multi-agent workflows
-  * LangSmith <https://docs.smith.langchain.com/> - A platform for building production-grade LLM applications
   * Tavily Search <https://tavily.com/> - A search engine optimized for LLMs, aimed at efficient, quick and persistent search results
+  * Semantic Kernel <https://learn.microsoft.com/en-us/semantic-kernel/overview/> - A lightweight, open-source development kit that lets you easily build AI agents and integrate the latest AI models
+  * LiteLLM <https://www.litellm.ai/> - Python SDK, Proxy Server (LLM Gateway) to call 100+ LLM APIs in OpenAI format

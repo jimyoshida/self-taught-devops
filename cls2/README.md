@@ -356,11 +356,12 @@
   * Amazon EC2 <https://aws.amazon.com/ec2/>
     * Amazon EBS <https://aws.amazon.com/ebs/>
   * Amazon VPC <https://aws.amazon.com/vpc/>
+  * Amazon ELB <https://aws.amazon.com/elasticloadbalancing/>
   * Azure Virtual Machines <https://azure.microsoft.com/en-us/services/virtual-machines/>
     * Azure Disk Storage <https://azure.microsoft.com/en-us/services/storage/disks/>
   * Azure Virtual Network <https://azure.microsoft.com/en-us/services/virtual-network/>
-  * Amazon ELB <https://aws.amazon.com/elasticloadbalancing/>
   * Azure Load Balancer <https://azure.microsoft.com/en-us/products/load-balancer>
+  * Google Cloud Compute Engine <https://cloud.google.com/products/compute>
   * OpenStack <https://www.openstack.org/> - A cloud operating system that controls large pools of compute
   * Open vSwitch <https://www.openvswitch.org/>
   * DPDK <https://www.dpdk.org/>
@@ -371,6 +372,7 @@
   * MinIO <https://min.io/> - A high-performance, S3 compatible object store
   * Azure Blob Storage <https://azure.microsoft.com/en-us/services/storage/blobs/>
   * Azure Storage Exproler <https://azure.microsoft.com/en-us/products/storage/storage-explorer/> - Manage your Azure cloud storage resources from your desktop
+  * Google Cloud Storage <https://cloud.google.com/storage/>
 * File transfers
   * s5cmd <https://github.com/peak/s5cmd>
   * Rclone <https://rclone.org/> - A command-line program to manage files on cloud storage
