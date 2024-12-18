@@ -13,7 +13,10 @@
 * Data lake <https://en.wikipedia.org/wiki/Data_lake>
 * Concurrency control <https://en.wikipedia.org/wiki/Concurrency_control>
   * ACID <https://en.wikipedia.org/wiki/ACID>
+    * Atomicity, Consistency, Isolation, Durability
 * CRUD operations <https://en.wikipedia.org/wiki/Create,_read,_update_and_delete>
+* CAP theorem <https://en.wikipedia.org/wiki/CAP_theorem>
+  * Consistency, Availability, Partition tolerance
 * Network analysis
   * Centrality <https://en.wikipedia.org/wiki/Centrality>
 * Interactive computing environment
@@ -36,6 +39,7 @@
   * SymPy <https://www.sympy.org/en/index.html> - A Python library for symbolic mathematics
   * SageMath <https://www.sagemath.org/>
   * statsmodels <https://www.statsmodels.org/stable/index.html>
+  * JAX <https://jax.readthedocs.io/en/latest/> - A Python library for accelerator-oriented array computation and program transformation
 * Manipuration
   * Pandas <https://pandas.pydata.org/> - A fast, powerful, flexible and easy to use open source data analysis and manipulation tool
   * Tidyverse <https://www.tidyverse.org/> - An opinionated collection of R packages designed for data science
@@ -232,13 +236,15 @@
 
 * Models
   * GPT-4 <https://openai.com/research/gpt-4> <https://arxiv.org/abs/2303.08774>
-  * Llama <https://llama.meta.com/> <https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/>
+  * Llama <https://www.llama.com/> <https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/>
   * Google Gemini <https://gemini.google.com/>
   * Anthropic Claude <https://www.anthropic.com/claude>
   * Mistral AI <https://mistral.ai/>
+  * OLMo  <https://allenai.org/blog/olmo2>
 * APIs
   * OpenAI API <https://platform.openai.com/>
     * Go OpenAI <https://github.com/sashabaranov/go-openai>
+    * gptcli <https://github.com/evilpan/gptcli>
   * Azure OpnAI Service <https://azure.microsoft.com/en-us/products/ai-services/openai-service>
   * Amazon Bedrock <https://aws.amazon.com/bedrock/>
   * Vertex AI <https://cloud.google.com/vertex-ai>
@@ -250,3 +256,6 @@
   * Tavily Search <https://tavily.com/> - A search engine optimized for LLMs, aimed at efficient, quick and persistent search results
   * Semantic Kernel <https://learn.microsoft.com/en-us/semantic-kernel/overview/> - A lightweight, open-source development kit that lets you easily build AI agents and integrate the latest AI models
   * LiteLLM <https://www.litellm.ai/> - Python SDK, Proxy Server (LLM Gateway) to call 100+ LLM APIs in OpenAI format
+* Model visualization
+  * AttentionViz <https://catherinesyeh.github.io/attn-docs/> - A Global View of Transformer Attention
+  * BertViz <https://github.com/jessevig/bertviz> - Visualize Attention in NLP Models

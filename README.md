@@ -1,13 +1,14 @@
-# Decimal Classification for DevOps
+# Digital Skill Bird View
 
-Welcome to this site, a comprehensive collection of essential concepts, useful technologies, and techniques curated specifically for DevOps engineers.
-While the _continuous delivery_ becomes a core portion of the DevOps practices, it will require a broader range of knowledge to make flexible, low-cost, low-stress, and profitable systems.
-Thus, this site assembles all such relevant domains - BizDataMLDevSecOps.
+This site attempts to make a comprehensive collection of digital skill maps which contain essential concepts, de-facto standards, useful technologies, and techniques etc. for DX promoters.
+The initial versions started with skills of DevOps engineers, but now it has been extended for promoting digital transformation.
+To build flexible, intuitive, reasonable, and profitable systems, then to replace the legacy workloads, the person-in-chage must learn a broad range of knowledge.
+Thus, this site assembles all such relevant domains - BizDataML_LLM_DevSecOps.
 
 In addition, to understand the background of the technologies etc., each section contains the timeline of those items.
 The descriptions are mainly quoted from the [Wikipedia English version](https://en.wikipedia.org/wiki/Main_Page) unless other references are noted.
 
-The contents consist of the following 6 major classes, and they are classified like [Dewey Decimal Classification](https://en.wikipedia.org/wiki/Dewey_Decimal_Classification) system.
+The contents consist of the following 6 major classes as of now, and they are classified like [Dewey Decimal Classification](https://en.wikipedia.org/wiki/Dewey_Decimal_Classification) system.
 
 - [Class 000 - Agile, management, and general works](cls0/README.md)
 - [Class 100 - Programming](cls1/README.md)
@@ -16,12 +17,14 @@ The contents consist of the following 6 major classes, and they are classified l
 - [Class 400 - Security and privacy](cls4/README.md)
 - [Class 500 - Data, ML, and LLM](cls5/README.md)
 
+Thanks to today's LLMs trained by useful open documents and texts, you will be able to learn the details of the skills with the AI chatbots.
+
 ## Primary References
 
 - Web
+  - [Thoughtworks Technology Radar](https://www.thoughtworks.com/radar)
   - [Golang Weekly](https://golangweekly.com/)
   - [Developer Roadmaps](https://roadmap.sh)
-  - [Thoughtworks Technology Radar](https://www.thoughtworks.com/radar)
   - [ITNEXT](https://itnext.io/)
   - [FAUN](https://faun.pub/)
   - [Level Up Coding](https://levelup.gitconnected.com/)

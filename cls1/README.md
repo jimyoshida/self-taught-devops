@@ -97,10 +97,11 @@
   * nushell <https://www.nushell.sh/> - A new type of shell
 * Shell utilities
   * coreutils <https://www.gnu.org/software/coreutils/> = fileutils+textutils+shellutils
-  * starship <https://starship.rs/>
+  * starship <https://starship.rs/> - The minimal, blazing-fast, and infinitely customizable prompt for any shell!
   * bash-completion <https://github.com/scop/bash-completion>
-  * GNU parallel <https://www.gnu.org/software/parallel/>
-  * rlwrap <https://github.com/hanslub42/rlwrap>
+  * GNU parallel <https://www.gnu.org/software/parallel/> - A shell tool for executing jobs in parallel using one or more computers
+  * rlwrap <https://github.com/hanslub42/rlwrap> - A readline wrapper
+  * zoxide <https://github.com/ajeetdsouza/zoxide> - A smarter cd command
   * charm_mods <https://github.com/charmbracelet/mods> - AI on the command line
 * Terminal emulator <https://en.wikipedia.org/wiki/Terminal_emulator>
   * Terminator <https://gnome-terminator.org>
@@ -225,6 +226,7 @@
   * PSScriptAnalyzer <https://github.com/PowerShell/PSScriptAnalyzer> - A static code checker for PowerShell modules and scripts
   * ShellCheck <https://www.shellcheck.net/> - A GPLv3 tool that gives warnings and suggestions for bash/sh shell scripts
   * Stylelint <https://stylelint.io/> - A mighty CSS linter that helps you avoid errors and enforce conventions
+  * yamllint <https://github.com/adrienverge/yamllint>
 * Code counters
   * Cyclomatic complexity <https://en.wikipedia.org/wiki/Cyclomatic_complexity>
   * scc <https://github.com/boyter/scc/>
@@ -344,6 +346,7 @@
   * Onigmo <https://github.com/k-takata/Onigmo> - A regular expressions library forked from Oniguruma
   * Python re <https://docs.python.org/3/library/re.html>
   * Go regexp <https://pkg.go.dev/regexp>
+* PRegEx <https://github.com/manoss96/pregex> - Programmable Regular Expressions
 * GNU sed <https://www.gnu.org/software/sed/>; <https://sed.sourceforge.io/>
 * sd <https://github.com/chmln/sd> - sed alternative
 * GNU diffutils <https://www.gnu.org/software/diffutils/>
@@ -383,7 +386,7 @@
     * YAML::Tiny <https://metacpan.org/pod/YAML::Tiny>
     * PyYAML <https://github.com/yaml/pyyaml>
   * StrictYAML <https://hitchdev.com/strictyaml/> - A type-safe YAML parser that parses and validates a restricted subset of the YAML specification
-    * The Norway Problem <https://hitchdev.com/strictyaml/why/implicit-typing-removed/>
+    * The Norway Problem <https://hitchdev.com/strictyaml/why/implicit-typing-removed/> - why StrictYAML refuses to do implicit typing and so should you
   * TOML <https://toml.io/en/>
     * TOML::Tiny <https://metacpan.org/pod/TOML::Tiny>
     * Python tomllib <https://docs.python.org/3/library/tomllib.html>
@@ -536,7 +539,7 @@
     * Java HotSpot VM <https://docs.oracle.com/en/java/javase/22/vm/java-virtual-machine-technology-overview.html>
     * JMX API <https://docs.oracle.com/en/java/javase/22/jmx/introduction-jmx-technology.html>
     * JDK tools <https://docs.oracle.com/en/java/javase/22/docs/specs/man/index.html>
-    * GraalVM <https://oracle.com/java/graalvm/>
+    * GraalVM <https://oracle.com/java/graalvm/> - An advanced JDK with ahead-of-time Native Image compilation
     * OpenJDK <https://openjdk.org/>
     * Eclipse Temurin <https://adoptium.net/temurin/>
     * VisualVM <https://visualvm.github.io/>
@@ -658,8 +661,8 @@
   * xxd <https://github.com/ckormanyos/xxd> - The well-known hex-dump-type utility
   * bed <https://github.com/itchyny/bed> - Binary editor written in Go
   * fq <https://github.com/wader/fq> - Inspired by the jq tool and language and allows you to work with binary formats in the same way
+  * exiftool <https://metacpan.org/dist/Image-ExifTool/view/exiftool> - Read and write meta information in files
   * ImageMagick <https://imagemagick.org/index.php> - A free, open-source software suite, used for editing and manipulating digital images
-  * Image::ExifTool <https://metacpan.org/pod/Image::ExifTool> - Read and write meta information
 * Office document processing
   * Formats
     * PDF <https://en.wikipedia.org/wiki/PDF>

@@ -6,7 +6,7 @@ TLHTMLS := $(addprefix out/,$(TLPAGES:.md=.html))
 TLPDFS := $(addprefix out/,$(TLPAGES:.md=.pdf))
 
 #---
-.PHONY: html
+.PHONY: all
 all: $(MAPS) $(TLHTMLS)
 
 .PHONY: pdf

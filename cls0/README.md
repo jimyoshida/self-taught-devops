@@ -6,14 +6,29 @@
 
 * Agile software development <https://en.wikipedia.org/wiki/Agile_software_development>
   * Agile Manifesto <https://agilemanifesto.org/>
+    * Individuals and interactions over processes and tools
+    * Working software over comprehensive documentation
+    * Customer collaboration over contract negotiation
+    * Responding to change over following a plan
   * Extreme Programming <https://en.wikipedia.org/wiki/Extreme_programming>
-  * Refactoring <https://refactoring.com/>
+    * Refactoring <https://refactoring.com/>
+    * Software rot <https://en.wikipedia.org/wiki/Software_rot>
   * Trunk Based Development <https://trunkbaseddevelopment.com/>
-  * Software rot <https://en.wikipedia.org/wiki/Software_rot>
   * Software prototyping <https://en.wikipedia.org/wiki/Software_prototyping>
   * Scrum <https://www.scrum.org/learning-series/what-is-scrum/>
   * User story <https://en.wikipedia.org/wiki/User_story>
-  * INVEST in stories <https://en.wikipedia.org/wiki/INVEST_(mnemonic)>
+  * INVEST of PBI <https://en.wikipedia.org/wiki/INVEST_(mnemonic)>
+    * Independent: The PBI should be self-contained
+    * Negotiable: Draft PBIs are not explicit contracts and should leave space for discussion
+    * Valuable: A PBI must deliver value to the stakeholders
+    * Estimable: You must always be able to estimate the size of a PBI
+    * Small: PBIs should not be so big as to become impossible to plan/task/order within a level of accuracy
+    * Testable: The PBI or its related description must provide the necessary information to make test development possible
+  * Prioritization frameworks
+    * RICE <https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/>
+      * Reach, Impact, Confidence, Effort
+    * Kano model <https://en.wikipedia.org/wiki/Kano_model>
+    * MoSCoW method <https://en.wikipedia.org/wiki/MoSCoW_method>
   * A/B testing <https://en.wikipedia.org/wiki/A/B_testing>
   * Feature Toggles <https://martinfowler.com/articles/feature-toggles.html>
     * Canary Release <https://martinfowler.com/bliki/CanaryRelease.html>
@@ -53,25 +68,39 @@
   * Philosophy of the GNU Project <https://www.gnu.org/philosophy/philosophy.html>
   * The GNU Manifesto <https://www.gnu.org/gnu/manifesto.html>
   * Contributor Covenant <https://www.contributor-covenant.org/>
+  * STEAM education <https://en.wikipedia.org/wiki/STEAM_education>
+    * Science, technology, engineering, art and mathematics
 * Social or psychological concerns
   * Broken windows theory <https://en.wikipedia.org/wiki/Broken_windows_theory>
   * Psychological safety <https://en.wikipedia.org/wiki/Psychological_safety>
   * Defence mechanism <https://en.wikipedia.org/wiki/Defence_mechanism>
   * Maslow's Hierarchy of Needs <https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs>
+  * Cognitive bias <https://en.wikipedia.org/wiki/Cognitive_bias>
   * Stone soup story <https://en.wikipedia.org/wiki/Stone_Soup>
   * Boiling frog apologue <https://en.wikipedia.org/wiki/Boiling_frog>
   * Fear of missing out (FOMO) <https://en.wikipedia.org/wiki/Fear_of_missing_out>
   * Fear, uncertainty, and doubt (FUD) <https://en.wikipedia.org/wiki/Fear,_uncertainty,_and_doubt>
 * Usability concerns
-  * Cognitive distortion <https://en.wikipedia.org/wiki/Cognitive_distortion>
   * Seven stages of action <https://en.wikipedia.org/wiki/Seven_stages_of_action>
+    * 1: Forming the target.
+    * 2: Forming the intention.
+    * 3: Specifying an action.
+    * 4: Executing the action.
+    * 5: Perceiving the state of the world.
+    * 6: Interpreting the state of the world.
+    * 7: Evaluating the outcome.
+  * Human interface guidelines
+    * Apple's <https://developer.apple.com/design/human-interface-guidelines>
+    * GNOME's <https://developer.gnome.org/hig/>
   * Principle of least astonishment <https://en.wikipedia.org/wiki/Principle_of_least_astonishment>
   * Affordance <https://en.wikipedia.org/wiki/Affordance>
   * Stroop effect <https://en.wikipedia.org/wiki/Stroop_effect>
-* Collaboration systems
+* Instant messaging <https://en.wikipedia.org/wiki/Instant_messaging>
   * Slack <https://slack.com/>
     * Python Slack SDK <https://slack.dev/python-slack-sdk/>
   * Mattermost <https://mattermost.com/>
+  * Discord <https://discord.com/>
+    * discord.js <https://discord.js.org/> - The most popular way to build Discord bots
 
 ## 020 - Project and service management
 
@@ -82,10 +111,17 @@
   * ISO/IEC 20000: Information technology — Service management
   * ISO/IEC 25010: Systems and software Quality Requirements and Evaluation (SQuaRE)
 * SMART goals <https://en.wikipedia.org/wiki/SMART_criteria>
+  * Specific: Targeting a particular area for improvement
+  * Measurable: Quantifying, or at least suggesting, an indicator of progress
+  * Assignable: Defining responsibility clearly
+  * Realistic: Outlining attainable results with available resources
+  * Time-related: Including a timeline for expected results
 * Objectives and Key Results <https://en.wikipedia.org/wiki/Objectives_and_key_results>
 * Net Promoter Score <https://en.wikipedia.org/wiki/Net_promoter_score>
 * RACI matrix <https://en.wikipedia.org/wiki/Responsibility_assignment_matrix>
+  * Responsible, Accountable, Consulted, Informed
 * Three-point estimation <https://en.wikipedia.org/wiki/Three-point_estimation>
+  * a = the best-case estimate; m = the most likely estimate; b = the worst-case estimate
 * Issue tracking systems
   * JIRA <https://www.atlassian.com/software/jira>
     * Python Jira <https://jira.readthedocs.io/>
@@ -117,8 +153,10 @@
   * Markdown <https://en.wikipedia.org/wiki/Markdown>
     * CommonMark <https://commonmark.org/>
     * GFM (GitHub Flavored Markdown) <https://github.github.com/gfm/>
+      * github-markdown-css <https://github.com/sindresorhus/github-markdown-css>
     * markdownlint <https://github.com/DavidAnson/markdownlint>
     * charm_Glow <https://github.com/charmbracelet/glow> - A terminal based markdown reader
+    * Grip <https://github.com/joeyespo/grip> - GitHub Readme Instant Preview
     * markmap <https://markmap.js.org/> - A combination of Markdown and mindmap
     * Marp <https://marp.app/> - Markdown Presentation Ecosystem
     * Editor plugins
@@ -130,7 +168,7 @@
   * Pandoc <https://pandoc.org/> - A universal document converter
     * Eisvogel <https://github.com/Wandmalfarbe/pandoc-latex-template> - A pandoc LaTeX template to convert markdown files to PDF or LaTeX
   * Org Mode <https://orgmode.org/> - Your life in plain text
-  * nvim-orgmode <https://github.com/nvim-orgmode/orgmode>
+    * nvim-orgmode <https://github.com/nvim-orgmode/orgmode>
 * Writing styles
   * Microsoft Writing Style Guide <https://learn.microsoft.com/en-us/style-guide/welcome/>
   * Google documentation style guide <https://developers.google.com/style/>
@@ -235,7 +273,7 @@
   * CTAN <https://ctan.org/> - The Comprehensive TEX Archive Network
   * CPAN <https://www.cpan.org/> - The Comprehensive Perl Archive Network
   * CRAN <https://cran.r-project.org/> - The Comprehensive R Archive Network
-  * PyPI <https://pypi.org/> - A repository of software for the Python programming language:w
+  * PyPI <https://pypi.org/> - A repository of software for the Python programming language
   * RubyGems.org <https://rubygems.org/> - The Ruby community’s gem hosting service
   * npm Registry <https://www.npmjs.com/> - The world's largest software registry
   * pkg.go.dev <https://pkg.go.dev/> - Your source for information about Go packages and modules
@@ -261,6 +299,9 @@
   * Linux Foundation <https://www.linuxfoundation.org/>
   * OpenJS Foundation <https://openjsf.org/>
   * Rust Foundation <https://foundation.rust-lang.org/>
+  * World Wide Web Consortium <https://www.w3.org/>
+  * WHATWG <https://whatwg.org/>
+  * Open Geospatial Consortium <https://www.ogc.org/>
 
 ## 070 - Finance and business strategy
 

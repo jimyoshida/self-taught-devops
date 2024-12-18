@@ -161,9 +161,10 @@
 * Browser automation and test
   * Puppeteer <https://developer.chrome.com/docs/puppeteer/>
   * Playwright <https://playwright.dev/>
-  * Selenium WebDriver <https://selenium.dev/documentation/en/webdriver/>
-  * Selenium IDE <https://www.selenium.dev/selenium-ide/>
-  * Watir <http://watir.com/> (reference)
+  * WebDriver <https://www.w3.org/TR/webdriver2/> - A remote control interface that enables introspection and control of user agents
+    * Selenium WebDriver <https://www.selenium.dev/documentation/webdriver/>
+    * Selenium IDE <https://www.selenium.dev/selenium-ide/> - Open source record and playback test automation for the web
+    * WebDriver BiDi <https://www.w3.org/TR/webdriver-bidi/> - The BiDirectional WebDriver Protocol, a mechanism for remote control of user agents
 * Web scraping
   * Crawlee <https://crawlee.dev/> - A web scraping and browser automation library
   * BeautifulSoup <https://www.crummy.com/software/BeautifulSoup/> - A Python library designed for quick turnaround projects like screen-scraping
@@ -207,7 +208,8 @@
 * Wappalyzer <https://www.wappalyzer.com/> - A technology profiler that shows you what websites are built with
 * Analytics
   * Google Analytics <https://developers.google.com/analytics>
-  * Plausible <https://plausible.io/> - Intuitive, lightweight and open source web analytics.
+  * Plausible <https://plausible.io/> - Intuitive, lightweight and open source web analytics
+  * vince <https://www.vinceanalytics.com/> - A cost effective, self hosted, privacy friendly alternative to Google Analytics
 * Tag manager <https://en.wikipedia.org/wiki/Tag_management_system>
   * Google Tag Manager <https://marketingplatform.google.com/about/tag-manager/>
 * Core Web Vitals <https://web.dev/articles/vitals#core-web-vitals>

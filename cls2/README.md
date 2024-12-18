@@ -455,18 +455,20 @@
 
 ## 290 - DevOps workspace
 
-* Debian <https://www.debian.org/>
-  * Ubuntu <https://ubuntu.com/>
-* Arch Linux <https://archlinux.org/>
-  * Manjaro Linux <https://manjaro.org/>
-    * Mabox Linux <https://maboxlinux.org/>
-* Linux GUI
-  * X Window System <https://www.x.org/wiki/>
-  * Wayland <https://wayland.freedesktop.org/>
-  * GNOME <https://www.gnome.org/>
-  * Xfce <https://www.xfce.org/>
-  * openbox <http://openbox.org> - a highly configurable, next generation window manager
-  * i3 <https://i3wm.org/> - a tiling window manager
+* Linux desktop
+  * Debian <https://www.debian.org/> - A complete Free Operating System
+    * Ubuntu <https://ubuntu.com/>
+    * BunsenLabs Linux <https://www.bunsenlabs.org/> - A distribution offering a light-weight and easily customizable Openbox desktop
+  * Arch Linux <https://archlinux.org/> - A simple, lightweight distribution
+    * Manjaro Linux <https://manjaro.org/> - A user-friendly Linux distribution based on the independently developed Arch operating system
+    * Mabox Linux <https://maboxlinux.org/> - Fast, lightweight and functional Linux Desktop “relaxed” rolling-release, Manjaro based with Openbox Window Manager
+  * GUI systems
+    * X.org <https://www.x.org/wiki/> - An open source implementation of the X Window System
+    * Wayland <https://wayland.freedesktop.org/> - A replacement for the X11 window system protocol and architecture
+    * GNOME <https://www.gnome.org/>
+    * Xfce <https://www.xfce.org/> - A lightweight desktop environment for UNIX-like operating systems
+    * openbox <http://openbox.org> - A highly configurable, next generation window manager
+    * i3 <https://i3wm.org/> - A tiling window manager
 * Type-2 hypervisors
   * VirtualBox <https://www.virtualbox.org/>
   * QEMU <https://www.qemu.org/>
