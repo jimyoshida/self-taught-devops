@@ -1,4 +1,4 @@
-# Class 200 - OS, network, and infrastructure
+# Class 200 - Infrastructure and cloud
 
 [Show timeline](./Timeline.md)
 
@@ -166,30 +166,29 @@
   * Avahi <https://www.avahi.org/>
   * Bonjour <https://developer.apple.com/bonjour/>
 * Email <https://en.wikipedia.org/wiki/Email>
-  * Unix Mbox and Maildir formats
-  * MIME <https://en.wikipedia.org/wiki/MIME>
+  * SMTP <https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol>
+    * Postfix <https://www.postfix.org/> - A mail server that started life at IBM research as an alternative to the widely-used Sendmail program
+    * swaks <http://www.jetmore.org/john/code/swaks/> - A featureful, flexible, scriptable, transaction-oriented SMTP test tool
+  * MIME <https://en.wikipedia.org/wiki/MIME> - A standard that extends the format of email messages to support text in character sets other than ASCII
     * Quoted-printable encoding <https://en.wikipedia.org/wiki/Quoted-printable>
     * Base64 <https://en.wikipedia.org/wiki/Base64>
     * GNU sharutils <https://www.gnu.org/software/sharutils/>
-  * SMTP <https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol>
-  * Postfix <https://www.postfix.org/>
-  * Email::Sender::Simple <https://metacpan.org/pod/Email::Sender::Simple>
-  * Email::MIME <https://metacpan.org/pod/Email::MIME>
-  * mailutils <https://mailutils.org/>
+  * mailutils <https://mailutils.org/> - A set of libraries and utilities for handling electronic mail
     * mail command <https://mailutils.org/manual/html_section/mail.html>
-  * mutt <http://www.mutt.org/>
-  * swaks <http://www.jetmore.org/john/code/swaks/>
+  * Mutt <http://www.mutt.org/> - A small but very powerful text based program for reading and sending electronic mail under unix operating systems
   * charm_Pop <https://github.com/charmbracelet/pop> - Send emails from your terminal
-  * Email receiving and readers
-    * IMAP <https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol>
+  * Receivers and readers
+    * Unix Mbox and Maildir formats
     * POP <https://en.wikipedia.org/wiki/Post_Office_Protocol>
-    * Cyrus IMAP <https://www.cyrusimap.org/> (reference)
-    * Dovecot <https://www.dovecot.org/> (reference)
+    * IMAP <https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol>
+      * Cyrus IMAP <https://www.cyrusimap.org/> (reference)
+      * Dovecot <https://www.dovecot.org/> (reference)
     * Thunderbird <https://www.thunderbird.net/en-US/>
-    * Sylpheed <https://sylpheed.sraoss.jp/en/>
-    * Mutt <http://www.mutt.org/>
-    * Gnus <https://www.gnus.org/>
-  * listmonk <https://listmonk.app/> - Self-hosted newsletter and mailing list manager
+    * Sylpheed <https://sylpheed.sraoss.jp/en/> - Lightweight and user-friendly e-mail client
+  * Distribution
+    * listmonk <https://listmonk.app/> - Self-hosted newsletter and mailing list manager
+  * Spam test service
+    * mail-tester <https://www.mail-tester.com/> - Test the Spammyness of your Emails
 * PaaS
   * Amazon Route53 <https://aws.amazon.com/route53/>
   * Amazon SES <https://aws.amazon.com/ses/>
@@ -266,8 +265,10 @@
 * Kubernetes network model <https://kubernetes.io/docs/concepts/services-networking/>
   * Service, Ingress, Ingress Controllers
 * PodDisruptionBudget <https://kubernetes.io/docs/tasks/run-application/configure-pdb/>
-* HPA <https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/>
-* Autoscalers <https://github.com/kubernetes/autoscaler/tree/master>
+* Scaling
+  * HPA <https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/>
+  * Autoscalers <https://github.com/kubernetes/autoscaler/tree/master>
+  * Goldilocks <https://goldilocks.docs.fairwinds.com/> - A utility that can help you identify a starting point for resource requests and limits
 * kube-fencing <https://github.com/kvaps/kube-fencing>
 * KubeVirt <https://kubevirt.io/> - Building a virtualization API for Kubernetes
 * Kubebuilder <https://github.com/kubernetes-sigs/kubebuilder> - A framework for building Kubernetes APIs using custom resource definitions (CRDs)

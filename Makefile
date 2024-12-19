@@ -1,13 +1,13 @@
-PAGES := $(shell ls cls*/README.md)
+PAGES := $(shell ls docs/cls*/README.md)
 MAPS := $(addprefix out/,$(PAGES:README.md=Map.html))
 
-TLPAGES := $(shell ls cls*/Timeline.md)
+TLPAGES := $(shell ls docs/cls*/Timeline.md)
 TLHTMLS := $(addprefix out/,$(TLPAGES:.md=.html))
 TLPDFS := $(addprefix out/,$(TLPAGES:.md=.pdf))
 
 #---
-.PHONY: all
-all: $(MAPS) $(TLHTMLS)
+.PHONY: main
+main: $(MAPS) $(TLHTMLS)
 
 .PHONY: pdf
 pdf: $(TLPDFS)
@@ -20,7 +20,7 @@ out/%/Map.html: %/README.md Makefile
 	mkdir -p $(@D)
 	markmap --no-open -o $@ $<
 
-out/%/Timeline.html: %/Timeline.md Makefile out/github-markdown.css
+out/%/Timeline.html: %/Timeline.md Makefile
 	mkdir -p $(@D)
 	pandoc -o $@ --from markdown --standalone -M title="Timeline" \
 	-V mainfont='"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif' \

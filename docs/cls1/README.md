@@ -463,16 +463,15 @@
     * log4perl <https://metacpan.org/pod/Log::Log4perl>
   * C
     * GDB <https://www.gnu.org/software/gdb/> - The GNU Project debugger
-* Unit testing
+* Test frameworks
   * test case <https://en.wikipedia.org/wiki/Test_case>
   * test double <https://en.wikipedia.org/wiki/Test_double>
   * Bash
-    * Bats-core <https://bats-core.readthedocs.io/en/stable/>
+    * Bats-core <https://bats-core.readthedocs.io/en/stable/> (BDD style)
     * shUnit2 <https://github.com/kward/shunit2>
     * shellspec <https://shellspec.info/> (BDD style)
   * Perl
     * Test2 <https://metacpan.org/pod/Test2>
-      * Test2::Suite <https://metacpan.org/pod/Test2%3A%3ASuite>
     * prove <https://metacpan.org/pod/prove>
   * Python
     * Python unittest <https://docs.python.org/3/library/unittest.html>

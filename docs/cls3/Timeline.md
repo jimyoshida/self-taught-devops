@@ -1,4 +1,4 @@
-# Class 300 - WWW and applications
+# Class 300 - Web and app development
 
 ## Timeline
 
